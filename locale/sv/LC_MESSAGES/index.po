@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The jamovi Group (Sebastian Jentschke)
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-14 18:44+0200\n"
+"PO-Revision-Date: 2020-07-14 16:59+0000\n"
+"Language-Team: Swedish (https://www.transifex.com/jamovi/teams/111618/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../index.rst:9 ../../index.rst:9
+msgid "Getting started..."
+msgstr ""
+
+#: ../../index.rst:16
+msgid "jamovi-guide"
+msgstr ""
+
+#: ../../index.rst:23
+msgid "More in-depth introduction into statistical methods"
+msgstr ""
+
+#: ../../index.rst:30
+msgid "From SPSS to jamovi"
+msgstr ""
+
+#: ../../index.rst:38
+msgid "From jamovi to R"
+msgstr ""
+
+#: ../../index.rst:4
+msgid "jamovi"
+msgstr ""
+
+#: ../../index.rst:6
+msgid ""
+"Welcome to the documentation for jamovi_, a free and open statistical "
+"software to bridge the gap between researcher and statistician."
+msgstr ""
