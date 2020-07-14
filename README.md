@@ -3,7 +3,6 @@
 jamovi documentation using Sphinx
 
 Install and build:
-
    $ virtualenv env
    $ source env/bin/activate
    $ pip install -r requirements.txt
