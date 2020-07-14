@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v9/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
@@ -7,7 +7,6 @@
 }
 
 body {
-    font-family: sans-serif;
     color: #626368 ;
     margin-bottom: 50px ;
 }
@@ -19,17 +18,25 @@ p {
 
 h1 {
     text-transform: lowercase;
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
     font-weight: lighter;
     font-size: 180%;
 }
 
-
 h2 {
-    font-size: 100% ;
+    font-size: 150% ;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
     font-weight: lighter;
+}
+
+h3 {
+    font-size: 120% ;
+    font-weight: lighter;
+}
+
+h4 {
+    font-size: 100% ;
+    font-weight: lighter;
+    font-style: italic;    
 }
 
 pre {
@@ -64,7 +71,6 @@ td {
 }
 
 #header {
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 2em 2em ;
@@ -393,7 +399,6 @@ div.person {
 }
 
 .person p.name {
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 0px ;
@@ -459,7 +464,6 @@ img.person {
 .post {
     padding: 20px 20px 20px 0px;
     font-size: 14px;
-    font-family: sans-serif;
     color: #000000;
     width: 800px;
 }
@@ -472,7 +476,6 @@ img.person {
 .post-title {
     font-size: 16px ;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", sans-serif;
     font-weight: lighter;
     color: #3d6da8;
     margin-top: 0px;
@@ -523,7 +526,6 @@ img.person {
     vertical-align: middle;
     font-size: 11px;
     color: #FFFFFF;
-    font-family: "PT Sans",Helvetica,Arial,sans-serif;
     border-radius: 5px;
     padding: .2rem .5rem .2rem .5rem;
     margin-left: 2px;

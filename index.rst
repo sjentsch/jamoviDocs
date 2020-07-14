@@ -3,7 +3,7 @@
 jamovi
 ======
 
-Welcome to the documentation for `jamovi`_, a free and open statistical software to bridge the gap between researcher and statistician.
+Welcome to the documentation for jamovi_, a free and open statistical software to bridge the gap between researcher and statistician.
 
  
 .. toctree::
@@ -11,7 +11,7 @@ Welcome to the documentation for `jamovi`_, a free and open statistical software
    :caption: Getting started...
    :name: sec-getting-started
    
-   0_UserManual
+   user-manual
 
 .. toctree::
    :maxdepth: 1
@@ -22,7 +22,7 @@ Welcome to the documentation for `jamovi`_, a free and open statistical software
    
 .. toctree::
    :maxdepth: 1
-   :caption: In-depth
+   :caption: More in-depth introduction into statistical methods
    :name: sec-in-depth
    
 .. supplementary/about-this-chapter
@@ -35,6 +35,10 @@ Welcome to the documentation for `jamovi`_, a free and open statistical software
 .. spss2jamovi/Doc1
    spss2jamovi/Doc2
 
+.. toctree::
+   :maxdepth: 1
+   :caption: From jamovi to R
+   :name: sec-jamovi2R
 
 .. Indices and tables
    ==================

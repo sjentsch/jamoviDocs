@@ -5,8 +5,7 @@ User guide
    Welcome to the jamovi user-guide. This contains everything you need
    to know about getting up and running for jamovi. Note that there are
    also video tutorials available from |datalab|, and the `learning
-   statistics with
-   jamovi <https://sites.google.com/brookes.ac.uk/learning-stats-with-jamovi>`__
+   statistics with jamovi <https://www.learnstatswithjamovi.com/>`__
    textbook for those who prefer those formats.
 
 Installation
@@ -57,8 +56,7 @@ Linux and Chromebooks
 
    **Note**: Some Chromebooks experience a blank screen issue when
    starting up jamovi. If you encounter this, there are instructions on
-   how to fix this a little `further
-   down #blank-screen-at-startup-on-chromebooks`__.
+   how to fix this a little :ref:`further down<blank-screen-on-chromebooks>`.
 
    If you’re new to flatpak/flathub, you’ll need to follow the setup
    guide on `our flathub
@@ -84,6 +82,8 @@ Text not appearing in plots under linux
 
    This appears to be an issue with flatpaks, and we’re working with the
    flatpak community to get to the bottom of it.
+
+.. _blank-screen-on-chromebooks:
 
 Blank screen at startup on Chromebooks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -145,7 +145,7 @@ Analyses
    analysis results will bring up a menu, and by selecting ‘Analysis’,
    and then ‘Remove’, the analysis can be removed.
 
-#  .. container:: gif-player
+   |analysis|
 
 The Spreadsheet
 ---------------
@@ -203,7 +203,7 @@ Data Variables
    editor can be dismissed by clicking the close arrow, or by pressing
    F3 again.
 
-#  .. container:: gif-player
+   |change-name|
 
    New variables can be inserted or appended to the data set using the
    ‘add’ button from the data ribbon. The ‘add’ button also allows the
@@ -376,7 +376,7 @@ Copy and Paste
    the content to the clipboard, and can be pasted into the other
    program in the usual way.
 
-#  .. container:: gif-player
+   |copy-paste|
 
 Syntax Mode
 -----------
@@ -393,7 +393,7 @@ Syntax Mode
    (including the R syntax) and copy and paste them, for example, into
    an R session.
 
-#  .. container:: gif-player
+   |r-syntax|
 
    At present, the provided R syntax does not include the data import
    step, and this must be performed manually. There are many resources
@@ -404,13 +404,15 @@ Syntax Mode
    module <https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows
    you to use R code to analyse data directly in jamovi.
 
-.. |jamovi|              image:: _images/header-logo.svg
-   :width: 200px
-   :target: https://www.jamovi.org/
+.. ---------------------------------------------------------------------
+
 .. |datalab|             image:: _images/icon-datalab.png
    :width: 100px
    :target: https://datalab.cc/tools/jamovi
 .. |screenshot|          image:: _images/screenshot.png
+   :width: 100%
+.. |analysis|            image:: _images/analysis.gif
+   :width: 100%
 .. |variable-nominal|    image:: _images/variable-nominal.svg
    :width: 16px
 .. |variable-ordinal|    image:: _images/variable-ordinal.svg
@@ -419,3 +421,9 @@ Syntax Mode
    :width: 16px
 .. |variable-id|         image:: _images/variable-id.svg
    :width: 16px
+.. |change-name|         image:: _images/changeName.gif
+   :width: 100%
+.. |copy-paste|          image:: _images/copyPaste.gif
+   :width: 100%     
+.. |r-syntax|            image:: _images/rSyntax.gif
+   :width: 100%
