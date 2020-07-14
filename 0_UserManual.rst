@@ -58,7 +58,7 @@ Linux and Chromebooks
    **Note**: Some Chromebooks experience a blank screen issue when
    starting up jamovi. If you encounter this, there are instructions on
    how to fix this a little `further
-   down <user-manual.html#blank-screen-at-startup-on-chromebooks>`__.
+   down #blank-screen-at-startup-on-chromebooks`__.
 
    If you’re new to flatpak/flathub, you’ll need to follow the setup
    guide on `our flathub
@@ -263,7 +263,7 @@ Recoded Variables
    for details.
 
 Filters
--------
+^^^^^^^
 
    Filters in jamovi allow you to filter out rows that you don’t want
    included in your analysis. For example, you might want to only
