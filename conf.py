@@ -18,7 +18,7 @@ from sphinx.locale import _
 # -- Project information -----------------------------------------------------
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
-author = u'Sebastian Jentschke for The jamovi Group'
+author = u'The jamovi Group (Sebastian Jentschke)'
 copyright = u'2020-, ' + author
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -32,7 +32,7 @@ release = u'0.1-alpha'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = 'en'
-locale_dirs = ['_locale/']
+locale_dirs = ['_build/gettext']
 gettext_compact = False
 
 # Token for 1/07ae311c02dcd644e321fd65af9b9f5c707978d6
@@ -58,7 +58,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '_tmp', 'env', 'Thumbs.db', '.DS_Store', 'README.*']
+exclude_patterns = ['_build', '_tmp', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -97,12 +97,25 @@ html_theme_options = {
     'display_version': False,
     'logo_only': True,
     'style_nav_header_background': '#FFFFFF',
+#   Applies to all below: Can be an int, interpreted as pixels or a valid CSS dimension string such as ‘70em’ or ‘50%’.    
+#   Width of the sidebar: Defaults to 230 pixels.    
+    'sidebarwidth': '20%',
+#   Minimal and maximal width of the document body. Use 'none' if you don’t want a width limit. Defaults may depend on the theme (often 450px [min] and 800px [max]).    
+    'body_min_width': 'none',
+    'body_max_width': 'none',
+#   Allow navigating to the previous/next page using the keyboard’s left and right arrows. Defaults to False.
+    'navigation_with_keys': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = [u'_static']
+
+# The “title” for HTML documentation generated with Sphinx’s own templates.
+# This is appended to the <title> tag of individual pages, and used in the
+# navigation bar as the “topmost” element. It defaults to '<project> v<revision> documentation'.
+html_title = project
 
 # Name of an image file (path relative to the configuration directory) that is the logo of the docs.
 # It is placed at the top of the sidebar; its width should therefore not exceed 200 pixels. Default: None.

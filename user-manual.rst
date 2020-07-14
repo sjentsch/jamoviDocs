@@ -1,3 +1,5 @@
+.. sectionauthor:: Jonathon Love
+
 ==========
 User guide
 ==========

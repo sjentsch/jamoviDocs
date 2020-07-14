@@ -1,0 +1,16 @@
+[main]
+host = https://www.transifex.com
+
+[jamovi-documentation.index-pot]
+file_filter = _build/gettext/<lang>/LC_MESSAGES/index.po
+minimum_perc = 0
+source_file = _build/gettext/index.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.user-manual-pot]
+file_filter = _build/gettext/<lang>/LC_MESSAGES/user-manual.po
+minimum_perc = 0
+source_file = _build/gettext/user-manual.pot
+source_lang = en
+type = PO

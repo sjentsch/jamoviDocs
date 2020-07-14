@@ -11,7 +11,7 @@ Welcome to the documentation for jamovi_, a free and open statistical software t
    :caption: Getting started...
    :name: sec-getting-started
    
-   user-manual
+   user-manual   
 
 .. toctree::
    :maxdepth: 1
