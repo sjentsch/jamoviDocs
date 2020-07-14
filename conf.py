@@ -254,9 +254,9 @@ epub_writing_mode = 'horizontal'
 latex_engine = 'pdflatex'
 
 # Grouping the document tree into LaTeX files. List of tuples
-#   (source start file, target name,      title,                       author,   theme,    toctree_only).
+#   (source start file, target name,      title,                       author, theme,    toctree_only).
 latex_documents = [
-    ([master_doc],      'jamoviDocs.tex', u'Documentation for jamovi', [author], 'manual', True),
+    (master_doc,        'jamoviDocs.tex', u'Documentation for jamovi', author, 'manual', True),
 ]
 
 latex_elements = {
