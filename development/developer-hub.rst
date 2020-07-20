@@ -1,8 +1,8 @@
 .. sectionauthor:: Jonathon Love
 
-=============
-developer hub
-=============
+.. raw:: html
+
+   <h1>developer hub</h1>
 
 
 Welcome to the `developer hub <https://dev.jamovi.org>`__ for
@@ -22,6 +22,8 @@ contact <at> jamovi.org
 For those interested in the jamovi platform, it is hosted on GitHub
 `here <https://github.com/jamovi/jamovi>`__. Don’t forget to ‘star’ us!
 
+----------
+
 .. toctree::
    :titlesonly:
 
@@ -31,12 +33,13 @@ For those interested in the jamovi platform, it is hosted on GitHub
    api_overview
    further_topics
 
+----------
 
-News
-====
+.. raw:: html
 
-08-07-2019
-~~~~~~~~~~
+   <h2>News</h2>
+
+**08-07-2019**
 
 We’ve refined the advanced UI customization in jamovi 1.0.4 and newer.
 This is not backwards compatible, so we discourage its use in existing
@@ -44,10 +47,7 @@ modules for the time being (Until the 1.0.4+ is is in broader use).
 People developing or releasing modules for the first time are encouraged
 to make use of it. More info `here <#>`__.
 
-.. _section-1:
-
-09-06-2017
-~~~~~~~~~~
+**09-06-2017**
 
 We’ve added a new document to our tutorial series describing how jamovi
 analyses can use *state*. State is used with longer running analyses,
@@ -57,16 +57,15 @@ experience.
 
 Read more about *state* `here <tut_0203-state.html>`__.
 
-20-04-2017 Changes to dev tools for jamovi 0.7.3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**20-04-2017: Changes to dev tools for jamovi 0.7.3**
 
 We’ve just released a beta of jamovi 0.7.3 (available from
 `here <https://www.jamovi.org/download.html>`__), which brings some
 significant improvements, and minor changes to developing jamovi
 modules.
 
-Changes to dependency resolution
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*Changes to dependency resolution*
 
 In the past, we’re had a number of difficulties with dependency
 resolution for jamovi modules. Sometimes jmvtools would install more
@@ -76,8 +75,7 @@ installed on the system. In this release we’ve successfully isolated the
 system libraries from the jmvtools, and only the required dependencies
 will now be installed.
 
-Improvements to .u.yaml files
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*Improvements to .u.yaml files*
 
 Previously, .u.yaml files (the UI definition) were automatically
 generated from .a.yaml files (the analysis definition). This was
@@ -98,8 +96,7 @@ of ``1.0`` will be automatically upgraded. Upgraded files will be placed
 in ``tame`` ``compilerMode`` (explained next), you may want to change it
 to ``aggressive``.
 
-``compilerMode``: aggressive vs tame
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*``compilerMode``: aggressive vs tame*
 
 jmvtools also introduces a new option in .u.yaml files:
 ``compilerMode``. By default, .u.yaml files are created in
@@ -118,8 +115,7 @@ changes to your .u.yaml files swap over to ``tame`` ``compilerMode`` so
 that your changes are preserved. Again, for a lot of people,
 ``aggressive`` mode will be all that they will ever need.
 
-Outstanding issues
-^^^^^^^^^^^^^^^^^^
+*Outstanding issues*
 
 For the time being, changes to the .a.yaml and/or the .u.yaml files,
 will still require you to shut jamovi down and restart it before you’ll
@@ -130,8 +126,8 @@ On windows, jmvtools is still not able to find the jamovi installation
 by default. You will still need to pass the ``home`` option, or set the
 ``jamovi_home`` option.
 
-02-04-2017 Added dev mode to jamovi 0.7.2.7
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**02-04-2017: Added dev mode to jamovi 0.7.2.7**
 
 jamovi 0.7.2.7 Adds dev mode, providing a stack trace when an analysis
 errors for whatever reason. The tutorial has been updated to describe

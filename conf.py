@@ -32,9 +32,6 @@ language = 'en'
 locale_dirs = ['_locale']
 gettext_compact = False
 
-# Token for 1/07ae311c02dcd644e321fd65af9b9f5c707978d6
-
-
 # -- General configuration ---------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -50,7 +47,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+# templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -129,7 +126,7 @@ html_favicon = '_images/jamovi-v.svg'
 # html_css_files = ['custom.css',
 #                   'https://example.com/css/custom.css',
 #                   ('print.css', {'media': 'print'})]
-html_css_files = ['style.css',            # jamovi style (adapted)
+html_css_files = ['jamovi.css', # jamovi style (adapted)
                  ]
 
 # Custom sidebar templates, must be a dictionary that maps document names to template names.
@@ -159,6 +156,7 @@ html_show_sourcelink = False
 
 # If true, “Created using Sphinx” is shown in the HTML footer. Default is True.
 html_show_sphinx = False
+
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 html_show_copyright = True
 
@@ -179,7 +177,6 @@ epub_basename = 'jamoviDocs'
 # The title and the description of the document. It defaults to the html_title option but can be set independently for epub creation. It defaults to the project option.
 epub_title = 'Documentation for jamovi'
 epub_description = 'Documentation for jamovi, a free and open statistical software to bridge the gap between researcher and statistician.'
-epub_contributor = 'Jonas Rafi'
 epub_publisher = 'www.jamovi.org'
 # An identifier and the publication scheme for the document. This is put in the Dublin Core metadata.
 # For published documents this is the ISBN number and the scheme is 'ISBN'.
