@@ -11,8 +11,9 @@ Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and
    :name: sec-getting-started
    
    getting-started/um_0_welcome
-   getting-started/tt_0_welcome
    getting-started/jg_0_welcome
+   getting-started/tt_0_welcome
+   
 .. getting-started/dl_0_welcome
      
 .. toctree::
