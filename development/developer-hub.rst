@@ -1,5 +1,10 @@
 .. sectionauthor:: Jonathon Love
 
+=============
+developer hub
+=============
+
+
 Welcome to the `developer hub <https://dev.jamovi.org>`__ for
 `jamovi <https://www.jamovi.org>`__.
 
