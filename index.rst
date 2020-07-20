@@ -14,18 +14,26 @@ Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and
    getting-started/tt_0_welcome
    
 .. getting-started/jg_0_welcome
+   getting-started/dl_0_welcome
    
 .. toctree::
    :maxdepth: 1
-   :caption: More in-depth introduction into statistical methods
+   :caption: More in-depth introduction
    :name: sec-in-depth
    
 .. in-depth/lsj
 .. in-depth/
+
+.. toctree::
+   :maxdepth: 1
+   :caption: jamovi modules
+   :name: sec-modules
+   
+.. modules/
    
 .. toctree::
    :maxdepth: 1
-   :caption: From SPSS to jamovi, and from jamovi to R
+   :caption: jamovi and other software
    :name: sec-spss2jamovi
    
    spss2jamovi2R/SPSS2jamovi
