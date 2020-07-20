@@ -1,3 +1,5 @@
+@import url("default.css");
+
 @font-face {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
   font-style: normal;
@@ -7,40 +9,75 @@
 }
 
 body {
-    color: #626368 ;
-    margin-bottom: 50px ;
+    color: #626368;
+    margin-bottom: 50px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 100%;
     line-height: 1.3;
 }
 
-h1 {
-    text-transform: lowercase;
+title {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
+    color: #3e6da9;    
+}
+
+h1 {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
     font-size: 180%;
+    font-weight: lighter;
+/*  text-transform: lowercase; */
+    color: #3e6da9;    
 }
 
 h2 {
-    font-size: 150% ;
-    text-transform: uppercase;
-    font-weight: lighter;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-size: 150%;
+    font-weight: lighter;  
+/*  text-transform: uppercase; */
+    color: #3e6da9;    
 }
 
 h3 {
-    font-size: 120% ;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
     font-weight: lighter;
+    color: #3e6da9;    
 }
 
 h4 {
-    font-size: 100% ;
+    color: #3e6da9;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
     font-weight: lighter;
     font-style: italic;    
 }
 
+span.caption-text {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #3e6da9;    
+}
+
+.wy-menu > .caption > span.caption-text {
+    color: #6a93c8;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+}
+
 pre {
-    margin-left: 20px ;
+    font-size: 120%;
+    margin-left: 20px;
+}
+
+tt {
+    font-size: 120%;
+}
+
+code {
+    font-size: 120%;
 }
 
 #header a {
@@ -49,54 +86,45 @@ pre {
 
 a {
     text-decoration: none;
-    color: #007acc ;
+    color: #007acc;
 }
 
 a:hover {
     color: #3d6da8;
 }
 
-ul {
-    padding-left: 12px ;
-}
-
-ul > li {
-    list-style-type: none;
-    line-height: 140% ;
-}
-
 td {
-    padding: 4px 8px ;
-    vertical-align: top ;
+    padding: 4px 8px;
+    vertical-align: top;
 }
 
 #header {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2em 2em ;
-    display: flex ;
+    padding: 2em 2em;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
 #header-logo {
-    max-width: 80% ;
+    max-width: 80%;
 }
 
 #header-top-menu {
     margin-right: 100px;
-    display: flex ;
+    display: flex;
     align-items: center;
-    position: absolute ;
-    top: 0 ;
-    right: 0 ;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .header-top-menu-items {
     color: #FFFFFF;
     background-color: #3d6da8;
-    padding: 8px 12px ;
+    padding: 8px 12px;
     margin-right: 10px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -104,21 +132,21 @@ td {
 }
 
 .header-menu-items {
-    display: inline-block ;
-    padding: 0.2em 0.8em ;
-    font-size: 110% ;
-    line-height: 1.75 ;
+    display: inline-block;
+    padding: 0.2em 0.8em;
+    font-size: 110%;
+    line-height: 1.75;
     white-space: nowrap;
     box-sizing: border-box;
 }
 
 .header-menu-items a {
-    color: #626368 ;
-    display: block ;
+    color: #626368;
+    display: block;
 }
 
 .header-menu-items a:hover {
-    color: #007acc ;
+    color: #007acc;
 }
 
 .header-top-menu-items:hover {
@@ -130,22 +158,22 @@ td {
 }
 
 .header-menu-submenu-pos {
-    position: relative ;
+    position: relative;
     margin-top: 0.2em;
     z-index: 60;
 }
 
 .header-menu-submenu {
-    position: absolute ;
-    padding: 6px 12px ;
-    display: none ;
-    /*border-left: 2px solid lightgray ;*/
+    position: absolute;
+    padding: 6px 12px;
+    display: none;
+    /*border-left: 2px solid lightgray;*/
     background-color: white;
     white-space: nowrap;
 }
 
 .more-items {
-    cursor:default ;
+    cursor:default;
 }
 
 .more-items .header-menu-submenu {
@@ -158,11 +186,11 @@ td {
 }
 
 .header-menu-items:hover .header-menu-submenu {
-    display: block ;
+    display: block;
 }
 
 .header-menu-submenu-item {
-    display: block ;
+    display: block;
 }
 
 #branding {
@@ -179,61 +207,61 @@ td {
 }
 
 #content {
-    padding-left: 5% ;
-    padding-right: 5% ;
-    max-width: 900px ;
-    margin: auto ;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 900px;
+    margin: auto;
 }
 
 .quote {
     font-style: italic;
     color: #3d6da8;
-    font-size: 18px;
+    font-size: 150%;
     font-weight: bold;
 }
 
 .list {
-    font-size: 14px;
+    font-size: 120%;
 }
 
 .widgets {
-    display: flex ;
-    flex-wrap: wrap ;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .widget {
-    max-width: 250px ;
-    margin: 10px ;
+    max-width: 250px;
+    margin: 10px;
 }
 
 .widget.collapsed {
-    cursor: pointer ;
-    position: relative ;
-    max-height: 160px ;
+    cursor: pointer;
+    position: relative;
+    max-height: 160px;
     overflow: hidden;
 }
 
 .widget-cover {
-    display: none ;
+    display: none;
 }
 
 .widget.collapsed .widget-cover {
-    display: block ;
-    position: absolute ;
-    width: 100% ;
-    height: 100% ;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(0deg, white, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
 
 .widget .read-more {
-    display: none ;
+    display: none;
 }
 
 .widget.collapsed .read-more {
-    display: block ;
-    position: absolute ;
-    bottom: 0 ;
+    display: block;
+    position: absolute;
+    bottom: 0;
     left: 50%;
     margin: 0 0 0 -7px;
 }
@@ -282,7 +310,7 @@ td {
     }
 
     #header-logo {
-        max-width: 100% ;
+        max-width: 100%;
     }
 
     #header {
@@ -319,9 +347,9 @@ td {
     }
 
     .header-menu-items {
-        padding: 0.3em 0.3em ;
-        font-size: 100% ;
-        line-height: 1.5 ;
+        padding: 0.3em 0.3em;
+        font-size: 100%;
+        line-height: 1.5;
         white-space: nowrap;
     }
 
@@ -377,31 +405,31 @@ td {
 }
 
 .widget {
-    margin-top: 16px ;
+    margin-top: 16px;
 }
 
 .widget img {
-    opacity: 0.7 ;
-    height: 60px ;
+    opacity: 0.7;
+    height: 60px;
 }
 
 div.person {
-    margin: 20px ;
+    margin: 20px;
 }
 
 .person .icon {
-    width: 20px ;
+    width: 20px;
 }
 
 .person p {
-    margin-top: 4px ;
-    margin-bottom: 4px ;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .person p.name {
-    font-size: 16px;
+    font-size: 133%;
     text-transform: uppercase;
-    margin-bottom: 0px ;
+    margin-bottom: 0px;
 }
 
 .person p.role {
@@ -411,14 +439,14 @@ div.person {
 }
 
 img.person {
-    width: 200px ;
+    width: 200px;
 }
 
 .gif-player {
-    position: relative ;
-    background-size: 100% ;
-    width: 80% ;
-    padding-bottom: 50% ;
+    position: relative;
+    background-size: 100%;
+    width: 80%;
+    padding-bottom: 50%;
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -426,36 +454,36 @@ img.person {
 .gif-player .play-button,
 .gif-player .stop-button {
     position: absolute;
-    width: 100% ;
-    height: 100% ;
-    background-repeat: no-repeat ;
-    opacity: 0 ;
-    transition: opacity .4s ;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity .4s;
 }
 
 .gif-player:not([data-state])     .play-button,
 .gif-player[data-state='waiting'] .play-button {
     background-image: url(assets/action-play.svg);
-    background-size: 160px ;
-    background-position: center ;
-    opacity: .5 ;
+    background-size: 160px;
+    background-position: center;
+    opacity: .5;
 }
 
 .gif-player:not([data-state]):hover     .play-button,
 .gif-player[data-state='waiting']:hover .play-button {
-    opacity: 1 ;
+    opacity: 1;
 }
 
 .gif-player[data-state='playing'] .stop-button:hover {
     background-image: url(assets/action-stop.svg);
-    background-size: 80px ;
-    background-position: bottom right ;
-    opacity: 1 ;
+    background-size: 80px;
+    background-position: bottom right;
+    opacity: 1;
 }
 
 #posts {
-    display: flex ;
-    flex-wrap: wrap ;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     margin: 0px;
@@ -463,7 +491,7 @@ img.person {
 
 .post {
     padding: 20px 20px 20px 0px;
-    font-size: 14px;
+    font-size: 120%;
     color: #000000;
     width: 800px;
 }
@@ -474,7 +502,7 @@ img.person {
 }
 
 .post-title {
-    font-size: 16px ;
+    font-size: 133%;
     text-transform: uppercase;
     font-weight: lighter;
     color: #3d6da8;
@@ -483,11 +511,11 @@ img.person {
 }
 
 .post-title a {
-    color: #3d6da8 ;
+    color: #3d6da8;
 }
 
 .post-title a:hover {
-    color: #007acc ;
+    color: #007acc;
 }
 
 .post-metadata {
@@ -501,8 +529,8 @@ img.person {
 }
 
 .share-page {
-    display: flex ;
-    flex-wrap: wrap ;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -524,7 +552,7 @@ img.person {
 
 .share-button {
     vertical-align: middle;
-    font-size: 11px;
+    font-size: 90%;
     color: #FFFFFF;
     border-radius: 5px;
     padding: .2rem .5rem .2rem .5rem;
@@ -539,15 +567,15 @@ img.person {
 }
 
 #demo-button {
-    position: absolute ;
-    width: 200px ;
-    height: 200px ;
-    background-color: #28a745 ;
-    color: #FFFFFF ;
-    border-radius: 100px ;
-    bottom: 10% ;
-    right: 10% ;
-    font-size: 155% ;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #28a745;
+    color: #FFFFFF;
+    border-radius: 100px;
+    bottom: 10%;
+    right: 10%;
+    font-size: 150%;
     box-shadow: 3px 10px 7px rgba(0, 0, 0, 0.12);
     text-transform: uppercase;
 }
@@ -555,4 +583,18 @@ img.person {
 #demo-button:hover {
     background-color: #5cb85c;
     transition: background-color 0.2s;
+}
+
+/* override RTD table width restrictions */
+@media screen and (min-width: 767px) {
+
+   .wy-table-responsive table td {
+      /* !important prevents the common CSS stylesheets from overriding
+         this as on RTD they are loaded after this stylesheet */
+      white-space: normal !important;
+   }
+
+   .wy-table-responsive {
+      overflow: visible !important;
+   }
 }

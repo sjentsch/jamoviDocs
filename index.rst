@@ -3,46 +3,39 @@
 jamovi
 ======
 
-Welcome to the documentation for jamovi_, a free and open statistical software to bridge the gap between researcher and statistician.
-
+Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and open statistical software to bridge the gap between researcher and statistician.
  
 .. toctree::
    :maxdepth: 1
    :caption: Getting started...
    :name: sec-getting-started
    
-   user-manual   
-
-.. toctree::
-   :maxdepth: 1
-   :caption: jamovi-guide
-   :name: sec-jamovi-guide
-   
-.. Distribution
+   getting-started/um_0_welcome
+   .. getting-started/jg_0_welcome
+   getting-started/tt_0_welcome
    
 .. toctree::
    :maxdepth: 1
    :caption: More in-depth introduction into statistical methods
    :name: sec-in-depth
    
-.. supplementary/about-this-chapter
+   .. in-depth/lsj
+   .. in-depth/
    
 .. toctree::
    :maxdepth: 1
-   :caption: From SPSS to jamovi
+   :caption: From SPSS to jamovi, and from jamovi to R
    :name: sec-spss2jamovi
    
-.. spss2jamovi/Doc1
-   spss2jamovi/Doc2
+   spss2jamovi2R/SPSS2jamovi
+   spss2jamovi2R/jamovi2R
 
 .. toctree::
    :maxdepth: 1
-   :caption: From jamovi to R
-   :name: sec-jamovi2R
+   :caption: Developer hub
+   :name: sec-development
+   
+   development/developer-hub
 
-.. Indices and tables
-   ==================
-   * :ref:`genindex`
-   * :ref:`search`
 
-.. _jamovi: https://www.jamovi.org/
+
