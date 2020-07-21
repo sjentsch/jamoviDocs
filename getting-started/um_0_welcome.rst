@@ -10,7 +10,7 @@ user manual
    textbook for those who prefer those formats.
    
    If you got stuck or get questions regarding jamovi, these can be asked
-   in the `jamovi forum <forum.jamovi.org>`__. 
+   in the `jamovi forum <https://forum.jamovi.org>`__.
    
 .. toctree::
    :maxdepth: 1

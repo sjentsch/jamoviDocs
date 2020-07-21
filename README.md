@@ -20,4 +20,11 @@ Install and build (later):<br>
    `$ make gettext && sphinx-intl update -p _build/gettext/ -l zh_CN -l es -l pt -l ru -l ja -l tr -l ko -l fr -l de -l it -l sv -l nb -l da`<br>
    `$ sphinx-intl update-txconfig-resources --pot-dir _build/gettext/ --transifex-project-name jamovi-documentation &&
     for F in $(grep "source_file" .tx/config | sed 's/source_file = //g'); do if [ ! -e ${F} ]; then echo "${F}: .pot file doesn't exist (anymore)"; fi; done`<br>
+    
+   `$ tx push -s`
+   Afterwards translate the resources on transifex.com
    
+   `$ tx pull --all`
+   Pull the translated resources from transifex.com
+   
+   `$ sphinx-build -b html -D language=de . _build/html/de` 
