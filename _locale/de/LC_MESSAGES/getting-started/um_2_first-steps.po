@@ -227,21 +227,21 @@ msgstr "außerdem existeren vier verschiedene Skalenniveaus:"
 
 #: ../../getting-started/um_2_first-steps.rst:93
 msgid "|nominal|    ``Nominal``"
-msgstr "|variable-nominal| ``Nominal`` (Variable mit nominalem Skalenniveau)"
+msgstr "|nominal| ``Nominal`` (Variable mit nominalem Skalenniveau)"
 
 #: ../../getting-started/um_2_first-steps.rst:94
 msgid "|ordinal|    ``Ordinal``"
-msgstr "|variable-ordinal| ``Ordinal`` (Variable auf ordinalen Skalenniveau)"
+msgstr "|ordinal| ``Ordinal`` (Variable auf ordinalen Skalenniveau)"
 
 #: ../../getting-started/um_2_first-steps.rst:95
 msgid "|continuous| ``Continuous``"
 msgstr ""
-"|variable-continuous| ``Continuous`` (Variable mit kontinuierlichem "
+"|continuous| ``Continuous`` (Variable mit kontinuierlichem "
 "Skalenniveau)"
 
 #: ../../getting-started/um_2_first-steps.rst:96
 msgid "|id|         ``ID``"
-msgstr "|variable-id| ``ID`` (ID-Variable)"
+msgstr "|id| ``ID`` (ID-Variable)"
 
 #: ../../getting-started/um_2_first-steps.rst:98
 msgid ""
