@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:5
 msgid "How do I create a filter variable and use it for selection?"
@@ -27,99 +25,99 @@ msgstr ""
 msgid "|Outliers_Filter_Shortcut|"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"open the “Data” tab and select “Filter” (either by using the symbol in "
-"the icon bar or the one in the bottom-left corner of the jamovi window)"
+"open the “Data” tab and select “Filter” (either by using the symbol in the "
+"icon bar or the one in the bottom-left corner of the jamovi window)"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
-msgid "in order to access functions, press the “fx” icon in the filter settings"
-msgstr ""
-
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"there also is a switch where you can activate or deactivate the filter "
-"(see the comment in red below)"
+"in order to access functions, press the “fx” icon in the filter settings"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"you close the filter settings by pressing the arrow in the top-right "
-"corner"
+"there also is a switch where you can activate or deactivate the filter (see "
+"the comment in red below)"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
+msgid ""
+"you close the filter settings by pressing the arrow in the top-right corner"
+msgstr ""
+
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
 "there are three large approaches, to exclude outliers: (1) based upon "
 "z-scores (the absolute value should be larger 3.3; this     equals to a "
-"probability of 0.1% = 1 / 1000) (2) based upon the IQR (like in a box "
-"plot) (3) based on the Mahalanobis distance (multivariate)"
+"probability of 0.1% = 1 / 1000) (2) based upon the IQR (like in a box plot) "
+"(3) based on the Mahalanobis distance (multivariate)"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"for (1), there exists a function in jamovi (see next bullet point), for "
-"(2) and (3) you have to use R-code (decribed two bullet point below); for"
-" (2) you could also do it visually (three bullet points below)"
+"for (1), there exists a function in jamovi (see next bullet point), for (2) "
+"and (3) you have to use R-code (decribed two bullet point below); for (2) "
+"you could also do it visually (three bullet points below)"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"you can either use an function-based selection (e.g., based on z-scores) "
-".. code-block:: text MAXABSZ([VARIABLE1], [VARIABLE2], …)"
+"you can either use an function-based selection (e.g., based on z-scores) .. "
+"code-block:: text MAXABSZ([VARIABLE1], [VARIABLE2], …)"
 msgstr ""
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:31
 msgid "|Outliers_Filter_Settings|"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"you can manually create a select variable and use that (see below) .. "
-"code-block:: text selSbj == 1"
+"you can manually create a select variable and use that (see below) .. code-"
+"block:: text selSbj == 1"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
 "you can now use with R-scripts to find outliers based upon the "
 "`interquartile range <Syntax_Outliers_IQR_R.txt>`__ (doing the same with "
-"code that you visually do with box plots) and multivariate outliers based"
-" upon the `Mahalanobis distance <Syntax_Outliers_Mahalanobis_R.txt>`__"
+"code that you visually do with box plots) and multivariate outliers based "
+"upon the `Mahalanobis distance <Syntax_Outliers_Mahalanobis_R.txt>`__"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
-msgid "the output from those scripts tells you which lines you should de-select"
-msgstr ""
-
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"you use the scripts within the `Rj editor <jamovi-module_Rj>`__, just "
-"copy-and-paste them and run them by hitting the \"Play\"-button (the "
-"little green triangle)"
+"the output from those scripts tells you which lines you should de-select"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
+msgid ""
+"you use the scripts within the `Rj editor <jamovi-module_Rj>`__, just copy-"
+"and-paste them and run them by hitting the \"Play\"-button (the little green"
+" triangle)"
+msgstr ""
+
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
 "..role:: red PLEASE NOTE: If you already filtered cases, the lines with "
 "filtered cases are not included and the line numbers when using the "
-"R-scripts get wrong. Open the filter settings by either double-clicking "
-"on the header line of the filter variable or use the symbol in the "
-"bottom-left corner of the jamovi window (only to see if you selected the "
-"tab “Data”) and deactivate the filter."
+"R-scripts get wrong. Open the filter settings by either double-clicking on "
+"the header line of the filter variable or use the symbol in the bottom-left "
+"corner of the jamovi window (only to see if you selected the tab “Data”) and"
+" deactivate the filter."
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
 "the filter conditions can be combined using boolean ``and`` / ``or`` .. "
-"code-block:: text MAXABSZ([VARIABLE1], [VARIABLE2], …) < 3.3 and selSbj "
-"== 1"
+"code-block:: text MAXABSZ([VARIABLE1], [VARIABLE2], …) < 3.3 and selSbj == 1"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"you can also de-select cases by setting limits to the values of variables"
-" (after visually checking the box-plots under “Descriptives”): .. code-"
+"you can also de-select cases by setting limits to the values of variables "
+"(after visually checking the box-plots under “Descriptives”): .. code-"
 "block:: text Revise < 50 and Anxiety > 51"
 msgstr ""
 
@@ -137,62 +135,62 @@ msgstr ""
 msgid "|Outliers_AddVar_selSbj|"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid "open the “Data” tab so that you see your data spreadsheet"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"go to the first column (if there are filter variables, to the first "
-"column after those)"
+"go to the first column (if there are filter variables, to the first column "
+"after those)"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"right-click on the header line in that column, choose \"Add variable\" in"
-" the menu that opens, and then Data Variable → \"Insert\""
+"right-click on the header line in that column, choose \"Add variable\" in "
+"the menu that opens, and then Data Variable → \"Insert\""
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"briefly check how many participants are contained in your file by going "
-"to the last line of your data set, remember this line number"
+"briefly check how many participants are contained in your file by going to "
+"the last line of your data set, remember this line number"
 msgstr ""
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:83
 msgid "|Outliers_ExcelMagic|"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
 "now, we have to to a little bit of magic in Excel, LibreOffice Calc or "
-"`Google Sheets <https://docs.google.com/spreadsheets>`__: open one of "
-"these programs, write \"1\" in the first and the second line of an empty "
+"`Google Sheets <https://docs.google.com/spreadsheets>`__: open one of these "
+"programs, write \"1\" in the first and the second line of an empty "
 "spreadsheet, mark these two lines and then use the little black marker "
-"bottom right to drag the ones until you reached the number of "
-"participants in your data set within jamovi"
+"bottom right to drag the ones until you reached the number of participants "
+"in your data set within jamovi"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"copy the column with the \"1\" you just created to jamovi and paste it "
-"into the variable you just created"
+"copy the column with the \"1\" you just created to jamovi and paste it into "
+"the variable you just created"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"open the filter settings (either by using the symbol in the icon bar or "
-"the one in the bottom-left corner of the jamovi window) and either change"
-" an existing filter with adding: .. code-block:: and [VARIABLE NAME] == 1"
+"open the filter settings (either by using the symbol in the icon bar or the "
+"one in the bottom-left corner of the jamovi window) and either change an "
+"existing filter with adding: .. code-block:: and [VARIABLE NAME] == 1"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"or create a new filter with just writing: .. code-block:: [VARIABLE NAME]"
-" == 1"
+"or create a new filter with just writing: .. code-block:: [VARIABLE NAME] =="
+" 1"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
 "obviously you have to adjust ``[VARIABLE NAME]`` to the name of your "
 "selected variable"
@@ -202,9 +200,8 @@ msgstr ""
 msgid "|Outliers_SelectUnselect|"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst
+#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid ""
-"now you can de-select case by changing them \"1\" to \"0\" (and also "
-"select them again by changing \"0\" into \"1\")"
+"now you can de-select case by changing them \"1\" to \"0\" (and also select "
+"them again by changing \"0\" into \"1\")"
 msgstr ""
-

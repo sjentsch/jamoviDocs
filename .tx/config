@@ -1,16 +1,519 @@
 [main]
 host = https://www.transifex.com
 
-[jamovi-documentation.index-pot]
-file_filter = locale/<lang>/LC_MESSAGES/index.po
-minimum_perc = 0
+[jamovi-documentation.index]
+file_filter = _locale/<lang>/LC_MESSAGES/index.po
 source_file = _build/gettext/index.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.user-manual-pot]
-file_filter = locale/<lang>/LC_MESSAGES/user-manual.po
-minimum_perc = 0
-source_file = _build/gettext/user-manual.pot
+[jamovi-documentation.development--api_analysis-definition]
+file_filter = _locale/<lang>/LC_MESSAGES/development/api_analysis-definition.po
+source_file = _build/gettext/development/api_analysis-definition.pot
 source_lang = en
 type = PO
+
+[jamovi-documentation.development--api_module-definition]
+file_filter = _locale/<lang>/LC_MESSAGES/development/api_module-definition.po
+source_file = _build/gettext/development/api_module-definition.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--api_overview]
+file_filter = _locale/<lang>/LC_MESSAGES/development/api_overview.po
+source_file = _build/gettext/development/api_overview.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--api_results-definition]
+file_filter = _locale/<lang>/LC_MESSAGES/development/api_results-definition.po
+source_file = _build/gettext/development/api_results-definition.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--api_results-elements]
+file_filter = _locale/<lang>/LC_MESSAGES/development/api_results-elements.po
+source_file = _build/gettext/development/api_results-elements.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--api_table]
+file_filter = _locale/<lang>/LC_MESSAGES/development/api_table.po
+source_file = _build/gettext/development/api_table.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--api_ui-definition]
+file_filter = _locale/<lang>/LC_MESSAGES/development/api_ui-definition.po
+source_file = _build/gettext/development/api_ui-definition.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--developer-hub]
+file_filter = _locale/<lang>/LC_MESSAGES/development/developer-hub.po
+source_file = _build/gettext/development/developer-hub.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--further_topics]
+file_filter = _locale/<lang>/LC_MESSAGES/development/further_topics.po
+source_file = _build/gettext/development/further_topics.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--info_file-format]
+file_filter = _locale/<lang>/LC_MESSAGES/development/info_file-format.po
+source_file = _build/gettext/development/info_file-format.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--info_gsoc-projects]
+file_filter = _locale/<lang>/LC_MESSAGES/development/info_gsoc-projects.po
+source_file = _build/gettext/development/info_gsoc-projects.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--info_project-structure]
+file_filter = _locale/<lang>/LC_MESSAGES/development/info_project-structure.po
+source_file = _build/gettext/development/info_project-structure.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0101-getting-started]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0101-getting-started.po
+source_file = _build/gettext/development/tut_0101-getting-started.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0102-creating-a-module]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0102-creating-a-module.po
+source_file = _build/gettext/development/tut_0102-creating-a-module.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0103-creating-an-analysis]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0103-creating-an-analysis.po
+source_file = _build/gettext/development/tut_0103-creating-an-analysis.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0104-implementing-an-analysis]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0104-implementing-an-analysis.po
+source_file = _build/gettext/development/tut_0104-implementing-an-analysis.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0105-debugging-an-analysis]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0105-debugging-an-analysis.po
+source_file = _build/gettext/development/tut_0105-debugging-an-analysis.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0106-creating-rich-results]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0106-creating-rich-results.po
+source_file = _build/gettext/development/tut_0106-creating-rich-results.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0107-adding-plots]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0107-adding-plots.po
+source_file = _build/gettext/development/tut_0107-adding-plots.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0108-distributing-modules]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0108-distributing-modules.po
+source_file = _build/gettext/development/tut_0108-distributing-modules.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0109-additional-notes]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0109-additional-notes.po
+source_file = _build/gettext/development/tut_0109-additional-notes.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0201-dynamic-tables]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0201-dynamic-tables.po
+source_file = _build/gettext/development/tut_0201-dynamic-tables.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0202-handling-data]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0202-handling-data.po
+source_file = _build/gettext/development/tut_0202-handling-data.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tut_0203-state]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tut_0203-state.po
+source_file = _build/gettext/development/tut_0203-state.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tutorial_advanced]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tutorial_advanced.po
+source_file = _build/gettext/development/tutorial_advanced.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tutorial_introduction]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tutorial_introduction.po
+source_file = _build/gettext/development/tutorial_introduction.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--tutorial_ui]
+file_filter = _locale/<lang>/LC_MESSAGES/development/tutorial_ui.po
+source_file = _build/gettext/development/tutorial_ui.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_advanced-customisation]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_advanced-customisation.po
+source_file = _build/gettext/development/ui_advanced-customisation.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_advanced-design]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_advanced-design.po
+source_file = _build/gettext/development/ui_advanced-design.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_basecontrol]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_basecontrol.po
+source_file = _build/gettext/development/ui_basecontrol.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_basic-design]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_basic-design.po
+source_file = _build/gettext/development/ui_basic-design.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_checkbox]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_checkbox.po
+source_file = _build/gettext/development/ui_checkbox.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_collapsebox]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_collapsebox.po
+source_file = _build/gettext/development/ui_collapsebox.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_combobox]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_combobox.po
+source_file = _build/gettext/development/ui_combobox.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_custom-formats]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_custom-formats.po
+source_file = _build/gettext/development/ui_custom-formats.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_displaycontrol]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_displaycontrol.po
+source_file = _build/gettext/development/ui_displaycontrol.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_label]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_label.po
+source_file = _build/gettext/development/ui_label.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_layoutbox]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_layoutbox.po
+source_file = _build/gettext/development/ui_layoutbox.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_listbox]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_listbox.po
+source_file = _build/gettext/development/ui_listbox.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_optioncontrol]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_optioncontrol.po
+source_file = _build/gettext/development/ui_optioncontrol.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_parentcontrol]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_parentcontrol.po
+source_file = _build/gettext/development/ui_parentcontrol.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_parentcontrol_parentcontrols]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_parentcontrol_parentcontrols.po
+source_file = _build/gettext/development/ui_parentcontrol_parentcontrols.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_radiobutton]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_radiobutton.po
+source_file = _build/gettext/development/ui_radiobutton.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_standard-formats]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_standard-formats.po
+source_file = _build/gettext/development/ui_standard-formats.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_supplier]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_supplier.po
+source_file = _build/gettext/development/ui_supplier.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_targetlayoutbox]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_targetlayoutbox.po
+source_file = _build/gettext/development/ui_targetlayoutbox.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_termlabel]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_termlabel.po
+source_file = _build/gettext/development/ui_termlabel.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_textbox]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_textbox.po
+source_file = _build/gettext/development/ui_textbox.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_variablelabel]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_variablelabel.po
+source_file = _build/gettext/development/ui_variablelabel.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.development--ui_variablesupplier]
+file_filter = _locale/<lang>/LC_MESSAGES/development/ui_variablesupplier.po
+source_file = _build/gettext/development/ui_variablesupplier.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--dl_0_welcome]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/dl_0_welcome.po
+source_file = _build/gettext/getting-started/dl_0_welcome.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_0_welcome]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_0_welcome.po
+source_file = _build/gettext/getting-started/jg_0_welcome.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_1_descriptive-analyses]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_1_descriptive-analyses.po
+source_file = _build/gettext/getting-started/jg_1_descriptive-analyses.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_21_t-test-independent]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_21_t-test-independent.po
+source_file = _build/gettext/getting-started/jg_21_t-test-independent.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_22_t-test-paired]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_22_t-test-paired.po
+source_file = _build/gettext/getting-started/jg_22_t-test-paired.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_23_t-test-onesample]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_23_t-test-onesample.po
+source_file = _build/gettext/getting-started/jg_23_t-test-onesample.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_31_unianova]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_31_unianova.po
+source_file = _build/gettext/getting-started/jg_31_unianova.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_32_anova-factorial]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_32_anova-factorial.po
+source_file = _build/gettext/getting-started/jg_32_anova-factorial.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_33_anova-rm]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_33_anova-rm.po
+source_file = _build/gettext/getting-started/jg_33_anova-rm.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_34_anova-mixed]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_34_anova-mixed.po
+source_file = _build/gettext/getting-started/jg_34_anova-mixed.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_42_regression-linear]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_42_regression-linear.po
+source_file = _build/gettext/getting-started/jg_42_regression-linear.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--jg_43_regression-logistic]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_43_regression-logistic.po
+source_file = _build/gettext/getting-started/jg_43_regression-logistic.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--tt_0_welcome]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_0_welcome.po
+source_file = _build/gettext/getting-started/tt_0_welcome.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--tt_1_Filtering_data_with_jamovi]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_1_Filtering_data_with_jamovi.po
+source_file = _build/gettext/getting-started/tt_1_Filtering_data_with_jamovi.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--tt_21_Checking_normality_with_jamovi]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_21_Checking_normality_with_jamovi.po
+source_file = _build/gettext/getting-started/tt_21_Checking_normality_with_jamovi.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--tt_22_Checking_linearity_with_jamovi]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_22_Checking_linearity_with_jamovi.po
+source_file = _build/gettext/getting-started/tt_22_Checking_linearity_with_jamovi.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--um_0_welcome]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_0_welcome.po
+source_file = _build/gettext/getting-started/um_0_welcome.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--um_1_installation]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_1_installation.po
+source_file = _build/gettext/getting-started/um_1_installation.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--um_2_first-steps]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_2_first-steps.po
+source_file = _build/gettext/getting-started/um_2_first-steps.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--Comparison_of_analyses]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/Comparison_of_analyses.po
+source_file = _build/gettext/spss2jamovi2R/Comparison_of_analyses.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--Install_modules]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/Install_modules.po
+source_file = _build/gettext/spss2jamovi2R/Install_modules.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--R-library_jmv]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/R-library_jmv.po
+source_file = _build/gettext/spss2jamovi2R/R-library_jmv.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_ANOVA_for_repeated_measurements]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_ANOVA_for_repeated_measurements.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_ANOVA_for_repeated_measurements.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_ANOVA_multifactorial]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_ANOVA_multifactorial.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_ANOVA_multifactorial.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_Descriptive_statistics]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_Descriptive_statistics.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_Descriptive_statistics.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_Linear_regression]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_Linear_regression.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_Linear_regression.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_Logistic_regression]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_Logistic_regression.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_Logistic_regression.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_Mixed-design_ANOVA]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_Mixed-design_ANOVA.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_Mixed-design_ANOVA.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_One-sample_t-test]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_One-sample_t-test.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_One-sample_t-test.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_One-way_ANOVA]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_One-way_ANOVA.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_One-way_ANOVA.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_t-test_for_independent_samples]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_t-test_for_independent_samples.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_t-test_for_independent_samples.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi_t-test_for_paired_samples]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi_t-test_for_paired_samples.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi_t-test_for_paired_samples.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jamovi-module_Rj]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jamovi-module_Rj.po
+source_file = _build/gettext/spss2jamovi2R/jamovi-module_Rj.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jamovi2R]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jamovi2R.po
+source_file = _build/gettext/spss2jamovi2R/jamovi2R.pot
+source_lang = en
+type = PO
+

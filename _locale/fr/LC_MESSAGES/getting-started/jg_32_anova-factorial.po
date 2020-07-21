@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: French (https://www.transifex.com/jamovi/teams/111618/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../getting-started/jg_32_anova-factorial.rst:5
+msgid "ANOVA: Factorial"
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:7
+msgid "How to perform a factorial ANOVA in jamovi:"
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:0
+msgid ""
+"You need two grouping variables and one continuous outcome variable. Make "
+"sure that the `measurement levels are set correctly <um_2_first-steps.html"
+"#data-variables>`_ so that the grouping variable(s) are marked as |nominal| "
+"and the continuous variable are marked as |continuous|."
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:0
+msgid "A correct setup should look similar to this:"
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:17
+msgid "|data_format_anova_factorial|"
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:0
+msgid "Select ``Analyses`` -> ``ANOVA`` -> ``ANOVA``."
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:23
+msgid "|select_anova_factorial|"
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:0
+msgid ""
+"Drag and drop your outcome variable to **Dependent Variable** and your "
+"grouping variables to **Fixed Factors**."
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:30
+msgid "|add_var_anova_factorial|"
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:0
+msgid "The result is shown in the right panel:"
+msgstr ""
+
+#: ../../getting-started/jg_32_anova-factorial.rst:36
+msgid "|output_anova_factorial|"
+msgstr ""

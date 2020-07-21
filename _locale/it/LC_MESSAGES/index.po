@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The jamovi Group (Sebastian Jentschke)
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi 0.1\n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:22+0000\n"
+"Language-Team: Italian (https://www.transifex.com/jamovi/teams/111618/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../index.rst:8
+#: ../../index.rst:8 ../../index.rst:8
 msgid "Getting started..."
 msgstr ""
 
@@ -29,11 +29,11 @@ msgstr ""
 msgid "jamovi modules"
 msgstr ""
 
-#: ../../index.rst:34
+#: ../../index.rst:34 ../../index.rst:34
 msgid "jamovi and other software"
 msgstr ""
 
-#: ../../index.rst:42
+#: ../../index.rst:42 ../../index.rst:42
 msgid "Developer hub"
 msgstr ""
 
@@ -43,27 +43,7 @@ msgstr ""
 
 #: ../../index.rst:6
 msgid ""
-"Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a "
-"free and open statistical software to bridge the gap between researcher "
-"and statistician."
+"Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free"
+" and open statistical software to bridge the gap between researcher and "
+"statistician."
 msgstr ""
-
-#~ msgid "jamovi-guide"
-#~ msgstr ""
-
-#~ msgid "More in-depth introduction into statistical methods"
-#~ msgstr ""
-
-#~ msgid "From SPSS to jamovi"
-#~ msgstr ""
-
-#~ msgid "From jamovi to R"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Welcome to the documentation for "
-#~ "jamovi_, a free and open statistical "
-#~ "software to bridge the gap between "
-#~ "researcher and statistician."
-#~ msgstr ""
-

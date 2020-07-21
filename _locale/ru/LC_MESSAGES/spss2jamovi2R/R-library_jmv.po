@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Language-Team: Russian (https://www.transifex.com/jamovi/teams/111618/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:5
+msgid "The R-library ``jmv``"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:10
+msgid ""
+"The real power of using jamovi and the jmv-library (described below) comes "
+"with the opportunity to integrate it with other R-functions. Such "
+"R-functions could, e.g., be used to extract and manipulate data from log "
+"files of software used to conduct experiments (PsychoPy, e-prime, etc.)."
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:13
+msgid "Preparation"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:18
+msgid ""
+"To install the library that contains the functions used by jamovi (and in "
+"the examples below) open R and type the first line (the second line is "
+"required if you want to read or write SPSS files, the >-mark at the begin of"
+" the line is the input-mark of R and must not be copied / typed):"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:26
+msgid "Use of jamovi syntax in R"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:30
+msgid ""
+"First, you have to enable the syntax mode by pressing the properties icon "
+"(⋮) in the top-right corner. Set a tick at syntax mode in the properties "
+"window."
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:31
+msgid "Close the properties with the arrow-icon (→) at the top-right."
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:34
+msgid "|jamovi_SyntaxMode1|"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:34
+msgid ""
+"The main window changes to text mode and you can run analyses and afterwards"
+" right-click on the command the appears at the top of each analysis to "
+"export or copy the syntax."
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:40
+msgid "|jamovi_SyntaxMode2|"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:42
+msgid "|jamovi_SyntaxMode3|"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:47
+msgid ""
+"Alternatively, you can write syntax directly. To do this, open R or RStudio "
+"and type the command in the first line (while the second line is required "
+"for if you want to use SPSS files):"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:57
+msgid ""
+"Afterwards you are ready to analyze your data. Typically, you have to load a"
+" dataset first. Do this using the first line if you have a CSV file (``sep``"
+" has to be set to the separator between data cells, e.g., ``,``, ``;``, "
+"etc.) or with the second line for loading SPSS data:"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:66
+msgid ""
+"Afterwards are you ready to run whatever analysis you like (here is an "
+"`overview <https://www.jamovi.org/jmv>`__ of available functions). For "
+"example, to run a simple descriptive-statistics-analysis:"
+msgstr ""
+
+#: ../../spss2jamovi2R/R-library_jmv.rst:74
+msgid ""
+"or for a correlation between to variables (quite basic in the first and more"
+" advanced - adding two non-parametric measures and plots - in the second "
+"line; please note that pearson = TRUE is not necessary because it is the "
+"default):"
+msgstr ""

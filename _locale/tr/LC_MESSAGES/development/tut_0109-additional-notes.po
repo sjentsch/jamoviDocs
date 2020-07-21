@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../development/tut_0109-additional-notes.rst:5
 msgid "Additional Notes"
@@ -30,11 +28,11 @@ msgstr ""
 #: ../../development/tut_0109-additional-notes.rst:10
 msgid ""
 "``jmvtools::install()`` also downloads all your packages dependencies "
-"(listed in ``DESCRIPTION``), and bundles them into your module. This "
-"ensures that the module has everything it needs, and also that a module "
-"will always use predictable dependency versions. This results in larger "
-"module file sizes, but arguably is a small price to pay for "
-"reproducibility given how inexpensive disk space is."
+"(listed in ``DESCRIPTION``), and bundles them into your module. This ensures"
+" that the module has everything it needs, and also that a module will always"
+" use predictable dependency versions. This results in larger module file "
+"sizes, but arguably is a small price to pay for reproducibility given how "
+"inexpensive disk space is."
 msgstr ""
 
 #: ../../development/tut_0109-additional-notes.rst:18
@@ -44,9 +42,9 @@ msgstr ""
 #: ../../development/tut_0109-additional-notes.rst:20
 msgid ""
 "We recommend you minimise import statements in your ``NAMESPACE`` file. "
-"These can lead to substantial delays when your package is loading, as "
-"*all* listed imports in the ``NAMESPACE`` file are loaded whether they "
-"are required or not."
+"These can lead to substantial delays when your package is loading, as *all* "
+"listed imports in the ``NAMESPACE`` file are loaded whether they are "
+"required or not."
 msgstr ""
 
 #: ../../development/tut_0109-additional-notes.rst:25
@@ -56,8 +54,7 @@ msgstr ""
 #: ../../development/tut_0109-additional-notes.rst:31
 msgid ""
 "With this approach, dependencies are only loaded when they are required. "
-"This improves start-up time (the delay between a user selecting one of "
-"your analyses, and results appearing for the first time), and can lead to"
-" a significant reduction in the amount of RAM your module uses."
+"This improves start-up time (the delay between a user selecting one of your "
+"analyses, and results appearing for the first time), and can lead to a "
+"significant reduction in the amount of RAM your module uses."
 msgstr ""
-

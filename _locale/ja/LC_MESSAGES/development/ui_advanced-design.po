@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: Japanese (https://www.transifex.com/jamovi/teams/111618/ja/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../development/ui_advanced-design.rst:5
 msgid "Advanced UI Design"
@@ -46,10 +44,9 @@ msgstr ""
 #: ../../development/ui_advanced-design.rst:16
 msgid ""
 "Layout controls are used to control the layout child controls in the UI. "
-"Option controls allow the user to change the values of options for "
-"analyses. We’ve already seen some of these; the ``CheckBox``, the "
-"``ComboBox``, etc. Display controls are for presenting static information"
-" such as labels."
+"Option controls allow the user to change the values of options for analyses."
+" We’ve already seen some of these; the ``CheckBox``, the ``ComboBox``, etc. "
+"Display controls are for presenting static information such as labels."
 msgstr ""
 
 #: ../../development/ui_advanced-design.rst:23
@@ -58,19 +55,18 @@ msgstr ""
 
 #: ../../development/ui_advanced-design.rst:25
 msgid ""
-"As already seen earlier in this tutorial series, different option "
-"controls are ‘bound’ to different analysis options. The name of the "
-"option control typically needs to match the name of the option it is "
-"bound to. Changing the option control leads to changes to the underlying "
-"option, resulting in changes to the analysis."
+"As already seen earlier in this tutorial series, different option controls "
+"are ‘bound’ to different analysis options. The name of the option control "
+"typically needs to match the name of the option it is bound to. Changing the"
+" option control leads to changes to the underlying option, resulting in "
+"changes to the analysis."
 msgstr ""
 
 #: ../../development/ui_advanced-design.rst:31
 msgid ""
-"Not all controls can be bound to *any* option. It wouldn’t be meaningful "
-"to bind a checkbox to a ``List`` option for example. The following lists "
-"the different option types, and the control types that can be bound to "
-"each:"
+"Not all controls can be bound to *any* option. It wouldn’t be meaningful to "
+"bind a checkbox to a ``List`` option for example. The following lists the "
+"different option types, and the control types that can be bound to each:"
 msgstr ""
 
 #: ../../development/ui_advanced-design.rst:37
@@ -183,8 +179,7 @@ msgstr ""
 
 #: ../../development/ui_advanced-design.rst:298
 msgid ""
-"This is jamovi’s most complicated control. The setup of it’s UI "
-"definition depends heavily on the way the option is setup. A more "
-"detailed explanation can be found `here <ui_listbox.html>`__."
+"This is jamovi’s most complicated control. The setup of it’s UI definition "
+"depends heavily on the way the option is setup. A more detailed explanation "
+"can be found `here <ui_listbox.html>`__."
 msgstr ""
-

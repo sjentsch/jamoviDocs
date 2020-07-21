@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Language-Team: Swedish (https://www.transifex.com/jamovi/teams/111618/sv/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../spss2jamovi2R/SPSS2jamovi.rst:5
 msgid "From SPSS to jamovi"
@@ -25,26 +23,26 @@ msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi.rst:7
 msgid ""
-"Quite a few of us are so used to SPSS that we are a little scared to "
-"switch to another software because such transition and to get acquainted "
-"with a new software always takes time and effort. Now might be a good "
-"time to switch because SPSS is also introducing a `new interface "
+"Quite a few of us are so used to SPSS that we are a little scared to switch "
+"to another software because such transition and to get acquainted with a new"
+" software always takes time and effort. Now might be a good time to switch "
+"because SPSS is also introducing a `new interface "
 "<https://developer.ibm.com/predictiveanalytics/2017/10/23/newuipreviewspss>`__"
-" with version 26 which at least requires getting used to something new "
-"and learn it. Why not take a little bigger step and learn jamovi? jamovi "
-"does not entail the high `license costs <https://www.ibm.com/products"
-"/spss-statistics/pricing>`__ of SPSS (from $ 99 / month for the Base "
-"Package) and can be a first step on the road to R. jamovi tries to use an"
-" interface that is relatively similar to the one in SPSS, the result "
-"version is more transparent and can be easily transferred to text "
-"processing (copy-and-paste with [mostly] keep formatting)."
+" with version 26 which at least requires getting used to something new and "
+"learn it. Why not take a little bigger step and learn jamovi? jamovi does "
+"not entail the high `license costs <https://www.ibm.com/products/spss-"
+"statistics/pricing>`__ of SPSS (from $ 99 / month for the Base Package) and "
+"can be a first step on the road to R. jamovi tries to use an interface that "
+"is relatively similar to the one in SPSS, the result version is more "
+"transparent and can be easily transferred to text processing (copy-and-paste"
+" with [mostly] keep formatting)."
 msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi.rst:20
 msgid ""
-"`Comparison of analyses <Comparison_of_analyses>`__ provides an overview "
-"of which analysis functions are available in SPSS and the respective "
-"functions in jamovi."
+"`Comparison of analyses <Comparison_of_analyses>`__ provides an overview of "
+"which analysis functions are available in SPSS and the respective functions "
+"in jamovi."
 msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi.rst:32
@@ -53,8 +51,7 @@ msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi.rst:34
 msgid ""
-"The pages in this section show in side-by-side comparisons how something "
-"is done in SPSS and in jamovi. For this demonstration, the examples from "
-"Andy Field's book are used."
+"The pages in this section show in side-by-side comparisons how something is "
+"done in SPSS and in jamovi. For this demonstration, the examples from Andy "
+"Field's book are used."
 msgstr ""
-

@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:22+0000\n"
+"Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../development/api_analysis-definition.rst:5
 msgid "Analysis definition (``.a.yaml`` files)"
@@ -29,11 +27,11 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:10
 msgid ""
-"the analysis definition is a yaml file in the ``jamovi/`` directory, with"
-" the extension ``.a.yaml``. the analysis definition describes the "
-"analysis, the way it appears in menus, and the options it requires. the "
-"file is named to match the name of the analysis it describes, but "
-"converted to lowercase. an example is ``ttestis.a.yaml``."
+"the analysis definition is a yaml file in the ``jamovi/`` directory, with "
+"the extension ``.a.yaml``. the analysis definition describes the analysis, "
+"the way it appears in menus, and the options it requires. the file is named "
+"to match the name of the analysis it describes, but converted to lowercase. "
+"an example is ``ttestis.a.yaml``."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:30
@@ -50,8 +48,8 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:32
 msgid ""
-"the name of the analysis. camel case. underscores are discouraged, dots "
-"are verboten."
+"the name of the analysis. camel case. underscores are discouraged, dots are "
+"verboten."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:35
@@ -84,8 +82,8 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:40
 msgid ""
-"the ``jamovi analysis spec``. should be ‘1.0’. must be wrapped in quotes "
-"to prevent it being interpretted as a number."
+"the ``jamovi analysis spec``. should be ‘1.0’. must be wrapped in quotes to "
+"prevent it being interpretted as a number."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:44
@@ -119,7 +117,8 @@ msgid "menuSubtitle"
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:53
-msgid "(optional) additional text placed to the lower right of the menu entry."
+msgid ""
+"(optional) additional text placed to the lower right of the menu entry."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:56
@@ -140,9 +139,9 @@ msgstr ""
 #: ../../development/api_analysis-definition.rst:64
 msgid ""
 "options represent the options that an analysis requires in order to run. "
-"when a jamovi module is used as an R package, they represent the "
-"arguments to the function. when used in jamovi itself, they represent the"
-" user interface (UI) options presented to the user."
+"when a jamovi module is used as an R package, they represent the arguments "
+"to the function. when used in jamovi itself, they represent the user "
+"interface (UI) options presented to the user."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:69
@@ -154,9 +153,9 @@ msgstr ""
 #: ../../development/api_analysis-definition.rst:72
 msgid ""
 "when a value is specified by the user (either through the jamovi user "
-"interface, or through a function argument), the option checks the value "
-"and produces an error if the value is not suitable. the checks performed "
-"by each option are also detailed below."
+"interface, or through a function argument), the option checks the value and "
+"produces an error if the value is not suitable. the checks performed by each"
+" option are also detailed below."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:77
@@ -169,9 +168,9 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:82
 msgid ""
-"``Data`` is used for analyses which require data (almost all of them). if"
-" used, it should be the first of the options, and should always be called"
-" ``data``. it has no additional properties."
+"``Data`` is used for analyses which require data (almost all of them). if "
+"used, it should be the first of the options, and should always be called "
+"``data``. it has no additional properties."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:87
@@ -186,8 +185,8 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:97
 msgid ""
-"``Bool`` is used for true/false values, and is typically represented in "
-"the UI as a checkbox."
+"``Bool`` is used for true/false values, and is typically represented in the "
+"UI as a checkbox."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:101
@@ -220,8 +219,8 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:126
 msgid ""
-"``Integer`` is used for values which need to be whole numbers. For "
-"‘floating point’ numbers, use ``Number`` instead."
+"``Integer`` is used for values which need to be whole numbers. For ‘floating"
+" point’ numbers, use ``Number`` instead."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:135
@@ -253,8 +252,8 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:150
 msgid ""
-"``Number`` is used for values which need to be numeric. For whole "
-"numbers, use ``Integer`` instead."
+"``Number`` is used for values which need to be numeric. For whole numbers, "
+"use ``Integer`` instead."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:159
@@ -271,9 +270,9 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:188
 msgid ""
-"``List`` is used where only one of several values may be specified, and "
-"only one at a time. In the UI, these are typically represented as either "
-"a listbox, or a set of radio buttons."
+"``List`` is used where only one of several values may be specified, and only"
+" one at a time. In the UI, these are typically represented as either a "
+"listbox, or a set of radio buttons."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:199
@@ -294,9 +293,9 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:213
 msgid ""
-"``Variable`` is used where a variable/column from the data set needs to "
-"be specified. In the UI, these are typically represented as a ‘drop box’,"
-" where variables can be dragged and dropped."
+"``Variable`` is used where a variable/column from the data set needs to be "
+"specified. In the UI, these are typically represented as a ‘drop box’, where"
+" variables can be dragged and dropped."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:218
@@ -321,9 +320,9 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:223
 msgid ""
-"The value of ``Variable`` is a string (in R, a character vector of length"
-" 1) containing the assigned variable name. If nothing is assigned it has "
-"a value of ``null``."
+"The value of ``Variable`` is a string (in R, a character vector of length 1)"
+" containing the assigned variable name. If nothing is assigned it has a "
+"value of ``null``."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:232
@@ -342,14 +341,14 @@ msgstr ""
 
 #: ../../development/api_analysis-definition.rst:235
 #: ../../development/api_analysis-definition.rst:264
-msgid "whether the variable contains non-finite values (if ``rejectInf`` is true)"
+msgid ""
+"whether the variable contains non-finite values (if ``rejectInf`` is true)"
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:237
 #: ../../development/api_analysis-definition.rst:266
 msgid ""
-"whether the variable contains missing values (if ``rejectMissing`` is "
-"true)"
+"whether the variable contains missing values (if ``rejectMissing`` is true)"
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:241
@@ -359,14 +358,13 @@ msgstr ""
 #: ../../development/api_analysis-definition.rst:243
 msgid ""
 "``Variables`` is used where multiple variables/columns from the data set "
-"need to be specified. In the UI, these are typically represented as a "
-"‘drop box’, where variables can be dragged and dropped."
+"need to be specified. In the UI, these are typically represented as a ‘drop "
+"box’, where variables can be dragged and dropped."
 msgstr ""
 
 #: ../../development/api_analysis-definition.rst:253
 msgid ""
-"The value is an array of strings (in R, a character vector). If nothing "
-"is assigned to ``Variables`` it’s value is an empty array (in R, a "
-"character vector of length 0)."
+"The value is an array of strings (in R, a character vector). If nothing is "
+"assigned to ``Variables`` it’s value is an empty array (in R, a character "
+"vector of length 0)."
 msgstr ""
-

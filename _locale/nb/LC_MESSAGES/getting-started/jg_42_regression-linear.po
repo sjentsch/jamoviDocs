@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../getting-started/jg_42_regression-linear.rst:5
 msgid "Linear Regression"
@@ -27,16 +25,15 @@ msgstr ""
 msgid "How to perform a linear regression in jamovi:"
 msgstr ""
 
-#: ../../getting-started/jg_42_regression-linear.rst
+#: ../../getting-started/jg_42_regression-linear.rst:0
 msgid ""
 "You need at least one predictor variable and one outcome variable. Both "
-"variable classes are typically continuous. Make sure that the "
-"`measurement levels are set correctly <um_2_first-steps.html#data-"
-"variables>`_ so that the variables included in your model are marked as "
-"|continuous|."
+"variable classes are typically continuous. Make sure that the `measurement "
+"levels are set correctly <um_2_first-steps.html#data-variables>`_ so that "
+"the variables included in your model are marked as |continuous|."
 msgstr ""
 
-#: ../../getting-started/jg_42_regression-linear.rst
+#: ../../getting-started/jg_42_regression-linear.rst:0
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
@@ -44,7 +41,7 @@ msgstr ""
 msgid "|data_format_regression_linear|"
 msgstr ""
 
-#: ../../getting-started/jg_42_regression-linear.rst
+#: ../../getting-started/jg_42_regression-linear.rst:0
 msgid "Select ``Analyses`` → ``Regression`` → ``Linear Regression``."
 msgstr ""
 
@@ -52,22 +49,21 @@ msgstr ""
 msgid "|select_regression_linear|"
 msgstr ""
 
-#: ../../getting-started/jg_42_regression-linear.rst
+#: ../../getting-started/jg_42_regression-linear.rst:0
 msgid ""
 "Drag and drop your outcome variable to **Dependent Variable** and your "
-"predictor variable to **Covariates** if it is continuous or to "
-"**Factors** if it is categorical."
+"predictor variable to **Covariates** if it is continuous or to **Factors** "
+"if it is categorical."
 msgstr ""
 
 #: ../../getting-started/jg_42_regression-linear.rst:31
 msgid "|add_var_regression_linear|"
 msgstr ""
 
-#: ../../getting-started/jg_42_regression-linear.rst
+#: ../../getting-started/jg_42_regression-linear.rst:0
 msgid "The result is shown in the right panel:"
 msgstr ""
 
 #: ../../getting-started/jg_42_regression-linear.rst:37
 msgid "|output_regression_linear|"
 msgstr ""
-

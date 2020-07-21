@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:22+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/jamovi/teams/111618/es/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../development/tut_0106-creating-rich-results.rst:5
 msgid "Creating Rich Results"
@@ -35,9 +33,9 @@ msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:12
 msgid ""
-"Rich results are visually appealing, and make it easier for users of your"
-" module to ‘parse’ and understand the results your module produces. A lot"
-" of people find statistics challenging, so we might as well make them as "
+"Rich results are visually appealing, and make it easier for users of your "
+"module to ‘parse’ and understand the results your module produces. A lot of "
+"people find statistics challenging, so we might as well make them as "
 "accessible and easy to read as possible."
 msgstr ""
 
@@ -54,26 +52,25 @@ msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:34
 msgid ""
-"This is pretty similar to the `ttest.a.yaml` file; there's a name, a "
-"title, and a jamovi results spec (`jrs`) (note, this is different to the "
-"`jas` in the `.a.yaml` file). `items` comes next, and it describes all "
-"the items that make up the results. For example, the results could be "
-"made up of two tables and a plot. Each item in the results is listed "
-"here."
+"This is pretty similar to the `ttest.a.yaml` file; there's a name, a title, "
+"and a jamovi results spec (`jrs`) (note, this is different to the `jas` in "
+"the `.a.yaml` file). `items` comes next, and it describes all the items that"
+" make up the results. For example, the results could be made up of two "
+"tables and a plot. Each item in the results is listed here."
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:40
 msgid ""
-"At present, the results contains a single `Preformatted` results item "
-"called `text` with the title `Independent Samples T-Test`. If you think "
-"back to the `previous section <tut_0104-implementing-an-"
-"analysis.html>`__, we accessed a results object with the following:"
+"At present, the results contains a single `Preformatted` results item called"
+" `text` with the title `Independent Samples T-Test`. If you think back to "
+"the `previous section <tut_0104-implementing-an-analysis.html>`__, we "
+"accessed a results object with the following:"
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:49
 msgid ""
-"Now you can see where this seemingly arbitrary name ``text`` came from. "
-"This is how different results items are accessed."
+"Now you can see where this seemingly arbitrary name ``text`` came from. This"
+" is how different results items are accessed."
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:53
@@ -82,10 +79,9 @@ msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:55
 msgid ""
-"Let’s add a table for our t-test results. For the time being, we’ll leave"
-" the existing ‘Preformatted’ results item and add the table underneath. "
-"This will let us check that the results we populate the table with are "
-"correct."
+"Let’s add a table for our t-test results. For the time being, we’ll leave "
+"the existing ‘Preformatted’ results item and add the table underneath. This "
+"will let us check that the results we populate the table with are correct."
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:60
@@ -94,43 +90,43 @@ msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:87
 msgid ""
-"With these modifications, we've added a new table called `ttest` with the"
-" title `Independent Samples T-Test`. We've also specified that it is to "
-"have 1 row, and that it has four columns; `var`, `t`, `df` and `p`. "
-"Notice that we've specified an empty string for the title of column "
-"`var`. If a title isn't specified the column name is used instead."
+"With these modifications, we've added a new table called `ttest` with the "
+"title `Independent Samples T-Test`. We've also specified that it is to have "
+"1 row, and that it has four columns; `var`, `t`, `df` and `p`. Notice that "
+"we've specified an empty string for the title of column `var`. If a title "
+"isn't specified the column name is used instead."
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:93
 msgid ""
 "The `type` for each column is specified as either `text`, `number` or "
-"`integer`. The type affects the way the column is formatted. `text` "
-"columns have their content left aligned, `number` and `integer` columns "
-"have their content right aligned. `integer` columns are formatted as "
-"whole numbers (no decimal places)."
+"`integer`. The type affects the way the column is formatted. `text` columns "
+"have their content left aligned, `number` and `integer` columns have their "
+"content right aligned. `integer` columns are formatted as whole numbers (no "
+"decimal places)."
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:98
 msgid ""
 "The `format` field is a string of comma separated values. It provides "
-"additional information on how a column should be formatted. In the case "
-"of the p column, it has two formats applied, `zto` and `pvalue`. `zto` "
+"additional information on how a column should be formatted. In the case of "
+"the p column, it has two formats applied, `zto` and `pvalue`. `zto` "
 "indicates that a value ranges between zero and one; this causes it to be "
-"rendered to a fixed number of decimal places. In contrast, values without"
-" this format are formatted to a fixed number of significant figures. This"
-" makes the biggest difference with values close to zero; without `zto` "
-"the value 0.006 would be rendered `0.00600` (3 significant figures), "
-"where as with `zto` it would be rendered `0.006` (3 decimal places). With"
-" values like correlation coefficients and other values which range "
-"between zero and one, the latter is generally preferred."
+"rendered to a fixed number of decimal places. In contrast, values without "
+"this format are formatted to a fixed number of significant figures. This "
+"makes the biggest difference with values close to zero; without `zto` the "
+"value 0.006 would be rendered `0.00600` (3 significant figures), where as "
+"with `zto` it would be rendered `0.006` (3 decimal places). With values like"
+" correlation coefficients and other values which range between zero and one,"
+" the latter is generally preferred."
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:109
 msgid ""
-"The other format is `pvalue`, which indicates that values in this column "
-"are `p-values <https://en.wikipedia.org/wiki/P-value>`__. If any of these"
-" values drop below a threshold (.001 by default), they will be replaced "
-"with `< .001`."
+"The other format is `pvalue`, which indicates that values in this column are"
+" `p-values <https://en.wikipedia.org/wiki/P-value>`__. If any of these "
+"values drop below a threshold (.001 by default), they will be replaced with "
+"`< .001`."
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:113
@@ -141,11 +137,10 @@ msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:120
 msgid ""
-"If you return to jamovi now, you’ll see that the installed module has "
-"been updated and our earlier analysis has been rerun. The table we added "
-"is now visible in the results. This is pretty handy: whenever you "
-"reinstall a module, it is updated immediately. Your results should now "
-"look as follows:"
+"If you return to jamovi now, you’ll see that the installed module has been "
+"updated and our earlier analysis has been rerun. The table we added is now "
+"visible in the results. This is pretty handy: whenever you reinstall a "
+"module, it is updated immediately. Your results should now look as follows:"
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:126
@@ -158,31 +153,31 @@ msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:131
 msgid ""
-"Now we’ve created a table, let’s fill it in with the values from the "
-"t-test. For this, we need to extract the actual values from the t-test "
-"object returned by R’s ``t.test`` function. Rather awkwardly, analyses in"
-" R don’t return consistent results objects; there’s generally no "
-"predictable way to know how to access the underlying values. Some R "
-"functions return lists, others return S3 objects, others S4. Some require"
-" reading the values with indices (``[[x]]``), others require the use of "
-"slots (``@``). It generally requires a bit of trial and error to figure "
-"out how to access the underlying values of a results object. One useful "
-"function for this is the ``mode()`` function. For example, we can call "
-"mode on a ``t.test`` results object like so:"
+"Now we’ve created a table, let’s fill it in with the values from the t-test."
+" For this, we need to extract the actual values from the t-test object "
+"returned by R’s ``t.test`` function. Rather awkwardly, analyses in R don’t "
+"return consistent results objects; there’s generally no predictable way to "
+"know how to access the underlying values. Some R functions return lists, "
+"others return S3 objects, others S4. Some require reading the values with "
+"indices (``[[x]]``), others require the use of slots (``@``). It generally "
+"requires a bit of trial and error to figure out how to access the underlying"
+" values of a results object. One useful function for this is the ``mode()`` "
+"function. For example, we can call mode on a ``t.test`` results object like "
+"so:"
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:148
 msgid ""
 "This tells us that the results object from the t.test function is a list "
-"(although somewhat in disguise). We can then use the functions we "
-"normally use on lists, for example:"
+"(although somewhat in disguise). We can then use the functions we normally "
+"use on lists, for example:"
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:157
 msgid ""
-"With a little more tinkering we can figure out that ``results$statistic``"
-" contains the *t* statistic, ``results$parameter`` contains the degrees "
-"of freedom, and ``results$p.value`` contains the p value (that last one "
+"With a little more tinkering we can figure out that ``results$statistic`` "
+"contains the *t* statistic, ``results$parameter`` contains the degrees of "
+"freedom, and ``results$p.value`` contains the p value (that last one "
 "probably didn’t require that much tinkering)."
 msgstr ""
 
@@ -230,10 +225,9 @@ msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:235
 msgid ""
-"As can be seen, a nicely formatted table has been generated in R as well."
-" Everything is maintained, right down to the number of decimal places. In"
-" this way jamovi can make R packages — even if you have no intention of "
+"As can be seen, a nicely formatted table has been generated in R as well. "
+"Everything is maintained, right down to the number of decimal places. In "
+"this way jamovi can make R packages — even if you have no intention of "
 "publishing as jamovi modules — more attractive, easier to read, and more "
 "consistent too."
 msgstr ""
-

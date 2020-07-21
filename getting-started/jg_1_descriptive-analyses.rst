@@ -53,23 +53,23 @@ Descriptive analyses
 .. ---------------------------------------------------------------------
 
 .. |select_descriptives|             image:: ../_images/jg_select_descriptives.jpg
-   :width: 60%
+   :width: 80%
 
 .. |add_var_descriptives|            image:: ../_images/jg_add_var_descriptives.jpg
-   :width: 70%
+   :width: 80%
 
 .. |output_descriptives|             image:: ../_images/jg_output_descriptives.jpg
-   :width: 40%
+   :width: 60%
 
 .. |add_var_descriptives_groupby|    image:: ../_images/jg_add_var_descriptives_groupby.jpg
-   :width: 70%
+   :width: 80%
 
 .. |output_descriptives_groupby|     image:: ../_images/jg_output_descriptives_groupby.jpg
-   :width: 40%
+   :width: 60%
    
 .. |select_descriptives_statistics|  image:: ../_images/jg_select_descriptives_statistics.jpg
-   :width: 60%
+   :width: 80%
 
 .. |select_descriptives_plots|       image:: ../_images/jg_select_descriptives_plots.jpg
-   :width: 60%
+   :width: 80%
  

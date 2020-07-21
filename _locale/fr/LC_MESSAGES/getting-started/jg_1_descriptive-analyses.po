@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: French (https://www.transifex.com/jamovi/teams/111618/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:5
+msgid "Descriptive analyses"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:7
+msgid "How to perform descriptive analyses and create graphs in jamovi:"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:11
+msgid "|select_descriptives|"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+msgid ""
+"Drag and drop the variables you want descriptive analyses for to "
+"``Variables``."
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:18
+msgid "|add_var_descriptives|"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+msgid ""
+"The result is shown in the right panel. Right-click on the output to save or"
+" copy it."
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:25
+msgid "|output_descriptives|"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+msgid ""
+"To split your descriptive analyses on a categorical variable (e.g. to "
+"separate by gender), move that variable to **Split by**."
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:32
+msgid "|add_var_descriptives_groupby|"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+msgid "This changes how the output looks like:"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:36
+msgid "|output_descriptives_groupby|"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+msgid "Click the **Statistics** tab to see more alternatives."
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:42
+msgid "|select_descriptives_statistics|"
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+msgid ""
+"To create a plot based on the above choices, click the **Plots** tab and "
+"tick the box of your desired plot."
+msgstr ""
+
+#: ../../getting-started/jg_1_descriptive-analyses.rst:49
+msgid "|select_descriptives_plots|"
+msgstr ""

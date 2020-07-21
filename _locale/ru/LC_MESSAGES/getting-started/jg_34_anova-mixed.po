@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Language-Team: Russian (https://www.transifex.com/jamovi/teams/111618/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../../getting-started/jg_34_anova-mixed.rst:5
+msgid "ANOVA: Mixed"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:7
+msgid "How to perform a mixed ANOVA in jamovi:"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:0
+msgid ""
+"You need one grouping variable with at least two levels (e.g. treatment / "
+"control) and one continuous outcome variable for each measurement time "
+"point. Make sure that the `measurement levels are set correctly <um_2_first-"
+"steps.html#data-variables>`_ so that the grouping variable is marked as "
+"|nominal| and the continuous variables are marked as |continuous|."
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:0
+msgid "A correct setup should look similar to this:"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:18
+msgid "|data_format_anova_mixed|"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:0
+msgid "Select ``Analyses`` -> ``ANOVA`` -> ``Repeated Measures ANOVA``."
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:24
+msgid "|select_anova_repeated|"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:0
+msgid ""
+"In the box **Repeated Measures Factors**: write the name of your outcome "
+"variable (e.g. My_scale) and name the levels for each measurement occasion "
+"(e.g. Pre, Post and 12 month follow-up). The below images illustrates this."
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:32
+msgid ""
+"|add_var_anova_repeated_naming_1|  ``→`` |add_var_anova_repeated_naming_2|"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:0
+msgid ""
+"Drag and drop your outcome variables to their respective cells in **Repeated"
+" Measures Cells**."
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:39
+msgid "|add_var_anova_repeated|"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:0
+msgid "Move your grouping variables to **Between Subject Factors**."
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:45
+msgid "|add_var_anova_mixed|"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:0
+msgid "The result is shown in the right panel:"
+msgstr ""
+
+#: ../../getting-started/jg_34_anova-mixed.rst:51
+msgid "|output_anova_mixed|"
+msgstr ""

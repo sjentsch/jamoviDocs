@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: Portuguese (https://www.transifex.com/jamovi/teams/111618/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../development/ui_advanced-customisation.rst:5
+msgid "Advanced Customisation"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:8
+msgid "Customizing UI controls"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:10
+msgid ""
+"Sometimes the ``.u.yaml`` file alone doesn’t provide enough flexibility for "
+"an analysis options UI. More complex UIs can be achieved through writing "
+"additional javascript that provides more complex behaviour. This allows much"
+" greater freedom and flexibility, and allows you to design an options UI "
+"completely from scratch if necessary."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:16
+msgid ""
+"The options UI is customised through attaching javascript ‘event handler’ "
+"functions to the user interface. These then respond to events such as a UI "
+"‘loaded’ event, or an option ‘changed’ event in response to a user "
+"interaction."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:21
+msgid ""
+"Additional UI functions are defined in a javascript file with a ``.js`` "
+"suffix, and are placed in the ``jamovi/js`` folder of the module. The name "
+"of the .js file should match the names of the other .yaml files for that "
+"analysis. For example:"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:26
+msgid "``ttest.a.yaml``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:27
+msgid "``ttest.r.yaml``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:28
+msgid "``ttest.u.yaml``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:29
+msgid "``js/ttest.js``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:31
+msgid ""
+"The events .js files follow the ``CommonJS`` javascript module spec, "
+"assigning each of the event handlers and functions to an object which is "
+"assigned to ``module.exports``."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:35
+msgid ""
+"*IMPORTANT:* For customisations to function, the ``jus`` property in the "
+"``u.yaml`` file needs to be set to ``3.0``."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:38
+msgid "For example:"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:73
+msgid ""
+"In the above example, the ``view_loaded(...)`` event handler is invoked with"
+" a ``loaded`` event when the analysis options UI is created for the first "
+"time. Similarly, a ``changed`` event is fired, and the event handler "
+"function ``ttestType_changed(...)`` is invoked when the user changes the "
+"value of the ``ttestType`` option."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:79
+msgid ""
+"Note that jamovi ships with the Chrome developer tools, so it’s possible to "
+"invoke these, and have access to the debugger, DOM viewer, etc. The dev "
+"tools are invoked by pressing ``F10``. (Note that sometimes jamovi’s "
+"internal iframes prevent this key stroke from registering. You sometimes "
+"need to click the blue bar along the top to move the focus back to the main "
+"window, before the ``F10`` keystroke will register.)"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:87
+msgid "Events"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:89
+msgid ""
+"Event handlers are added by naming the function with the following pattern. "
+"Option name, followed by an underscore, followed by the event name. "
+"``{optionName}_{eventName}``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:93
+msgid "For example: ``ttestType_changed``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:95
+msgid ""
+"jamovi will automatically attach the event handler "
+"``ttestType_changed(...)`` to the ``changed`` event of the ``ttestType`` "
+"option when the analysis is run."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:100
+msgid "View"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:103
+#: ../../development/ui_advanced-customisation.rst:131
+#: ../../development/ui_advanced-customisation.rst:141
+#: ../../development/ui_advanced-customisation.rst:151
+#: ../../development/ui_advanced-customisation.rst:177
+msgid "Event"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:103
+#: ../../development/ui_advanced-customisation.rst:131
+#: ../../development/ui_advanced-customisation.rst:141
+#: ../../development/ui_advanced-customisation.rst:151
+#: ../../development/ui_advanced-customisation.rst:177
+msgid "Description"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:105
+msgid "creating"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:105
+msgid ""
+"Invoked at the very beginning of the options panel creation, before anything"
+" is added to the DOM."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:109
+msgid "loaded"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:109
+msgid ""
+"Invoked after the options panel has been created and the DOM has been "
+"populated. The same analysis options panel persists as long as jamovi is "
+"still running, and is shared by all analyses of the same type, so this is "
+"only invoked once. This is the most common event to use for customising the "
+"UI."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:118
+#: ../../development/ui_advanced-customisation.rst:153
+msgid "updated"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:118
+msgid ""
+"Invoked when the user selects a different analysis (of the same type) and "
+"the options need to change to reflect the new analysis’ option values (This "
+"is also called when the user inserts a new analysis, when an option panel "
+"for that analysis type already exists)."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:128
+msgid "All controls"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:133
+msgid "changing"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:133
+msgid "Invoked before the value of the control is changed."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:134
+msgid "changed"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:134
+msgid "Invoked after the value of the control is changed."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:138
+msgid "ListBox"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:143
+msgid "listItemAdded"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:143
+msgid "Invoked when a control is added to a list box."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:144
+msgid "listItemRemoved"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:144
+msgid "Invoked when a control is removed from a list box."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:148
+msgid "Suppliers"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:153
+#: ../../development/ui_advanced-customisation.rst:183
+msgid "Invoked when a variable name or level name is changes."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:156
+msgid ""
+"*IMPORTANT NOTE:* The use of the ``updated`` event is required for all "
+"``Supplier`` and ``VariableSupplier`` controls (under certain conditions). "
+"If it is not implemented then jamovi will display the following error::"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:165
+msgid "or::"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:170
+msgid ""
+"These suppliers require manual population and therefore need to be "
+"appropriately updated in response to variable or level name changes."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:174
+msgid "Custom Control"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:179
+msgid "cr eating"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:179
+msgid ""
+"Invoked during the creation phase of the options panel. Allows for access to"
+" the custom control for customisation before it is made visible."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:183
+msgid "u pdated"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:188
+msgid "Event handlers"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:190
+msgid ""
+"All event handlers are invoked with two arguments; the ``ui``, and the "
+"``event``. The ui is a convenience object containing all the other controls "
+"in the options panel and the DOM. All the option controls are available in "
+"the ui argument as properties. For example:"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:203
+msgid ""
+"In this example, when the user changes the ``ttestType`` option to "
+"``welchs``, the ``priorWidth`` option is changed to ``0.707``. All options "
+"have the ``.value()`` and ``.setValue()`` methods."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:207
+msgid ""
+"Note that each change to the values of the options triggers the re-running "
+"of the analysis. If multiple option values need to change in response to an "
+"event, it is better to batch these changes together, to prevent the analysis"
+" being restarted again and again. Option changes can be batched together "
+"with the ``ui.view.model.options`` ``beginEdit()`` and ``endEdit()`` "
+"functions as follows:"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:221
+msgid ""
+"In this example, changing the ``figWidth`` and ``figHeight`` options only "
+"triggers the re-running of the analysis once."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:225
+msgid "Accessing the DOM"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:227
+msgid ""
+"The DOM for the root of options UI can be accessed from the ui through the "
+"``view`` property:"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:235
+msgid ""
+"It is also possible to inspect the DOM using the chrome dev tools shipped "
+"with jamovi. (To access these, click the blue bar at the top of jamovi, and "
+"press ``F10``.)"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:239
+msgid ""
+"Additionally, the DOM elements for most of the option controls are "
+"accessible through the ``el`` and ``$el`` property. i.e."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:248
+msgid "Adding a custom control"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:250
+msgid ""
+"Sometimes the controls built into jamovi do not provide the behaviour your "
+"analysis requires. In this scenario, it’s possible to create a ‘custom "
+"control’ which is placed within the DOM."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:254
+msgid ""
+"A control of type ``CustomControl`` allows for this possibility, when added "
+"to the ``.u.yaml`` file, and the ``creating`` event is handled in the "
+"javascript."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:258
+msgid "For example,"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:260
+msgid "The description of the control in the ``u.yaml``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:267
+msgid "and the event handler for the the ``.js``"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:280
+msgid "Options UI from scratch"
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:282
+msgid ""
+"Sometimes an analysis requires a very radical UI design that can’t be "
+"accommodated by the standard UI controls or a custom control. If this is the"
+" case, an entirely custom UI may need to be developed."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:286
+msgid ""
+"To achieve this, the options and their types are defined as usual in the "
+"``.a.yaml`` file, however, each option is marked as ``hidden: true``. This "
+"prevents ``jmvtools`` from (re)adding the standard UI controls into the "
+"``.u.yaml`` file, allowing you to implement them yourself."
+msgstr ""
+
+#: ../../development/ui_advanced-customisation.rst:291
+msgid ""
+"To construct the UI, all the DOM setup for the custom panel should occur in "
+"a ``creating`` event handler for the ``view`` control."
+msgstr ""

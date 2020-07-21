@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: Swedish (https://www.transifex.com/jamovi/teams/111618/sv/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../development/ui_layoutbox.rst:5
 msgid "``LayoutBox``"
@@ -30,9 +28,9 @@ msgstr ""
 #: ../../development/ui_layoutbox.rst:9
 msgid ""
 "A ``LayoutBox`` allows a designer to control the layout of its child "
-"controls. A ``LayoutBox`` does not display anything itself but purely "
-"serves as a frame for placing other controls. It can be used as a list "
-"(default), inline list, or grid."
+"controls. A ``LayoutBox`` does not display anything itself but purely serves"
+" as a frame for placing other controls. It can be used as a list (default), "
+"inline list, or grid."
 msgstr ""
 
 #: ../../development/ui_layoutbox.rst:15
@@ -73,8 +71,8 @@ msgstr ""
 
 #: ../../development/ui_layoutbox.rst:31
 msgid ""
-"``list``: Children will be added in a vertical manner starting at "
-"``cell`` position ``column: 0, row: 0``."
+"``list``: Children will be added in a vertical manner starting at ``cell`` "
+"position ``column: 0, row: 0``."
 msgstr ""
 
 #: ../../development/ui_layoutbox.rst:33
@@ -85,12 +83,11 @@ msgstr ""
 
 #: ../../development/ui_layoutbox.rst:36
 msgid ""
-"To add to a ``LayoutBox`` in a grid format, use the ``cell`` property of "
-"the child control. As the ``LayoutBox`` is positioning its ``children`` "
-"it will use the ``cell`` property of the control to place it correctly. "
-"The ``cell`` property of a child control overrides the auto positioning "
-"of the ``style`` property. If a child control does not have a ``cell`` "
-"property defined it will use the ``style`` property to automatically "
-"place it based on the position of the previous child."
+"To add to a ``LayoutBox`` in a grid format, use the ``cell`` property of the"
+" child control. As the ``LayoutBox`` is positioning its ``children`` it will"
+" use the ``cell`` property of the control to place it correctly. The "
+"``cell`` property of a child control overrides the auto positioning of the "
+"``style`` property. If a child control does not have a ``cell`` property "
+"defined it will use the ``style`` property to automatically place it based "
+"on the position of the previous child."
 msgstr ""
-

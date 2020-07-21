@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: Swedish (https://www.transifex.com/jamovi/teams/111618/sv/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../getting-started/jg_31_unianova.rst:5
 msgid "ANOVA: Oneway"
@@ -27,15 +25,15 @@ msgstr ""
 msgid "How to perform a Oneway ANOVA in jamovi:"
 msgstr ""
 
-#: ../../getting-started/jg_31_unianova.rst
+#: ../../getting-started/jg_31_unianova.rst:0
 msgid ""
 "You need one grouping variable and one continuous outcome variable. Make "
-"sure that the `measurement levels are set correctly <um_2_first-"
-"steps.html#data-variables>`_ so that the grouping variable is marked as "
-"|nominal| and the continuous variable is marked as |continuous|."
+"sure that the `measurement levels are set correctly <um_2_first-steps.html"
+"#data-variables>`_ so that the grouping variable is marked as |nominal| and "
+"the continuous variable is marked as |continuous|."
 msgstr ""
 
-#: ../../getting-started/jg_31_unianova.rst
+#: ../../getting-started/jg_31_unianova.rst:0
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
@@ -43,7 +41,7 @@ msgstr ""
 msgid "|data_format_unianova|"
 msgstr ""
 
-#: ../../getting-started/jg_31_unianova.rst
+#: ../../getting-started/jg_31_unianova.rst:0
 msgid "Select ``Analyses`` -> ``ANOVA`` -> ``One-way ANOVA``."
 msgstr ""
 
@@ -51,7 +49,7 @@ msgstr ""
 msgid "|select_unianova|"
 msgstr ""
 
-#: ../../getting-started/jg_31_unianova.rst
+#: ../../getting-started/jg_31_unianova.rst:0
 msgid ""
 "Drag and drop your outcome variable to **Dependent Variable** and your "
 "grouping variable to **Fixed Factors**."
@@ -61,21 +59,20 @@ msgstr ""
 msgid "|add_var_unianova_1|"
 msgstr ""
 
-#: ../../getting-started/jg_31_unianova.rst
+#: ../../getting-started/jg_31_unianova.rst:0
 msgid ""
-"Select wether your variances are equal or unequal. To test for equality "
-"of variancess using Levene’s test, tick the box Equality of variances."
+"Select wether your variances are equal or unequal. To test for equality of "
+"variancess using Levene’s test, tick the box Equality of variances."
 msgstr ""
 
 #: ../../getting-started/jg_31_unianova.rst:38
 msgid "|add_var_unianova_2|"
 msgstr ""
 
-#: ../../getting-started/jg_31_unianova.rst
+#: ../../getting-started/jg_31_unianova.rst:0
 msgid "The results is shown in the right pane:"
 msgstr ""
 
 #: ../../getting-started/jg_31_unianova.rst:44
 msgid "|output_unianova|"
 msgstr ""
-

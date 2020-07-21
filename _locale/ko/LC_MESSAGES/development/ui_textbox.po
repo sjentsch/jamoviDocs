@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: Korean (https://www.transifex.com/jamovi/teams/111618/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../development/ui_textbox.rst:5
+msgid "``TextBox``"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:7
+msgid "**Inherits from** |ui_optioncontrol|_"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:9
+msgid ""
+"A ``TextBox`` allows for the displaying and editing of the value of an "
+"option in text form."
+msgstr ""
+
+#: ../../development/ui_textbox.rst:13
+msgid "Properties"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:15
+msgid "In addition to any inherited properties, a ``TextBox`` supports:"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:18
+msgid "Property"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:18
+msgid "Form"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:20
+msgid "``format``"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:20
+msgid ""
+"Sets the format definition that the ``TextBox`` should use to perform string"
+" manipulations with. If no format is specified ``string`` is assumed."
+msgstr ""
+
+#: ../../development/ui_textbox.rst:20
+msgid "Name of a:"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:22
+msgid "|ui_standard-format|_"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:24
+msgid "|ui_custom-format|_"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:26
+msgid "``suffix``"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:26
+msgid "Sets the text to be placed to the right of the textbox."
+msgstr ""
+
+#: ../../development/ui_textbox.rst:26
+msgid "string"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:29
+msgid "|inpPtt|"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:29
+msgid ""
+"Sets the input string filter for determining valid inputs. For example, a "
+"number ``TextBox`` would have ``inputPattern: '[0-9]+'``"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:29
+msgid "regular expression, string"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:34
+msgid "|algTxt|"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:34
+msgid "Set the horizontal alignment of the text within the ``TextBox``."
+msgstr ""
+
+#: ../../development/ui_textbox.rst:34
+msgid "enum: left, center, right"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:37
+msgid "|brdLss|"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:37
+msgid ""
+"Toggles whether the control has a visible border or not. This is mainly used"
+" when a ``TextBox`` is add to the ``template`` of a ``ListBox``."
+msgstr ""
+
+#: ../../development/ui_textbox.rst:37
+msgid "bool"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:50
+msgid "Supported Option Types"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:52
+msgid "``String``"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:53
+msgid "``Integer``"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:54
+msgid "``Number``"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:55
+msgid "Any format that has both toString() and parsing capabilities."
+msgstr ""
+
+#: ../../development/ui_textbox.rst:58
+msgid "Example"
+msgstr ""
+
+#: ../../development/ui_textbox.rst:72
+msgid ""
+"The above example adds a ``TextBox`` as a child control to a ``CheckBox``."
+msgstr ""

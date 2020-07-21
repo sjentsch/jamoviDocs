@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-20 14:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Language-Team: Swedish (https://www.transifex.com/jamovi/teams/111618/sv/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../development/ui_textbox.rst:5
 msgid "``TextBox``"
@@ -59,9 +57,8 @@ msgstr ""
 
 #: ../../development/ui_textbox.rst:20
 msgid ""
-"Sets the format definition that the ``TextBox`` should use to perform "
-"string manipulations with. If no format is specified ``string`` is "
-"assumed."
+"Sets the format definition that the ``TextBox`` should use to perform string"
+" manipulations with. If no format is specified ``string`` is assumed."
 msgstr ""
 
 #: ../../development/ui_textbox.rst:20
@@ -94,8 +91,8 @@ msgstr ""
 
 #: ../../development/ui_textbox.rst:29
 msgid ""
-"Sets the input string filter for determining valid inputs. For example, a"
-" number ``TextBox`` would have ``inputPattern: '[0-9]+'``"
+"Sets the input string filter for determining valid inputs. For example, a "
+"number ``TextBox`` would have ``inputPattern: '[0-9]+'``"
 msgstr ""
 
 #: ../../development/ui_textbox.rst:29
@@ -120,8 +117,8 @@ msgstr ""
 
 #: ../../development/ui_textbox.rst:37
 msgid ""
-"Toggles whether the control has a visible border or not. This is mainly "
-"used when a ``TextBox`` is add to the ``template`` of a ``ListBox``."
+"Toggles whether the control has a visible border or not. This is mainly used"
+" when a ``TextBox`` is add to the ``template`` of a ``ListBox``."
 msgstr ""
 
 #: ../../development/ui_textbox.rst:37
@@ -153,6 +150,6 @@ msgid "Example"
 msgstr ""
 
 #: ../../development/ui_textbox.rst:72
-msgid "The above example adds a ``TextBox`` as a child control to a ``CheckBox``."
+msgid ""
+"The above example adds a ``TextBox`` as a child control to a ``CheckBox``."
 msgstr ""
-

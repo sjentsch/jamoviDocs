@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"PO-Revision-Date: 2020-07-20 23:22+0000\n"
+"Language-Team: Korean (https://www.transifex.com/jamovi/teams/111618/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../development/api_results-definition.rst:5
+msgid "Results Definition (``.r.yaml`` files)"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:7
+msgid "(work in progress)"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:10
+msgid "Overview"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:12
+msgid ""
+"The results definition is a yaml file in the ``jamovi/`` directory, with the"
+" extension ``.r.yaml``. the results definition describes the results "
+"produced by the analysis. the file is named to match the name of the "
+"analysis, but converted to lowercase. an example is ``ttestis.r.yaml``:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:29
+#: ../../development/api_results-definition.rst:78
+#: ../../development/api_results-definition.rst:102
+msgid "property"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:29
+msgid "function"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:31
+#: ../../development/api_results-definition.rst:50
+#: ../../development/api_results-definition.rst:104
+msgid "name"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:31
+msgid "the name of the analysis. must correspond to the filename."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:34
+#: ../../development/api_results-definition.rst:52
+#: ../../development/api_results-definition.rst:106
+msgid "title"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:34
+msgid "the title to display at the top of the results."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:36
+msgid "jrs"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:36
+msgid ""
+"the ``jamovi results spec``. should be ‘1.0’. must be wrapped in quotes to "
+"prevent it being interpretted as a number."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:40
+#: ../../development/api_results-definition.rst:147
+#: ../../development/api_results-definition.rst:154
+msgid "items"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:40
+msgid ""
+"an array of results elements that make up the results. these are described "
+"in greater detail below."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:46
+msgid "Results"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:48
+msgid "each results element has the following properties:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:51
+#: ../../development/api_results-definition.rst:109
+msgid "type"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:53
+msgid "visible: ``true``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:54
+msgid "clearWith: ``*``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:56
+msgid "different results element types have different additional properties."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:58
+msgid "The different results element types are as follows:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:61
+msgid "Preformatted"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:63
+msgid ""
+"Preformatted represents the simplest of results elements. it is simply a "
+"block of preformattd text."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:66
+msgid "it has no additional properties."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:69
+msgid "Table"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:71
+msgid ""
+"Table is the most common result element in the results from jamovi analyses."
+" Tables are represented as rich HTML tables in jamovi, and as nicely "
+"formatted ascii tables in an interactive R session."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:75
+msgid "It can have the following properties:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:78
+msgid "d efault"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:78
+#: ../../development/api_results-definition.rst:102
+msgid "description"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:81
+msgid "columns"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:81
+msgid "an array of columns objects, see below"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:83
+msgid "rows"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:83
+msgid "``0``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:83
+msgid ""
+"an integer specifying the number of rows, or a data-binding where one row is"
+" created per element of the bound value"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:88
+msgid "swapRowsColumns"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:88
+msgid "``f alse``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:88
+msgid "whether the rows and columns should be swapped"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:91
+msgid "notes"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:91
+msgid "` `[ ]``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:91
+msgid ""
+"an array of strings which appear as additional notes in the footnotes of the"
+" table."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:97
+msgid "Column"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:99
+msgid "Columns within a table can have the following properties:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:102
+msgid "default"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:104
+msgid "the name of the column, a string"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:106
+msgid "the title that appears at the top of the column"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:109
+msgid "`` number``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:109
+msgid ""
+"either ``number`` (aligned right), ``integer`` (aligned right, displayed to "
+"zero decimal places) or ``text`` (aligned left)"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:114
+msgid "format"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:114
+msgid "(optional) a string with comma separated values; ``zto``, ``pvalue``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:117
+msgid "content"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:117
+msgid "(optional) the content to appear in the cells of the column."
+msgstr ""
+
+#: ../../development/api_results-definition.rst:120
+msgid "visible"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:120
+msgid "``true``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:120
+msgid ""
+"``true``, ``false`` or a data-binding. the column will be visible if the "
+"bound value isn’t ``false`` or ``null``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:124
+msgid "superTitle"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:124
+msgid "(optional) a title to appear above the title of the column"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:127
+msgid "combineBelow"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:127
+msgid "` `false``"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:127
+msgid ""
+"if multiple adjacent cells in the column contain the same value, they will "
+"be combined into a single cell"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:133
+msgid "Image"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:135
+msgid "Images can have the following properties:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:137
+msgid "width"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:138
+msgid "height"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:139
+msgid "renderFun"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:140
+msgid "requiresData"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:143
+msgid "Group"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:145
+msgid "Groups can have the following properties:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:150
+msgid "Array"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:152
+msgid "Arrays can have the following properties:"
+msgstr ""
+
+#: ../../development/api_results-definition.rst:155
+msgid "template"
+msgstr ""
