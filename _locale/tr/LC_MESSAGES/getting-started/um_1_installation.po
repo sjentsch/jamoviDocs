@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Serdar Balci <drserdarbalci@gmail.com>, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 14:42+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Last-Translator: Serdar Balci <drserdarbalci@gmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:7
 msgid "Installation"
-msgstr ""
+msgstr "Kurulum"
 
 #: ../../getting-started/um_1_installation.rst:10
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../getting-started/um_1_installation.rst:12
 msgid ""
@@ -33,6 +37,11 @@ msgid ""
 "`download page <https://www.jamovi.org/download.html>`__, and double-click "
 "the icon."
 msgstr ""
+"jamovi Windows Vista (64-bit) ve üzeri sistemlere kurulabilir. Windows "
+"kurulumu oldukça kolay olup, daha önce başka herhangi bir programı kurmuş "
+"kullanıcılar için tanıdık gelecektir.   Son sürümü `indir "
+"sayfasından<https://www.jamovi.org/download.html>`__ indirip dosyaya çift "
+"tıklayın."
 
 #: ../../getting-started/um_1_installation.rst:19
 msgid ""
@@ -44,10 +53,18 @@ msgid ""
 "restrictions prevent jamovi from working in this way, in which case it would"
 " be worth raising the issue with your IT staff."
 msgstr ""
+"Bazı kurumlarda (özellikle üniversitelerde), 'normal' kurulum şekli ile "
+"yazılım yükleme bilgi işlem (IT) güvenlik sistemleri ile engellenmektedir. "
+"Bu durumlarda .zip sürümünü indirebilirsiniz. Bu dosyayı kullanmak için, "
+"içeriğini bilgisayarda bir klasöre çıkardıktan sonra (unzip), bin adlı "
+"klasöre gidin. Buradaki jamovi.exe dosyasına çift tıkladığınızda jamovi "
+"çalışacaktır. Bu basamakta da güvenlik sistemleri jamovi'nin çalışmasına "
+"engel olabilir. Bu durumda kurumunuzdaki bilgi işlem yetkililerinden yardım "
+"alabilirsiniz."
 
 #: ../../getting-started/um_1_installation.rst:29
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../getting-started/um_1_installation.rst:31
 msgid ""
@@ -59,6 +76,12 @@ msgid ""
 " (in the usual way). After this, jamovi will appear in your applications, "
 "and can be started like any other installed application."
 msgstr ""
+"jamovi, macOS 10.9+ (Mavericks ve daha üstüne) kurulabilir. Yükleme için  "
+"`indirme sayfasından<https://www.jamovi.org/download.html>`__ .dmg dosyasını"
+" indirin ve dosyayı çift tıklayın. Açılan pencerede jamovi'yi tut bırak "
+"yöntemi ile Uygulamalar (Applications) klasörüne taşıyın (başka dosyaları "
+"taşıdığınız gibi). Bundan sonra jamovi uygulamalarınız içinde görünecek ve "
+"diğer uygulamalar gibi açılabilecektir."
 
 #: ../../getting-started/um_1_installation.rst:40
 msgid ""
@@ -66,10 +89,13 @@ msgid ""
 " versions are available. You can update your version of jamovi from the app "
 "menu (the three dots at the top right of the window)."
 msgstr ""
+"jamovi macOS sürümünde otomatik güncelleme mümkün olup, yeni sürüm "
+"yayınlandığında program sizi uyaracaktır. jamovi'yi menü'den (sağ üstteki üç"
+" nokta) güncelleyebilirsiniz."
 
 #: ../../getting-started/um_1_installation.rst:46
 msgid "Linux and Chromebooks"
-msgstr ""
+msgstr "Linux ve Chromebook"
 
 #: ../../getting-started/um_1_installation.rst:48
 msgid ""

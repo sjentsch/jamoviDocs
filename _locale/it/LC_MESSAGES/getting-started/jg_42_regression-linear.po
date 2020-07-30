@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 14:42+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: Italian (https://www.transifex.com/jamovi/teams/111618/it/)\n"
 "MIME-Version: 1.0\n"
@@ -66,4 +66,11 @@ msgstr ""
 
 #: ../../getting-started/jg_42_regression-linear.rst:37
 msgid "|output_regression_linear|"
+msgstr ""
+
+#: ../../getting-started/jg_42_regression-linear.rst:0
+msgid ""
+"A little more comprehensive introduction into this statistical method is "
+"provided by this `video "
+"<https://www.youtube.com/embed/_5AVGuEzCXc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""

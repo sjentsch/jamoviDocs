@@ -1,9 +1,8 @@
 .. sectionauthor:: Jonathon Love
 
-.. raw:: html
-
-   <h1>developer hub</h1>
-
+=============
+developer hub
+=============
 
 Welcome to the `developer hub <https://dev.jamovi.org>`__ for
 `jamovi <https://www.jamovi.org>`__.
@@ -75,7 +74,7 @@ installed on the system. In this release we’ve successfully isolated the
 system libraries from the jmvtools, and only the required dependencies
 will now be installed.
 
-*Improvements to .u.yaml files*
+*Improvements to* ``.u.yaml`` *files*
 
 Previously, .u.yaml files (the UI definition) were automatically
 generated from .a.yaml files (the analysis definition). This was
@@ -96,7 +95,7 @@ of ``1.0`` will be automatically upgraded. Upgraded files will be placed
 in ``tame`` ``compilerMode`` (explained next), you may want to change it
 to ``aggressive``.
 
-*``compilerMode``: aggressive vs tame*
+``compilerMode``: *aggressive vs tame*
 
 jmvtools also introduces a new option in .u.yaml files:
 ``compilerMode``. By default, .u.yaml files are created in

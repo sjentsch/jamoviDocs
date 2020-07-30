@@ -52,6 +52,10 @@ ANOVA: Mixed
    
    |
 
+#. | A little more comprehensive introduction into this statistical method is
+     provided by this `video 
+     <https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+
 .. ---------------------------------------------------------------------
 
 .. |nominal|                          image:: ../_images/variable-nominal.svg

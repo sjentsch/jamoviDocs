@@ -34,7 +34,12 @@ t-test: Independent samples
 
 #. | The result is shown in the right panel.
 
-   | 
+   |
+   
+#. | This `video <https://www.youtube.com/embed/SM-DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     provides a little more comprehensive introduction into this test.
+
+   |
 
 .. ---------------------------------------------------------------------
 

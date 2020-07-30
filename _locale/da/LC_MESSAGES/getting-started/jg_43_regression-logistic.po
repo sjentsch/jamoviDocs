@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 14:42+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: Danish (https://www.transifex.com/jamovi/teams/111618/da/)\n"
 "MIME-Version: 1.0\n"
@@ -71,4 +71,11 @@ msgstr ""
 
 #: ../../getting-started/jg_43_regression-logistic.rst:42
 msgid "|output_regression_logistic|"
+msgstr ""
+
+#: ../../getting-started/jg_43_regression-logistic.rst:0
+msgid ""
+"A little more comprehensive introduction into this statistical method is "
+"provided by this `video <https://www.youtube.com/embed/s7GL0z-"
+"3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""

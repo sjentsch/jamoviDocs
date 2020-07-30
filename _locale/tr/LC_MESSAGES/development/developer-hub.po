@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 14:42+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -17,13 +17,17 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../../development/developer-hub.rst:8
+#: ../../development/developer-hub.rst:5
+msgid "developer hub"
+msgstr ""
+
+#: ../../development/developer-hub.rst:7
 msgid ""
 "Welcome to the `developer hub <https://dev.jamovi.org>`__ for `jamovi "
 "<https://www.jamovi.org>`__."
 msgstr ""
 
-#: ../../development/developer-hub.rst:11
+#: ../../development/developer-hub.rst:10
 msgid ""
 "Here you will find resources that cover the development of analyses for "
 "jamovi (and R). It’s still a work in progress, and we’ll be adding to it "
@@ -31,7 +35,7 @@ msgid ""
 " and running."
 msgstr ""
 
-#: ../../development/developer-hub.rst:16
+#: ../../development/developer-hub.rst:15
 msgid ""
 "There are forums available at `forum.jamovi.org "
 "<https://forum.jamovi.org>`__, so if you have questions about developing "
@@ -39,21 +43,21 @@ msgid ""
 "we’re keen to hear from you there."
 msgstr ""
 
-#: ../../development/developer-hub.rst:20
+#: ../../development/developer-hub.rst:19
 msgid "contact <at> jamovi.org"
 msgstr ""
 
-#: ../../development/developer-hub.rst:22
+#: ../../development/developer-hub.rst:21
 msgid ""
 "For those interested in the jamovi platform, it is hosted on GitHub `here "
 "<https://github.com/jamovi/jamovi>`__. Don’t forget to ‘star’ us!"
 msgstr ""
 
-#: ../../development/developer-hub.rst:42
+#: ../../development/developer-hub.rst:41
 msgid "**08-07-2019**"
 msgstr ""
 
-#: ../../development/developer-hub.rst:44
+#: ../../development/developer-hub.rst:43
 msgid ""
 "We’ve refined the advanced UI customization in jamovi 1.0.4 and newer. This "
 "is not backwards compatible, so we discourage its use in existing modules "
@@ -62,11 +66,11 @@ msgid ""
 "use of it. More info `here <#>`__."
 msgstr ""
 
-#: ../../development/developer-hub.rst:50
+#: ../../development/developer-hub.rst:49
 msgid "**09-06-2017**"
 msgstr ""
 
-#: ../../development/developer-hub.rst:52
+#: ../../development/developer-hub.rst:51
 msgid ""
 "We’ve added a new document to our tutorial series describing how jamovi "
 "analyses can use *state*. State is used with longer running analyses, and "
@@ -74,26 +78,26 @@ msgid ""
 "can lead to much faster analyses, and a much nicer user experience."
 msgstr ""
 
-#: ../../development/developer-hub.rst:58
+#: ../../development/developer-hub.rst:57
 msgid "Read more about *state* `here <tut_0203-state.html>`__."
 msgstr ""
 
-#: ../../development/developer-hub.rst:61
+#: ../../development/developer-hub.rst:60
 msgid "**20-04-2017: Changes to dev tools for jamovi 0.7.3**"
 msgstr ""
 
-#: ../../development/developer-hub.rst:63
+#: ../../development/developer-hub.rst:62
 msgid ""
 "We’ve just released a beta of jamovi 0.7.3 (available from `here "
 "<https://www.jamovi.org/download.html>`__), which brings some significant "
 "improvements, and minor changes to developing jamovi modules."
 msgstr ""
 
-#: ../../development/developer-hub.rst:68
+#: ../../development/developer-hub.rst:67
 msgid "*Changes to dependency resolution*"
 msgstr ""
 
-#: ../../development/developer-hub.rst:70
+#: ../../development/developer-hub.rst:69
 msgid ""
 "In the past, we’re had a number of difficulties with dependency resolution "
 "for jamovi modules. Sometimes jmvtools would install more dependencies than "
@@ -103,11 +107,11 @@ msgid ""
 "and only the required dependencies will now be installed."
 msgstr ""
 
-#: ../../development/developer-hub.rst:78
-msgid "*Improvements to .u.yaml files*"
+#: ../../development/developer-hub.rst:77
+msgid "*Improvements to* ``.u.yaml`` *files*"
 msgstr ""
 
-#: ../../development/developer-hub.rst:80
+#: ../../development/developer-hub.rst:79
 msgid ""
 "Previously, .u.yaml files (the UI definition) were automatically generated "
 "from .a.yaml files (the analysis definition). This was sometimes problematic"
@@ -116,7 +120,7 @@ msgid ""
 "should not."
 msgstr ""
 
-#: ../../development/developer-hub.rst:86
+#: ../../development/developer-hub.rst:85
 msgid ""
 "In the 0.7.3, the .a.yaml and .u.yaml files work together. The .u.yaml file,"
 " by default, contains minimal information (mostly just describing the "
@@ -126,7 +130,7 @@ msgid ""
 "documentation for UI Design will be coming soon."
 msgstr ""
 
-#: ../../development/developer-hub.rst:93
+#: ../../development/developer-hub.rst:92
 msgid ""
 ".u.yaml files using this new scheme will have the ``jus``, near the top of "
 "the file, specified as ``2.0``. .u.yaml files using the older ``jus`` of "
@@ -135,11 +139,11 @@ msgid ""
 "``aggressive``."
 msgstr ""
 
-#: ../../development/developer-hub.rst:99
-msgid "*``compilerMode``: aggressive vs tame*"
+#: ../../development/developer-hub.rst:98
+msgid "``compilerMode``: *aggressive vs tame*"
 msgstr ""
 
-#: ../../development/developer-hub.rst:101
+#: ../../development/developer-hub.rst:100
 msgid ""
 "jmvtools also introduces a new option in .u.yaml files: ``compilerMode``. By"
 " default, .u.yaml files are created in ``aggressive`` mode. This means that "
@@ -148,14 +152,14 @@ msgid ""
 "into the .u.yaml file, overwriting any manual changes."
 msgstr ""
 
-#: ../../development/developer-hub.rst:108
+#: ../../development/developer-hub.rst:107
 msgid ""
 "In contrast, the ``compilerMode`` of ``tame`` does not overwrite manual "
 "changes in the u.yaml. The trade off is that it often can’t position UI "
 "elements as optimally."
 msgstr ""
 
-#: ../../development/developer-hub.rst:112
+#: ../../development/developer-hub.rst:111
 msgid ""
 "We recommend beginning with your .u.yaml files in ``aggressive`` "
 "``compilerMode``, and when you begin to refine your UI by adding custom "
@@ -164,29 +168,29 @@ msgid ""
 " will be all that they will ever need."
 msgstr ""
 
-#: ../../development/developer-hub.rst:118
+#: ../../development/developer-hub.rst:117
 msgid "*Outstanding issues*"
 msgstr ""
 
-#: ../../development/developer-hub.rst:120
+#: ../../development/developer-hub.rst:119
 msgid ""
 "For the time being, changes to the .a.yaml and/or the .u.yaml files, will "
 "still require you to shut jamovi down and restart it before you’ll see the "
 "changes to the UI. We hope to fix this issue in the next few weeks."
 msgstr ""
 
-#: ../../development/developer-hub.rst:125
+#: ../../development/developer-hub.rst:124
 msgid ""
 "On windows, jmvtools is still not able to find the jamovi installation by "
 "default. You will still need to pass the ``home`` option, or set the "
 "``jamovi_home`` option."
 msgstr ""
 
-#: ../../development/developer-hub.rst:130
+#: ../../development/developer-hub.rst:129
 msgid "**02-04-2017: Added dev mode to jamovi 0.7.2.7**"
 msgstr ""
 
-#: ../../development/developer-hub.rst:132
+#: ../../development/developer-hub.rst:131
 msgid ""
 "jamovi 0.7.2.7 Adds dev mode, providing a stack trace when an analysis "
 "errors for whatever reason. The tutorial has been updated to describe this: "

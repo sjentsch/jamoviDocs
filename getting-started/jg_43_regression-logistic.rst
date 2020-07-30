@@ -41,8 +41,11 @@ Logistic Regression
 
    |output_regression_logistic|
 
-   | 
-
+   |
+   
+#. | A little more comprehensive introduction into this statistical method is
+     provided by this `video 
+     <https://www.youtube.com/embed/s7GL0z-3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
 
 .. ---------------------------------------------------------------------
 

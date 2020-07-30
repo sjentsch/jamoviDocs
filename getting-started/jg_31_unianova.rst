@@ -6,7 +6,7 @@ ANOVA: Oneway
 
 | How to perform a Oneway ANOVA in jamovi:
 
-1. | You need one grouping variable and one continuous outcome variable.
+#. | You need one grouping variable and one continuous outcome variable.
      Make sure that the `measurement levels are set correctly
      <um_2_first-steps.html#data-variables>`_ so that the grouping
      variable is marked as |nominal| and the continuous variable is
@@ -18,20 +18,20 @@ ANOVA: Oneway
    
    |
 
-2. | Select ``Analyses`` -> ``ANOVA`` -> ``One-way ANOVA``.
+#. | Select ``Analyses`` -> ``ANOVA`` -> ``One-way ANOVA``.
 
    |select_unianova|
 
    | 
 
-3. | Drag and drop your outcome variable to **Dependent Variable** and
+#. | Drag and drop your outcome variable to **Dependent Variable** and
      your grouping variable to **Fixed Factors**.
 
    |add_var_unianova_1|
 
    | 
 
-4. | Select wether your variances are equal or unequal. To test for
+#. | Select wether your variances are equal or unequal. To test for
      equality of variancess using Levene’s test, tick the box Equality
      of variances.
 
@@ -39,11 +39,11 @@ ANOVA: Oneway
 
    | 
 
-5. | The results is shown in the right pane:
+#. | The results is shown in the right pane:
 
    |output_unianova|
 
-   | 
+   |
 
 .. ---------------------------------------------------------------------
 

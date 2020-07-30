@@ -49,6 +49,12 @@ Descriptive analyses
    |select_descriptives_plots|
 
    | 
+   
+#. | If you would like to have these concepts explained in a different way,
+     please have a look at this `introductory video
+     <https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+     
+   |
 
 .. ---------------------------------------------------------------------
 

@@ -21,10 +21,13 @@ Install and build (later):<br>
    `$ sphinx-intl update-txconfig-resources --pot-dir _build/gettext/ --transifex-project-name jamovi-documentation &&
     for F in $(grep "source_file" .tx/config | sed 's/source_file = //g'); do if [ ! -e ${F} ]; then echo "${F}: .pot file doesn't exist (anymore)"; fi; done`<br>
     
-   `$ tx push -s`
-   Afterwards translate the resources on transifex.com
+   `$ tx push -s`<br>
+   Afterwards translate the resources on transifex.com<br>
    
-   `$ tx pull --all`
-   Pull the translated resources from transifex.com
+   `$ tx pull --all`<br>
+   Pull the translated resources from transifex.com<br>
    
-   `$ sphinx-build -b html -D language=de . _build/html/de` 
+   `$ sphinx-build -b html -D language=de . _build/html/de`<br>
+   Build the documentation in the target language<br>
+   
+   After it is pushed to the github-repository, readthedocs is reading from you have to build the respective language project there (which is then integrated into the main documentation).<br> 

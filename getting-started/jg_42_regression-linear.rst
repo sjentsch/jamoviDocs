@@ -38,6 +38,10 @@ Linear Regression
 
    |
 
+#. | A little more comprehensive introduction into this statistical method is
+     provided by this `video 
+     <https://www.youtube.com/embed/_5AVGuEzCXc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+
 .. ---------------------------------------------------------------------
 
 .. |continuous|                     image:: ../_images/variable-continuous.svg
