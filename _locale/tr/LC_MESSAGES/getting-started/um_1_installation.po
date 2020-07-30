@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Serdar Balci <drserdarbalci@gmail.com>, 2020
 # Sebastian Jentschke, 2020
+# Serdar Balci <drserdarbalci@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 14:42+0200\n"
+"POT-Creation-Date: 2020-07-30 17:38+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
-"Last-Translator: Sebastian Jentschke, 2020\n"
+"Last-Translator: Serdar Balci <drserdarbalci@gmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,86 +76,111 @@ msgid ""
 " (in the usual way). After this, jamovi will appear in your applications, "
 "and can be started like any other installed application."
 msgstr ""
-"jamovi, macOS 10.9+ (Mavericks ve daha üstüne) kurulabilir. Yükleme için "
-"`indirme sayfasından <https://www.jamovi.org/download.html>`__. dmg"
-"dosyasını indirin ve dosyayı çift tıklayın. Açılan pencerede jamovi'yi tut"
-"bırak yöntemi ile Uygulamalar (Applications) klasörüne taşıyın (başka dosyaları taşıdığınız gibi). Bundan sonra jamovi uygulamalarınız içinde görünecek ve diğer uygulamalar gibi açılabilecektir."
+"jamovi, macOS 10.9+ (Mavericks ve daha üstüne) kurulabilir. Yükleme için  "
+"`indirme sayfasından <https://www.jamovi.org/download.html>`__ .dmg "
+"dosyasını indirin ve dosyayı çift tıklayın. Açılan pencerede jamovi'yi tut "
+"bırak yöntemi ile Uygulamalar (Applications) klasörüne taşıyın (başka "
+"dosyaları taşıdığınız gibi). Bundan sonra jamovi uygulamalarınız içinde "
+"görünecek ve diğer uygulamalar gibi açılabilecektir."
 
 #: ../../getting-started/um_1_installation.rst:40
 msgid ""
 "jamovi for macOS has an auto-update mechanism, and can alert you to when new"
 " versions are available. You can update your version of jamovi from the app "
-"menu (the three dots at the top right of the window)."
+"menu (☰; at the top right of the window)."
 msgstr ""
-"jamovi macOS sürümünde otomatik güncelleme mümkün olup, yeni sürüm "
-"yayınlandığında program sizi uyaracaktır. jamovi'yi menü'den (sağ üstteki üç"
-" nokta) güncelleyebilirsiniz."
+"macOS sistemlerde jamovi'nin otomatik güncelleme özelliği vardır ve yeni "
+"sürüm olduğunda size uyarı verilir. jamovi sürümünüzü menü'den (☰; "
+"pencerenin sağ üst tarafında) güncelleyebilirsiniz."
 
-#: ../../getting-started/um_1_installation.rst:46
+#: ../../getting-started/um_1_installation.rst:45
 msgid "Linux and Chromebooks"
 msgstr "Linux ve Chromebook"
 
-#: ../../getting-started/um_1_installation.rst:48
+#: ../../getting-started/um_1_installation.rst:47
 msgid ""
 "jamovi is currently available for Linux, (for all ‘flatpak participating "
 "linux distributions’ – which is most of them), and Chromebooks, from "
 "flathub."
 msgstr ""
+"jamovi, flathub üzerinden Linux (flatpak ile uyumlu olan çoğu sürüm) ve "
+"Chromebook'ta kullanılabilir."
 
-#: ../../getting-started/um_1_installation.rst:52
+#: ../../getting-started/um_1_installation.rst:51
 msgid ""
 "**Note**: Some Chromebooks experience a blank screen issue when starting up "
 "jamovi. If you encounter this, there are instructions on how to fix this a "
 "little :ref:`further down<blank-screen-on-chromebooks>`."
 msgstr ""
+"**Not**: Bazı Chromebook kullanıcıları jamovi başlarken siyah ekran sorunu "
+"ile karşılaşmaktadır. Eğer bu olursa yapmanız gerekenler biraz aşağıda "
+"açıklanmıştır :ref:`further down1`."
 
-#: ../../getting-started/um_1_installation.rst:56
+#: ../../getting-started/um_1_installation.rst:55
 msgid ""
 "If you’re new to flatpak/flathub, you’ll need to follow the setup guide on "
 "`our flathub page <https://flathub.org/apps/details/org.jamovi.jamovi>`__."
 msgstr ""
+"Eğer flatpak/flathub kullanımında yeniyseniz, `flathub sayfamızdaki "
+"<https://flathub.org/apps/details/org.jamovi.jamovi>`__. kurulum klavuzuna "
+"bakabilirsiniz."
 
-#: ../../getting-started/um_1_installation.rst:60
+#: ../../getting-started/um_1_installation.rst:59
 msgid ""
-"If you’re an old hand at flatpak, you can install jamovi with the command::"
+"If you’re an old hand at flatpak, you can install jamovi with the command:"
 msgstr ""
+"Eğer tecrübeli bir flatpak kullanıcısı iseniz, jamovi'yi şu komutla "
+"yükleyebilirsiniz:"
 
-#: ../../getting-started/um_1_installation.rst:65
-msgid "and later, you can update your version of jamovi with::"
-msgstr ""
+#: ../../getting-started/um_1_installation.rst:66
+msgid "and later, you can update your version of jamovi with:"
+msgstr "ve daha sonra güncelleme için şu komutu kullanabilirsiniz:"
 
-#: ../../getting-started/um_1_installation.rst:70
+#: ../../getting-started/um_1_installation.rst:73
 msgid "Text not appearing in plots under linux"
-msgstr ""
+msgstr "Linux'ta grafiklerin altında metin görünmüyor"
 
-#: ../../getting-started/um_1_installation.rst:72
+#: ../../getting-started/um_1_installation.rst:75
 msgid ""
 "On some linux machines, the flatpak font cache is not up-to-date, resulting "
 "in plots in jamovi not displaying text correctly. To remedy this, you can "
-"run the following command at the terminal::"
+"run the following command at the terminal:"
 msgstr ""
+"Bazı linux sistemlerinde flatpak font belleği güncel olmadığından jamovi "
+"grafiklerinde metinler düzgün görüntülenememektedir. Bunu çözmek için şu "
+"komutu terminal'de çalıştırın:"
 
-#: ../../getting-started/um_1_installation.rst:78
+#: ../../getting-started/um_1_installation.rst:83
 msgid ""
 "This appears to be an issue with flatpaks, and we’re working with the "
 "flatpak community to get to the bottom of it."
 msgstr ""
+"Bu flatpak kaynaklı bir sorun gibi görünüyor, bu sorunun nedenini ortaya "
+"çıkarmak için flatpak grubu ile çalışmaya devam ediyoruz."
 
-#: ../../getting-started/um_1_installation.rst:84
+#: ../../getting-started/um_1_installation.rst:89
 msgid "Blank screen at startup on Chromebooks"
-msgstr ""
+msgstr "Chromebook'larda jamovi başlarken siyah ekran"
 
-#: ../../getting-started/um_1_installation.rst:86
+#: ../../getting-started/um_1_installation.rst:91
 msgid ""
 "Some Chromebooks experience a blank screen when starting up jamovi. The "
 "cause of this issue is not completely clear at this time, however it can be "
 "fixed by disabling “Crostini GPU support”."
 msgstr ""
+"Bazı Chromebook'larda jamovi başlatılınca siyak ekran görünmektedir. Bunun "
+"nedeni tam olarak belli olmasa da “Crostini GPU support” devre dışı "
+"bırakıldığında sorun çözülmektedir. "
 
-#: ../../getting-started/um_1_installation.rst:90
+#: ../../getting-started/um_1_installation.rst:95
 msgid ""
 "Enter ``chrome://flags/`` into the ChromeOS address bar. This will bring up "
 "“Experiments”. Search for ``Crostini GPU Support`` and set it to disabled. "
 "After restarting your Chromebook the issue will be fixed (special thanks to "
 "`@mulderc <https://github.com/mulderc>`__)."
 msgstr ""
+"ChromeOS adres çubuğuna ``chrome://flags/`` girin. Bu \"Experiments\" "
+"özelliğini açacaktır. ``Crostini GPU Support``'u arayın ve devre dışı "
+"bırakın (disabled). Chromebook yeniden başlatıldığında sorun çözülecektir "
+"(bunun için `@mulderc <https://github.com/mulderc>`__'e özellikle "
+"teşekkürler)."

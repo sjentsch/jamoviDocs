@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 17:38+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,17 +23,18 @@ msgstr ""
 
 #: ../../getting-started/um_2_first-steps.rst:4
 msgid "The first steps in jamovi"
-msgstr ""
+msgstr "De første trinnene i jamovi"
 
 #: ../../getting-started/um_2_first-steps.rst:6
 msgid ""
 "When first starting jamovi, you will be presented with a user interface "
 "which looks something like this."
 msgstr ""
+"Når du starter jamovi, vil du se et brukergrensesnitt som ser ut som dette."
 
 #: ../../getting-started/um_2_first-steps.rst:9
 msgid "|screenshot|"
-msgstr ""
+msgstr "|screenshot|"
 
 #: ../../getting-started/um_2_first-steps.rst:11
 msgid ""
@@ -38,12 +43,18 @@ msgid ""
 "regions, and this can be dragged to the left or the right to change their "
 "sizes."
 msgstr ""
+"Til venstre vises en tabell som ser ut som et regneark, og til høyre kan du "
+"ser hvor resultatene av statistiske tester vises. I midten er en stolpe som "
+"skiller disse to områdene, og denne kan dras til venstre eller høyre for å "
+"endre størrelse på de to delene."
 
 #: ../../getting-started/um_2_first-steps.rst:16
 msgid ""
 "It is possible to simply begin typing values into the jamovi spreadsheet as "
 "you would any other spreadsheet software."
 msgstr ""
+"Det er mulig å simpelthen begynne å tippe inn verdier i jamovi-regnarket som"
+" du ville har gjort for andre regnark-programvare."
 
 #: ../../getting-started/um_2_first-steps.rst:19
 msgid ""
@@ -54,10 +65,17 @@ msgid ""
 "jamovi), select ``Open`` and then ``Data library`` or ``This PC``, depending"
 " on whether you want to open an example, or a file stored on your computer."
 msgstr ""
+"Alternativt kan eksisterende datasett i en rekke formater (CSV, Excel, "
+"LibreOffice, R, SPSS, Stata, SAS, JASP) åpnes i jamovi. I tillegg er det en "
+"rekke eksempel-datasett inkludert og tilgjengelige i jamovi. For å åpne en "
+"fil, velger du fil-menyen (☰, øverst i venstre hjørne av jamovi), velger "
+"``Åpne`` og deretter ``Databibliotek`` eller ``This PC``, avhengig av om du "
+"vil åpne et eksempel-datasett, eller en fil som er lagret på datamaskinen "
+"din."
 
 #: ../../getting-started/um_2_first-steps.rst:27
 msgid "|csv-data|"
-msgstr ""
+msgstr "|csv-data|"
 
 #: ../../getting-started/um_2_first-steps.rst:29
 msgid ""
@@ -73,6 +91,18 @@ msgid ""
 "delimited`` in the drop-down menu close to the ``Save as``-button. "
 "Thereafter, you may open the CSV-file in jamovi."
 msgstr ""
+"Et veldig vanlig format for utveksling av data er filer med ‘kommaseparerte "
+"verdier’ (.csv eller .txt). Disse data er lagret som enkel tekstfil og "
+"verdiene er separert fra hverandre ved hjelp av komma (eller andre "
+"separator, f.eks. \";\", \"|\"). Mer eller mindre alle programvare-pakker "
+"kan lese og skrive denne formaten (og en kan enkelt ta en titt ved en simple"
+" teksteditor, f.eks. Notepad) . Et eksempel er vist på figuren ovenfor. Den "
+"første linjen inneholder navnene til variablene og enhver annen linje "
+"etterpå er et målepunkt (typisk kommer et målepunkt fra en person der data "
+"ble sammlet inn fra). Hvis du har dine data i et regnearkprogram (f.eks. "
+"Excel), kan du opprette en CSV-fil fra dataene dine ved å velge ``Fil`` → "
+"``Lagre som...`` og velge ``Komma separert`` i drop-down-menyen nesten til "
+"``Lagre som``-knappen. Deretter kan du åpne CSV-filen i jamovi."
 
 #: ../../getting-started/um_2_first-steps.rst:41
 msgid ""
@@ -80,10 +110,14 @@ msgid ""
 "our GitHub `issue tracker <https://github.com/jamovi/jamovi/issues>`__. We "
 "are keen to make our importer as robust as possible."
 msgstr ""
+"Hvis jamovi ikke åpner en fil på den korrekte måten, kan du sende inn et "
+"problem (feilrapport) i vår GitHub `issue tracker "
+"<https://github.com/jamovi/jamovi/issues>`__. Vi vil gjerne gjøre fil-import"
+" i jamovi så robust som mulig."
 
 #: ../../getting-started/um_2_first-steps.rst:47
 msgid "Analyses"
-msgstr ""
+msgstr "Analyser"
 
 #: ../../getting-started/um_2_first-steps.rst:49
 msgid ""
@@ -94,6 +128,14 @@ msgid ""
 "for the analysis will appear in the right ‘Results panel’, and will update "
 "as you make changes to the options."
 msgstr ""
+"Analyser kan velges fra ribbon-menyet i øvre delen av jamovi-vinduet. Å "
+"velge en analyse vil presentere et valgmeny for den analysen du er i gang "
+"ved å gjennomføre. Der kan du velge og tilordne variabler (f.eks. "
+"prediktorer eller utkomstvariabler), og velge forskjellige alternativer for "
+"utgave (dvs. hvilke utgavene skulle være vist). Samtidig med at du gjør "
+"dette, vil resultatutgaven for analysen din allerede begynne å vise i høyre "
+"'resultatpanel', og vil etterpå oppdateres automatisk når du gjør endringer "
+"i opsjonsvalg eller tilordning av variablene."
 
 #: ../../getting-started/um_2_first-steps.rst:56
 msgid ""
@@ -103,6 +145,11 @@ msgid ""
 "produced. In this way, you can return to any analysis that you (or say, a "
 "colleague) created earlier."
 msgstr ""
+"Når du har konfigurert analysen riktig, kan du stenge analyse-valgmeny ved å"
+" klikke på pilen øverst til høyre i dette panelet. Hvis du ønsker å gå "
+"tilbake til valgmenyet, kan du klikke på resultatene. På denne måten kan du "
+"gå tilbake til og, hvis nødvendig, forandre hvilken analyse som helst etter "
+"det har vært opprettet tidligere av deg (eller en kollega)."
 
 #: ../../getting-started/um_2_first-steps.rst:62
 msgid ""
@@ -111,10 +158,14 @@ msgid ""
 "bring up a menu, and by selecting ‘Analysis’, and then ‘Remove’, the "
 "analysis can be removed."
 msgstr ""
+"Hvis du bestemmer deg at du ikke lenger trenger en bestemt analyse, kan du "
+"fjerne den med kontekst-menyen til denne analysen. Høyreklikk på "
+"analyseresultatene; det vil få opp en meny hvor du kan velge ‘Analyse’, og "
+"deretter ‘Fjern’. Da blir analysen slettet."
 
 #: ../../getting-started/um_2_first-steps.rst:67
 msgid "|analysis|"
-msgstr ""
+msgstr "|analysis|"
 
 #: ../../getting-started/um_2_first-steps.rst:69
 msgid ""
@@ -122,20 +173,25 @@ msgid ""
 "procedures in jamovi can be found under `jamovi-guide <jg_0_welcome.html>`__"
 " (later in this section)."
 msgstr ""
+"En oversikt med korte, ikke-tekniske trinn-etter-trinn instruksjoner om "
+"hvordan du gjennomfører ofte brukte statistiske analyser i jamovi, finner du"
+" under `jamovi-guide <jg_0_welcome.html>`__ (senere i dette avsnittet)."
 
 #: ../../getting-started/um_2_first-steps.rst:75
 msgid "The Spreadsheet"
-msgstr ""
+msgstr "Regnarket"
 
 #: ../../getting-started/um_2_first-steps.rst:77
 msgid ""
 "In jamovi, data is represented in a spreadsheet, with each column "
 "representing a ‘variable’."
 msgstr ""
+"I jamovi er data representert i et regneark, hvor hver kolonne representerer"
+" en ‘variabel’ og hver linje en målepunkt."
 
 #: ../../getting-started/um_2_first-steps.rst:81
 msgid "Data Variables"
-msgstr ""
+msgstr "Data-variabler"
 
 #: ../../getting-started/um_2_first-steps.rst:83
 msgid ""
@@ -143,38 +199,41 @@ msgid ""
 "variables simply contain data either loaded from a data file, or ‘typed in’ "
 "by the user. Data variables can be one three data types:"
 msgstr ""
+"De oftest brukte variabletypen i jamovi er ‘data-variabler’. Disse "
+"variablene inneholder data som ble enten lastet inn fra en datafil, eller "
+"‘tippet inn’ av brukeren. Data-variabler kan har en av disse tre datatypene:"
 
 #: ../../getting-started/um_2_first-steps.rst:87
 msgid "``Integer``"
-msgstr ""
+msgstr "``Integer`` (heltall uten desimaler)"
 
 #: ../../getting-started/um_2_first-steps.rst:88
 msgid "``Decimal``"
-msgstr ""
+msgstr "``Desimal`` (desimaltall)"
 
 #: ../../getting-started/um_2_first-steps.rst:89
 msgid "``Text``"
-msgstr ""
+msgstr "``Text``"
 
 #: ../../getting-started/um_2_first-steps.rst:91
 msgid "and one of four measure types:"
-msgstr ""
+msgstr "og en av de følgende fire målenivåer:"
 
 #: ../../getting-started/um_2_first-steps.rst:93
 msgid "|nominal|    ``Nominal``"
-msgstr ""
+msgstr "|nominal|    ``Nominal``"
 
 #: ../../getting-started/um_2_first-steps.rst:94
 msgid "|ordinal|    ``Ordinal``"
-msgstr ""
+msgstr "|ordinal|    ``Ordinal``"
 
 #: ../../getting-started/um_2_first-steps.rst:95
 msgid "|continuous| ``Continuous``"
-msgstr ""
+msgstr "|continuous| ``Kontinuerlig`"
 
 #: ../../getting-started/um_2_first-steps.rst:96
 msgid "|id|         ``ID``"
-msgstr ""
+msgstr "|id|         ``ID``"
 
 #: ../../getting-started/um_2_first-steps.rst:98
 msgid ""
@@ -182,6 +241,9 @@ msgid ""
 "variable’s column. Note that some combinations of data-type and measure- "
 "type don’t make sense, and jamovi won’t let you choose these."
 msgstr ""
+"Målenivåene er utpekt med symbolet i overskriften kolonne, nesten til i "
+"variablenavnet. Vær oppmerksom på at noen kombinasjoner av datatyper og "
+"målenivåer ikke gir mening, og jamovi lar deg ikke velge disse."
 
 #: ../../getting-started/um_2_first-steps.rst:102
 msgid ""
@@ -195,6 +257,15 @@ msgid ""
 "internally, which can improve performance when interacting with very large "
 "data sets."
 msgstr ""
+"Blant målenivåene er ``Nominal`` og ``Ordinal`` (forutsigbart) for nominale "
+"og ordinale variabler. ``Continuous`` er for variabler med numeriske verdier"
+" som anses å være på enten *interval* eller *ratio*-målenivået (i SPSS ville"
+" det har vært ``Scale``). Målenivået ``ID`` er unik for jamovi. Det er tenkt"
+" for variabler som inneholder identifikatorer som du (nesten) aldri vil "
+"analysere. For eksempel et personnummer, eller en deltaker-ID. Fordelen med "
+"ID-er er at jamovi ikke trenger å opprettholde en liste over nivåer internt,"
+" noe som kan forbedre hastighet på analyser når du handterer veldig store "
+"datasett."
 
 #: ../../getting-started/um_2_first-steps.rst:112
 msgid ""
@@ -206,6 +277,14 @@ msgid ""
 "approach may not be correct, and it may be necessary to manually specify the"
 " data and measure type with the variable editor."
 msgstr ""
+"Når du begynner med et tomt regneark og skriver inn verdier, endres "
+"datatypene og målenivåene automatisk avhengig av data du skriver inn. Dette "
+"er en god måte å få en følelse av hvilken datatypen passer til hvilke slags "
+"data. På samme måte, når du åpner en datafil, vil jamovi analysere data i "
+"hver kolonne og automatisk tilskrive det en datatypen. I begge tilfeller kan"
+" det hende at denne automatiske tilnærmingen ikke er helt riktig, og det kan"
+" være nødvendig å spesifisere datatypene og målenivåene manuelt med "
+"variableeditoren i etterkant."
 
 #: ../../getting-started/um_2_first-steps.rst:120
 msgid ""
@@ -216,10 +295,17 @@ msgid ""
 " label displayed for each level. The variable editor can be dismissed by "
 "clicking the close arrow, or by pressing ``F3`` again."
 msgstr ""
+"Variableeditoren kan åpnes ved å velge ‘Setup’ fra datafanen, dobbeltklikke "
+"på kolonneoverskriften, eller ved å trykke på ``F3''. Variableeditoren lar "
+"deg endre navnet på variabelen, og (for datavariabler) datatypen, "
+"målenivået, rekkefølgen på faktortrinn (for nominale og ordinale variabler) "
+"og beskrivelse for hele variablen (*variable label*) og for hvert trinn av "
+"verdiene (*value label*). Variableeditoren kan stenges ved å klikke på "
+"pilen, eller ved å trykke på ``F3`` igjen."
 
 #: ../../getting-started/um_2_first-steps.rst:127
 msgid "|change-name|"
-msgstr ""
+msgstr "|change-name|"
 
 #: ../../getting-started/um_2_first-steps.rst:129
 msgid ""
@@ -227,10 +313,13 @@ msgid ""
 "button from the data ribbon. The ‘add’ button also allows the addition of "
 "*Computed variables*."
 msgstr ""
+"Nye variabler kan settes inn eller legges til datasettet ved å bruke knappen"
+" 'Add' fra ribbon-menyet under \"Data\". Knappen \"Add\" tillater også å "
+"legge til *Beregnede variabler*."
 
 #: ../../getting-started/um_2_first-steps.rst:135
 msgid "Computed Variables"
-msgstr ""
+msgstr "Beregnede variabler"
 
 #: ../../getting-started/um_2_first-steps.rst:137
 msgid ""
@@ -239,6 +328,10 @@ msgid ""
 "of purposes, including log transforms, z-scores, sum-scores, negative "
 "scoring and means."
 msgstr ""
+"Beregnede variabler er de som tar verdien fra å utføre en beregning på andre"
+" variabler. Beregnede variabler kan brukes til en rekke formål, inkludert "
+"log-transformasjoner, inversjon av an skaleverdi eller for å beregner "
+"summer, gjennomsnitter og z-scorer."
 
 #: ../../getting-started/um_2_first-steps.rst:142
 msgid ""
@@ -247,20 +340,27 @@ msgid ""
 "can specify the formula. The usual arithmetic operators are available. Some "
 "examples of formulas are:"
 msgstr ""
+"*Beregnede variabler* kan legges til datasettet, med knappen ``Add`` "
+"tilgjengelig fra ribbon-menyet under «Data». Dette vil åpne en inputboks "
+"hvor du kan spesifisere formelen. De vanlige aritmetiske operatørene er "
+"tilgjengelige. Noen eksempler på formler er:"
 
 #: ../../getting-started/um_2_first-steps.rst:155
 msgid ""
 "In order, these are the sum of A and B, a log (base 10) transform of "
 "``len``, the mean of ``A`` and ``B``, and the z-score of ``dose`` (twice)."
 msgstr ""
+"I rekkefølge er dette: summen av A og B, en log (base 10) -transformasjon av"
+" ``len``, middelverdien av ``A`` og ``B``, og z-score til ``dose`` (med to "
+"forskjellige beregningsmåter)."
 
 #: ../../getting-started/um_2_first-steps.rst:159
 msgid "There are many more functions available."
-msgstr ""
+msgstr "Det er mange flere funksjoner tilgjengelig."
 
 #: ../../getting-started/um_2_first-steps.rst:162
 msgid "``V``-functions"
-msgstr ""
+msgstr "``V``-funksjoner"
 
 #: ../../getting-started/um_2_first-steps.rst:164
 msgid ""
@@ -270,6 +370,12 @@ msgid ""
 "For example, ``MEAN(A, B)`` will produce the mean of ``A`` and ``B`` for "
 "each row. Where as ``VMEAN(A)`` gives the mean of *all* the values in ``A``."
 msgstr ""
+"Et del funksjoner vises i par, den ene forhåndsinnstilt med en ``V`` og den "
+"andre ikke. ``V``-funksjoner utfører sin beregning på en variabel *som en "
+"helhet*, der som ikke-``V``-funksjoner utfører sin beregning separat for "
+"hver rad. For eksempel vil ``MEAN(A, B)`` produsere gjennomsnittet av ``A`` "
+"og ``B`` for hver rad. I motsetning gir ``VMEAN(A)`` gjennomsnittet av "
+"*alle* verdiene i hele variabelen ``A``."
 
 #: ../../getting-started/um_2_first-steps.rst:171
 msgid ""
@@ -278,6 +384,9 @@ msgid ""
 "calculated for each level of the ``group_by`` variable. In the following "
 "example:"
 msgstr ""
+"I tillegg støtter `V``-funksjoner et ``group_by`` -argument. Når en "
+"``group_by``-variabel er spesifisert, beregnes separate verdier for hvert "
+"nivå / trinn i ``group_by``-variabelen. I følgende eksempel:"
 
 #: ../../getting-started/um_2_first-steps.rst:180
 msgid ""
@@ -285,10 +394,13 @@ msgid ""
 "the computed variable will be the mean corresponding to it’s row’s value of "
 "``dose``."
 msgstr ""
+"Et separat gjennomsnitt beregnes for hvert nivå / trinn av ``dose``, og hver"
+" verdi i den beregnede variabelen vil være gjennomsnittet som tilsvarer den "
+"trinn av ``dose`` i denne raden."
 
 #: ../../getting-started/um_2_first-steps.rst:185
 msgid "Recoded Variables"
-msgstr ""
+msgstr "Rekoderte variabler"
 
 #: ../../getting-started/um_2_first-steps.rst:187
 msgid ""
@@ -296,10 +408,13 @@ msgid ""
 "<https://blog.jamovi.org/2018/10/23/transforming-variables.html>`__ for "
 "details."
 msgstr ""
+"Transformerte og rekoderte variabler er også tilgjengelige. Se dette `blogg-"
+"innlegget <https://blog.jamovi.org/2018/10/23/transforming-"
+"variables.html>`__ for detaljer."
 
 #: ../../getting-started/um_2_first-steps.rst:192
 msgid "Filters"
-msgstr ""
+msgstr "Filter"
 
 #: ../../getting-started/um_2_first-steps.rst:194
 msgid ""
@@ -311,22 +426,28 @@ msgid ""
 " exclude extreme scores, for example those that score more than 3 standard "
 "deviations from the mean."
 msgstr ""
+"Filtre i jamovi lar deg filtrere ut rader du ikke vil ha med i analysen. Det kan for eksempel være lurt å bare inkludere disse svarene i en undersøkelse\n"
+"hvor folk ga eksplisitt samtykke til å bruke data sine, eller du kanskje vil ekskludere alle venstrehendte personer, eller kanskje personer som scorer overfor dette nivået du ville har oppnådd når du trykker på knapp helt tilfeldigvis i en eksperimentell oppgave. I noen tilfeller vil du bare ekskludere ekstreme verdiene, f.eks. de som scorer mer enn 3.3 standardavvik fra gjennomsnittet."
 
 #: ../../getting-started/um_2_first-steps.rst:202
 msgid ""
 "The filters in jamovi are build on top of jamovi’s *computed variable* "
 "formula system, which allows the building of arbitrarily complex formulas."
 msgstr ""
+"Filtrene i jamovi er bygget på toppen av formelsystemet for jamovis "
+"*beregnede variabler*, som gjør det mulig å bygge vedlig komplekse formler."
 
 #: ../../getting-started/um_2_first-steps.rst:205
 msgid ""
 "More details about filters are covered in this `blog post "
 "<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__"
 msgstr ""
+"En mer omfattende fremstilling om filtre finnes i dette `blogg-innlegget "
+"<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__."
 
 #: ../../getting-started/um_2_first-steps.rst:209
 msgid "Updating data"
-msgstr ""
+msgstr "Oppdatere data"
 
 #: ../../getting-started/um_2_first-steps.rst:211
 msgid ""
@@ -340,16 +461,27 @@ msgid ""
 "your data cleaning and analysis steps (making your jamovi files behave a bit"
 " like scripts)."
 msgstr ""
+"Når et datasett er satt opp med filtre, beregnede variabler, "
+"transformasjoner og analyser, kan det være lurt å oppdatere data. Dette kan "
+"være av flere årsaker: Det kan være at du har et nytt datasett, at du vil "
+"bruke samme analysene du har utført tidligere på det, eller at du kan utføre"
+" et eksperiment der du har testet en del deltakere, og du nå fikk data fra "
+"en ekstra deltager for å inkludere dem. Ved å importere til et eksisterende "
+"datasett kan du kjøre analysene dine på nytt uten å må utføre alle dine data"
+" rengjørings- og analysetrinn igjen. På denne måten oppfører seg jamovi-"
+"filene dine litt som en skript."
 
 #: ../../getting-started/um_2_first-steps.rst:221
 msgid ""
 "For a video introduction to import and templates in jamovi, see this `blog "
 "post <https://blog.jamovi.org/2019/03/27/import.html>`__."
 msgstr ""
+"For videoinstruksjoner om import og maler i jamovi, kan du se på dette "
+"`blogg-innlegget <https://blog.jamovi.org/2019/03/27/import.html>`__."
 
 #: ../../getting-started/um_2_first-steps.rst:225
 msgid "Single-file Import"
-msgstr ""
+msgstr "Import av en enkelte fil"
 
 #: ../../getting-started/um_2_first-steps.rst:227
 msgid ""
@@ -357,44 +489,57 @@ msgid ""
 "you import a file into an existing data set, the following operations are "
 "performed:"
 msgstr ""
+"Import er tilgjengelig fra filmenyen (☰) øverst til venstre i jamovi. Når du"
+" importerer en fil til et eksisterende datasett, utføres følgende "
+"operasjoner:"
 
 #: ../../getting-started/um_2_first-steps.rst:231
 msgid "All the rows of the existing data set are deleted."
-msgstr ""
+msgstr "Alle radene i det eksisterende datasettet blir slettet."
 
 #: ../../getting-started/um_2_first-steps.rst:232
 msgid ""
 "All the (original) names of the existing columns are matched to the names of"
 " the columns from the new data set."
 msgstr ""
+"Alle de (originale) navnene på de eksisterende kolonnene er matched ved "
+"navnene på kolonnene fra det nye datasettet."
 
 #: ../../getting-started/um_2_first-steps.rst:234
 msgid ""
 "The new values are imported to the existing columns, *keeping* the data and "
 "measure types from the existing data set."
 msgstr ""
+"De nye verdiene importeres til de eksisterende kolonnene, *holder* "
+"datatypene og målenivåene fra det eksisterende datasettet."
 
 #: ../../getting-started/um_2_first-steps.rst:236
 msgid ""
 "The new columns which did not match names in the original data set are "
 "appended to the right of the data set."
 msgstr ""
+"De nye kolonnene som ikke stemte overens med navnene i det originale "
+"datasettet, legges til høyre for det eksisterende datasettet."
 
 #: ../../getting-started/um_2_first-steps.rst:239
 msgid ""
 "If no new column matches the column names in the existing data set, then "
 "those columns are left blank."
 msgstr ""
+"Hvis ingen ny kolonne samsvarer med kolonnenavnene i det eksisterende "
+"datasettet, blir kolonnene tomme."
 
 #: ../../getting-started/um_2_first-steps.rst:242
 msgid ""
 "Following a file import, all the filters, computed variables, transforms and"
 " analyses update."
 msgstr ""
+"Etter en filimport oppdateres alle filtre, beregnede variabler, "
+"transformasjoner og analyser."
 
 #: ../../getting-started/um_2_first-steps.rst:246
 msgid "Multi-file Import"
-msgstr ""
+msgstr "Import av flere filer"
 
 #: ../../getting-started/um_2_first-steps.rst:248
 msgid ""
@@ -405,6 +550,13 @@ msgid ""
 "import. You can do this by holding down control or shift when selecting data"
 " files, or with the ‘multi-select’ button at the top of the import dialog."
 msgstr ""
+"Det er også mulig å importere flere filer samtidig. Dette kan være nyttig "
+"når du for eksempel kombinerer flere datasett der hver fil representerer en "
+"deltaker. Prosessen er den samme som når enkeltfil importeres slik som det "
+"ble beskrevet ovenfor. Den eneste forskjell er at du velger flere filer når "
+"du utfører importen. Du kan gjøre dette ved å holde Ctrl- eller Shift-taste "
+"nede når du velger datafilene, eller med knappen \"multivalg\" øverst i "
+"import-dialogen."
 
 #: ../../getting-started/um_2_first-steps.rst:255
 msgid ""
@@ -416,14 +568,23 @@ msgid ""
 "column can be particularly useful to use with the ``group_by`` argument to "
 "``V``-functions described above."
 msgstr ""
+"Når du importerer flere filer, blir de kombinert vertikalt med at radene til"
+" den andre filen vises under den fra første, radene til den tredje filen "
+"vises under den fra andre, og så videre. En ekstra kolonne kalt ``kilde`` "
+"opprettes med detaljer om hvilken fil hver rad har kommet fra. Dette kan "
+"være nyttig når du trenger å «dele opp» eller «gruppere» hver deltaker. "
+"Denne kolonnen kan være spesielt nyttig å bruke med ``gruppe_by``-argumentet"
+" til ``V``-funksjoner beskrevet ovenfor."
 
 #: ../../getting-started/um_2_first-steps.rst:263
 msgid "At present, there is no way to combine files horizontally in jamovi."
 msgstr ""
+"På nåværende tidspunkt er det ingen mulighet i jamovi å importere filer og å"
+" kombinere dem horisontalt (dvs. å legge til variabler)."
 
 #: ../../getting-started/um_2_first-steps.rst:266
 msgid "Templates"
-msgstr ""
+msgstr "Maler"
 
 #: ../../getting-started/um_2_first-steps.rst:268
 msgid ""
@@ -435,6 +596,12 @@ msgid ""
 "that they are entirely specified with the familiar user interface, and do "
 "not require working with a ‘syntax’ or code."
 msgstr ""
+"Mal i jamovi er spesielle datasett som er tilsvarende skriptfiler i andre "
+"statistikk-pakker. De er en måte å spesifisere datatyper, beregninger, "
+"filtre, transformasjoner og analyser på forhånd. Når data blir "
+"tilgjengelige, kan de importeres til malen, og malen oppdateres deretter. "
+"Det fine med jamovi-maler er at de kan være spesifisert med det kjente "
+"brukergrensesnittet, og ikke krever å jobbe med ‘syntaks’ eller kode."
 
 #: ../../getting-started/um_2_first-steps.rst:276
 msgid ""
@@ -445,16 +612,24 @@ msgid ""
 " using the file import described above. The data will update, followed by "
 "the filters, computed variables, and finally the analysis results."
 msgstr ""
+"Hvis du vil lagre et datasett som mal, velger du 'Export' fra filmenyen og "
+"velger 'jamovi template' fra filtype-valgmeny. Når du åpner en mal, ser du "
+"at den inneholder kolonner, men ingen rader, og at alle analyseresultatene "
+"er tomme. Hvis du vil bruke malen, importerer du et (eller flere) nye "
+"datasett ved å bruke fil-importen beskrevet ovenfor. Data vil oppdateres, "
+"etterfulgt av filtrene, beregnede variabler og til slutt analyseresultatene."
 
 #: ../../getting-started/um_2_first-steps.rst:283
 msgid ""
 "jamovi templates are also a great way to provide analyses to less capable "
 "students or colleagues."
 msgstr ""
+"jamovi-maler er også en flott og enkelt måte å gi analyser til studenter "
+"eller kolleger som er kanskje litt mindre erfaren."
 
 #: ../../getting-started/um_2_first-steps.rst:287
 msgid "Copy and Paste"
-msgstr ""
+msgstr "Copy and Paste"
 
 #: ../../getting-started/um_2_first-steps.rst:289
 msgid ""
@@ -466,14 +641,22 @@ msgid ""
 "Selecting copy, copies the content to the clipboard, and can be pasted into "
 "the other program in the usual way."
 msgstr ""
+"jamovi produserer fine APA-formaterte tabeller og attraktive figurer. Det er"
+" enkelt og ofte veldig nyttig å bare kopiere og lime dem inn, kanskje i et "
+"Word-dokument, eller i en e-post til en kollega. For å kopiere resultater, "
+"høyreklikk på resultatobjektet av interesse, og velg nøyaktig hva du vil "
+"kopiere fra kontekstmenyen. Menyen lar deg velge å kopiere, f.eks. bare et "
+"bilde, en tabelle eller hele analysen. Når du velger ``Copy``, kopierer "
+"innholdet til utklippstavlen og kan limes inn i det andre programmet på "
+"vanlig måte."
 
 #: ../../getting-started/um_2_first-steps.rst:297
 msgid "|copy-paste|"
-msgstr ""
+msgstr "|copy-paste|"
 
 #: ../../getting-started/um_2_first-steps.rst:300
 msgid "Syntax Mode"
-msgstr ""
+msgstr "Syntaks-modus"
 
 #: ../../getting-started/um_2_first-steps.rst:302
 msgid ""
@@ -483,6 +666,11 @@ msgid ""
 "mode`` checkbox there. It is possible to leave syntax mode by clicking this "
 "a second time."
 msgstr ""
+"jamovi tilbyr også en «R Syntax Mode». I denne modusen produserer jamovi "
+"R-kode for hver analyse. For å bytte til denne syntaksmodusen, velg "
+"applikasjonsmenyen (⋮) øverst til høyre i jamovi og tikk ``Syntax mode`` "
+"der. Det er mulig å forlate syntaksmodus ved å klikke på dette en gang til "
+"og å ta vekk tikk."
 
 #: ../../getting-started/um_2_first-steps.rst:308
 msgid ""
@@ -491,10 +679,16 @@ msgid ""
 " jamovi, you can right click on these items (including the R syntax) and "
 "copy and paste them, for example, into an R session."
 msgstr ""
+"I syntaksmodus fortsetter analysene å fungere som før, men nå produserer de "
+"R-syntaks, og ‘ASCII output’ (uformatert tekstutgave) som om du kjører R. Du"
+" kan høyreklikke på hver av disse resultatobjektene eller deres elementene "
+"(inkludert R-syntaksen som står helt i begynnelsen av hver analyse) og "
+"kopiere dem. Etterpå kan du lime dem inn, f.eks. inn i en R-sesjon eller "
+"samle disse kommandoene i en tekstfil."
 
 #: ../../getting-started/um_2_first-steps.rst:313
 msgid "|r-syntax|"
-msgstr ""
+msgstr "|r-syntax|"
 
 #: ../../getting-started/um_2_first-steps.rst:315
 msgid ""
@@ -503,6 +697,11 @@ msgid ""
 " import data into R, and we recommend you take a look at these (Most "
 "analyses in jamovi require data as a data frame)."
 msgstr ""
+"For nå inkluderer denne R-syntaksen ikke dataimport-trinnet, og dette må "
+"legges til manuelt. Det er mange ressurser som forklarer hvordan du "
+"importerer data til R, og vi anbefaler at du tar en titt på disse (de fleste"
+" analyser i jamovi krever at data er lagret i en R-variabletype som heter "
+"*data frame*)."
 
 #: ../../getting-started/um_2_first-steps.rst:320
 msgid ""
@@ -510,3 +709,6 @@ msgid ""
 "<https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows you to use R "
 "code to analyse data directly in jamovi."
 msgstr ""
+"En annen R-funksjon som kan være av interesse er `Rj-modulen "
+"<https://blog.jamovi.org/2018/07/30/rj.html>`__, som lar deg bruke R-kode "
+"til å analysere data direkte innefor jamovi."

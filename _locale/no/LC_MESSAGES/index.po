@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 17:38+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,27 +23,27 @@ msgstr ""
 
 #: ../../index.rst:8 ../../index.rst:8
 msgid "Getting started..."
-msgstr ""
+msgstr "Getting started..."
 
 #: ../../index.rst:19
 msgid "More in-depth introduction"
-msgstr ""
+msgstr "Inngående introduksjon"
 
 #: ../../index.rst:27
 msgid "jamovi modules"
-msgstr ""
+msgstr "jamovi-moduler"
 
 #: ../../index.rst:34 ../../index.rst:34
 msgid "jamovi and other software"
-msgstr ""
+msgstr "jamovi og annen programvare"
 
 #: ../../index.rst:42 ../../index.rst:42
 msgid "Developer hub"
-msgstr ""
+msgstr "Developer hub"
 
 #: ../../index.rst:4
 msgid "jamovi"
-msgstr ""
+msgstr "jamovi"
 
 #: ../../index.rst:6
 msgid ""
@@ -47,3 +51,6 @@ msgid ""
 " and open statistical software to bridge the gap between researcher and "
 "statistician."
 msgstr ""
+"Velkommen til dokumentasjonen for `jamovi <https://www.jamovi.org>`__, en "
+"statistisk programvare som er kostnadsfri og har åpen kildekode. jamovi vil "
+"bygge en bro mellom forsker og statistiker."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 17:38+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/jamovi/teams/111618/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -64,71 +64,71 @@ msgstr ""
 msgid ""
 "jamovi for macOS has an auto-update mechanism, and can alert you to when new"
 " versions are available. You can update your version of jamovi from the app "
-"menu (the three dots at the top right of the window)."
+"menu (☰; at the top right of the window)."
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:46
+#: ../../getting-started/um_1_installation.rst:45
 msgid "Linux and Chromebooks"
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:48
+#: ../../getting-started/um_1_installation.rst:47
 msgid ""
 "jamovi is currently available for Linux, (for all ‘flatpak participating "
 "linux distributions’ – which is most of them), and Chromebooks, from "
 "flathub."
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:52
+#: ../../getting-started/um_1_installation.rst:51
 msgid ""
 "**Note**: Some Chromebooks experience a blank screen issue when starting up "
 "jamovi. If you encounter this, there are instructions on how to fix this a "
 "little :ref:`further down<blank-screen-on-chromebooks>`."
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:56
+#: ../../getting-started/um_1_installation.rst:55
 msgid ""
 "If you’re new to flatpak/flathub, you’ll need to follow the setup guide on "
 "`our flathub page <https://flathub.org/apps/details/org.jamovi.jamovi>`__."
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:60
+#: ../../getting-started/um_1_installation.rst:59
 msgid ""
-"If you’re an old hand at flatpak, you can install jamovi with the command::"
+"If you’re an old hand at flatpak, you can install jamovi with the command:"
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:65
-msgid "and later, you can update your version of jamovi with::"
+#: ../../getting-started/um_1_installation.rst:66
+msgid "and later, you can update your version of jamovi with:"
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:70
+#: ../../getting-started/um_1_installation.rst:73
 msgid "Text not appearing in plots under linux"
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:72
+#: ../../getting-started/um_1_installation.rst:75
 msgid ""
 "On some linux machines, the flatpak font cache is not up-to-date, resulting "
 "in plots in jamovi not displaying text correctly. To remedy this, you can "
-"run the following command at the terminal::"
+"run the following command at the terminal:"
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:78
+#: ../../getting-started/um_1_installation.rst:83
 msgid ""
 "This appears to be an issue with flatpaks, and we’re working with the "
 "flatpak community to get to the bottom of it."
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:84
+#: ../../getting-started/um_1_installation.rst:89
 msgid "Blank screen at startup on Chromebooks"
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:86
+#: ../../getting-started/um_1_installation.rst:91
 msgid ""
 "Some Chromebooks experience a blank screen when starting up jamovi. The "
 "cause of this issue is not completely clear at this time, however it can be "
 "fixed by disabling “Crostini GPU support”."
 msgstr ""
 
-#: ../../getting-started/um_1_installation.rst:90
+#: ../../getting-started/um_1_installation.rst:95
 msgid ""
 "Enter ``chrome://flags/`` into the ChromeOS address bar. This will bring up "
 "“Experiments”. Search for ``Crostini GPU Support`` and set it to disabled. "

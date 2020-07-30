@@ -39,8 +39,7 @@ macOS
 
    jamovi for macOS has an auto-update mechanism, and can alert you to
    when new versions are available. You can update your version of
-   jamovi from the app menu (the three dots at the top right of the
-   window).
+   jamovi from the app menu (☰; at the top right of the window).
 
 Linux and Chromebooks
 ---------------------
@@ -58,22 +57,28 @@ Linux and Chromebooks
    page <https://flathub.org/apps/details/org.jamovi.jamovi>`__.
 
    If you’re an old hand at flatpak, you can install jamovi with the
-   command::
+   command:
 
-         flatpak install flathub org.jamovi.jamovi
+   .. code-block:: bash
+   
+      flatpak install flathub org.jamovi.jamovi
 
-   and later, you can update your version of jamovi with::
+   and later, you can update your version of jamovi with:
 
-         flatpak update
+   .. code-block:: bash
+   
+      flatpak update
 
 Text not appearing in plots under linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    On some linux machines, the flatpak font cache is not up-to-date,
    resulting in plots in jamovi not displaying text correctly. To remedy
-   this, you can run the following command at the terminal::
+   this, you can run the following command at the terminal:
 
-         flatpak run --command=fc-cache org.jamovi.jamovi -f -v
+   .. code-block:: bash
+   
+      flatpak run --command=fc-cache org.jamovi.jamovi -f -v
 
    This appears to be an issue with flatpaks, and we’re working with the
    flatpak community to get to the bottom of it.
