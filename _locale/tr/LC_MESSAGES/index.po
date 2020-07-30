@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../index.rst:8 ../../index.rst:8
 msgid "Getting started..."
-msgstr ""
+msgstr "Başlangıç ..."
 
 #: ../../index.rst:19
 msgid "More in-depth introduction"
