@@ -4,7 +4,7 @@
 From SPSS to jamovi: t-test for independent samples 
 ===================================================
 
-(comsing soon)
+(coming soon)
 
 +--------------------------------------+--------------------------------------+
 |**SPSS** (version 25)                 | **jamovi** (versjon 1.2)             |

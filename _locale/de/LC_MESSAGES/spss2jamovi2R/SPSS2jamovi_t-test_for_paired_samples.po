@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-30 22:32+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgid "From SPSS to jamovi: t-test for paired samples"
 msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi_t-test_for_paired_samples.rst:7
-msgid "(comsing soon)"
+msgid "(coming soon)"
 msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi_t-test_for_paired_samples.rst:10

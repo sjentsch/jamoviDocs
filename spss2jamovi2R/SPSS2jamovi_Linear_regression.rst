@@ -4,7 +4,7 @@
 From SPSS to jamovi: Linear regression 
 ======================================
 
-(comsing soon)
+(coming soon)
 
 +--------------------------------------+--------------------------------------+
 |**SPSS** (version 25)                 | **jamovi** (versjon 1.2)             |

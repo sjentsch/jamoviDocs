@@ -4,7 +4,7 @@
 From SPSS to jamovi: One-way Analysis of Variance (ANOVA) 
 =========================================================
 
-(comsing soon)
+(coming soon)
 
 +--------------------------------------+--------------------------------------+
 |**SPSS** (version 25)                 | **jamovi** (versjon 1.2)             |
