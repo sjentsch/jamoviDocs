@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
@@ -19,10 +19,6 @@ msgstr ""
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:5
 msgid "How do I create a filter variable and use it for selection?"
-msgstr ""
-
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:7
-msgid "|Outliers_Filter_Shortcut|"
 msgstr ""
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
@@ -66,10 +62,6 @@ msgstr ""
 msgid ""
 "you can either use an function-based selection (e.g., based on z-scores) .. "
 "code-block:: text MAXABSZ([VARIABLE1], [VARIABLE2], …)"
-msgstr ""
-
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:31
-msgid "|Outliers_Filter_Settings|"
 msgstr ""
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
@@ -131,10 +123,6 @@ msgstr ""
 msgid "cases?"
 msgstr ""
 
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:70
-msgid "|Outliers_AddVar_selSbj|"
-msgstr ""
-
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
 msgid "open the “Data” tab so that you see your data spreadsheet"
 msgstr ""
@@ -155,10 +143,6 @@ msgstr ""
 msgid ""
 "briefly check how many participants are contained in your file by going to "
 "the last line of your data set, remember this line number"
-msgstr ""
-
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:83
-msgid "|Outliers_ExcelMagic|"
 msgstr ""
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0
@@ -194,10 +178,6 @@ msgstr ""
 msgid ""
 "obviously you have to adjust ``[VARIABLE NAME]`` to the name of your "
 "selected variable"
-msgstr ""
-
-#: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:108
-msgid "|Outliers_SelectUnselect|"
 msgstr ""
 
 #: ../../getting-started/tt_1_Filtering_data_with_jamovi.rst:0

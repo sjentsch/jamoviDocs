@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi.rst:32
 msgid "Side-by-side"
-msgstr ""
+msgstr "Side-ved-side-sammenlikning"
 
 #: ../../spss2jamovi2R/SPSS2jamovi.rst:34
 msgid ""

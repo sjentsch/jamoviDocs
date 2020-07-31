@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
@@ -31,10 +31,6 @@ msgid ""
 "which looks something like this."
 msgstr ""
 "Når du starter jamovi, vil du se et brukergrensesnitt som ser ut som dette."
-
-#: ../../getting-started/um_2_first-steps.rst:9
-msgid "|screenshot|"
-msgstr "|screenshot|"
 
 #: ../../getting-started/um_2_first-steps.rst:11
 msgid ""
@@ -72,10 +68,6 @@ msgstr ""
 "``Open`` og deretter ``Data library`` eller ``This PC``, avhengig av om du "
 "vil åpne et eksempel-datasett, eller en fil som er lagret på datamaskinen "
 "din."
-
-#: ../../getting-started/um_2_first-steps.rst:27
-msgid "|csv-data|"
-msgstr "|csv-data|"
 
 #: ../../getting-started/um_2_first-steps.rst:29
 msgid ""
@@ -162,10 +154,6 @@ msgstr ""
 "fjerne den med kontekst-menyen til denne analysen. Høyreklikk på "
 "analyseresultatene; det vil få opp en meny hvor du kan velge ‘Analyse’, og "
 "deretter ‘Fjern’. Da blir analysen slettet."
-
-#: ../../getting-started/um_2_first-steps.rst:67
-msgid "|analysis|"
-msgstr "|analysis|"
 
 #: ../../getting-started/um_2_first-steps.rst:69
 msgid ""
@@ -302,10 +290,6 @@ msgstr ""
 " variabler) og beskrivelse for hele variabelen (*variable label*) og for "
 "hvert trinn av verdiene (*value label*). Variableeditoren kan stenges ved å "
 "klikke på pilen, eller ved å trykke på ``F3`` igjen."
-
-#: ../../getting-started/um_2_first-steps.rst:127
-msgid "|change-name|"
-msgstr "|change-name|"
 
 #: ../../getting-started/um_2_first-steps.rst:129
 msgid ""
@@ -650,10 +634,6 @@ msgstr ""
 "innholdet til utklippstavlen og kan limes inn i det andre programmet på "
 "vanlig måte."
 
-#: ../../getting-started/um_2_first-steps.rst:297
-msgid "|copy-paste|"
-msgstr "|copy-paste|"
-
 #: ../../getting-started/um_2_first-steps.rst:300
 msgid "Syntax Mode"
 msgstr "Syntaks-modus"
@@ -685,10 +665,6 @@ msgstr ""
 "(inkludert R-syntaksen som står helt i begynnelsen av hver analyse) og "
 "kopiere dem. Etterpå kan du lime dem inn, f.eks. inn i en R-sesjon eller "
 "samle disse kommandoene i en tekstfil."
-
-#: ../../getting-started/um_2_first-steps.rst:313
-msgid "|r-syntax|"
-msgstr "|r-syntax|"
 
 #: ../../getting-started/um_2_first-steps.rst:315
 msgid ""

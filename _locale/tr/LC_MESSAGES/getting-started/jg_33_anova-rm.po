@@ -1,21 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 17:16+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
-"Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language-Team: Turkish "
+"(https://www.transifex.com/jamovi/teams/111618/tr/)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../getting-started/jg_33_anova-rm.rst:5
 msgid "ANOVA: Repeated Measures"
@@ -25,64 +30,66 @@ msgstr ""
 msgid "How to perform a repeated measures ANOVA in jamovi:"
 msgstr ""
 
-#: ../../getting-started/jg_33_anova-rm.rst:0
+#: ../../getting-started/jg_33_anova-rm.rst
 msgid ""
-"You need one continuous outcome variable for each measurement occasion. Make"
-" sure that the `measurement levels are set correctly <um_2_first-steps.html"
-"#data-variables>`_ so that the continuous variables are marked as "
-"|continuous|."
+"You need one continuous outcome variable for each measurement occasion. "
+"Make sure that the `measurement levels are set correctly <um_2_first-"
+"steps.html#data-variables>`_ so that the continuous variables are marked "
+"as |continuous|."
 msgstr ""
 
-#: ../../getting-started/jg_33_anova-rm.rst:0
+#: ../../getting-started/jg_33_anova-rm.rst
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../getting-started/jg_33_anova-rm.rst:16
-msgid "|data_format_anova_repeated|"
+#: ../../getting-started/jg_33_anova-rm.rst
+msgid "Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``."
 msgstr ""
 
-#: ../../getting-started/jg_33_anova-rm.rst:0
-msgid "Select ``Analyses`` -> ``ANOVA`` -> ``Repeated Measures ANOVA``."
-msgstr ""
-
-#: ../../getting-started/jg_33_anova-rm.rst:22
-msgid "|select_anova_repeated|"
-msgstr ""
-
-#: ../../getting-started/jg_33_anova-rm.rst:0
+#: ../../getting-started/jg_33_anova-rm.rst
 msgid ""
-"In the box **Repeated Measures Factors**: write the name of your outcome "
-"variable (e.g. My_scale) and name the levels for each measurement occasion "
-"(e.g. Pre, Post and 12 month follow-up). The images below shows the box with"
-" default values (left) and when the values has been set (right)."
+"In the box ``Repeated Measures Factors``: write the name of your outcome "
+"variable (e.g. My_scale) and name the levels for each measurement "
+"occasion (e.g. Pre, Post and 12 month follow-up). The images below shows "
+"the box with default values (left) and when the values has been set "
+"(right)."
 msgstr ""
 
-#: ../../getting-started/jg_33_anova-rm.rst:32
+#: ../../getting-started/jg_33_anova-rm.rst
 msgid ""
-"|add_var_anova_repeated_naming_1|  ``→`` |add_var_anova_repeated_naming_2|"
+"Drag and drop your outcome variables to their respective cells in "
+"``Repeated Measures Cells``."
 msgstr ""
 
-#: ../../getting-started/jg_33_anova-rm.rst:0
-msgid ""
-"Drag and drop your outcome variables to their respective cells in **Repeated"
-" Measures Cells**."
-msgstr ""
-
-#: ../../getting-started/jg_33_anova-rm.rst:39
-msgid "|add_var_anova_repeated|"
-msgstr ""
-
-#: ../../getting-started/jg_33_anova-rm.rst:0
+#: ../../getting-started/jg_33_anova-rm.rst
 msgid "The results are shown in the right panel:"
 msgstr ""
 
-#: ../../getting-started/jg_33_anova-rm.rst:45
-msgid "|output_anova_repeated|"
-msgstr ""
-
-#: ../../getting-started/jg_33_anova-rm.rst:0
+#: ../../getting-started/jg_33_anova-rm.rst
 msgid ""
 "A little more comprehensive introduction into this statistical method is "
 "provided by this `video "
 "<https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+
+#~ msgid "Select ``Analyses`` -> ``ANOVA`` -> ``Repeated Measures ANOVA``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the box **Repeated Measures "
+#~ "Factors**: write the name of your "
+#~ "outcome variable (e.g. My_scale) and "
+#~ "name the levels for each measurement "
+#~ "occasion (e.g. Pre, Post and 12 "
+#~ "month follow-up). The images below "
+#~ "shows the box with default values "
+#~ "(left) and when the values has "
+#~ "been set (right)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Drag and drop your outcome variables "
+#~ "to their respective cells in **Repeated"
+#~ " Measures Cells**."
+#~ msgstr ""
+

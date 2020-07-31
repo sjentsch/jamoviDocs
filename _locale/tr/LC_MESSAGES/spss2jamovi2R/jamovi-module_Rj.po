@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -31,10 +31,6 @@ msgid ""
 "jamovi library. This will create a «R»-icon in the icon bar."
 msgstr ""
 
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:13
-msgid "|jamovi_Rj1|"
-msgstr ""
-
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:22
 msgid "Running R commands"
 msgstr ""
@@ -43,17 +39,9 @@ msgstr ""
 msgid "Click on the «R» icon and select «Rj Editor»."
 msgstr ""
 
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:28
-msgid "|jamovi_Rj2|"
-msgstr ""
-
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:25
 msgid ""
 "This opens an input field on the left side where you can use R commands."
-msgstr ""
-
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:28
-msgid "|jamovi_Rj3|"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:31
@@ -178,10 +166,6 @@ msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:106
 msgid "Switch between R-versions"
-msgstr ""
-
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:109
-msgid "|jamovi_Rj4|"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:109

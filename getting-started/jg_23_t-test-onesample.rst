@@ -23,13 +23,13 @@ t-test: One sample
 
    |
 
-#. | Drag and drop your dependent variable to **Dependent Variables**.
+#. | Drag and drop your dependent variable to ``Dependent Variables``.
 
    |add_var_ttest_onesample|  
 
    |
 
-#. | Locate the section **Hypothesis** further down, this is where you
+#. | Locate the section ``Hypothesis`` further down, this is where you
      enter the mean you want to test against.
 
    |add_var_ttest_onesample_2|
@@ -47,7 +47,7 @@ t-test: One sample
       
 .. ---------------------------------------------------------------------
 
-.. |continuous|                   image:: ../_images/variable-continuous.svg
+.. |continuous|                   image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_ttest_onesample|  image:: ../_images/jg_data_format_ttest_onesample.jpg
    :width: 30% 

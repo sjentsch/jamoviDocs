@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -33,10 +33,6 @@ msgstr ""
 msgid "We receive the following error message."
 msgstr ""
 
-#: ../../development/tut_0105-debugging-an-analysis.rst:23
-msgid "|error|"
-msgstr ""
-
 #: ../../development/tut_0105-debugging-an-analysis.rst:25
 msgid ""
 "In this example, our code is only one line of code, so we can be reasonably "
@@ -48,18 +44,10 @@ msgid ""
 "jamovi window:"
 msgstr ""
 
-#: ../../development/tut_0105-debugging-an-analysis.rst:33
-msgid "|dev-mode|"
-msgstr ""
-
 #: ../../development/tut_0105-debugging-an-analysis.rst:35
 msgid ""
 "With dev mode turned on, we can see the stack trace and see that the call to"
 " ``t.test(c(Inf, 3))`` is responsible for the error."
-msgstr ""
-
-#: ../../development/tut_0105-debugging-an-analysis.rst:38
-msgid "|stack|"
 msgstr ""
 
 #: ../../development/tut_0105-debugging-an-analysis.rst:40

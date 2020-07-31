@@ -1,21 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
-"Language-Team: Korean (https://www.transifex.com/jamovi/teams/111618/ko/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Korean (https://www.transifex.com/jamovi/teams/111618/ko/)"
+"\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:5
 msgid "Rj-module for jamovi"
@@ -27,12 +32,8 @@ msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:10
 msgid ""
-"First you have to `install the module <Install_modules.html>`__ Rj from the "
-"jamovi library. This will create a «R»-icon in the icon bar."
-msgstr ""
-
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:13
-msgid "|jamovi_Rj1|"
+"First you have to `install the module <Install_modules.html>`__ Rj from "
+"the jamovi library. This will create a «R»-icon in the icon bar."
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:22
@@ -43,41 +44,33 @@ msgstr ""
 msgid "Click on the «R» icon and select «Rj Editor»."
 msgstr ""
 
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:28
-msgid "|jamovi_Rj2|"
-msgstr ""
-
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:25
-msgid ""
-"This opens an input field on the left side where you can use R commands."
-msgstr ""
-
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:28
-msgid "|jamovi_Rj3|"
+msgid "This opens an input field on the left side where you can use R commands."
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:31
 msgid ""
 "You can access your dataset with the variable ``data``. The first line "
-"selects the first three columns of your dataset. Alternatively, you can use "
-"variable names as shown in the second line. .. code-block: R "
+"selects the first three columns of your dataset. Alternatively, you can "
+"use variable names as shown in the second line. .. code-block: R "
 "summary(data[1:3]) summary(data[, c('var1', 'var2', 'var3')])"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:38
 msgid ""
 "But you can also use functions from R libraries: .. code-block: R "
-"stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), mean)"
+"stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), "
+"mean)"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:42
 msgid ""
 "It may take a bit of time to figure out how to use these functions, "
-"especially to discover, e.g., which format is required for the data matrices"
-" you use as input to functions (those may need to be converted to numbers "
-"with «as.numeric» or to a list with «list»). But once you managed that, you "
-"have unlimited access to (almost) any kind of statistical analysis you can "
-"imagine."
+"especially to discover, e.g., which format is required for the data "
+"matrices you use as input to functions (those may need to be converted to"
+" numbers with «as.numeric» or to a list with «list»). But once you "
+"managed that, you have unlimited access to (almost) any kind of "
+"statistical analysis you can imagine."
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:48
@@ -85,41 +78,42 @@ msgid ""
 "This is not at least because there come already a wealth of R libraries "
 "installed with jamovi and Rj: ``abind``, ``acepack``, ``afex``, ``arm``, "
 "``assertthat``, ``backports``, ``base``, ``base64enc``, ``BayesFactor``, "
-"``BDgraph``, ``BH``, ``bindr``, ``bindrcpp``, ``bitops``, ``boot``, ``ca``, "
-"``car``, ``carData``, ``caTools``, ``cellranger``, ``checkmate``, ``class``,"
-" ``cli``, ``clipr``, ``cluster``, ``coda``, ``codetools``, ``colorspace``, "
-"``compiler``, ``contfrac``, ``corpcor``, ``crayon``, ``curl``, "
-"``d3Network``, ``data.table``, ``datasets``, ``deSolve``, ``digest``, "
-"``dplyr``, ``ellipsis``, ``elliptic``, ``emmeans``, ``estimability``, "
-"``evaluate``, ``evaluate``, ``exact2x2``, ``exactci``, ``fansi``, "
-"``fdrtool``, ``forcats``, ``foreign``, ``Formula``, ``gdata``, ``GGally``, "
-"``ggm``, ``ggplot2``, ``ggridges``, ``glasso``, ``glue``, ``gnm``, "
-"``GPArotation``, ``gplots``, ``graphics``, ``grDevices``, ``grid``, "
-"``gridExtra``, ``gtable``, ``gtools``, ``haven``, ``highr``, ``Hmisc``, "
-"``hms``, ``htmlTable``, ``htmltools``, ``htmlwidgets``, ``huge``, "
-"``hypergeo``, ``igraph``, ``jmv``, ``jmvcore``, ``jpeg``, ``jsonlite``, "
-"``KernSmooth``, ``knitr``, ``kutils``, ``labeling``, ``lattice``, "
-"``latticeExtra``, ``lavaan``, ``lazyeval``, ``lisrelToR``, ``lme4``, "
-"``lmerTest``, ``lmtest``, ``magrittr``, ``maptools``, ``markdown``, "
-"``MASS``, ``Matrix``, ``matrixcalc``, ``MatrixModels``, ``methods``, "
-"``mgcv``, ``mi``, ``mime``, ``minqa``, ``mnormt``, ``multcomp``, "
-"``munsell``, ``mvnormtest``, ``mvtnorm``, ``nlme``, ``nloptr``, ``nnet``, "
-"``numDeriv``, ``OpenMx``, ``openxlsx``, ``parallel``, ``pbapply``, "
-"``pbivnorm``, ``pbkrtest``, ``pillar``, ``pkgconfig``, ``pkgconfig``, "
-"``plogr``, ``plyr``, ``PMCMR``, ``png``, ``praise``, ``prettyunits``, "
-"``progress``, ``psych``, ``purrr``, ``qgraph``, ``quantreg``, ``qvcalc``, "
-"``R6``, ``RColorBrewer``, ``Rcpp``, ``RcppArmadillo``, ``RcppEigen``, "
-"``RCurl``, ``readr``, ``readxl``, ``regsem``, ``relimp``, ``rematch``, "
-"``reshape``, ``reshape2``, ``RInside``, ``rio``, ``Rj``, ``rjson``, "
-"``rlang``, ``rockchalk``, ``ROCR``, ``rpart``, ``rpf``, ``RProtoBuf``, "
-"``Rsolnp``, ``rstudioapi``, ``RUnit``, ``sandwich``, ``scales``, ``sem``, "
-"``semPlot``, ``semTools``, ``sp``, ``SparseM``, ``spatial``, ``splines``, "
-"``ssanv``, ``StanHeaders``, ``stats``, ``stats4``, ``stringi``, ``stringr``,"
-" ``survival``, ``tcltk``, ``testthat``, ``TH.data``, ``tibble``, "
+"``BDgraph``, ``BH``, ``bindr``, ``bindrcpp``, ``bitops``, ``boot``, "
+"``ca``, ``car``, ``carData``, ``caTools``, ``cellranger``, ``checkmate``,"
+" ``class``, ``cli``, ``clipr``, ``cluster``, ``coda``, ``codetools``, "
+"``colorspace``, ``compiler``, ``contfrac``, ``corpcor``, ``crayon``, "
+"``curl``, ``d3Network``, ``data.table``, ``datasets``, ``deSolve``, "
+"``digest``, ``dplyr``, ``ellipsis``, ``elliptic``, ``emmeans``, "
+"``estimability``, ``evaluate``, ``evaluate``, ``exact2x2``, ``exactci``, "
+"``fansi``, ``fdrtool``, ``forcats``, ``foreign``, ``Formula``, ``gdata``,"
+" ``GGally``, ``ggm``, ``ggplot2``, ``ggridges``, ``glasso``, ``glue``, "
+"``gnm``, ``GPArotation``, ``gplots``, ``graphics``, ``grDevices``, "
+"``grid``, ``gridExtra``, ``gtable``, ``gtools``, ``haven``, ``highr``, "
+"``Hmisc``, ``hms``, ``htmlTable``, ``htmltools``, ``htmlwidgets``, "
+"``huge``, ``hypergeo``, ``igraph``, ``jmv``, ``jmvcore``, ``jpeg``, "
+"``jsonlite``, ``KernSmooth``, ``knitr``, ``kutils``, ``labeling``, "
+"``lattice``, ``latticeExtra``, ``lavaan``, ``lazyeval``, ``lisrelToR``, "
+"``lme4``, ``lmerTest``, ``lmtest``, ``magrittr``, ``maptools``, "
+"``markdown``, ``MASS``, ``Matrix``, ``matrixcalc``, ``MatrixModels``, "
+"``methods``, ``mgcv``, ``mi``, ``mime``, ``minqa``, ``mnormt``, "
+"``multcomp``, ``munsell``, ``mvnormtest``, ``mvtnorm``, ``nlme``, "
+"``nloptr``, ``nnet``, ``numDeriv``, ``OpenMx``, ``openxlsx``, "
+"``parallel``, ``pbapply``, ``pbivnorm``, ``pbkrtest``, ``pillar``, "
+"``pkgconfig``, ``pkgconfig``, ``plogr``, ``plyr``, ``PMCMR``, ``png``, "
+"``praise``, ``prettyunits``, ``progress``, ``psych``, ``purrr``, "
+"``qgraph``, ``quantreg``, ``qvcalc``, ``R6``, ``RColorBrewer``, ``Rcpp``,"
+" ``RcppArmadillo``, ``RcppEigen``, ``RCurl``, ``readr``, ``readxl``, "
+"``regsem``, ``relimp``, ``rematch``, ``reshape``, ``reshape2``, "
+"``RInside``, ``rio``, ``Rj``, ``rjson``, ``rlang``, ``rockchalk``, "
+"``ROCR``, ``rpart``, ``rpf``, ``RProtoBuf``, ``Rsolnp``, ``rstudioapi``, "
+"``RUnit``, ``sandwich``, ``scales``, ``sem``, ``semPlot``, ``semTools``, "
+"``sp``, ``SparseM``, ``spatial``, ``splines``, ``ssanv``, "
+"``StanHeaders``, ``stats``, ``stats4``, ``stringi``, ``stringr``, "
+"``survival``, ``tcltk``, ``testthat``, ``TH.data``, ``tibble``, "
 "``tidyselect``, ``tools``, ``truncnorm``, ``utf8``, ``utils``, ``vcd``, "
 "``vcdExtra``, ``vctrs``, ``viridis``, ``viridisLite``, ``whisker``, "
-"``withr``, ``xfun``, ``XML``, ``xtable``, ``yaml``, ``zeallot``, ``zip``, "
-"``zoo``."
+"``withr``, ``xfun``, ``XML``, ``xtable``, ``yaml``, ``zeallot``, ``zip``,"
+" ``zoo``."
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:84
@@ -129,39 +123,40 @@ msgstr ""
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:86
 msgid ""
 "|stats|_ to get access to a wealth of statistical analyses (e.g., "
-"``stats::glm`` for fitting Generalized Linear Models or ``stats:kmeans`` for"
-" running k-means cluster analyses)"
+"``stats::glm`` for fitting Generalized Linear Models or ``stats:kmeans`` "
+"for running k-means cluster analyses)"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:89
 msgid ""
-"|lme4|_ to calculate Linear, Generalized Linear, and Nonlinear mixed modells"
+"|lme4|_ to calculate Linear, Generalized Linear, and Nonlinear mixed "
+"modells"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:90
 msgid ""
-"|MASS|_ implements analyses from Venables og Ripley's famous book «Modern "
-"Applied Statistics with S» (which includes, e.e., linear discriminant "
+"|MASS|_ implements analyses from Venables og Ripley's famous book «Modern"
+" Applied Statistics with S» (which includes, e.e., linear discriminant "
 "analysis ``MASS::lda``)"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:93
 msgid ""
 "|lavaan|_ to run a wide range of analyses with latent variables (incl. "
-"confirmatory factor analysis, structural equation modeling and latent growth"
-" curve models)"
+"confirmatory factor analysis, structural equation modeling and latent "
+"growth curve models)"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:96
 msgid ""
 "|BayesFactor|_ to run several types of Bayes-analyses to complement your "
 "«classical» (frequentist) statistics (e.g. the Bayes-equivalent of the "
-"t-test; NB: it is of course easier to use the jamovi-module «jsq» for that)"
+"t-test; NB: it is of course easier to use the jamovi-module «jsq» for "
+"that)"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:99
-msgid ""
-"|cluster|_ to run several types of `cluster analyses <cluster_analyses>`__"
+msgid "|cluster|_ to run several types of `cluster analyses <cluster_analyses>`__"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:100
@@ -172,8 +167,8 @@ msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:102
 msgid ""
-"there are also several of Hadley Wickham's |tidyverse|_ libraries included, "
-"\\e.g., |dplyr|_, |stringr|_ or |tidyselect|_"
+"there are also several of Hadley Wickham's |tidyverse|_ libraries "
+"included, \\e.g., |dplyr|_, |stringr|_ or |tidyselect|_"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:106
@@ -181,20 +176,29 @@ msgid "Switch between R-versions"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:109
-msgid "|jamovi_Rj4|"
+msgid ""
+"Per default, Rj uses the R-installation that is included with jamovi. For"
+" most circumstances this will be sufficient (not the least because quite "
+"a wealth of libraries is included; see above). However, there might be "
+"occasions where you would like to use the R-installation on your "
+"computer; typically, if you want to use libraries that are not included "
+"in jamovi's R-version. To do this, click on the cogwheel symbol in the "
+"top-right corner of the Rj-input field. A window opens where you can set "
+"whether you would like to use jamovi's R version («jamovi R» in the "
+"dropdown box at the bottom) or your system's R version («System R»). "
+"Please note that currently (Nov 2019), this option is not available for "
+"certain system-and-R-version-combinations (e.g., R > 3.4 on Linux)."
 msgstr ""
 
-#: ../../spss2jamovi2R/jamovi-module_Rj.rst:109
-msgid ""
-"Per default, Rj uses the R-installation that is included with jamovi. For "
-"most circumstances this will be sufficient (not the least because quite a "
-"wealth of libraries is included; see above). However, there might be "
-"occasions where you would like to use the R-installation on your computer; "
-"typically, if you want to use libraries that are not included in jamovi's "
-"R-version. To do this, click on the cogwheel symbol in the top-right corner "
-"of the Rj-input field. A window opens where you can set whether you would "
-"like to use jamovi's R version («jamovi R» in the dropdown box at the "
-"bottom) or your system's R version («System R»). Please note that currently "
-"(Nov 2019), this option is not available for certain system-and-R-version-"
-"combinations (e.g., R > 3.4 on Linux)."
-msgstr ""
+#~ msgid "|jamovi_Rj1|"
+#~ msgstr ""
+
+#~ msgid "|jamovi_Rj2|"
+#~ msgstr ""
+
+#~ msgid "|jamovi_Rj3|"
+#~ msgstr ""
+
+#~ msgid "|jamovi_Rj4|"
+#~ msgstr ""
+

@@ -14,12 +14,11 @@ import re
 import sphinx_rtd_theme
 from sphinx.locale import _
 
-
 # -- Project information -----------------------------------------------------
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2020-, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
+copyright = u'2020 - , ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -41,7 +40,6 @@ gettext_compact = False
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.viewcode',  
 ]
@@ -74,11 +72,17 @@ show_authors = True
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'default'
 
-# If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
-
 
 # -- Options for HTML output -------------------------------------------------
+# Customize the "best image" order for the StandaloneHTMLBuilder class.
+from sphinx.builders.html import StandaloneHTMLBuilder
+StandaloneHTMLBuilder.supported_image_types = [
+    'image/svg+xml',
+    'image/gif',
+    'image/png',
+    'image/jpeg'
+]
+
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = "sphinx_rtd_theme"
@@ -109,7 +113,7 @@ html_static_path = [u'_static']
 # The “title” for HTML documentation generated with Sphinx’s own templates.
 # This is appended to the <title> tag of individual pages, and used in the
 # navigation bar as the “topmost” element. It defaults to '<project> v<revision> documentation'.
-html_title = project
+html_title = 'jamovi Documentation'
 
 # Name of an image file (path relative to the configuration directory) that is the logo of the docs.
 # It is placed at the top of the sidebar; its width should therefore not exceed 200 pixels. Default: None.
@@ -248,23 +252,56 @@ epub_writing_mode = 'horizontal'
 # Contrarily to MathJaX math rendering in HTML output, LaTeX requires some extra configuration to support Unicode literals in math:
 # the only comprehensive solution (as far as we know) is to use 'xelatex' or 'lualatex' and to add r'\usepackage{unicode-math}' (e.g. via the latex_elements 'preamble' key).
 # You may prefer r'\usepackage[math-style=literal]{unicode-math}' to keep a Unicode literal such as α (U+03B1) for example as is in output, rather than being rendered as α.
-latex_engine = 'pdflatex'
+latex_engine = 'xelatex'
 
 # Grouping the document tree into LaTeX files. List of tuples
 #   (source start file, target name,      title,                       author, theme,    toctree_only).
 latex_documents = [
-    (master_doc,        'jamoviDocs.tex', u'Documentation for jamovi', author, 'manual', True),
+    (master_doc,        'jamoviDocs.tex', u'Documentation for jamovi', u'The jamovi Group', 'manual', True),
 ]
 
+# If given, this must be the name of an image file (relative to the configuration directory) that
+# is the logo of the docs. It is placed at the top of the title page. Default: None.
+#latex_logo = None
+
+# If true, the topmost sectioning unit is parts, else it is chapters. Default: False.
+latex_use_parts = False
+
+# A dictionary that contains LaTeX snippets that override those Sphinx usually puts into the generated .tex files.
+# Keep in mind that backslashes must be doubled in Python string literals to avoid interpretation as escape sequences.
+# Keys that are set by other options and therefore should not be overridden are:
+# 'docclass', 'classoptions', 'title', 'date', 'release', 'author', 'logo', 'releasename', 'makeindex', 'shorthandoff'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
-    'pointsize': '12pt',
+    'pointsize': '10pt',
 
-    # Additional stuff for the LaTeX preamble.
-    # 'preamble': '',
+    # “babel” package inclusion, default '\\usepackage{babel}'.
+    'babel': '\\usepackage{babel}',
+    
+    # Font package inclusion, default '\\usepackage{times}' (which uses Times and Helvetica).
+    # You can set this to '' to use the Computer Modern fonts.
+    # Defaults to '' when the language uses the Cyrillic script.
+    'fontpkg': '\\usepackage{times}',
+
+    # Inclusion of the “fncychap” package (which makes fancy chapter titles)
+    # default '\\usepackage[Bjarne]{fncychap}' for English documentation, 
+    #         '\\usepackage[Sonny]{fncychap}' for internationalized docs (because the “Bjarne” style uses numbers spelled out in English).
+    # Other “fncychap” styles you can try include “Lenny”, “Glenn”, “Conny” and “Rejne”. You can also set this to '' to disable fncychap.
+    'fncychap': '\\usepackage[Bjarne]{fncychap}', 
+   
+    # “inputenc” package inclusion, default '\\usepackage[utf8]{inputenc}'.
+    'inputenc' :  '\\usepackage[utf8x]{inputenc}',
+#    'utf8extra': ('\\ifdefined\\DeclareUnicodeCharacter\n'
+#                  ' \\ifdefined\\DeclareUnicodeCharacterAsOptional\\else\n'
+#                  '  \\DeclareUnicodeCharacter{2261}{\\equiv}\n'
+#                  '  \\DeclareUnicodeCharacter{2630}{\\equiv}\n'
+#                  '\\fi\\fi'),
+
+    # “fontenc” package inclusion, default '\\usepackage[T1]{fontenc}'.
+    'fontenc': '\\usepackage[T1]{fontenc}',
 
     # Latex figure (float) alignment
     'figure_align': 'htbp',
@@ -278,6 +315,9 @@ latex_show_pagerefs = True
 # 'footnote' – display URLs in footnotes
 # 'inline' – display URLs inline in parentheses
 latex_show_urls = 'inline'
+
+# If true, add page references after internal references. This is very useful for printed copies of the manual. Default is False.
+latex_show_pagerefs = True
 
 
 # -- Options for manual page output ---------------------------------------

@@ -19,13 +19,13 @@ ANOVA: Mixed
 
    |
 
-#. | Select ``Analyses`` -> ``ANOVA`` -> ``Repeated Measures ANOVA``.
+#. | Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``.
 
    |select_anova_repeated|
 
    |
 
-#. | In the box **Repeated Measures Factors**: write the name of your outcome
+#. | In the box ``Repeated Measures Factors``: write the name of your outcome
      variable (e.g. My_scale) and name the levels for each measurement occasion
      (e.g. Pre, Post and 12 month follow-up). The below images illustrates this.
    
@@ -33,14 +33,14 @@ ANOVA: Mixed
 
    |
 
-#. | Drag and drop your outcome variables to their respective cells in **Repeated
-     Measures Cells**.
+#. | Drag and drop your outcome variables to their respective cells in ``Repeated
+     Measures Cells``.
    
    |add_var_anova_repeated|
    
    |
 
-#. | Move your grouping variables to **Between Subject Factors**.
+#. | Move your grouping variables to ``Between Subject Factors``.
 
    |add_var_anova_mixed|
    
@@ -58,9 +58,9 @@ ANOVA: Mixed
 
 .. ---------------------------------------------------------------------
 
-.. |nominal|                          image:: ../_images/variable-nominal.svg
+.. |nominal|                          image:: ../_images/variable-nominal.*
    :width: 16px
-.. |continuous|                       image:: ../_images/variable-continuous.svg
+.. |continuous|                       image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_anova_mixed|          image:: ../_images/jg_data_format_anova_mixed.jpg
    :width: 50%

@@ -22,7 +22,7 @@ t-test: Paired samples
 
    |
 
-#. | Drag and drop your two outcome variables to **Paired Variables**.
+#. | Drag and drop your two outcome variables to ``Paired Variables``.
 
    |add_var_ttest_paired| 
 
@@ -39,7 +39,7 @@ t-test: Paired samples
  
 .. ---------------------------------------------------------------------
 
-.. |continuous|                image:: ../_images/variable-continuous.svg
+.. |continuous|                image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_ttest_paired|  image:: ../_images/jg_data_format_ttest_paired.jpg
    :width: 40%

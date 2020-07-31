@@ -325,21 +325,21 @@ Syntax Mode
 
 .. |screenshot|          image:: ../_images/um_screenshot.png
    :width: 100%
-.. |csv-data|            image:: ../_images/jg_csv_data.png 
+.. |csv-data|            image:: ../_images/jg_csv_data.png
    :width: 40%
-.. |analysis|            image:: ../_images/um_analysis.gif
+.. |analysis|            image:: ../_images/um_analysis.*
    :width: 100%
-.. |nominal|             image:: ../_images/variable-nominal.svg
+.. |nominal|             image:: ../_images/variable-nominal.*
    :width: 16px
-.. |ordinal|             image:: ../_images/variable-ordinal.svg
+.. |ordinal|             image:: ../_images/variable-ordinal.*
    :width: 16px
-.. |continuous|          image:: ../_images/variable-continuous.svg
+.. |continuous|          image:: ../_images/variable-continuous.*
    :width: 16px
-.. |id|                  image:: ../_images/variable-id.svg
+.. |id|                  image:: ../_images/variable-id.*
    :width: 16px
-.. |change-name|         image:: ../_images/um_changeName.gif
+.. |change-name|         image:: ../_images/um_changeName.*
    :width: 100%
-.. |copy-paste|          image:: ../_images/um_copyPaste.gif
+.. |copy-paste|          image:: ../_images/um_copyPaste.*
    :width: 100%     
-.. |r-syntax|            image:: ../_images/um_rSyntax.gif
+.. |r-syntax|            image:: ../_images/um_rSyntax.*
    :width: 100%

@@ -1,80 +1,71 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
-"Language-Team: Korean (https://www.transifex.com/jamovi/teams/111618/ko/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Korean (https://www.transifex.com/jamovi/teams/111618/ko/)"
+"\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:5
 msgid "Comparison of analyses available in SPSS and jamovi"
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
 msgid "**SPSS** (version 25)"
-msgstr ""
-
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
-msgid "|spss_prices|"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:8
 msgid "**jamovi** (versjon 1.2)"
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:11
-msgid "|SPSS_Analyze|"
-msgstr ""
-
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:11
-msgid "|jamovi_Analyze|"
-msgstr ""
-
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
 msgid ""
-"Already at first glance, it becomes clear that jamovi currently has fewer "
-"features than SPSS. But:"
+"Already at first glance, it becomes clear that jamovi currently has fewer"
+" features than SPSS. But:"
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
 msgid ""
-"(1) There is a (ever increasing) made available via modules (press the \"+\""
-" sign in the right upper corner of the jamovi window to add them) and"
+"(1) There is a (ever increasing) made available via modules (press the "
+"\"+\" sign in the right upper corner of the jamovi window to add them) "
+"and"
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
+#, python-format
 msgid ""
-"(2) The features implemented already cover \"standard\" needs (90% of the "
-"most common analyses used in psychology)."
+"(2) The features implemented already cover \"standard\" needs (90% of the"
+" most common analyses used in psychology)."
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
 msgid ""
-"Feel free to check out which |modules| are available: There is also quite a "
-"wealth of modules covering functions that are not available in SPSS but very"
-" useful (e.g., for meta-analyses; MAJOR)."
+"Feel free to check out which |modules| are available: There is also quite"
+" a wealth of modules covering functions that are not available in SPSS "
+"but very useful (e.g., for meta-analyses; MAJOR)."
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
 msgid ""
-"If you are willing to use some R code (e.g., in conjunction with the jamovi-"
-"module Rj) then you can (most presumably) do every analysis you could "
-"imagine."
-msgstr ""
-
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:38
-msgid "|jamovi_Modules|"
+"If you are willing to use some R code (e.g., in conjunction with the "
+"jamovi-module Rj) then you can (most presumably) do every analysis you "
+"could imagine."
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:40
@@ -132,8 +123,8 @@ msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:57
 msgid ""
-"Exploration → Descriptives, *tick «Frequency tables» to get an output that "
-"is similar to that of «Frequencies» in SPSS*"
+"Exploration → Descriptives, *tick «Frequency tables» to get an output "
+"that is similar to that of «Frequencies» in SPSS*"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:62
@@ -226,8 +217,8 @@ msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:97
 msgid ""
-"ANOVA → Bayesian ANOVA (*can handle several factors while SPSS is limited to"
-" one factor*)"
+"ANOVA → Bayesian ANOVA (*can handle several factors while SPSS is limited"
+" to one factor*)"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:101
@@ -248,9 +239,9 @@ msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:106
 msgid ""
-"Exploration → Descriptives *replaces / integrates that functionality, choose"
-" the drop-down menu «Statistics» and set ticks at «Mean», «N» and «Std. "
-"deviation»*"
+"Exploration → Descriptives *replaces / integrates that functionality, "
+"choose the drop-down menu «Statistics» and set ticks at «Mean», «N» and "
+"«Std. deviation»*"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:112
@@ -321,8 +312,8 @@ msgstr ""
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:136
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:148
 msgid ""
-"*requires the jamovi-module «GAMLj» (General Analyses for the Linear Model "
-"in jamovi)*"
+"*requires the jamovi-module «GAMLj» (General Analyses for the Linear "
+"Model in jamovi)*"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:140
@@ -465,11 +456,11 @@ msgstr ""
 msgid "Dimension Reduction → Factor"
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
 msgid "Factor → (Data reduction) → Principal Component Analysis"
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
+#: ../../spss2jamovi2R/Comparison_of_analyses.rst
 msgid "Factor → (Data reduction) → Exploratory Factor Analysis [#FA]_"
 msgstr ""
 
@@ -500,8 +491,8 @@ msgstr ""
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:214
 msgid ""
 "N/A, *the tests itself are available (see below), but not a common start "
-"menu that allows a selection based on your data (e.g., between- or within-"
-"subject)*"
+"menu that allows a selection based on your data (e.g., between- or "
+"within-subject)*"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:216
@@ -527,8 +518,7 @@ msgid "Nonparametric Tests → Legacy Dialogs → Binomial"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:226
-msgid ""
-"Frequencies → (One Sample Proportion Tests) → 2 Outcomes (Binomial test)"
+msgid "Frequencies → (One Sample Proportion Tests) → 2 Outcomes (Binomial test)"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:229
@@ -541,8 +531,8 @@ msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:232
 msgid ""
-"N/A, *Shapiro-Wilks available under Exploration → Descriptives, choose drop-"
-"down menu «Statistics» and tick «Shapiro-Wilks»*"
+"N/A, *Shapiro-Wilks available under Exploration → Descriptives, choose "
+"drop-down menu «Statistics» and tick «Shapiro-Wilks»*"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:237
@@ -550,8 +540,7 @@ msgid "Nonparametric Tests → Legacy Dialogs → 2 Independent Samples"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:237
-msgid ""
-"T-Test → Independent Samples T-Test, *set kryss/tikk på «Mann-Whitney U»*"
+msgid "T-Test → Independent Samples T-Test, *set kryss/tikk på «Mann-Whitney U»*"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:240
@@ -648,9 +637,22 @@ msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:288
 msgid ""
-"Whereas SPSS puts both methods into one procedure (``FACTOR``) makes jamovi "
-"a conceptual difference between Principal Component Analysis aiming at data "
-"reduction (i.e., reducing the number of dimension that are required to "
-"describe the data) and Exploratory Factor Analysis aiming at extracting "
-"underlying latent variables."
+"Whereas SPSS puts both methods into one procedure (``FACTOR``) makes "
+"jamovi a conceptual difference between Principal Component Analysis "
+"aiming at data reduction (i.e., reducing the number of dimension that are"
+" required to describe the data) and Exploratory Factor Analysis aiming at"
+" extracting underlying latent variables."
 msgstr ""
+
+#~ msgid "|spss_prices|"
+#~ msgstr ""
+
+#~ msgid "|SPSS_Analyze|"
+#~ msgstr ""
+
+#~ msgid "|jamovi_Analyze|"
+#~ msgstr ""
+
+#~ msgid "|jamovi_Modules|"
+#~ msgstr ""
+

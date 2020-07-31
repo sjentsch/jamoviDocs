@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -88,10 +88,6 @@ msgid ""
 "appropriate jamovi instance."
 msgstr ""
 
-#: ../../development/ui_basecontrol.rst:29
-msgid "|stgLst|"
-msgstr ""
-
 #: ../../development/ui_basecontrol.rst:33
 msgid "``margin``"
 msgstr ""
@@ -114,14 +110,6 @@ msgid ""
 " the parent ``LayoutBox``."
 msgstr ""
 
-#: ../../development/ui_basecontrol.rst:37
-msgid "|cllObj|"
-msgstr ""
-
-#: ../../development/ui_basecontrol.rst:41
-msgid "|strFac|"
-msgstr ""
-
 #: ../../development/ui_basecontrol.rst:41
 msgid ""
 "A stretch factor greater than zero will cause the control to fill the "
@@ -141,10 +129,6 @@ msgid "number >= 0"
 msgstr ""
 
 #: ../../development/ui_basecontrol.rst:55
-msgid "|hrzAlg|"
-msgstr ""
-
-#: ../../development/ui_basecontrol.rst:55
 msgid ""
 "Specifies the horizontal alignment of the control when placed in the parent "
 "``LayoutBox`` cell"
@@ -152,10 +136,6 @@ msgstr ""
 
 #: ../../development/ui_basecontrol.rst:55
 msgid "*enum*: left, center, right"
-msgstr ""
-
-#: ../../development/ui_basecontrol.rst:59
-msgid "|vrtAlg|"
 msgstr ""
 
 #: ../../development/ui_basecontrol.rst:59

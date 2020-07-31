@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -57,22 +57,10 @@ msgid "Close the properties with the arrow-icon (→) at the top-right."
 msgstr ""
 
 #: ../../spss2jamovi2R/R-library_jmv.rst:34
-msgid "|jamovi_SyntaxMode1|"
-msgstr ""
-
-#: ../../spss2jamovi2R/R-library_jmv.rst:34
 msgid ""
 "The main window changes to text mode and you can run analyses and afterwards"
 " right-click on the command the appears at the top of each analysis to "
 "export or copy the syntax."
-msgstr ""
-
-#: ../../spss2jamovi2R/R-library_jmv.rst:40
-msgid "|jamovi_SyntaxMode2|"
-msgstr ""
-
-#: ../../spss2jamovi2R/R-library_jmv.rst:42
-msgid "|jamovi_SyntaxMode3|"
 msgstr ""
 
 #: ../../spss2jamovi2R/R-library_jmv.rst:47

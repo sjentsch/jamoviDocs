@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -86,10 +86,6 @@ msgid "string"
 msgstr ""
 
 #: ../../development/ui_textbox.rst:29
-msgid "|inpPtt|"
-msgstr ""
-
-#: ../../development/ui_textbox.rst:29
 msgid ""
 "Sets the input string filter for determining valid inputs. For example, a "
 "number ``TextBox`` would have ``inputPattern: '[0-9]+'``"
@@ -100,19 +96,11 @@ msgid "regular expression, string"
 msgstr ""
 
 #: ../../development/ui_textbox.rst:34
-msgid "|algTxt|"
-msgstr ""
-
-#: ../../development/ui_textbox.rst:34
 msgid "Set the horizontal alignment of the text within the ``TextBox``."
 msgstr ""
 
 #: ../../development/ui_textbox.rst:34
 msgid "enum: left, center, right"
-msgstr ""
-
-#: ../../development/ui_textbox.rst:37
-msgid "|brdLss|"
 msgstr ""
 
 #: ../../development/ui_textbox.rst:37

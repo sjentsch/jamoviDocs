@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
@@ -32,10 +32,6 @@ msgid ""
 msgstr ""
 "Beim ersten Start von jamovi wird eine Benutzeroberfläche angezeigt, die "
 "ungefähr so aussieht."
-
-#: ../../getting-started/um_2_first-steps.rst:9
-msgid "|screenshot|"
-msgstr "|screenshot|"
 
 #: ../../getting-started/um_2_first-steps.rst:11
 msgid ""
@@ -75,10 +71,6 @@ msgstr ""
 "jamovi, wählen Sie ``Open`` und dann ``This PC`` oder ``Data Library``, je "
 "nachdem, ob Sie eine auf Ihrem Computer gespeicherte Datei oder ein Beispiel"
 " öffnen möchten."
-
-#: ../../getting-started/um_2_first-steps.rst:27
-msgid "|csv-data|"
-msgstr "|csv-data|"
 
 #: ../../getting-started/um_2_first-steps.rst:29
 msgid ""
@@ -166,10 +158,6 @@ msgstr ""
 "klicken Sie mit der rechten Maustaste auf die Analyseergebnisse. Im sich "
 "öffnenden Menü wählen Sie ``Analysis`` und dann ``Remove`` um die Analyse zu"
 " entfernen."
-
-#: ../../getting-started/um_2_first-steps.rst:67
-msgid "|analysis|"
-msgstr "|analysis|"
 
 #: ../../getting-started/um_2_first-steps.rst:69
 msgid ""
@@ -311,10 +299,6 @@ msgstr ""
 "Faktorstufe angezeigte Bezeichnung ändern. Der Variableneditor kann durch "
 "Klicken auf den Schließpfeil oder durch erneutes Drücken von ``F3`` "
 "geschlossen werden."
-
-#: ../../getting-started/um_2_first-steps.rst:127
-msgid "|change-name|"
-msgstr "|change-name|"
 
 #: ../../getting-started/um_2_first-steps.rst:129
 msgid ""
@@ -692,10 +676,6 @@ msgstr ""
 "in die Zwischenablage kopiert und kann wie gewohnt in das andere Programm "
 "eingefügt werden."
 
-#: ../../getting-started/um_2_first-steps.rst:297
-msgid "|copy-paste|"
-msgstr "|copy-paste|"
-
 #: ../../getting-started/um_2_first-steps.rst:300
 msgid "Syntax Mode"
 msgstr "Syntax-Modus"
@@ -727,10 +707,6 @@ msgstr ""
 "R-Sitzung. Wie bei allen Ergebnisobjekten in jamovi können Sie mit der "
 "rechten Maustaste auf diese Elemente (einschließlich der R-Syntax) klicken "
 "und sie beispielsweise kopieren und in eine R-Sitzung einfügen."
-
-#: ../../getting-started/um_2_first-steps.rst:313
-msgid "|r-syntax|"
-msgstr "|r-syntax|"
 
 #: ../../getting-started/um_2_first-steps.rst:315
 msgid ""

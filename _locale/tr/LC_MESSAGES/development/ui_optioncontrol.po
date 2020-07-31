@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -73,10 +73,6 @@ msgid "Unique string (or option name)"
 msgstr ""
 
 #: ../../development/ui_optioncontrol.rst:28
-msgid "|optNme|"
-msgstr ""
-
-#: ../../development/ui_optioncontrol.rst:28
 msgid ""
 "Sets the name of the option to which the control is to be data bound. If "
 "this property is omitted and ``name`` property is used instead."
@@ -84,10 +80,6 @@ msgstr ""
 
 #: ../../development/ui_optioncontrol.rst:28
 msgid "defined option name"
-msgstr ""
-
-#: ../../development/ui_optioncontrol.rst:33
-msgid "|optPrt|"
 msgstr ""
 
 #: ../../development/ui_optioncontrol.rst:33

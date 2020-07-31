@@ -18,14 +18,14 @@ ANOVA: Factorial
    
    | 
 
-#. | Select ``Analyses`` -> ``ANOVA`` -> ``ANOVA``.
+#. | Select ``Analyses`` → ``ANOVA`` → ``ANOVA``.
 
    |select_anova_factorial|
    
    | 
 
-#. | Drag and drop your outcome variable to **Dependent Variable** and
-     your grouping variables to **Fixed Factors**.
+#. | Drag and drop your outcome variable to ``Dependent Variable`` and
+     your grouping variables to ``Fixed Factors``.
    
    |add_var_anova_factorial|
    
@@ -44,9 +44,9 @@ ANOVA: Factorial
 
 .. ---------------------------------------------------------------------
 
-.. |nominal|                      image:: ../_images/variable-nominal.svg
+.. |nominal|                      image:: ../_images/variable-nominal.*
    :width: 16px
-.. |continuous|                   image:: ../_images/variable-continuous.svg
+.. |continuous|                   image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_anova_factorial|  image:: ../_images/jg_data_format_anova_factorial.jpg
    :width: 50%

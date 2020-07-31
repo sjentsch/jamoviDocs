@@ -1,21 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
-"Language-Team: Italian (https://www.transifex.com/jamovi/teams/111618/it/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Italian "
+"(https://www.transifex.com/jamovi/teams/111618/it/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../development/tut_0101-getting-started.rst:5
 msgid "Getting Started"
@@ -34,8 +39,8 @@ msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:13
 msgid ""
-"Development of modules for jamovi requires the ``jmvtools`` package. In this"
-" tutorial we will:"
+"Development of modules for jamovi requires the ``jmvtools`` package. In "
+"this tutorial we will:"
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:16
@@ -56,8 +61,8 @@ msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:23
 msgid ""
-"``jmvtools`` is available from the jamovi repo, and can be installed in R "
-"with:"
+"``jmvtools`` is available from the jamovi repo, and can be installed in R"
+" with:"
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:26
@@ -72,8 +77,8 @@ msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:31
 msgid ""
-"Now you have ``jmvtools`` installed, we can check whether it can locate your"
-" jamovi installation:"
+"Now you have ``jmvtools`` installed, we can check whether it can locate "
+"your jamovi installation:"
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:34
@@ -82,8 +87,8 @@ msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:36
 msgid ""
-"``jmvtools`` searches for jamovi in what might be considered ’usual places`,"
-" such as:"
+"``jmvtools`` searches for jamovi in what might be considered ’usual "
+"places`, such as:"
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:39
@@ -110,14 +115,14 @@ msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:48
 msgid ""
-"(you should substitute in your own path, unless your username *is* jonathon,"
-" and you’ve got jamovi in your documents folder)."
+"(you should substitute in your own path, unless your username *is* "
+"jonathon, and you’ve got jamovi in your documents folder)."
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:51
 msgid ""
-"If you have to specify this path, you can set this for the remainder of the "
-"session with ``options()``:"
+"If you have to specify this path, you can set this for the remainder of "
+"the session with ``options()``:"
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:54
@@ -130,19 +135,19 @@ msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:59
 msgid ""
-"Now we have ``jmvtools`` installed and working, we can use it to build and "
-"install a module. If you haven’t already, start up jamovi. Next we’ll "
-"download a module from GitHub, build and install it. we’ll use the `Base R "
-"<https://github.com/jamovi/jmvbaseR>`__ module – you can download it using "
-"the direct link `here "
+"Now we have ``jmvtools`` installed and working, we can use it to build "
+"and install a module. If you haven’t already, start up jamovi. Next we’ll"
+" download a module from GitHub, build and install it. we’ll use the `Base"
+" R <https://github.com/jamovi/jmvbaseR>`__ module – you can download it "
+"using the direct link `here "
 "<https://github.com/jamovi/jmvbaseR/archive/master.zip>`__."
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:66
 msgid ""
-"Unzip the source directory and open the project file ``jmvbaseR.Rproj`` in "
-"RStudio (or just set your working directory to the source’s directory). Now "
-"we can call the ``install()`` function:"
+"Unzip the source directory and open the project file ``jmvbaseR.Rproj`` "
+"in RStudio (or just set your working directory to the source’s "
+"directory). Now we can call the ``install()`` function:"
 msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:70
@@ -155,15 +160,15 @@ msgstr ""
 
 #: ../../development/tut_0101-getting-started.rst:74
 msgid ""
-"If you turn now to your open jamovi window, you’ll see a new ‘Base R’ menu "
-"has appeared on the ribbon, with a set of new analyses. The ability to "
-"install and update jamovi analyses from R turns out to be pretty nifty, "
-"because as we’ll see in the next section, we can make changes to an "
-"analysis, run ``jmvtools::install()`` again, and immediately see those "
-"changes reflected in jamovi. This makes developing and testing jamovi "
+"If you turn now to your open jamovi window, you’ll see a new ‘Base R’ "
+"menu has appeared on the ribbon, with a set of new analyses. The ability "
+"to install and update jamovi analyses from R turns out to be pretty "
+"nifty, because as we’ll see in the next section, we can make changes to "
+"an analysis, run ``jmvtools::install()`` again, and immediately see those"
+" changes reflected in jamovi. This makes developing and testing jamovi "
 "analyses a breeze!"
 msgstr ""
 
-#: ../../development/tut_0101-getting-started.rst:82
-msgid "|image0|"
-msgstr ""
+#~ msgid "|image0|"
+#~ msgstr ""
+

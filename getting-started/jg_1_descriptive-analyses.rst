@@ -27,7 +27,7 @@ Descriptive analyses
    | 
    
 #. | To split your descriptive analyses on a categorical variable (e.g. to
-     separate by gender), move that variable to **Split by**.
+     separate by gender), move that variable to ``Split by``.
 
    |add_var_descriptives_groupby|
 
@@ -37,13 +37,13 @@ Descriptive analyses
 
    | 
    
-#. | Click the **Statistics** tab to see more alternatives.
+#. | Click the ``Statistics`` tab to see more alternatives.
 
    |select_descriptives_statistics|
 
    | 
    
-#. | To create a plot based on the above choices, click the **Plots** 
+#. | To create a plot based on the above choices, click the ``Plots`` 
      tab and tick the box of your desired plot.
      
    |select_descriptives_plots|

@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-30 22:32+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +23,7 @@ msgstr ""
 
 #: ../../getting-started/jg_0_welcome.rst:5
 msgid "jamovi guide"
-msgstr ""
+msgstr "jamovi guide"
 
 #: ../../getting-started/jg_0_welcome.rst:7
 msgid ""
@@ -30,10 +34,16 @@ msgid ""
 "the free e-book `learning statistics with jamovi "
 "<https://www.learnstatswithjamovi.com/>`__"
 msgstr ""
+"Målet med jamovi-guiden er å tilby korte, ikke-tekniske instruksjoner om "
+"hvordan en kan utføre ofte brukte statistiske prosedyrer i jamovi. "
+"Imidlertid er det ikke en ressurs som gir en grundig innføring i bakgrunnen "
+"for disse metodene, men det eksisterer mange andre ressurser for dette, "
+"f.eks. e-boken `learning statistics with jamovi "
+"<https://www.learnstatswithjamovi.com/>`__ (gratis, på Engelsk)."
 
 #: ../../getting-started/jg_0_welcome.rst:21
 msgid "t-tests"
-msgstr ""
+msgstr "t-tester"
 
 #: ../../getting-started/jg_0_welcome.rst:23
 msgid ""
@@ -43,14 +53,19 @@ msgid ""
 "video "
 "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+"t-testen brukes til å teste om middelverdien i et normaltfordelt datasett "
+"avviker betydelig fra en nullhypotese (som antar at det ikke er noen "
+"forskjell). Konseptet presenteres i denne `introduksjonsvideoen "
+"<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+" (på Engelsk)."
 
 #: ../../getting-started/jg_0_welcome.rst:28
 msgid "There are three types of t-tests:"
-msgstr ""
+msgstr "Det eksisterer tre arter av t-tester:"
 
 #: ../../getting-started/jg_0_welcome.rst:40
 msgid "Analyses of Variance (ANOVA)"
-msgstr ""
+msgstr "Variansanalyse (Analyses of Variance; ANOVA)"
 
 #: ../../getting-started/jg_0_welcome.rst:42
 msgid ""
@@ -66,6 +81,19 @@ msgid ""
 " the concept of an ANOVA is presented in this `video "
 "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+"Variansanalyse (ANOVA) er en statistisk metode som undersøker hvilken "
+"virkning en eller flere faktorer har på en utfalls- (avhengig) variabel. "
+"Disse faktorene er prediktorvariablene og de er kategoriske. Typisk "
+"gjenspeiler slike faktorer en eksperimentell manipulasjon (f.eks. med eller "
+"uten behandling). En faktor kan også representere en gruppe hvor en ønsker å"
+" kontrollere hvilken påvirkning det har på utfallsvariablen (f.eks. kjønn: "
+"menn eller kvinner) og dermed kontrollerer for dette. Variansanalysen er "
+"basert på et konsept som ligner på t-testen, men det går utover det, ved at "
+"faktorer kan ha flere nivåer / trinn (t-tester tillater bare to) og ved at "
+"flere faktorer kan undersøkes samtidig. En introduksjon til konseptet av "
+"ANOVA presenteres i denne `videoen "
+"<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+" (på Engelsk)."
 
 #: ../../getting-started/jg_0_welcome.rst:53
 msgid ""
@@ -73,10 +101,14 @@ msgid ""
 "number of factors examined - one or more factors - or whether they compare "
 "between people or within a person - repeated measurements:"
 msgstr ""
+"Det er forskjellige typer variansanalyser, som skiller seg i hvilket antall "
+"faktorer som er undersøkt - variansanalyser med en eller flere faktorer - og"
+" om de sammenligner blant forskjellige mennesker eller blant forskjellige "
+"målinger innenfor personer - variansanalyser for gjentatte målinger:"
 
 #: ../../getting-started/jg_0_welcome.rst:68
 msgid "Correlation and regression"
-msgstr ""
+msgstr "Korrelasjons- og regresjonsanalyser"
 
 #: ../../getting-started/jg_0_welcome.rst:70
 msgid ""
@@ -91,3 +123,13 @@ msgid ""
 "`video "
 "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+"Korrelasjons- og regresjonsanalyser er statistiske metoder for å vurdere "
+"sammenhengene mellom en avhengig / utfallsvariabel og en eller flere "
+"uavhengige / prediktorvariabler. Mens *korrelasjoner* undersøker "
+"*sammenhenger* mellom en prediktor og en utfallsvariabel, fokuserer "
+"*regresjonsanalyser* på *prediksjon* (dvs. hvor godt en eller flere "
+"variabler kan forutsi en annen utfallsvariabel). Ofte skilles det mellom "
+"lineær og ikke-lineær (f.eks. logistisk) regresjon. En introduksjon til "
+"regresjonsanalyser presenteres i denne `videoen "
+"<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+" (på Engelsk)."

@@ -1,21 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
-"Language-Team: Portuguese (https://www.transifex.com/jamovi/teams/111618/pt/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Portuguese "
+"(https://www.transifex.com/jamovi/teams/111618/pt/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../development/api_table.rst:5
 msgid "Assign results to tables (in ``R``)"
@@ -23,19 +28,21 @@ msgstr ""
 
 #: ../../development/api_table.rst:7
 msgid ""
-"This document describes the properties and methods of a jamovi table object."
+"This document describes the properties and methods of a jamovi table "
+"object."
 msgstr ""
 
 #: ../../development/api_table.rst:10
 msgid ""
-"The values of properties can be accessed using the ``$`` operator, followed "
-"by the name. For example, to retrieve the title of a table, one can go:"
+"The values of properties can be accessed using the ``$`` operator, "
+"followed by the name. For example, to retrieve the title of a table, one "
+"can go:"
 msgstr ""
 
 #: ../../development/api_table.rst:18
 msgid ""
-"The methods of a table object are called using the ``$`` operator as well. "
-"For example:"
+"The methods of a table object are called using the ``$`` operator as "
+"well. For example:"
 msgstr ""
 
 #: ../../development/api_table.rst:26
@@ -71,8 +78,7 @@ msgid "status"
 msgstr ""
 
 #: ../../development/api_table.rst:46
-msgid ""
-"a string, one of ``'complete'``, ``'error'``, ``'inited'``, ``'running'``"
+msgid "a string, one of ``'complete'``, ``'error'``, ``'inited'``, ``'running'``"
 msgstr ""
 
 #: ../../development/api_table.rst:49
@@ -180,8 +186,7 @@ msgid "integer"
 msgstr ""
 
 #: ../../development/api_table.rst:97
-msgid ""
-"the index to insert the column at. if unspecified, the column is appended."
+msgid "the index to insert the column at. if unspecified, the column is appended."
 msgstr ""
 
 #: ../../development/api_table.rst:100
@@ -190,8 +195,8 @@ msgstr ""
 
 #: ../../development/api_table.rst:100
 msgid ""
-"the title to appear at the top of the column. if unspecified, the name is "
-"used."
+"the title to appear at the top of the column. if unspecified, the name is"
+" used."
 msgstr ""
 
 #: ../../development/api_table.rst:103
@@ -212,8 +217,8 @@ msgstr ""
 
 #: ../../development/api_table.rst:105
 msgid ""
-"whether the column should be visible. if a string is specified, this must be"
-" a data-binding to an option."
+"whether the column should be visible. if a string is specified, this must"
+" be a data-binding to an option."
 msgstr ""
 
 #: ../../development/api_table.rst:109
@@ -247,10 +252,6 @@ msgid "``combineBelow``"
 msgstr ""
 
 #: ../../development/api_table.rst:120
-msgid "|trFl|"
-msgstr ""
-
-#: ../../development/api_table.rst:120
 msgid ""
 "if TRUE, when cells in the column are contiguous, and contain the same "
 "value, the lower cells will be made blank."
@@ -262,12 +263,12 @@ msgstr ""
 
 #: ../../development/api_table.rst:128
 msgid ""
-"Adds a row to the table. ``rowKey`` is an object which uniquely identifies "
-"the row – for many cases, simply providing the index is sufficient. "
-"``values`` is a named list with the values to place in the cells of that "
-"row. The names must correspond to the column names. Not all column values "
-"must be provided, and if a blank row is desired, the values argument can be "
-"omitted entirely."
+"Adds a row to the table. ``rowKey`` is an object which uniquely "
+"identifies the row – for many cases, simply providing the index is "
+"sufficient. ``values`` is a named list with the values to place in the "
+"cells of that row. The names must correspond to the column names. Not all"
+" column values must be provided, and if a blank row is desired, the "
+"values argument can be omitted entirely."
 msgstr ""
 
 #: ../../development/api_table.rst:136
@@ -284,9 +285,10 @@ msgstr ""
 
 #: ../../development/api_table.rst:143
 msgid ""
-"Sets the values in an existing row. ``rowKey`` is a key uniquely identifying"
-" the row, and ``values`` is a named list of values. The names must "
-"correspond to the column names. Not all column values need to be provided."
+"Sets the values in an existing row. ``rowKey`` is a key uniquely "
+"identifying the row, and ``values`` is a named list of values. The names "
+"must correspond to the column names. Not all column values need to be "
+"provided."
 msgstr ""
 
 #: ../../development/api_table.rst:150
@@ -303,9 +305,10 @@ msgstr ""
 
 #: ../../development/api_table.rst:161
 msgid ""
-"Sets the values in an existing row. ``rowNo`` is a number specifying the row"
-" number, and ``values`` is a named list of values. The names must correspond"
-" to the column names. Not all column values need to be provided."
+"Sets the values in an existing row. ``rowNo`` is a number specifying the "
+"row number, and ``values`` is a named list of values. The names must "
+"correspond to the column names. Not all column values need to be "
+"provided."
 msgstr ""
 
 #: ../../development/api_table.rst:168
@@ -350,8 +353,9 @@ msgstr ""
 
 #: ../../development/api_table.rst:191
 msgid ""
-"Cell.BEGIN_GROUP adds additional padding above the cell. Cell.END_GROUP adds"
-" additional padding below the cell. Cell.NEGATIVE colours the value red."
+"Cell.BEGIN_GROUP adds additional padding above the cell. Cell.END_GROUP "
+"adds additional padding below the cell. Cell.NEGATIVE colours the value "
+"red."
 msgstr ""
 
 #: ../../development/api_table.rst:196
@@ -399,8 +403,7 @@ msgid "addSymbol(rowNo, col, symbol)"
 msgstr ""
 
 #: ../../development/api_table.rst:225
-msgid ""
-"Adds a symbol to a cell – for example an asterisk denoting significance."
+msgid "Adds a symbol to a cell – for example an asterisk denoting significance."
 msgstr ""
 
 #: ../../development/api_table.rst:228
@@ -429,25 +432,30 @@ msgstr ""
 
 #: ../../development/api_table.rst:238
 msgid ""
-"``init`` notes are those that are added during the *init* phase. ``init`` "
-"notes are typically based on the values of the options. For example, if the "
-"user has specified an alternative hypothesis — that population one is "
-"greater than population two — the analysis could add a note indicating this."
-" In contrast, ``non-init`` notes are created in the *run* phase. An example "
-"might be the number of subjects that were excluded from the analysis as a "
-"result of containing missing values. ``init`` notes are typically based on "
-"the values of options, where as ``non-init`` notes depend on the data."
+"``init`` notes are those that are added during the *init* phase. ``init``"
+" notes are typically based on the values of the options. For example, if "
+"the user has specified an alternative hypothesis — that population one is"
+" greater than population two — the analysis could add a note indicating "
+"this. In contrast, ``non-init`` notes are created in the *run* phase. An "
+"example might be the number of subjects that were excluded from the "
+"analysis as a result of containing missing values. ``init`` notes are "
+"typically based on the values of options, where as ``non-init`` notes "
+"depend on the data."
 msgstr ""
 
 #: ../../development/api_table.rst:248
 msgid ""
-"In practice, when an analysis is changed or re-run, ``init`` notes are not "
-"restored from state; they are simply recreated during the ``init`` phase. In"
-" contrast, ``non-init`` notes are restored from state."
+"In practice, when an analysis is changed or re-run, ``init`` notes are "
+"not restored from state; they are simply recreated during the ``init`` "
+"phase. In contrast, ``non-init`` notes are restored from state."
 msgstr ""
 
 #: ../../development/api_table.rst:252
 msgid ""
-"Note that if the text of the note will always be the same, it is recommended"
-" to set the note in the ``.r.yaml`` file instead."
+"Note that if the text of the note will always be the same, it is "
+"recommended to set the note in the ``.r.yaml`` file instead."
 msgstr ""
+
+#~ msgid "|trFl|"
+#~ msgstr ""
+

@@ -24,9 +24,9 @@ Linear Regression
    
    |
 
-#. | Drag and drop your outcome variable to **Dependent Variable** and
-     your predictor variable to **Covariates** if it is continuous or to
-     **Factors** if it is categorical.
+#. | Drag and drop your outcome variable to ``Dependent Variable`` and
+     your predictor variable to ``Covariates`` if it is continuous or to
+     ``Factors`` if it is categorical.
      
    |add_var_regression_linear|
    
@@ -44,7 +44,7 @@ Linear Regression
 
 .. ---------------------------------------------------------------------
 
-.. |continuous|                     image:: ../_images/variable-continuous.svg
+.. |continuous|                     image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_regression_linear|  image:: ../_images/jg_data_format_regression_linear.jpg
    :width: 25%

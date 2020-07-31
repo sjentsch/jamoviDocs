@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -25,10 +25,6 @@ msgstr ""
 msgid ""
 "In this section, we will add rich results to our analysis; a nice APA "
 "formatted table like this:"
-msgstr ""
-
-#: ../../development/tut_0106-creating-rich-results.rst:10
-msgid "|results-apa|"
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:12
@@ -143,10 +139,6 @@ msgid ""
 "module, it is updated immediately. Your results should now look as follows:"
 msgstr ""
 
-#: ../../development/tut_0106-creating-rich-results.rst:126
-msgid "|blank-table|"
-msgstr ""
-
 #: ../../development/tut_0106-creating-rich-results.rst:129
 msgid "Populating a Table"
 msgstr ""
@@ -195,10 +187,6 @@ msgstr ""
 msgid "Our results in jamovi should look something like this:"
 msgstr ""
 
-#: ../../development/tut_0106-creating-rich-results.rst:182
-msgid "|filled-table|"
-msgstr ""
-
 #: ../../development/tut_0106-creating-rich-results.rst:184
 msgid "Now we have everything working, let’s remove the text results:"
 msgstr ""
@@ -207,10 +195,6 @@ msgstr ""
 msgid ""
 "then perform a reinstall with `jmvtools::install()`. Now we have a nice, "
 "attractive, minimalist t-test."
-msgstr ""
-
-#: ../../development/tut_0106-creating-rich-results.rst:209
-msgid "|final-table|"
 msgstr ""
 
 #: ../../development/tut_0106-creating-rich-results.rst:211

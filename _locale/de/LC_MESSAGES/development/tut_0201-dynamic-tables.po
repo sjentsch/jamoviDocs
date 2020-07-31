@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
 "Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
@@ -56,10 +56,6 @@ msgid ""
 msgstr ""
 
 #: ../../development/tut_0201-dynamic-tables.rst:48
-#: ../../development/tut_0201-dynamic-tables.rst:195
-msgid "|table-final|"
-msgstr ""
-
 #: ../../development/tut_0201-dynamic-tables.rst:50
 msgid ""
 "The first thing we need to do is change the dependent variable in the "
@@ -96,10 +92,6 @@ msgid ""
 "like:"
 msgstr ""
 
-#: ../../development/tut_0201-dynamic-tables.rst:86
-msgid "|ui-mult-vars|"
-msgstr ""
-
 #: ../../development/tut_0201-dynamic-tables.rst:88
 msgid "As can be seen, multiple dependent variables can now be specified."
 msgstr ""
@@ -132,10 +124,6 @@ msgid ""
 "see this in action:"
 msgstr ""
 
-#: ../../development/tut_0201-dynamic-tables.rst:122
-msgid "|table-blank|"
-msgstr ""
-
 #: ../../development/tut_0201-dynamic-tables.rst:124
 msgid ""
 "As can be seen, our table grows and shrinks accordingly. But we can do one "
@@ -159,10 +147,6 @@ msgid ""
 "``$key`` is a special value which maps to the row’s key. Make this change, "
 "and reinstall the module with ``jmvtools::install()``. As can be seen the "
 "first column is now filled in appropriately."
-msgstr ""
-
-#: ../../development/tut_0201-dynamic-tables.rst:154
-msgid "|table-bound|"
 msgstr ""
 
 #: ../../development/tut_0201-dynamic-tables.rst:156

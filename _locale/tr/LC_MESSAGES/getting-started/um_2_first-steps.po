@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Last-Translator: Serdar Balci <drserdarbalci@gmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
@@ -29,10 +29,6 @@ msgstr "jamovi'de ilk adımlar"
 msgid ""
 "When first starting jamovi, you will be presented with a user interface "
 "which looks something like this."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:9
-msgid "|screenshot|"
 msgstr ""
 
 #: ../../getting-started/um_2_first-steps.rst:11
@@ -57,10 +53,6 @@ msgid ""
 "To open a file, select the file menu (☰, at the top left hand corner of "
 "jamovi), select ``Open`` and then ``Data library`` or ``This PC``, depending"
 " on whether you want to open an example, or a file stored on your computer."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:27
-msgid "|csv-data|"
 msgstr ""
 
 #: ../../getting-started/um_2_first-steps.rst:29
@@ -114,10 +106,6 @@ msgid ""
 "with the results context menu. Right-clicking on the analysis results will "
 "bring up a menu, and by selecting ‘Analysis’, and then ‘Remove’, the "
 "analysis can be removed."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:67
-msgid "|analysis|"
 msgstr ""
 
 #: ../../getting-started/um_2_first-steps.rst:69
@@ -219,10 +207,6 @@ msgid ""
 "variables) the data type, the measure type, the order of the levels, and the"
 " label displayed for each level. The variable editor can be dismissed by "
 "clicking the close arrow, or by pressing ``F3`` again."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:127
-msgid "|change-name|"
 msgstr ""
 
 #: ../../getting-started/um_2_first-steps.rst:129
@@ -471,10 +455,6 @@ msgid ""
 "the other program in the usual way."
 msgstr ""
 
-#: ../../getting-started/um_2_first-steps.rst:297
-msgid "|copy-paste|"
-msgstr ""
-
 #: ../../getting-started/um_2_first-steps.rst:300
 msgid "Syntax Mode"
 msgstr ""
@@ -494,10 +474,6 @@ msgid ""
 " R syntax, and ‘ascii output’ like an R session. Like all results objects in"
 " jamovi, you can right click on these items (including the R syntax) and "
 "copy and paste them, for example, into an R session."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:313
-msgid "|r-syntax|"
 msgstr ""
 
 #: ../../getting-started/um_2_first-steps.rst:315

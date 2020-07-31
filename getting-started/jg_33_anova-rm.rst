@@ -17,13 +17,13 @@ ANOVA: Repeated Measures
 
    | 
 
-#. | Select ``Analyses`` -> ``ANOVA`` -> ``Repeated Measures ANOVA``.
+#. | Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``.
 
    |select_anova_repeated|
 
    | 
 
-#. | In the box **Repeated Measures Factors**: write the name of your
+#. | In the box ``Repeated Measures Factors``: write the name of your
      outcome variable (e.g. My_scale) and name the levels for each
      measurement occasion (e.g. Pre, Post and 12 month follow-up). The
      images below shows the box with default values (left) and when the
@@ -34,7 +34,7 @@ ANOVA: Repeated Measures
    |
 
 #. | Drag and drop your outcome variables to their respective cells in
-     **Repeated Measures Cells**.
+     ``Repeated Measures Cells``.
 
    |add_var_anova_repeated|
 
@@ -52,7 +52,7 @@ ANOVA: Repeated Measures
 
 .. ---------------------------------------------------------------------
 
-.. |continuous|                       image:: ../_images/variable-continuous.svg
+.. |continuous|                       image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_anova_repeated|       image:: ../_images/jg_data_format_anova_repeated.jpg
    :width: 40%

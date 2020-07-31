@@ -118,8 +118,8 @@ out. Install the module with the usual:
 
    jmvtools::install()
 
-Now open the ``Tooth Growth`` data set from the jamovi examples (File ->
-Examples -> Tooth Growth). Assign the ``len`` column to the
+Now open the ``Tooth Growth`` data set from the jamovi examples (File →
+Examples → Tooth Growth). Assign the ``len`` column to the
 ``Dependent Variable``, and the ``supp`` column to the
 ``Grouping Variable``. You should have something like the following:
 

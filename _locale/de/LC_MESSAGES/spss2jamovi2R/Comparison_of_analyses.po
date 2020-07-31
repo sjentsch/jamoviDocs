@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 14:58+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
@@ -25,20 +25,8 @@ msgstr ""
 msgid "**SPSS** (version 25)"
 msgstr ""
 
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
-msgid "|spss_prices|"
-msgstr ""
-
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:8
 msgid "**jamovi** (versjon 1.2)"
-msgstr ""
-
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:11
-msgid "|SPSS_Analyze|"
-msgstr ""
-
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:11
-msgid "|jamovi_Analyze|"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:0
@@ -71,10 +59,6 @@ msgid ""
 "If you are willing to use some R code (e.g., in conjunction with the jamovi-"
 "module Rj) then you can (most presumably) do every analysis you could "
 "imagine."
-msgstr ""
-
-#: ../../spss2jamovi2R/Comparison_of_analyses.rst:38
-msgid "|jamovi_Modules|"
 msgstr ""
 
 #: ../../spss2jamovi2R/Comparison_of_analyses.rst:40

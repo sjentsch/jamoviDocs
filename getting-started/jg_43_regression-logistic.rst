@@ -30,8 +30,8 @@ Logistic Regression
    
    | 
 
-#. | Drag and drop your outcome variable to **Dependent Variable** and
-     your predictor to **Covariates**.
+#. | Drag and drop your outcome variable to ``Dependent Variable`` and
+     your predictor to ``Covariates``.
 
    |add_var_regression_logistic|
 
@@ -49,9 +49,9 @@ Logistic Regression
 
 .. ---------------------------------------------------------------------
 
-.. |nominal|                          image:: ../_images/variable-nominal.svg
+.. |nominal|                          image:: ../_images/variable-nominal.*
    :width: 16px
-.. |continuous|                       image:: ../_images/variable-continuous.svg
+.. |continuous|                       image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_regression_logistic|  image:: ../_images/jg_data_format_regression_logistic.jpg
    :width: 25%

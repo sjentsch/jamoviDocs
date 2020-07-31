@@ -1,97 +1,97 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+# Translators:
+# Sebastian Jentschke, 2020
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-07-31 17:16+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language: nb\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Norwegian Bokmål "
+"(https://www.transifex.com/jamovi/teams/111618/nb/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../getting-started/jg_1_descriptive-analyses.rst:5
 msgid "Descriptive analyses"
-msgstr ""
+msgstr "Deskriptivstatistikk"
 
 #: ../../getting-started/jg_1_descriptive-analyses.rst:7
 msgid "How to perform descriptive analyses and create graphs in jamovi:"
 msgstr ""
+"Slik gjennomfører du deskriptivstatistiske analyser og lager grafer i "
+"jamovi:"
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+#: ../../getting-started/jg_1_descriptive-analyses.rst
 msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
-msgstr ""
+msgstr "Velg ``Analyses`` → ``Exploration`` → ``Descriptives``."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:11
-msgid "|select_descriptives|"
-msgstr ""
-
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+#: ../../getting-started/jg_1_descriptive-analyses.rst
 msgid ""
 "Drag and drop the variables you want descriptive analyses for to "
 "``Variables``."
 msgstr ""
+"Flytt variablene du ønsker å inkludere i dine deskriptivstatiske analyser"
+" til inputboks ``Variables``."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:18
-msgid "|add_var_descriptives|"
-msgstr ""
-
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+#: ../../getting-started/jg_1_descriptive-analyses.rst
 msgid ""
-"The result is shown in the right panel. Right-click on the output to save or"
-" copy it."
+"The result is shown in the right panel. Right-click on the output to save"
+" or copy it."
 msgstr ""
+"Resultatene vises i panelen på høyre side. Du kan høyre-klikk på denne "
+"delen av utgaven du ønsker å lagre eller kopiere."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:25
-msgid "|output_descriptives|"
-msgstr ""
-
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+#: ../../getting-started/jg_1_descriptive-analyses.rst
+#, fuzzy
 msgid ""
 "To split your descriptive analyses on a categorical variable (e.g. to "
-"separate by gender), move that variable to **Split by**."
+"separate by gender), move that variable to ``Split by``."
 msgstr ""
+"For å gjennomføre deskriptivstatistiske analyser for forskjellige trinn "
+"av en kategorisk variabel (f.eks. for å sammenlikne men og kvinner), "
+"flytte denne kategoriske variabelen til ``Split by``."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:32
-msgid "|add_var_descriptives_groupby|"
-msgstr ""
-
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+#: ../../getting-started/jg_1_descriptive-analyses.rst
 msgid "This changes how the output looks like:"
-msgstr ""
+msgstr "Det forendrer resultatutgaven som etterpå ser slik ut:"
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:36
-msgid "|output_descriptives_groupby|"
+#: ../../getting-started/jg_1_descriptive-analyses.rst
+#, fuzzy
+msgid "Click the ``Statistics`` tab to see more alternatives."
 msgstr ""
+"Du kan klikke på rullemeny ``Statistics`` for å åpne det og få tilgang "
+"til flere valgmuligheter."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
-msgid "Click the **Statistics** tab to see more alternatives."
-msgstr ""
-
-#: ../../getting-started/jg_1_descriptive-analyses.rst:42
-msgid "|select_descriptives_statistics|"
-msgstr ""
-
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+#: ../../getting-started/jg_1_descriptive-analyses.rst
+#, fuzzy
 msgid ""
-"To create a plot based on the above choices, click the **Plots** tab and "
+"To create a plot based on the above choices, click the ``Plots`` tab and "
 "tick the box of your desired plot."
 msgstr ""
+"For å lage grafer åpner du rullemeny ``Plots`` og setter tikk på denne "
+"type grafik du ønsker å produsere."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst:49
-msgid "|select_descriptives_plots|"
-msgstr ""
-
-#: ../../getting-started/jg_1_descriptive-analyses.rst:0
+#: ../../getting-started/jg_1_descriptive-analyses.rst
 msgid ""
 "If you would like to have these concepts explained in a different way, "
 "please have a look at this `introductory video "
 "<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+"Hvis du ønsker å få forklart disse konseptene på en annen måte, kan du se"
+" på denne `introduksjonsvideoen "
+"<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>"
+" `__ (på Engelsk)."
+

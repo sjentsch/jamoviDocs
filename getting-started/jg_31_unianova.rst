@@ -18,22 +18,22 @@ ANOVA: Oneway
    
    |
 
-#. | Select ``Analyses`` -> ``ANOVA`` -> ``One-way ANOVA``.
+#. | Select ``Analyses`` → ``ANOVA`` → ``One-way ANOVA``.
 
    |select_unianova|
 
    | 
 
-#. | Drag and drop your outcome variable to **Dependent Variable** and
-     your grouping variable to **Fixed Factors**.
+#. | Drag and drop your outcome variable to ``Dependent Variable`` and
+     your grouping variable to ``Fixed Factors``.
 
    |add_var_unianova_1|
 
    | 
 
-#. | Select wether your variances are equal or unequal. To test for
-     equality of variancess using Levene’s test, tick the box Equality
-     of variances.
+#. | Select whether your variances are equal or unequal. To test for
+     equality of variancess using Levene’s test, tick the box ``Equality
+     of variances``.
 
    |add_var_unianova_2|
 
@@ -47,9 +47,9 @@ ANOVA: Oneway
 
 .. ---------------------------------------------------------------------
 
-.. |nominal|               image:: ../_images/variable-nominal.svg
+.. |nominal|               image:: ../_images/variable-nominal.*
    :width: 16px
-.. |continuous|            image:: ../_images/variable-continuous.svg
+.. |continuous|            image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_unianova|  image:: ../_images/jg_data_format_unianova.jpg
    :width: 40%

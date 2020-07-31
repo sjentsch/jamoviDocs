@@ -25,8 +25,8 @@ t-test: Independent samples
 
    | 
 
-#. | Drag and drop your outcome variable to **Dependent Variables** and
-     your grouping variable to **Grouping Variable**.  
+#. | Drag and drop your outcome variable to ``Dependent Variables`` and
+     your grouping variable to ``Grouping Variable``.  
 
    |add_var_ttest_independent|
 
@@ -43,9 +43,9 @@ t-test: Independent samples
 
 .. ---------------------------------------------------------------------
 
-.. |nominal|                        image:: ../_images/variable-nominal.svg
+.. |nominal|                        image:: ../_images/variable-nominal.*
    :width: 16px
-.. |continuous|                     image:: ../_images/variable-continuous.svg
+.. |continuous|                     image:: ../_images/variable-continuous.*
    :width: 16px
 .. |data_format_ttest_independent|  image:: ../_images/jg_data_format_ttest_independent.jpg
    :width: 40%
