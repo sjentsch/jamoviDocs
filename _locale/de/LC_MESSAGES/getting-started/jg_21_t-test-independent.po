@@ -1,72 +1,80 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version:  jamovi\n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 17:16+0200\n"
+"POT-Creation-Date: 2020-08-01 00:23+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)"
-"\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
+"Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../getting-started/jg_21_t-test-independent.rst:5
 msgid "t-test: Independent samples"
-msgstr ""
+msgstr "t-Test für unabhängige Stichproben"
 
 #: ../../getting-started/jg_21_t-test-independent.rst:7
 msgid "How to perform an independent samples t-test in jamovi:"
 msgstr ""
+"Ein t-Test für unabhängige Stichproben lässt sich in jamovi auf die folgende"
+" Weise durchführen:"
 
-#: ../../getting-started/jg_21_t-test-independent.rst
+#: ../../getting-started/jg_21_t-test-independent.rst:0
 msgid ""
-"You need one grouping variable with two levels (e.g. treatment / control)"
-" and one continuous outcome variable. Make sure that the `measurement "
-"levels are set correctly <um_2_first-steps.html#data-variables>`_ so that"
-" the grouping variable is marked as |nominal| and the continuous variable"
-" is marked as |continuous|."
+"You need one grouping variable with two levels (e.g. treatment / control) "
+"and one continuous outcome variable. Make sure that the `measurement levels "
+"are set correctly <um_2_first-steps.html#data-variables>`_ so that the "
+"grouping variable is marked as |nominal| and the continuous variable is "
+"marked as |continuous|."
 msgstr ""
+"Sie benötigen eine Gruppierungsvariable mit zwei Stufen (z. B. Experimental-"
+" / Kontrollgruppe) und eine kontinuierliche Ergebnisvariable. Stellen Sie "
+"sicher, dass die Variablen das passende `Skalenniveau aufweisen <um_2_first-"
+"steps.html#data-variables>`__, sodass die Gruppierungsvariable als |nominal|"
+" und die Ergebnisvariable als  |continuous| markiert ist."
 
-#: ../../getting-started/jg_21_t-test-independent.rst
+#: ../../getting-started/jg_21_t-test-independent.rst:0
 msgid "A correct setup should look similar to this:"
-msgstr ""
+msgstr "Eine korrekte Eingabedatei sollte ungefähr so aussehen:"
 
-#: ../../getting-started/jg_21_t-test-independent.rst
+#: ../../getting-started/jg_21_t-test-independent.rst:0
 msgid "Select ``Analyses`` → ``T-Tests`` → ``Independent Samples T-Test``."
 msgstr ""
+"Wählen Sie ``Analyses`` → ``T-Tests`` → ``Independent Samples T-Test``."
 
-#: ../../getting-started/jg_21_t-test-independent.rst
+#: ../../getting-started/jg_21_t-test-independent.rst:0
 msgid ""
 "Drag and drop your outcome variable to ``Dependent Variables`` and your "
 "grouping variable to ``Grouping Variable``."
 msgstr ""
+"Wählen Sie Ihre abhängigen / Ergebnisvariablen aus und weisen Sie diese der "
+"Variablenbox ``Dependent Variables`` zu. Ihre Gruppierungsvariable "
+"(unabhängige / Prädiktorvariable) weisen Sie bitte dem Feld ``Grouping "
+"Variable`` zu."
 
-#: ../../getting-started/jg_21_t-test-independent.rst
+#: ../../getting-started/jg_21_t-test-independent.rst:0
 msgid "The result is shown in the right panel."
 msgstr ""
+"Die Ergebnisse werden im Ausgabe-Panel auf der rechten Seite angezeigt."
 
-#: ../../getting-started/jg_21_t-test-independent.rst
+#: ../../getting-started/jg_21_t-test-independent.rst:0
 msgid ""
 "This `video <https://www.youtube.com/embed/SM-"
-"DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ provides a little "
-"more comprehensive introduction into this test."
+"DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ provides a little more "
+"comprehensive introduction into this test."
 msgstr ""
-
-#~ msgid ""
-#~ "Drag and drop your outcome variable "
-#~ "to **Dependent Variables** and your "
-#~ "grouping variable to **Grouping Variable**."
-#~ msgstr ""
-
+"Das folgende `Video <https://www.youtube.com/embed/SM-"
+"DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ bietet eine noch etwas "
+"umfassendere Einführung zu diesem Test."

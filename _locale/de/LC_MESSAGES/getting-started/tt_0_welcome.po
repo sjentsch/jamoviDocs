@@ -1,15 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sebastian Jentschke, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-08-01 00:23+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,13 @@ msgstr ""
 
 #: ../../getting-started/tt_0_welcome.rst:5
 msgid "Tips and tricks for using jamovi"
-msgstr ""
+msgstr "Tips und Tricks für jamovi"
 
 #: ../../getting-started/tt_0_welcome.rst:9
 msgid "Cleaning your data and checking assumptions for your main analyses"
 msgstr ""
+"Daten bereinigen und überprüfen, ob die Voraussetzung für (parametrische) "
+"Analysen gegeben sind"
 
 #: ../../getting-started/tt_0_welcome.rst:16
 msgid ""
@@ -34,6 +40,13 @@ msgid ""
 "removal of outliers. Using `filters <Filtering_data_with_jamovi>`__ can help"
 " you with that task."
 msgstr ""
+"Ein ganz wesentlicher Teil einer statistischen Analyse findet statt, bevor "
+"wir sie durchführen. Dieser Teil befasst sich mit der Bereinigung der "
+"verwendeten Daten, sowie der Überprüfung ob die Annahmen erfüllt sind, die "
+"für die Durchführung der meisten inferenzstatistischen Verfahren "
+"erforderlich sind. Im Mittelpunkt von \"Bereinigen Ihrer Daten\" steht das "
+"Bewerten und mglw. das Entfernen von Ausreißern. Die Verwendung von `Filtern"
+" <Filtering_data_with_jamovi>`__ kann Ihnen bei dieser Aufgabe helfen."
 
 #: ../../getting-started/tt_0_welcome.rst:30
 msgid ""
@@ -47,3 +60,13 @@ msgid ""
 "independent and the dependent variables stand in a `linear relation "
 "<Checking_linearity_with_jamovi>`__."
 msgstr ""
+"Eines der Ziele bei der Bereinigung von Ausreißern besteht darin, dass sie "
+"zu Verstößen gegen Annahmen für parametrische statistische Tests führen "
+"können: Normalität (und möglicherweise Linearität; das geschieht aufgrund "
+"von Boden- und Deckeneffekten). Ich werde kurz zwei Methoden vorstellen, mit"
+" denen wir überprüfen und beurteilen können, ob die Annahmen für die "
+"Durchführung unserer Hauptanalysen erfüllt sind: Die erste besteht darin, zu"
+" überprüfen, ob die Daten einer `Normalverteilung "
+"<Checking_normality_with_jamovi>`__ entsprechen, die andere, zu bewerten, ob"
+" die unabhängige und die abhängige Variable in einer `linearen Beziehung "
+"<Checking_linearity_with_jamovi>` __ zueinander stehen."

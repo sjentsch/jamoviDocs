@@ -1,26 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version:  jamovi\n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 17:16+0200\n"
+"POT-Creation-Date: 2020-08-01 00:23+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: nb\n"
-"Language-Team: Norwegian Bokmål "
-"(https://www.transifex.com/jamovi/teams/111618/nb/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../getting-started/jg_32_anova-factorial.rst:5
 msgid "ANOVA: Factorial"
@@ -30,45 +25,35 @@ msgstr ""
 msgid "How to perform a factorial ANOVA in jamovi:"
 msgstr ""
 
-#: ../../getting-started/jg_32_anova-factorial.rst
+#: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid ""
-"You need two grouping variables and one continuous outcome variable. Make"
-" sure that the `measurement levels are set correctly <um_2_first-"
-"steps.html#data-variables>`_ so that the grouping variable(s) are marked "
-"as |nominal| and the continuous variable are marked as |continuous|."
+"You need two grouping variables and one continuous outcome variable. Make "
+"sure that the `measurement levels are set correctly <um_2_first-steps.html"
+"#data-variables>`_ so that the grouping variable(s) are marked as |nominal| "
+"and the continuous variable are marked as |continuous|."
 msgstr ""
 
-#: ../../getting-started/jg_32_anova-factorial.rst
+#: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../getting-started/jg_32_anova-factorial.rst
+#: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid "Select ``Analyses`` → ``ANOVA`` → ``ANOVA``."
 msgstr ""
 
-#: ../../getting-started/jg_32_anova-factorial.rst
+#: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid ""
 "Drag and drop your outcome variable to ``Dependent Variable`` and your "
 "grouping variables to ``Fixed Factors``."
 msgstr ""
 
-#: ../../getting-started/jg_32_anova-factorial.rst
+#: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid "The result is shown in the right panel:"
 msgstr ""
 
-#: ../../getting-started/jg_32_anova-factorial.rst
+#: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid ""
 "A little more comprehensive introduction into this statistical method is "
 "provided by this `video "
 "<https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
-
-#~ msgid "Select ``Analyses`` -> ``ANOVA`` -> ``ANOVA``."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Drag and drop your outcome variable "
-#~ "to **Dependent Variable** and your "
-#~ "grouping variables to **Fixed Factors**."
-#~ msgstr ""
-

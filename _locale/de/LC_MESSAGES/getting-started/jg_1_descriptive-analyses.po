@@ -1,92 +1,93 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version:  jamovi\n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 17:16+0200\n"
+"POT-Creation-Date: 2020-08-01 00:23+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: de\n"
-"Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)"
-"\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
+"Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../getting-started/jg_1_descriptive-analyses.rst:5
 msgid "Descriptive analyses"
-msgstr ""
+msgstr "Deskriptiv-statistische Analysen"
 
 #: ../../getting-started/jg_1_descriptive-analyses.rst:7
 msgid "How to perform descriptive analyses and create graphs in jamovi:"
 msgstr ""
+"So führen Sie in jamovi deskriptiv-statistische Analysen durch und erstellen"
+" Grafiken:"
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
-msgstr ""
+msgstr "Wählen Sie ``Analyses`` → ``Exploration`` → ``Descriptives``."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid ""
 "Drag and drop the variables you want descriptive analyses for to "
 "``Variables``."
 msgstr ""
+"Wählen Sie die Variablen, die Sie analysieren wollen aus und weisen Sie "
+"diese dem Eingabefeld ``Variables`` zu."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid ""
-"The result is shown in the right panel. Right-click on the output to save"
-" or copy it."
+"The result is shown in the right panel. Right-click on the output to save or"
+" copy it."
 msgstr ""
+"Die Ergebnisse werden im Ausgabe-Panel auf der rechten Seite angezeigt. Um "
+"Ergebnisse zu speichern oder zu kopieren, klicken Sie mit der rechten "
+"Maustaste auf das Ergebnis und wählen die gewünschte Funktion aus dem "
+"Kontextmenü."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid ""
 "To split your descriptive analyses on a categorical variable (e.g. to "
 "separate by gender), move that variable to ``Split by``."
 msgstr ""
+"Um sich die deskriptive Statistik separat für die verschiedene Stufen einer "
+"Variable anzeigen zu lassen (z.B. Geschlecht), kann man eine solche "
+"kategoriale Variable dem Feld ``Split by`` zuweisen."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid "This changes how the output looks like:"
-msgstr ""
+msgstr "Dadurch verändert sich die Ausgabe zu: "
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid "Click the ``Statistics`` tab to see more alternatives."
 msgstr ""
+"Wenn man das Drop-down-Menü ``Statistics`` öffnet erhält man eine Reihe "
+"zusätzlicher Möglichkeiten, z.B. weitere statistische Maße."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid ""
 "To create a plot based on the above choices, click the ``Plots`` tab and "
 "tick the box of your desired plot."
 msgstr ""
+"Um Grafiken zu generieren, öffnen Sie bitte das Drop-down-Menü ``Plots``  "
+"und wählen Sie die gewünschten Grafiktypen mit einem Tick aus."
 
-#: ../../getting-started/jg_1_descriptive-analyses.rst
+#: ../../getting-started/jg_1_descriptive-analyses.rst:0
 msgid ""
 "If you would like to have these concepts explained in a different way, "
 "please have a look at this `introductory video "
 "<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
-
-#~ msgid ""
-#~ "To split your descriptive analyses on"
-#~ " a categorical variable (e.g. to "
-#~ "separate by gender), move that variable"
-#~ " to **Split by**."
-#~ msgstr ""
-
-#~ msgid "Click the **Statistics** tab to see more alternatives."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To create a plot based on the "
-#~ "above choices, click the **Plots** tab"
-#~ " and tick the box of your "
-#~ "desired plot."
-#~ msgstr ""
-
+"Wenn Sie das Vorgehen bei deskriptivstatistischen Analysen noch etwas "
+"umfassender erklärt haben möchten, können Sie sich das folgende "
+"`Einführungsvideo "
+"<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+" ansehen."

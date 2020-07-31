@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 22:32+0200\n"
+"POT-Creation-Date: 2020-08-01 00:23+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -35,9 +35,12 @@ msgid "**SPSS** (version 25)"
 msgstr ""
 
 #: ../../spss2jamovi2R/SPSS2jamovi_Logistic_regression.rst:10
-msgid "**jamovi** (versjon 1.2)"
+msgid "**jamovi** (version 1.3)"
 msgstr ""
 
 #~ msgid "(comsing soon)"
+#~ msgstr ""
+
+#~ msgid "**jamovi** (versjon 1.2)"
 #~ msgstr ""
 
