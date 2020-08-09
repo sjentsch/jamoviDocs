@@ -87,24 +87,6 @@ h4 {
     color: #3e6da9;    
 }
 
-span.caption-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    color: #3e6da9;    
-}
-
-.wy-menu > .caption > span.caption-text {
-    color: #84a6d2;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
-.wy-menu > li {
-    color: #ff0000;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-}
-
 pre {
     font-size: 120%;
     margin-left: 20px;
@@ -134,6 +116,23 @@ a:hover {
 td {
     padding: 4px 8px;
     vertical-align: top;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.wy-menu > .caption > span.caption-text {
+    color: #84a6d2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.wy-menu > li {
+    color: #ff0000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0px 0;
 }
 
 #header {

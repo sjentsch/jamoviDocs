@@ -18,11 +18,17 @@ Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and
      
 .. toctree::
    :maxdepth: 1
-   :caption: More in-depth introduction
-   :name: sec-in-depth
+   :caption: Learning statistics with jamovi
+   :name: sec-lsj
    
-.. in-depth/lsj
-.. in-depth/
+   lsj/Prologue
+   lsj/Background
+   lsj/Introduction
+   lsj/WorkWithData
+   lsj/StatTheory
+   lsj/StatTools
+   lsj/Endings
+   lsj/References
 
 .. toctree::
    :maxdepth: 1

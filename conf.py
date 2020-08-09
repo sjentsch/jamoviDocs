@@ -336,4 +336,3 @@ texinfo_documents = [
 
 # -- Options for Sphinx extensions ----------------------------------------
 imgmath_image_format = 'svg'
-
