@@ -21,7 +21,7 @@ need to specify a filter in jamovi. First open up a filter window by clicking
 on ``Filters`` on the main jamovi ``Data`` toolbar. Then, in the ``Filter 1``
 text box, next to the ``=`` sign, type the following:
 
-.. code-block::
+.. code-block:: rout
 
    speaker == "makka-pakka"
 
@@ -50,6 +50,6 @@ keep only those cases when the utterance is either ``pip`` or ``oo``. In this
 case in the ``Filter 1`` text box, next to the ``=`` sign, you would type the
 following:
 
-.. code-block::
+.. code-block:: rout
 
    utterance == "pip" or utterance == "oo"

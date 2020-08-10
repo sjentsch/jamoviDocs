@@ -35,7 +35,7 @@ What I’ve done here is use the **equality operator**, ``==``, to force jamovi
 to make a “``TRUE`` or ``FALSE``” judgement.\ [#]_ Okay, let’s see what jamovi
 thinks of the Party slogan, so type this into the compute new variable ``Formula`` box:
 
-.. code-block::
+.. code-block:: rout
 
    2 + 2 == 5
 
@@ -59,13 +59,13 @@ the simplest possible example. You probably won’t be surprised to
 discover that we can combine logical operations with other operations
 and functions in a more complicated way, like this:
 
-.. code-block::
+.. code-block:: rout
 
    3 * 3 + 4 * 4 == 5 * 5
 
 or this
 
-.. code-block::
+.. code-block:: rout
 
    SQRT(25) == 5
 
@@ -105,7 +105,7 @@ returns a value of ``TRUE`` when things on either side are not identical
 to each other. Therefore, since ``2 + 2`` isn’t equal to *5* we would get
 ``TRUE`` as the value for our newly computed variable. Try it and see:
 
-.. code-block::
+.. code-block:: rout
 
    2 + 2 != 5
    
@@ -119,7 +119,7 @@ For instance, if I ask you to assess the claim that “either
 it’s an “either-or” statement, all we need is for one of the two parts
 to be true. That’s what the ``or`` operator does:\ [#]_
 
-.. code-block::
+.. code-block:: rout
 
    (2 + 2 == 4) or (2 + 2 == 5)
 
@@ -138,7 +138,7 @@ On the other hand, if I ask you to assess the claim that “both 2 + 2 = 4 *and*
 2 + 2 = 5” you’d say that it’s false. Since this is an *and* statement we need
 both parts to be true. And that’s what the ``and`` operator does:
 
-.. code-block::
+.. code-block:: rout
 
    (2 + 2 == 4) and (2 + 2 == 5)
 
@@ -148,7 +148,7 @@ in English. If I ask you to assess my claim that “it is not true that
 claim is that “``2 + 2 = 5`` is false”. And I’m right. If we write this in
 jamovi we use this:
 
-.. code-block::
+.. code-block:: rout
 
    NOT(2 + 2 == 5)
 
@@ -164,7 +164,7 @@ the “not” operator ``NOT`` and the “equals to” operator ``==`` as two
 separate operators. We could have just used the “not equals to” operator
 ``!=`` like this:
 
-.. code-block::
+.. code-block:: rout
 
    2 + 2 != 5
 
@@ -184,14 +184,14 @@ Okay, let’s see how it works. In one sense, it’s very simple. For
 instance, I can ask jamovi if the word ``cat`` is the same as the word
 ``dog``, like this:
 
-.. code-block::
+.. code-block:: rout
 
    "cat" == "dog"
 
 That’s pretty obvious, and it’s good to know that even jamovi can figure
 that out. Similarly, jamovi does recognise that a ``cat`` is a ``cat``:
 
-.. code-block::
+.. code-block:: rout
 
    "cat" == "cat"
 
@@ -200,7 +200,7 @@ in mind is that jamovi is not at all tolerant when it comes to grammar
 and spacing. If two strings differ in any way whatsoever, jamovi will
 say that they’re not equal to each other, as with the following:
 
-.. code-block::
+.. code-block:: rout
 
    " cat" == "cat"
    "cat" == "CAT"
@@ -212,7 +212,7 @@ two text ‘strings’ comes first, alphabetically speaking. Sort of.
 Actually, it’s a bit more complicated than that, but let’s start with a
 simple example:
 
-.. code-block::
+.. code-block:: rout
 
    "cat" < "dog"
 
@@ -224,7 +224,7 @@ false. So far, so good. But text data is a bit more complicated than the
 dictionary suggests. What about ``cat`` and ``CAT``? Which of these
 comes first? Try it and find out:
 
-.. code-block::
+.. code-block:: rout
 
    "CAT" < "cat"
 
@@ -237,7 +237,7 @@ the uppercase equivalent ``"ANTEATER" < "ZEBRA"`` is also true, it is
 *not* true to say that ``"anteater" < "ZEBRA"``, as the following
 extract illustrates. Try this:
 
-.. code-block::
+.. code-block:: rout
 
    "anteater" < "ZEBRA"
 
@@ -245,7 +245,7 @@ This evaluates to ‘false’, and this may seem slightly counterintuitive. With
 that in mind, it may help to have a quick look at the various text characters
 in the order that jamovi processes them:
 
-.. code-block::
+.. code-block:: rout
 
    ! " # $ % & ' ( ) * + , - . /  0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ 
    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ]  ^ _ ` 

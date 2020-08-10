@@ -89,7 +89,7 @@ So that’s pretty straightforward: it’s exactly what we’ve been doing
 throughout the book. The output, however, is a little different from
 what you get from ``lm()``. Here’s what we get:
 
-.. code-block::
+.. code-block:: rout
 
    Bayes factor analysis
    --------------

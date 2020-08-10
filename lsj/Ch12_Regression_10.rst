@@ -369,7 +369,7 @@ data were collected, as a function of all the other variables in the
 data set. To see why this would be a bit of a problem, let’s have a look
 at the correlation matrix for all four variables:
 
-.. code-block::
+.. code-block:: rout
 
                 dan.sleep  baby.sleep   dan.grump         day
    dan.sleep   1.00000000  0.62794934 -0.90338404 -0.09840768

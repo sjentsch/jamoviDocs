@@ -50,7 +50,7 @@ grumpy, then move ``baby.sleep`` across into the ``Covariates`` box
 alongside ``dan.sleep``. By default, jamovi assumes that the model
 should include an intercept. The coefficients we get this time are:
 
-.. code-block::
+.. code-block:: rout
 
    (Intercept)    dan.sleep   baby.sleep  
      125.97        -8.95        0.01  

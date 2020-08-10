@@ -19,13 +19,13 @@ will see that the data looks something like this:
 
 ``speaker`` variable
 
-.. code-block::
+.. code-block:: rout
 
    upsy-daisy upsy-daisy upsy-daisy upsy-daisy tombliboo tombliboo makka-pakka makka-pakka makka-pakka makka-pakka
 
 ``utterance`` variable
 
-.. code-block::
+.. code-block:: rout
 
    pip pip onk onk ee oo pip pip onk onk
 

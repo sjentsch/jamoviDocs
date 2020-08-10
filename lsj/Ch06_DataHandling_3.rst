@@ -96,7 +96,7 @@ When done, you’ll see that all negative numbers from the
 ``likert.centred`` variable are converted to **-1**, all positive
 numbers are converted to **1** and zero stays as **0**, like so:
 
-.. code-block::
+.. code-block:: rout
 
    -1  1 -1  0  0  0 -1  1  1  1
 
@@ -124,7 +124,7 @@ collapsing a variable into a smaller number of discrete levels or
 categories. For instance, suppose I’m interested in looking at the age
 distribution of people at a social gathering:
 
-.. code-block::
+.. code-block:: rout
 
    60, 58, 24, 26, 34, 42, 31, 30, 33, 2, 9
 
@@ -141,7 +141,9 @@ TRUE, insert a first value, but IF a second logical expression is TRUE,
 insert a second value, but IF a third logical expression is TRUE, then
 insert a third value. This can be written as:
 
-``IF(Age >= 0 and Age <= 20, 1, IF(Age >= 21 and Age <= 40, 2, IF(Age >= 41 and Age <= 60, 3 )))``
+.. code-block:: rout
+
+IF(Age >= 0 and Age <= 20, 1, IF(Age >= 21 and Age <= 40, 2, IF(Age >= 41 and Age <= 60, 3 )))
 
 Note that there are three left parentheses used during the nesting, so
 the whole statement has to end with three right parentheses otherwise

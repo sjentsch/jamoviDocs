@@ -88,7 +88,7 @@ have already looked at in Section `Multiple linear regression
 <Ch12_Regression_05.html#multiple-linear-regression>`__ above, where the
 coefficients we got were:
 
-.. code-block::
+.. code-block:: rout
 
    (Intercept)    dan.sleep   baby.sleep  
      125.97        -8.95        0.01  

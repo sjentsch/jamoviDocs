@@ -26,7 +26,7 @@ to be robust. If the data set has one or two extremely bad values in it
 we’d like our statistics to not be unduly influenced by these cases. For
 example, in a variable containing very extreme outliers
 
-.. code-block::
+.. code-block:: rout
 
    -100, 2, 3, 4, 5, 6, 7, 8, 9, 10
 

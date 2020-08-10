@@ -68,7 +68,7 @@ what I just saw was actually a fair coin being flipped 10 times in a
 row, or whether I should suspect that my friend is playing a trick on
 me. The data I have look like this:
 
-.. code-block::
+.. code-block:: rout
 
    H H H H H H H H H H H
 

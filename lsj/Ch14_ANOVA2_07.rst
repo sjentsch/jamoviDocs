@@ -50,7 +50,7 @@ The table shown above is a matrix of treatment contrasts for a factor
 that has 3 levels. But suppose I want a matrix of treatment contrasts
 for a factor with 5 levels? You would set this out like this:
 
-.. code-block::
+.. code-block:: rout
 
    Level   2 3 4 5
      1     0 0 0 0
@@ -86,7 +86,7 @@ the difference between group 3 and the mean of groups 1 and 2, and so
 on. This translates to a contrast matrix that looks like this for a
 factor with five levels:
 
-.. code-block::
+.. code-block:: rout
 
    1   -1   -1   -1   -1
    2    1   -1   -1   -1
@@ -116,7 +116,7 @@ comparisons between groups. Specifically, each contrast encodes the difference
 between one of the groups and a baseline category, which in this case
 corresponds to the first group:
 
-.. code-block::
+.. code-block:: rout
 
    1   -1   -1   -1   -1
    2    1    0    0    0

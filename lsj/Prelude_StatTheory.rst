@@ -52,7 +52,7 @@ one, Wellesley or Croker. Let’s say that ``W`` refers to a Wellesley
 victory and ``C`` refers to a Croker victory. After three hills, our
 data set looks like this:
 
-.. code-block::
+.. code-block:: rout
 
    WWW
 
@@ -69,7 +69,7 @@ Your gamble paid off: three more hills go by and Wellesley wins all
 three. Going into the next round of our game the score is 1-0 in favour
 of you and our data set looks like this:
 
-.. code-block::
+.. code-block:: rout
 
    WWW WWW
 
@@ -90,7 +90,7 @@ For a second time you were right, and for a second time I was wrong.
 Wellesley wins the next three hills, extending his winning record
 against Croker to 9-0. The data set available to us is now this:
 
-.. code-block::
+.. code-block:: rout
 
    WWW WWW WWW
 
@@ -124,7 +124,7 @@ in the Wellesley-Croker game is now 12-0, and the score in our game is
 now 3-0. As we approach the fourth round of our game, our data set is
 this:
 
-.. code-block::
+.. code-block:: rout
 
    WWW WWW WWW WWW
 

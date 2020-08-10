@@ -84,7 +84,7 @@ available on the data tab. This will produce a formula box where you can
 specify the formula. The usual arithmetic operators are available. Some
 examples of formulas are:
 
-.. code-block::
+.. code-block:: rout
 
    A + B
    LOG10(len)

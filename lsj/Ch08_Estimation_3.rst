@@ -35,7 +35,7 @@ their IQ scores. As before, I can simulate this experiment in jamovi
 ``= NORM(100,15)`` function, but I only need 5 participant IDs this
 time, not 10,000. These are the five numbers that jamovi generated:
 
-.. code-block::
+.. code-block:: rout
 
    90 82 94 99 110
 
@@ -46,7 +46,7 @@ procedure as closely as possible and I randomly sample 5 new people and
 measure their IQ. Again, jamovi allows me to simulate the results of
 this procedure, and generates these five numbers:
 
-.. code-block::
+.. code-block:: rout
 
    78 88 111 111 117
 
@@ -80,7 +80,7 @@ data point. The first 10 observations from my data set are the sample
 means listed in :numref:`tab-replications`, so my data set starts
 out like this:
 
-.. code-block::
+.. code-block:: rout
 
    95.0 101.0 101.6 103.8 104.4 ...
 
@@ -125,9 +125,9 @@ distribution. For example, suppose that each time I replicated the “five
 IQ scores” experiment I wrote down the largest IQ score in the
 experiment. This would give me a data set that started out like this:
 
-.. code-block::
+.. code-block:: rout
 
-                         110 117 122 119 113 ... 
+   110 117 122 119 113 ... 
 
 Doing this over and over again would give me a very different sampling
 distribution, namely the *sampling distribution of the maximum*. The sampling

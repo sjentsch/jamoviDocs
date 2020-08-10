@@ -49,7 +49,7 @@ to try flipping a fair coin over and over again. By definition this is a
 coin that has *P*\(H) = *0.5*. What might we observe? One possibility
 is that the first 20 flips might look like this:
 
-.. code-block::
+.. code-block:: rout
 
    T,H,H,H,H,T,T,H,H,H,H,T,H,H,T,T,T,T,T,H
 

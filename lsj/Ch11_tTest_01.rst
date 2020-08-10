@@ -24,11 +24,11 @@ to score higher or lower? He emails me the ``zeppo`` dataset, which I
 use to look at the ``grades`` of those students, in the jamovi
 spreadsheet view,
 
-.. code-block::
+.. code-block:: rout
 
    50 60 60 64 66 66 67 69 70 74 76 76 77 79 79 79 81 82 82 89
 
-and then calculate the mean in ``Exploration`` → ``Descriptives``\ [#]_. The
+and then calculate the mean in ``Exploration`` → ``Descriptives``.\ [#]_ The
 mean value is 72.3.
 
 Hmm. It *might* be that the psychology students are scoring a bit higher than
@@ -240,7 +240,7 @@ with a calculator):
 
 .. code-block:: R
 
-       sem.true = sd.true / sqrt(N) 
+   sem.true = sd.true / sqrt(N) 
             = 9.5 / sqrt(20) 
             = 2.124265
 
@@ -248,7 +248,7 @@ And finally, we calculate our *z*-score:
 
 .. code-block:: R
 
-       z.score  = (sample.mean - mu.null) / sem.true 
+   z.score  = (sample.mean - mu.null) / sem.true 
             = (72.3 - 67.5) / 2.124265 
             = 2.259606
 

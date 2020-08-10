@@ -57,7 +57,7 @@ To see what I mean by this, it’s useful to see a concrete example.
 First, let’s have a look at the effect sizes for the original ANOVA
 without the interaction term, from :numref:`fig-factorialanova3`:
 
-.. code-block::
+.. code-block:: rout
 
                  eta.sq partial.eta.sq
    drug           0.71        0.79
@@ -93,7 +93,7 @@ effect sizes for the model that includes the interaction term, as in
 :numref:`fig-factorialanova4`. As you can see, the η² values for the main
 effects don’t change, but the partial η² values do:
 
-.. code-block::
+.. code-block:: rout
 
                   eta.sq partial.eta.sq
    drug            0.71        0.84
