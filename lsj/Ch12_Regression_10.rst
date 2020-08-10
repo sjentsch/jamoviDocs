@@ -1,7 +1,7 @@
 .. sectionauthor:: `Danielle J. Navarro <https://djnavarro.net/>`_ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`_
 
-Model checking [sec:regressiondiagnostics]
-------------------------------------------
+Model checking
+--------------
 
 The main focus of this section is **regression diagnostics**, a term
 that refers to the art of checking that the assumptions of your
@@ -53,13 +53,12 @@ identical to the ordinary residual.
 The first and simplest kind of residuals that we care about are
 **ordinary residuals**. These are the actual raw residuals that I’ve
 been talking about throughout this chapter so far. The ordinary residual
-is just the difference between the fitted value :math:`\hat{Y}_i` and
-the observed value :math:`Y_i`. I’ve been using the notation
-:math:`\epsilon_i` to refer to the i-th ordinary residual, and
-by gum I’m going to stick to it. With this in mind, we have the very
-simple equation
+is just the difference between the fitted value *Ŷ*\ :sub:`i` and
+the observed value *Y*\ :sub:`i`. I’ve been using the notation ε\ :sub:`i`
+to refer to the i-th ordinary residual, and by gum I’m going to stick to it.
+With this in mind, we have the very simple equation:
 
-.. math:: \epsilon_i = Y_i - \hat{Y}_i
+| ε\ :sub:`i` = *Y*\ :sub:`i` - *Ŷ*\ :sub:`i`
 
 This is of course what we saw earlier, and unless I specifically refer
 to some other kind of residual, this is the one I’m talking about. So
@@ -78,22 +77,20 @@ The way we calculate these is to divide the ordinary residual by an
 estimate of the (population) standard deviation of these residuals. For
 technical reasons, mumble mumble, the formula for this is
 
-.. math:: \epsilon_{i}^\prime = \frac{\epsilon_i}{\hat{\sigma} \sqrt{1-h_i}}
+| ε\ :sub:`i`\' = :math:`\frac{\epsilon_i}{\hat{\sigma} \sqrt{1-h_i}}`
 
-where :math:`\hat\sigma` in this context is the estimated population
-standard deviation of the ordinary residuals, and :math:`h_i` is the
-“hat value” of the i\ th observation. I haven’t explained hat
-values to you yet (but have no fear,\ [#]_ it’s coming shortly), so this
-won’t make a lot of sense. For now, it’s enough to interpret the
-standardised residuals as if we’d converted the ordinary residuals to
-*z*-scores. In fact, that is more or less the truth, it’s just
-that we’re being a bit fancier.
+where :math:`\hat\sigma` in this context is the estimated population standard
+deviation of the ordinary residuals, and h\ :sub:`i` is the “hat value” of the
+*i*-th observation. I haven’t explained hat values to you yet (but have no
+fear,\ [#]_ it’s coming shortly), so this won’t make a lot of sense. For now,
+it’s enough to interpret the standardised residuals as if we’d converted the
+ordinary residuals to *z*-scores. In fact, that is more or less the truth, it’s
+just that we’re being a bit fancier.
 
 The third kind of residuals are **Studentised residuals** (also called
-“jackknifed residuals”) and they’re even fancier than standardised
-residuals. Again, the idea is to take the ordinary residual and divide
-it by some quantity in order to estimate some standardised notion of the
-residual.
+“jackknifed residuals”) and they’re even fancier than standardised residuals.
+Again, the idea is to take the ordinary residual and divide it by some quantity
+in order to estimate some standardised notion of the residual.
 
 The formula for doing the calculations this time is subtly different
 
@@ -122,14 +119,8 @@ calculations for you. Even so, it’s always nice to know how to actually
 get hold of these things yourself in case you ever need to do something
 non-standard.
 
-Three kinds of anomalous data [sec:regressionoutliers]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-[fig:outlier]
-
-[fig:leverage]
-
-[fig:influence]
+Three kinds of anomalous data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 One danger that you can run into with linear regression models is that
 your analysis might be disproportionately sensitive to a smallish number
@@ -146,9 +137,9 @@ they have rather different implications for your analysis.
 The first kind of unusual observation is an **outlier**. The definition
 of an outlier (in this context) is an observation that is very different
 from what the regression model predicts. An example is shown in
-:numref:`fig:outlier] <#fig:outlier>`__. In practice, we operationalise
+:numref:`fig-outlier`. In practice, we operationalise
 this concept by saying that an outlier is an observation that has a very
-large Studentised residual, :math:`\epsilon_i^*`. Outliers are
+large Studentised residual, ε\ :sub:`i`\ :sup:`*`. Outliers are
 interesting: a big outlier *might* correspond to junk data, e.g., the
 variables might have been recorded incorrectly in the data set, or some
 other defect may be detectable. Note that you shouldn’t throw an
@@ -156,113 +147,168 @@ observation away just because it’s an outlier. But the fact that it’s an
 outlier is often a cue to look more closely at that case and try to find
 out why it’s so different.
 
+.. ----------------------------------------------------------------------------
+
+.. _fig-outlier:
+.. figure:: ../_images/lsj_unusual_outlier.*
+   :alt: Outliers and their effect
+
+   Illustration of outliers: The dotted lines plot the regression line that
+   would have been estimated without the anomalous observation included, and
+   the corresponding residual (i.e., the Studentised residual). The solid line
+   shows the regression line with the anomalous observation included. The
+   outlier has an unusual value on the outcome (y axis location) but not the
+   predictor (x axis location), and lies a long way from the regression line.
+   
+.. ----------------------------------------------------------------------------
+
+
+.. ----------------------------------------------------------------------------
+
+.. _fig-leverage:
+.. figure:: ../_images/lsj_unusual_leverage.*
+   :alt: High leverage points and their effect
+
+   Illustration of high leverage points: The anomalous observation in this case
+   is unusual both in terms of the predictor (x axis) and the outcome (y axis),
+   but this unusualness is highly consistent with the pattern of correlations
+   that exists among the other observations. The observation falls very close
+   to the regression line and does not distort it.   
+
+.. ----------------------------------------------------------------------------
+
 The second way in which an observation can be unusual is if it has high
-**leverage**, which happens when the observation is very different from
-all the other observations. This doesn’t necessarily have to correspond
-to a large residual. If the observation happens to be unusual on all
-variables in precisely the same way, it can actually lie very close to
-the regression line. An example of this is shown in
-:numref:`fig:leverage] <#fig:leverage>`__. The leverage of an
-observation is operationalised in terms of its *hat value*, usually
-written :math:`h_i`. The formula for the hat value is rather
-complicated,\ [#]_ but its interpretation is not: :math:`h_i` is a
-measure of the extent to which the i-th observation is “in
-control” of where the regression line ends up going.
+**leverage**, which happens when the observation is very different from all the
+other observations. This doesn’t necessarily have to correspond to a large
+residual. If the observation happens to be unusual on all variables in
+precisely the same way, it can actually lie very close to the regression line.
+An example of this is shown in :numref:`fig-leverage`. The leverage of an
+observation is operationalised in terms of its *hat value*, usually written
+h\ :sub:`i`. The formula for the hat value is rather complicated,\ [#]_ but it
+interpretation is not: h\ :sub:`i` is a measure of the extent to which the
+*i*-th observation is “in control” of where the regression line ends up going.
 
-In general, if an observation lies far away from the other ones in terms
-of the predictor variables, it will have a large hat value (as a rough
-guide, high leverage is when the hat value is more than 2-3 times the
-average; and note that the sum of the hat values is constrained to be
-equal to :math:`K+1`). High leverage points are also worth looking at in
-more detail, but they’re much less likely to be a cause for concern
-unless they are also outliers.
+In general, if an observation lies far away from the other ones in terms of the
+predictor variables, it will have a large hat value (as a rough guide, high
+leverage is when the hat value is more than 2 - 3 times the average; and note
+that the sum of the hat values is constrained to be equal to K + 1). High
+leverage points are also worth looking at in more detail, but they’re much less
+likely to be a cause for concern unless they are also outliers.
 
-This brings us to our third measure of unusualness, the **influence** of
-an observation. A high influence observation is an outlier that has high
-leverage. That is, it is an observation that is very different to all
-the other ones in some respect, and also lies a long way from the
-regression line. This is illustrated in
-:numref:`fig:influence] <#fig:influence>`__. Notice the contrast to the
-previous two figures. Outliers don’t move the regression line much and
-neither do high leverage points. But something that is both an outlier
-and has high leverage, well that has a big effect on the regression
-line. That’s why we call these points high influence, and it’s why
-they’re the biggest worry. We operationalise influence in terms of a
-measure known as **Cook’s distance**.
+.. ----------------------------------------------------------------------------
+
+.. _fig-influence:
+.. figure:: ../_images/lsj_unusual_influence.*
+   :alt: High influence points and their effect
+
+   Illustration of high influence points: In this case, the anomalous 
+   observation is highly unusual on the predictor variable (x axis), and falls
+   a long way from the regression line. As a consequence, the regression line
+   is highly distorted, even though (in this case) the anomalous observation is
+   entirely typical in terms of the outcome variable (y axis).
+   
+.. ----------------------------------------------------------------------------
+
+This brings us to our third measure of unusualness, the **influence** of an
+observation. A high influence observation is an outlier that has high leverage.
+That is, it is an observation that is very different to all the other ones in
+some respect, and also lies a long way from the regression line. This is
+illustrated in :numref:`fig-influence`. Notice the contrast to the previous two
+figures. Outliers don’t move the regression line much and neither do high
+leverage points. But something that is both an outlier and has high leverage,
+well that has a big effect on the regression line. That’s why we call these
+points high influence, and it’s why they’re the biggest worry. We
+operationalise influence in terms of a measure known as **Cook’s distance**.
 
 .. math:: D_i = \frac{{\epsilon_i^*}^2 }{K+1} \times \frac{h_i}{1-h_i}
 
 Notice that this is a multiplication of something that measures the
-outlier-ness of the observation (the bit on the left), and something
-that measures the leverage of the observation (the bit on the right).
+outlier-ness of the observation (the bit on the left), and something that
+measures the leverage of the observation (the bit on the right).
 
 In order to have a large Cook’s distance an observation must be a fairly
-substantial outlier *and* have high leverage. As a rough guide, Cook’s
-distance greater than 1 is often considered large (that’s what I
-typically use as a quick and dirty rule).
+substantial outlier *and* have high leverage. As a rough guide, Cook’s distance
+greater than 1 is often considered large (that’s what I typically use as a
+quick and dirty rule).
 
-In jamovi, information about Cook’s distance can be calculated by
-clicking on the ``Cook’s Distance`` checkbox in the ``Assumption Checks`` –
-``Data Summary`` options. When you do this, for the multiple regression
-model we have been using as an example in this chapter, you get the
-results as shown in :numref:`[fig:reg4] <#fig:reg4>`__.
+In jamovi, information about Cook’s distance can be calculated by clicking on
+the ``Cook’s Distance`` checkbox in the ``Assumption Checks`` →
+``Data Summary`` options. When you do this, for the multiple regression model
+we have been using as an example in this chapter, you get the results as shown
+in :numref:`fig-reg4`\.
 
-[fig:reg4]
+.. ----------------------------------------------------------------------------
 
-You can see that, in this example, the mean Cook’s distance value is
-0.01, and the range is from 0.00000262 to 0.11, so this is some way off
-the rule of thumb figure mentioned above that a Cook’s distance greater
-than 1 is considered large.
+.. _fig-reg4:
+.. figure:: ../_images/lsj_reg4.*
+   :alt: jamovi output showing the table for the Cook’s distance statistics
 
-An obvious question to ask next is, if you do have large values of
-Cook’s distance what should you do? As always, there’s no hard and fast
-rule. Probably the first thing to do is to try running the regression
-with the outlier with the greatest Cook’s distance\ [#]_ excluded and
-see what happens to the model performance and to the regression
-coefficients. If they really are substantially different, it’s time to
-start digging into your data set and your notes that you no doubt were
-scribbling as your ran your study. Try to figure out *why* the point is
-so different. If you start to become convinced that this one data point
-is badly distorting your results then you might consider excluding it,
-but that’s less than ideal unless you have a solid explanation for why
-this particular case is qualitatively different from the others and
+   jamovi output showing the table for the Cook’s distance statistics
+   
+.. ----------------------------------------------------------------------------
+
+You can see that, in this example, the mean Cook’s distance value is 0.01, and
+the range is from 0.00000262 to 0.11, so this is some way off the rule of thumb
+figure mentioned above that a Cook’s distance greater than 1 is considered
+large.
+
+An obvious question to ask next is, if you do have large values of Cook’s
+distance what should you do? As always, there’s no hard and fast rule. Probably
+the first thing to do is to try running the regression with the outlier with
+the greatest Cook’s distance\ [#]_ excluded and see what happens to the model
+performance and to the regression coefficients. If they really are
+substantially different, it’s time to start digging into your data set and your
+notes that you no doubt were scribbling as your ran your study. Try to figure
+out *why* the point is so different. If you start to become convinced that this
+one data point is badly distorting your results then you might consider
+excluding it, but that’s less than ideal unless you have a solid explanation
+for why this particular case is qualitatively different from the others and
 therefore deserves to be handled separately.
 
-Checking the normality of the residuals [sec:regressionnormality]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Checking the normality of the residuals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Like many of the statistical tools we’ve discussed in this book,
-regression models rely on a normality assumption. In this case, we
-assume that the residuals are normally distributed. The first thing we
-can do is draw a QQ-plot via the ``Assumption Checks`` - ``Assumption
-Checks`` - ``Q-Q plot of residuals`` option.
+Like many of the statistical tools we’ve discussed in this book, regression
+models rely on a normality assumption. In this case, we assume that the
+residuals are normally distributed. The first thing we can do is draw a QQ-plot
+via the ``Assumption Checks`` → ``Assumption Checks`` → ``Q-Q plot of
+residuals`` option.
 
-The output is shown in :numref:`fig:reg5] <#fig:reg5>`__, showing the
-standardised residuals plotted as a function of their theoretical
-quantiles according to the regression model.
+The output is shown in :numref:`fig-reg5`, showing the standardised residuals
+plotted as a function of their theoretical quantiles according to the
+regression model.
 
-[fig:reg5]
+.. ----------------------------------------------------------------------------
 
-Another thing we should check is the relationship between the fitted
-values and the residuals themselves. We can get jamovi to do this using
-the ``Residuals Plots`` option, which provides a scatterplot for each
-predictor variable, the outcome variable, and the fitted values against
-residuals, see :numref:`[fig:reg6] <#fig:reg6>`__. In these plots we are
-looking for a fairly uniform distribution of “dots”, with no clear
-bunching or patterning of the “dots”. Looking at these plots, there is
-nothing particularly worrying as the dots are fairly evenly spread
-across the whole plot. There may be a little bit of non-uniformity in
-plot (b), but it is not a strong deviation and probably not worth
-worrying about.
+.. _fig-reg5:
+.. figure:: ../_images/lsj_reg5.*
+   :alt: Quantiles according to the model against standardised residuals
 
-=== ===
-\   
-(a) (b)
-\   
-(c) (d)
-=== ===
+   Plot of the theoretical quantiles according to the model, against the
+   quantiles of the standardised residuals, produced in jamovi
+   
+.. ----------------------------------------------------------------------------
 
-[fig:reg6]
+Another thing we should check is the relationship between the fitted values and
+the residuals themselves. We can get jamovi to do this using the ``Residuals
+Plots`` option, which provides a scatterplot for each predictor variable, the
+outcome variable, and the fitted values against residuals, see
+:numref:`fig-reg6`. In these plots we are looking for a fairly uniform
+distribution of “dots”, with no clear bunching or patterning of the “dots”.
+Looking at these plots, there is nothing particularly worrying as the dots are
+fairly evenly spread across the whole plot. There may be a little bit of
+non-uniformity in the right panel, but it is not a strong deviation and
+probably not worth worrying about.
+
+.. ----------------------------------------------------------------------------
+
+.. _fig-reg6:
+.. figure:: ../_images/lsj_reg6.*
+   :alt: Residuals plots produced in jamovi
+
+   Residuals plots produced in jamovi
+   
+.. ----------------------------------------------------------------------------
 
 If we were worried, then in a lot of cases the solution to this problem (and
 many others) is to transform one or more of the variables. We discussed the
@@ -274,41 +320,40 @@ but I do want to make special note of one additional possibility that I didn’t
 explain fully earlier: the Box-Cox transform.
 
 .. _box-cox:
-[subsec:boxcox] The Box-Cox function is a fairly simple one and it’s very
-widely used.
+
+The Box-Cox function is a fairly simple one and it’s very widely used.
 
 .. math:: f(x,\lambda) = \frac{x^\lambda - 1}{\lambda}
 
-for all values of :math:`\lambda` except :math:`\lambda = 0`. When
-:math:`\lambda = 0` we just take the natural logarithm (i.e.,
-:math:`\ln(x)`).
+for all values of λ except λ = 0. When λ = 0 we just take the natural logarithm
+(i.e., *ln*\(x)).
 
-You can calculate it using the ``BOXCOX`` function in
-the ``Compute`` variables screen in jamovi.
+You can calculate it using the ``BOXCOX`` function in the ``Compute`` variables
+screen in jamovi.
 
-Checking for collinearity [sec:regressioncollinearity]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Checking for collinearity
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The last kind of regression diagnostic that I’m going to discuss in this
 chapter is the use of **variance inflation factors** (VIFs), which are
 useful for determining whether or not the predictors in your regression
 model are too highly correlated with each other. There is a variance
-inflation factor associated with each predictor :math:`X_k` in the
+inflation factor associated with each predictor *X*\ :sub:`k` in the
 model.
 
 The formula for the k-th VIF is:
 
-.. math:: \mbox{VIF}_k = \frac{1}{1-{R^2_{(-k)}}}
+| VIF\ :sub:`k` = 1 / (1 - *R²*\ :sub:`(-k)`\)
 
-where :math:`R^2_{(-k)}` refers to *R*-squared value you would get
-if you ran a regression using :math:`X_k` as the outcome variable, and
+where *R²*\ :sub:`(-k)` refers to *R*-squared value you would get
+if you ran a regression using *X*\ :sub:`k` as the outcome variable, and
 all the other *X* variables as the predictors. The idea here is
-that :math:`R^2_{(-k)}` is a very good measure of the extent to which
-:math:`X_k` is correlated with all the other variables in the model.
+that *R²*\ :sub:`(-k)` is a very good measure of the extent to which
+*X*\ :sub:`k` is correlated with all the other variables in the model.
 
 The square root of the VIF is pretty interpretable. It tells you how
 much wider the confidence interval for the corresponding coefficient
-:math:`b_k` is, relative to what you would have expected if the
+*b*\ :sub:`k` is, relative to what you would have expected if the
 predictors are all nice and uncorrelated with one another. If you’ve
 only got two predictors, the VIF values are always going to be the same,
 as we can see if we click on the ``Collinearity`` checkbox in the
@@ -335,10 +380,18 @@ at the correlation matrix for all four variables:
 We have some fairly large correlations between some of our predictor
 variables! When we run the regression model and look at the VIF values,
 we see that the collinearity is causing a lot of uncertainty about the
-coefficients. First, run the regression, as in :numref:`fig:reg7] <#fig:reg7>`__ and you can see from the VIF values that,
+coefficients. First, run the regression, as in :numref:`fig-reg7` and you can see from the VIF values that,
 yep, that’s some mighty fine collinearity there.
 
-[fig:reg7]
+.. ----------------------------------------------------------------------------
+
+.. _fig-reg7:
+.. figure:: ../_images/lsj_reg7.*
+   :alt: Collinearity statistics for multiple regression, produced in jamovi
+
+   Collinearity statistics for multiple regression, produced in jamovi
+   
+.. ----------------------------------------------------------------------------
 
 ------
 
@@ -348,13 +401,12 @@ yep, that’s some mighty fine collinearity there.
 .. [#]
    Again, for the linear algebra fanatics: the “hat matrix” is defined to be
    that matrix **H** that converts the vector of observed values *y* into a
-   vector of fitted values :math:`\hat{y}`, such that :math:`\hat{y} = **H**\ 
-   *y*. The name comes from the fact that this is the matrix that “puts a hat
-   on *y*”. The hat *value* of the i-th observation is the i-th diagonal
-   element of this matrix (so technically I should be writing it as
-   h\ :sub:`ii` rather than h\ :sub:`i`). Oh, and in case you care, here’s how
-   it’s calculated: **H** = **X**\(**X**'**X**\)\ :sup:`-1` **X**'\. Pretty,
-   isn’t it?
+   vector of fitted values ŷ, such that ŷ = **H**\ *y*. The name comes from
+   the fact that this is the matrix that “puts a hat on *y*”. The hat *value*
+   of the i-th observation is the i-th diagonal element of this matrix (so
+   technically I should be writing it as h\ :sub:`ii` rather than h\ :sub:`i`).
+   Oh, and in case you care, here’s how it’s calculated:
+   **H** = **X**\(**X**'**X**\)\ :sup:`-1` **X**'\. Pretty, isn’t it?
 
 .. [#]
    Although, currently there isn’t a very easy way to do this in jamovi, so a

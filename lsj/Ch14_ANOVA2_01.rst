@@ -191,14 +191,13 @@ However, since we’re talking about the psychological therapy rather than
 drugs our null hypothesis now corresponds to the equality of the column
 means:
 
-+----------------------------------+----------------------------------+
-| Null hypothesis, H\ :sub:`0`:    | column means are the same, i.e., |
-|                                  | µ\ :sub:`.1` = µ\ :sub:`.2`      |
-+----------------------------------+----------------------------------+
-| Alternative hypothesis,          | column means are different,      |
-| H\ :sub:`1`:                     | i.e.,                            |
-|                                  | µ\ :sub:`.1` \neq µ\ :sub:`.2`   |
-+----------------------------------+----------------------------------+
++----------------------------------+-----------------------------------+
+| Null hypothesis, H\ :sub:`0`:    | column means are the same, i.e.,  |
+|                                  | µ\ :sub:`.1` = µ\ :sub:`.2`       |
++----------------------------------+-----------------------------------+
+| Alternative hypothesis,          | column means are different, i.e., |
+| H\ :sub:`1`:                     | µ\ :sub:`.1` ≠ µ\ :sub:`.2`       |
++----------------------------------+-----------------------------------+
 
 Running the analysis in jamovi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

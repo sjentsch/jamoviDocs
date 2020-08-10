@@ -1,7 +1,7 @@
 .. sectionauthor:: `Danielle J. Navarro <https://djnavarro.net/>`_ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`_
 
-Hypothesis tests for regression models [sec:regressiontests]
-------------------------------------------------------------
+Hypothesis tests for regression models
+--------------------------------------
 
 So far we’ve talked about what a regression model is, how the
 coefficients of a regression model are estimated, and how we quantify
@@ -24,50 +24,46 @@ that the regression model predicts.*
 
 Formally, our “null model” corresponds to the fairly trivial
 “regression” model in which we include 0 predictors and only include the
-intercept term :math:`b_0`:
+intercept term *b*\ :sub:`0`:
 
-.. math:: H_0: Y_i = b_0 + \epsilon_i
+| H\ :sub:`0`: *Y*\ :sub:`i` = b\ :sub:`0` + ε\ :sub:`i`
 
 If our regression model has K predictors, the “alternative
 model” is described using the usual formula for a multiple regression
 model:
 
-.. math:: H_1: Y_i = b_0 + \left( \sum_{k=1}^K b_{k} X_{ik} \right) + \epsilon_i
+| H\ :sub:`1`: *Y*\ :sub:`i` = b\ :sub:`0` + math:`\left( \sum_{k=1}^K b_{k} X_{ik} \right)` + ε\ :sub:`i`
 
 How can we test these two hypotheses against each other? The trick is to
 understand that it’s possible to divide up the total variance
-:math:`\mbox{SS}_{tot}` into the sum of the residual variance
-:math:`\mbox{SS}_{res}` and the regression model variance
-:math:`\mbox{SS}_{mod}`. I’ll skip over the technicalities, since we’ll
+SS\ :sub:`tot` into the sum of the residual variance
+SS\ :sub:`res` and the regression model variance
+SS\ :sub:`mod`. I’ll skip over the technicalities, since we’ll
 get to that later when we look at ANOVA in
 Chapter `Comparing several means (one-way ANOVA)
 <Ch13_ANOVA.html#comparing-several-means-one-way-anova>`__. But just note that
 
-.. math:: \mbox{SS}_{mod} = \mbox{SS}_{tot} - \mbox{SS}_{res}
+| SS\ :sub:`mod` = SS\ :sub:`tot` - SS\ :sub:`res`
 
 And we can convert the sums of squares into mean squares by dividing by
 the degrees of freedom.
 
-.. math::
-
-   \begin{array}{rcl}
-   \mbox{MS}_{mod} &=& \displaystyle\frac{\mbox{SS}_{mod} }{df_{mod}} \\ \\
-   \mbox{MS}_{res} &=& \displaystyle\frac{\mbox{SS}_{res} }{df_{res}} 
-   \end{array}
+| MS\ :sub:`mod` = SS\ :sub:`mod` / *df*\ :sub:`mod`
+| SS\ :sub:`res` = SS\ :sub:`res` / *df*\ :sub:`res` 
 
 So, how many degrees of freedom do we have? As you might expect the
-:math:`df` associated with the model is closely tied to the number of
+*df* associated with the model is closely tied to the number of
 predictors that we’ve included. In fact, it turns out that
-:math:`df_{mod} = K`. For the residuals the total degrees of freedom is
-:math:`df_{res} = N -K - 1`.
+*df*\ :sub:`mod` = K. For the residuals the total degrees of freedom is
+*df*\ :sub:`res` = N - K - 1.
 
 Now that we’ve got our mean square values we can calculate an
 *F*-statistic like this
 
-.. math:: F =  \frac{\mbox{MS}_{mod}}{\mbox{MS}_{res}}
+| F = MS\ :sub:`mod` / SS\ :sub:`res`
 
 and the degrees of freedom associated with this are K and
-:math:`N-K-1`.
+N - K - 1.
 
 We’ll see much more of the *F* statistic in Chapter `Comparing several means
 (one-way ANOVA) <Ch13_ANOVA.html#comparing-several-means-one-way-anova>`__,
@@ -80,17 +76,16 @@ coefficients.
 Tests for individual coefficients
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The *F*-test that we’ve just introduced is useful for checking
-that the model as a whole is performing better than chance. If your
-regression model doesn’t produce a significant result for the
-*F*-test then you probably don’t have a very good regression model
-(or, quite possibly, you don’t have very good data). However, while
-failing this test is a pretty strong indicator that the model has
-problems, *passing* the test (i.e., rejecting the null) doesn’t imply
-that the model is good! Why is that, you might be wondering? The answer
-to that can be found by looking at the coefficients for the multiple
-regression model we have already looked at in section
-`[sec:multipleregression] <#sec:multipleregression>`__ above, where the
+The *F*-test that we’ve just introduced is useful for checking that the model
+as a whole is performing better than chance. If your regression model doesn’t
+produce a significant result for the *F*-test then you probably don’t have a
+very good regression model (or, quite possibly, you don’t have very good data).
+However, while failing this test is a pretty strong indicator that the model
+has problems, *passing* the test (i.e., rejecting the null) doesn’t imply that
+the model is good! Why is that, you might be wondering? The answer to that can
+be found by looking at the coefficients for the multiple regression model we
+have already looked at in Section `Multiple linear regression
+<Ch12_Regression_05.html#multiple-linear-regression>`__ above, where the
 coefficients we got were:
 
 .. code-block::
@@ -108,16 +103,12 @@ predict my grumpiness.
 
 We can re-use a hypothesis test that we discussed earlier, the
 *t*-test. The test that we’re interested in has a null hypothesis
-that the true regression coefficient is zero (:math:`b = 0`), which is
+that the true regression coefficient is zero (*b* = 0), which is
 to be tested against the alternative hypothesis that it isn’t
-(:math:`b \neq 0`). That is:
+(*b* ≠ 0). That is:
 
-.. math::
-
-   \begin{array}{rl}
-   H_0: & b = 0 \\
-   H_1: & b \neq 0 
-   \end{array}
+| H\ :sub:`0`: *b* = 0
+| H\ :sub:`1`: *b* ≠ 0 
 
 How can we test this? Well, if the central limit theorem is kind to us we might
 be able to guess that the sampling distribution of :math:`\hat{b}`, the
@@ -151,17 +142,26 @@ alternative (i.e., you don’t really care if *b* > 0 or *b* < 0), then it’s t
 extreme values of *t* (i.e., a lot less than zero or a lot greater than zero)
 that suggest that you should reject the null hypothesis.
 
-Running the hypothesis tests in jamovi [sec:regressionsummary]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Running the hypothesis tests in jamovi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To compute all of the statistics that we have talked about so far, all
 you need to do is make sure the relevant options are checked in jamovi
-and then run the regression. If we do that, as in :numref:`fig:reg2] <#fig:reg2>`__, we get a whole bunch of useful output.
+and then run the regression. If we do that, as in :numref:`fig-reg2`, we get a whole bunch of useful output.
 
-[fig:reg2]
+.. ----------------------------------------------------------------------------
+
+.. _fig-reg2:
+.. figure:: ../_images/lsj_reg2.*
+   :alt: jamovi screenshot showing a multiple linear regression
+
+   jamovi screenshot showing a multiple linear regression analysis, with some
+   useful options checked.
+   
+.. ----------------------------------------------------------------------------
 
 The ``Model Coefficients`` at the bottom of the jamovi analysis results
-shown in `[fig:reg2] <#fig:reg2>`__ provides the coefficients of the
+shown in `fig-reg2` provides the coefficients of the
 regression model. Each row in this table refers to one of the
 coefficients in the regression model. The first row is the intercept
 term, and the later ones look at each of the predictors. The columns
@@ -178,11 +178,11 @@ tests.\ [#]_
 
 The only thing that the coefficients table itself doesn’t list is the
 degrees of freedom used in the *t*-test, which is always
-:math:`N-K-1` and is listed in the table at the top of the output,
+*N* - K - 1 and is listed in the table at the top of the output,
 labelled ``Model Fit Measures``. We can see from this table that the model
 performs significantly better than you’d expect by chance
-(:math:`F(2,97) = 215.24`, :math:`p<.001`), which isn’t all that
-surprising: the :math:`R^2 = 0.81` value indicate that the regression
+(*F*\(2,97) = 215.24, *p* < 0.001), which isn’t all that
+surprising: the *R²* = 0.81 value indicate that the regression
 model accounts for 81% of the variability in the outcome measure (and
 82% for the adjusted *R²*). However, when we look back up at the
 *t*-tests for each of the individual coefficients, we have pretty
@@ -197,7 +197,7 @@ simple regression model that we started with is the better model.
 
 .. [#]
    For advanced readers only. The vector of residuals is
-   :math:`\epsilon = y - **X** \hat{b}`. For K predictors
+   :math:`\epsilon = y - X \hat{b}`. For K predictors
    plus the intercept, the estimated residual variance is
    :math:`\hat\sigma^2 = \epsilon^\prime\epsilon / (N-K-1)`. The
    estimated covariance matrix of the coefficients is

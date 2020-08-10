@@ -185,4 +185,5 @@ the decision about whether to include outliers or exclude them in any analysis
 depends heavily on *why* you think the data look they way they do and what you
 want to use the data *for*. You really need to exercise good judgement here. If
 the outlier looks legitimate to you, then keep it. In any case, I’ll return to
-the topic again in Section `[sec:regressiondiagnostics] <#sec:regressiondiagnostics>`__.
+the topic again in Section `Model checking
+<Ch12_Regression_10.html#model-checking>`__.

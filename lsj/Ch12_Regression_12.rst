@@ -3,33 +3,32 @@
 Summary
 -------
 
--  Want to know how strong the relationship is between two variables?
-   Calculate a correlation (Section `[sec:correl] <#sec:correl>`__).
+-  Want to know how strong the relationship is between two variables? Calculate
+   a `correlation <Ch12_Regression_01.html#correlations>`__
+   
+-  Drawing `scatterplots <Ch12_Regression_02.html#scatterplots>`__
 
--  Drawing scatterplots
-   (Section `[sec:scatterplots] <#sec:scatterplots>`__).
+-  `Basic ideas in linear regression 
+   <Ch12_Regression_03.html#what-is-a-linear-regression-model>`__ and `how
+   regression models are estimated
+   <Ch12_Regression_04.html#estimating-a-linear-regression-model>`__
 
--  Basic ideas in linear regression and how regression models are
-   estimated (Sections `[sec:introregression] <#sec:introregression>`__
-   and `[sec:regressionestimation] <#sec:regressionestimation>`__).
+-  `Multiple linear regression
+   <Ch12_Regression_05.html#multiple-linear-regression>`__
 
--  Multiple linear regression
-   (Section `[sec:multipleregression] <#sec:multipleregression>`__).
+-  Measuring the `overall performance of a regression model using R²
+   <Ch12_Regression_06.html#quantifying-the-fit-of-the-regression-model>`__
+   
+-  `Hypothesis tests for regression models
+   <Ch12_Regression_07.html#hypothesis-tests-for-regression-models>`__
 
--  Measuring the overall performance of a regression model using
-   *R²* (Section `[sec:r2] <#sec:r2>`__).
-
--  Hypothesis tests for regression models
-   (Section `[sec:regressiontests] <#sec:regressiontests>`__)
-
--  Calculating confidence intervals for regression coefficients and
+-  `Calculating confidence intervals for regression coefficients and
    standardised coefficients
-   (Section `[sec:regressioncoefs] <#sec:regressioncoefs>`__).
+   <Ch12_Regression_08.html#regarding-regression-coefficients>`__
 
--  The assumptions of regression
-   (Section `[sec:regressionassumptions] <#sec:regressionassumptions>`__)
-   and how to check them
-   (Section `[sec:regressiondiagnostics] <#sec:regressiondiagnostics>`__).
+-  The `assumptions of regression
+   <Ch12_Regression_09.html#assumptions-of-regression>`__ and `how to check
+   them <Ch12_Regression_10.html#model-checking>`__
 
--  Selecting a regression model
-   (Section `[sec:modelselreg] <#sec:modelselreg>`__).
+-  `Selecting a regression model
+   <Ch12_Regression_11.html#model-selection>`__

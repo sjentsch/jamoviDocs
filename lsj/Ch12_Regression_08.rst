@@ -1,7 +1,7 @@
 .. sectionauthor:: `Danielle J. Navarro <https://djnavarro.net/>`_ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`_
 
-Regarding regression coefficients [sec:regressioncoefs]
--------------------------------------------------------
+Regarding regression coefficients
+---------------------------------
 
 Before moving on to discuss the assumptions underlying linear regression
 and what you can do to check if they’re being met, there’s two more
@@ -29,17 +29,16 @@ constructed in the usual fashion
 .. math:: \mbox{CI}(b) = \hat{b} \pm \left( t_{crit} \times \mbox{\textsc{se}}(\hat{b})  \right)
 
 where :math:`\mbox{\textsc{se}}(\hat{b})` is the standard error of the
-regression coefficient, and :math:`t_{crit}` is the relevant critical
+regression coefficient, and *t*\ :sub:`crit` is the relevant critical
 value of the appropriate *t* distribution. For instance, if it’s a
 95% confidence interval that we want, then the critical value is the
-97.5th quantile of a *t* distribution with :math:`N-K-1` degrees
+97.5th quantile of a *t* distribution with *N* - K - 1 degrees
 of freedom. In other words, this is basically the same approach to
 calculating confidence intervals that we’ve used throughout.
 
 In jamovi we had already specified the ``95% Confidence interval`` as
-shown if :numref:`[fig:reg2] <#fig:reg2>`__, although we could easily
-have chosen another value, say a ``99% Confidence interval`` if that is
-what we decided on.
+shown if :numref:`fig-reg2`, although we could easily have chosen another
+value, say a ``99% Confidence interval`` if that is what we decided on.
 
 Calculating standardised regression coefficients
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -85,17 +84,26 @@ and then run a regression, but there’s a much simpler way to do it. As
 it turns out, the *β* coefficient for a predictor *X*
 and outcome *Y* has a very simple formula, namely
 
-.. math:: \beta_X = b_X \times \frac{\sigma_X}{\sigma_Y}
+| β\ :sub:`X` = *b*\ :sub:`X` × (σ\ :sub:`X` / σ\ :sub:`Y`)
 
-where :math:`\sigma_X` is the standard deviation of the predictor, and
-:math:`\sigma_Y` is the standard deviation of the outcome variable
-*Y*. This makes matters a lot simpler.
+where σ\ :sub:`X` is the standard deviation of the predictor, and σ\ :sub:`Y`
+is the standard deviation of the outcome variable *Y*. This makes matters a lot
+simpler.
 
-To make things even simpler, jamovi has an option that computes the
-*β* coefficients for you using the ``Standardized estimate``
-checkbox in the ``Model Coefficients`` options, see results in :numref:`fig:reg3] <#fig:reg3>`__.
+To make things even simpler, jamovi has an option that computes the *β*
+coefficients for you using the ``Standardized estimate`` checkbox in the
+``Model Coefficients`` options, see results in :numref:`fig-reg3`.
 
-[fig:reg3]
+.. ----------------------------------------------------------------------------
+
+.. _fig-reg3:
+.. figure:: ../_images/lsj_reg3.*
+   :alt: Standardised coefficients with 95% confidence intervals
+
+   Standardised coefficients, with 95% confidence intervals, for multiple
+   linear regression
+   
+.. ----------------------------------------------------------------------------
 
 This clearly shows that the ``dan.sleep`` variable has a much stronger
 effect than the ``baby.sleep`` variable. However, this is a perfect

@@ -1,7 +1,7 @@
 .. sectionauthor:: `Danielle J. Navarro <https://djnavarro.net/>`_ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`_
 
-Model selection[sec:modelselreg]
---------------------------------
+Model selection
+---------------
 
 One fairly major problem that remains is the problem of “model
 selection”. That is, if we have a data set that contains several
@@ -186,8 +186,8 @@ as an alternative hypothesis. And in fact we can construct an *F*
 test for this in a fairly straightforward fashion.
 
 We can fit both models to the data and obtain a residual sum of squares
-for both models. I’ll denote these as SS\ :math:`_{res}^{(1)}` and
-SS\ :math:`_{res}^{(2)}` respectively. The superscripting here just
+for both models. I’ll denote these as SS\ :sub:`res`\ :sup:`(1)` and
+SS\ :sub:`res`\ :sup:`(2)` respectively. The superscripting here just
 indicates which model we’re talking about. Then our *F* statistic
 is
 
@@ -197,42 +197,49 @@ where *N* is the number of observations, *p* is the number
 of predictors in the full model (not including the intercept), and
 k is the difference in the number of parameters between the two
 models.\ [#]_ The degrees of freedom here are k and
-:math:`N-p-1`. Note that it’s often more convenient to think about the
+*N* - p - 1. Note that it’s often more convenient to think about the
 difference between those two SS values as a sum of squares in its own
 right. That is
 
-.. math:: \mbox{SS}_\Delta = \mbox{SS}_{res}^{(1)} - \mbox{SS}_{res}^{(2)}
+| SS\ :sub:`Δ` = SS\ :sub:`res`\ :sup:`(1)` - SS\ :sub:`res`\ :sup:`(2)`
 
 The reason why this is helpful is that we can express
-:math:`\mbox{SS}_\Delta` as a measure of the extent to which the two
+SS\ :sub:`Δ` as a measure of the extent to which the two
 models make different predictions about the the outcome variable.
 Specifically,
 
-.. math:: \mbox{SS}_\Delta  = \sum_{i} \left(\hat{y}_i^{(2)} - \hat{y}_i^{(1)} \right)^2
+| SS\ :sub:`Δ` = :math:`\sum_{i} \left(\hat{y}_i^{(2)} - \hat{y}_i^{(1)} \right)^2`
 
-where :math:`\hat{y}_i^{(1)}` is the fitted value for :math:`y_i`
-according to model :math:`M_1` and :math:`\hat{y}_i^{(2)}` is the fitted
-value for :math:`y_i` according to model :math:`M_2`.
+where *ŷ*\ :sub:`i`\ :sup:`(1)` is the fitted value for *y*\ :sub:`i`
+according to model M\ :sub:`1` and *ŷ*\ :sub:`i`\ :sup:`(2)` is the fitted
+value for *y*\ :sub:`i` according to model M\ :sub:`2`.
 
-[fig:reg8]
+.. ----------------------------------------------------------------------------
+
+.. _fig-reg8:
+.. figure:: ../_images/lsj_reg8.*
+   :alt: Model comparison in jamovi using the ‘Model Builder’ option
+
+   Model comparison in jamovi using the ``Model Builder`` option
+   
+.. ----------------------------------------------------------------------------
 
 Okay, so that’s the hypothesis test that we use to compare two
 regression models to one another. Now, how do we do it in jamovi? The
 answer is to use the ``Model Builder`` option and specify the Model 1
 predictors ``dan.sleep`` and ``day`` in ``Block 1`` and then add the
 additional predictor from Model 2 (``baby.sleep``) in ``Block 2``, as in
-:numref:`[fig:reg8] <#fig:reg8>`__. This shows, in the ``Model
-Comparisons`` Table, that for the comparisons between Model 1 and Model
-2, *F*\ (1,96) = 0.00, *p* = 0.954. Since we have
-:math:`p>.05` we retain the null hypothesis (``M1``). This approach to
-regression, in which we add all of our covariates into a null model,
-then *add* the variables of interest into an alternative model, and then
-compare the two models in a hypothesis testing framework, is often
+:numref:`fig-reg8`. This shows, in the ``Model Comparisons`` Table, that
+for the comparisons between Model 1 and Model 2, *F*\ (1,96) = 0.00,
+*p* = 0.954. Since we have p > 0.05 we retain the null hypothesis (``M1``).
+This approach to regression, in which we add all of our covariates into a
+null model, then *add* the variables of interest into an alternative model,
+and then compare the two models in a hypothesis testing framework, is often
 referred to as **hierarchical regression**.
 
 We can also use this ``Model Comparison`` option to display a table that
 shows the AIC and BIC for each model, making it easy to compare and
-identify which model has the lowest value, as in :numref:`fig:reg8] <#fig:reg8>`__.
+identify which model has the lowest value, as in :numref:`fig-reg8`.
 
 ------
 

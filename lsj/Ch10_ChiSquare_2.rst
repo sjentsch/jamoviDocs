@@ -152,7 +152,7 @@ Therefore, our expected frequency can be written as the product (i.e.
 multiplication) of the row total and the column total, divided by the
 total number of observations:\ [#]_
 
-.. math:: E_{ij} = \frac{R_i \times C_j}{N}
+| Ê\ :sub:`ij` = (R\ :sub:`i` × C\ :sub:`j`) / *N*
 
 Now that we’ve figured out how to calculate the expected frequencies,
 it’s straightforward to define a test statistic, following the exact
@@ -164,8 +164,8 @@ equation that defines our *X*\² statistic is
 
 .. math:: X^2 = \sum_{i=1}^r\sum_{j=1}^c \frac{({E}_{ij} - O_{ij})^2}{{E}_{ij}}
 
-The only difference is that I have to include two summation signs (i.e.,
-:math:`\sum`) to indicate that we’re summing over both rows and columns.
+The only difference is that I have to include two summation signs (i.e., Σ) to
+indicate that we’re summing over both rows and columns.
 
 As before, large values of *X*\² indicate that the null hypothesis
 provides a poor description of the data, whereas small values of
@@ -312,7 +312,7 @@ instead of doing work.
 
 .. [#]
    Technically, *E*\ :sub:`ij` here is an estimate, so I should probably write
-   it :math:`\hat{E}_{ij}`. But since no-one else does, I won’t either.
+   it *Ê*\ :sub:`ij`\. But since no-one else does, I won’t either.
 
 .. [#]
    A problem many of us worry about in real life.

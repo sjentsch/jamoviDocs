@@ -118,5 +118,4 @@ logarithms for this book!
 ------
 
 .. [#]
-   We’ll leave the box-cox function until `later on <[sec:box-cox]>`__.
-   - Ch12.. → .. _box-cox
+   We’ll leave the box-cox function until :ref:`later on <box-cox>`.

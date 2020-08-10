@@ -37,9 +37,9 @@ coefficients, and *ϵ*\ :sub:`p` is the *p*-th residual. If
 we ignore the residuals *ϵ*\ :sub:`p` and just focus on the
 regression line itself, we get the following formula:
 
-| :math:`\hat{Y}_p` = *b*\ :sub:`0` + *b*\ :sub:`1` *X*\ :sub:`1p` + *b*\ :sub:`2` *X*\ :sub:`2p`
+| *Ŷ*\ :sub:`p` = *b*\ :sub:`0` + *b*\ :sub:`1` *X*\ :sub:`1p` + *b*\ :sub:`2` *X*\ :sub:`2p`
 
-where :math:`\hat{Y}_p` is the value of *Y* that the regression
+where *Ŷ*\ :sub:`p` is the value of *Y* that the regression
 line predicts for person *p*, as opposed to the actually-observed
 value *Y*\ :sub:`p`. The thing that isn’t immediately obvious is that we
 can write ANOVA as a linear model as well. However, it’s actually pretty
@@ -193,24 +193,18 @@ number 6 did not (i.e., ``attend = 0``, *X*\ :sub:`1,6` = 0). Now let’s look a
 what happens when we insert these numbers into the general formula for our
 regression line. For student number 6, the regression predicts that:
 
-.. math::
-
-   \begin{aligned}
-   \hat{Y}_{6} &=& b_0  + b_1 X_{1,6} + b_2 X_{2,6}\\
-   &=&  b_0 + (b_1 \times 0)  + ( b_2 \times 0) \\
-   &=&  b_0\end{aligned}
+| *Ŷ*\ :sub:`6` = *b*\ :sub:`0` + *b*\ :sub:`1` *X*\ :sub:`1,6` +  *b*\ :sub:`2` *X*\ :sub:`2,6`
+| *Ŷ*\ :sub:`6` = *b*\ :sub:`0` + *b*\ :sub:`1` × 0 + *b*\ :sub:`2` × 0
+| *Ŷ*\ :sub:`6` = *b*\ :sub:`0`
 
 So we’re expecting that this student will obtain a grade corresponding to the
 value of the intercept term *b*\ :sub:`0`. What about student 7? This time when
 we insert the numbers into the formula for the regression line, we obtain the
 following:
 
-.. math::
-
-   \begin{aligned}
-   \hat{Y}_{7} &=& b_0 + b_1 X_{1,7} + b_2 X_{2,7} \\
-   &=&  b_0 + (b_1 \times 1)  + ( b_2 \times 0) \\
-   &=&  b_0 + b_1 \end{aligned}
+| *Ŷ*\ :sub:`7` = *b*\ :sub:`0` + *b*\ :sub:`1` *X*\ :sub:`1,7` +  *b*\ :sub:`2` *X*\ :sub:`2,7`
+| *Ŷ*\ :sub:`7` = *b*\ :sub:`0` + *b*\ :sub:`1` × 1 + *b*\ :sub:`2` × 0
+| *Ŷ*\ :sub:`7` = *b*\ :sub:`0` + *b*\ :sub:`1`
 
 Because this student attended class, the predicted grade is equal to the
 intercept term *b*\ :sub:`0` *plus* the coefficient associated with the 
@@ -222,12 +216,9 @@ worse. In fact, we can push this a little bit further. What about student
 number 1, who turned up to class (*X*\ :sub:`1,1` = 1) *and* read the textbook
 (*X*\ :sub:`2,1` = 1)? If we plug these numbers into the regression we get:
 
-.. math::
-
-   \begin{aligned}
-   \hat{Y}_{1} &=& b_0 + b_1 X_{1,1} + b_2 X_{2,1} \\
-   &=&  b_0 + (b_1 \times 1)  + ( b_2 \times 1)  \\
-   &=&  b_0 + b_1 + b_2 \end{aligned}
+| *Ŷ*\ :sub:`1` = *b*\ :sub:`0` + *b*\ :sub:`1` *X*\ :sub:`1,1` +  *b*\ :sub:`2` *X*\ :sub:`2,1`
+| *Ŷ*\ :sub:`1` = *b*\ :sub:`0` + *b*\ :sub:`1` × 1 + *b*\ :sub:`2` × 1
+| *Ŷ*\ :sub:`1` = *b*\ :sub:`0` + *b*\ :sub:`1` + *b*\ :sub:`2`
 
 So if we assume that attending class helps you get a good grade (i.e.,
 *b*\ :sub:`1 > 0`) and if we assume that reading the textbook also helps you

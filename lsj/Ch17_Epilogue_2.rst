@@ -11,7 +11,7 @@ many data analysis situations that these tools don’t cover, and it would be
 great to give you a sense of just how much more there is, for example:
 
 -  **Nonlinear regression.** When discussing regression in Chapter
-   ``Correlation and linear regression
+   `Correlation and linear regression
    <Ch12_Regression.html#correlation-and-linear-regression>`__, we saw that
    regression assumes that the relationship between predictors and outcomes is
    linear. On the other hand, when we talked about the simpler problem
