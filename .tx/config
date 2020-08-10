@@ -307,12 +307,6 @@ source_file = _build/gettext/development/ui_variablesupplier.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.getting-started--dl_0_welcome]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/dl_0_welcome.po
-source_file = _build/gettext/getting-started/dl_0_welcome.pot
-source_lang = en
-type = PO
-
 [jamovi-documentation.getting-started--jg_0_welcome]
 file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_0_welcome.po
 source_file = _build/gettext/getting-started/jg_0_welcome.pot

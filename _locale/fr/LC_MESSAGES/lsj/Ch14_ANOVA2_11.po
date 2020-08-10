@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:4
+msgid "Summary"
+msgstr ""
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:6
+msgid ""
+"Factorial ANOVA with balanced designs, `without interactions "
+"<Ch14_ANOVA2_01.html#factorial-anova-1-balanced-designs-no-"
+"interactions>`__ and `with interactions included <Ch14_ANOVA2_02.html"
+"#factorial-anova-2-balanced-designs-interactions-allowed>`__"
+msgstr ""
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:11
+msgid ""
+"`Effect size, estimated means, and confidence intervals in a factorial "
+"ANOVA <Ch14_ANOVA2_03.html#effect-size>`__"
+msgstr ""
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:14
+msgid ""
+"`Checking assumptions in the ANOVA <Ch14_ANOVA2_04.html#assumption-"
+"checking>`__"
+msgstr ""
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:16
+msgid ""
+"`Analysis of Covariance (ANCOVA) <Ch14_ANOVA2_05.html#analysis-of-"
+"covariance-ancova>`__"
+msgstr ""
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:19
+msgid ""
+"`Understanding the linear model underlying ANOVA <Ch14_ANOVA2_06.html"
+"#anova-as-a-linear-model>`__, including `different contrasts "
+"<Ch14_ANOVA2_07.html#different-ways-to-specify-contrasts>`__"
+msgstr ""
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:23
+msgid ""
+"`Post-hoc testing <Ch14_ANOVA2_08.html#post-hoc-tests>`__ (using Tukey’s "
+"HSD) and a brief commentary on `planned comparisons <Ch14_ANOVA2_09.html"
+"#the-method-of-planned-comparisons>`__"
+msgstr ""
+
+#: ../../lsj/Ch14_ANOVA2_11.rst:27
+msgid ""
+"`Factorial ANOVA with unbalanced designs <Ch14_ANOVA2_10.html#factorial-"
+"anova-3-unbalanced-designs>`__"
+msgstr ""
+

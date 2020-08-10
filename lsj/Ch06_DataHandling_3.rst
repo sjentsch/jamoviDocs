@@ -78,9 +78,9 @@ spreadsheet view, as in :numref:`fig-opinionstrength`:
 
 .. _fig-opinionstrength:
 .. figure:: ../_images/lsj_opinionstrength.*
-   :alt: f\ x button to select functions and variables
+   :alt: fx button to select functions and variables
 
-   Using the :math: *f*\ :sub:`x` button to select functions and variables
+   Using the *f*\ :sub:`x` button to select functions and variables
    
 .. ----------------------------------------------------------------------------
 
