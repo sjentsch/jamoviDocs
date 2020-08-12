@@ -17,7 +17,7 @@ road to R. jamovi tries to use an interface that is relatively similar to the
 one in SPSS, the result version is more transparent and can be easily
 transferred to text processing (copy-and-paste with [mostly] keep formatting).
 
-`Comparison of analyses <Comparison_of_analyses>`__ provides an overview of
+`Comparison of analyses <Comparison_of_analyses.html>`__ provides an overview of
 which analysis functions are available in SPSS and the respective functions in
 jamovi.
 
