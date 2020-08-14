@@ -48,7 +48,7 @@ not a characteristic of the scale, but rather a characteristic of the sample in
 which the scale has been used. A biased, unrepresentative, or small sample
 could produce a very different *α* coefficient than a large, representative
 sample. *α* can even vary from large sample to large sample. Nevertheless,
-despite these limitations, Chronbach’s *α* has been popular in Psychology for
+despite these limitations, Cronbach’s *α* has been popular in Psychology for
 estimating internal consistency reliability. It’s pretty easy to calculate,
 understand and interpret, and therefore it can be a useful initial check on
 scale performance when you administer a scale with a different sample, from a
@@ -72,7 +72,7 @@ of 0.80 is associated with 20%.
 Can *α* be too high? Probably: if you are getting an *α* coefficient above 0.95
 then this indicates high inter-correlations between the items and that there
 might be too much overly-redundant specificity in the measurement, with a risk
-that the construct being measured in perhaps overly narrow.
+that the construct being measured is perhaps overly narrow.
 
 Reliability analysis in jamovi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -106,7 +106,7 @@ analysis in jamovi:
 .. ----------------------------------------------------------------------------
 
 Once done, look across at the jamovi results window. You should see something
-like :numref:`fig-rel2`. This tells us that the Chronbach’s *α* coefficient for
+like :numref:`fig-rel2`. This tells us that the Cronbach’s *α* coefficient for
 the Agreeableness scale is 0.70. This means that just under 30% of the
 Agreeableness scale score is error variance. McDonald’s *ω* is also given, and
 this is 0.72, not much different from *α*.

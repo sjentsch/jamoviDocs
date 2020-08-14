@@ -10,15 +10,15 @@ Overview
 --------
 
 *learning statistics with jamovi* covers the contents of an introductory
-statistics class, as typically taught to undergraduate psychology
-students. The book discusses how to get started in jamovi as well as
-giving an introduction to data manipulation. From a statistical
-perspective, the book discusses descriptive statistics and graphing
-first, followed by chapters on probability theory, sampling and
-estimation, and null hypothesis testing. After introducing the theory,
-the book covers the analysis of contingency tables, correlation,
-t-tests, regression, ANOVA and factor analysis. Bayesian statistics are
-covered at the end of the book.
+statistics class, as typically taught to undergraduate psychology students. It
+is part of the jamovi documentation but also available `as a textbook
+<https://www.learnstatswithjamovi.com/>`__. It discusses how to get started in
+jamovi as well as giving an introduction to data manipulation. From a
+statistical perspective, the book discusses descriptive statistics and graphing
+first, followed by chapters on probability theory, sampling and estimation, and
+null hypothesis testing. After introducing the theory, the book covers the
+analysis of contingency tables, correlation, t-tests, regression, ANOVA and
+factor analysis. Bayesian statistics are covered at the end of the book.
 
 Citation
 --------

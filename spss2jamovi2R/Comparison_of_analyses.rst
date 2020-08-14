@@ -54,14 +54,12 @@ Comparison of analyses available in SPSS and jamovi
 +--------------------------------------+--------------------------------------+
 | **Descriptive Statistics**                                                  |
 +--------------------------------------+--------------------------------------+
-| Descriptive Statistics →             | Exploration → Descriptives, *tick    |
-| Frequencies                          | «Frequency tables» to get an output  |
-|                                      | that is similar to that of           |
-|                                      | «Frequencies» in SPSS*               |
-+--------------------------------------+--------------------------------------+
-| Descriptive Statistics →             |                                      |
-| Descriptives                         |                                      |
-+--------------------------------------+--------------------------------------+
+| Descriptive Statistics →             | Exploration → Descriptives           |
+| Frequencies                          | combines all three procedures        |
++--------------------------------------+                                      |
+| Descriptive Statistics →             | *tick «Frequency tables» to get an   |
+| Descriptives                         | output that is similar to that of    |
++--------------------------------------+ «Frequencies» in SPSS*               |
 | Descriptive Statistics → Explore     |                                      |
 +--------------------------------------+--------------------------------------+
 | Descriptive Statistics →             | Frequencies → (Contingency tables)   |
@@ -159,7 +157,7 @@ Comparison of analyses available in SPSS and jamovi
 +--------------------------------------+--------------------------------------+
 | Correlate → Partial                  | Regression → Partial Correlation     |
 +--------------------------------------+--------------------------------------+
-| Correlate → Distances                | N/A, *under development*             |
+| Correlate → Distances                | *under development*                  |
 +--------------------------------------+--------------------------------------+
 | **Regression**                                                              |
 +--------------------------------------+--------------------------------------+

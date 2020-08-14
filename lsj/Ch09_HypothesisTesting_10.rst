@@ -14,7 +14,7 @@ about:
 -  `Research hypotheses and statistical hypotheses. Null and alternative
    hypotheses. <Ch09_HypothesisTesting_01.html#a-menagerie-of-hypotheses>`__
 
--  `Type 1 and Type 2 errors 
+-  `Type I and Type II errors 
    <Ch09_HypothesisTesting_02.html#two-types-of-errors>`__
 
 -  `Test statistics and sampling distributions

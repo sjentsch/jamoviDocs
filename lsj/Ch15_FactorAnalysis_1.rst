@@ -445,7 +445,7 @@ thing you might like to do is see whether there are any gender differences in
 each of our personality scales. We did this for the Agreeableness score that we
 calculated using the factor-based score approach, and although the plot (see
 :numref:`fig-efa12`) showed that males were less agreeable than females, this
-was not a significant difference (Man-Whitney *U* = 5760.5, p = 0.073).
+was not a significant difference (Mann-Whitney *U* = 5760.5, p = 0.073).
 
 .. ----------------------------------------------------------------------------
 
