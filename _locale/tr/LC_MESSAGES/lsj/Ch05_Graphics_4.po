@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"PO-Revision-Date: 2020-08-10 17:54+0000\n"
+"Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../lsj/Ch05_Graphics_4.rst:4
 msgid "Summary"
@@ -25,25 +23,24 @@ msgstr ""
 
 #: ../../lsj/Ch05_Graphics_4.rst:6
 msgid ""
-"Perhaps I’m a simple minded person, but I love pictures. Every time I "
-"write a new scientific paper one of the first things I do is sit down and"
-" think about what the pictures will be. In my head an article is really "
-"just a sequence of pictures linked together by a story. All the rest of "
-"it is just window dressing. What I’m really trying to say here is that "
-"the human visual system is a very powerful data analysis tool. Give it "
-"the right kind of information and it will supply a human reader with a "
-"massive amount of knowledge very quickly. Not for nothing do we have the "
-"saying “a picture is worth a thousand words”. With that in mind, I think "
-"that this is one of the most important chapters in the book. The topics "
-"covered were:"
+"Perhaps I’m a simple minded person, but I love pictures. Every time I write "
+"a new scientific paper one of the first things I do is sit down and think "
+"about what the pictures will be. In my head an article is really just a "
+"sequence of pictures linked together by a story. All the rest of it is just "
+"window dressing. What I’m really trying to say here is that the human visual"
+" system is a very powerful data analysis tool. Give it the right kind of "
+"information and it will supply a human reader with a massive amount of "
+"knowledge very quickly. Not for nothing do we have the saying “a picture is "
+"worth a thousand words”. With that in mind, I think that this is one of the "
+"most important chapters in the book. The topics covered were:"
 msgstr ""
 
 #: ../../lsj/Ch05_Graphics_4.rst:18
 msgid ""
 "*Common plots*. Much of the chapter was focused on standard graphs that "
 "statisticians like to produce: `histograms "
-"<Ch05_Graphics_1.html#histograms>`__, `box plots <Ch05_Graphics_2.html"
-"#box-plots>`__ and `bar graphs <Ch05_Graphics_3.html#bar-graphs>`__."
+"<Ch05_Graphics_1.html#histograms>`__, `box plots <Ch05_Graphics_2.html#box-"
+"plots>`__ and `bar graphs <Ch05_Graphics_3.html#bar-graphs>`__."
 msgstr ""
 
 #: ../../lsj/Ch05_Graphics_4.rst:24
@@ -56,14 +53,13 @@ msgstr ""
 msgid ""
 "One final thing to point out. Whilst jamovi produces some really neat "
 "default graphics, editing the plots is currently not possible. For more "
-"advanced graphics and plotting capability the packages available in R are"
-" much more powerful. One of the most popular graphics systems is provided"
-" by the ``ggplot2`` package (see http://ggplot2.org/), which is loosely "
-"based on “The grammar of graphics” (`Wilkinson, 2006 "
-"<References.html#wilkinson-2006>`__\\ ). It’s not for novices. You need "
-"to have a pretty good grasp of R before you can start using it, and even "
-"then it takes a while to really get the hang of it. But when you’re ready"
-" it’s worth taking the time to teach yourself, because it’s a much more "
-"powerful and cleaner system."
+"advanced graphics and plotting capability the packages available in R are "
+"much more powerful. One of the most popular graphics systems is provided by "
+"the ``ggplot2`` package (see http://ggplot2.org/), which is loosely based on"
+" “The grammar of graphics” (`Wilkinson, 2006 "
+"<References.html#wilkinson-2006>`__\\ ). It’s not for novices. You need to "
+"have a pretty good grasp of R before you can start using it, and even then "
+"it takes a while to really get the hang of it. But when you’re ready it’s "
+"worth taking the time to teach yourself, because it’s a much more powerful "
+"and cleaner system."
 msgstr ""
-

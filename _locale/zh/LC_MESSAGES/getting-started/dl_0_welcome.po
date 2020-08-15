@@ -1,21 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 00:54+0200\n"
+"POT-Creation-Date: 2020-08-14 18:31+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/jamovi/teams/111618/zh_CN/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: Chinese (China) "
+"(https://www.transifex.com/jamovi/teams/111618/zh_CN/)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../getting-started/dl_0_welcome.rst:7
 msgid "jamovi: An introduction with short videos"
@@ -23,15 +28,16 @@ msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:9
 msgid ""
-"`jamovi <https://www.jamovi.org/>`__ is a free, open-source application that"
-" makes data analysis easy and intuitive. jamovi menus and commands are "
-"designed to simplify the transition from programs like `SPSS "
+"`jamovi <https://www.jamovi.org/>`__ is a free, open-source application "
+"that makes data analysis easy and intuitive. jamovi menus and commands "
+"are designed to simplify the transition from programs like `SPSS "
 "<https://www.ibm.com/products/spss-statistics>`__ but, under the hood, "
 "jamovi is based on the powerful statistical programming language `R "
-"<https://www.r-project.org/>`__. jamovi has a clean, human-friendly design "
-"that facilitates insight into your data and makes it easy to share your work"
-" with others. In this introductory course, you’ll learn how you can use "
-"jamovi to refine, analyze, and visualize your data to get critical insights."
+"<https://www.r-project.org/>`__. jamovi has a clean, human-friendly "
+"design that facilitates insight into your data and makes it easy to share"
+" your work with others. In this introductory course, you’ll learn how you"
+" can use jamovi to refine, analyze, and visualize your data to get "
+"critical insights."
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:19
@@ -79,56 +85,56 @@ msgstr ""
 msgid ""
 "`Welcome "
 "<https://www.youtube.com/embed/Ej9e8lzaeDE?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:26}"
+" (1:26)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:39
 msgid ""
 "`Installing jamovi "
 "<https://www.youtube.com/embed/syx0f4xCxpk?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {0:34}"
+" (0:34)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:40
 msgid ""
 "`Navigating jamovi "
 "<https://www.youtube.com/embed/e2Wc2wpWk4Y?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:20}"
+" (5:20)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:41
 msgid ""
 "`Sample data "
 "<https://www.youtube.com/embed/GkqrmufO3yU?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {2:01}"
+" (2:01)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:42
 msgid ""
 "`Sharing files "
 "<https://www.youtube.com/embed/X0GNondPmrk?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:32}"
+" (1:32)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:43
 msgid ""
 "`Sharing with OSF.io "
 "<https://www.youtube.com/embed/ryiGWk8DwgY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {3:18}"
+" (3:18)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:44
 msgid ""
 "`jamovi modules "
 "<https://www.youtube.com/embed/Zm1xAy6HkUo?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {4:11}"
+" (4:11)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:45
 msgid ""
 "`The jmv package for R "
 "<https://www.youtube.com/embed/g5lnGkIeyw0?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:03}"
+" (5:03)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:50
@@ -139,56 +145,56 @@ msgstr ""
 msgid ""
 "`Wrangling data: chapter overview "
 "<https://www.youtube.com/embed/B2OgFq05QMs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:30}"
+" (1:30)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:53
 msgid ""
 "`Entering data "
 "<https://www.youtube.com/embed/bGLFzfID2-M?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {2:04}"
+" (2:04)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:54
 msgid ""
 "`Importing data "
 "<https://www.youtube.com/embed/R0uE4LlHeac?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {4:51}"
+" (4:51)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:55
 msgid ""
 "`Variable types \\u0026 labels "
 "<https://www.youtube.com/embed/7tlvuYO76Ok?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {6:10}"
+" (6:10)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:56
 msgid ""
 "`Computing means "
 "<https://www.youtube.com/embed/-t1Q52QChoo?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {3:54}"
+" (3:54)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:57
 msgid ""
 "`Computing z-scores "
 "<https://www.youtube.com/embed/EBvvkvqm9_o?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:56}"
+" (1:56)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:58
 msgid ""
 "`Transforming scores to categories "
 "<https://www.youtube.com/embed/moIsRlUZabw?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {3:42}"
+" (3:42)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:59
 msgid ""
 "`Filtering cases "
 "<https://www.youtube.com/embed/pij0KlFhITw?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {8:26}"
+" (8:26)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:64
@@ -199,63 +205,63 @@ msgstr ""
 msgid ""
 "`Exploration: chapter overview "
 "<https://www.youtube.com/embed/PCOKKSj1kng?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:06}"
+" (1:06)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:67
 msgid ""
 "`Descriptive statistics "
 "<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:27}"
+" (5:27)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:68
 msgid ""
 "`Histograms "
 "<https://www.youtube.com/embed/10oomNrNe6w?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {4:25}"
+" (4:25)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:69
 msgid ""
 "`Density plots "
 "<https://www.youtube.com/embed/P-btx3PE1IA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {3:23}"
+" (3:23)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:70
 msgid ""
 "`Box plots "
 "<https://www.youtube.com/embed/bYV8nNunsEI?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {3:26}"
+" (3:26)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:71
 msgid ""
 "`Violin plots "
 "<https://www.youtube.com/embed/F_GeCkgAK6s?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {2:38}"
+" (2:38)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:72
 msgid ""
 "`Dot plots "
 "<https://www.youtube.com/embed/NelbTBddZow?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {3:07}"
+" (3:07)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:73
 msgid ""
 "`Bar plots "
 "<https://www.youtube.com/embed/SGtGAISq4kA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {3:28}"
+" (3:28)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:74
 msgid ""
 "`Exporting tables & plots "
 "<https://www.youtube.com/embed/By5UxD3LM5M?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {9:25}"
+" (9:25)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:79
@@ -266,27 +272,27 @@ msgstr ""
 msgid ""
 "`t-tests: chapter overview "
 "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:14}"
+" (1:14)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:82
 msgid ""
 "`Independent-samples t-test <https://www.youtube.com/embed/SM-"
-"DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ {6:40}"
+"DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (6:40)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:83
 msgid ""
 "`Paired-samples t-test "
 "<https://www.youtube.com/embed/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:13}"
+" (5:13)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:84
 msgid ""
 "`One-sample t-test "
 "<https://www.youtube.com/embed/DrBT4ezYIL8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:08}"
+" (7:08)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:89
@@ -297,49 +303,49 @@ msgstr ""
 msgid ""
 "`ANOVA: chapter overview "
 "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:58}"
+" (1:58)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:92
 msgid ""
 "`ANOVA "
 "<https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:03}"
+" (7:03)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:93
 msgid ""
 "`Repeated-measures ANOVA "
 "<https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {9:50}"
+" (9:50)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:94
 msgid ""
 "`ANCOVA "
 "<https://www.youtube.com/embed/d_SYORH6tUg?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {6:40}"
+" (6:40)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:95
 msgid ""
 "`MANCOVA "
 "<https://www.youtube.com/embed/doTm20CvxE8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:13}"
+" (7:13)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:96
 msgid ""
 "`Kruskal-Wallis test "
 "<https://www.youtube.com/embed/qfs6T311_88?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {6:00}"
+" (6:00)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:97
 msgid ""
 "`Friedman test "
 "<https://www.youtube.com/embed/MCdSJ9d6h8Y?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:30}"
+" (5:30)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:102
@@ -350,54 +356,54 @@ msgstr ""
 msgid ""
 "`Regression: chapter overview "
 "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {2:08}"
+" (2:08)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:105
 msgid ""
 "`Correlation matrix "
 "<https://www.youtube.com/embed/u5kZ4erx8QE?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:32}"
+" (7:32)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:106
 msgid ""
 "`Linear regression "
 "<https://www.youtube.com/embed/_5AVGuEzCXc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {6:14}"
+" (6:14)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:107
 msgid ""
 "`Variable entry "
 "<https://www.youtube.com/embed/N4jHzi1DWkQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:15}"
+" (7:15)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:108
 msgid ""
 "`Regression diagnostics "
 "<https://www.youtube.com/embed/ePYgkq3IvG8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {6:20}"
+" (6:20)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:109
 msgid ""
 "`Binomial logistic regression <https://www.youtube.com/embed/s7GL0z-"
-"3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ {9:01}"
+"3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (9:01)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:110
 msgid ""
 "`Multinomial logistic regression <https://www.youtube.com/embed/nuyEUEBf-"
-"GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ {8:48}"
+"GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (8:48)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:111
 msgid ""
 "`Ordinal logistic regression "
 "<https://www.youtube.com/embed/QnG8Tq80Qwc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {8:16}"
+" (8:16)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:116
@@ -408,42 +414,42 @@ msgstr ""
 msgid ""
 "`Frequencies: chapter overview "
 "<https://www.youtube.com/embed/lKPHTFjY4m8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {2:19}"
+" (2:19)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:119
 msgid ""
 "`Binomial test "
 "<https://www.youtube.com/embed/3eeiAFfY2ls?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {4:53}"
+" (4:53)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:120
 msgid ""
 "`Chi-squared goodness-of-fit "
 "<https://www.youtube.com/embed/FfabgyEKwtk?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {6:27}"
+" (6:27)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:121
 msgid ""
 "`Chi-squared test of association "
 "<https://www.youtube.com/embed/vsrj647Tb3g?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:21}"
+" (5:21)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:122
 msgid ""
 "`McNemar test "
 "<https://www.youtube.com/embed/W_y6EiF8mPA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {4:54}"
+" (4:54)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:123
 msgid ""
 "`Log-linear regression "
 "<https://www.youtube.com/embed/iWlZ9xvghN0?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:46}"
+" (5:46)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:128
@@ -454,35 +460,35 @@ msgstr ""
 msgid ""
 "`Factor: chapter overview "
 "<https://www.youtube.com/embed/c-k4zN7n7d8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {1:50}"
+" (1:50)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:131
 msgid ""
 "`Reliability analysis "
 "<https://www.youtube.com/embed/KQrLw1qInI8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:26}"
+" (7:26)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:132
 msgid ""
 "`Principal component analysis "
 "<https://www.youtube.com/embed/1U6SYVtGnD8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:58}"
+" (7:58)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:133
 msgid ""
 "`Exploratory factor analysis "
 "<https://www.youtube.com/embed/WcqBo5m2Wfc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {7:35}"
+" (7:35)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:134
 msgid ""
 "`Confirmatory factor analysis "
 "<https://www.youtube.com/embed/2LzoRo3sziU?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {8:53}"
+" (8:53)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:139
@@ -493,7 +499,7 @@ msgstr ""
 msgid ""
 "`Next steps "
 "<https://www.youtube.com/embed/xShg0fPI6mo?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" {5:59}"
+" (5:59)"
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:145
@@ -506,8 +512,8 @@ msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:149
 msgid ""
-"Video “Computing variables” split into three new videos: “Computing means”, "
-"“Computing z-scores”, and “Transforming scores to categories”."
+"Video “Computing variables” split into three new videos: “Computing "
+"means”, “Computing z-scores”, and “Transforming scores to categories”."
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:151
@@ -518,8 +524,8 @@ msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:153
 msgid ""
-"Several additional videos revised to reflect updated options in jamovi or to"
-" remove video glitches."
+"Several additional videos revised to reflect updated options in jamovi or"
+" to remove video glitches."
 msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:156
@@ -534,6 +540,343 @@ msgstr ""
 
 #: ../../getting-started/dl_0_welcome.rst:160
 msgid ""
-"Video “Exporting tables & plots” revised to include new export options for "
-"Mac and demonstrate additional export destinations."
+"Video “Exporting tables & plots” revised to include new export options "
+"for Mac and demonstrate additional export destinations."
 msgstr ""
+
+#~ msgid ""
+#~ "`Welcome "
+#~ "<https://www.youtube.com/embed/Ej9e8lzaeDE?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:26}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Installing jamovi "
+#~ "<https://www.youtube.com/embed/syx0f4xCxpk?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {0:34}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Navigating jamovi "
+#~ "<https://www.youtube.com/embed/e2Wc2wpWk4Y?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:20}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Sample data "
+#~ "<https://www.youtube.com/embed/GkqrmufO3yU?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {2:01}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Sharing files "
+#~ "<https://www.youtube.com/embed/X0GNondPmrk?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:32}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Sharing with OSF.io "
+#~ "<https://www.youtube.com/embed/ryiGWk8DwgY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {3:18}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`jamovi modules "
+#~ "<https://www.youtube.com/embed/Zm1xAy6HkUo?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {4:11}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`The jmv package for R "
+#~ "<https://www.youtube.com/embed/g5lnGkIeyw0?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:03}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Wrangling data: chapter overview "
+#~ "<https://www.youtube.com/embed/B2OgFq05QMs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:30}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Entering data "
+#~ "<https://www.youtube.com/embed/bGLFzfID2-M?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {2:04}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Importing data "
+#~ "<https://www.youtube.com/embed/R0uE4LlHeac?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {4:51}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Variable types \\u0026 labels "
+#~ "<https://www.youtube.com/embed/7tlvuYO76Ok?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {6:10}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Computing means "
+#~ "<https://www.youtube.com/embed/-t1Q52QChoo?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {3:54}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Computing z-scores "
+#~ "<https://www.youtube.com/embed/EBvvkvqm9_o?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:56}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Transforming scores to categories "
+#~ "<https://www.youtube.com/embed/moIsRlUZabw?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {3:42}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Filtering cases "
+#~ "<https://www.youtube.com/embed/pij0KlFhITw?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {8:26}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Exploration: chapter overview "
+#~ "<https://www.youtube.com/embed/PCOKKSj1kng?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:06}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Descriptive statistics "
+#~ "<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:27}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Histograms "
+#~ "<https://www.youtube.com/embed/10oomNrNe6w?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {4:25}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Density plots "
+#~ "<https://www.youtube.com/embed/P-btx3PE1IA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {3:23}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Box plots "
+#~ "<https://www.youtube.com/embed/bYV8nNunsEI?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {3:26}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Violin plots "
+#~ "<https://www.youtube.com/embed/F_GeCkgAK6s?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {2:38}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Dot plots "
+#~ "<https://www.youtube.com/embed/NelbTBddZow?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {3:07}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Bar plots "
+#~ "<https://www.youtube.com/embed/SGtGAISq4kA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {3:28}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Exporting tables & plots "
+#~ "<https://www.youtube.com/embed/By5UxD3LM5M?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {9:25}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`t-tests: chapter overview "
+#~ "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:14}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Independent-samples t-test "
+#~ "<https://www.youtube.com/embed/SM-"
+#~ "DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ {6:40}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Paired-samples t-test "
+#~ "<https://www.youtube.com/embed/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:13}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`One-sample t-test "
+#~ "<https://www.youtube.com/embed/DrBT4ezYIL8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:08}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`ANOVA: chapter overview "
+#~ "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:58}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`ANOVA "
+#~ "<https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:03}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Repeated-measures ANOVA "
+#~ "<https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {9:50}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`ANCOVA "
+#~ "<https://www.youtube.com/embed/d_SYORH6tUg?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {6:40}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`MANCOVA "
+#~ "<https://www.youtube.com/embed/doTm20CvxE8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:13}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Kruskal-Wallis test "
+#~ "<https://www.youtube.com/embed/qfs6T311_88?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {6:00}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Friedman test "
+#~ "<https://www.youtube.com/embed/MCdSJ9d6h8Y?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:30}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Regression: chapter overview "
+#~ "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {2:08}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Correlation matrix "
+#~ "<https://www.youtube.com/embed/u5kZ4erx8QE?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:32}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Linear regression "
+#~ "<https://www.youtube.com/embed/_5AVGuEzCXc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {6:14}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Variable entry "
+#~ "<https://www.youtube.com/embed/N4jHzi1DWkQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:15}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Regression diagnostics "
+#~ "<https://www.youtube.com/embed/ePYgkq3IvG8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {6:20}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Binomial logistic regression "
+#~ "<https://www.youtube.com/embed/s7GL0z-"
+#~ "3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ {9:01}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Multinomial logistic regression "
+#~ "<https://www.youtube.com/embed/nuyEUEBf-"
+#~ "GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ {8:48}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Ordinal logistic regression "
+#~ "<https://www.youtube.com/embed/QnG8Tq80Qwc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {8:16}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Frequencies: chapter overview "
+#~ "<https://www.youtube.com/embed/lKPHTFjY4m8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {2:19}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Binomial test "
+#~ "<https://www.youtube.com/embed/3eeiAFfY2ls?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {4:53}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Chi-squared goodness-of-fit "
+#~ "<https://www.youtube.com/embed/FfabgyEKwtk?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {6:27}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Chi-squared test of association "
+#~ "<https://www.youtube.com/embed/vsrj647Tb3g?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:21}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`McNemar test "
+#~ "<https://www.youtube.com/embed/W_y6EiF8mPA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {4:54}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Log-linear regression "
+#~ "<https://www.youtube.com/embed/iWlZ9xvghN0?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:46}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Factor: chapter overview "
+#~ "<https://www.youtube.com/embed/c-k4zN7n7d8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {1:50}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Reliability analysis "
+#~ "<https://www.youtube.com/embed/KQrLw1qInI8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:26}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Principal component analysis "
+#~ "<https://www.youtube.com/embed/1U6SYVtGnD8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:58}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Exploratory factor analysis "
+#~ "<https://www.youtube.com/embed/WcqBo5m2Wfc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {7:35}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Confirmatory factor analysis "
+#~ "<https://www.youtube.com/embed/2LzoRo3sziU?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {8:53}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Next steps "
+#~ "<https://www.youtube.com/embed/xShg0fPI6mo?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " {5:59}"
+#~ msgstr ""
+

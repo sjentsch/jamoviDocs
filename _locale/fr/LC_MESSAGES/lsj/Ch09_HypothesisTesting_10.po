@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-14 18:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:17
 msgid ""
-"`Type 1 and Type 2 errors <Ch09_HypothesisTesting_02.html#two-types-of-"
+"`Type I and Type II errors <Ch09_HypothesisTesting_02.html#two-types-of-"
 "errors>`__"
 msgstr ""
 
@@ -99,4 +99,10 @@ msgid ""
 "approach. But for now, though, we’re done with the abstract statistical "
 "theory, and we can start discussing specific data analysis tools."
 msgstr ""
+
+#~ msgid ""
+#~ "`Type 1 and Type 2 errors "
+#~ "<Ch09_HypothesisTesting_02.html#two-types-of-"
+#~ "errors>`__"
+#~ msgstr ""
 

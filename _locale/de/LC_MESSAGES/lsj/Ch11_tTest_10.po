@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"PO-Revision-Date: 2020-08-10 17:56+0000\n"
+"Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../lsj/Ch11_tTest_10.rst:4
 msgid "Summary"
@@ -25,30 +23,29 @@ msgstr ""
 
 #: ../../lsj/Ch11_tTest_10.rst:6
 msgid ""
-"A `one sample t-test <Ch11_tTest_02.html#the-one-sample-t-test>`__ is "
-"used to compare a single sample mean against a hypothesised value for the"
-" population mean."
+"A `one sample t-test <Ch11_tTest_02.html#the-one-sample-t-test>`__ is used "
+"to compare a single sample mean against a hypothesised value for the "
+"population mean."
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_10.rst:10
 msgid ""
-"An `independent samples t-test <Ch11_tTest_03.html#the-independent-"
-"samples-t-test-student-test>`__ is used to compare the means of two "
-"groups, and tests the null hypothesis that they have the same mean. It "
-"comes in two forms: the `Student test <Ch11_tTest_03.html#the-"
-"independent-samples-t-test-student-test>`__ assumes that the groups have "
-"the same standard deviation, the `Welch test <Ch11_tTest_04.html#the-"
-"independent-samples-t-test-welch-test>`__ does not."
+"An `independent samples t-test <Ch11_tTest_03.html#the-independent-samples-t"
+"-test-student-test>`__ is used to compare the means of two groups, and tests"
+" the null hypothesis that they have the same mean. It comes in two forms: "
+"the `Student test <Ch11_tTest_03.html#the-independent-samples-t-test-"
+"student-test>`__ assumes that the groups have the same standard deviation, "
+"the `Welch test <Ch11_tTest_04.html#the-independent-samples-t-test-welch-"
+"test>`__ does not."
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_10.rst:18
 msgid ""
-"A `paired samples t-test <Ch11_tTest_05.html#the-paired-"
-"samples-t-test>`__ is used when you have two scores from each person, and"
-" you want to test the null hypothesis that the two scores have the same "
-"mean. It is equivalent to taking the difference between the two scores "
-"for each person, and then running a one sample *t*-test on the difference"
-" scores."
+"A `paired samples t-test <Ch11_tTest_05.html#the-paired-samples-t-test>`__ "
+"is used when you have two scores from each person, and you want to test the "
+"null hypothesis that the two scores have the same mean. It is equivalent to "
+"taking the difference between the two scores for each person, and then "
+"running a one sample *t*-test on the difference scores."
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_10.rst:24
@@ -65,14 +62,13 @@ msgstr ""
 
 #: ../../lsj/Ch11_tTest_10.rst:30
 msgid ""
-"You can check the normality of a sample using QQ plots and the `Shapiro-"
-"Wilk test <Ch11_tTest_08.html#checking-the-normality-of-a-sample>`__."
+"You can check the normality of a sample using QQ plots and the `Shapiro-Wilk"
+" test <Ch11_tTest_08.html#checking-the-normality-of-a-sample>`__."
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_10.rst:33
 msgid ""
 "If your data are non-normal, you can use `Mann-Whitney or Wilcoxon tests "
-"<Ch11_tTest_09.html#testing-non-normal-data-with-wilcoxon-tests>`__ "
-"instead of *t*-tests."
+"<Ch11_tTest_09.html#testing-non-normal-data-with-wilcoxon-tests>`__ instead "
+"of *t*-tests."
 msgstr ""
-

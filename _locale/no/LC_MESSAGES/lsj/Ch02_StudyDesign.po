@@ -1,33 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"PO-Revision-Date: 2020-08-10 17:54+0000\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../lsj/Ch02_StudyDesign.rst:4
 msgid "A brief introduction to research design"
 msgstr ""
 
-#: ../../lsj/Ch02_StudyDesign.rst
+#: ../../lsj/Ch02_StudyDesign.rst:0
 msgid ""
-"*To consult the statistician after an experiment is finished is often "
-"merely to ask him to conduct a post mortem examination. He can perhaps "
-"say what the experiment died of.*"
+"*To consult the statistician after an experiment is finished is often merely"
+" to ask him to conduct a post mortem examination. He can perhaps say what "
+"the experiment died of.*"
 msgstr ""
 
 #: ../../lsj/Ch02_StudyDesign.rst:17
@@ -36,28 +34,26 @@ msgstr ""
 
 #: ../../lsj/Ch02_StudyDesign.rst:14
 msgid ""
-"In this chapter, we’re going to start thinking about the basic ideas that"
-" go into designing a study, collecting data, checking whether your data "
-"collection works, and so on. It won’t give you enough information to "
-"allow you to design studies of your own, but it will give you a lot of "
-"the basic tools that you need to assess the studies done by other people."
-" However, since the focus of this book is much more on data analysis than"
-" on data collection, I’m only giving a very brief overview. Note that "
-"this chapter is “special” in two ways. Firstly, it’s much more "
-"psychology-specific than the later chapters. Secondly, it focuses much "
-"more heavily on the scientific problem of research methodology, and much "
-"less on the statistical problem of data analysis. Nevertheless, the two "
-"problems are related to one another, so it’s traditional for stats "
-"textbooks to discuss the problem in a little detail. This chapter relies "
-"heavily on `Campbell and Stanley (1963) "
-"<References.html#campbell-1963>`__ for the discussion of study design, "
-"and `Stevens (1946) <References.html#stevens-1946>`__ for the discussion "
-"of scales of measurement."
+"In this chapter, we’re going to start thinking about the basic ideas that go"
+" into designing a study, collecting data, checking whether your data "
+"collection works, and so on. It won’t give you enough information to allow "
+"you to design studies of your own, but it will give you a lot of the basic "
+"tools that you need to assess the studies done by other people. However, "
+"since the focus of this book is much more on data analysis than on data "
+"collection, I’m only giving a very brief overview. Note that this chapter is"
+" “special” in two ways. Firstly, it’s much more psychology-specific than the"
+" later chapters. Secondly, it focuses much more heavily on the scientific "
+"problem of research methodology, and much less on the statistical problem of"
+" data analysis. Nevertheless, the two problems are related to one another, "
+"so it’s traditional for stats textbooks to discuss the problem in a little "
+"detail. This chapter relies heavily on `Campbell and Stanley (1963) "
+"<References.html#campbell-1963>`__ for the discussion of study design, and "
+"`Stevens (1946) <References.html#stevens-1946>`__ for the discussion of "
+"scales of measurement."
 msgstr ""
 
 #: ../../lsj/Ch02_StudyDesign.rst:44
 msgid ""
-"Presidential Address to the First Indian Statistical Congress, 1938. "
-"Source: https://en.wikiquote.org/wiki/Ronald_Fisher"
+"Presidential Address to the First Indian Statistical Congress, 1938. Source:"
+" https://en.wikiquote.org/wiki/Ronald_Fisher"
 msgstr ""
-

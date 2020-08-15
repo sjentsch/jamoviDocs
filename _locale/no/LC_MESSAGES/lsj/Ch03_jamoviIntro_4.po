@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"PO-Revision-Date: 2020-08-10 17:54+0000\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:4
 msgid "Summary"
@@ -25,11 +23,10 @@ msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:6
 msgid ""
-"Every book that tries to teach a new statistical software program to "
-"novices has to cover roughly the same topics, and in roughly the same "
-"order. Ours is no exception, and so in the grand tradition of doing it "
-"just the same way everyone else did it, this chapter covered the "
-"following topics:"
+"Every book that tries to teach a new statistical software program to novices"
+" has to cover roughly the same topics, and in roughly the same order. Ours "
+"is no exception, and so in the grand tradition of doing it just the same way"
+" everyone else did it, this chapter covered the following topics:"
 msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:12
@@ -40,50 +37,48 @@ msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:15
 msgid ""
-"`Analyses <Ch03_jamoviIntro_1.html#analyses>`__: We very briefly oriented"
-" to the part of jamovi where analyses are done and results appear, but "
-"then deferred this until later in the book."
+"`Analyses <Ch03_jamoviIntro_1.html#analyses>`__: We very briefly oriented to"
+" the part of jamovi where analyses are done and results appear, but then "
+"deferred this until later in the book."
 msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:19
 msgid ""
-"`The spreadsheet <Ch03_jamoviIntro_2.html#the-spreadsheet>`__: We spent "
-"more time looking at the spreadsheet part of jamovi, and considered "
-"different variable types, and how to compute new variables."
+"`The spreadsheet <Ch03_jamoviIntro_2.html#the-spreadsheet>`__: We spent more"
+" time looking at the spreadsheet part of jamovi, and considered different "
+"variable types, and how to compute new variables."
 msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:23
 msgid ""
-"`Loading data in jamovi <Ch03_jamoviIntro_2.html#loading-data-in-"
-"jamovi>`__: We also saw how to load data files in jamovi, and figured out"
-" how to open other data files, from different file types."
+"`Loading data in jamovi <Ch03_jamoviIntro_2.html#loading-data-in-jamovi>`__:"
+" We also saw how to load data files in jamovi, and figured out how to open "
+"other data files, from different file types."
 msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:27
 msgid ""
-"`Changing data from one level to another <Ch03_jamoviIntro_3.html"
-"#changing-data-from-one-level-to-another>`__: sometimes we need to coerce"
-" data from one type to another."
+"`Changing data from one level to another <Ch03_jamoviIntro_3.html#changing-"
+"data-from-one-level-to-another>`__: sometimes we need to coerce data from "
+"one type to another."
 msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:31
 msgid ""
-"`Installing add-on modules into jamovi <Ch03_jamoviIntro_3.html"
-"#installing-add-on-modules-into-jamovi>`__: introduced how to install "
-"add-on modules from the jamovi community can extend jamovi's "
-"capabilities."
+"`Installing add-on modules into jamovi <Ch03_jamoviIntro_3.html#installing-"
+"add-on-modules-into-jamovi>`__: introduced how to install add-on modules "
+"from the jamovi community can extend jamovi's capabilities."
 msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:36
 msgid ""
-"`Quitting jamovi <Ch03_jamoviIntro_3.html#quitting-jamovi>`__: showed "
-"good practice in terms of saving your data set and analyses when you have"
-" finished and are about to quit jamovi."
+"`Quitting jamovi <Ch03_jamoviIntro_3.html#quitting-jamovi>`__: showed good "
+"practice in terms of saving your data set and analyses when you have "
+"finished and are about to quit jamovi."
 msgstr ""
 
 #: ../../lsj/Ch03_jamoviIntro_4.rst:40
 msgid ""
-"We still haven’t arrived at anything that resembles data analysis. Maybe "
-"the next Chapter will get us a bit closer!"
+"We still haven’t arrived at anything that resembles data analysis. Maybe the"
+" next Chapter will get us a bit closer!"
 msgstr ""
-

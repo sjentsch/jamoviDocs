@@ -17,7 +17,7 @@ Install and build (later):<br>
    `$ source _env/bin/activate`<br>
 
    `$ clear && make clean && make html`<br>
-   `$ make gettext && for F in $(find _build/gettext/* -type f -name *.pot); do sed -n '/msgid "|.*|"/{N;s/.*//;x;d;};x;p;${x;p;}' ${F} | cat -s | sed 1d > tmp.pot && mv tmp.pot ${F}; done && for L in da de es fr it ja ko nb pt ru sv tr zh_CN; do sphinx-intl update -p _build/gettext/ -l ${L}; done `<br>
+   `$ make gettext && cat .tx/exclude | while read -r line; do rm -fR ${line}; done && for F in $(find _build/gettext/* -type f -name *.pot); do sed -n '/msgid "|.*|"/{N;s/.*//;x;d;};x;p;${x;p;}' ${F} | cat -s | sed 1d > tmp.pot && mv tmp.pot ${F}; done && for L in da de es fr it ja ko nb pt ru sv tr zh_CN; do sphinx-intl update -p _build/gettext/ -l ${L}; done`<br>
    `$ sphinx-intl update-txconfig-resources --pot-dir _build/gettext/ --transifex-project-name jamovi-documentation && for F in $(grep "source_file" .tx/config | sed 's/source_file = //g'); do if [ ! -e ${F} ]; then echo "${F}: .pot file doesn't exist (anymore)"; fi; done`<br>
     
    `$ tx push -s`<br>

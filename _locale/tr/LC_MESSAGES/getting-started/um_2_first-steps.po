@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Serdar Balci <drserdarbalci@gmail.com>, 2020
+# Sebastian Jentschke, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-01 00:23+0200\n"
+"POT-Creation-Date: 2020-08-14 19:18+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
-"Last-Translator: Serdar Balci <drserdarbalci@gmail.com>, 2020\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,6 +31,8 @@ msgid ""
 "When first starting jamovi, you will be presented with a user interface "
 "which looks something like this."
 msgstr ""
+"jamovi'yi çalıştırdığınızda, karşınıza çıkan arayüz aşağıdakine benzer "
+"olacaktır."
 
 #: ../../getting-started/um_2_first-steps.rst:11
 msgid ""
@@ -38,12 +41,17 @@ msgid ""
 "regions, and this can be dragged to the left or the right to change their "
 "sizes."
 msgstr ""
+"Solda tablo (spreadsheet), sağda ise istatistiksel testlerin sonuçları "
+"görünür. Ortadaki çubuk bu iki alanı birbirinden ayırır. Bu çubuğu sağa ya "
+"da sola hareket ettirerek bu iki alanın boyutunu değiştirebilirsiniz.  "
 
 #: ../../getting-started/um_2_first-steps.rst:16
 msgid ""
 "It is possible to simply begin typing values into the jamovi spreadsheet as "
 "you would any other spreadsheet software."
 msgstr ""
+"Diğer tablo (spreadsheet) yazılımlarındaki gibi, jamovi'ye de veri girişini "
+"yazarak yapabilirsiniz."
 
 #: ../../getting-started/um_2_first-steps.rst:19
 msgid ""
@@ -54,6 +62,12 @@ msgid ""
 "jamovi), select ``Open`` and then ``Data library`` or ``This PC``, depending"
 " on whether you want to open an example, or a file stored on your computer."
 msgstr ""
+"Alternatif olarak, diğer formatlarda var olan veri setlerini (CSV, Excel, "
+"LibreOffice, R, SPSS, Stata, SAS, JASP) jamovi'de açabilirsiniz. Ayrıca "
+"jamovi'de örnek veri setleri de bulunmaktadır. Bir dosyayı açmak için Dosya "
+"(file) menüsünden (☰, jamovi'nin sol üst köşesi), ``Open`` ve daha sonra "
+"örnek veriler için ``Data library``, bilgisayarınızdaki bir dosya için  "
+"``This PC`` seçin."
 
 #: ../../getting-started/um_2_first-steps.rst:29
 msgid ""
@@ -69,6 +83,16 @@ msgid ""
 "delimited`` in the drop-down menu close to the ``Save as``-button. "
 "Thereafter, you may open the CSV-file in jamovi."
 msgstr ""
+"Verileri paylaşmak için en sık kullanılan format virgülle ayrılmış (comma-"
+"seperated values) .csv ya da .txt dosyalarıdır. Bu veriler virgülle (ya da  "
+"\";\", \"|\", gibi işaretlerle) ayrılmış basit metin dosyaları olduğundan "
+"hemen her yazılım ile okunup yazılabilir (ve içeriğine herhangi bir metin "
+"editörü ile bakabilirsiniz). Şekilde bunun bir örneği gösterilmiştir. İlk "
+"satır değişken isimlerini, diğer satırlar ise ölçümleri gösterir (tipik "
+"olarak bir kişiden elde edilen veriler). Eğer veriniz bir tablo programında "
+"ise (örnek: Excel), CSV-dosyasını menüden ``Dosya``  → ``Farklı kaydet`` "
+"seçip, ``Farklı kaydet`` düğmesi yanındaki menüden ``Virgülle ayrılmış`` "
+"seçip kaydederek elde edebilirsiniz."
 
 #: ../../getting-started/um_2_first-steps.rst:41
 msgid ""
@@ -76,10 +100,13 @@ msgid ""
 "our GitHub `issue tracker <https://github.com/jamovi/jamovi/issues>`__. We "
 "are keen to make our importer as robust as possible."
 msgstr ""
+"Eğer jamovi bir dosyayı düzgün olarak açmazsa GitHub üzerinden bize "
+"bildirin: `sorun bildirimi <https://github.com/jamovi/jamovi/issues>`__. "
+"Veri içeri alma özelliğini oldukça iyileştirmek istiyoruz. "
 
 #: ../../getting-started/um_2_first-steps.rst:47
 msgid "Analyses"
-msgstr ""
+msgstr "Analizler"
 
 #: ../../getting-started/um_2_first-steps.rst:49
 msgid ""
@@ -90,6 +117,12 @@ msgid ""
 "for the analysis will appear in the right ‘Results panel’, and will update "
 "as you make changes to the options."
 msgstr ""
+"Analizler, analiz şeridinden veya üstteki menüden seçilebilir. Bir analizin "
+"seçilmesi, söz konusu analiz için bir 'seçenekler paneli' sunarak analizin "
+"farklı kısımlarına farklı değişkenler atamanıza ve farklı seçenekler "
+"seçmenize olanak tanır. Aynı zamanda, analiz sonuçları sağdaki \"Sonuçlar "
+"panelinde\" görünecek ve siz seçeneklerde değişiklik yaptıkça "
+"güncellenecektir."
 
 #: ../../getting-started/um_2_first-steps.rst:56
 msgid ""
@@ -99,6 +132,11 @@ msgid ""
 "produced. In this way, you can return to any analysis that you (or say, a "
 "colleague) created earlier."
 msgstr ""
+"Analiz doğru bir şekilde ayarlandığında, panelin sağ üst tarafındaki oku "
+"tıklayarak analiz seçeneklerini kapatabilirsiniz. Bu seçeneklere geri dönmek"
+" isterseniz, sonuçları tıklayabilirsiniz. Bu şekilde, daha önce "
+"oluşturduğunuz (veya bir meslektaşınızın oluşturduğu) analiz ve "
+"özelliklerine geri dönebilirsiniz."
 
 #: ../../getting-started/um_2_first-steps.rst:62
 msgid ""
@@ -107,6 +145,10 @@ msgid ""
 "bring up a menu, and by selecting ‘Analysis’, and then ‘Remove’, the "
 "analysis can be removed."
 msgstr ""
+"Artık bir analize artık ihtiyacınız olmadığına karar verirseniz, sonuçları "
+"içerik menüsü ile kaldırabilirsiniz. Analiz sonuçlarına sağ tıklandığında "
+"bir menü açılır, buradan \"Analiz\" ve ardından \"Kaldır\" seçilerek analiz "
+"kaldırılabilir."
 
 #: ../../getting-started/um_2_first-steps.rst:69
 msgid ""
@@ -114,20 +156,25 @@ msgid ""
 "procedures in jamovi can be found under `jamovi-guide <jg_0_welcome.html>`__"
 " (later in this section)."
 msgstr ""
+"jamovi'de yaygın prosedürlerin nasıl yapılacağı hakkında kısa, teknik "
+"olmayan eğitimler  `jamovi-klavuzu <jg_0_welcome.html>`__ (bu bölümün "
+"ilerleyen kısımlarında) bulunabilir."
 
 #: ../../getting-started/um_2_first-steps.rst:75
 msgid "The Spreadsheet"
-msgstr ""
+msgstr "Tablo (Spreadsheet)"
 
 #: ../../getting-started/um_2_first-steps.rst:77
 msgid ""
 "In jamovi, data is represented in a spreadsheet, with each column "
 "representing a ‘variable’."
 msgstr ""
+"jamovi'de veriler bir tabloda gösterilir ve bu tabloda her sütun bir "
+"'değişkeni' temsil eder."
 
 #: ../../getting-started/um_2_first-steps.rst:81
 msgid "Data Variables"
-msgstr ""
+msgstr "Veri Değişkenleri"
 
 #: ../../getting-started/um_2_first-steps.rst:83
 msgid ""
@@ -135,38 +182,41 @@ msgid ""
 "variables simply contain data either loaded from a data file, or ‘typed in’ "
 "by the user. Data variables can be one three data types:"
 msgstr ""
+"jamovi'de en sık kullanılan değişkenler \"Veri Değişkenleri\" dir. Bu "
+"değişkenler bir veri dosyasından yüklenen veya kullanıcı tarafından "
+"\"girilen\" verileri içerir. Değişkenler üç türde olabilir:"
 
 #: ../../getting-started/um_2_first-steps.rst:87
 msgid "``Integer``"
-msgstr ""
+msgstr "``Integer`` (Tamsayı)"
 
 #: ../../getting-started/um_2_first-steps.rst:88
 msgid "``Decimal``"
-msgstr ""
+msgstr "``Decimal`` (Ondalıklı sayı)"
 
 #: ../../getting-started/um_2_first-steps.rst:89
 msgid "``Text``"
-msgstr ""
+msgstr "``Text`` (Metin)"
 
 #: ../../getting-started/um_2_first-steps.rst:91
 msgid "and one of four measure types:"
-msgstr ""
+msgstr "ve dört ölçü türünden biri olabilir:"
 
 #: ../../getting-started/um_2_first-steps.rst:93
 msgid "|nominal|    ``Nominal``"
-msgstr ""
+msgstr "|nominal| ``Nominal``"
 
 #: ../../getting-started/um_2_first-steps.rst:94
 msgid "|ordinal|    ``Ordinal``"
-msgstr ""
+msgstr "|ordinal| ``Ordinal`` (Sıralı)"
 
 #: ../../getting-started/um_2_first-steps.rst:95
 msgid "|continuous| ``Continuous``"
-msgstr ""
+msgstr "|continuous| ``Continuous`` (Sürekli)"
 
 #: ../../getting-started/um_2_first-steps.rst:96
 msgid "|id|         ``ID``"
-msgstr ""
+msgstr "|id| ``ID`` (Kimlik, anahtar)"
 
 #: ../../getting-started/um_2_first-steps.rst:98
 msgid ""
@@ -174,6 +224,9 @@ msgid ""
 "variable’s column. Note that some combinations of data-type and measure- "
 "type don’t make sense, and jamovi won’t let you choose these."
 msgstr ""
+"Ölçü türleri, değişkenin sütununun başlığındaki sembolle belirtilir. Bazı "
+"veri türü ve ölçü türü kombinasyonlarının anlamlı olmadığını ve jamovi'nin "
+"bunları seçmenize izin vermeyeceğini unutmayın."
 
 #: ../../getting-started/um_2_first-steps.rst:102
 msgid ""
@@ -187,6 +240,15 @@ msgid ""
 "internally, which can improve performance when interacting with very large "
 "data sets."
 msgstr ""
+"``Nominal`` ve ``Ordinal`` tahmin edilebileceğiniz gibi nominal ve sıralı "
+"değişkenler içindir. ``Continuous`` (Sürekli) ise, *Aralık* veya *Oran* "
+"ölçekleri olarak kabul edilen sayısal değerlere sahip değişkenler içindir "
+"(SPSS'de ``Scale`` e eşdeğerdir). ``ID`` ölçü türü, diğerlerinden farklı "
+"olarak jamovi'ye özgüdür. Neredeyse hiç analiz etmek istemeyeceğiniz "
+"tanımlayıcılar içeren değişkenler için tasarlanmıştır. Örneğin, bir kişi adı"
+" veya bir katılımcı kimliği. ``ID``\\ ler,  jamovi'nin içinde bir düzey "
+"listesi olarak yer almayacağından, çok büyük verilerde performansı "
+"artırabilen bir avantaj sağlamaktadır."
 
 #: ../../getting-started/um_2_first-steps.rst:112
 msgid ""
@@ -198,6 +260,13 @@ msgid ""
 "approach may not be correct, and it may be necessary to manually specify the"
 " data and measure type with the variable editor."
 msgstr ""
+"Boş bir tabloyla başlarken ve değerleri girerken, girdiğiniz verilere bağlı "
+"olarak veri ve hesaplama türleri otomatik olarak değişir. Bu, hangi değişken"
+" türlerinin hangi tür verilerle gittiğini anlamanın iyi bir yoludur. Benzer "
+"şekilde, bir veri dosyasını açarken, jamovi değişken türünü her sütundaki "
+"verilerden çıkarır. Her iki durumda da, bu otomatik yaklaşım doğru "
+"olmayabilir ve değişken editörü ile veri ve ölçüm türünü manuel olarak "
+"belirtmek gerekebilir."
 
 #: ../../getting-started/um_2_first-steps.rst:120
 msgid ""
@@ -208,6 +277,12 @@ msgid ""
 " label displayed for each level. The variable editor can be dismissed by "
 "clicking the close arrow, or by pressing ``F3`` again."
 msgstr ""
+"Değişken editörü, veri sekmesinden 'Setup' (kurulum) seçilerek, sütun "
+"başlığına çift tıklayarak veya `` F3`` tuşuna basılarak açılabilir. Değişken"
+" editörü, değişkenin adını ve (veri değişkenleri için) veri türünü, ölçüm "
+"türünü, düzeylerin sırasını ve her düzey için görüntülenen etiketi "
+"değiştirmenize olanak tanır. Değişken editörü kapatma okuna tıklanarak veya "
+"tekrar ``F3`` tuşuna basılarak kapatılabilir."
 
 #: ../../getting-started/um_2_first-steps.rst:129
 msgid ""
@@ -215,10 +290,14 @@ msgid ""
 "button from the data ribbon. The ‘add’ button also allows the addition of "
 "*Computed variables*."
 msgstr ""
+"Veri şeridindeki ``Add`` (ekle) düğmesi kullanılarak veri setine yeni "
+"değişkenler eklenebilir.Ekleme verinin sonuna ya da sütunların arasına "
+"(append) yapılabilir. ``Add`` (ekle) düğmesi, *Hesaplanan değişkenlerin* "
+"eklenmesine de izin verir."
 
 #: ../../getting-started/um_2_first-steps.rst:135
 msgid "Computed Variables"
-msgstr ""
+msgstr "Hesaplanan Değişkenler"
 
 #: ../../getting-started/um_2_first-steps.rst:137
 msgid ""
@@ -227,6 +306,10 @@ msgid ""
 "of purposes, including log transforms, z-scores, sum-scores, negative "
 "scoring and means."
 msgstr ""
+"Hesaplanan Değişkenler, diğer değişkenler üzerinde bir hesaplama yaparak "
+"elde edilen değişkenlerdir. Hesaplanan değişkenler, logaritmik dönüşümler, "
+"z-skorları, toplama, negatif skorlama ve ortalama hesaplama gibi amaçlar "
+"için kullanılabilir."
 
 #: ../../getting-started/um_2_first-steps.rst:142
 msgid ""
@@ -235,20 +318,27 @@ msgid ""
 "can specify the formula. The usual arithmetic operators are available. Some "
 "examples of formulas are:"
 msgstr ""
+"*Hesaplanan değişken*\\ ler, veri sekmesinde bulunan ``Add`` (ekle) butonu "
+"ile veri setine eklenebilir. Butona bastığınızda formülü belirtebileceğiniz "
+"bir formül kutusu oluşacaktır. Formüller arasında genel aritmetik işlemler "
+"mevcuttur. Bazı formül örnekleri şunlardır:"
 
 #: ../../getting-started/um_2_first-steps.rst:155
 msgid ""
 "In order, these are the sum of A and B, a log (base 10) transform of "
 "``len``, the mean of ``A`` and ``B``, and the z-score of ``dose`` (twice)."
 msgstr ""
+"Sırasıyla; ``A`` ve ``B``\\ nin toplamı, ``len``\\ in 10 tabanında bir "
+"logaritmik dönüşümü, ``A`` ve ``B`` 'nin ortalamaları, ve ``dose`` un "
+"z-skoru (iki farklı şekilde)."
 
 #: ../../getting-started/um_2_first-steps.rst:159
 msgid "There are many more functions available."
-msgstr ""
+msgstr "Daha başka fonksiyonlar da mevcuttur."
 
 #: ../../getting-started/um_2_first-steps.rst:162
 msgid "``V``-functions"
-msgstr ""
+msgstr "``V``-fonksiyonlar"
 
 #: ../../getting-started/um_2_first-steps.rst:164
 msgid ""
@@ -258,6 +348,12 @@ msgid ""
 "For example, ``MEAN(A, B)`` will produce the mean of ``A`` and ``B`` for "
 "each row. Where as ``VMEAN(A)`` gives the mean of *all* the values in ``A``."
 msgstr ""
+"Bazı fonksiyonlar biri ``V`` ile başlayan çiftler halindedir. ``V`` "
+"fonksiyonları, hesaplamalarında değişkeni *tek bir bütün olarak* "
+"değerlendirirler. ``V`` olmayan fonksiyonlar ise hesaplamalarını satır satır"
+" yaparlar. Örneğin, ``MEAN(A, B)``, satır satır ``A`` ve ``B``\\ nin "
+"ortalamasını hesaplarken, ``VMEAN(A)``, ``A`` sütunundaki tüm değerlerin "
+"ortalamasını verir."
 
 #: ../../getting-started/um_2_first-steps.rst:171
 msgid ""
@@ -266,6 +362,10 @@ msgid ""
 "calculated for each level of the ``group_by`` variable. In the following "
 "example:"
 msgstr ""
+"Ek olarak ``V``-fonksiyonları, ``group_by`` (gruplama) özelliğini de "
+"destekler (\\ 0.9.6 ve üzeri sürümler). ``group_by`` ile bir değişken "
+"belirtildiğinde, hesaplama bu değişkeninin her seviyesi için ayrı ayrı "
+"yapılır. Aşağıdaki örnekte:"
 
 #: ../../getting-started/um_2_first-steps.rst:180
 msgid ""
@@ -273,10 +373,13 @@ msgid ""
 "the computed variable will be the mean corresponding to it’s row’s value of "
 "``dose``."
 msgstr ""
+"Her bir ``dose`` seviyesi için ayrı bir ortalama hesaplanır ve bu değer yeni"
+" hesaplanan değişken sütununda ilgili satırıdaki ``dose`` değerine karşılık "
+"olacak şekilde yazılır."
 
 #: ../../getting-started/um_2_first-steps.rst:185
 msgid "Recoded Variables"
-msgstr ""
+msgstr "Yeniden Kodlanmış Değişkenler"
 
 #: ../../getting-started/um_2_first-steps.rst:187
 msgid ""
@@ -284,10 +387,13 @@ msgid ""
 "<https://blog.jamovi.org/2018/10/23/transforming-variables.html>`__ for "
 "details."
 msgstr ""
+"Dönüştürülmüş ve yeniden kodlanmış değişkenler de kullanılabilir. Ayrıntılar"
+" için bu `blog sayfasına bakın <https://blog.jamovi.org/2018/10/23"
+"/transforming-variables.html>`__."
 
 #: ../../getting-started/um_2_first-steps.rst:192
 msgid "Filters"
-msgstr ""
+msgstr "Filtreler"
 
 #: ../../getting-started/um_2_first-steps.rst:194
 msgid ""
@@ -299,22 +405,34 @@ msgid ""
 " exclude extreme scores, for example those that score more than 3 standard "
 "deviations from the mean."
 msgstr ""
+"jamovi'de filtreleri kullanarak, analizinize dahil edilmesini istemediğiniz "
+"satırları dışlayabilirsiniz. Örneğin, anket yanıtlarını yalnızca verilerin "
+"kullanılmasına açıkça izin verildiği durumlarda dahil etmek "
+"isteyebilirsiniz. Sadece solak insanları veya deneysel bir çalışmada "
+"\"olasılığın altında\" puan alan kişileri hariç tutmak isteyebilirsiniz. "
+"Bazen de ortalamanın 3 standart sapmasından daha fazla puan alanları hariç "
+"tutmak istersiniz."
 
 #: ../../getting-started/um_2_first-steps.rst:202
 msgid ""
 "The filters in jamovi are build on top of jamovi’s *computed variable* "
 "formula system, which allows the building of arbitrarily complex formulas."
 msgstr ""
+"jamovi'deki filtreler, jamovi'nin *hesaplanmış değişken* formül sisteminin "
+"üzerine inşa edilmiştir. Bu sayede karmaşık formüllerle filtreleme "
+"oluşturulabilir."
 
 #: ../../getting-started/um_2_first-steps.rst:205
 msgid ""
 "More details about filters are covered in this `blog post "
 "<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__"
 msgstr ""
+"Filtrelerle ilgili daha fazla ayrıntı bu `blog yazısında "
+"<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__"
 
 #: ../../getting-started/um_2_first-steps.rst:209
 msgid "Updating data"
-msgstr ""
+msgstr "Veri güncelleme"
 
 #: ../../getting-started/um_2_first-steps.rst:211
 msgid ""

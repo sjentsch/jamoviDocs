@@ -7,7 +7,7 @@ user manual
    about getting up and running for jamovi. Note that there are also `video
    tutorials <dl_0_welcome>`__ available from |datalab|, and «learning
    statistics with jamovi» (both `as part of this documentation 
-   <<../lsj/Prologue.html>`__>`__ as well `as textbook
+   <../lsj/Prologue.html>`__>`__ as well `as textbook
    <https://www.learnstatswithjamovi.com/>`__) for those who prefer those
    formats.
    

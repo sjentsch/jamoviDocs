@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
-#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
+"Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"PO-Revision-Date: 2020-08-10 17:58+0000\n"
+"Language-Team: German (https://www.transifex.com/jamovi/teams/111618/de/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../lsj/References.rst:5
 msgid "References"
@@ -25,24 +23,23 @@ msgstr ""
 
 #: ../../lsj/References.rst:7
 msgid ""
-"Author’s note – I’ve mentioned it before, but I’ll quickly mention it "
-"again. This reference list is appallingly incomplete. Please don’t assume"
-" that these are the only sources I’ve relied upon. The final version of "
-"this book will have a *lot* more references. And if you see anything "
-"clever sounding in this book that doesn’t seem to have a reference, I can"
-" absolutely promise you that the idea was someone else’s. This is an "
-"introductory textbook: none of the ideas are original. I’ll take "
-"responsibility for all the errors, but I can’t take credit for any of the"
-" good stuff. Everything smart in this book came from someone else, and "
-"they all deserve proper attribution for their excellent work. I just "
-"haven’t had the chance to give it to them yet."
+"Author’s note – I’ve mentioned it before, but I’ll quickly mention it again."
+" This reference list is appallingly incomplete. Please don’t assume that "
+"these are the only sources I’ve relied upon. The final version of this book "
+"will have a *lot* more references. And if you see anything clever sounding "
+"in this book that doesn’t seem to have a reference, I can absolutely promise"
+" you that the idea was someone else’s. This is an introductory textbook: "
+"none of the ideas are original. I’ll take responsibility for all the errors,"
+" but I can’t take credit for any of the good stuff. Everything smart in this"
+" book came from someone else, and they all deserve proper attribution for "
+"their excellent work. I just haven’t had the chance to give it to them yet."
 msgstr ""
 
 #: ../../lsj/References.rst:21
 msgid ""
 "Adair, J. G. (1984). The Hawthorne effect: A reconsideration of the "
-"methodological artifact. *Journal of Applied Psychology, 69*\\ (2), "
-"334–345. https://doi.org/10.1037/0021-9010.69.2.334"
+"methodological artifact. *Journal of Applied Psychology, 69*\\ (2), 334–345."
+" https://doi.org/10.1037/0021-9010.69.2.334"
 msgstr ""
 
 #: ../../lsj/References.rst:26
@@ -57,8 +54,8 @@ msgstr ""
 
 #: ../../lsj/References.rst:34
 msgid ""
-"Akaike, H. (1974). A new look at the statistical model identification. "
-"*IEEE Transactions on Automatic Control, 19*\\ (6), 716–723. "
+"Akaike, H. (1974). A new look at the statistical model identification. *IEEE"
+" Transactions on Automatic Control, 19*\\ (6), 716–723. "
 "https://doi.org/10.1109/TAC.1974.1100705"
 msgstr ""
 
@@ -71,8 +68,8 @@ msgstr ""
 #: ../../lsj/References.rst:44
 msgid ""
 "Bickel, P. J., Hammel, E. A., & O’Connell, J. W. (1975). Sex bias in "
-"graduate admissions: Data from berkeley. *Science, 187*\\ (4175), "
-"398–404. https://doi.org/10.1126/science.187.4175.398"
+"graduate admissions: Data from berkeley. *Science, 187*\\ (4175), 398–404. "
+"https://doi.org/10.1126/science.187.4175.398"
 msgstr ""
 
 #: ../../lsj/References.rst:49
@@ -90,16 +87,15 @@ msgstr ""
 
 #: ../../lsj/References.rst:59
 msgid ""
-"Box, J. F. (1987). Guinness, Gosset, Fisher, and small samples. "
-"*Statistical Science, 2*\\ (1), 45–52. "
-"https://doi.org/10.1214/ss/1177013437"
+"Box, J. F. (1987). Guinness, Gosset, Fisher, and small samples. *Statistical"
+" Science, 2*\\ (1), 45–52. https://doi.org/10.1214/ss/1177013437"
 msgstr ""
 
 #: ../../lsj/References.rst:64
 msgid ""
 "Brown, M. B., & Forsythe, A. B. (1974). Robust tests for equality of "
-"variances. *Journal of the American Statistical Association, 69*\\ (346),"
-" 364–367."
+"variances. *Journal of the American Statistical Association, 69*\\ (346), "
+"364–367."
 msgstr ""
 
 #: ../../lsj/References.rst:69
@@ -117,15 +113,15 @@ msgstr ""
 
 #: ../../lsj/References.rst:79
 msgid ""
-"Cochran, W. G. (1954). The chi-squared test of goodness of fit. *The "
-"Annals of Mathematical Statistics, 23*\\ (3), 315–345. "
+"Cochran, W. G. (1954). The chi-squared test of goodness of fit. *The Annals "
+"of Mathematical Statistics, 23*\\ (3), 315–345. "
 "https://doi.org/10.1214/aoms/1177729380"
 msgstr ""
 
 #: ../../lsj/References.rst:84
 msgid ""
-"Cohen, J. (1988). *Statistical Power Analysis for the Behavioral "
-"Sciences* (2nd ed.). Lawrence Erlbaum."
+"Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* "
+"(2nd ed.). Lawrence Erlbaum."
 msgstr ""
 
 #: ../../lsj/References.rst:89
@@ -144,49 +140,48 @@ msgstr ""
 #: ../../lsj/References.rst:98
 msgid ""
 "Ellis, P. D. (2010). *The Essential Guide to Effect Sizes: Statistical "
-"Power, Meta-Analysis, and the Interpretation of Research Results*. "
-"Cambridge University Press."
+"Power, Meta-Analysis, and the Interpretation of Research Results*. Cambridge"
+" University Press."
 msgstr ""
 
 #: ../../lsj/References.rst:103
 msgid ""
-"Ellman, M. (2002). Soviet repression statistics: Some comments. *Europe-"
-"Asia Studies, 54*\\ (7), 1151–1172. "
-"https://doi.org/10.1080/0966813022000017177"
+"Ellman, M. (2002). Soviet repression statistics: Some comments. *Europe-Asia"
+" Studies, 54*\\ (7), 1151–1172. https://doi.org/10.1080/0966813022000017177"
 msgstr ""
 
 #: ../../lsj/References.rst:108
 msgid ""
-"Evans, J. S. B. T., Barston, J. L., & Pollard, P. (1983). On the conflict"
-" between logic and belief in syllogistic reasoning. *Memory & Cognition, "
+"Evans, J. S. B. T., Barston, J. L., & Pollard, P. (1983). On the conflict "
+"between logic and belief in syllogistic reasoning. *Memory & Cognition, "
 "11*\\ (3), 295–306. https://doi.org/10.3758/BF03196976"
 msgstr ""
 
 #: ../../lsj/References.rst:113
 msgid ""
-"Evans, M., Hastings, N., & Peacock, B. (2011). *Statistical "
-"Distributions* (3rd ed). Wiley."
+"Evans, M., Hastings, N., & Peacock, B. (2011). *Statistical Distributions* "
+"(3rd ed). Wiley."
 msgstr ""
 
 #: ../../lsj/References.rst:117
 msgid ""
-"Everitt, B. S. (1996). *Making Sense of Statistics in Psychology. A "
-"Second-Level Course.* Oxford University Press."
+"Everitt, B. S. (1996). *Making Sense of Statistics in Psychology. A Second-"
+"Level Course.* Oxford University Press."
 msgstr ""
 
 #: ../../lsj/References.rst:122
 msgid ""
-"Fabrigar, L. R., Wegener, D. T., MacCallum, R. C., & Strahan, E. J. "
-"(1999). Evaluating the use of exploratory factor analysis in "
-"psychological research. *Psychological Methods, 4*\\ (3), 272–299. "
+"Fabrigar, L. R., Wegener, D. T., MacCallum, R. C., & Strahan, E. J. (1999). "
+"Evaluating the use of exploratory factor analysis in psychological research."
+" *Psychological Methods, 4*\\ (3), 272–299. "
 "https://doi.org/10.1037/1082-989X.4.3.272"
 msgstr ""
 
 #: ../../lsj/References.rst:128
 msgid ""
-"Fisher, R. A. (1922a). On the interpretation of chi-squared from "
-"contingency tables, and the calculation of p. *Journal of the Royal "
-"Statistical Society, 85*\\ (1), 87–94. https://doi.org/10.2307/2340521"
+"Fisher, R. A. (1922a). On the interpretation of chi-squared from contingency"
+" tables, and the calculation of p. *Journal of the Royal Statistical "
+"Society, 85*\\ (1), 87–94. https://doi.org/10.2307/2340521"
 msgstr ""
 
 #: ../../lsj/References.rst:134
@@ -198,35 +193,33 @@ msgstr ""
 
 #: ../../lsj/References.rst:139
 msgid ""
-"Fisher, R. A. (1925). *Statistical Methods for Research Workers*. Oliver "
-"& Boyd."
+"Fisher, R. A. (1925). *Statistical Methods for Research Workers*. Oliver & "
+"Boyd."
 msgstr ""
 
 #: ../../lsj/References.rst:143
 msgid ""
-"Fox, J., Weisberg, S. (2011). *An R Companion to Applied Regression* (2nd"
-" ed.). Sage."
+"Fox, J., Weisberg, S. (2011). *An R Companion to Applied Regression* (2nd "
+"ed.). Sage."
 msgstr ""
 
 #: ../../lsj/References.rst:147
 msgid ""
 "Gelman, A., & Stern, H. (2006). The difference between “significant” and "
 "“not significant” is not itself statistically significant. *The American "
-"Statistician, 60*\\ (4), 328–331. "
-"https://doi.org/10.1198/000313006X152649"
+"Statistician, 60*\\ (4), 328–331. https://doi.org/10.1198/000313006X152649"
 msgstr ""
 
 #: ../../lsj/References.rst:153
 msgid ""
-"Gelman, A., & Loken, E. (2014). The statistical crisis in science. "
-"*American Scientist, 102*\\ (6), \\460. "
-"https://doi.org/10.1511/2014.111.460"
+"Gelman, A., & Loken, E. (2014). The statistical crisis in science. *American"
+" Scientist, 102*\\ (6), \\460. https://doi.org/10.1511/2014.111.460"
 msgstr ""
 
 #: ../../lsj/References.rst:158
 msgid ""
-"Geschwind, N. (1972). Language and the brain. *Scientific American, "
-"226*\\ (4), 76-83. https://www.jstor.org/stable/24927318"
+"Geschwind, N. (1972). Language and the brain. *Scientific American, 226*\\ "
+"(4), 76-83. https://www.jstor.org/stable/24927318"
 msgstr ""
 
 #: ../../lsj/References.rst:163
@@ -235,15 +228,15 @@ msgstr ""
 
 #: ../../lsj/References.rst:167
 msgid ""
-"Hedges, L. V. (1981). Distribution theory for glass’s estimator of effect"
-" size and related estimators. *Journal of Educational Statistics, 6*\\ "
-"(2), 107–128. https://doi.org/10.2307/1164588"
+"Hedges, L. V. (1981). Distribution theory for glass’s estimator of effect "
+"size and related estimators. *Journal of Educational Statistics, 6*\\ (2), "
+"107–128. https://doi.org/10.2307/1164588"
 msgstr ""
 
 #: ../../lsj/References.rst:172
 msgid ""
-"Hedges, L. V. & Olkin, I. (1985). *Statistical Methods for Meta-"
-"Analysis*. Academic Press."
+"Hedges, L. V. & Olkin, I. (1985). *Statistical Methods for Meta-Analysis*. "
+"Academic Press."
 msgstr ""
 
 #: ../../lsj/References.rst:176
@@ -262,8 +255,8 @@ msgstr ""
 
 #: ../../lsj/References.rst:187
 msgid ""
-"Holm, S. (1979). A simple sequentially rejective multiple test procedure."
-" *Scandinavian Journal of Statistics, 6*\\ (2), 65–70. "
+"Holm, S. (1979). A simple sequentially rejective multiple test procedure. "
+"*Scandinavian Journal of Statistics, 6*\\ (2), 65–70. "
 "https://www.jstor.org/stable/4615733"
 msgstr ""
 
@@ -273,42 +266,39 @@ msgstr ""
 
 #: ../../lsj/References.rst:196
 msgid ""
-"Hróbjartsson, A., & Gøtzsche, P. C. (2010). Placebo interventions for all"
-" clinical conditions. *The Cochrane Database of Systematic Reviews, 1*, "
+"Hróbjartsson, A., & Gøtzsche, P. C. (2010). Placebo interventions for all "
+"clinical conditions. *The Cochrane Database of Systematic Reviews, 1*, "
 "CD003974. https://doi.org/10.1002/14651858.CD003974.pub3"
 msgstr ""
 
 #: ../../lsj/References.rst:202
 msgid ""
-"Hsu, J. C. (1996). *Multiple Comparisons: Theory and Methods*. Chapman "
-"and Hall."
+"Hsu, J. C. (1996). *Multiple Comparisons: Theory and Methods*. Chapman and "
+"Hall."
 msgstr ""
 
 #: ../../lsj/References.rst:206
 msgid ""
-"Ioannidis, J. P. A. (2005). Why most published research findings are "
-"false. *CHANCE, 18*\\ (4), 40–47. "
-"https://doi.org/10.1080/09332480.2005.10722754"
+"Ioannidis, J. P. A. (2005). Why most published research findings are false. "
+"*CHANCE, 18*\\ (4), 40–47. https://doi.org/10.1080/09332480.2005.10722754"
 msgstr ""
 
 #: ../../lsj/References.rst:211
 msgid ""
-"Jeffreys, H. (1961). *The Theory of Probability* (3rd ed.). Clarendon "
-"Press."
+"Jeffreys, H. (1961). *The Theory of Probability* (3rd ed.). Clarendon Press."
 msgstr ""
 
 #: ../../lsj/References.rst:215
 msgid ""
 "Johnson, V. E. (2013). Revised standards for statistical evidence. "
-"*Proceedings of the National Academy of Sciences, 110*\\ (48), "
-"19313–19317. https://doi.org/10.1073/pnas.1313476110"
+"*Proceedings of the National Academy of Sciences, 110*\\ (48), 19313–19317. "
+"https://doi.org/10.1073/pnas.1313476110"
 msgstr ""
 
 #: ../../lsj/References.rst:220
 msgid ""
 "Kahneman, D., & Tversky, A. (1973). On the psychology of prediction. "
-"*Psychological Review, 80*\\ (4), 237–251. "
-"https://doi.org/10.1037/h0034747"
+"*Psychological Review, 80*\\ (4), 237–251. https://doi.org/10.1037/h0034747"
 msgstr ""
 
 #: ../../lsj/References.rst:225
@@ -319,20 +309,21 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/References.rst:230
-msgid "Keynes, J. M. (1923). *A tract on monetary reform*. Macmillan and Company"
+msgid ""
+"Keynes, J. M. (1923). *A tract on monetary reform*. Macmillan and Company"
 msgstr ""
 
 #: ../../lsj/References.rst:234
 msgid ""
-"Kruschke, J. K. (2011). *Doing Bayesian data analysis: A tutorial with R "
-"and BUGS*. Academic Press."
+"Kruschke, J. K. (2011). *Doing Bayesian data analysis: A tutorial with R and"
+" BUGS*. Academic Press."
 msgstr ""
 
 #: ../../lsj/References.rst:238
 msgid ""
 "Kruskal, W. H., & Wallis, W. A. (1952). Use of ranks in one-criterion "
-"variance analysis. *Journal of the American Statistical Association, "
-"47*\\ (260), 583–621. https://doi.org/10.1080/01621459.1952.10483441"
+"variance analysis. *Journal of the American Statistical Association, 47*\\ "
+"(260), 583–621. https://doi.org/10.1080/01621459.1952.10483441"
 msgstr ""
 
 #: ../../lsj/References.rst:243
@@ -345,8 +336,8 @@ msgstr ""
 
 #: ../../lsj/References.rst:248
 msgid ""
-"Larntz, K. (1978). Small-sample comparisons of exact levels for chi-"
-"squared goodness-of-fit statistics. *Journal of the American Statistical "
+"Larntz, K. (1978). Small-sample comparisons of exact levels for chi-squared "
+"goodness-of-fit statistics. *Journal of the American Statistical "
 "Association, 73*\\ (362), 253–263. "
 "https://doi.org/10.1080/01621459.1978.10481567"
 msgstr ""
@@ -365,23 +356,23 @@ msgstr ""
 
 #: ../../lsj/References.rst:261
 msgid ""
-"Levene, H. (1960). Robust tests for equality of variances. In I. Olkin et"
-" al. (ed.) *Contributions to Probability and Statistics: Essays in Honor "
-"of Harold Hotelling* (pp. 278–292). Stanford University Press."
+"Levene, H. (1960). Robust tests for equality of variances. In I. Olkin et "
+"al. (ed.) *Contributions to Probability and Statistics: Essays in Honor of "
+"Harold Hotelling* (pp. 278–292). Stanford University Press."
 msgstr ""
 
 #: ../../lsj/References.rst:266
 msgid ""
-"McGrath, R. E., & Meyer, G. J. (2006). When effect sizes disagree: The "
-"case of r and d. *Psychological Methods, 11*\\ (4), 386–401. "
+"McGrath, R. E., & Meyer, G. J. (2006). When effect sizes disagree: The case "
+"of r and d. *Psychological Methods, 11*\\ (4), 386–401. "
 "https://doi.org/10.1037/1082-989X.11.4.386"
 msgstr ""
 
 #: ../../lsj/References.rst:271
 msgid ""
 "McNemar, Q. (1947). Note on the sampling error of the difference between "
-"correlated proportions or percentages. *Psychometrika, 12*\\ (2), "
-"153–157. https://doi.org/10.1007/BF02295996"
+"correlated proportions or percentages. *Psychometrika, 12*\\ (2), 153–157. "
+"https://doi.org/10.1007/BF02295996"
 msgstr ""
 
 #: ../../lsj/References.rst:276
@@ -393,18 +384,18 @@ msgstr ""
 
 #: ../../lsj/References.rst:281
 msgid ""
-"Pearson, K. (1900). On the criterion that a given system of deviations "
-"from the probable in the case of a correlated system of variables is such"
-" that it can be reasonably supposed to have arisen from random sampling. "
-"*The London, Edinburgh, and Dublin Philosophical Magazine and Journal of "
-"Science, 50*\\ (302), 157–175. https://doi.org/10.1080/14786440009463897"
+"Pearson, K. (1900). On the criterion that a given system of deviations from "
+"the probable in the case of a correlated system of variables is such that it"
+" can be reasonably supposed to have arisen from random sampling. *The "
+"London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science,"
+" 50*\\ (302), 157–175. https://doi.org/10.1080/14786440009463897"
 msgstr ""
 
 #: ../../lsj/References.rst:288
 msgid ""
-"Peterson, C., & Seligman, M. E. (1984). Causal explanations as a risk "
-"factor for depression: Theory and evidence. *Psychological Review, 91*\\ "
-"(3), 347–374. https://doi.org/10.1037/0033-295X.91.3.347"
+"Peterson, C., & Seligman, M. E. (1984). Causal explanations as a risk factor"
+" for depression: Theory and evidence. *Psychological Review, 91*\\ (3), "
+"347–374. https://doi.org/10.1037/0033-295X.91.3.347"
 msgstr ""
 
 #: ../../lsj/References.rst:293
@@ -421,8 +412,8 @@ msgstr ""
 
 #: ../../lsj/References.rst:302
 msgid ""
-"Sahai, H. & Ageel, M. I. (2000). *The Analysis of Variance: Fixed, Random"
-" and Mixed Models*. Birkhauser."
+"Sahai, H. & Ageel, M. I. (2000). *The Analysis of Variance: Fixed, Random "
+"and Mixed Models*. Birkhauser."
 msgstr ""
 
 #: ../../lsj/References.rst:307
@@ -441,8 +432,8 @@ msgstr ""
 
 #: ../../lsj/References.rst:317
 msgid ""
-"Sokal, R. R., & Rohlf, F. J. (1995). *Biometry: The principles and "
-"practice of statistics in biological research* (3rd ed.). W. H. Freeman."
+"Sokal, R. R., & Rohlf, F. J. (1995). *Biometry: The principles and practice "
+"of statistics in biological research* (3rd ed.). W. H. Freeman."
 msgstr ""
 
 #: ../../lsj/References.rst:322
@@ -454,28 +445,27 @@ msgstr ""
 #: ../../lsj/References.rst:327
 msgid ""
 "Stigler, S. M. (2000). *The history of statistics: The measurement of "
-"uncertainty before 1900* (8. ed). Belknap Press of Harvard University "
-"Press."
+"uncertainty before 1900* (8. ed). Belknap Press of Harvard University Press."
 msgstr ""
 
 #: ../../lsj/References.rst:332
 msgid ""
-"Student. (1908). The probable error of a mean. *Biometrika, 6*\\ (1), "
-"1-25. https://doi.org/10.2307/2331554"
+"Student. (1908). The probable error of a mean. *Biometrika, 6*\\ (1), 1-25. "
+"https://doi.org/10.2307/2331554"
 msgstr ""
 
 #: ../../lsj/References.rst:336
 msgid ""
-"Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: "
-"Heuristics and biases. *Science, 185*\\ (4157), 1124–1131. "
+"Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics "
+"and biases. *Science, 185*\\ (4157), 1124–1131. "
 "https://doi.org/10.1126/science.185.4157.1124"
 msgstr ""
 
 #: ../../lsj/References.rst:341
 msgid ""
-"Welch, B. L. (1947). The generalization of “Student’s” problem when "
-"several different population variances are involved. *Biometrika, 34*\\ "
-"(1/2), 28-35. https://doi.org/10.2307/2332510"
+"Welch, B. L. (1947). The generalization of “Student’s” problem when several "
+"different population variances are involved. *Biometrika, 34*\\ (1/2), "
+"28-35. https://doi.org/10.2307/2332510"
 msgstr ""
 
 #: ../../lsj/References.rst:346
@@ -492,7 +482,6 @@ msgstr ""
 #: ../../lsj/References.rst:355
 msgid ""
 "Yates, F. (1934). Contingency tables involving small numbers and the chi-"
-"squared test. *Supplement to the Journal of the Royal Statistical "
-"Society, 1*\\ (2), 217–235."
+"squared test. *Supplement to the Journal of the Royal Statistical Society, "
+"1*\\ (2), 217–235."
 msgstr ""
-
