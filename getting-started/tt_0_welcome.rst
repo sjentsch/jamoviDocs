@@ -12,7 +12,7 @@ Cleaning your data and checking assumptions for your main analyses
   conduct them. That part is concerned with cleaning you data in order to
   fulfil the assumptions required to run most inference-statistical procedures.
   At the core of "cleaning you data" is the search for and the removal of
-  outliers. Using `filters <Filtering_data_with_jamovi>`__ can help you with
+  outliers. Using `filters <tt_1_Filtering_data_with_jamovi.html>`__ can help you with
   that task.
 
 .. toctree::
@@ -25,9 +25,10 @@ Cleaning your data and checking assumptions for your main analyses
   linearity; due to floor and ceiling effects). I will briefly introduce how we
   can conduct two preliminary checks to assess whether the assumptions for
   conducting our main analyses are met: The first is to check whether the data
-  are in accordance with a `normal distribution <Checking_normality_with_jamovi>`__,
-  the other one is to assess whether the independent and the dependent variables
-  stand in a `linear relation <Checking_linearity_with_jamovi>`__.
+  are in accordance with a `normal distribution
+  <tt_21_Checking_normality_with_jamovi.html>`__, the other one is to assess
+  whether the independent and the dependent variables stand in a `linear
+  relation <tt_22_Checking_linearity_with_jamovi.html>`__.
 
 .. toctree::
    :hidden:
