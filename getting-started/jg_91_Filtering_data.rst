@@ -54,7 +54,8 @@ How do I create a filter variable and use it for selection?
          limIQR = 3
          for (VC in VL) {
              V = as.double(unlist(data[VC]))
-             outBln = V < quantile(V, 1/4) - limIQR * IQR(V) | V > quantile(V, 3/4) + limIQR * IQR(V)
+             outBln = V < quantile(V, 1/4, na.rm=TRUE) - limIQR * IQR(V, na.rm=TRUE) |
+                      V > quantile(V, 3/4, na.rm=TRUE) + limIQR * IQR(V, na.rm=TRUE)
              print(VC); print(which(outBln))
          }
      
