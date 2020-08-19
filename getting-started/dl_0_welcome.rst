@@ -1,4 +1,4 @@
-.. sectionauthor:: `Barton Poulson <https://datalab.cc/jamovi>`_
+.. sectionauthor:: `Barton Poulson <https://datalab.cc>`__
 
 .. wget -O - https://www.youtube.com/playlist?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn | sed -e 's/[{}]/''/g' | awk -v k="text" '{n=split($0,a,","); for (i=1; i<=n; i++) print a[i]}' | grep -v trackingParams | tr -d '"' | grep -A62 'title:accessibility' | grep '^simpleText:[a-z,A-Z]\|^videoId:' | sed 's/simpleText://' | sed 's/videoId:/|/'
 

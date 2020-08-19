@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"POT-Creation-Date: 2020-08-18 23:13+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
 "Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
@@ -21,31 +21,31 @@ msgstr ""
 "Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../index.rst:8 ../../index.rst:8
+#: ../../index.rst:9 ../../index.rst:9
 msgid "Getting started..."
 msgstr "Getting started..."
 
-#: ../../index.rst:19 ../../index.rst:19
+#: ../../index.rst:18 ../../index.rst:18
 msgid "Learning statistics with jamovi"
 msgstr ""
 
-#: ../../index.rst:33
-msgid "jamovi modules"
-msgstr "jamovi-moduler"
-
-#: ../../index.rst:40 ../../index.rst:40
+#: ../../index.rst:32 ../../index.rst:32
 msgid "jamovi and other software"
 msgstr "jamovi og annen programvare"
 
-#: ../../index.rst:48 ../../index.rst:48
-msgid "Developer hub"
-msgstr "Developer hub"
+#: ../../index.rst:40
+msgid "jamovi modules"
+msgstr "jamovi-moduler"
 
-#: ../../index.rst:4
+#: ../../index.rst:47 ../../index.rst:47
+msgid "developer hub"
+msgstr ""
+
+#: ../../index.rst:5
 msgid "jamovi"
 msgstr "jamovi"
 
-#: ../../index.rst:6
+#: ../../index.rst:7
 msgid ""
 "Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free"
 " and open statistical software to bridge the gap between researcher and "

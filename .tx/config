@@ -7,6 +7,24 @@ source_file = _build/gettext/index.pot
 source_lang = en
 type = PO
 
+[jamovi-documentation.getting-started--um_0_welcome]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_0_welcome.po
+source_file = _build/gettext/getting-started/um_0_welcome.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--um_1_installation]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_1_installation.po
+source_file = _build/gettext/getting-started/um_1_installation.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.getting-started--um_2_first-steps]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_2_first-steps.po
+source_file = _build/gettext/getting-started/um_2_first-steps.pot
+source_lang = en
+type = PO
+
 [jamovi-documentation.getting-started--jg_0_welcome]
 file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_0_welcome.po
 source_file = _build/gettext/getting-started/jg_0_welcome.pot
@@ -73,39 +91,87 @@ source_file = _build/gettext/getting-started/jg_43_regression-logistic.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.getting-started--tt_0_welcome]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_0_welcome.po
-source_file = _build/gettext/getting-started/tt_0_welcome.pot
+[jamovi-documentation.getting-started--jg_91_Filtering_data]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_91_Filtering_data.po
+source_file = _build/gettext/getting-started/jg_91_Filtering_data.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.getting-started--um_0_welcome]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_0_welcome.po
-source_file = _build/gettext/getting-started/um_0_welcome.pot
+[jamovi-documentation.getting-started--jg_92_Checking_normality]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_92_Checking_normality.po
+source_file = _build/gettext/getting-started/jg_92_Checking_normality.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.getting-started--um_1_installation]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_1_installation.po
-source_file = _build/gettext/getting-started/um_1_installation.pot
+[jamovi-documentation.getting-started--jg_93_Checking_linearity]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_93_Checking_linearity.po
+source_file = _build/gettext/getting-started/jg_93_Checking_linearity.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.getting-started--um_2_first-steps]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_2_first-steps.po
-source_file = _build/gettext/getting-started/um_2_first-steps.pot
+[jamovi-documentation.getting-started--dl_0_welcome]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/dl_0_welcome.po
+source_file = _build/gettext/getting-started/dl_0_welcome.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.spss2jamovi2R--SPSS2jamovi]
-file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi.po
-source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi.pot
+[jamovi-documentation.lsj--Prologue]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Prologue.po
+source_file = _build/gettext/lsj/Prologue.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.spss2jamovi2R--jamovi2R]
-file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jamovi2R.po
-source_file = _build/gettext/spss2jamovi2R/jamovi2R.pot
+[jamovi-documentation.lsj--Background]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Background.po
+source_file = _build/gettext/lsj/Background.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--Introduction]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Introduction.po
+source_file = _build/gettext/lsj/Introduction.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--WorkWithData]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/WorkWithData.po
+source_file = _build/gettext/lsj/WorkWithData.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--StatTheory]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/StatTheory.po
+source_file = _build/gettext/lsj/StatTheory.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--StatTools]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/StatTools.po
+source_file = _build/gettext/lsj/StatTools.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--Endings]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Endings.po
+source_file = _build/gettext/lsj/Endings.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--Ch01_WhyStats]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Ch01_WhyStats.po
+source_file = _build/gettext/lsj/Ch01_WhyStats.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--Ch01_WhyStats_1]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Ch01_WhyStats_1.po
+source_file = _build/gettext/lsj/Ch01_WhyStats_1.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--Ch01_WhyStats_2]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Ch01_WhyStats_2.po
+source_file = _build/gettext/lsj/Ch01_WhyStats_2.pot
 source_lang = en
 type = PO
 
@@ -298,6 +364,12 @@ type = PO
 [jamovi-documentation.lsj--Ch06_DataHandling_5]
 file_filter = _locale/<lang>/LC_MESSAGES/lsj/Ch06_DataHandling_5.po
 source_file = _build/gettext/lsj/Ch06_DataHandling_5.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.lsj--Prelude_StatTheory]
+file_filter = _locale/<lang>/LC_MESSAGES/lsj/Prelude_StatTheory.po
+source_file = _build/gettext/lsj/Prelude_StatTheory.pot
 source_lang = en
 type = PO
 
@@ -907,99 +979,21 @@ source_file = _build/gettext/lsj/Ch17_Epilogue_5.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.lsj--Endings]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Endings.po
-source_file = _build/gettext/lsj/Endings.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--Introduction]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Introduction.po
-source_file = _build/gettext/lsj/Introduction.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--Prelude_StatTheory]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Prelude_StatTheory.po
-source_file = _build/gettext/lsj/Prelude_StatTheory.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--Prologue]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Prologue.po
-source_file = _build/gettext/lsj/Prologue.pot
-source_lang = en
-type = PO
-
 [jamovi-documentation.lsj--References]
 file_filter = _locale/<lang>/LC_MESSAGES/lsj/References.po
 source_file = _build/gettext/lsj/References.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.lsj--StatTheory]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/StatTheory.po
-source_file = _build/gettext/lsj/StatTheory.pot
+[jamovi-documentation.spss2jamovi2R--SPSS2jamovi]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/SPSS2jamovi.po
+source_file = _build/gettext/spss2jamovi2R/SPSS2jamovi.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.lsj--StatTools]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/StatTools.po
-source_file = _build/gettext/lsj/StatTools.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--WorkWithData]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/WorkWithData.po
-source_file = _build/gettext/lsj/WorkWithData.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--dl_0_welcome]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/dl_0_welcome.po
-source_file = _build/gettext/getting-started/dl_0_welcome.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--tt_1_Filtering_data_with_jamovi]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_1_Filtering_data_with_jamovi.po
-source_file = _build/gettext/getting-started/tt_1_Filtering_data_with_jamovi.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--tt_21_Checking_normality_with_jamovi]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_21_Checking_normality_with_jamovi.po
-source_file = _build/gettext/getting-started/tt_21_Checking_normality_with_jamovi.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--tt_22_Checking_linearity_with_jamovi]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/tt_22_Checking_linearity_with_jamovi.po
-source_file = _build/gettext/getting-started/tt_22_Checking_linearity_with_jamovi.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--Background]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Background.po
-source_file = _build/gettext/lsj/Background.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--Ch01_WhyStats]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Ch01_WhyStats.po
-source_file = _build/gettext/lsj/Ch01_WhyStats.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--Ch01_WhyStats_1]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Ch01_WhyStats_1.po
-source_file = _build/gettext/lsj/Ch01_WhyStats_1.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.lsj--Ch01_WhyStats_2]
-file_filter = _locale/<lang>/LC_MESSAGES/lsj/Ch01_WhyStats_2.po
-source_file = _build/gettext/lsj/Ch01_WhyStats_2.pot
+[jamovi-documentation.spss2jamovi2R--jamovi2R]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jamovi2R.po
+source_file = _build/gettext/spss2jamovi2R/jamovi2R.pot
 source_lang = en
 type = PO
 

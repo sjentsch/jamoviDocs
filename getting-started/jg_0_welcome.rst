@@ -1,4 +1,4 @@
-.. sectionauthor:: `Jonas Rafi <https://www.su.se/english/profiles/jora9288-1.283149>`__
+.. sectionauthor:: `Jonas Rafi <https://www.su.se/english/profiles/jora9288-1.283149>`__ and `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
 ============
 jamovi guide
@@ -7,8 +7,10 @@ jamovi guide
 The aim of the jamovi guide is to provide short, non-technical tutorials on
 how to conduct common statistical procedures in jamovi. However, it is not a
 resource providing an in-depth introduction into the background of those
-procedures. For such an endevaour, there are plenty of other resources, e.g the
-free e-book `learning statistics with jamovi <https://www.learnstatswithjamovi.com/>`__
+procedures. For such an endevaour, there are plenty of other resources, e.g 
+«learning statistics with jamovi» (which is both `part of this documentation 
+<../lsj/Prologue.html>`__ as well available `as a PDF textbook
+<https://www.learnstatswithjamovi.com/>`__.
 
 .. toctree::
    :titlesonly:
@@ -86,3 +88,31 @@ concept of regression analyses is presented in this `video
    
 .. jg_41_correlation
 
+------------------------------------------------------------------
+Cleaning your data and checking assumptions for your main analyses
+------------------------------------------------------------------
+
+A quite essential part of a statistical analysis actually happens before we
+conduct them. That part is concerned with cleaning you data in order to
+fulfil the assumptions required to run most inference-statistical procedures.
+It relies on information we gathered during the `descriptive-statistical
+analysis <jg_1_descriptive-analyses.html>`__. It provides information for the
+search for and the removal of outliers, which is at the core of "cleaning your
+data". Using `filters <jg_91_Filtering_data.html>`__ can help you
+with that task.
+  
+Among the aims when cleaning outliers is that outliers might lead to violations
+of the assumptions for parametric statistical tests: normality (and possibly
+linearity). I will briefly introduce how we can conduct two preliminary checks
+to assess whether the assumptions for conducting our main analyses are met: The
+first is to check whether the data are in accordance with a `normal
+distribution <jg_92_Checking_normality.html>`__, the other one is to assess
+whether the independent and the dependent variables stand in a `linear relation
+<tt_93_Checking_linearity.html>`__.
+
+.. toctree::
+   :hidden:
+
+   jg_91_Filtering_data
+   jg_92_Checking_normality
+   jg_93_Checking_linearity

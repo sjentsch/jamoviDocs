@@ -5,9 +5,9 @@ user manual
 
    Welcome to the jamovi user-manual. This contains everything you need to know
    about getting up and running for jamovi. Note that there are also `video
-   tutorials <dl_0_welcome>`__ available from |datalab|, and «learning
+   tutorials <dl_0_welcome.html>`__ available from |datalab|, and «learning
    statistics with jamovi» (both `as part of this documentation 
-   <../lsj/Prologue.html>`__>`__ as well `as textbook
+   <../lsj/Prologue.html>`__ as well `as textbook
    <https://www.learnstatswithjamovi.com/>`__) for those who prefer those
    formats.
    

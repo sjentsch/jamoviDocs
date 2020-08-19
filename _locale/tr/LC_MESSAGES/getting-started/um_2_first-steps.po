@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Serdar Balci <drserdarbalci@gmail.com>, 2020
 # Sebastian Jentschke, 2020
+# Serdar Balci <drserdarbalci@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 19:18+0200\n"
+"POT-Creation-Date: 2020-08-18 23:13+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
-"Last-Translator: Sebastian Jentschke, 2020\n"
+"Last-Translator: Serdar Balci <drserdarbalci@gmail.com>, 2020\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -446,16 +446,27 @@ msgid ""
 "your data cleaning and analysis steps (making your jamovi files behave a bit"
 " like scripts)."
 msgstr ""
+"Bir veri setini filtreler, hesaplanmış değişkenler, dönüştürmeler ve "
+"analizlerle hazırladıktan sonra bile bazen veriyi güncellemeniz gerekebilir."
+" Bunun birkaç nedeni olabilir: Daha önce gerçekleştirdiğiniz analizleri "
+"uygulamak istediğiniz yeni bir veriniz olabilir veya birkaç katılımcıyı test"
+" ettiğiniz bir deneyde yeni bir katılımcı verisi elde etmiş olabilirsiniz. "
+"Yeni veriyi mevcut bir veri kümesine aktararak, tüm veri temizleme ve analiz"
+" adımlarınızı yeniden gerçekleştirmek zorunda kalmadan analizlerinizi "
+"yeniden çalıştırabilirsiniz (jamovi dosyalarınızın biraz komut dosyaları "
+"gibi davranmasını sağlayabilirsiniz)."
 
 #: ../../getting-started/um_2_first-steps.rst:221
 msgid ""
 "For a video introduction to import and templates in jamovi, see this `blog "
 "post <https://blog.jamovi.org/2019/03/27/import.html>`__."
 msgstr ""
+"Jamovi'nin içe aktarma özelliği ve şablonlar için `bu blog "
+"<https://blog.jamovi.org/2019/03/27/import.html>`__ gönderisine bakın."
 
 #: ../../getting-started/um_2_first-steps.rst:225
 msgid "Single-file Import"
-msgstr ""
+msgstr "Tek Dosyayı İçe Aktarma"
 
 #: ../../getting-started/um_2_first-steps.rst:227
 msgid ""
@@ -463,44 +474,57 @@ msgid ""
 "you import a file into an existing data set, the following operations are "
 "performed:"
 msgstr ""
+"Jamovi'nin sol üst tarafındaki dosya menüsünden (☰) içe aktarma yapılabilir."
+" Bir dosyayı mevcut bir veri setine aktardığınızda, aşağıdaki işlemler "
+"gerçekleştirilir:"
 
 #: ../../getting-started/um_2_first-steps.rst:231
 msgid "All the rows of the existing data set are deleted."
-msgstr ""
+msgstr "Mevcut verinin tüm satırları silinir."
 
 #: ../../getting-started/um_2_first-steps.rst:232
 msgid ""
 "All the (original) names of the existing columns are matched to the names of"
 " the columns from the new data set."
 msgstr ""
+"Mevcut sütunların tüm adları, yeni verideki sütunların adlarıyla "
+"eşleştirilir."
 
 #: ../../getting-started/um_2_first-steps.rst:234
 msgid ""
 "The new values are imported to the existing columns, *keeping* the data and "
 "measure types from the existing data set."
 msgstr ""
+"Yeni değerler mevcut sütunlara aktarılır, bu sırada mevcut veri kümesindeki "
+"veri ve çlçüm tipleri *korunur*."
 
 #: ../../getting-started/um_2_first-steps.rst:236
 msgid ""
 "The new columns which did not match names in the original data set are "
 "appended to the right of the data set."
 msgstr ""
+"Orijinal veri setindeki isimlerle eşleşmeyen yeni sütunlar, veri setinin "
+"sağına eklenir."
 
 #: ../../getting-started/um_2_first-steps.rst:239
 msgid ""
 "If no new column matches the column names in the existing data set, then "
 "those columns are left blank."
 msgstr ""
+"Mevcut veri setindeki sütun adlarıyla eşleşen sütun yoksa, bu sütunlar boş "
+"bırakılır."
 
 #: ../../getting-started/um_2_first-steps.rst:242
 msgid ""
 "Following a file import, all the filters, computed variables, transforms and"
 " analyses update."
 msgstr ""
+"Bir dosya aktarımının ardından tüm filtreler, hesaplanan değişkenler, "
+"dönüştürmeler ve analizler yeniden yapılır (güncellenir)."
 
 #: ../../getting-started/um_2_first-steps.rst:246
 msgid "Multi-file Import"
-msgstr ""
+msgstr "Birden fazla dosyayı içe aktarma"
 
 #: ../../getting-started/um_2_first-steps.rst:248
 msgid ""
@@ -511,6 +535,13 @@ msgid ""
 "import. You can do this by holding down control or shift when selecting data"
 " files, or with the ‘multi-select’ button at the top of the import dialog."
 msgstr ""
+"Aynı anda birden fazla dosyayı içe aktarmak da mümkündür. Birden çok veriyi "
+"birleştirme, örneğin her dosyanın bir katılımcıyı temsil ettiği durumlarda "
+"yararlı olabilir. İşlem, içe aktarmayı gerçekleştirirken birden çok dosya "
+"seçmeniz dışında yukarıda ayrıntıları verilen tek dosya içe aktarmayla "
+"aynıdır. Veri dosyalarını seçerken control veya shift tuşunu basılı tutarak "
+"ya da içe aktarma iletişim kutusunun üst kısmındaki \"çoklu seçim\" "
+"düğmesini kullanarak bunu yapabilirsiniz."
 
 #: ../../getting-started/um_2_first-steps.rst:255
 msgid ""
@@ -522,14 +553,22 @@ msgid ""
 "column can be particularly useful to use with the ``group_by`` argument to "
 "``V``-functions described above."
 msgstr ""
+"Birden çok dosyayı içe aktarırken, birinci dosyanın altına ikinci dosyanın "
+"satırları dikey olarak birleştirilirler, üçüncü dosyanın satırları ikincinin"
+" altında görünür ve bu böyle devam eder. Her satırın hangi dosyadan "
+"geldiğini detaylandıran ``source`` (kaynak) adlı ek bir sütun oluşturulur. "
+"Bu, her bir katılımcıyı 'split-by' (ayırmanız) veya 'group-by' (gruplamanız)"
+" gerektiğinde yararlı olabilir. Bu sütun, yukarıda açıklanan ``V`` "
+"fonksiyonlarındaki ``group_by`` özelliğini kullanılırken yararlı olabilir."
 
 #: ../../getting-started/um_2_first-steps.rst:263
 msgid "At present, there is no way to combine files horizontally in jamovi."
 msgstr ""
+"Şimdilik, dosyaları jamovi'de yatay olarak birleştirmenin bir yolu yoktur."
 
 #: ../../getting-started/um_2_first-steps.rst:266
 msgid "Templates"
-msgstr ""
+msgstr "Şablonlar"
 
 #: ../../getting-started/um_2_first-steps.rst:268
 msgid ""

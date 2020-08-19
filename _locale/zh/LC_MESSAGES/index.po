@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-18 14:06+0200\n"
 "PO-Revision-Date: 2020-07-20 23:22+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -26,20 +26,20 @@ msgstr ""
 msgid "Getting started..."
 msgstr ""
 
-#: ../../index.rst:19
+#: ../../index.rst:17
 msgid "Learning statistics with jamovi"
 msgstr ""
 
-#: ../../index.rst:33
+#: ../../index.rst:31
 msgid "jamovi modules"
 msgstr ""
 
-#: ../../index.rst:40
+#: ../../index.rst:38
 msgid "jamovi and other software"
 msgstr ""
 
-#: ../../index.rst:48
-msgid "Developer hub"
+#: ../../index.rst:46
+msgid "developer hub"
 msgstr ""
 
 #: ../../index.rst:4
@@ -54,5 +54,8 @@ msgid ""
 msgstr ""
 
 #~ msgid "More in-depth introduction"
+#~ msgstr ""
+
+#~ msgid "Developer hub"
 #~ msgstr ""
 

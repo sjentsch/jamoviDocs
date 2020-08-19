@@ -96,7 +96,7 @@ Some of these libraries are especially interesting:
 -  |BayesFactor|_ to run several types of Bayes-analyses to complement your
    «classical» (frequentist) statistics (e.g. the Bayes-equivalent of the
    t-test; NB: it is of course easier to use the jamovi-module «jsq» for that)
--  |cluster|_ to run several types of `cluster analyses <cluster_analyses>`__
+-  |cluster|_ to run several types of cluster analyses
 -  |ggplot2|_ to produce (almost) any type of fancy `figures
    <http://www.ggplot2-exts.org/gallery/>`__ you can imagine
 -  there are also several of Hadley Wickham's |tidyverse|_ libraries included,

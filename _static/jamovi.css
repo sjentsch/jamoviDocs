@@ -122,6 +122,14 @@ li {
     margin: 5px 0;
 }
 
+.toctree-wrapper > .caption > span.caption-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    font-weight: lighter;
+/*  text-transform: uppercase; */
+    color: #3e6da9;    
+}
+
 .wy-menu > .caption > span.caption-text {
     color: #84a6d2;
     font-family: 'Montserrat', sans-serif;
@@ -634,4 +642,8 @@ img.person {
    .wy-table-responsive {
       overflow: visible !important;
    }
+}
+
+.red {
+    color: red;
 }

@@ -1,21 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 14:42+0200\n"
+"POT-Creation-Date: 2020-08-18 23:13+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
-"Language-Team: Italian (https://www.transifex.com/jamovi/teams/111618/it/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: Italian "
+"(https://www.transifex.com/jamovi/teams/111618/it/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../getting-started/jg_0_welcome.rst:5
 msgid "jamovi guide"
@@ -23,71 +28,154 @@ msgstr ""
 
 #: ../../getting-started/jg_0_welcome.rst:7
 msgid ""
-"The aim of the jamovi guide is to provide short, non-technical tutorials on "
-"how to conduct common statistical procedures in jamovi. However, it is not a"
-" resource providing an in-depth introduction into the background of those "
-"procedures. For such an endevaour, there are plenty of other resources, e.g "
-"the free e-book `learning statistics with jamovi "
-"<https://www.learnstatswithjamovi.com/>`__"
-msgstr ""
-
-#: ../../getting-started/jg_0_welcome.rst:21
-msgid "t-tests"
+"The aim of the jamovi guide is to provide short, non-technical tutorials "
+"on how to conduct common statistical procedures in jamovi. However, it is"
+" not a resource providing an in-depth introduction into the background of"
+" those procedures. For such an endevaour, there are plenty of other "
+"resources, e.g «learning statistics with jamovi» (which is both `part of "
+"this documentation <../lsj/Prologue.html>`__ as well available `as a PDF "
+"textbook <https://www.learnstatswithjamovi.com/>`__."
 msgstr ""
 
 #: ../../getting-started/jg_0_welcome.rst:23
+msgid "t-tests"
+msgstr ""
+
+#: ../../getting-started/jg_0_welcome.rst:25
 msgid ""
-"The t-test is used to test whether the mean value in a normally distributed "
-"data set deviates significantly from a null hypothesis (which assumes that "
-"there is no difference). The concept is presented in this `introductory "
-"video "
+"The t-test is used to test whether the mean value in a normally "
+"distributed data set deviates significantly from a null hypothesis (which"
+" assumes that there is no difference). The concept is presented in this "
+"`introductory video "
 "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
 
-#: ../../getting-started/jg_0_welcome.rst:28
+#: ../../getting-started/jg_0_welcome.rst:30
 msgid "There are three types of t-tests:"
 msgstr ""
 
-#: ../../getting-started/jg_0_welcome.rst:40
+#: ../../getting-started/jg_0_welcome.rst:42
 msgid "Analyses of Variance (ANOVA)"
 msgstr ""
 
-#: ../../getting-started/jg_0_welcome.rst:42
+#: ../../getting-started/jg_0_welcome.rst:44
 msgid ""
-"The Analysis of variance (ANOVA) is a statistical method that examines how "
-"the impact of one or more factors affects an outcome (dependent) variable. "
-"These factors are the predictor variables and are categorical. Typically, "
-"such factors reflect an experimental manipulation (e.g. with or without "
-"treatment), but a factor can also represent groups for whose influence one "
-"would like to control (e.g. gender: men or women). The analysis of variance "
-"is based on a concept similar to that of the t-test, but it goes beyond "
-"that, in that factors can have several levels (t-tests only allow two) and "
-"in that several factors can be examined simultaneously. An introduction into"
-" the concept of an ANOVA is presented in this `video "
+"The Analysis of variance (ANOVA) is a statistical method that examines "
+"how the impact of one or more factors affects an outcome (dependent) "
+"variable. These factors are the predictor variables and are categorical. "
+"Typically, such factors reflect an experimental manipulation (e.g. with "
+"or without treatment), but a factor can also represent groups for whose "
+"influence one would like to control (e.g. gender: men or women). The "
+"analysis of variance is based on a concept similar to that of the t-test,"
+" but it goes beyond that, in that factors can have several levels "
+"(t-tests only allow two) and in that several factors can be examined "
+"simultaneously. An introduction into the concept of an ANOVA is presented"
+" in this `video "
 "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
 
-#: ../../getting-started/jg_0_welcome.rst:53
+#: ../../getting-started/jg_0_welcome.rst:55
 msgid ""
 "There are different types of analysis of variance, which differ in the "
-"number of factors examined - one or more factors - or whether they compare "
-"between people or within a person - repeated measurements:"
-msgstr ""
-
-#: ../../getting-started/jg_0_welcome.rst:68
-msgid "Correlation and regression"
+"number of factors examined - one or more factors - or whether they "
+"compare between people or within a person - repeated measurements:"
 msgstr ""
 
 #: ../../getting-started/jg_0_welcome.rst:70
+msgid "Correlation and regression"
+msgstr ""
+
+#: ../../getting-started/jg_0_welcome.rst:72
 msgid ""
-"Correlation and regression analyses are statistical methods for assessing "
-"the relationships between a dependent / outcome variable and one or more "
-"independent / predictor variables. While the *correlation* analysis examines"
-" the *relationship* between one predictor and one outcome variable, "
-"*regression* analysis mainly focuses on *prediction* (how well can one or "
-"more variables predict another (outcome) variable). Often, a distinction is "
-"made between linear and non-linear (e.g., logistic regression). An "
-"introduction into the concept of regression analyses is presented in this "
-"`video "
+"Correlation and regression analyses are statistical methods for assessing"
+" the relationships between a dependent / outcome variable and one or more"
+" independent / predictor variables. While the *correlation* analysis "
+"examines the *relationship* between one predictor and one outcome "
+"variable, *regression* analysis mainly focuses on *prediction* (how well "
+"can one or more variables predict another (outcome) variable). Often, a "
+"distinction is made between linear and non-linear (e.g., logistic "
+"regression). An introduction into the concept of regression analyses is "
+"presented in this `video "
 "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+
+#: ../../getting-started/jg_0_welcome.rst:93
+msgid "Cleaning your data and checking assumptions for your main analyses"
+msgstr ""
+
+#: ../../getting-started/jg_0_welcome.rst:95
+msgid ""
+"A quite essential part of a statistical analysis actually happens before "
+"we conduct them. That part is concerned with cleaning you data in order "
+"to fulfil the assumptions required to run most inference-statistical "
+"procedures. It relies on information we gathered during the `descriptive-"
+"statistical analysis <jg_1_descriptive-analyses.html>`__. It provides "
+"information for the search for and the removal of outliers, which is at "
+"the core of \"cleaning your data\". Using `filters "
+"<jg_91_Filtering_data.html>`__ can help you with that task."
+msgstr ""
+
+#: ../../getting-started/jg_0_welcome.rst:104
+msgid ""
+"Among the aims when cleaning outliers is that outliers might lead to "
+"violations of the assumptions for parametric statistical tests: normality"
+" (and possibly linearity). I will briefly introduce how we can conduct "
+"two preliminary checks to assess whether the assumptions for conducting "
+"our main analyses are met: The first is to check whether the data are in "
+"accordance with a `normal distribution "
+"<jg_92_Checking_normality.html>`__, the other one is to assess whether "
+"the independent and the dependent variables stand in a `linear relation "
+"<tt_93_Checking_linearity.html>`__."
+msgstr ""
+
+#~ msgid ""
+#~ "A quite essential part of a "
+#~ "statistical analysis actually happens before"
+#~ " we conduct them. That part is "
+#~ "concerned with cleaning you data in "
+#~ "order to fulfil the assumptions required"
+#~ " to run most inference-statistical "
+#~ "procedures. It relies on information we"
+#~ " gathered during the `descriptive-"
+#~ "statistical analysis <jg_1_descriptive-"
+#~ "analyses.html>`__. It provides information for"
+#~ " the search for and the removal "
+#~ "of outliers, which is at the core"
+#~ " of \"cleaning your data\". Using "
+#~ "`filters <jg_91_Filtering_data_with_jamovi.html>`__ can"
+#~ " help you with that task."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Among the aims when cleaning outliers"
+#~ " is that outliers might lead to "
+#~ "violations of the assumptions for "
+#~ "parametric statistical tests: normality (and"
+#~ " possibly linearity). I will briefly "
+#~ "introduce how we can conduct two "
+#~ "preliminary checks to assess whether the"
+#~ " assumptions for conducting our main "
+#~ "analyses are met: The first is to"
+#~ " check whether the data are in "
+#~ "accordance with a `normal distribution "
+#~ "<jg_92_Checking_normality_with_jamovi.html>`__, the other"
+#~ " one is to assess whether the "
+#~ "independent and the dependent variables "
+#~ "stand in a `linear relation "
+#~ "<tt_93_Checking_linearity_with_jamovi.html>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The aim of the jamovi guide is "
+#~ "to provide short, non-technical "
+#~ "tutorials on how to conduct common "
+#~ "statistical procedures in jamovi. However, "
+#~ "it is not a resource providing an"
+#~ " in-depth introduction into the "
+#~ "background of those procedures. For such"
+#~ " an endevaour, there are plenty of"
+#~ " other resources, e.g the free e-book"
+#~ " `learning statistics with jamovi "
+#~ "<https://www.learnstatswithjamovi.com/>`__"
+#~ msgstr ""
+

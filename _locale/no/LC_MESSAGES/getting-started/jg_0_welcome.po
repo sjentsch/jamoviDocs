@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"POT-Creation-Date: 2020-08-18 23:13+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
 "Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
@@ -31,21 +31,16 @@ msgid ""
 "how to conduct common statistical procedures in jamovi. However, it is not a"
 " resource providing an in-depth introduction into the background of those "
 "procedures. For such an endevaour, there are plenty of other resources, e.g "
-"the free e-book `learning statistics with jamovi "
-"<https://www.learnstatswithjamovi.com/>`__"
+"«learning statistics with jamovi» (which is both `part of this documentation"
+" <../lsj/Prologue.html>`__ as well available `as a PDF textbook "
+"<https://www.learnstatswithjamovi.com/>`__."
 msgstr ""
-"Målet med jamovi-guiden er å tilby korte, ikke-tekniske instruksjoner om "
-"hvordan en kan utføre ofte brukte statistiske prosedyrer i jamovi. "
-"Imidlertid er det ikke en ressurs som gir en grundig innføring i bakgrunnen "
-"for disse metodene, men det eksisterer mange andre ressurser for dette, "
-"f.eks. e-boken `learning statistics with jamovi "
-"<https://www.learnstatswithjamovi.com/>`__ (gratis, på Engelsk)."
 
-#: ../../getting-started/jg_0_welcome.rst:21
+#: ../../getting-started/jg_0_welcome.rst:23
 msgid "t-tests"
 msgstr "t-tester"
 
-#: ../../getting-started/jg_0_welcome.rst:23
+#: ../../getting-started/jg_0_welcome.rst:25
 msgid ""
 "The t-test is used to test whether the mean value in a normally distributed "
 "data set deviates significantly from a null hypothesis (which assumes that "
@@ -59,15 +54,15 @@ msgstr ""
 "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " (på Engelsk)."
 
-#: ../../getting-started/jg_0_welcome.rst:28
+#: ../../getting-started/jg_0_welcome.rst:30
 msgid "There are three types of t-tests:"
 msgstr "Det eksisterer tre arter av t-tester:"
 
-#: ../../getting-started/jg_0_welcome.rst:40
+#: ../../getting-started/jg_0_welcome.rst:42
 msgid "Analyses of Variance (ANOVA)"
 msgstr "Variansanalyse (Analyses of Variance; ANOVA)"
 
-#: ../../getting-started/jg_0_welcome.rst:42
+#: ../../getting-started/jg_0_welcome.rst:44
 msgid ""
 "The Analysis of variance (ANOVA) is a statistical method that examines how "
 "the impact of one or more factors affects an outcome (dependent) variable. "
@@ -95,7 +90,7 @@ msgstr ""
 "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " (på Engelsk)."
 
-#: ../../getting-started/jg_0_welcome.rst:53
+#: ../../getting-started/jg_0_welcome.rst:55
 msgid ""
 "There are different types of analysis of variance, which differ in the "
 "number of factors examined - one or more factors - or whether they compare "
@@ -106,11 +101,11 @@ msgstr ""
 " om de sammenligner blant forskjellige mennesker eller blant forskjellige "
 "målinger innenfor personer - variansanalyser for gjentatte målinger:"
 
-#: ../../getting-started/jg_0_welcome.rst:68
+#: ../../getting-started/jg_0_welcome.rst:70
 msgid "Correlation and regression"
 msgstr "Korrelasjons- og regresjonsanalyser"
 
-#: ../../getting-started/jg_0_welcome.rst:70
+#: ../../getting-started/jg_0_welcome.rst:72
 msgid ""
 "Correlation and regression analyses are statistical methods for assessing "
 "the relationships between a dependent / outcome variable and one or more "
@@ -133,3 +128,31 @@ msgstr ""
 "regresjonsanalyser presenteres i denne `videoen "
 "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " (på Engelsk)."
+
+#: ../../getting-started/jg_0_welcome.rst:93
+msgid "Cleaning your data and checking assumptions for your main analyses"
+msgstr ""
+
+#: ../../getting-started/jg_0_welcome.rst:95
+msgid ""
+"A quite essential part of a statistical analysis actually happens before we "
+"conduct them. That part is concerned with cleaning you data in order to "
+"fulfil the assumptions required to run most inference-statistical "
+"procedures. It relies on information we gathered during the `descriptive-"
+"statistical analysis <jg_1_descriptive-analyses.html>`__. It provides "
+"information for the search for and the removal of outliers, which is at the "
+"core of \"cleaning your data\". Using `filters "
+"<jg_91_Filtering_data.html>`__ can help you with that task."
+msgstr ""
+
+#: ../../getting-started/jg_0_welcome.rst:104
+msgid ""
+"Among the aims when cleaning outliers is that outliers might lead to "
+"violations of the assumptions for parametric statistical tests: normality "
+"(and possibly linearity). I will briefly introduce how we can conduct two "
+"preliminary checks to assess whether the assumptions for conducting our main"
+" analyses are met: The first is to check whether the data are in accordance "
+"with a `normal distribution <jg_92_Checking_normality.html>`__, the other "
+"one is to assess whether the independent and the dependent variables stand "
+"in a `linear relation <tt_93_Checking_linearity.html>`__."
+msgstr ""

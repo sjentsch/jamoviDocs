@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 19:18+0200\n"
+"POT-Creation-Date: 2020-08-18 23:13+0200\n"
 "PO-Revision-Date: 2020-08-14 17:57+0000\n"
 "Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -63,14 +63,14 @@ msgid ""
 "export or copy the syntax."
 msgstr ""
 
-#: ../../spss2jamovi2R/R-library_jmv.rst:47
+#: ../../spss2jamovi2R/R-library_jmv.rst:48
 msgid ""
 "Alternatively, you can write syntax directly. To do this, open R or RStudio "
 "and type the command in the first line (while the second line is required "
 "for if you want to use SPSS files):"
 msgstr ""
 
-#: ../../spss2jamovi2R/R-library_jmv.rst:57
+#: ../../spss2jamovi2R/R-library_jmv.rst:58
 msgid ""
 "Afterwards you are ready to analyze your data. Typically, you have to load a"
 " dataset first. Do this using the first line if you have a CSV file (``sep``"
@@ -78,14 +78,14 @@ msgid ""
 "etc.) or with the second line for loading SPSS data:"
 msgstr ""
 
-#: ../../spss2jamovi2R/R-library_jmv.rst:66
+#: ../../spss2jamovi2R/R-library_jmv.rst:70
 msgid ""
 "Afterwards are you ready to run whatever analysis you like (here is an "
 "`overview <https://www.jamovi.org/jmv>`__ of available functions). For "
 "example, to run a simple descriptive-statistics-analysis:"
 msgstr ""
 
-#: ../../spss2jamovi2R/R-library_jmv.rst:74
+#: ../../spss2jamovi2R/R-library_jmv.rst:78
 msgid ""
 "or for a correlation between to variables (quite basic in the first and more"
 " advanced - adding two non-parametric measures and plots - in the second "

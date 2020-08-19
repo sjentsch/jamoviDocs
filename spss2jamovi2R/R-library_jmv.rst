@@ -19,8 +19,8 @@ Preparation
 
 .. code-block:: R
   
-   > install.packages('jmv')
-   > install.packages('foreign')
+   install.packages('jmv')
+   install.packages('haven')
 
 Use of jamovi syntax in R
 =========================
@@ -37,6 +37,7 @@ Use of jamovi syntax in R
 |                                  | at the top of each analysis to export or |
 |                                  | copy the syntax.                         |
 |                                  |                                          |
+|                                  |                                          |
 |                                  | |jamovi_SyntaxMode2|                     |
 |                                  |                                          |
 |                                  | |jamovi_SyntaxMode3|                     |
@@ -48,8 +49,8 @@ Use of jamovi syntax in R
 
 .. code-block:: R
  
-   > library(jmv)
-   > library(foreign)
+   library(jmv)
+   library(haven)
 
 | Afterwards you are ready to analyze your data. Typically, you have to load a
   dataset first. Do this using the first line if you have a CSV file (``sep``
@@ -57,9 +58,12 @@ Use of jamovi syntax in R
   or with the second line for loading SPSS data:
 
 .. code-block:: R
-  
-   > data = read.csv("data.csv", header = TRUE, sep = ",")
-   > data = read.spss("data.sav", to.data.frame = TRUE)
+ 
+   data = read.csv("data.csv", header = TRUE, sep = ",")
+
+.. code-block:: R
+   
+   data = haven::read_sav("data.sav")
 
 | Afterwards are you ready to run whatever analysis you like (here is an
   `overview <https://www.jamovi.org/jmv>`__ of available functions). For
@@ -67,7 +71,7 @@ Use of jamovi syntax in R
 
 .. code-block:: R
   
-   > descriptives(data = data, vars = vars(var1, var2))
+   jmv::descriptives(data = data, vars = vars(var1, var2))
 
 | or for a correlation between to variables (quite basic in the first and more
   advanced - adding two non-parametric measures and plots - in the second line;
@@ -75,8 +79,11 @@ Use of jamovi syntax in R
 
 .. code-block:: R
   
-   > corrMatrix(data = data, vars = vars(var1, var2), pearson = TRUE, sig = TRUE)
-   > corrMatrix(data = data, vars = vars(var1, var2), spearman = TRUE, kendall = TRUE, sig = FALSE, flag = TRUE, plots = TRUE)
+   jmv::corrMatrix(data = data, vars = vars(var1, var2), pearson = TRUE, sig = TRUE)
+   
+.. code-block:: R
+   
+   jmv::corrMatrix(data = data, vars = vars(var1, var2), spearman = TRUE, kendall = TRUE, sig = FALSE, flag = TRUE, plots = TRUE)
 
 .. ----------------------------------------------------------------------------
 

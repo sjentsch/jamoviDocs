@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 14:58+0200\n"
+"POT-Creation-Date: 2020-08-18 20:59+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -156,7 +156,7 @@ msgid ""
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:99
-msgid "|cluster|_ to run several types of `cluster analyses <cluster_analyses>`__"
+msgid "|cluster|_ to run several types of cluster analyses"
 msgstr ""
 
 #: ../../spss2jamovi2R/jamovi-module_Rj.rst:100
@@ -200,5 +200,10 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "|jamovi_Rj4|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|cluster|_ to run several types of "
+#~ "`cluster analyses <cluster_analyses>`__"
 #~ msgstr ""
 
