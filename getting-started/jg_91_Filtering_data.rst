@@ -136,13 +136,13 @@ How to manually create a variable for selecting / deselecting cases?
      the one in the bottom-left corner of the jamovi window) and either change
      an existing filter with adding:
      
-     .. code-block::
+     .. code-block:: text
      
         and [VARIABLE NAME] == 1
      
    | or create a new filter with just writing:
    
-     .. code-block::
+     .. code-block:: text
      
         [VARIABLE NAME] == 1
      
