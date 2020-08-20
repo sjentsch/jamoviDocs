@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-18 23:13+0200\n"
+"POT-Creation-Date: 2020-08-21 00:07+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../getting-started/jg_22_t-test-paired.rst:5
 msgid "t-test: Paired samples"
-msgstr ""
+msgstr "Paret t-test"
 
 #: ../../getting-started/jg_22_t-test-paired.rst:7
 msgid "How to perform a paired samples t-test in jamovi:"
-msgstr ""
+msgstr "Slik gjennomfører du en paret t-test i jamovi:"
 
 #: ../../getting-started/jg_22_t-test-paired.rst:0
 msgid ""
@@ -31,22 +35,32 @@ msgid ""
 "are set correctly <um_2_first-steps.html#data-variables>`_ so that both the "
 "continuous variables are marked as |continuous|."
 msgstr ""
+"Du trenger to kontinuerlige variabler. Forsikre deg om at `målenivåene "
+"<um_2_first-steps.html#data-variables>`_ er valgt slik at begge "
+"kontinuerlige variabler blir merket med det kontinuerlige dataikonet "
+"|continuous|."
 
 #: ../../getting-started/jg_22_t-test-paired.rst:0
 msgid "A correct setup should look similar to this:"
-msgstr ""
+msgstr "Et riktig datasett skal se slik ut:"
 
 #: ../../getting-started/jg_22_t-test-paired.rst:0
 msgid "Select ``Analyses`` → ``T-Tests`` → ``Paired Samples T-Test``."
-msgstr ""
+msgstr "Velg ``Analyses`` → ``T-Tests`` → ``Paired Samples T-Test``."
 
 #: ../../getting-started/jg_22_t-test-paired.rst:0
-msgid "Drag and drop your two outcome variables to ``Paired Variables``."
+msgid ""
+"Drag and drop your two outcome variables to ``Paired Variables`` (select "
+"both variables in a pair at the same time - you do this by holding down the "
+"Ctrl key while clicking with the mouse on the variable you want to select)."
 msgstr ""
+"Flytt de to kontinuerlige variablene til ``Paired Variables`` (du kan velge "
+"begge variablene i et par samtidig ved å holde Ctrl-tasten nede mens du "
+"klikker med musen på de variablene du vil velge / pare)."
 
 #: ../../getting-started/jg_22_t-test-paired.rst:0
 msgid "The result is shown in the right panel."
-msgstr ""
+msgstr "Resultatet vises i panel med utgave på høyre siden av jamovi-vinduet."
 
 #: ../../getting-started/jg_22_t-test-paired.rst:0
 msgid ""
@@ -54,3 +68,6 @@ msgid ""
 "<https://www.youtube.com/embed/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " provides a little more comprehensive introduction into this test."
 msgstr ""
+"Konseptet blir fordypet i en `introduksjonsvideo "
+"<https://www.youtube.com/embed/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+" (på Engelsk)."

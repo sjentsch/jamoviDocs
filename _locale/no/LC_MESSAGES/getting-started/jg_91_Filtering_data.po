@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-18 23:13+0200\n"
+"POT-Creation-Date: 2020-08-21 00:07+0200\n"
 "PO-Revision-Date: 2020-08-18 12:09+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,16 +24,17 @@ msgstr ""
 #: ../../getting-started/jg_91_Filtering_data.rst:5
 msgid "How do I create a filter variable and use it for selection?"
 msgstr ""
+"Hvordan lager jeg en filtervariabel og bruker den for å velge deltakerne?"
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
-"open the “Data” tab and select “Filter” (either by using the symbol in the "
-"icon bar or the one in the bottom-left corner of the jamovi window)"
+"open the ``Data`` tab and select ``Filter`` (either by using the symbol in "
+"the icon bar or the one in the bottom-left corner of the jamovi window)"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
-"in order to access functions, press the “fx” icon in the filter settings"
+"in order to access functions, press the ``fx`` icon in the filter settings"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
@@ -44,18 +49,28 @@ msgid ""
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
+msgid "there are three large approaches, to exclude outliers:"
+msgstr ""
+
+#: ../../getting-started/jg_91_Filtering_data.rst:19
 msgid ""
-"there are three large approaches, to exclude outliers: (1) based upon "
-"z-scores (the absolute value should be larger 3.3; this     equals to a "
-"probability of 0.1% = 1 / 1000) (2) based upon the IQR (like in a box plot) "
-"(3) based on the Mahalanobis distance (multivariate)"
+"based upon z-scores (the absolute value should be larger 3.3; this equals to"
+" a probability of 0.1% = 1 / 1000)"
+msgstr ""
+
+#: ../../getting-started/jg_91_Filtering_data.rst:21
+msgid "based upon the IQR (like in a box plot)"
+msgstr ""
+
+#: ../../getting-started/jg_91_Filtering_data.rst:22
+msgid "based on the Mahalanobis distance (multivariate)"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
-"for (1), there exists a function in jamovi (see next bullet point), for (2) "
-"and (3) you have to use R-code (decribed two bullet point below); for (2) "
-"you could also do it visually (three bullet points below)"
+"for 1., there exists a function in jamovi (see next bullet point), for 2. "
+"and 3. you have to use R-code (decribed two bullet point below); for 2. you "
+"could also do it visually (three bullet points below)"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
@@ -71,14 +86,14 @@ msgid ""
 "created:"
 msgstr ""
 
-#: ../../getting-started/jg_91_Filtering_data.rst:40
+#: ../../getting-started/jg_91_Filtering_data.rst:41
 msgid ""
 "the first code example does this based upon the interquartile range (doing "
 "the same with code that you visually do with box plots; remember to adjust "
 "the variable names in VL)"
 msgstr ""
 
-#: ../../getting-started/jg_91_Filtering_data.rst:61
+#: ../../getting-started/jg_91_Filtering_data.rst:63
 msgid ""
 "the second code example detects multivariate outliers based upon the "
 "Mahalanobis distance (remember to adjust the variable names in VL)"
@@ -92,8 +107,8 @@ msgstr ""
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
 "you use the scripts within the `Rj editor <jamovi-module_Rj>`__, just copy-"
-"and-paste them and run them by hitting the \"Play\"-button (the little green"
-" triangle)"
+"and-paste them and run them by hitting the ►-button (the little green "
+"triangle)"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
@@ -113,15 +128,15 @@ msgstr ""
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
 "you can also de-select cases by setting limits to the values of variables "
-"(after visually checking the box-plots under “Descriptives”):"
+"(after visually checking the box-plots under ``Descriptives``):"
 msgstr ""
 
-#: ../../getting-started/jg_91_Filtering_data.rst:108
+#: ../../getting-started/jg_91_Filtering_data.rst:110
 msgid "How to manually create a variable for selecting / deselecting cases?"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
-msgid "open the “Data” tab so that you see your data spreadsheet"
+msgid "open the ``Data`` tab so that you see your data spreadsheet"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
@@ -132,8 +147,8 @@ msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
-"right-click on the header line in that column, choose \"Add variable\" in "
-"the menu that opens, and then Data Variable → \"Insert\""
+"right-click on the header line in that column, choose ``Add variable`` in "
+"the menu that opens, and then ``Data Variable`` → ``Insert``"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
@@ -146,7 +161,7 @@ msgstr ""
 msgid ""
 "now, we have to to a little bit of magic in Excel, LibreOffice Calc or "
 "`Google Sheets <https://docs.google.com/spreadsheets>`__: open one of these "
-"programs, write \"1\" in the first and the second line of an empty "
+"programs, write ``1`` in the first and the second line of an empty "
 "spreadsheet, mark these two lines and then use the little black marker "
 "bottom right to drag the ones until you reached the number of participants "
 "in your data set within jamovi"
@@ -154,15 +169,15 @@ msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
-"copy the column with the \"1\" you just created to jamovi and paste it into "
+"copy the column with the ``1`` you just created to jamovi and paste it into "
 "the variable you just created"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
 "open the filter settings (either by using the symbol in the icon bar or the "
-"one in the bottom-left corner of the jamovi window) and either change an "
-"existing filter with adding:"
+"funnel-icon in the bottom-left corner of the jamovi window) and either "
+"change an existing filter with adding:"
 msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
@@ -177,6 +192,6 @@ msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:0
 msgid ""
-"now you can de-select case by changing them \"1\" to \"0\" (and also select "
-"them again by changing \"0\" into \"1\")"
+"now you can de-select case by changing them ``1`` to ``0`` (and also select "
+"them again by changing ``0`` into ``1``)"
 msgstr ""

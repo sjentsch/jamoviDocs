@@ -26,8 +26,8 @@ The first steps in jamovi
 
    |csv-data|
 
-   A very common format for exchanging data is using files with ‘comma-
-   separated values’ (.csv or .txt). Given that these data are stored as simple
+   A very common format for exchanging data is using files with “comma-
+   separated values” (.csv or .txt). Given that these data are stored as simple
    text file using commas (or ";", "|", etc.) to separate values nearly any
    software package can read and write them (and you to can take a look using
    any text editor). An example is shown in the figure. The first line contains
@@ -47,21 +47,21 @@ Analyses
 ========
 
    Analyses can be selected from the analyses ribbon or menu along the top.
-   Selecting an analysis will present an ‘options panel’ for that particular
+   Selecting an analysis will present an “options panel” for that particular
    analysis, allowing you to assign different variables to different parts of
    the analysis, and select different options. At the same time, the results
-   for the analysis will appear in the right ‘Results panel’, and will update
+   for the analysis will appear in the right “results panel”, and will update
    as you make changes to the options.
 
    When you have the analysis set up correctly, you can dismiss the analysis
-   options by clicking the arrow to the top right of the optional panel. If you
+   options by clicking the arrow to the top right of the options panel. If you
    wish to return to these options, you can click on the results that were
    produced. In this way, you can return to any analysis that you (or say, a
    colleague) created earlier.
 
    If you decide you no longer need a particular analysis, you can remove it
    with the results context menu. Right-clicking on the analysis results will
-   bring up a menu, and by selecting ‘Analysis’, and then ‘Remove’, the
+   bring up a menu, and by selecting ``Analysis``, and then ``Remove``, the
    analysis can be removed.
 
    |analysis|
@@ -75,13 +75,13 @@ The Spreadsheet
 ===============
 
    In jamovi, data is represented in a spreadsheet, with each column
-   representing a ‘variable’.
+   representing a “variable”.
 
 Data Variables
 --------------
 
-   The most commonly used variables in jamovi are ‘Data Variables’, these
-   variables simply contain data either loaded from a data file, or ‘typed in’
+   The most commonly used variables in jamovi are “Data Variables”, these
+   variables simply contain data either loaded from a data file, or “typed in”
    by the user. Data variables can be one three data types:
 
    -  ``Integer``
@@ -117,9 +117,9 @@ Data Variables
    approach may not be correct, and it may be necessary to manually specify the
    data and measure type with the variable editor.
 
-   The variable editor can be invoked by selecting ‘Setup’ from the data tab,
-   double-clicking on the column header, or by pressing ``F3``. The variable
-   editor allows you to change the name of the variable, and (for data
+   The variable editor can be invoked by selecting ``Setup`` from the ``Data``
+   tab, double-clicking on the column header, or by pressing ``F3``. The
+   variable editor allows you to change the name of the variable, and (for data
    variables) the data type, the measure type, the order of the levels, and the
    label displayed for each level. The variable editor can be dismissed by
    clicking the close arrow, or by pressing ``F3`` again.
@@ -127,7 +127,7 @@ Data Variables
    |change-name|
 
    New variables can be inserted or appended to the data set using the ``Add``
-   button from the data ribbon. The ‘add’ button also allows the addition of
+   button from the data ribbon. The ``Add`` button also allows the addition of
    *Computed variables*.
 
 
@@ -195,7 +195,7 @@ Filters
    in your analysis. For example, you might want to only include people’s
    survey responses if they explicitly consented to having their data used, or
    you might want to exclude all left-handed people, or perhaps people who
-   score ‘below chance’ in an experimental task. In some cases you just want to
+   score “below chance” in an experimental task. In some cases you just want to
    exclude extreme scores, for example those that score more than 3 standard
    deviations from the mean.
 
@@ -250,13 +250,13 @@ Multi-file Import
    represents a participant. The process is the same as the single-file import
    detailed above, except that you select multiple files when performing the
    import. You can do this by holding down control or shift when selecting data
-   files, or with the ‘multi-select’ button at the top of the import dialog.
+   files, or with the “multi-select” button at the top of the import dialog.
 
    When importing multiple files like this, they are combined vertically with
    the rows of the second file appearing below the first, the rows of the third
    file appearing below the second, and so on. An additional column called
    ``source`` is created detailing which file each row has come from. This can
-   be useful when you need to ‘split-by’ or ‘group-by’ each participant. This
+   be useful when you need to “split-by” or “group-by” each participant. This
    column can be particularly useful to use with the ``group_by`` argument to
    ``V``-functions described above.
 
@@ -271,14 +271,15 @@ Templates
    data becomes available, it can be imported into the template, and the
    template will update accordingly. The nice thing about jamovi templates is
    that they are entirely specified with the familiar user interface, and do
-   not require working with a ‘syntax’ or code.
+   not require working with a “syntax” or code.
 
-   To save a data set as a template, select ‘Export’ from the file menu, and
-   select ‘jamovi template’ from the file type box. When opening a template,
-   you’ll see it contains columns but no rows, and that all the analysis
-   results are blank. To use the template, import a new data set (or data sets)
-   using the file import described above. The data will update, followed by the
-   filters, computed variables, and finally the analysis results.
+   To save a data set as a template, select ``Export`` from the file menu, and
+   select ``jamovi template (.omt)`` from the file type box. When opening a
+   template, you’ll see it contains columns but no rows, and that all the
+   analysis results are blank. To use the template, import a new data set (or
+   data sets) using the file import described above. The data will update,
+   followed by the filters, computed variables, and finally the analysis
+   results.
 
    jamovi templates are also a great way to provide analyses to less capable
    students or colleagues.
@@ -306,7 +307,7 @@ Syntax Mode
    a second time.
 
    In syntax mode, analyses continue to operate as before, but now they produce
-   R syntax, and ‘ascii output’ like an R session. Like all results objects in
+   R syntax, and “ASCII output” like an R session. Like all results objects in
    jamovi, you can right click on these items (including the R syntax) and copy
    and paste them, for example, into an R session.
 

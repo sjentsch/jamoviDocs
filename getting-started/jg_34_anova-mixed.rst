@@ -6,12 +6,12 @@ ANOVA: Mixed
 
 | How to perform a mixed ANOVA in jamovi:
 
-#. | You need one grouping variable with at least two levels (e.g. treatment
-     / control) and one continuous outcome variable for each measurement
-     time point. Make sure that the `measurement levels are set correctly
-     <um_2_first-steps.html#data-variables>`_ so that the grouping variable
-     is marked as |nominal| and the continuous variables are marked as
-     |continuous|.
+#. | You need at least one grouping variable with at least two levels (e.g.
+     treatment / control) and one continuous outcome variable for each
+     measurement time point. Make sure that the `measurement levels are set
+     correctly <um_2_first-steps.html#data-variables>`_ so that all the
+     variables for the repeated measurements are marked as |continuous| and
+     the grouping variable(s) are marked as |nominal|.
 
    | A correct setup should look similar to this:
    
@@ -26,8 +26,9 @@ ANOVA: Mixed
    |
 
 #. | In the box ``Repeated Measures Factors``: write the name of your outcome
-     variable (e.g. My_scale) and name the levels for each measurement occasion
-     (e.g. Pre, Post and 12 month follow-up). The below images illustrates this.
+     variable (e.g. ``My_scale``) and name the levels for each measurement
+     occasion (e.g. ``Pre``, ``Post`` and ``12 month follow-up``). The images
+     below illustrates this.
    
    |add_var_anova_repeated_naming_1|  ``→`` |add_var_anova_repeated_naming_2|
 
@@ -40,7 +41,7 @@ ANOVA: Mixed
    
    |
 
-#. | Move your grouping variables to ``Between Subject Factors``.
+#. | Move your grouping variable(s) to ``Between Subject Factors``.
 
    |add_var_anova_mixed|
    

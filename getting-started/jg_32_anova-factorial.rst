@@ -9,7 +9,7 @@ ANOVA: Factorial
 #. | You need two grouping variables and one continuous outcome
      variable. Make sure that the `measurement levels are set correctly
      <um_2_first-steps.html#data-variables>`_ so that the grouping
-     variable(s) are marked as |nominal| and the continuous variable
+     variables are marked as |nominal| and the continuous variable
      are marked as |continuous|.
      
    | A correct setup should look similar to this:

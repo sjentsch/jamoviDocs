@@ -97,8 +97,8 @@ conduct them. That part is concerned with cleaning you data in order to
 fulfil the assumptions required to run most inference-statistical procedures.
 It relies on information we gathered during the `descriptive-statistical
 analysis <jg_1_descriptive-analyses.html>`__. It provides information for the
-search for and the removal of outliers, which is at the core of "cleaning your
-data". Using `filters <jg_91_Filtering_data.html>`__ can help you
+search for and the removal of outliers, which is at the core of “cleaning your
+data”. Using `filters <jg_91_Filtering_data.html>`__ can help you
 with that task.
   
 Among the aims when cleaning outliers is that outliers might lead to violations

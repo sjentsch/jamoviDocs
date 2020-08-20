@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-18 23:13+0200\n"
+"POT-Creation-Date: 2020-08-21 00:07+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,37 +23,44 @@ msgstr ""
 
 #: ../../getting-started/jg_32_anova-factorial.rst:5
 msgid "ANOVA: Factorial"
-msgstr ""
+msgstr "Variansanalyse med flere faktorer"
 
 #: ../../getting-started/jg_32_anova-factorial.rst:7
 msgid "How to perform a factorial ANOVA in jamovi:"
-msgstr ""
+msgstr "Slik gjennomfører du en ANOVA med flere faktorer i jamovi:"
 
 #: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid ""
 "You need two grouping variables and one continuous outcome variable. Make "
 "sure that the `measurement levels are set correctly <um_2_first-steps.html"
-"#data-variables>`_ so that the grouping variable(s) are marked as |nominal| "
+"#data-variables>`_ so that the grouping variables are marked as |nominal| "
 "and the continuous variable are marked as |continuous|."
 msgstr ""
+"Du trenger flere gruppevariabler og en kontinuerlig utfallsvariabel. "
+"Forsikre deg om at `målenivåene <um_2_first-steps.html#data-variables>`__ er"
+" valgt slik at gruppevariabelene blir merket med det kategoriske dataikonet "
+"|nominal| og den avhengige variabelen blir merket med det kontinuerlige "
+"dataikonet |continuous|."
 
 #: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid "A correct setup should look similar to this:"
-msgstr ""
+msgstr "Et riktig datasett skal se slik ut:"
 
 #: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid "Select ``Analyses`` → ``ANOVA`` → ``ANOVA``."
-msgstr ""
+msgstr "Velg ``Analyses`` → ``ANOVA`` → ``ANOVA``."
 
 #: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid ""
 "Drag and drop your outcome variable to ``Dependent Variable`` and your "
 "grouping variables to ``Fixed Factors``."
 msgstr ""
+"Flytt den kontinuerlige variabelen til ``Dependent Variable`` og "
+"gruppevariablene til ``Fixed Factors``."
 
 #: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid "The result is shown in the right panel:"
-msgstr ""
+msgstr "Resultatet vises i panel med utgave på høyre siden av jamovi-vinduet."
 
 #: ../../getting-started/jg_32_anova-factorial.rst:0
 msgid ""
@@ -57,3 +68,6 @@ msgid ""
 "provided by this `video "
 "<https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+"Konseptet blir fordypet i en `introduksjonsvideo "
+"<https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+" (på Engelsk)."

@@ -53,8 +53,8 @@ Linux and Chromebooks
    how to fix this a little :ref:`further down<blank-screen-on-chromebooks>`.
 
    If you’re new to flatpak/flathub, you’ll need to follow the setup
-   guide on `our flathub
-   page <https://flathub.org/apps/details/org.jamovi.jamovi>`__.
+   guide on `our flathub page
+   <https://flathub.org/apps/details/org.jamovi.jamovi>`__.
 
    If you’re an old hand at flatpak, you can install jamovi with the
    command:
@@ -96,4 +96,3 @@ Blank screen at startup on Chromebooks
    bring up “Experiments”. Search for ``Crostini GPU Support`` and set
    it to disabled. After restarting your Chromebook the issue will be
    fixed (special thanks to `@mulderc <https://github.com/mulderc>`__).
-

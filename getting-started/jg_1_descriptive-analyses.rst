@@ -43,8 +43,10 @@ Descriptive analyses
 
    | 
    
-#. | To create a plot based on the above choices, click the ``Plots`` 
-     tab and tick the box of your desired plot.
+#. | To create a plot based on the above choices, click the ``Plots`` tab and
+     tick the box of your desired plot. If you would like to identify outliers
+     and to check whehter your variables conform with a normal distribution,
+     then you should tick ``Box plot``, ``Violin``, and ``Q-Q``. 
      
    |select_descriptives_plots|
 

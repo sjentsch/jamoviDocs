@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Sebastian Jentschke, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-18 23:13+0200\n"
+"POT-Creation-Date: 2020-08-21 00:07+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
+"Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +23,11 @@ msgstr ""
 
 #: ../../getting-started/jg_43_regression-logistic.rst:5
 msgid "Logistic Regression"
-msgstr ""
+msgstr "Logistisk regresjon"
 
 #: ../../getting-started/jg_43_regression-logistic.rst:7
 msgid "How to perform a logistic regression in jamovi:"
-msgstr ""
+msgstr "Slik gjennomfører du en logistisk regresjon i jamovi:"
 
 #: ../../getting-started/jg_43_regression-logistic.rst:0
 msgid ""
@@ -33,33 +37,51 @@ msgid ""
 "variable(s) are marked as |continuous| and the outcome variable is marked as"
 " |nominal|."
 msgstr ""
+"Du trenger en kontinuerlig (uavhengige) prediktorvariabel og en kategorisk "
+"(avhengige) utfallsvariabel. Forsikre deg at `målenivåene <um_2_first-"
+"steps.html#data-variables>`__ er valgt slik at prediktoren markeres med "
+"ikonet for kontinuerlige data |continuous| og utfallsvariablen med ikonet "
+"for kategoriske data |nominal|."
 
 #: ../../getting-started/jg_43_regression-logistic.rst:0
 msgid "A correct setup should look similar to this:"
-msgstr ""
+msgstr "Et riktig datasett skal se slik ut:"
 
 #: ../../getting-started/jg_43_regression-logistic.rst:0
 msgid ""
 "Logistic regression can be found by selecting ``Analyses`` → ``Regression``."
 " If the outcome variable is nominal (as in the above image), select ``2 "
-"Outcomes`` if it has 2 outcomes, or ``N outcomes`` if it has *more* than 2 "
-"outcomes. If the outcome variable is ordinal (e.g. low, medium, high), "
-"select ``Ordinal Outcomes``."
+"Outcomes`` if it has 2 steps / different values, or ``N outcomes`` if it has"
+" *more* than 2 steps. If the outcome variable is ordinal (e.g. low, medium, "
+"high), select ``Ordinal Outcomes``."
 msgstr ""
+"Velg ``Analyses`` → ``Regression``. Hvis utfallsvariablen består av "
+"nominelle data velger du ``2 Outcomes`` hvis den består av to nivåer, eller "
+"``N Outcomes`` hvis den består av mer enn to nivåer. Hvis utfallsvariablen "
+"består av ordinære data, velger du ``Ordinal Outcomes`` i stedet."
 
 #: ../../getting-started/jg_43_regression-logistic.rst:0
 msgid ""
 "Drag and drop your outcome variable to ``Dependent Variable`` and your "
 "predictor to ``Covariates``."
 msgstr ""
+"Flytt utfallsvariabelen til ``Dependent Variable`` og prediktoren din til "
+"``Covariates``."
 
 #: ../../getting-started/jg_43_regression-logistic.rst:0
 msgid "The result is shown in the right panel:"
-msgstr ""
+msgstr "Resultatet vises i panel med utgave på høyre siden av jamovi-vinduet."
 
 #: ../../getting-started/jg_43_regression-logistic.rst:0
 msgid ""
 "A little more comprehensive introduction into this statistical method is "
-"provided by this `video <https://www.youtube.com/embed/s7GL0z-"
-"3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
+"provided by this two videos, explaining logistic regression with `two levels"
+" <https://www.youtube.com/embed/s7GL0z-"
+"3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (to predict eg gender or "
+"clinical vs. control group ) and with `more than two levels "
+"<https://www.youtube.com/embed/nuyEUEBf-"
+"GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (to predict, e.g., food "
+"preferences: fast food, healthy food, high protein food, vegan food, etc.)."
 msgstr ""
+"Konseptet blir fordypet i to introduksjonsvideoer (på Engelsk). Første videoen handler om situasjon hvor utfallsvariabelen har `to nivåer / trinn <https://www.youtube.com/embed/s7GL0z-3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (for å predikere f.eks. kjønn eller kliniske vs. kontrollgruppe); \n"
+"den andre videoen handler om hvis utfallsvariabelen har `mer enn to nivåer / trinn <https://www.youtube.com/embed/nuyEUEBf-GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (for å predikere f.eks. matpreferanser: hurtigmat, sunn mat, proteinrik mat, veganmat ets.)."

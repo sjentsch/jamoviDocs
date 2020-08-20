@@ -39,7 +39,7 @@ ANOVA: Oneway
 
    | 
 
-#. | The results is shown in the right pane:
+#. | The results is shown in the right panel:
 
    |output_unianova|
 

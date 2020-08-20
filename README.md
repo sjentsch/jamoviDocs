@@ -23,7 +23,7 @@ Install and build (later):<br>
    `$ tx push -s`<br>
    Afterwards translate the resources on transifex.com<br>
    
-   `$ for L in de nb tr; do rm -fR _locale/${L}/LC_MESSAGES/* && tx pull -l ${L} && sphinx-build -b html -D language=${L} . _build/html/${L}; done`<br>
+   `$ for L in de nb tr; do rm -fR _locale/${L}/LC_MESSAGES/* && rm -fR _build/${L} && tx pull -l ${L} && sphinx-build -b html -D language=${L} . _build/html/${L}; done`<br>
    Pull the translated resources from transifex.com and build the documentation in the target language<br>
    
    After it is pushed to the github-repository, readthedocs is reading from you have to build the respective language project there (which is then integrated into the main documentation).<br> 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-18 23:13+0200\n"
+"POT-Creation-Date: 2020-08-21 00:07+0200\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Last-Translator: Sebastian Jentschke, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../getting-started/um_0_welcome.rst:4
 msgid "user manual"
-msgstr "user manual"
+msgstr "Brukermanual"
 
 #: ../../getting-started/um_0_welcome.rst:6
 msgid ""
@@ -35,6 +35,12 @@ msgid ""
 "<https://www.learnstatswithjamovi.com/>`__) for those who prefer those "
 "formats."
 msgstr ""
+"Velkommen til brukermanualen for jamovi. Denne inneholder alt du trenger å "
+"vite for å komme i gang for jamovi. Merk at det også er "
+"`videodemonstrasjoner <dl_0_welcome.html>`__ fra |datalab| eller «Learning "
+"statistics with jamovi» (begge `som en del av denne dokumentasjonen "
+"<../lsj/Prologue.html>`__ men også `som e-bok "
+"<https://www.learnstatswithjamovi.com/>`__) tilgjengelige for å hjelpe deg."
 
 #: ../../getting-started/um_0_welcome.rst:14
 msgid ""

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 17:16+0200\n"
+"POT-Creation-Date: 2020-08-20 14:37+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: da\n"
@@ -46,7 +46,11 @@ msgid "Select ``Analyses`` → ``T-Tests`` → ``Paired Samples T-Test``."
 msgstr ""
 
 #: ../../getting-started/jg_22_t-test-paired.rst
-msgid "Drag and drop your two outcome variables to ``Paired Variables``."
+msgid ""
+"Drag and drop your two outcome variables to ``Paired Variables`` (select "
+"both variables in a pair at the same time - you do this by holding down "
+"the Ctrl key while clicking with the mouse on the variable you want to "
+"select)."
 msgstr ""
 
 #: ../../getting-started/jg_22_t-test-paired.rst
@@ -70,5 +74,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Drag and drop your two outcome variables to **Paired Variables**."
+#~ msgstr ""
+
+#~ msgid "Drag and drop your two outcome variables to ``Paired Variables``."
 #~ msgstr ""
 

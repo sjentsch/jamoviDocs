@@ -22,7 +22,10 @@ t-test: Paired samples
 
    |
 
-#. | Drag and drop your two outcome variables to ``Paired Variables``.
+#. | Drag and drop your two outcome variables to ``Paired Variables`` (select
+     both variables in a pair at the same time - you do this by holding down
+     the Ctrl key while clicking with the mouse on the variable you want to
+     select).
 
    |add_var_ttest_paired| 
 

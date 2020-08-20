@@ -21,10 +21,9 @@ Logistic Regression
 
 #. | Logistic regression can be found by selecting ``Analyses`` →
      ``Regression``. If the outcome variable is nominal (as in the above
-     image), select ``2 Outcomes`` if it has 2 outcomes, or
-     ``N outcomes`` if it has *more* than 2 outcomes. If the outcome
-     variable is ordinal (e.g. low, medium, high), select
-     ``Ordinal Outcomes``.
+     image), select ``2 Outcomes`` if it has 2 steps / different values, or
+     ``N outcomes`` if it has *more* than 2 steps. If the outcome variable is
+     ordinal (e.g. low, medium, high), select ``Ordinal Outcomes``.
      
    |select_regression_logistic|
    
@@ -44,8 +43,14 @@ Logistic Regression
    |
    
 #. | A little more comprehensive introduction into this statistical method is
-     provided by this `video 
-     <https://www.youtube.com/embed/s7GL0z-3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+     provided by this two videos, explaining logistic regression with `two
+     levels <https://www.youtube.com/embed/s7GL0z-3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     (to predict eg gender or clinical vs. control group ) and with `more than two levels
+     <https://www.youtube.com/embed/nuyEUEBf-GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     (to predict, e.g., food preferences: fast food, healthy food, high protein
+     food, vegan food, etc.).
+     
+   |
 
 .. ---------------------------------------------------------------------
 

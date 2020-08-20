@@ -3,3 +3,5 @@
 ===============================================================================
 Checking whether independent and dependent variables stand in a linear relation
 ===============================================================================
+
+(coming soon)

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-31 17:35+0200\n"
+"POT-Creation-Date: 2020-08-20 22:55+0200\n"
 "PO-Revision-Date: 2020-07-20 23:23+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -60,7 +60,7 @@ msgid ""
 msgstr ""
 
 #: ../../getting-started/jg_31_unianova.rst
-msgid "The results is shown in the right pane:"
+msgid "The results is shown in the right panel:"
 msgstr ""
 
 #~ msgid "|data_format_unianova|"
@@ -99,5 +99,8 @@ msgstr ""
 #~ " or unequal. To test for equality "
 #~ "of variancess using Levene’s test, tick"
 #~ " the box Equality of variances."
+#~ msgstr ""
+
+#~ msgid "The results is shown in the right pane:"
 #~ msgstr ""
 
