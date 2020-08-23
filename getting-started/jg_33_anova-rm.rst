@@ -58,6 +58,13 @@ ANOVA: Repeated Measures
 #. | A little more comprehensive introduction into this statistical method is
      provided by this `video 
      <https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+
+   | For those, aiming to stretch even further to an in-depth introduction, you
+     can read the respective section in the “Learning statistics with jamovi”
+     `part of this documentation <../lsj/Ch13_ANOVA_07.html>`__ or chapter
+     \13.7 of the `e-book <https://www.learnstatswithjamovi.com/>`__.  
+
+   |
      
 .. ---------------------------------------------------------------------
 

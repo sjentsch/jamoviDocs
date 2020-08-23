@@ -44,6 +44,13 @@ ANOVA: Oneway
    |output_unianova|
 
    |
+     
+#. | For those, looking got an in-depth introduction, you may read the
+     respective chapter in the “Learning statistics with jamovi” `part of this
+     documentation <../lsj/Ch13_ANOVA_01.html>`__ or chapter 13.1 - 6 of the
+     `e-book <https://www.learnstatswithjamovi.com/>`__.
+
+   |
 
 .. ---------------------------------------------------------------------
 

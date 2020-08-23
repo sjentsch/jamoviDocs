@@ -56,6 +56,11 @@ Descriptive analyses
      please have a look at this `introductory video
      <https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
      
+   | For those, aiming to stretch even further to an in-depth introduction, you
+     can read the respective chapter in the “Learning statistics with jamovi”
+     `part of this documentation <../lsj/Ch04_Descriptives.html>`__ or chapter
+     4 of the `e-book <https://www.learnstatswithjamovi.com/>`__.
+     
    |
 
 .. ---------------------------------------------------------------------
