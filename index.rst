@@ -42,7 +42,7 @@ Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and
    :caption: jamovi modules
    :name: sec-modules
 
-.. modules/
+   modules/jmv/jmv_overview
 
 .. toctree::
    :maxdepth: 1
