@@ -1081,3 +1081,189 @@ source_file = _build/gettext/spss2jamovi2R/jamovi-module_Rj.pot
 source_lang = en
 type = PO
 
+[jamovi-documentation.modules--jmv--ANOVA]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ANOVA.po
+source_file = _build/gettext/modules/jmv/ANOVA.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--ancova]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ancova.po
+source_file = _build/gettext/modules/jmv/ancova.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--anovaNP]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaNP.po
+source_file = _build/gettext/modules/jmv/anovaNP.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--anovaOneW]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaOneW.po
+source_file = _build/gettext/modules/jmv/anovaOneW.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--anovaRM]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaRM.po
+source_file = _build/gettext/modules/jmv/anovaRM.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--anovaRMNP]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaRMNP.po
+source_file = _build/gettext/modules/jmv/anovaRMNP.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--cfa]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/cfa.po
+source_file = _build/gettext/modules/jmv/cfa.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--contTables]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/contTables.po
+source_file = _build/gettext/modules/jmv/contTables.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--contTablesPaired]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/contTablesPaired.po
+source_file = _build/gettext/modules/jmv/contTablesPaired.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--corrMatrix]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/corrMatrix.po
+source_file = _build/gettext/modules/jmv/corrMatrix.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--corrPart]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/corrPart.po
+source_file = _build/gettext/modules/jmv/corrPart.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--descriptives]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/descriptives.po
+source_file = _build/gettext/modules/jmv/descriptives.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--efa]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/efa.po
+source_file = _build/gettext/modules/jmv/efa.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--jmvRead]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvRead.po
+source_file = _build/gettext/modules/jmv/jmvRead.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--jmvWrite]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvWrite.po
+source_file = _build/gettext/modules/jmv/jmvWrite.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--jmv_overview]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmv_overview.po
+source_file = _build/gettext/modules/jmv/jmv_overview.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--jmvconnect_read]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvconnect_read.po
+source_file = _build/gettext/modules/jmv/jmvconnect_read.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--jmvconnect_what]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvconnect_what.po
+source_file = _build/gettext/modules/jmv/jmvconnect_what.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--linReg]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/linReg.po
+source_file = _build/gettext/modules/jmv/linReg.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--logLinear]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logLinear.po
+source_file = _build/gettext/modules/jmv/logLinear.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--logRegBin]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logRegBin.po
+source_file = _build/gettext/modules/jmv/logRegBin.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--logRegMulti]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logRegMulti.po
+source_file = _build/gettext/modules/jmv/logRegMulti.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--logRegOrd]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logRegOrd.po
+source_file = _build/gettext/modules/jmv/logRegOrd.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--mancova]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/mancova.po
+source_file = _build/gettext/modules/jmv/mancova.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--pca]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/pca.po
+source_file = _build/gettext/modules/jmv/pca.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--propTest2]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/propTest2.po
+source_file = _build/gettext/modules/jmv/propTest2.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--propTestN]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/propTestN.po
+source_file = _build/gettext/modules/jmv/propTestN.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--reliability]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/reliability.po
+source_file = _build/gettext/modules/jmv/reliability.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--ttestIS]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ttestIS.po
+source_file = _build/gettext/modules/jmv/ttestIS.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--ttestOneS]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ttestOneS.po
+source_file = _build/gettext/modules/jmv/ttestOneS.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.modules--jmv--ttestPS]
+file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ttestPS.po
+source_file = _build/gettext/modules/jmv/ttestPS.pot
+source_lang = en
+type = PO
+

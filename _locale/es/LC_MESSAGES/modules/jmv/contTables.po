@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-10 00:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../modules/jmv/contTables.rst:5
+msgid "Contingency Tables (``contTables``)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:10
+msgid ""
+"The X² test of association (not to be confused with the X² goodness of "
+"fit) is used to test whether two categorical variables are independent or"
+" associated. If the p-value is low, it suggests the variables are not "
+"independent, and that there is a relationship between the two variables."
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:16
+msgid "Usage"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:48
+msgid "Arguments"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:51
+msgid "``data``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:51
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:53
+msgid "``rows``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:53
+msgid ""
+"the variable to use as the rows in the contingency table (not necessary "
+"when providing a formula, see the examples)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:57
+msgid "``cols``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:57
+msgid ""
+"the variable to use as the columns in the contingency table (not "
+"necessary when providing a formula, see the examples)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:61
+msgid "``counts``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:61
+msgid ""
+"the variable to use as the counts in the contingency table (not necessary"
+" when providing a formula, see the examples)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:65
+msgid "``layers``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:65
+msgid ""
+"the variables to use to split the contingency table (not necessary when "
+"providing a formula, see the examples)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:69
+msgid "``chiSq``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:69
+msgid "``TRUE`` (default) or ``FALSE``, provide X²"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:71
+msgid "``chiSqCorr``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:71
+msgid "``TRUE`` or ``FALSE`` (default), provide X² with continuity correction"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:74
+msgid "``likeRat``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:74
+msgid "``TRUE`` or ``FALSE`` (default), provide the likelihood ratio"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:77
+msgid "``fisher``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:77
+msgid "``TRUE`` or ``FALSE`` (default), provide Fisher's exact test"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:80
+msgid "``contCoef``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:80
+msgid "``TRUE`` or ``FALSE`` (default), provide the contingency coefficient"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:83
+msgid "``phiCra``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:83
+msgid "``TRUE`` or ``FALSE`` (default), provide Phi and Cramer's V"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:86
+msgid "``logOdds``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:86
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the log odds ratio (only "
+"available for 2x2 tables)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:89
+msgid "``odds``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:89
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the odds ratio (only available "
+"for 2x2 tables)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:92
+msgid "``relRisk``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:92
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the relative risk (only "
+"available for 2x2 tables)"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:95
+msgid "``ci``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:95
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide confidence intervals for the "
+"comparative measures"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:98
+msgid "``ciWidth``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:98
+msgid ""
+"a number between 50 and 99.9 (default: 95), width of the confidence "
+"intervals to provide"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:101
+msgid "``gamma``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:101
+msgid "``TRUE`` or ``FALSE`` (default), provide gamma"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:103
+msgid "``taub``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:103
+msgid "``TRUE`` or ``FALSE`` (default), provide Kendall's tau-b"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:106
+msgid "``obs``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:106
+msgid "``TRUE`` or ``FALSE`` (default), provide the observed counts"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:109
+msgid "``exp``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:109
+msgid "``TRUE`` or ``FALSE`` (default), provide the expected counts"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:112
+msgid "``pcRow``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:112
+msgid "``TRUE`` or ``FALSE`` (default), provide row percentages"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:115
+msgid "``pcCol``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:115
+msgid "``TRUE`` or ``FALSE`` (default), provide column percentages"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:118
+msgid "``pcTot``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:118
+msgid "``TRUE`` or ``FALSE`` (default), provide total percentages"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:121
+msgid "``formula``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:121
+msgid "(optional) the formula to use, see the examples"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:125
+msgid "Output"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:127
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:130
+msgid "``results$freqs``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:130
+msgid "a table of proportions"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:131
+msgid "``results$chiSq``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:131
+msgid "a table of X² test results"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:132
+msgid "``results$odds``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:132
+msgid "a table of comparative measures"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:133
+msgid "``results$nom``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:133
+msgid "a table of the 'nominal' test results"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:134
+msgid "``results$gamma``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:134
+msgid "a table of the gamma test results"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:135
+msgid "``results$taub``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:135
+msgid "a table of the Kendall's tau-b test results"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:138
+msgid ""
+"Tables can be converted to data frames with ``asDF`` or "
+"``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:141
+msgid "``results$freqs$asDF``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:143
+msgid "``as.data.frame(results$freqs)``"
+msgstr ""
+
+#: ../../modules/jmv/contTables.rst:146
+msgid "Examples"
+msgstr ""
+

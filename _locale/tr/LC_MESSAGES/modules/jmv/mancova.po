@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-10 00:25+0200\n"
+"PO-Revision-Date: 2020-09-09 22:37+0000\n"
+"Language-Team: Turkish (https://www.transifex.com/jamovi/teams/111618/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../modules/jmv/mancova.rst:5
+msgid "MANCOVA (``mancova``)"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:10
+msgid ""
+"Multivariate Analysis of (Co)Variance (MANCOVA) is used to explore the "
+"relationship between multiple dependent variables, and one or more "
+"categorical and/or continuous explanatory variables."
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:15
+msgid "Usage"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:31
+msgid "Arguments"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:34
+msgid "``data``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:34
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:36
+msgid "``deps``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:36
+msgid ""
+"a string naming the dependent variable from ``data``, variable must be "
+"numeric"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:39
+msgid "``factors``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:39
+msgid "a vector of strings naming the factors from ``data``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:41
+msgid "``covs``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:41
+msgid "a vector of strings naming the covariates from ``data``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:44
+msgid "``multivar``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:44
+msgid ""
+"one or more of ``'pillai'``, ``'wilks'``, ``'hotel'``, or ``'roy'``; use "
+"Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest Root "
+"multivariate statistics, respectively"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:49
+msgid "``boxM``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:49
+msgid "``TRUE`` or ``FALSE`` (default), provide Box's M test"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:52
+msgid "``shapiro``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:52
+msgid "``TRUE`` or ``FALSE`` (default), provide Shapiro-Wilk test"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:55
+msgid "``qqPlot``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:55
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of multivariate "
+"normality"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:60
+msgid "Output"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:62
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:65
+msgid "``results$multivar``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:65 ../../modules/jmv/mancova.rst:66
+#: ../../modules/jmv/mancova.rst:67 ../../modules/jmv/mancova.rst:68
+msgid "a table"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:66
+msgid "``results$univar``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:67
+msgid "``results$assump$boxM``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:68
+msgid "``results$assump$shapiro``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:69
+msgid "``results$assump$qqPlot``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:69
+msgid "an image"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:72
+msgid ""
+"Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``."
+" For example:"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:75
+msgid "``results$multivar$asDF``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:77
+msgid "``as.data.frame(results$multivar)``"
+msgstr ""
+
+#: ../../modules/jmv/mancova.rst:80
+msgid "Examples"
+msgstr ""
