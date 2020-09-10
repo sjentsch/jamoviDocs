@@ -9,7 +9,7 @@ Syntax mode produces the R syntax required to reproduce jamovi analyses in R.
 
 jmv is available from CRAN here, and can be installed in R with:
 
-.. code-block: r
+.. code-block:: r
 
    install.packages('jmv')
 
@@ -24,7 +24,7 @@ produces.
 
 Those packages can be installed in R with:
 
-.. code-block: r
+.. code-block:: r
 
    install.packages('jmvconnect')
    install.packages('jmvReadWrite')
