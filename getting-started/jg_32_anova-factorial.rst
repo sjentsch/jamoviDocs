@@ -37,17 +37,20 @@ ANOVA: Factorial
    
    |
    
+.. admonition:: Further help from the community resources
    
-#. | A little more comprehensive introduction into this statistical method is
+   | A more comprehensive introduction into this statistical method is
      provided by this `video 
-     <https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+     <https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
    | For those, aiming to stretch even further to an in-depth introduction, you
      can read the respective section in the “Learning statistics with jamovi”
-     `part of this documentation <../lsj/Ch14_ANOVA2_01.html>`__ or chapter
-     \14.1 - 4 of the `e-book <https://www.learnstatswithjamovi.com/>`__.  
+     `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch14_ANOVA2_01.html>`__
+     or chapter 14.1 - 4 of the `e-book <https://www.learnstatswithjamovi.com/>`__
+     by Danielle J. Navarro and David R. Foxcroft.
 
-   |
+|
    
 .. ---------------------------------------------------------------------
 

@@ -8,8 +8,9 @@ The aim of the jamovi guide is to provide short, non-technical tutorials on
 how to conduct common statistical procedures in jamovi. However, it is not a
 resource providing an in-depth introduction into the background of those
 procedures. For such an endevaour, there are plenty of other resources, e.g 
-«learning statistics with jamovi» (which is both `part of this documentation 
-<../lsj/Prologue.html>`__ as well available `as a PDF textbook
+«learning statistics with jamovi» by Danielle J. Navarro and David R. Foxcroft
+which is available both as `web documentation 
+<https://lsj.readthedocs.io>`__ and as `PDF textbook
 <https://www.learnstatswithjamovi.com/>`__.
 
 .. toctree::
@@ -25,7 +26,8 @@ t-tests
 The t-test is used to test whether the mean value in a normally distributed
 data set deviates significantly from a null hypothesis (which assumes that
 there is no difference). The concept is presented in this `introductory video 
-<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
 There are three types of t-tests:
 
@@ -50,7 +52,9 @@ control (e.g. gender: men or women). The analysis of variance is based on a
 concept similar to that of the t-test, but it goes beyond that, in that factors
 can have several levels (t-tests only allow two) and in that several factors
 can be examined simultaneously. An introduction into the concept of an ANOVA is
-presented in this `video <https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+presented in this `video
+<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
 There are different types of analysis of variance, which differ in the number
 of factors examined - one or more factors - or whether they compare between
@@ -77,7 +81,8 @@ analysis mainly focuses on *prediction* (how well can one or more variables
 predict another (outcome) variable). Often, a distinction is made between
 linear and non-linear (e.g., logistic regression). An introduction into the
 concept of regression analyses is presented in this `video
-<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
 .. toctree::
    :titlesonly:

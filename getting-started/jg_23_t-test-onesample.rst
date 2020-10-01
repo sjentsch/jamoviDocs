@@ -39,16 +39,20 @@ t-test: One sample
 #. | The result is shown in the right panel.
 
    |
+
+.. admonition:: Further help from the community resources
    
-#. | This `video <https://www.youtube.com/embed/DrBT4ezYIL8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
-     provides a little more comprehensive introduction into this test.
+   | This `video <https://www.youtube.com/embed/DrBT4ezYIL8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     by `Barton Poulson <https://datalab.cc/jamovi>`__ provides a more
+     comprehensive introduction into this test.
      
    | For those, aiming to stretch even further to an in-depth introduction, you
      can read the respective section in the “Learning statistics with jamovi”
-     `part of this documentation <../lsj/Ch11_tTest_02.html>`__ or chapter
-     \11.2 of the `e-book <https://www.learnstatswithjamovi.com/>`__.  
+     `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_02.html>`__
+     or chapter 11.2 of the `e-book <https://www.learnstatswithjamovi.com/>`__
+     by Danielle J. Navarro and David R. Foxcroft.
    
-   | 
+| 
       
 .. ---------------------------------------------------------------------
 

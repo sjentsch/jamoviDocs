@@ -54,17 +54,21 @@ ANOVA: Repeated Measures
    |output_anova_repeated|
    
    |
+
+.. admonition:: Further help from the community resources
    
-#. | A little more comprehensive introduction into this statistical method is
-     provided by this `video 
-     <https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+   | A more comprehensive introduction into this statistical method is provided
+     by this `video 
+     <https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
    | For those, aiming to stretch even further to an in-depth introduction, you
      can read the respective section in the “Learning statistics with jamovi”
-     `part of this documentation <../lsj/Ch13_ANOVA_07.html>`__ or chapter
-     \13.7 of the `e-book <https://www.learnstatswithjamovi.com/>`__.  
+     `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_07.html>`__
+     or chapter 13.7 of the `e-book <https://www.learnstatswithjamovi.com/>`__
+     by Danielle J. Navarro and David R. Foxcroft.
 
-   |
+|
      
 .. ---------------------------------------------------------------------
 
