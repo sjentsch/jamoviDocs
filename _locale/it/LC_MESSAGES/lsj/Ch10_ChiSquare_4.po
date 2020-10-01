@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_4.rst:29
-msgid "\\phi = \\sqrt{\\frac{X^2}{N}}"
+msgid ""
+"\\phi = \\sqrt{\\frac{X^2}{N}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_4.rst:31
@@ -77,7 +79,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_4.rst:43
-msgid "V = \\sqrt{\\frac{X^2}{N(k-1)}}"
+msgid ""
+"V = \\sqrt{\\frac{X^2}{N(k-1)}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_4.rst:45

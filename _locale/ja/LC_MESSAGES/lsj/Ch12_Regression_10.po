@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,7 +150,10 @@ msgid "The formula for doing the calculations this time is subtly different"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_10.rst:97
-msgid "\\epsilon_{i}^* = \\frac{\\epsilon_i}{\\hat{\\sigma}_{(-i)} \\sqrt{1-h_i}}"
+msgid ""
+"\\epsilon_{i}^* = \\frac{\\epsilon_i}{\\hat{\\sigma}_{(-i)} "
+"\\sqrt{1-h_i}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_10.rst:99
@@ -170,7 +173,8 @@ msgstr ""
 #: ../../lsj/Ch12_Regression_10.rst:110
 msgid ""
 "\\hat\\sigma_{(-i)} = \\hat{\\sigma} \\ \\sqrt{\\frac{N-K-1 - "
-"{\\epsilon_{i}^\\prime}^2}{N-K-2}}"
+"{\\epsilon_{i}^\\prime}^2}{N-K-2}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_10.rst:112
@@ -295,7 +299,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_10.rst:223
-msgid "D_i = \\frac{{\\epsilon_i^*}^2 }{K+1} \\times \\frac{h_i}{1-h_i}"
+msgid ""
+"D_i = \\frac{{\\epsilon_i^*}^2 }{K+1} \\times \\frac{h_i}{1-h_i}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_10.rst:225
@@ -413,7 +419,9 @@ msgid "The Box-Cox function is a fairly simple one and it’s very widely used."
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_10.rst:326
-msgid "f(x,\\lambda) = \\frac{x^\\lambda - 1}{\\lambda}"
+msgid ""
+"f(x,\\lambda) = \\frac{x^\\lambda - 1}{\\lambda}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_10.rst:328

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,8 @@ msgstr ""
 #: ../../lsj/Ch12_Regression_11.rst:54
 msgid ""
 "\\mbox{AIC} = \\displaystyle\\frac{\\mbox{SS}_{res}}{\\hat{\\sigma}^2} + "
-"2K"
+"2K\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_11.rst:56
@@ -268,7 +269,8 @@ msgstr ""
 #: ../../lsj/Ch12_Regression_11.rst:194
 msgid ""
 "F = \\frac{(\\mbox{SS}_{res}^{(1)} - "
-"\\mbox{SS}_{res}^{(1)})/k}{(\\mbox{SS}_{res}^{(2)})/(N-p-1)}"
+"\\mbox{SS}_{res}^{(1)})/k}{(\\mbox{SS}_{res}^{(2)})/(N-p-1)}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_11.rst:196

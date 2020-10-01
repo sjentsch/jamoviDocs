@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-30 17:38+0200\n"
-"PO-Revision-Date: 2020-07-20 23:24+0000\n"
-"Language-Team: Italian (https://www.transifex.com/jamovi/teams/111618/it/)\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../getting-started/um_1_installation.rst:7
 msgid "Installation"
@@ -27,22 +29,22 @@ msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:12
 msgid ""
-"jamovi is available for Windows Vista (64-bit) and above. Installation on "
-"windows is quite straight-forward, and should be familiar to anyone who has "
-"installed software on Windows before. Download the latest version from the "
-"`download page <https://www.jamovi.org/download.html>`__, and double-click "
-"the icon."
+"jamovi is available for Windows Vista (64-bit) and above. Installation on"
+" windows is quite straight-forward, and should be familiar to anyone who "
+"has installed software on Windows before. Download the latest version "
+"from the `download page <https://www.jamovi.org/download.html>`__, and "
+"double-click the icon."
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:19
 msgid ""
-"At some institutions (particularly universities), the “normal” approach to "
-"installing software is blocked by IT security policies. In this case, you "
-"can download our .zip version. To use this, simply download, unzip to a "
-"location on the computer, and naviagate to the bin folder. Double-clicking "
-"jamovi.exe will begin jamovi. It’s possible that additional security "
-"restrictions prevent jamovi from working in this way, in which case it would"
-" be worth raising the issue with your IT staff."
+"At some institutions (particularly universities), the “normal” approach "
+"to installing software is blocked by IT security policies. In this case, "
+"you can download our .zip version. To use this, simply download, unzip to"
+" a location on the computer, and naviagate to the bin folder. Double-"
+"clicking jamovi.exe will begin jamovi. It’s possible that additional "
+"security restrictions prevent jamovi from working in this way, in which "
+"case it would be worth raising the issue with your IT staff."
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:29
@@ -51,20 +53,21 @@ msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:31
 msgid ""
-"jamovi is available for macOS 10.9+ (Mavericks and newer). To install it, "
-"download the .dmg file from our `download page "
-"<https://www.jamovi.org/download.html>`__, and double-click the downloaded "
-"file. This will present you with a “file view”, and you can install jamovi "
-"by “dragging-and-dropping” the jamovi application to the Applications folder"
-" (in the usual way). After this, jamovi will appear in your applications, "
-"and can be started like any other installed application."
+"jamovi is available for macOS 10.9+ (Mavericks and newer). To install it,"
+" download the .dmg file from our `download page "
+"<https://www.jamovi.org/download.html>`__, and double-click the "
+"downloaded file. This will present you with a “file view”, and you can "
+"install jamovi by “dragging-and-dropping” the jamovi application to the "
+"Applications folder (in the usual way). After this, jamovi will appear in"
+" your applications, and can be started like any other installed "
+"application."
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:40
 msgid ""
-"jamovi for macOS has an auto-update mechanism, and can alert you to when new"
-" versions are available. You can update your version of jamovi from the app "
-"menu (☰; at the top right of the window)."
+"jamovi for macOS has an auto-update mechanism, and can alert you to when "
+"new versions are available. You can update your version of jamovi from "
+"the app menu (☰; at the top right of the window)."
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:45
@@ -80,20 +83,20 @@ msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:51
 msgid ""
-"**Note**: Some Chromebooks experience a blank screen issue when starting up "
-"jamovi. If you encounter this, there are instructions on how to fix this a "
-"little :ref:`further down<blank-screen-on-chromebooks>`."
+"**Note**: Some Chromebooks experience a blank screen issue when starting "
+"up jamovi. If you encounter this, there are instructions on how to fix "
+"this a little :ref:`further down<blank-screen-on-chromebooks>`."
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:55
 msgid ""
-"If you’re new to flatpak/flathub, you’ll need to follow the setup guide on "
-"`our flathub page <https://flathub.org/apps/details/org.jamovi.jamovi>`__."
+"If you’re new to flatpak/flathub, you’ll need to follow the setup guide "
+"on `our flathub page "
+"<https://flathub.org/apps/details/org.jamovi.jamovi>`__."
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:59
-msgid ""
-"If you’re an old hand at flatpak, you can install jamovi with the command:"
+msgid "If you’re an old hand at flatpak, you can install jamovi with the command:"
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:66
@@ -106,9 +109,9 @@ msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:75
 msgid ""
-"On some linux machines, the flatpak font cache is not up-to-date, resulting "
-"in plots in jamovi not displaying text correctly. To remedy this, you can "
-"run the following command at the terminal:"
+"On some linux machines, the flatpak font cache is not up-to-date, "
+"resulting in plots in jamovi not displaying text correctly. To remedy "
+"this, you can run the following command at the terminal:"
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:83
@@ -124,14 +127,15 @@ msgstr ""
 #: ../../getting-started/um_1_installation.rst:91
 msgid ""
 "Some Chromebooks experience a blank screen when starting up jamovi. The "
-"cause of this issue is not completely clear at this time, however it can be "
-"fixed by disabling “Crostini GPU support”."
+"cause of this issue is not completely clear at this time, however it can "
+"be fixed by disabling “Crostini GPU support”."
 msgstr ""
 
 #: ../../getting-started/um_1_installation.rst:95
 msgid ""
-"Enter ``chrome://flags/`` into the ChromeOS address bar. This will bring up "
-"“Experiments”. Search for ``Crostini GPU Support`` and set it to disabled. "
-"After restarting your Chromebook the issue will be fixed (special thanks to "
-"`@mulderc <https://github.com/mulderc>`__)."
+"Enter ``chrome://flags/`` into the ChromeOS address bar. This will bring "
+"up “Experiments”. Search for ``Crostini GPU Support`` and set it to "
+"disabled. After restarting your Chromebook the issue will be fixed "
+"(special thanks to `@mulderc <https://github.com/mulderc>`__)."
 msgstr ""
+

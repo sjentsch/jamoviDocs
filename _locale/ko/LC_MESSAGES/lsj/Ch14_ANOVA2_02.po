@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -198,7 +198,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_02.rst:146
-msgid "\\hat{\\alpha}_r = \\bar{Y}_{r.} - \\bar{Y}_{..}"
+msgid ""
+"\\hat{\\alpha}_r = \\bar{Y}_{r.} - \\bar{Y}_{..}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_02.rst:148
@@ -208,7 +210,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_02.rst:151
-msgid "\\hat{\\beta}_c = \\bar{Y}_{.c} - \\bar{Y}_{..}"
+msgid ""
+"\\hat{\\beta}_c = \\bar{Y}_{.c} - \\bar{Y}_{..}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_02.rst:153
@@ -249,7 +253,8 @@ msgstr ""
 #: ../../lsj/Ch14_ANOVA2_02.rst:168
 msgid ""
 "\\hat{(\\alpha\\beta)}_{rc} = \\bar{Y}_{rc} - \\bar{Y}_{r.} - "
-"\\bar{Y}_{.c} + \\bar{Y}_{..}"
+"\\bar{Y}_{.c} + \\bar{Y}_{..}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_02.rst:170
@@ -262,7 +267,8 @@ msgstr ""
 #: ../../lsj/Ch14_ANOVA2_02.rst:175
 msgid ""
 "\\mbox{SS}_{A:B} = N \\sum_{r=1}^R \\sum_{c=1}^C \\left( \\bar{Y}_{rc} - "
-"\\bar{Y}_{r.} - \\bar{Y}_{.c} + \\bar{Y}_{..} \\right)^2"
+"\\bar{Y}_{r.} - \\bar{Y}_{.c} + \\bar{Y}_{..} \\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_02.rst:177

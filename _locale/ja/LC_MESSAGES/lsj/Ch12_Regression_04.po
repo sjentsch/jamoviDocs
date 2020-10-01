@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_04.rst:34
-msgid "\\sum_i (Y_i - \\hat{Y}_i)^2"
+msgid ""
+"\\sum_i (Y_i - \\hat{Y}_i)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_04.rst:36
@@ -58,7 +60,9 @@ msgid "or as"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_04.rst:38
-msgid "\\sum_i \\epsilon_{i}^2"
+msgid ""
+"\\sum_i \\epsilon_{i}^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_04.rst:40

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,8 @@ msgstr ""
 #: ../../lsj/Ch13_ANOVA_02.rst:74
 msgid ""
 "\\mbox{Var}(Y) = \\frac{1}{N} \\sum_{k=1}^G \\sum_{i=1}^{N_k} "
-"\\left(Y_{ik} - \\bar{Y} \\right)^2"
+"\\left(Y_{ik} - \\bar{Y} \\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:76
@@ -280,7 +281,8 @@ msgstr ""
 #: ../../lsj/Ch13_ANOVA_02.rst:126
 msgid ""
 "\\mbox{Var}(Y) = \\frac{1}{N} \\sum_{p=1}^N  \\left(Y_{p} - \\bar{Y} "
-"\\right)^2"
+"\\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:128
@@ -315,7 +317,8 @@ msgstr ""
 #: ../../lsj/Ch13_ANOVA_02.rst:147
 msgid ""
 "\\mbox{SS}_{tot} = \\sum_{k=1}^G \\sum_{i=1}^{N_k} \\left(Y_{ik} - "
-"\\bar{Y} \\right)^2"
+"\\bar{Y} \\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:149
@@ -336,7 +339,8 @@ msgstr ""
 #: ../../lsj/Ch13_ANOVA_02.rst:158
 msgid ""
 "\\mbox{SS}_w = \\sum_{k=1}^G \\sum_{i=1}^{N_k} \\left( Y_{ik} - "
-"\\bar{Y}_k \\right)^2"
+"\\bar{Y}_k \\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:160
@@ -366,9 +370,11 @@ msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:177
 msgid ""
-"\\begin{aligned} \\mbox{SS}_{b} &=& \\sum_{k=1}^G \\sum_{i=1}^{N_k} "
-"\\left( \\bar{Y}_k - \\bar{Y} \\right)^2 \\\\               &=& "
-"\\sum_{k=1}^G N_k \\left( \\bar{Y}_k - \\bar{Y} \\right)^2\\end{aligned}"
+"\\begin{aligned}\n"
+"\\mbox{SS}_{b} &=& \\sum_{k=1}^G \\sum_{i=1}^{N_k} \\left( \\bar{Y}_k - "
+"\\bar{Y} \\right)^2 \\\\\n"
+"              &=& \\sum_{k=1}^G N_k \\left( \\bar{Y}_k - \\bar{Y} "
+"\\right)^2\\end{aligned}"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:183
@@ -627,7 +633,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:372
-msgid "F = \\frac{\\hat{Q} + \\hat\\sigma^2}{\\hat\\sigma^2}"
+msgid ""
+"F = \\frac{\\hat{Q} + \\hat\\sigma^2}{\\hat\\sigma^2}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:374
@@ -998,11 +1006,12 @@ msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:548
 msgid ""
-"\\begin{array}{lclclcl} \\mbox{MS}_b &=& "
-"\\displaystyle\\frac{\\mbox{SS}_b }{  \\mbox{df}_b } &=& "
-"\\displaystyle\\frac{3.48}{ 2} &=& 1.74 \\\\ \\mbox{MS}_w &=& "
-"\\displaystyle\\frac{\\mbox{SS}_w }{  \\mbox{df}_w } &=& "
-"\\displaystyle\\frac{1.39}{15} &=& 0.09 \\end{array}"
+"\\begin{array}{lclclcl}\n"
+"\\mbox{MS}_b &=& \\displaystyle\\frac{\\mbox{SS}_b }{  \\mbox{df}_b } &=&"
+" \\displaystyle\\frac{3.48}{ 2} &=& 1.74 \\\\\n"
+"\\mbox{MS}_w &=& \\displaystyle\\frac{\\mbox{SS}_w }{  \\mbox{df}_w } &=&"
+" \\displaystyle\\frac{1.39}{15} &=& 0.09\n"
+"\\end{array}"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:555
@@ -1014,7 +1023,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:560
-msgid "F = \\frac{\\mbox{MS}_b }{\\mbox{MS}_w} = \\frac{1.74}{0.09} = 19.3"
+msgid ""
+"F = \\frac{\\mbox{MS}_b }{\\mbox{MS}_w} = \\frac{1.74}{0.09} = 19.3\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_02.rst:562

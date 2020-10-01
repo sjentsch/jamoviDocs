@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,8 @@ msgstr ""
 #: ../../lsj/Ch08_Estimation_5.rst:48
 msgid ""
 "\\mu - \\left( 1.96 \\times \\mbox{SEM} \\right) \\ \\leq \\  \\bar{X}\\"
-"  \\leq \\  \\mu + \\left( 1.96 \\times \\mbox{SEM} \\right)"
+"  \\leq \\  \\mu + \\left( 1.96 \\times \\mbox{SEM} \\right)\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_5.rst:50
@@ -106,7 +107,8 @@ msgstr ""
 #: ../../lsj/Ch08_Estimation_5.rst:59
 msgid ""
 "\\bar{X} -  \\left( 1.96 \\times \\mbox{SEM} \\right) \\ \\leq \\ \\mu  "
-"\\ \\leq  \\ \\bar{X} +  \\left( 1.96 \\times \\mbox{SEM}\\right)"
+"\\ \\leq  \\ \\bar{X} +  \\left( 1.96 \\times \\mbox{SEM}\\right)\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_5.rst:61
@@ -123,7 +125,8 @@ msgstr ""
 #: ../../lsj/Ch08_Estimation_5.rst:68
 msgid ""
 "\\mbox{CI}_{95} = \\bar{X} \\pm \\left( 1.96 \\times "
-"\\frac{\\sigma}{\\sqrt{N}} \\right)"
+"\\frac{\\sigma}{\\sqrt{N}} \\right)\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_5.rst:70

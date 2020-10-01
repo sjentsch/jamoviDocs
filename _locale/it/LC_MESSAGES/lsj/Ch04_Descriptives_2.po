@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -261,7 +261,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:134
-msgid "\\frac{19.4 + 5.6 + 19.4 + 28.6 + 4.6}{5} = 15.52"
+msgid ""
+"\\frac{19.4 + 5.6 + 19.4 + 28.6 + 4.6}{5} = 15.52\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:136
@@ -285,7 +287,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:150
-msgid "\\mbox{\\textsc{aad}}(X) = \\frac{1}{N} \\sum_{i = 1}^N |X_i - \\bar{X}|"
+msgid ""
+"\\mbox{\\textsc{aad}}(X) = \\frac{1}{N} \\sum_{i = 1}^N |X_i - \\bar{X}|\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:153
@@ -314,7 +318,8 @@ msgstr ""
 #: ../../lsj/Ch04_Descriptives_2.rst:168
 msgid ""
 "\\mbox{Var}(X) = \\frac{1}{N} \\sum_{i=1}^N \\left( X_i - \\bar{X} "
-"\\right)^2"
+"\\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:170
@@ -403,7 +408,9 @@ msgid "In other words, the formula that jamovi is using is this one:"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:233
-msgid "\\frac{1}{N - 1} \\sum_{i=1}^N \\left( X_i - \\bar{X} \\right)^2"
+msgid ""
+"\\frac{1}{N - 1} \\sum_{i=1}^N \\left( X_i - \\bar{X} \\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:235
@@ -486,7 +493,10 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:301
-msgid "s = \\sqrt{ \\frac{1}{N} \\sum_{i=1}^N \\left( X_i - \\bar{X} \\right)^2 }"
+msgid ""
+"s = \\sqrt{ \\frac{1}{N} \\sum_{i=1}^N \\left( X_i - \\bar{X} \\right)^2 "
+"}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:303
@@ -516,7 +526,8 @@ msgstr ""
 #: ../../lsj/Ch04_Descriptives_2.rst:318
 msgid ""
 "\\hat\\sigma = \\sqrt{ \\frac{1}{N - 1} \\sum_{i=1}^N \\left( X_i - "
-"\\bar{X} \\right)^2 }"
+"\\bar{X} \\right)^2 }\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_2.rst:320

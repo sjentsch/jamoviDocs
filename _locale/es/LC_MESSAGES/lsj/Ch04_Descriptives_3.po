@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,7 +67,8 @@ msgstr ""
 #: ../../lsj/Ch04_Descriptives_3.rst:44
 msgid ""
 "\\mbox{skewness}(X) = \\frac{1}{N \\hat{\\sigma}^3} \\sum_{i=1}^N (X_i - "
-"\\bar{X})^3"
+"\\bar{X})^3\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_3.rst:46
@@ -183,7 +184,8 @@ msgstr ""
 #: ../../lsj/Ch04_Descriptives_3.rst:104
 msgid ""
 "\\mbox{kurtosis}(X) = \\frac{1}{N \\hat\\sigma^4} \\sum_{i=1}^N \\left( "
-"X_i - \\bar{X} \\right)^4  - 3"
+"X_i - \\bar{X} \\right)^4  - 3\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_3.rst:106

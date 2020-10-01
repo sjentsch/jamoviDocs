@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -330,7 +330,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:149
-msgid "\\hat{P}_i = \\frac{R_i}{N}"
+msgid ""
+"\\hat{P}_i = \\frac{R_i}{N}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:151
@@ -359,7 +361,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:165
-msgid "X^2 = \\sum_{i=1}^r\\sum_{j=1}^c \\frac{({E}_{ij} - O_{ij})^2}{{E}_{ij}}"
+msgid ""
+"X^2 = \\sum_{i=1}^r\\sum_{j=1}^c \\frac{({E}_{ij} - O_{ij})^2}{{E}_{ij}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:167
@@ -413,9 +417,13 @@ msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:203
 msgid ""
-"\\begin{array}{rcl} df &=& \\mbox{(number of observations)} - "
-"\\mbox{(number of constraints)} \\\\ &=& (rc) - (c + (r-1)) \\\\ &=& rc -"
-" c - r + 1 \\\\ &=& (r - 1)(c - 1) \\end{array}"
+"\\begin{array}{rcl}\n"
+"df &=& \\mbox{(number of observations)} - \\mbox{(number of constraints)}"
+" \\\\\n"
+"&=& (rc) - (c + (r-1)) \\\\\n"
+"&=& rc - c - r + 1 \\\\\n"
+"&=& (r - 1)(c - 1)\n"
+"\\end{array}"
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:212
@@ -436,9 +444,13 @@ msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:226
 msgid ""
-"\\begin{array}{rcl} df &=& \\mbox{(number of observations)} - "
-"\\mbox{(number of constraints)} \\\\ &=& rc - ( (c-1) + (r-1) + 1) \\\\ "
-"&=& rc - c - r + 1 \\\\ &=& (r - 1)(c - 1) \\end{array}"
+"\\begin{array}{rcl}\n"
+"df &=& \\mbox{(number of observations)} - \\mbox{(number of constraints)}"
+" \\\\\n"
+"&=& rc - ( (c-1) + (r-1) + 1) \\\\\n"
+"&=& rc - c - r + 1 \\\\\n"
+"&=& (r - 1)(c - 1)\n"
+"\\end{array}"
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_2.rst:235

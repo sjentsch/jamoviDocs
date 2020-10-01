@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_3.rst:28
-msgid "\\chi^2 = \\sum_{i} \\frac{(|E_i - O_i| - 0.5)^2}{E_i}"
+msgid ""
+"\\chi^2 = \\sum_{i} \\frac{(|E_i - O_i| - 0.5)^2}{E_i}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch10_ChiSquare_3.rst:30

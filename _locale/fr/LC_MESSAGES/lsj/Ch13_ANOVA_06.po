@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -332,7 +332,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:258
-msgid "\\bar{R}_k = \\frac{1}{N_K} \\sum_{i} R_{ik}"
+msgid ""
+"\\bar{R}_k = \\frac{1}{N_K} \\sum_{i} R_{ik}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:260
@@ -340,7 +342,9 @@ msgid "and let’s also calculate :math:`\\bar{R}`, the grand mean rank"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:262
-msgid "\\bar{R} = \\frac{1}{N} \\sum_{i} \\sum_{k} R_{ik}"
+msgid ""
+"\\bar{R} = \\frac{1}{N} \\sum_{i} \\sum_{k} R_{ik}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:264
@@ -359,7 +363,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:276
-msgid "\\mbox{RSS}_{tot} = \\sum_k \\sum_i ( R_{ik} - \\bar{R} )^2"
+msgid ""
+"\\mbox{RSS}_{tot} = \\sum_k \\sum_i ( R_{ik} - \\bar{R} )^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:278
@@ -368,9 +374,10 @@ msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:280
 msgid ""
-"\\begin{array}{rcl} \\mbox{RSS}_{b} &=& \\sum_k \\sum_i ( \\bar{R}_k  - "
-"\\bar{R} )^2 \\\\                &=& \\sum_k N_k ( \\bar{R}_k  - \\bar{R}"
-" )^2 \\end{array}"
+"\\begin{array}{rcl}\n"
+"\\mbox{RSS}_{b} &=& \\sum_k \\sum_i ( \\bar{R}_k  - \\bar{R} )^2 \\\\\n"
+"               &=& \\sum_k N_k ( \\bar{R}_k  - \\bar{R} )^2\n"
+"\\end{array}"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:287
@@ -385,7 +392,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:296
-msgid "K = (N - 1) \\times \\frac{\\mbox{RSS}_b}{\\mbox{RSS}_{tot}}"
+msgid ""
+"K = (N - 1) \\times \\frac{\\mbox{RSS}_b}{\\mbox{RSS}_{tot}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:298
@@ -408,7 +417,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:312
-msgid "K = \\frac{12}{N(N-1)} \\sum_k N_k {\\bar{R}_k}^2 - 3(N+1)"
+msgid ""
+"K = \\frac{12}{N(N-1)} \\sum_k N_k {\\bar{R}_k}^2 - 3(N+1)\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:314
@@ -514,7 +525,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:349
-msgid "\\mbox{TCF} = 1 - \\frac{\\sum_j {f_j}^3 - f_j}{N^3 - N}"
+msgid ""
+"\\mbox{TCF} = 1 - \\frac{\\sum_j {f_j}^3 - f_j}{N^3 - N}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch13_ANOVA_06.rst:351

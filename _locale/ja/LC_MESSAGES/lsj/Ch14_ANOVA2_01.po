@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -621,7 +621,8 @@ msgstr ""
 #: ../../lsj/Ch14_ANOVA2_01.rst:417
 msgid ""
 "\\mbox{SS}_{A} = (N \\times C)  \\sum_{r=1}^R  \\left( \\bar{Y}_{r.} - "
-"\\bar{Y}_{..} \\right)^2"
+"\\bar{Y}_{..} \\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_01.rst:419
@@ -646,7 +647,8 @@ msgstr ""
 #: ../../lsj/Ch14_ANOVA2_01.rst:436
 msgid ""
 "\\mbox{SS}_{B} = (N \\times R) \\sum_{c=1}^C \\left( \\bar{Y}_{.c} - "
-"\\bar{Y}_{..} \\right)^2"
+"\\bar{Y}_{..} \\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_01.rst:438
@@ -716,7 +718,8 @@ msgstr ""
 #: ../../lsj/Ch14_ANOVA2_01.rst:486
 msgid ""
 "\\mbox{SS}_T = \\sum_{r=1}^R \\sum_{c=1}^C \\sum_{i=1}^N \\left( Y_{rci} "
-"- \\bar{Y}_{..}\\right)^2"
+"- \\bar{Y}_{..}\\right)^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch14_ANOVA2_01.rst:488

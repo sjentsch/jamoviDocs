@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:141
-msgid "t = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\mbox{SE}}"
+msgid ""
+"t = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\mbox{SE}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:143
@@ -253,7 +255,8 @@ msgstr ""
 #: ../../lsj/Ch11_tTest_03.rst:173
 msgid ""
 "\\hat\\sigma^2_p = \\frac{w_1 {\\hat\\sigma_1}^2 + w_2 "
-"{\\hat\\sigma_2}^2}{w_1 + w_2}"
+"{\\hat\\sigma_2}^2}{w_1 + w_2}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:175
@@ -265,7 +268,8 @@ msgstr ""
 #: ../../lsj/Ch11_tTest_03.rst:178
 msgid ""
 "\\hat\\sigma_p = \\sqrt{\\frac{w_1 {\\hat\\sigma_1}^2 + w_2 "
-"{\\hat\\sigma_2}^2}{w_1 + w_2}}"
+"{\\hat\\sigma_2}^2}{w_1 + w_2}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:180
@@ -301,7 +305,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:205
-msgid "\\frac{\\sum_{ik} \\left( X_{ik} - \\bar{X}_k \\right)^2}{N}"
+msgid ""
+"\\frac{\\sum_{ik} \\left( X_{ik} - \\bar{X}_k \\right)^2}{N}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:207
@@ -325,7 +331,8 @@ msgstr ""
 #: ../../lsj/Ch11_tTest_03.rst:221
 msgid ""
 "\\hat\\sigma^2_p = \\frac{\\sum_{ik} \\left( X_{ik} - \\bar{X}_k "
-"\\right)^2}{N -2}"
+"\\right)^2}{N -2}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:223
@@ -369,7 +376,8 @@ msgstr ""
 #: ../../lsj/Ch11_tTest_03.rst:252
 msgid ""
 "\\mbox{\\textsc{se}}(\\bar{X}_1 - \\bar{X}_2) = \\hat\\sigma "
-"\\sqrt{\\frac{1}{N_1} + \\frac{1}{N_2}}"
+"\\sqrt{\\frac{1}{N_1} + \\frac{1}{N_2}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:254
@@ -379,7 +387,8 @@ msgstr ""
 #: ../../lsj/Ch11_tTest_03.rst:256
 msgid ""
 "t = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\mbox{\\textsc{se}}(\\bar{X}_1 - "
-"\\bar{X}_2)}"
+"\\bar{X}_2)}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_03.rst:258

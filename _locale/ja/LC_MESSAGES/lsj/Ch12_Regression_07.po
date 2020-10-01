@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,7 +199,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_07.rst:125
-msgid "t = \\frac{\\hat{b}}{\\mbox{\\textsc{se}}(\\hat{b})}"
+msgid ""
+"t = \\frac{\\hat{b}}{\\mbox{\\textsc{se}}(\\hat{b})}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_07.rst:127

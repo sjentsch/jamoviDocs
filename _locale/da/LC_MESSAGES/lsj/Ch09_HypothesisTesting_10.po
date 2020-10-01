@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-14 18:31+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,13 +25,13 @@ msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:6
 msgid ""
-"Null hypothesis testing is one of the most ubiquitous elements to "
-"statistical theory. The vast majority of scientific papers report the "
-"results of some hypothesis test or another. As a consequence it is almost"
-" impossible to get by in science without having at least a cursory "
-"understanding of what a *p*-value means, making this one of the most "
-"important chapters in the book. As usual, I’ll end the chapter with a "
-"quick recap of the key ideas that we’ve talked about:"
+"Null hypothesis testing is one of the most ubiquitous elements to statistical "
+"theory. The vast majority of scientific papers report the results of some "
+"hypothesis test or another. As a consequence it is almost impossible to get "
+"by in science without having at least a cursory understanding of what a *p*-"
+"value means, making this one of the most important chapters in the book. As "
+"usual, I’ll end the chapter with a quick recap of the key ideas that we’ve "
+"talked about:"
 msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:14
@@ -49,8 +49,7 @@ msgstr ""
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:20
 msgid ""
 "`Test statistics and sampling distributions "
-"<Ch09_HypothesisTesting_03.html#test-statistics-and-sampling-"
-"distributions>`__"
+"<Ch09_HypothesisTesting_03.html#test-statistics-and-sampling-distributions>`__"
 msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:23
@@ -61,27 +60,26 @@ msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:26
 msgid ""
-"`p-values as “soft” decisions <Ch09_HypothesisTesting_05.html#the-p"
-"-value-of-a-test>`__"
+"`p-values as “soft” decisions <Ch09_HypothesisTesting_05.html#the-p-value-of-"
+"a-test>`__"
 msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:29
 msgid ""
 "`Writing up the results of a hypothesis test "
-"<Ch09_HypothesisTesting_06.html#reporting-the-results-of-a-hypothesis-"
-"test>`__"
+"<Ch09_HypothesisTesting_06.html#reporting-the-results-of-a-hypothesis-test>`__"
 msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:32
 msgid ""
-"`Running the hypothesis test in practice <Ch09_HypothesisTesting_07.html"
-"#running-the-hypothesis-test-in-practice>`__"
+"`Running the hypothesis test in practice "
+"<Ch09_HypothesisTesting_07.html#running-the-hypothesis-test-in-practice>`__"
 msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:35
 msgid ""
-"`Effect size and power <Ch09_HypothesisTesting_08.html#effect-size-"
-"sample-size-and-power>`__"
+"`Effect size and power <Ch09_HypothesisTesting_08.html#effect-size-sample-"
+"size-and-power>`__"
 msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:38
@@ -92,17 +90,11 @@ msgstr ""
 
 #: ../../lsj/Ch09_HypothesisTesting_10.rst:41
 msgid ""
-"Later in the book, in Chapter `Bayesian statistics <Ch16_Bayes.html"
-"#bayesian-statistics>`__, I’ll revisit the theory of null hypothesis "
-"tests from a Bayesian perspective and introduce a number of new tools "
-"that you can use if you aren’t particularly fond of the orthodox "
-"approach. But for now, though, we’re done with the abstract statistical "
-"theory, and we can start discussing specific data analysis tools."
+"Later in the book, in Chapter `Bayesian statistics <Ch16_Bayes.html#bayesian-"
+"statistics>`__, I’ll revisit the theory of null hypothesis tests from a "
+"Bayesian perspective and introduce a number of new tools that you can use if "
+"you aren’t particularly fond of the orthodox approach. But for now, though, "
+"we’re done with the abstract statistical theory, and we can start discussing "
+"specific data analysis tools."
 msgstr ""
-
-#~ msgid ""
-#~ "`Type 1 and Type 2 errors "
-#~ "<Ch09_HypothesisTesting_02.html#two-types-of-"
-#~ "errors>`__"
-#~ msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -322,7 +322,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_4.rst:223
-msgid "s^2 = \\frac{1}{N} \\sum_{i=1}^N (X_i - \\bar{X})^2"
+msgid ""
+"s^2 = \\frac{1}{N} \\sum_{i=1}^N (X_i - \\bar{X})^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_4.rst:225
@@ -335,7 +337,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_4.rst:230
-msgid "\\hat\\sigma^2 = \\frac{1}{N-1} \\sum_{i=1}^N (X_i - \\bar{X})^2"
+msgid ""
+"\\hat\\sigma^2 = \\frac{1}{N-1} \\sum_{i=1}^N (X_i - \\bar{X})^2\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_4.rst:232
@@ -350,7 +354,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_4.rst:241
-msgid "\\hat\\sigma = \\sqrt{\\frac{1}{N-1} \\sum_{i=1}^N (X_i - \\bar{X})^2}"
+msgid ""
+"\\hat\\sigma = \\sqrt{\\frac{1}{N-1} \\sum_{i=1}^N (X_i - \\bar{X})^2}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch08_Estimation_4.rst:243

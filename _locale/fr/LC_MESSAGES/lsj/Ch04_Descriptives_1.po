@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:24
-msgid "\\frac{56 + 31 + 56 + 8 + 32}{5} = \\frac{183}{5} = 36.60"
+msgid ""
+"\\frac{56 + 31 + 56 + 8 + 32}{5} = \\frac{183}{5} = 36.60\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:26
@@ -155,7 +157,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:60
-msgid "\\bar{X} = \\frac{X_1 + X_2 + \\ldots + X_{N-1} + X_N}{N}"
+msgid ""
+"\\bar{X} = \\frac{X_1 + X_2 + \\ldots + X_{N-1} + X_N}{N}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:62
@@ -168,7 +172,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:68
-msgid "\\sum_{i=1}^5 X_i"
+msgid ""
+"\\sum_{i=1}^5 X_i\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:70
@@ -181,7 +187,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:75
-msgid "\\bar{X} = \\frac{1}{N} \\sum_{i=1}^N X_i"
+msgid ""
+"\\bar{X} = \\frac{1}{N} \\sum_{i=1}^N X_i\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_1.rst:77

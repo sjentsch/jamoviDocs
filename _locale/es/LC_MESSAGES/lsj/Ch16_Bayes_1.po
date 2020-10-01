@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,9 +199,11 @@ msgstr ""
 
 #: ../../lsj/Ch16_Bayes_1.rst:113
 msgid ""
-"\\begin{aligned} P(\\mbox{rainy}, \\mbox{umbrella}) & = & "
-"P(\\mbox{umbrella} | \\mbox{rainy}) \\times P(\\mbox{rainy}) \\\\ & = & "
-"0.30 \\times 0.15 \\\\ & = & 0.045\\end{aligned}"
+"\\begin{aligned}\n"
+"P(\\mbox{rainy}, \\mbox{umbrella}) & = & P(\\mbox{umbrella} | "
+"\\mbox{rainy}) \\times P(\\mbox{rainy}) \\\\\n"
+"& = & 0.30 \\times 0.15 \\\\\n"
+"& = & 0.045\\end{aligned}"
 msgstr ""
 
 #: ../../lsj/Ch16_Bayes_1.rst:120
@@ -484,7 +486,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch16_Bayes_1.rst:278
-msgid "P(h | d) = \\frac{P(d,h)}{P(d)}"
+msgid ""
+"P(h | d) = \\frac{P(d,h)}{P(d)}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch16_Bayes_1.rst:280
@@ -498,7 +502,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch16_Bayes_1.rst:287
-msgid "P(h | d) = \\frac{P(d|h) P(h)}{P(d)}"
+msgid ""
+"P(h | d) = \\frac{P(d|h) P(h)}{P(d)}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch16_Bayes_1.rst:289

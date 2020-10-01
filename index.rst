@@ -13,21 +13,6 @@ Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and
 
    getting-started/um_0_welcome
    getting-started/jg_0_welcome
-   getting-started/dl_0_welcome
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Learning statistics with jamovi
-   :name: sec-lsj
-   
-   lsj/Prologue
-   lsj/Background
-   lsj/Introduction
-   lsj/WorkWithData
-   lsj/StatTheory
-   lsj/StatTools
-   lsj/Endings
-   lsj/References
 
 .. toctree::
    :maxdepth: 1
@@ -48,5 +33,5 @@ Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and
    :maxdepth: 1
    :caption: developer hub
    :name: sec-development
-   
+
    development/developer-hub

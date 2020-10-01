@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +197,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_05.rst:150
-msgid "t = \\frac{\\bar{D}}{\\mbox{\\textsc{se}}(\\bar{D})}"
+msgid ""
+"t = \\frac{\\bar{D}}{\\mbox{\\textsc{se}}(\\bar{D})}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_05.rst:152
@@ -205,7 +207,9 @@ msgid "which is"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_05.rst:154
-msgid "t = \\frac{\\bar{D}}{\\hat\\sigma_D / \\sqrt{N}}"
+msgid ""
+"t = \\frac{\\bar{D}}{\\hat\\sigma_D / \\sqrt{N}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_05.rst:156

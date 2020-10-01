@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,7 +122,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_07.rst:64
-msgid "d = \\frac{\\bar{X} - \\mu_0}{\\hat{\\sigma}}"
+msgid ""
+"d = \\frac{\\bar{X} - \\mu_0}{\\hat{\\sigma}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_07.rst:66
@@ -162,7 +164,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_07.rst:92
-msgid "d = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\hat{\\sigma}_p}"
+msgid ""
+"d = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\hat{\\sigma}_p}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_07.rst:94
@@ -220,7 +224,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_07.rst:135
-msgid "d = \\frac{\\bar{D}}{\\hat{\\sigma}_D}"
+msgid ""
+"d = \\frac{\\bar{D}}{\\hat{\\sigma}_D}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch11_tTest_07.rst:137

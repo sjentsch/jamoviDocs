@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -278,7 +278,8 @@ msgstr ""
 #: ../../lsj/Ch12_Regression_01.rst:149
 msgid ""
 "\\mbox{Cov}(X,Y) = \\frac{1}{N-1} \\sum_{i=1}^N \\left(X_i - \\bar{X} "
-"\\right) \\left(Y_i - \\bar{Y} \\right)"
+"\\right) \\left(Y_i - \\bar{Y} \\right)\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_01.rst:151
@@ -318,7 +319,10 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_01.rst:177
-msgid "r_{XY}  = \\frac{\\mbox{Cov}(X,Y)}{ \\hat{\\sigma}_X \\ \\hat{\\sigma}_Y}"
+msgid ""
+"r_{XY}  = \\frac{\\mbox{Cov}(X,Y)}{ \\hat{\\sigma}_X \\ \\hat{\\sigma}_Y}"
+"\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_01.rst:179

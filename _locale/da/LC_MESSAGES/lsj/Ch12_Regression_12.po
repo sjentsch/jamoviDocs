@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,8 +25,8 @@ msgstr ""
 
 #: ../../lsj/Ch12_Regression_12.rst:6
 msgid ""
-"Want to know how strong the relationship is between two variables? "
-"Calculate a `correlation <Ch12_Regression_01.html#correlations>`__"
+"Want to know how strong the relationship is between two variables? Calculate "
+"a `correlation <Ch12_Regression_01.html#correlations>`__"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_12.rst:9
@@ -35,8 +35,8 @@ msgstr ""
 
 #: ../../lsj/Ch12_Regression_12.rst:11
 msgid ""
-"`Basic ideas in linear regression <Ch12_Regression_03.html#what-is-a"
-"-linear-regression-model>`__ and `how regression models are estimated "
+"`Basic ideas in linear regression <Ch12_Regression_03.html#what-is-a-linear-"
+"regression-model>`__ and `how regression models are estimated "
 "<Ch12_Regression_04.html#estimating-a-linear-regression-model>`__"
 msgstr ""
 
@@ -54,8 +54,8 @@ msgstr ""
 
 #: ../../lsj/Ch12_Regression_12.rst:22
 msgid ""
-"`Hypothesis tests for regression models <Ch12_Regression_07.html"
-"#hypothesis-tests-for-regression-models>`__"
+"`Hypothesis tests for regression models <Ch12_Regression_07.html#hypothesis-"
+"tests-for-regression-models>`__"
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_12.rst:25
@@ -73,6 +73,7 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch12_Regression_12.rst:33
-msgid "`Selecting a regression model <Ch12_Regression_11.html#model-selection>`__"
+msgid ""
+"`Selecting a regression model <Ch12_Regression_11.html#model-selection>`__"
 msgstr ""
 

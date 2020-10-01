@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-10 19:00+0200\n"
+"POT-Creation-Date: 2020-08-27 11:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,8 @@ msgstr ""
 #: ../../lsj/Ch04_Descriptives_5.rst:46
 msgid ""
 "\\mbox{standard score} = \\frac{\\mbox{raw score} - "
-"\\mbox{mean}}{\\mbox{standard deviation}}"
+"\\mbox{mean}}{\\mbox{standard deviation}}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_5.rst:48
@@ -84,7 +85,9 @@ msgid "In actual maths, the equation for the *z*-score is"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_5.rst:50
-msgid "z_i = \\frac{X_i - \\bar{X}}{\\hat\\sigma}"
+msgid ""
+"z_i = \\frac{X_i - \\bar{X}}{\\hat\\sigma}\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_5.rst:52
@@ -94,7 +97,9 @@ msgid ""
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_5.rst:55
-msgid "z = \\frac{35 - 17}{5} = 3.6"
+msgid ""
+"z = \\frac{35 - 17}{5} = 3.6\n"
+"\n"
 msgstr ""
 
 #: ../../lsj/Ch04_Descriptives_5.rst:57
