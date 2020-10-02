@@ -49,7 +49,8 @@ Linear Regression
      can read the respective section in the “Learning statistics with jamovi”
      `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch12_Regression_03.html>`__
      or chapter 12.3 - 11 of the `e-book <https://www.learnstatswithjamovi.com/>`__
-     by Danielle J. Navarro and David R. Foxcroft. 
+     by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft
+     <https://www.davidfoxcroft.com/>`__.
 
 |
 

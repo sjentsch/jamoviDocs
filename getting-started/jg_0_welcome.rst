@@ -8,9 +8,9 @@ The aim of the jamovi guide is to provide short, non-technical tutorials on
 how to conduct common statistical procedures in jamovi. However, it is not a
 resource providing an in-depth introduction into the background of those
 procedures. For such an endevaour, there are plenty of other resources, e.g 
-«learning statistics with jamovi» by Danielle J. Navarro and David R. Foxcroft
-which is available both as `web documentation 
-<https://lsj.readthedocs.io>`__ and as `PDF textbook
+«learning statistics with jamovi» by `Danielle J. Navarro <https://djnavarro.net/>`__
+and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__ which is available
+both as `web documentation <https://lsj.readthedocs.io>`__ and as `PDF textbook
 <https://www.learnstatswithjamovi.com/>`__.
 
 .. toctree::

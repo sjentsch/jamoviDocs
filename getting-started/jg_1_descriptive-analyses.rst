@@ -63,7 +63,8 @@ Descriptive analyses
      can read the respective chapter in the “Learning statistics with jamovi”
      `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch04_Descriptives.html>`__
      or chapter 4 of the `e-book <https://www.learnstatswithjamovi.com/>`__
-     by Danielle J. Navarro and David R. Foxcroft.
+     by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft
+     <https://www.davidfoxcroft.com/>`__.
      
 |
 

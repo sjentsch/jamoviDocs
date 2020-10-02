@@ -20,7 +20,7 @@ Especially the latter option with direct access to R gives you access the
 functionality of its built-in functions as well as to masses of R-libraries
 dealing with (more or less) every statistical problem you can imagine.
 
-To learn more about R you can use two excellent websites by `Danielle Navarro 
+To learn more about R you can use two excellent websites by `Danielle J. Navarro 
 <https://djnavarro.net>`__. The first is `«Learning statistics with R» 
 <https://learningstatisticswithr.com/>`__ and has psychology students who use R
 in their first method course as the main target group. On this page you will

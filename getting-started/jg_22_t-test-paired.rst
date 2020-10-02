@@ -46,8 +46,9 @@ t-test: Paired samples
      can read the respective section in the “Learning statistics with jamovi”
      `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_05.html>`__
      or chapter 11.5 of the `e-book <https://www.learnstatswithjamovi.com/>`__
-     by Danielle J. Navarro and David R. Foxcroft.  
-     
+     by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft
+     <https://www.davidfoxcroft.com/>`__.
+          
 |
  
 .. ---------------------------------------------------------------------
