@@ -47,24 +47,21 @@ Describing and cleaning your data
 
 A quite essential part of a statistical analysis actually happens before we
 conduct them. That part is concerned with first getting an overview over your
-data. We gather this information using `descriptive-statistical analyses
-<analyses/jg_11_descriptive-analyses.html>`__.
+data. This information is gathered using descriptive-statistical analyses. 
 
-Based upon this information, you assess whether your data meet the assumptions
-that are required to run most inference-statistical procedures. There are two
-checks that are central for assessing whether the assumptions for conducting
-our main analyses are met: The first asesses whether the data are in accordance
-with a `normal distribution <analyses/jg_16_Checking_normality.html>`__, the
-other assesses whether the independent and the dependent variables stand in a
-`linear relation <analyses/jg_17_Checking_linearity.html>`__.
-
-If these two assumptions are not met, this is often due to outliers in your
-data. Based upon the information we gathered, it becomes possible to search
-for and to remove such outliers. Using `filters
-<analyses/jg_18_Filtering_data.html>`__ can help you with that task.
+One way to use this information is for assessing whether the data meet the
+assumptions that are required to run most inference-statistical procedures.
+There are two checks that are central for assessing whether those assumptions
+are met: The first evaluates whether the data are in accordance with a normal
+distribution, the other assesses whether the independent and the dependent
+variables stand in a linear relation.
+If the assumptions are not met, this is often due to outliers in your data.
+Based upon the information we gathered, it becomes possible to search for and
+to remove such outliers. Using `filters <analyses/jg_18_Filtering_data.html>`__
+can help you with that task.
 
 .. toctree::
-   :hidden:
+   :titlesonly:
    :name: sec-descriptives
    
    analyses/jg_11_descriptive-analyses
