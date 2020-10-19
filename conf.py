@@ -17,7 +17,7 @@ from sphinx.locale import _
 # -- Project information -----------------------------------------------------
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
-author = u'The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation)'
+author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
 copyright = u'2020, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -258,7 +258,7 @@ latex_engine = 'xelatex'
 # Grouping the document tree into LaTeX files. List of tuples
 #   (source start file, target name,      title,                       author, theme,    toctree_only).
 latex_documents = [
-    (master_doc,        'jamoviDocs.tex', u'Documentation for jamovi', u'The jamovi Group', 'manual', True),
+    (master_doc,        'jamoviDocs.tex', u'Documentation for jamovi', u'The jamovi project', 'manual', True),
 ]
 
 # If given, this must be the name of an image file (relative to the configuration directory) that
