@@ -45,37 +45,32 @@ listed at the bottom of the pages introducing the individual analyses in the box
 Describing and cleaning your data
 ---------------------------------
 
-------------------------------------------------------------------
-Cleaning your data and checking assumptions for your main analyses
-------------------------------------------------------------------
-
 A quite essential part of a statistical analysis actually happens before we
-conduct them. That part is concerned with cleaning you data in order to
-fulfil the assumptions required to run most inference-statistical procedures.
-It relies on information we gathered during the `descriptive-statistical
-analysis <analyses/jg_1_descriptive-analyses.html>`__. It provides information for the
-search for and the removal of outliers, which is at the core of “cleaning your
-data”. Using `filters <analyses/jg_91_Filtering_data.html>`__ can help you
-with that task.
-  
-Among the aims when cleaning outliers is that outliers might lead to violations
-of the assumptions for parametric statistical tests: normality (and possibly
-linearity). I will briefly introduce how we can conduct two preliminary checks
-to assess whether the assumptions for conducting our main analyses are met: The
-first is to check whether the data are in accordance with a `normal
-distribution <analyses/jg_92_Checking_normality.html>`__, the other one is to assess
-whether the independent and the dependent variables stand in a `linear relation
-<analyses/tt_93_Checking_linearity.html>`__.
+conduct them. That part is concerned with first getting an overview over your
+data. We gather this information using `descriptive-statistical analyses
+<analyses/jg_11_descriptive-analyses.html>`__.
+
+Based upon this information, you assess whether your data meet the assumptions
+that are required to run most inference-statistical procedures. There are two
+checks that are central for assessing whether the assumptions for conducting
+our main analyses are met: The first asesses whether the data are in accordance
+with a `normal distribution <analyses/jg_16_Checking_normality.html>`__, the
+other assesses whether the independent and the dependent variables stand in a
+`linear relation <analyses/jg_17_Checking_linearity.html>`__.
+
+If these two assumptions are not met, this is often due to outliers in your
+data. Based upon the information we gathered, it becomes possible to search
+for and to remove such outliers. Using `filters
+<analyses/jg_18_Filtering_data.html>`__ can help you with that task.
 
 .. toctree::
    :hidden:
    :name: sec-descriptives
    
    analyses/jg_11_descriptive-analyses
-   analyses/jg_15_Filtering_data
    analyses/jg_16_Checking_normality
    analyses/jg_17_Checking_linearity
-  
+   analyses/jg_18_Filtering_data  
 
 -------
 t-tests
