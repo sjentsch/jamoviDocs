@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-27 11:03+0200\n"
+"POT-Creation-Date: 2020-08-21 00:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,238 +22,335 @@ msgstr ""
 #: ../../getting-started/jg_91_Filtering_data.rst:5
 msgid "How do I create a filter variable and use it for selection?"
 msgstr ""
-"Hvordan opretter jeg en filtervariabel og bruger den til at vælge deltagere?"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"open the ``Data`` tab and select ``Filter`` (either by using the symbol in "
-"the icon bar or the one in the bottom-left corner of the jamovi window)"
+"open the ``Data`` tab and select ``Filter`` (either by using the symbol "
+"in the icon bar or the one in the bottom-left corner of the jamovi "
+"window)"
 msgstr ""
-"åbne fanen ``Data`` og vælg ``Filter`` (enten ved at bruge symbolet i "
-"båndmenuen eller tragtikonet i nederste venstre hjørne af jamovi-vinduet)"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
+msgid "in order to access functions, press the ``fx`` icon in the filter settings"
+msgstr ""
+
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"in order to access functions, press the ``fx`` icon in the filter settings"
+"there also is a switch where you can activate or deactivate the filter "
+"(see the comment in red below)"
 msgstr ""
-"for at vælge (og samle) funktioner, skal du trykke på ``fx`` ikonet i "
-"filterindstillingerne"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"there also is a switch where you can activate or deactivate the filter (see "
-"the comment in red below)"
+"you close the filter settings by pressing the arrow in the top-right "
+"corner"
 msgstr ""
-"der er også en mulighed, hvor du kan aktivere eller deaktivere filteret (se "
-"også kommentaren i rødt nedenfor)"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
-msgid ""
-"you close the filter settings by pressing the arrow in the top-right corner"
-msgstr ""
-"for at lukke filterindstillingerne, tryk på pilen i øverste højre hjørne"
-
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid "there are three large approaches, to exclude outliers:"
-msgstr "de tre hovedmetoder til at udelukke outliers:"
+msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:19
 msgid ""
-"based upon z-scores (the absolute value should be larger 3.3; this equals to "
-"a probability of 0.1% = 1 / 1000)"
+"based upon z-scores (the absolute value should be larger 3.3; this equals"
+" to a probability of 0.1% = 1 / 1000)"
 msgstr ""
-"baseret på z-score (hvis den absolutte z-værdi er større 3,3; dette svarer "
-"til en sandsynlighed på 0,1% = 1/1000)"
 
 #: ../../getting-started/jg_91_Filtering_data.rst:21
 msgid "based upon the IQR (like in a box plot)"
-msgstr "baseret på IQR (som du ville have gjort visuelt i en boks plot)"
+msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:22
 msgid "based on the Mahalanobis distance (multivariate)"
 msgstr ""
-"baseret på Mahalanobis-afstand (som er en mulighed for at bestemme den "
-"multivariate afstand fra gennemsnittet af de variabler, som afstanden "
-"beregnes for)"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"for 1., there exists a function in jamovi (see next bullet point), for 2. and "
-"3. you have to use R-code (decribed two bullet point below); for 2. you could "
-"also do it visually (three bullet points below)"
+"for 1., there exists a function in jamovi (see next bullet point), for 2."
+" and 3. you have to use R-code (decribed two bullet point below); for 2. "
+"you could also do it visually (three bullet points below)"
 msgstr ""
-"for 1. der findes en funktion i jamovi (se næste punkt), for 2. og 3. skal du "
-"bruge R-kode (to punkter videre); til 2. du kan også gøre det visuelt (tre "
-"point længere)"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
-msgid ""
-"you can either use an function-based selection (e.g., based on z-scores):"
-msgstr "Du kan bruge et funktionsbaseret valg (f.eks. Baseret på z-scorer):"
-
-#: ../../getting-started/jg_91_Filtering_data.rst:0
-msgid ""
-"you can create a select variable (how to do that is `described below <#how-to-"
-"manually-create-a-variable-for-selecting-deselecting-cases>`__), use R-"
-"scripts to find outliers and mark those outliers in the variable you created:"
+#: ../../getting-started/jg_91_Filtering_data.rst
+msgid "you can either use an function-based selection (e.g., based on z-scores):"
 msgstr ""
-"Du kan oprette en markeringsvariabel (hvordan man gør det er `beskrevet "
-"senere \u003c# hvordan manuelt manuelt-oprette-en-variabel-til-valg-fravælge-"
-"sager\u003e` __), bruge R-kode til at finde outliers og vælge disse til eller "
-"fra i den valgvariabel, du oprettede:"
+
+#: ../../getting-started/jg_91_Filtering_data.rst
+msgid ""
+"you can create a select variable (how to do that is `described below "
+"<#how-to-manually-create-a-variable-for-selecting-deselecting-cases>`__),"
+" use R-scripts to find outliers and mark those outliers in the variable "
+"you created:"
+msgstr ""
 
 #: ../../getting-started/jg_91_Filtering_data.rst:41
 msgid ""
-"the first code example does this based upon the interquartile range (doing "
-"the same with code that you visually do with box plots; remember to adjust "
-"the variable names in VL)"
+"the first code example does this based upon the interquartile range "
+"(doing the same with code that you visually do with box plots; remember "
+"to adjust the variable names in VL)"
 msgstr ""
-"det første kodeeksempel bruger interkvartilområdet til valg (det gør det "
-"samme med kode, som du visuelt ville have gjort med kasseplaner; husk at "
-"justere variabelnavne i linjen, der begynder med VL i R-koden)"
 
 #: ../../getting-started/jg_91_Filtering_data.rst:63
 msgid ""
 "the second code example detects multivariate outliers based upon the "
 "Mahalanobis distance (remember to adjust the variable names in VL)"
 msgstr ""
-"det andet kodeeksempel detekterer multivariate outliers til valg baseret på "
-"Mahalanobis-afstand (husk at justere variabelnavne på linjen, der begynder "
-"med VL i R-koden)"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid "the output from those scripts tells you which lines you should de-select"
 msgstr ""
-"versionen fra disse R-scripts fortæller dig hvilke linjer / deltagere du skal "
-"fravælge i valgvariablen"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"you use the scripts within the `Rj editor <jamovi-module_Rj>`__, just copy-"
-"and-paste them and run them by hitting the ►-button (the little green "
-"triangle)"
+"you use the scripts within the `Rj editor <jamovi-module_Rj>`__, just "
+"copy-and-paste them and run them by hitting the ►-button (the little "
+"green triangle)"
 msgstr ""
-"du bruger scripts i `Rj editor \u003cjamovi-module_Rj\u003e` __ ved blot at "
-"kopiere og indsætte dem; bagefter kører du dem ved at trykke på ►-knappen "
-"(den lille grønne trekant)"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-":red:`PLEASE NOTE: If you already filtered cases, the lines with filtered "
-"cases are not included and the line numbers when using the R-scripts get "
-"wrong. Open the filter settings by either double-clicking on the header line "
-"of the filter variable or use the funnel-symbol in the bottom-left corner of "
-"the jamovi window (note that you can only see it, if you selected the tab "
-"“Data”) and deactivate the filter.`"
+":red:`PLEASE NOTE: If you already filtered cases, the lines with filtered"
+" cases are not included and the line numbers when using the R-scripts get"
+" wrong. Open the filter settings by either double-clicking on the header "
+"line of the filter variable or use the funnel-symbol in the bottom-left "
+"corner of the jamovi window (note that you can only see it, if you "
+"selected the tab “Data”) and deactivate the filter.`"
 msgstr ""
-": rød: `BEMÆRK: Hvis du allerede har filtreret deltagere, er de linjer, der "
-"blev filtreret ikke inkluderet, og linjenumrene, som du får som en version "
-"fra R-scripts, er forkerte. Åbn filterindstillingerne ved at dobbeltklikke på "
-"den øverste linje i filtervariablen eller på tragtikonet i nederste venstre "
-"hjørne af jamovi-vinduet (bemærk, at du kun kan se tragtikonet, hvis du "
-"valgte fanen \"Data\") og deaktivere filteret. '"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid "the filter conditions can be combined using boolean ``and`` / ``or``:"
 msgstr ""
-"betingelser for filtrering / valg kan kombineres ved hjælp af logiske ``og`` "
-"/ ``eller``:"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"you can also de-select cases by setting limits to the values of variables "
-"(after visually checking the box-plots under ``Descriptives``):"
+"you can also de-select cases by setting limits to the values of variables"
+" (after visually checking the box-plots under ``Descriptives``):"
 msgstr ""
-"Du kan også vælge en deltager ved at indstille grænseværdier for værdierne "
-"for variabler, såsom at outsiders er blevet fjernet (du gør dette ved visuelt "
-"at markere afkrydsningsfelter, som du får under ``Descriptives`` for "
-"outsiders):"
 
 #: ../../getting-started/jg_91_Filtering_data.rst:110
 msgid "How to manually create a variable for selecting / deselecting cases?"
 msgstr ""
-"Hvordan oprettes en variabel til manuelt at ekskludere / inkludere deltagere?"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid "open the ``Data`` tab so that you see your data spreadsheet"
-msgstr "åbn fanen ``Data``), så du kan se din datatabel"
-
-#: ../../getting-started/jg_91_Filtering_data.rst:0
-msgid ""
-"go to the first column (if there are filter variables, to the first column "
-"after those)"
 msgstr ""
-"gå til den første kolonne (eller hvis tabellen allerede indeholder "
-"filtervariabler, til den første kolonne efter disse)"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"right-click on the header line in that column, choose ``Add variable`` in the "
-"menu that opens, and then ``Data Variable`` → ``Insert``"
+"go to the first column (if there are filter variables, to the first "
+"column after those)"
 msgstr ""
-"højreklik på overskriften i denne kolonne, vælg ``Tilføj variabel`` i den "
-"kontekstmenu, der åbnes, og derefter ``Datavariabel`` → ``Indsæt``"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"briefly check how many participants are contained in your file by going to "
-"the last line of your data set, remember this line number"
+"right-click on the header line in that column, choose ``Add variable`` in"
+" the menu that opens, and then ``Data Variable`` → ``Insert``"
 msgstr ""
-"Kontroller, hvor mange deltagere der er i din datatabel ved at gå til den "
-"sidste linje i datasættet, og husk dette linjenummer"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
+msgid ""
+"briefly check how many participants are contained in your file by going "
+"to the last line of your data set, remember this line number"
+msgstr ""
+
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
 "now, we have to to a little bit of magic in Excel, LibreOffice Calc or "
-"`Google Sheets <https://docs.google.com/spreadsheets>`__: open one of these "
-"programs, write ``1`` in the first and the second line of an empty "
-"spreadsheet, mark these two lines and then use the little black marker bottom "
-"right to drag the ones until you reached the number of participants in your "
-"data set within jamovi"
+"`Google Sheets <https://docs.google.com/spreadsheets>`__: open one of "
+"these programs, write ``1`` in the first and the second line of an empty "
+"spreadsheet, mark these two lines and then use the little black marker "
+"bottom right to drag the ones until you reached the number of "
+"participants in your data set within jamovi"
 msgstr ""
-"nu skal vi gøre noget \"magi\" i Excel, LibreOffice Calc eller `Google Sheets "
-"\u003chttps://docs.google.com/spreadsheets\u003e` __: Åbn et af disse "
-"programmer, skriv ``1`` i de første to linjer i et tomt regneark skal du "
-"markere disse to linjer og derefter bruge den lille sorte markør nederst til "
-"højre til at trække dem ned, indtil du har nået antallet af deltagere i din "
-"datatabel i jamovi"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"copy the column with the ``1`` you just created to jamovi and paste it into "
-"the variable you just created"
+"copy the column with the ``1`` you just created to jamovi and paste it "
+"into the variable you just created"
 msgstr ""
-"kopier kolonnen med ``1]], du lige har oprettet, og indsæt den i "
-"markeringsvariablen i jamovi, du oprettede tre punkter før"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"open the filter settings (either by using the symbol in the icon bar or the "
-"funnel-icon in the bottom-left corner of the jamovi window) and either change "
-"an existing filter with adding:"
+"open the filter settings (either by using the symbol in the icon bar or "
+"the funnel-icon in the bottom-left corner of the jamovi window) and "
+"either change an existing filter with adding:"
 msgstr ""
-"åbn filterindstillingerne (enten ved hjælp af symbolet i båndmenuen eller ved "
-"tragtsymbolet i nederste venstre hjørne af jamovi-vinduet) og rediger et "
-"eksisterende filter ved at tilføje:"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid "or create a new filter with just writing:"
-msgstr "eller opret et nyt filter ved blot at skrive:"
-
-#: ../../getting-started/jg_91_Filtering_data.rst:0
-msgid ""
-"obviously you have to adjust ``[VARIABLE NAME]`` to the name of your selected "
-"variable"
 msgstr ""
-"naturligvis skal du matche ``[VARIABELT NAVN]`` til det navn, du gav "
-"valgvariablen"
 
-#: ../../getting-started/jg_91_Filtering_data.rst:0
+#: ../../getting-started/jg_91_Filtering_data.rst
 msgid ""
-"now you can de-select case by changing them ``1`` to ``0`` (and also select "
-"them again by changing ``0`` into ``1``)"
+"obviously you have to adjust ``[VARIABLE NAME]`` to the name of your "
+"selected variable"
 msgstr ""
-"nu kan du udelukke deltagerne ved at ændre værdien i valgvariablen for denne "
-"deltager fra ``1`` til ``0`` (og inkludere dem igen ved at ændre værdien fra "
-"``0`` til ``1 '')"
+
+#: ../../getting-started/jg_91_Filtering_data.rst
+msgid ""
+"now you can de-select case by changing them ``1`` to ``0`` (and also "
+"select them again by changing ``0`` into ``1``)"
+msgstr ""
+
+#~ msgid "you can manually create a select variable and use that (see below):"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "you can now use with R-scripts to"
+#~ " find outliers based upon the "
+#~ "`interquartile range <Syntax_Outliers_IQR_R.txt>`__ "
+#~ "(doing the same with code that you"
+#~ " visually do with box plots) and "
+#~ "multivariate outliers based upon the "
+#~ "`Mahalanobis distance "
+#~ "<Syntax_Outliers_Mahalanobis_R.txt>`__"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "..role:: red PLEASE NOTE: If you "
+#~ "already filtered cases, the lines with"
+#~ " filtered cases are not included and"
+#~ " the line numbers when using the "
+#~ "R-scripts get wrong. Open the filter "
+#~ "settings by either double-clicking on"
+#~ " the header line of the filter "
+#~ "variable or use the symbol in the"
+#~ " bottom-left corner of the jamovi "
+#~ "window (only to see if you "
+#~ "selected the tab “Data”) and deactivate"
+#~ " the filter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "open the filter settings (either by "
+#~ "using the symbol in the icon bar"
+#~ " or the one in the bottom-left"
+#~ " corner of the jamovi window) and "
+#~ "either change an existing filter with"
+#~ " adding: .. code-block:: and "
+#~ "[VARIABLE NAME] == 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "or create a new filter with just"
+#~ " writing: .. code-block:: [VARIABLE "
+#~ "NAME] == 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "there are three large approaches, to "
+#~ "exclude outliers: (1) based upon "
+#~ "z-scores (the absolute value should be"
+#~ " larger 3.3; this     equals to a "
+#~ "probability of 0.1% = 1 / 1000)"
+#~ " (2) based upon the IQR (like "
+#~ "in a box plot) (3) based on "
+#~ "the Mahalanobis distance (multivariate)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "there are three large approaches, to "
+#~ "exclude outliers: #. based upon z-scores"
+#~ " (the absolute value should be larger"
+#~ " 3.3; this    equals to a probability"
+#~ " of 0.1% = 1 / 1000) #. "
+#~ "based upon the IQR (like in a "
+#~ "box plot) #. based on the "
+#~ "Mahalanobis distance (multivariate)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "for (1), there exists a function "
+#~ "in jamovi (see next bullet point), "
+#~ "for (2) and (3) you have to "
+#~ "use R-code (decribed two bullet point"
+#~ " below); for (2) you could also "
+#~ "do it visually (three bullet points "
+#~ "below)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "open the “Data” tab and select "
+#~ "“Filter” (either by using the symbol "
+#~ "in the icon bar or the one "
+#~ "in the bottom-left corner of the"
+#~ " jamovi window)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "in order to access functions, press "
+#~ "the “fx” icon in the filter "
+#~ "settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "you use the scripts within the `Rj"
+#~ " editor <jamovi-module_Rj>`__, just "
+#~ "copy-and-paste them and run them "
+#~ "by hitting the \"Play\"-button (the "
+#~ "little green triangle)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "you can also de-select cases by"
+#~ " setting limits to the values of "
+#~ "variables (after visually checking the "
+#~ "box-plots under “Descriptives”):"
+#~ msgstr ""
+
+#~ msgid "open the “Data” tab so that you see your data spreadsheet"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "right-click on the header line in"
+#~ " that column, choose \"Add variable\" "
+#~ "in the menu that opens, and then"
+#~ " Data Variable → \"Insert\""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "now, we have to to a little "
+#~ "bit of magic in Excel, LibreOffice "
+#~ "Calc or `Google Sheets "
+#~ "<https://docs.google.com/spreadsheets>`__: open one "
+#~ "of these programs, write \"1\" in "
+#~ "the first and the second line of"
+#~ " an empty spreadsheet, mark these two"
+#~ " lines and then use the little "
+#~ "black marker bottom right to drag "
+#~ "the ones until you reached the "
+#~ "number of participants in your data "
+#~ "set within jamovi"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "copy the column with the \"1\" you"
+#~ " just created to jamovi and paste "
+#~ "it into the variable you just "
+#~ "created"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "open the filter settings (either by "
+#~ "using the symbol in the icon bar"
+#~ " or the one in the bottom-left"
+#~ " corner of the jamovi window) and "
+#~ "either change an existing filter with"
+#~ " adding:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "now you can de-select case by "
+#~ "changing them \"1\" to \"0\" (and "
+#~ "also select them again by changing "
+#~ "\"0\" into \"1\")"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "you use the scripts within the `Rj"
+#~ " editor <jamovi-module_Rj>`__, just "
+#~ "copy-and-paste them and run them "
+#~ "by hitting the ``Play``-button (the "
+#~ "little green triangle)"
+#~ msgstr ""
 

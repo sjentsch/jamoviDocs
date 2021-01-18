@@ -16,7 +16,8 @@ If you got stuck or get questions regarding jamovi, these can be asked in the
 `jamovi forum <https://forum.jamovi.org>`__.
    
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
+   :name: sec-getting-started
 
    getting-started/um_1_installation
    getting-started/um_2_first-steps
