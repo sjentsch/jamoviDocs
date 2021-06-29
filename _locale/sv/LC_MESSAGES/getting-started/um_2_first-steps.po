@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-20 23:12+0200\n"
+"POT-Creation-Date: 2021-01-18 16:50+0100\n"
 "PO-Revision-Date: 2020-07-20 23:24+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sv\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../getting-started/um_2_first-steps.rst:4
 msgid "The first steps in jamovi"
@@ -78,426 +78,6 @@ msgid ""
 "in our GitHub `issue tracker "
 "<https://github.com/jamovi/jamovi/issues>`__. We are keen to make our "
 "importer as robust as possible."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:47
-msgid "Analyses"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:49
-msgid ""
-"Analyses can be selected from the analyses ribbon or menu along the top. "
-"Selecting an analysis will present an “options panel” for that particular"
-" analysis, allowing you to assign different variables to different parts "
-"of the analysis, and select different options. At the same time, the "
-"results for the analysis will appear in the right “results panel”, and "
-"will update as you make changes to the options."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:56
-msgid ""
-"When you have the analysis set up correctly, you can dismiss the analysis"
-" options by clicking the arrow to the top right of the options panel. If "
-"you wish to return to these options, you can click on the results that "
-"were produced. In this way, you can return to any analysis that you (or "
-"say, a colleague) created earlier."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:62
-msgid ""
-"If you decide you no longer need a particular analysis, you can remove it"
-" with the results context menu. Right-clicking on the analysis results "
-"will bring up a menu, and by selecting ``Analysis``, and then ``Remove``,"
-" the analysis can be removed."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:69
-msgid ""
-"An overview with short, non-technical tutorials on how to do common "
-"procedures in jamovi can be found under `jamovi-guide "
-"<jg_0_welcome.html>`__ (later in this section)."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:75
-msgid "The Spreadsheet"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:77
-msgid ""
-"In jamovi, data is represented in a spreadsheet, with each column "
-"representing a “variable”."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:81
-msgid "Data Variables"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:83
-msgid ""
-"The most commonly used variables in jamovi are “Data Variables”, these "
-"variables simply contain data either loaded from a data file, or “typed "
-"in” by the user. Data variables can be one three data types:"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:87
-msgid "``Integer``"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:88
-msgid "``Decimal``"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:89
-msgid "``Text``"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:91
-msgid "and one of four measure types:"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:93
-msgid "|nominal|    ``Nominal``"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:94
-msgid "|ordinal|    ``Ordinal``"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:95
-msgid "|continuous| ``Continuous``"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:96
-msgid "|id|         ``ID``"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:98
-msgid ""
-"The measure types are designated by the symbol in the header of the "
-"variable’s column. Note that some combinations of data-type and measure- "
-"type don’t make sense, and jamovi won’t let you choose these."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:102
-msgid ""
-"``Nominal`` and ``Ordinal`` are, predictably, for nominal and ordinal "
-"variables. ``Continuous`` is for variables with numeric values which are "
-"considered to be *Interval* or *Ratio* scales (Equivalent to ``Scale`` in"
-" SPSS). The ``ID`` measure type is, unlike the others, unique to jamovi. "
-"It’s intended for variables that contain identifiers that you would "
-"almost never want to analyse. For example, a persons name, or a "
-"participant ID. The advantage of IDs, is that jamovi does not need to "
-"maintain a list of levels internally, which can improve performance when "
-"interacting with very large data sets."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:112
-msgid ""
-"When starting with a blank spreadsheet and typing values in, the data and"
-" measure types will change automatically depending on the data you enter."
-" This is a good way to get a feel for which variable types go with which "
-"sorts of data. Similarly, when opening a data file, jamovi will infer the"
-" variable type from the data in each column. In both cases, this "
-"automatic approach may not be correct, and it may be necessary to "
-"manually specify the data and measure type with the variable editor."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:120
-msgid ""
-"The variable editor can be invoked by selecting ``Setup`` from the "
-"``Data`` tab, double-clicking on the column header, or by pressing "
-"``F3``. The variable editor allows you to change the name of the "
-"variable, and (for data variables) the data type, the measure type, the "
-"order of the levels, and the label displayed for each level. The variable"
-" editor can be dismissed by clicking the close arrow, or by pressing "
-"``F3`` again."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:129
-msgid ""
-"New variables can be inserted or appended to the data set using the "
-"``Add`` button from the data ribbon. The ``Add`` button also allows the "
-"addition of *Computed variables*."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:135
-msgid "Computed Variables"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:137
-msgid ""
-"Computed Variables are those which take their value by performing a "
-"computation on other Variables. Computed Variables can be used for a "
-"range of purposes, including log transforms, z-scores, sum-scores, "
-"negative scoring and means."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:142
-msgid ""
-"*Computed variable*\\ s can be added to the data set, with the ``Add`` "
-"button available on the data tab. This will produce a formula box where "
-"you can specify the formula. The usual arithmetic operators are "
-"available. Some examples of formulas are:"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:155
-msgid ""
-"In order, these are the sum of A and B, a log (base 10) transform of "
-"``len``, the mean of ``A`` and ``B``, and the z-score of ``dose`` "
-"(twice)."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:159
-msgid "There are many more functions available."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:162
-msgid "``V``-functions"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:164
-msgid ""
-"A number of functions appear in pairs, one prefixed with a ``V`` and the "
-"other not. ``V`` functions perform their calculation on a variable *as a "
-"whole*, where as non-``V`` functions perform their calculation row by "
-"row. For example, ``MEAN(A, B)`` will produce the mean of ``A`` and ``B``"
-" for each row. Where as ``VMEAN(A)`` gives the mean of *all* the values "
-"in ``A``."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:171
-msgid ""
-"Additionally ``V`` functions support a ``group_by`` argument (in \\0.9.6 "
-"and up). When a ``group_by`` variable is specified, a separate value is "
-"calculated for each level of the ``group_by`` variable. In the following "
-"example:"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:180
-msgid ""
-"A separate mean is calculated for each level of ``dose``, and each value "
-"in the computed variable will be the mean corresponding to it’s row’s "
-"value of ``dose``."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:185
-msgid "Recoded Variables"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:187
-msgid ""
-"Transformed and recoded variables are also available. See this `blog post"
-" <https://blog.jamovi.org/2018/10/23/transforming-variables.html>`__ for "
-"details."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:192
-msgid "Filters"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:194
-msgid ""
-"Filters in jamovi allow you to filter out rows that you don’t want "
-"included in your analysis. For example, you might want to only include "
-"people’s survey responses if they explicitly consented to having their "
-"data used, or you might want to exclude all left-handed people, or "
-"perhaps people who score “below chance” in an experimental task. In some "
-"cases you just want to exclude extreme scores, for example those that "
-"score more than 3 standard deviations from the mean."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:202
-msgid ""
-"The filters in jamovi are build on top of jamovi’s *computed variable* "
-"formula system, which allows the building of arbitrarily complex "
-"formulas."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:205
-msgid ""
-"More details about filters are covered in this `blog post "
-"<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:209
-msgid "Updating data"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:211
-msgid ""
-"Once a data set is set up with filters, computed variables, transforms "
-"and analyses, sometimes you may want to update the data. This may be for "
-"a number of reasons – It might be that you have a new data set, that you "
-"want to apply the analyses you performed earlier to it, or you may be "
-"conducting an experiment where you’re tesing a number of participants, "
-"and you now have an additional participant’s data to analyse. By "
-"importing into an existing data set you can re-run your analyses without "
-"having to re-perform all of your data cleaning and analysis steps (making"
-" your jamovi files behave a bit like scripts)."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:221
-msgid ""
-"For a video introduction to import and templates in jamovi, see this "
-"`blog post <https://blog.jamovi.org/2019/03/27/import.html>`__."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:225
-msgid "Single-file Import"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:227
-msgid ""
-"Import is available from the file menu (☰) at the top left of jamovi. "
-"When you import a file into an existing data set, the following "
-"operations are performed:"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:231
-msgid "All the rows of the existing data set are deleted."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:232
-msgid ""
-"All the (original) names of the existing columns are matched to the names"
-" of the columns from the new data set."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:234
-msgid ""
-"The new values are imported to the existing columns, *keeping* the data "
-"and measure types from the existing data set."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:236
-msgid ""
-"The new columns which did not match names in the original data set are "
-"appended to the right of the data set."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:239
-msgid ""
-"If no new column matches the column names in the existing data set, then "
-"those columns are left blank."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:242
-msgid ""
-"Following a file import, all the filters, computed variables, transforms "
-"and analyses update."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:246
-msgid "Multi-file Import"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:248
-msgid ""
-"It is also possible to import multiple files at once. This can be useful "
-"when you are combining multiple data sets, for example, where each file "
-"represents a participant. The process is the same as the single-file "
-"import detailed above, except that you select multiple files when "
-"performing the import. You can do this by holding down control or shift "
-"when selecting data files, or with the “multi-select” button at the top "
-"of the import dialog."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:255
-msgid ""
-"When importing multiple files like this, they are combined vertically "
-"with the rows of the second file appearing below the first, the rows of "
-"the third file appearing below the second, and so on. An additional "
-"column called ``source`` is created detailing which file each row has "
-"come from. This can be useful when you need to “split-by” or “group-by” "
-"each participant. This column can be particularly useful to use with the "
-"``group_by`` argument to ``V``-functions described above."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:263
-msgid "At present, there is no way to combine files horizontally in jamovi."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:266
-msgid "Templates"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:268
-msgid ""
-"Templates in jamovi are special data sets that are analagous to script "
-"files in more traditional statistical environments. They are a way to "
-"specify data types, computations, filters, transforms, and analyses in "
-"advance. Once the data becomes available, it can be imported into the "
-"template, and the template will update accordingly. The nice thing about "
-"jamovi templates is that they are entirely specified with the familiar "
-"user interface, and do not require working with a “syntax” or code."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:276
-msgid ""
-"To save a data set as a template, select ``Export`` from the file menu, "
-"and select ``jamovi template (.omt)`` from the file type box. When "
-"opening a template, you’ll see it contains columns but no rows, and that "
-"all the analysis results are blank. To use the template, import a new "
-"data set (or data sets) using the file import described above. The data "
-"will update, followed by the filters, computed variables, and finally the"
-" analysis results."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:284
-msgid ""
-"jamovi templates are also a great way to provide analyses to less capable"
-" students or colleagues."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:288
-msgid "Copy and Paste"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:290
-msgid ""
-"jamovi produces nice APA formatted tables, and attractive plots. It is "
-"often useful to be able to copy and paste these, perhaps into a Word "
-"document, or into an email to a colleague. To copy results, right click "
-"on the object of interest, and from the menu select exactly what you want"
-" to copy. The menu allows you to choose to copy, say only the image, or "
-"the entire analysis. Selecting copy, copies the content to the clipboard,"
-" and can be pasted into the other program in the usual way."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:301
-msgid "Syntax Mode"
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:303
-msgid ""
-"jamovi also provides an “R Syntax Mode”, in this mode, jamovi produces "
-"equivalent R code for each analysis. To change to syntax mode, select the"
-" application menu (⋮) at the top right of jamovi, and check the ``Syntax "
-"mode`` checkbox there. It is possible to leave syntax mode by clicking "
-"this a second time."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:309
-msgid ""
-"In syntax mode, analyses continue to operate as before, but now they "
-"produce R syntax, and “ASCII output” like an R session. Like all results "
-"objects in jamovi, you can right click on these items (including the R "
-"syntax) and copy and paste them, for example, into an R session."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:316
-msgid ""
-"At present, the provided R syntax does not include the data import step, "
-"and this must be performed manually. There are many resources explaining "
-"how to import data into R, and we recommend you take a look at these "
-"(Most analyses in jamovi require data as a data frame)."
-msgstr ""
-
-#: ../../getting-started/um_2_first-steps.rst:321
-msgid ""
-"Another R feature that may be of interest is the `Rj module "
-"<https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows you to use "
-"R code to analyse data directly in jamovi."
 msgstr ""
 
 #~ msgid "|screenshot|"
@@ -713,5 +293,512 @@ msgstr ""
 #~ " the R syntax) and copy and "
 #~ "paste them, for example, into an R"
 #~ " session."
+#~ msgstr ""
+
+#~ msgid "Analyses"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Analyses can be selected from the "
+#~ "analyses ribbon or menu along the "
+#~ "top. Selecting an analysis will present"
+#~ " an “options panel” for that "
+#~ "particular analysis, allowing you to "
+#~ "assign different variables to different "
+#~ "parts of the analysis, and select "
+#~ "different options. At the same time, "
+#~ "the results for the analysis will "
+#~ "appear in the right “results panel”, "
+#~ "and will update as you make "
+#~ "changes to the options."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you have the analysis set up"
+#~ " correctly, you can dismiss the "
+#~ "analysis options by clicking the arrow"
+#~ " to the top right of the "
+#~ "options panel. If you wish to "
+#~ "return to these options, you can "
+#~ "click on the results that were "
+#~ "produced. In this way, you can "
+#~ "return to any analysis that you "
+#~ "(or say, a colleague) created earlier."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you decide you no longer need"
+#~ " a particular analysis, you can "
+#~ "remove it with the results context "
+#~ "menu. Right-clicking on the analysis "
+#~ "results will bring up a menu, and"
+#~ " by selecting ``Analysis``, and then "
+#~ "``Remove``, the analysis can be removed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An overview with short, non-technical"
+#~ " tutorials on how to do common "
+#~ "procedures in jamovi can be found "
+#~ "under `jamovi-guide <jg_0_welcome.html>`__ "
+#~ "(later in this section)."
+#~ msgstr ""
+
+#~ msgid "The Spreadsheet"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In jamovi, data is represented in "
+#~ "a spreadsheet, with each column "
+#~ "representing a “variable”."
+#~ msgstr ""
+
+#~ msgid "Data Variables"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The most commonly used variables in "
+#~ "jamovi are “Data Variables”, these "
+#~ "variables simply contain data either "
+#~ "loaded from a data file, or “typed"
+#~ " in” by the user. Data variables "
+#~ "can be one three data types:"
+#~ msgstr ""
+
+#~ msgid "``Integer``"
+#~ msgstr ""
+
+#~ msgid "``Decimal``"
+#~ msgstr ""
+
+#~ msgid "``Text``"
+#~ msgstr ""
+
+#~ msgid "and one of four measure types:"
+#~ msgstr ""
+
+#~ msgid "|nominal|    ``Nominal``"
+#~ msgstr ""
+
+#~ msgid "|ordinal|    ``Ordinal``"
+#~ msgstr ""
+
+#~ msgid "|continuous| ``Continuous``"
+#~ msgstr ""
+
+#~ msgid "|id|         ``ID``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The measure types are designated by "
+#~ "the symbol in the header of the"
+#~ " variable’s column. Note that some "
+#~ "combinations of data-type and measure-"
+#~ " type don’t make sense, and jamovi"
+#~ " won’t let you choose these."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``Nominal`` and ``Ordinal`` are, predictably,"
+#~ " for nominal and ordinal variables. "
+#~ "``Continuous`` is for variables with "
+#~ "numeric values which are considered to"
+#~ " be *Interval* or *Ratio* scales "
+#~ "(Equivalent to ``Scale`` in SPSS). The"
+#~ " ``ID`` measure type is, unlike the"
+#~ " others, unique to jamovi. It’s "
+#~ "intended for variables that contain "
+#~ "identifiers that you would almost never"
+#~ " want to analyse. For example, a "
+#~ "persons name, or a participant ID. "
+#~ "The advantage of IDs, is that "
+#~ "jamovi does not need to maintain a"
+#~ " list of levels internally, which can"
+#~ " improve performance when interacting with"
+#~ " very large data sets."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When starting with a blank spreadsheet"
+#~ " and typing values in, the data "
+#~ "and measure types will change "
+#~ "automatically depending on the data you"
+#~ " enter. This is a good way to"
+#~ " get a feel for which variable "
+#~ "types go with which sorts of data."
+#~ " Similarly, when opening a data file,"
+#~ " jamovi will infer the variable type"
+#~ " from the data in each column. "
+#~ "In both cases, this automatic approach"
+#~ " may not be correct, and it may"
+#~ " be necessary to manually specify the"
+#~ " data and measure type with the "
+#~ "variable editor."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The variable editor can be invoked "
+#~ "by selecting ``Setup`` from the ``Data``"
+#~ " tab, double-clicking on the column"
+#~ " header, or by pressing ``F3``. The"
+#~ " variable editor allows you to change"
+#~ " the name of the variable, and "
+#~ "(for data variables) the data type, "
+#~ "the measure type, the order of the"
+#~ " levels, and the label displayed for"
+#~ " each level. The variable editor can"
+#~ " be dismissed by clicking the close"
+#~ " arrow, or by pressing ``F3`` again."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "New variables can be inserted or "
+#~ "appended to the data set using the"
+#~ " ``Add`` button from the data ribbon."
+#~ " The ``Add`` button also allows the"
+#~ " addition of *Computed variables*."
+#~ msgstr ""
+
+#~ msgid "Computed Variables"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Computed Variables are those which take"
+#~ " their value by performing a "
+#~ "computation on other Variables. Computed "
+#~ "Variables can be used for a range"
+#~ " of purposes, including log transforms, "
+#~ "z-scores, sum-scores, negative scoring "
+#~ "and means."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Computed variable*\\ s can be added "
+#~ "to the data set, with the ``Add``"
+#~ " button available on the data tab."
+#~ " This will produce a formula box "
+#~ "where you can specify the formula. "
+#~ "The usual arithmetic operators are "
+#~ "available. Some examples of formulas "
+#~ "are:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order, these are the sum of "
+#~ "A and B, a log (base 10) "
+#~ "transform of ``len``, the mean of "
+#~ "``A`` and ``B``, and the z-score "
+#~ "of ``dose`` (twice)."
+#~ msgstr ""
+
+#~ msgid "There are many more functions available."
+#~ msgstr ""
+
+#~ msgid "``V``-functions"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A number of functions appear in "
+#~ "pairs, one prefixed with a ``V`` "
+#~ "and the other not. ``V`` functions "
+#~ "perform their calculation on a variable"
+#~ " *as a whole*, where as non-``V`` "
+#~ "functions perform their calculation row "
+#~ "by row. For example, ``MEAN(A, B)`` "
+#~ "will produce the mean of ``A`` and"
+#~ " ``B`` for each row. Where as "
+#~ "``VMEAN(A)`` gives the mean of *all* "
+#~ "the values in ``A``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Additionally ``V`` functions support a "
+#~ "``group_by`` argument (in \\0.9.6 and "
+#~ "up). When a ``group_by`` variable is "
+#~ "specified, a separate value is "
+#~ "calculated for each level of the "
+#~ "``group_by`` variable. In the following "
+#~ "example:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A separate mean is calculated for "
+#~ "each level of ``dose``, and each "
+#~ "value in the computed variable will "
+#~ "be the mean corresponding to it’s "
+#~ "row’s value of ``dose``."
+#~ msgstr ""
+
+#~ msgid "Recoded Variables"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Transformed and recoded variables are "
+#~ "also available. See this `blog post "
+#~ "<https://blog.jamovi.org/2018/10/23/transforming-"
+#~ "variables.html>`__ for details."
+#~ msgstr ""
+
+#~ msgid "Filters"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Filters in jamovi allow you to "
+#~ "filter out rows that you don’t "
+#~ "want included in your analysis. For "
+#~ "example, you might want to only "
+#~ "include people’s survey responses if "
+#~ "they explicitly consented to having "
+#~ "their data used, or you might want"
+#~ " to exclude all left-handed people,"
+#~ " or perhaps people who score “below"
+#~ " chance” in an experimental task. In"
+#~ " some cases you just want to "
+#~ "exclude extreme scores, for example "
+#~ "those that score more than 3 "
+#~ "standard deviations from the mean."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The filters in jamovi are build on"
+#~ " top of jamovi’s *computed variable* "
+#~ "formula system, which allows the "
+#~ "building of arbitrarily complex formulas."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "More details about filters are covered"
+#~ " in this `blog post "
+#~ "<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__"
+#~ msgstr ""
+
+#~ msgid "Updating data"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once a data set is set up "
+#~ "with filters, computed variables, transforms"
+#~ " and analyses, sometimes you may want"
+#~ " to update the data. This may "
+#~ "be for a number of reasons – "
+#~ "It might be that you have a "
+#~ "new data set, that you want to "
+#~ "apply the analyses you performed earlier"
+#~ " to it, or you may be "
+#~ "conducting an experiment where you’re "
+#~ "tesing a number of participants, and "
+#~ "you now have an additional participant’s"
+#~ " data to analyse. By importing into"
+#~ " an existing data set you can "
+#~ "re-run your analyses without having "
+#~ "to re-perform all of your data "
+#~ "cleaning and analysis steps (making your"
+#~ " jamovi files behave a bit like "
+#~ "scripts)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For a video introduction to import "
+#~ "and templates in jamovi, see this "
+#~ "`blog post "
+#~ "<https://blog.jamovi.org/2019/03/27/import.html>`__."
+#~ msgstr ""
+
+#~ msgid "Single-file Import"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Import is available from the file "
+#~ "menu (☰) at the top left of "
+#~ "jamovi. When you import a file "
+#~ "into an existing data set, the "
+#~ "following operations are performed:"
+#~ msgstr ""
+
+#~ msgid "All the rows of the existing data set are deleted."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All the (original) names of the "
+#~ "existing columns are matched to the "
+#~ "names of the columns from the new"
+#~ " data set."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The new values are imported to the"
+#~ " existing columns, *keeping* the data "
+#~ "and measure types from the existing "
+#~ "data set."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The new columns which did not "
+#~ "match names in the original data "
+#~ "set are appended to the right of"
+#~ " the data set."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no new column matches the "
+#~ "column names in the existing data "
+#~ "set, then those columns are left "
+#~ "blank."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Following a file import, all the "
+#~ "filters, computed variables, transforms and"
+#~ " analyses update."
+#~ msgstr ""
+
+#~ msgid "Multi-file Import"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is also possible to import "
+#~ "multiple files at once. This can "
+#~ "be useful when you are combining "
+#~ "multiple data sets, for example, where"
+#~ " each file represents a participant. "
+#~ "The process is the same as the "
+#~ "single-file import detailed above, "
+#~ "except that you select multiple files"
+#~ " when performing the import. You can"
+#~ " do this by holding down control "
+#~ "or shift when selecting data files, "
+#~ "or with the “multi-select” button "
+#~ "at the top of the import dialog."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When importing multiple files like this,"
+#~ " they are combined vertically with "
+#~ "the rows of the second file "
+#~ "appearing below the first, the rows "
+#~ "of the third file appearing below "
+#~ "the second, and so on. An "
+#~ "additional column called ``source`` is "
+#~ "created detailing which file each row"
+#~ " has come from. This can be "
+#~ "useful when you need to “split-by”"
+#~ " or “group-by” each participant. This"
+#~ " column can be particularly useful to"
+#~ " use with the ``group_by`` argument "
+#~ "to ``V``-functions described above."
+#~ msgstr ""
+
+#~ msgid "At present, there is no way to combine files horizontally in jamovi."
+#~ msgstr ""
+
+#~ msgid "Templates"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Templates in jamovi are special data "
+#~ "sets that are analagous to script "
+#~ "files in more traditional statistical "
+#~ "environments. They are a way to "
+#~ "specify data types, computations, filters, "
+#~ "transforms, and analyses in advance. "
+#~ "Once the data becomes available, it "
+#~ "can be imported into the template, "
+#~ "and the template will update "
+#~ "accordingly. The nice thing about jamovi"
+#~ " templates is that they are entirely"
+#~ " specified with the familiar user "
+#~ "interface, and do not require working"
+#~ " with a “syntax” or code."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To save a data set as a "
+#~ "template, select ``Export`` from the "
+#~ "file menu, and select ``jamovi template"
+#~ " (.omt)`` from the file type box. "
+#~ "When opening a template, you’ll see "
+#~ "it contains columns but no rows, "
+#~ "and that all the analysis results "
+#~ "are blank. To use the template, "
+#~ "import a new data set (or data "
+#~ "sets) using the file import described"
+#~ " above. The data will update, "
+#~ "followed by the filters, computed "
+#~ "variables, and finally the analysis "
+#~ "results."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "jamovi templates are also a great "
+#~ "way to provide analyses to less "
+#~ "capable students or colleagues."
+#~ msgstr ""
+
+#~ msgid "Copy and Paste"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "jamovi produces nice APA formatted "
+#~ "tables, and attractive plots. It is "
+#~ "often useful to be able to copy"
+#~ " and paste these, perhaps into a "
+#~ "Word document, or into an email to"
+#~ " a colleague. To copy results, right"
+#~ " click on the object of interest, "
+#~ "and from the menu select exactly "
+#~ "what you want to copy. The menu"
+#~ " allows you to choose to copy, "
+#~ "say only the image, or the entire"
+#~ " analysis. Selecting copy, copies the "
+#~ "content to the clipboard, and can "
+#~ "be pasted into the other program "
+#~ "in the usual way."
+#~ msgstr ""
+
+#~ msgid "Syntax Mode"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "jamovi also provides an “R Syntax "
+#~ "Mode”, in this mode, jamovi produces "
+#~ "equivalent R code for each analysis. "
+#~ "To change to syntax mode, select "
+#~ "the application menu (⋮) at the "
+#~ "top right of jamovi, and check the"
+#~ " ``Syntax mode`` checkbox there. It "
+#~ "is possible to leave syntax mode "
+#~ "by clicking this a second time."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In syntax mode, analyses continue to "
+#~ "operate as before, but now they "
+#~ "produce R syntax, and “ASCII output” "
+#~ "like an R session. Like all "
+#~ "results objects in jamovi, you can "
+#~ "right click on these items (including"
+#~ " the R syntax) and copy and "
+#~ "paste them, for example, into an R"
+#~ " session."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At present, the provided R syntax "
+#~ "does not include the data import "
+#~ "step, and this must be performed "
+#~ "manually. There are many resources "
+#~ "explaining how to import data into "
+#~ "R, and we recommend you take a "
+#~ "look at these (Most analyses in "
+#~ "jamovi require data as a data "
+#~ "frame)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Another R feature that may be of"
+#~ " interest is the `Rj module "
+#~ "<https://blog.jamovi.org/2018/07/30/rj.html>`__, which "
+#~ "allows you to use R code to "
+#~ "analyse data directly in jamovi."
 #~ msgstr ""
 

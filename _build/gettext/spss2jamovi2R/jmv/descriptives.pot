@@ -1,0 +1,333 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-18 16:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:5
+msgid "Descriptives (``descriptives``)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:10
+msgid "Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice to explore your data with descriptives before proceeding to more formal tests."
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:16
+msgid "Usage"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:56
+msgid "Arguments"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:59
+msgid "``data``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:59
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:61
+msgid "``vars``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:61
+msgid "a vector of strings naming the variables of interest in ``data``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:64
+msgid "``splitBy``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:64
+msgid "a vector of strings naming the variables used to split ``vars``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:67
+msgid "``freq``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:67
+msgid "``TRUE`` or ``FALSE`` (default), provide frequency tables (nominal, ordinal variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:70
+msgid "``hist``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:70
+msgid "``TRUE`` or ``FALSE`` (default), provide histograms (continuous variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:73
+msgid "``dens``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:73
+msgid "``TRUE`` or ``FALSE`` (default), provide density plots (continuous variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:76
+msgid "``bar``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:76
+msgid "``TRUE`` or ``FALSE`` (default), provide bar plots (nominal, ordinal variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:79
+msgid "``barCounts``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:79
+msgid "``TRUE`` or ``FALSE`` (default), add counts to the bar plots"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:82
+msgid "``box``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:82
+msgid "``TRUE`` or ``FALSE`` (default), provide box plots (continuous variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:85
+msgid "``violin``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:85
+msgid "``TRUE`` or ``FALSE`` (default), provide violin plots (continuous variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:88
+msgid "``dot``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:88
+msgid "``TRUE`` or ``FALSE`` (default), provide dot plots (continuous variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:91
+msgid "``dotType``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:91
+msgid "."
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:93
+msgid "``qq``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:93
+msgid "``TRUE`` or ``FALSE`` (default), provide Q-Q plots (continuous variables only)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:96
+msgid "``n``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:96
+msgid "``TRUE`` (default) or ``FALSE``, provide the sample size"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:99
+msgid "``missing``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:99
+msgid "``TRUE`` (default) or ``FALSE``, provide the number of missing values"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:102
+msgid "``mean``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:102
+msgid "``TRUE`` (default) or ``FALSE``, provide the mean"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:104
+msgid "``median``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:104
+msgid "``TRUE`` (default) or ``FALSE``, provide the median"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:106
+msgid "``mode``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:106
+msgid "``TRUE`` or ``FALSE`` (default), provide the mode"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:108
+msgid "``sum``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:108
+msgid "``TRUE`` or ``FALSE`` (default), provide the sum"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:110
+msgid "``sd``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:110
+msgid "``TRUE`` (default) or ``FALSE``, provide the standard deviation"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:113
+msgid "``variance``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:113
+msgid "``TRUE`` or ``FALSE`` (default), provide the variance"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:116
+msgid "``range``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:116
+msgid "``TRUE`` or ``FALSE`` (default), provide the range"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:118
+msgid "``min``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:118
+msgid "``TRUE`` or ``FALSE`` (default), provide the minimum"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:121
+msgid "``max``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:121
+msgid "``TRUE`` or ``FALSE`` (default), provide the maximum"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:124
+msgid "``se``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:124
+msgid "``TRUE`` or ``FALSE`` (default), provide the standard error"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:127
+msgid "``skew``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:127
+msgid "``TRUE`` or ``FALSE`` (default), provide the skewness"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:130
+msgid "``kurt``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:130
+msgid "``TRUE`` or ``FALSE`` (default), provide the kurtosis"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:133
+msgid "``sw``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:133
+msgid "``TRUE`` or ``FALSE`` (default), provide Shapiro-Wilk p-value"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:136
+msgid "``quart``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:136
+msgid "``TRUE`` or ``FALSE`` (default), provide quartiles"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:138
+msgid "``pcEqGr``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:138
+msgid "``TRUE`` or ``FALSE`` (default), provide quantiles"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:140
+msgid "``pcNEqGr``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:140
+msgid "an integer (default: 4) specifying the number of equal groups"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:143
+msgid "``formula``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:143
+msgid "(optional) the formula to use, see the examples"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:147
+msgid "Output"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:149
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:152
+msgid "``results$descriptives``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:152
+msgid "a table of the descriptive statistics"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:153
+msgid "``results$frequencies``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:153
+msgid "an array of frequency tables"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:156
+msgid "Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:159
+msgid "``results$descriptives$asDF``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:161
+msgid "``as.data.frame(results$descriptives)``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/descriptives.rst:164
+msgid "Examples"
+msgstr ""

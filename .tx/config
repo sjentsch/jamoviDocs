@@ -7,12 +7,6 @@ source_file = _build/gettext/index.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.getting-started--um_0_welcome]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_0_welcome.po
-source_file = _build/gettext/getting-started/um_0_welcome.pot
-source_lang = en
-type = PO
-
 [jamovi-documentation.getting-started--um_1_installation]
 file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_1_installation.po
 source_file = _build/gettext/getting-started/um_1_installation.pot
@@ -22,90 +16,6 @@ type = PO
 [jamovi-documentation.getting-started--um_2_first-steps]
 file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_2_first-steps.po
 source_file = _build/gettext/getting-started/um_2_first-steps.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_0_welcome]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_0_welcome.po
-source_file = _build/gettext/getting-started/jg_0_welcome.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_1_descriptive-analyses]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_1_descriptive-analyses.po
-source_file = _build/gettext/getting-started/jg_1_descriptive-analyses.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_21_t-test-independent]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_21_t-test-independent.po
-source_file = _build/gettext/getting-started/jg_21_t-test-independent.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_22_t-test-paired]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_22_t-test-paired.po
-source_file = _build/gettext/getting-started/jg_22_t-test-paired.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_23_t-test-onesample]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_23_t-test-onesample.po
-source_file = _build/gettext/getting-started/jg_23_t-test-onesample.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_31_unianova]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_31_unianova.po
-source_file = _build/gettext/getting-started/jg_31_unianova.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_32_anova-factorial]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_32_anova-factorial.po
-source_file = _build/gettext/getting-started/jg_32_anova-factorial.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_33_anova-rm]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_33_anova-rm.po
-source_file = _build/gettext/getting-started/jg_33_anova-rm.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_34_anova-mixed]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_34_anova-mixed.po
-source_file = _build/gettext/getting-started/jg_34_anova-mixed.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_42_regression-linear]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_42_regression-linear.po
-source_file = _build/gettext/getting-started/jg_42_regression-linear.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_43_regression-logistic]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_43_regression-logistic.po
-source_file = _build/gettext/getting-started/jg_43_regression-logistic.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_91_Filtering_data]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_91_Filtering_data.po
-source_file = _build/gettext/getting-started/jg_91_Filtering_data.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_92_Checking_normality]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_92_Checking_normality.po
-source_file = _build/gettext/getting-started/jg_92_Checking_normality.pot
-source_lang = en
-type = PO
-
-[jamovi-documentation.getting-started--jg_93_Checking_linearity]
-file_filter = _locale/<lang>/LC_MESSAGES/getting-started/jg_93_Checking_linearity.po
-source_file = _build/gettext/getting-started/jg_93_Checking_linearity.pot
 source_lang = en
 type = PO
 
@@ -205,189 +115,291 @@ source_file = _build/gettext/spss2jamovi2R/jamovi-module_Rj.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--ANOVA]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ANOVA.po
-source_file = _build/gettext/modules/jmv/ANOVA.pot
+[jamovi-documentation.analyses--jg_11_descriptive-analyses]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_11_descriptive-analyses.po
+source_file = _build/gettext/analyses/jg_11_descriptive-analyses.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--ancova]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ancova.po
-source_file = _build/gettext/modules/jmv/ancova.pot
+[jamovi-documentation.analyses--jg_16_Checking_normality]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_16_Checking_normality.po
+source_file = _build/gettext/analyses/jg_16_Checking_normality.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--anovaNP]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaNP.po
-source_file = _build/gettext/modules/jmv/anovaNP.pot
+[jamovi-documentation.analyses--jg_17_Checking_linearity]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_17_Checking_linearity.po
+source_file = _build/gettext/analyses/jg_17_Checking_linearity.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--anovaOneW]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaOneW.po
-source_file = _build/gettext/modules/jmv/anovaOneW.pot
+[jamovi-documentation.analyses--jg_18_Filtering_data]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_18_Filtering_data.po
+source_file = _build/gettext/analyses/jg_18_Filtering_data.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--anovaRM]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaRM.po
-source_file = _build/gettext/modules/jmv/anovaRM.pot
+[jamovi-documentation.analyses--jg_21_t-test-independent]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_21_t-test-independent.po
+source_file = _build/gettext/analyses/jg_21_t-test-independent.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--anovaRMNP]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/anovaRMNP.po
-source_file = _build/gettext/modules/jmv/anovaRMNP.pot
+[jamovi-documentation.analyses--jg_22_t-test-paired]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_22_t-test-paired.po
+source_file = _build/gettext/analyses/jg_22_t-test-paired.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--cfa]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/cfa.po
-source_file = _build/gettext/modules/jmv/cfa.pot
+[jamovi-documentation.analyses--jg_23_t-test-onesample]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_23_t-test-onesample.po
+source_file = _build/gettext/analyses/jg_23_t-test-onesample.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--contTables]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/contTables.po
-source_file = _build/gettext/modules/jmv/contTables.pot
+[jamovi-documentation.analyses--jg_31_unianova]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_31_unianova.po
+source_file = _build/gettext/analyses/jg_31_unianova.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--contTablesPaired]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/contTablesPaired.po
-source_file = _build/gettext/modules/jmv/contTablesPaired.pot
+[jamovi-documentation.analyses--jg_32_anova-factorial]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_32_anova-factorial.po
+source_file = _build/gettext/analyses/jg_32_anova-factorial.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--corrMatrix]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/corrMatrix.po
-source_file = _build/gettext/modules/jmv/corrMatrix.pot
+[jamovi-documentation.analyses--jg_33_anova-rm]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_33_anova-rm.po
+source_file = _build/gettext/analyses/jg_33_anova-rm.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--corrPart]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/corrPart.po
-source_file = _build/gettext/modules/jmv/corrPart.pot
+[jamovi-documentation.analyses--jg_34_anova-mixed]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_34_anova-mixed.po
+source_file = _build/gettext/analyses/jg_34_anova-mixed.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--descriptives]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/descriptives.po
-source_file = _build/gettext/modules/jmv/descriptives.pot
+[jamovi-documentation.analyses--jg_42_regression-linear]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_42_regression-linear.po
+source_file = _build/gettext/analyses/jg_42_regression-linear.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--efa]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/efa.po
-source_file = _build/gettext/modules/jmv/efa.pot
+[jamovi-documentation.analyses--jg_43_regression-logistic]
+file_filter = _locale/<lang>/LC_MESSAGES/analyses/jg_43_regression-logistic.po
+source_file = _build/gettext/analyses/jg_43_regression-logistic.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--jmvRead]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvRead.po
-source_file = _build/gettext/modules/jmv/jmvRead.pot
+[jamovi-documentation.getting-started--um_3_analyses]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_3_analyses.po
+source_file = _build/gettext/getting-started/um_3_analyses.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--jmvWrite]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvWrite.po
-source_file = _build/gettext/modules/jmv/jmvWrite.pot
+[jamovi-documentation.getting-started--um_4_spreadsheet]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_4_spreadsheet.po
+source_file = _build/gettext/getting-started/um_4_spreadsheet.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--jmv_overview]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmv_overview.po
-source_file = _build/gettext/modules/jmv/jmv_overview.pot
+[jamovi-documentation.getting-started--um_5_updating_data]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_5_updating_data.po
+source_file = _build/gettext/getting-started/um_5_updating_data.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--jmvconnect_read]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvconnect_read.po
-source_file = _build/gettext/modules/jmv/jmvconnect_read.pot
+[jamovi-documentation.getting-started--um_6_syntax_mode]
+file_filter = _locale/<lang>/LC_MESSAGES/getting-started/um_6_syntax_mode.po
+source_file = _build/gettext/getting-started/um_6_syntax_mode.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--jmvconnect_what]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/jmvconnect_what.po
-source_file = _build/gettext/modules/jmv/jmvconnect_what.pot
+[jamovi-documentation.spss2jamovi2R--jmv--ANOVA]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/ANOVA.po
+source_file = _build/gettext/spss2jamovi2R/jmv/ANOVA.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--linReg]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/linReg.po
-source_file = _build/gettext/modules/jmv/linReg.pot
+[jamovi-documentation.spss2jamovi2R--jmv--ancova]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/ancova.po
+source_file = _build/gettext/spss2jamovi2R/jmv/ancova.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--logLinear]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logLinear.po
-source_file = _build/gettext/modules/jmv/logLinear.pot
+[jamovi-documentation.spss2jamovi2R--jmv--anovaNP]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/anovaNP.po
+source_file = _build/gettext/spss2jamovi2R/jmv/anovaNP.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--logRegBin]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logRegBin.po
-source_file = _build/gettext/modules/jmv/logRegBin.pot
+[jamovi-documentation.spss2jamovi2R--jmv--anovaOneW]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/anovaOneW.po
+source_file = _build/gettext/spss2jamovi2R/jmv/anovaOneW.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--logRegMulti]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logRegMulti.po
-source_file = _build/gettext/modules/jmv/logRegMulti.pot
+[jamovi-documentation.spss2jamovi2R--jmv--anovaRM]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/anovaRM.po
+source_file = _build/gettext/spss2jamovi2R/jmv/anovaRM.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--logRegOrd]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/logRegOrd.po
-source_file = _build/gettext/modules/jmv/logRegOrd.pot
+[jamovi-documentation.spss2jamovi2R--jmv--anovaRMNP]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/anovaRMNP.po
+source_file = _build/gettext/spss2jamovi2R/jmv/anovaRMNP.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--mancova]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/mancova.po
-source_file = _build/gettext/modules/jmv/mancova.pot
+[jamovi-documentation.spss2jamovi2R--jmv--cfa]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/cfa.po
+source_file = _build/gettext/spss2jamovi2R/jmv/cfa.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--pca]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/pca.po
-source_file = _build/gettext/modules/jmv/pca.pot
+[jamovi-documentation.spss2jamovi2R--jmv--contTables]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/contTables.po
+source_file = _build/gettext/spss2jamovi2R/jmv/contTables.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--propTest2]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/propTest2.po
-source_file = _build/gettext/modules/jmv/propTest2.pot
+[jamovi-documentation.spss2jamovi2R--jmv--contTablesPaired]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/contTablesPaired.po
+source_file = _build/gettext/spss2jamovi2R/jmv/contTablesPaired.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--propTestN]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/propTestN.po
-source_file = _build/gettext/modules/jmv/propTestN.pot
+[jamovi-documentation.spss2jamovi2R--jmv--corrMatrix]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/corrMatrix.po
+source_file = _build/gettext/spss2jamovi2R/jmv/corrMatrix.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--reliability]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/reliability.po
-source_file = _build/gettext/modules/jmv/reliability.pot
+[jamovi-documentation.spss2jamovi2R--jmv--corrPart]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/corrPart.po
+source_file = _build/gettext/spss2jamovi2R/jmv/corrPart.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--ttestIS]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ttestIS.po
-source_file = _build/gettext/modules/jmv/ttestIS.pot
+[jamovi-documentation.spss2jamovi2R--jmv--descriptives]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/descriptives.po
+source_file = _build/gettext/spss2jamovi2R/jmv/descriptives.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--ttestOneS]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ttestOneS.po
-source_file = _build/gettext/modules/jmv/ttestOneS.pot
+[jamovi-documentation.spss2jamovi2R--jmv--efa]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/efa.po
+source_file = _build/gettext/spss2jamovi2R/jmv/efa.pot
 source_lang = en
 type = PO
 
-[jamovi-documentation.modules--jmv--ttestPS]
-file_filter = _locale/<lang>/LC_MESSAGES/modules/jmv/ttestPS.po
-source_file = _build/gettext/modules/jmv/ttestPS.pot
+[jamovi-documentation.spss2jamovi2R--jmv--jmvRead]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/jmvRead.po
+source_file = _build/gettext/spss2jamovi2R/jmv/jmvRead.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--jmvWrite]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/jmvWrite.po
+source_file = _build/gettext/spss2jamovi2R/jmv/jmvWrite.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--jmv_overview]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/jmv_overview.po
+source_file = _build/gettext/spss2jamovi2R/jmv/jmv_overview.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--jmvconnect_read]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/jmvconnect_read.po
+source_file = _build/gettext/spss2jamovi2R/jmv/jmvconnect_read.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--jmvconnect_what]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/jmvconnect_what.po
+source_file = _build/gettext/spss2jamovi2R/jmv/jmvconnect_what.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--linReg]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/linReg.po
+source_file = _build/gettext/spss2jamovi2R/jmv/linReg.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--logLinear]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/logLinear.po
+source_file = _build/gettext/spss2jamovi2R/jmv/logLinear.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--logRegBin]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/logRegBin.po
+source_file = _build/gettext/spss2jamovi2R/jmv/logRegBin.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--logRegMulti]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/logRegMulti.po
+source_file = _build/gettext/spss2jamovi2R/jmv/logRegMulti.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--logRegOrd]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/logRegOrd.po
+source_file = _build/gettext/spss2jamovi2R/jmv/logRegOrd.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--mancova]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/mancova.po
+source_file = _build/gettext/spss2jamovi2R/jmv/mancova.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--pca]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/pca.po
+source_file = _build/gettext/spss2jamovi2R/jmv/pca.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--propTest2]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/propTest2.po
+source_file = _build/gettext/spss2jamovi2R/jmv/propTest2.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--propTestN]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/propTestN.po
+source_file = _build/gettext/spss2jamovi2R/jmv/propTestN.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--reliability]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/reliability.po
+source_file = _build/gettext/spss2jamovi2R/jmv/reliability.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--ttestIS]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/ttestIS.po
+source_file = _build/gettext/spss2jamovi2R/jmv/ttestIS.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--ttestOneS]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/ttestOneS.po
+source_file = _build/gettext/spss2jamovi2R/jmv/ttestOneS.pot
+source_lang = en
+type = PO
+
+[jamovi-documentation.spss2jamovi2R--jmv--ttestPS]
+file_filter = _locale/<lang>/LC_MESSAGES/spss2jamovi2R/jmv/ttestPS.po
+source_file = _build/gettext/spss2jamovi2R/jmv/ttestPS.pot
 source_lang = en
 type = PO
 

@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-18 16:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:5
+msgid "Reliability Analysis (``reliability``)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:10
+msgid "Reliability Analysis"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:13
+msgid "Usage"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:34
+msgid "Arguments"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:37
+msgid "``data``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:37
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:39
+msgid "``vars``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:39
+msgid "a vector of strings naming the variables of interest in ``data``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:42
+msgid "``alphaScale``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:42
+msgid "``TRUE`` (default) or ``FALSE``, provide Cronbach's alpha"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:45
+msgid "``omegaScale``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:45
+msgid "``TRUE`` or ``FALSE`` (default), provide McDonald's omega"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:48
+msgid "``meanScale``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:48
+msgid "``TRUE`` or ``FALSE`` (default), provide the mean"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:50
+msgid "``sdScale``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:50
+msgid "``TRUE`` or ``FALSE`` (default), provide the standard deviation"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:53
+msgid "``corPlot``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:53
+msgid "``TRUE`` or ``FALSE`` (default), provide a correlation plot"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:56
+msgid "``alphaItems``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:56
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide what the Cronbach's alpha would "
+"be if the item was dropped"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:59
+msgid "``omegaItems``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:59
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide what the McDonald's omega would "
+"be if the item was dropped"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:62
+msgid "``meanItems``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:62
+msgid "``TRUE`` or ``FALSE`` (default), provide item means"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:65
+msgid "``sdItems``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:65
+msgid "``TRUE`` or ``FALSE`` (default), provide item standard deviations"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:68
+msgid "``itemRestCor``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:68
+msgid "``TRUE`` or ``FALSE`` (default), provide item-rest correlations"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:71
+msgid "``revItems``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:71
+msgid "a vector containing strings naming the varibales that are reverse scaled"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:76
+msgid "Output"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:78
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:81
+msgid "``results$scale``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:81
+#: ../../spss2jamovi2R/jmv/reliability.rst:82
+msgid "a table"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:82
+msgid "``results$items``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:83
+msgid "``results$corPlot``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:83
+msgid "an image"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:86
+msgid ""
+"Tables can be converted to data frames with ``asDF`` or "
+"``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:89
+msgid "``results$scale$asDF``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:91
+msgid "``as.data.frame(results$scale)``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/reliability.rst:94
+msgid "Examples"
+msgstr ""
+

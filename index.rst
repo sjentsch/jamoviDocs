@@ -177,6 +177,6 @@ TBA: Sideloading a module
 
 .. ---------------------------------------------------------------------
 
-.. |datalab|             image:: ../_images/icon-datalab.png
+.. |datalab|             image:: _images/icon-datalab.png
    :width: 100px
    :target: https://datalab.cc/tools/jamovi

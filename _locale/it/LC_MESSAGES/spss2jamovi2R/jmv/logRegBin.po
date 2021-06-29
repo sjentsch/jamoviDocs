@@ -1,0 +1,406 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-18 16:50+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:5
+msgid "Binomial Logistic Regression (``logRegBin``)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:10
+msgid "Binomial Logistic Regression"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:13
+msgid "Usage"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:55
+msgid "Arguments"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:58
+msgid "``data``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:58
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:60
+msgid "``dep``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:60
+msgid ""
+"a string naming the dependent variable from ``data``, variable must be a "
+"factor"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:63
+msgid "``covs``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:63
+msgid "a vector of strings naming the covariates from ``data``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:66
+msgid "``factors``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:66
+msgid "a vector of strings naming the fixed factors from ``data``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:69
+msgid "``blocks``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:69
+msgid ""
+"a list containing vectors of strings that name the predictors that are "
+"added to the model. The elements are added to the model according to "
+"their order in the list"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:74
+msgid "``refLevels``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:74
+msgid ""
+"a list of lists specifying reference levels of the dependent variable and"
+" all the factors"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:77
+msgid "``modelTest``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:77
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the model comparison between the"
+" models and the NULL model"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:80
+msgid "``dev``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:80
+msgid ""
+"``TRUE`` (default) or ``FALSE``, provide the deviance (or "
+"-2LogLikelihood) for the models"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:83
+msgid "``aic``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:83
+msgid ""
+"``TRUE`` (default) or ``FALSE``, provide Aikaike's Information Criterion "
+"(AIC) for the models"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:86
+msgid "``bic``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:86
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide Bayesian Information Criterion "
+"(BIC) for the models"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:89
+msgid "``pseudoR2``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:89
+msgid ""
+"one or more of ``'r2mf'``, ``'r2cs'``, or ``'r2n'``; use McFadden's, Cox "
+"& Snell, and Nagelkerke pseudo-R², respectively"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:93
+msgid "``omni``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:93
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the omnibus likelihood ratio "
+"tests for the predictors"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:96
+msgid "``ci``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:96
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide a confidence interval for the "
+"model coefficient estimates"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:100
+msgid "``ciWidth``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:100
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:111
+msgid ""
+"a number between 50 and 99.9 (default: 95) specifying the confidence "
+"interval width"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:103
+msgid "``OR``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:103
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the exponential of the log-odds "
+"ratio estimate, or the odds ratio estimate"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:107
+msgid "``ciOR``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:107
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide a confidence interval for the "
+"model coefficient odds ratio estimates"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:111
+msgid "``ciWidthOR``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:114
+msgid "``emMeans``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:114
+msgid ""
+"a list of lists specifying the variables for which the estimated marginal"
+" means need to be calculate. Supports up to three variables per term."
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:118
+msgid "``ciEmm``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:118
+msgid ""
+"``TRUE`` (default) or ``FALSE``, provide a confidence interval for the "
+"estimated marginal means"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:122
+msgid "``ciWidthEmm``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:122
+msgid ""
+"a number between 50 and 99.9 (default: 95) specifying the confidence "
+"interval width for the estimated marginal means"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:126
+msgid "``emmPlots``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:126
+msgid "``TRUE`` (default) or ``FALSE``, provide estimated marginal means plots"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:129
+msgid "``emmTables``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:129
+msgid "``TRUE`` or ``FALSE`` (default), provide estimated marginal means tables"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:132
+msgid "``emmWeights``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:132
+msgid ""
+"``TRUE`` (default) or ``FALSE``, weigh each cell equally or weigh them "
+"according to the cell frequency"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:136
+msgid "``class``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:136
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide a predicted classification table"
+" (or confusion matrix)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:140
+msgid "``acc``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:140
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the predicted accuracy of "
+"outcomes grouped by the cut-off value"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:144
+msgid "``spec``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:144
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the predicted specificity of "
+"outcomes grouped by the cut-off value"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:148
+msgid "``sens``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:148
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide the predicted sensitivity of "
+"outcomes grouped by the cut-off value"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:152
+msgid "``auc``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:152
+msgid "``TRUE`` or ``FALSE`` (default), provide the rea under the ROC curve (AUC)"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:155
+msgid "``rocPlot``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:155
+msgid "``TRUE`` or ``FALSE`` (default), provide a ROC curve plot"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:158
+msgid "``cutOff``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:158
+msgid "``TRUE`` or ``FALSE`` (default), set a cut-off used for the predictions"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:161
+msgid "``cutOffPlot``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:161
+msgid "``TRUE`` or ``FALSE`` (default), provide a cut-off plot"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:164
+msgid "``collin``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:164
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide VIF and tolerence collinearity "
+"statistics"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:167
+msgid "``boxTidwell``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:167
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide Box-Tidwell test for linearity "
+"of the logit"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:170
+msgid "``cooks``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:170
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide summary statistics for the "
+"Cook's distance"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:175
+msgid "Output"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:177
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:180
+msgid "``results$modelFit``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:180
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:181
+msgid "a table"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:181
+msgid "``results$modelComp``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:182
+msgid "``results$models``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:182
+msgid "an array of model specific results"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:185
+msgid ""
+"Tables can be converted to data frames with ``asDF`` or "
+"``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:188
+msgid "``results$modelFit$asDF``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:190
+msgid "``as.data.frame(results$modelFit)``"
+msgstr ""
+
+#: ../../spss2jamovi2R/jmv/logRegBin.rst:193
+msgid "Examples"
+msgstr ""
+
