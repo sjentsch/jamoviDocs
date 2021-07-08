@@ -4,15 +4,16 @@
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 #
 # Translators:
 # Sebastian Jentschke, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-01-18 16:50+0100\n"
-"PO-Revision-Date: 2021-06-29 10:58+0000\n"
+"PO-Revision-Date: 2021-07-09 15:10+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jamovidocs/"
 "de/>\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../index.rst:154
@@ -61,7 +62,7 @@ msgstr ""
 
 #: ../../index.rst:33
 msgid "Analyses"
-msgstr ""
+msgstr "Analysen"
 
 #: ../../index.rst:35
 msgid ""
@@ -125,7 +126,7 @@ msgstr ""
 
 #: ../../index.rst:96
 msgid "Analyses of Variance (ANOVA)"
-msgstr ""
+msgstr "Varianzanalyse (ANOVA)"
 
 #: ../../index.rst:98
 msgid ""
