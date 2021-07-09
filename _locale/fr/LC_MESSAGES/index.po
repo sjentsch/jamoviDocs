@@ -1,34 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
 # Jentschke (curating this documentation). This work is licensed under a
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 16:50+0100\n"
-"PO-Revision-Date: 2021-07-06 16:32+0000\n"
-"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/jamovi/jamovidocs/"
-"fr/>\n"
-"Language: fr\n"
+"POT-Creation-Date: 2021-07-09 00:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:154
+#: ../../index.rst:155
 msgid "Additional Modules"
-msgstr "Modules additionnels"
+msgstr ""
 
-#: ../../index.rst:163
+#: ../../index.rst:164
 msgid "jamovi and other software"
-msgstr "jamovi et autres logiciels"
+msgstr ""
 
 #: ../../index.rst:4
 msgid ""
@@ -36,34 +33,26 @@ msgid ""
 "free and open statistical software to bridge the gap between researcher "
 "and statistician."
 msgstr ""
-"Bienvenue sur la documentation de `jamovi <https://www.jamovi.org>`__, un "
-"logiciel libre et gratuit pour compléter le manque entre les chercheurs et "
-"les statisticiens."
 
 #: ../../index.rst:10
 msgid "Getting started"
-msgstr "Commencer"
+msgstr ""
 
 #: ../../index.rst:12
 msgid ""
 "The jamovi user-manual contains everything you need to know about getting"
 " up and running for jamovi."
 msgstr ""
-"Le guide de l'utilisateur de jamovi contient tout ce que vous devez savoir "
-"afin de pouvoir utiliser jamovi."
 
 #: ../../index.rst:15
 msgid ""
 "If you got stuck or get questions regarding jamovi, these can be asked in"
 " the `jamovi forum <https://forum.jamovi.org>`__."
 msgstr ""
-"Si vous vous retrouvez bloqué ou avez des questions à propos de jamovi, "
-"n'hésitez pas à demander de l'aide sur le `forum jamovi <https://forum.jamovi"
-".org>`__."
 
 #: ../../index.rst:33
 msgid "Analyses"
-msgstr "Analyses"
+msgstr ""
 
 #: ../../index.rst:35
 msgid ""
@@ -71,10 +60,6 @@ msgid ""
 "tutorials on how to conduct common statistical procedures in jamovi. It "
 "was originally created by Jonas Rafi under the name jamovi guide."
 msgstr ""
-"L'objectif de la section suivante est de fournir des tutoriels courts et non "
-"techniques sur la façon d'effectuer des procédures statistiques courantes "
-"dans jamovi. Elle a été créée à l'origine par Jonas Rafi sous le nom de "
-"jamovi guide."
 
 #: ../../index.rst:39
 msgid ""
@@ -84,15 +69,10 @@ msgid ""
 "resources are listed at the bottom of the pages introducing the "
 "individual analyses in the box \"Community resources\"."
 msgstr ""
-"Toutefois, il s'agit d'une introduction, et non d'une ressource fournissant "
-"une présentation approfondie du contexte de ces procédures. Pour une telle "
-"démarche, il existe de nombreuses autres ressources. Certaines de ces "
-"ressources sont répertoriées au bas des pages présentant les analyses "
-"individuelles, dans l'encadré « Ressources communautaires »."
 
 #: ../../index.rst:47
 msgid "Describing and cleaning your data"
-msgstr "Décrire et nettoyer vos données"
+msgstr ""
 
 #: ../../index.rst:49
 msgid ""
@@ -101,10 +81,6 @@ msgid ""
 "over your data. This information is gathered using descriptive-"
 "statistical analyses."
 msgstr ""
-"Une partie essentielle d'une analyse statistique se déroule en fait avant "
-"que nous ne la réalisions. Il s'agit d'abord d'obtenir une vue d'ensemble de "
-"vos données. Ces informations sont recueillies à l'aide d'analyses "
-"statistiques descriptives."
 
 #: ../../index.rst:53
 msgid ""
@@ -117,12 +93,12 @@ msgid ""
 "the assumptions are not met, this is often due to outliers in your data. "
 "Based upon the information we gathered, it becomes possible to search for"
 " and to remove such outliers. Using `filters "
-"<analyses/jg_18_Filtering_data.html>`__ can help you with that task."
+"<_pages/jg_18_Filtering_data.html>`__ can help you with that task."
 msgstr ""
 
 #: ../../index.rst:75
 msgid "t-tests"
-msgstr "t-tests"
+msgstr ""
 
 #: ../../index.rst:77
 msgid ""
@@ -136,11 +112,11 @@ msgstr ""
 
 #: ../../index.rst:83
 msgid "There are three types of t-tests:"
-msgstr "Il y a trois types de tests t :"
+msgstr ""
 
 #: ../../index.rst:96
 msgid "Analyses of Variance (ANOVA)"
-msgstr "Analyses de la variance (ANOVA)"
+msgstr ""
 
 #: ../../index.rst:98
 msgid ""
@@ -185,27 +161,11 @@ msgid ""
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
 
-#: ../../index.rst:151
+#: ../../index.rst:152
 msgid "TBA: The jamovi library TBA: Sideloading a module"
 msgstr ""
 
-#~ msgid "More in-depth introduction"
-#~ msgstr ""
+#: ../../index.rst
+msgid "datalab"
+msgstr ""
 
-#~ msgid "Developer hub"
-#~ msgstr ""
-
-#~ msgid "Getting started..."
-#~ msgstr ""
-
-#~ msgid "Learning statistics with jamovi"
-#~ msgstr ""
-
-#~ msgid "jamovi modules"
-#~ msgstr ""
-
-#~ msgid "developer hub"
-#~ msgstr ""
-
-#~ msgid "jamovi"
-#~ msgstr ""

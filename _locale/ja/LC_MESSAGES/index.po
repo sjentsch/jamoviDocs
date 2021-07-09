@@ -1,32 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020-, The section authors, The jamovi Group, and Sebastian
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
 # Jentschke (curating this documentation). This work is licensed under a
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version:  jamovi\n"
+"Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 16:50+0100\n"
-"PO-Revision-Date: 2020-07-20 23:22+0000\n"
+"POT-Creation-Date: 2021-07-09 00:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: ja\n"
-"Language-Team: Japanese "
-"(https://www.transifex.com/jamovi/teams/111618/ja/)\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:154
+#: ../../index.rst:155
 msgid "Additional Modules"
 msgstr ""
 
-#: ../../index.rst:163
+#: ../../index.rst:164
 msgid "jamovi and other software"
 msgstr ""
 
@@ -96,7 +93,7 @@ msgid ""
 "the assumptions are not met, this is often due to outliers in your data. "
 "Based upon the information we gathered, it becomes possible to search for"
 " and to remove such outliers. Using `filters "
-"<analyses/jg_18_Filtering_data.html>`__ can help you with that task."
+"<_pages/jg_18_Filtering_data.html>`__ can help you with that task."
 msgstr ""
 
 #: ../../index.rst:75
@@ -164,28 +161,11 @@ msgid ""
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
 
-#: ../../index.rst:151
+#: ../../index.rst:152
 msgid "TBA: The jamovi library TBA: Sideloading a module"
 msgstr ""
 
-#~ msgid "More in-depth introduction"
-#~ msgstr ""
-
-#~ msgid "Developer hub"
-#~ msgstr ""
-
-#~ msgid "Getting started..."
-#~ msgstr ""
-
-#~ msgid "Learning statistics with jamovi"
-#~ msgstr ""
-
-#~ msgid "jamovi modules"
-#~ msgstr ""
-
-#~ msgid "developer hub"
-#~ msgstr ""
-
-#~ msgid "jamovi"
-#~ msgstr ""
+#: ../../index.rst
+msgid "datalab"
+msgstr ""
 

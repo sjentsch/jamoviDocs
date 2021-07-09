@@ -19,12 +19,12 @@ If you got stuck or get questions regarding jamovi, these can be asked in the
    :titlesonly:
    :name: sec-getting-started
 
-   getting-started/um_1_installation
-   getting-started/um_2_first-steps
-   getting-started/um_3_analyses
-   getting-started/um_4_spreadsheet
-   getting-started/um_5_updating_data
-   getting-started/um_6_syntax_mode  
+   _pages/um_1_installation
+   _pages/um_2_first-steps
+   _pages/um_3_analyses
+   _pages/um_4_spreadsheet
+   _pages/um_5_updating_data
+   _pages/um_6_syntax_mode
 
 .. ============================================================================
 
@@ -58,17 +58,17 @@ distribution, the other assesses whether the independent and the dependent
 variables stand in a linear relation.
 If the assumptions are not met, this is often due to outliers in your data.
 Based upon the information we gathered, it becomes possible to search for and
-to remove such outliers. Using `filters <analyses/jg_18_Filtering_data.html>`__
+to remove such outliers. Using `filters <_pages/jg_18_Filtering_data.html>`__
 can help you with that task.
 
 .. toctree::
    :titlesonly:
    :name: sec-descriptives
    
-   analyses/jg_11_descriptive-analyses
-   analyses/jg_16_Checking_normality
-   analyses/jg_17_Checking_linearity
-   analyses/jg_18_Filtering_data  
+   _pages/jg_11_descriptive-analyses
+   _pages/jg_16_Checking_normality
+   _pages/jg_17_Checking_linearity
+   _pages/jg_18_Filtering_data  
 
 -------
 t-tests
@@ -86,9 +86,9 @@ There are three types of t-tests:
    :titlesonly:
    :name: sec-t-tests
    
-   analyses/jg_21_t-test-independent
-   analyses/jg_22_t-test-paired
-   analyses/jg_23_t-test-onesample   
+   _pages/jg_21_t-test-independent
+   _pages/jg_22_t-test-paired
+   _pages/jg_23_t-test-onesample   
 
 
 ----------------------------
@@ -116,10 +116,10 @@ people or within a person - repeated measurements:
    :titlesonly:
    :name: sec-anovas
    
-   analyses/jg_31_unianova
-   analyses/jg_32_anova-factorial
-   analyses/jg_33_anova-rm
-   analyses/jg_34_anova-mixed
+   _pages/jg_31_unianova
+   _pages/jg_32_anova-factorial
+   _pages/jg_33_anova-rm
+   _pages/jg_34_anova-mixed
 
 
 --------------------------
@@ -141,10 +141,11 @@ by `Barton Poulson <https://datalab.cc/jamovi>`__.
    :titlesonly:
    :name: sec-regression
  
-   analyses/jg_42_regression-linear
-   analyses/jg_43_regression-logistic
+   _pages/jg_42_regression-linear
+   _pages/jg_43_regression-logistic
    
-.. analyses/jg_41_correlation
+.. 
+   _pages/jg_41_correlation
    
 .. ============================================================================
 
@@ -156,8 +157,8 @@ TBA: Sideloading a module
    :caption: Additional Modules
    :name: sec-modules
 
-   development/developer-hub
-
+   _pages/developer-hub.rst
+   
 .. ============================================================================   
 
 .. toctree::
@@ -165,10 +166,10 @@ TBA: Sideloading a module
    :caption: jamovi and other software
    :name: sec-spss2jamovi2R
 
-   spss2jamovi2R/SPSS2jamovi
-   spss2jamovi2R/jamovi2R
+   _pages/SPSS2jamovi
+   _pages/jamovi2R
    
-   spss2jamovi2R/jmv/jmv_overview
+   _pages/jmv_overview
 
 ..   
      ┣ Rj and jmvconnect

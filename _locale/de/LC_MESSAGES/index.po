@@ -1,37 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
 # Jentschke (curating this documentation). This work is licensed under a
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-# Translators:
-# Sebastian Jentschke, 2020
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-18 16:50+0100\n"
-"PO-Revision-Date: 2021-06-29 10:58+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/jamovidocs/"
-"de/>\n"
-"Language: de\n"
+"POT-Creation-Date: 2021-07-09 00:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:154
-#, fuzzy
+#: ../../index.rst:155
 msgid "Additional Modules"
-msgstr "jamovi-Module"
+msgstr ""
 
-#: ../../index.rst:163
+#: ../../index.rst:164
 msgid "jamovi and other software"
-msgstr "jamovi, SPSS und R"
+msgstr ""
 
 #: ../../index.rst:4
 msgid ""
@@ -39,13 +33,10 @@ msgid ""
 "free and open statistical software to bridge the gap between researcher "
 "and statistician."
 msgstr ""
-"Willkommen zur Dokumentation von `jamovi <https://www.jamovi.org>`__, "
-"einer kostenlosen und offenen Statistiksoftware, die Forschern erlaubt, "
-"auf einfache Weise komplexe statistische Methoden anzuwenden."
 
 #: ../../index.rst:10
 msgid "Getting started"
-msgstr "Erste Schritte"
+msgstr ""
 
 #: ../../index.rst:12
 msgid ""
@@ -102,7 +93,7 @@ msgid ""
 "the assumptions are not met, this is often due to outliers in your data. "
 "Based upon the information we gathered, it becomes possible to search for"
 " and to remove such outliers. Using `filters "
-"<analyses/jg_18_Filtering_data.html>`__ can help you with that task."
+"<_pages/jg_18_Filtering_data.html>`__ can help you with that task."
 msgstr ""
 
 #: ../../index.rst:75
@@ -170,15 +161,11 @@ msgid ""
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
 
-#: ../../index.rst:151
+#: ../../index.rst:152
 msgid "TBA: The jamovi library TBA: Sideloading a module"
 msgstr ""
 
-#~ msgid "Learning statistics with jamovi"
-#~ msgstr "Learning statistics with jamovi"
+#: ../../index.rst
+msgid "datalab"
+msgstr ""
 
-#~ msgid "developer hub"
-#~ msgstr "developer hub"
-
-#~ msgid "jamovi"
-#~ msgstr "jamovi"
