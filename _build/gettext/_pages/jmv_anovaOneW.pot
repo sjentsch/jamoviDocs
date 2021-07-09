@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmv_anovaOneW.rst:5
+msgid "One-Way ANOVA (``anovaOneW``)"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:10
+msgid "The Analysis of Variance (ANOVA) is used to explore the relationship between a continuous dependent variable, and one or more categorical explanatory variables. This 'One-Way ANOVA' is a simplified version of the 'normal' ANOVA, allowing only a single explanatory factor, however also providing a Welch's ANOVA. The Welch's ANOVA has the advantage that it need not assume that the variances of all groups are equal."
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:18
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:43
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:46
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:46
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:48
+msgid "``deps``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:48
+msgid "a string naming the dependent variables in ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:50
+msgid "``group``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:50
+msgid "a string naming the grouping or independent variable in ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:53
+msgid "``welchs``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:53
+msgid "``TRUE`` (default) or ``FALSE``, perform Welch's one-way ANOVA which does not assume equal variances"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:56
+msgid "``fishers``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:56
+msgid "``TRUE`` or ``FALSE`` (default), perform Fisher's one-way ANOVA which assumes equal variances"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:59
+msgid "``miss``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:59
+msgid "``'perAnalysis'`` or ``'listwise'``, how to handle missing values; ``'perAnalysis'`` excludes missing values for individual dependent variables, ``'listwise'`` excludes a row from all analyses if one of its entries is missing."
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:65
+msgid "``desc``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:65
+msgid "``TRUE`` or ``FALSE`` (default), provide descriptive statistics"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:68
+msgid "``descPlot``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:68
+msgid "``TRUE`` or ``FALSE`` (default), provide descriptive plots"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:71
+msgid "``norm``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:71
+msgid "``TRUE`` or ``FALSE`` (default), perform Shapiro-Wilk test of normality"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:74
+msgid "``qq``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:74
+msgid "``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of residuals"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:77
+msgid "``eqv``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:77
+msgid "``TRUE`` or ``FALSE`` (default), perform Levene's test for homogeneity of variances"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:80
+msgid "``phMethod``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:80
+msgid "``'none'``, ``'gamesHowell'`` or ``'tukey'``, which post-hoc tests to provide; ``'none'`` shows no post-hoc tests, ``'gamesHowell'`` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and ``'tukey'`` shows Tukey post-hoc tests where equivalence of variances is assumed"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:88
+msgid "``phMeanDif``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:88
+msgid "``TRUE`` (default) or ``FALSE``, provide mean differences for post-hoc tests"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:91
+msgid "``phSig``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:91
+msgid "``TRUE`` (default) or ``FALSE``, provide significance levels for post-hoc tests"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:94
+msgid "``phTest``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:94
+msgid "``TRUE`` or ``FALSE`` (default), provide test results (t-value and degrees of freedom) for post-hoc tests"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:98
+msgid "``phFlag``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:98
+msgid "``TRUE`` or ``FALSE`` (default), flag significant post-hoc comparisons"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:101
+msgid "``formula``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:101
+msgid "(optional) the formula to use, see the examples"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:105
+msgid "Details"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:107
+msgid "For convenience, this method allows specifying multiple dependent variables, resulting in multiple independent tests."
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:110
+msgid "Note that the Welch's ANOVA is the same procedure as the Welch's independent samples t-test."
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:114
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:116
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:119
+msgid "``results$anova``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:119
+msgid "a table of the test results"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:120
+msgid "``results$desc``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:120
+msgid "a table containing the group descriptives"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:121
+msgid "``results$assump$norm``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:121
+msgid "a table containing the normality tests"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:122
+msgid "``results$assump$eqv``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:122
+msgid "a table of homogeneity of variances tests"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:123
+msgid "``results$plots``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:123
+msgid "an array of groups of plots"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:124
+msgid "``results$postHoc``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:124
+msgid "an array of post-hoc tables"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:127
+msgid "Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:130
+msgid "``results$anova$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:132
+msgid "``as.data.frame(results$anova)``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaOneW.rst:135
+msgid "Examples"
+msgstr ""
