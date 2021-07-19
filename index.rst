@@ -39,8 +39,8 @@ created by Jonas Rafi under the name jamovi guide.
 However, it is meant to be an introduction, not a resource providing an
 in-depth introduction into the background of those procedures. For such an
 endevaour, there are plenty of other resources. Some of these resources are
-listed at the bottom of the pages introducing the individual analyses in the box
-"Community resources".
+listed at the bottom of the pages introducing the individual analyses in the
+box "Community resources".
 
 ---------------------------------
 Describing and cleaning your data
@@ -76,9 +76,13 @@ t-tests
 
 The t-test is used to test whether the mean value in a normally distributed
 data set deviates significantly from a null hypothesis (which assumes that
-there is no difference). The concept is presented in this `introductory video 
-<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
-by `Barton Poulson <https://datalab.cc/jamovi>`__.
+there is no difference).
+
+.. admonition:: Community resources
+   
+   | A more comprehensive introduction into the concept is presented in this `video 
+     <https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
 There are three types of t-tests:
 
@@ -103,10 +107,13 @@ but a factor can also represent groups for whose influence one would like to
 control (e.g. gender: men or women). The analysis of variance is based on a
 concept similar to that of the t-test, but it goes beyond that, in that factors
 can have several levels (t-tests only allow two) and in that several factors
-can be examined simultaneously. An introduction into the concept of an ANOVA is
-presented in this `video
-<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
-by `Barton Poulson <https://datalab.cc/jamovi>`__.
+can be examined simultaneously.
+
+.. admonition:: Community resources
+   
+   | An introduction into the concept of an ANOVA is presented in this `video
+     <https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
 There are different types of analysis of variance, which differ in the number
 of factors examined - one or more factors - or whether they compare between
@@ -132,10 +139,14 @@ independent / predictor variables. While the *correlation* analysis examines
 the *relationship* between one predictor and one outcome variable, *regression*
 analysis mainly focuses on *prediction* (how well can one or more variables
 predict another (outcome) variable). Often, a distinction is made between
-linear and non-linear (e.g., logistic regression). An introduction into the
-concept of regression analyses is presented in this `video
-<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
-by `Barton Poulson <https://datalab.cc/jamovi>`__.
+linear and non-linear (e.g., logistic regression).
+
+.. admonition:: Community resources
+   
+   | An introduction into the concept of regression analyses is presented in
+     this `video
+     <https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
+     by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
 .. toctree::
    :titlesonly:
@@ -150,6 +161,7 @@ by `Barton Poulson <https://datalab.cc/jamovi>`__.
 .. ============================================================================
 
 TBA: The jamovi library
+
 TBA: Sideloading a module  
 
 .. toctree::

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:59+0200\n"
+"POT-Creation-Date: 2021-07-19 16:47+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:155
+#: ../../index.rst:167
 msgid "Additional Modules"
 msgstr ""
 
-#: ../../index.rst:164
+#: ../../index.rst:176
 msgid "jamovi and other software"
 msgstr ""
 
@@ -104,21 +104,30 @@ msgstr ""
 msgid ""
 "The t-test is used to test whether the mean value in a normally "
 "distributed data set deviates significantly from a null hypothesis (which"
-" assumes that there is no difference). The concept is presented in this "
-"`introductory video "
+" assumes that there is no difference)."
+msgstr ""
+
+#: ../../index.rst:81 ../../index.rst:112 ../../index.rst:144
+msgid "Community resources"
+msgstr ""
+
+#: ../../index.rst
+msgid ""
+"A more comprehensive introduction into the concept is presented in this "
+"`video "
 "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
 
-#: ../../index.rst:83
+#: ../../index.rst:87
 msgid "There are three types of t-tests:"
 msgstr ""
 
-#: ../../index.rst:96
+#: ../../index.rst:100
 msgid "Analyses of Variance (ANOVA)"
 msgstr ""
 
-#: ../../index.rst:98
+#: ../../index.rst:102
 msgid ""
 "The Analysis of variance (ANOVA) is a statistical method that examines "
 "how the impact of one or more factors affects an outcome (dependent) "
@@ -129,24 +138,28 @@ msgid ""
 "analysis of variance is based on a concept similar to that of the t-test,"
 " but it goes beyond that, in that factors can have several levels "
 "(t-tests only allow two) and in that several factors can be examined "
-"simultaneously. An introduction into the concept of an ANOVA is presented"
-" in this `video "
+"simultaneously."
+msgstr ""
+
+#: ../../index.rst
+msgid ""
+"An introduction into the concept of an ANOVA is presented in this `video "
 "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
 
-#: ../../index.rst:111
+#: ../../index.rst:118
 msgid ""
 "There are different types of analysis of variance, which differ in the "
 "number of factors examined - one or more factors - or whether they "
 "compare between people or within a person - repeated measurements:"
 msgstr ""
 
-#: ../../index.rst:127
+#: ../../index.rst:134
 msgid "Correlation and regression"
 msgstr ""
 
-#: ../../index.rst:129
+#: ../../index.rst:136
 msgid ""
 "Correlation and regression analyses are statistical methods for assessing"
 " the relationships between a dependent / outcome variable and one or more"
@@ -155,17 +168,91 @@ msgid ""
 "variable, *regression* analysis mainly focuses on *prediction* (how well "
 "can one or more variables predict another (outcome) variable). Often, a "
 "distinction is made between linear and non-linear (e.g., logistic "
-"regression). An introduction into the concept of regression analyses is "
-"presented in this `video "
+"regression)."
+msgstr ""
+
+#: ../../index.rst
+msgid ""
+"An introduction into the concept of regression analyses is presented in "
+"this `video "
 "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
 
-#: ../../index.rst:152
-msgid "TBA: The jamovi library TBA: Sideloading a module"
+#: ../../index.rst:163
+msgid "TBA: The jamovi library"
+msgstr ""
+
+#: ../../index.rst:165
+msgid "TBA: Sideloading a module"
 msgstr ""
 
 #: ../../index.rst
 msgid "datalab"
 msgstr ""
+
+#~ msgid ""
+#~ "The t-test is used to test whether"
+#~ " the mean value in a normally "
+#~ "distributed data set deviates significantly"
+#~ " from a null hypothesis (which "
+#~ "assumes that there is no difference)."
+#~ " The concept is presented in this "
+#~ "`introductory video "
+#~ "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " by `Barton Poulson "
+#~ "<https://datalab.cc/jamovi>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Analysis of variance (ANOVA) is "
+#~ "a statistical method that examines how"
+#~ " the impact of one or more "
+#~ "factors affects an outcome (dependent) "
+#~ "variable. These factors are the "
+#~ "predictor variables and are categorical. "
+#~ "Typically, such factors reflect an "
+#~ "experimental manipulation (e.g. with or "
+#~ "without treatment), but a factor can "
+#~ "also represent groups for whose "
+#~ "influence one would like to control "
+#~ "(e.g. gender: men or women). The "
+#~ "analysis of variance is based on a"
+#~ " concept similar to that of the "
+#~ "t-test, but it goes beyond that, "
+#~ "in that factors can have several "
+#~ "levels (t-tests only allow two) and "
+#~ "in that several factors can be "
+#~ "examined simultaneously. An introduction into"
+#~ " the concept of an ANOVA is "
+#~ "presented in this `video "
+#~ "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " by `Barton Poulson "
+#~ "<https://datalab.cc/jamovi>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Correlation and regression analyses are "
+#~ "statistical methods for assessing the "
+#~ "relationships between a dependent / "
+#~ "outcome variable and one or more "
+#~ "independent / predictor variables. While "
+#~ "the *correlation* analysis examines the "
+#~ "*relationship* between one predictor and "
+#~ "one outcome variable, *regression* analysis"
+#~ " mainly focuses on *prediction* (how "
+#~ "well can one or more variables "
+#~ "predict another (outcome) variable). Often,"
+#~ " a distinction is made between linear"
+#~ " and non-linear (e.g., logistic "
+#~ "regression). An introduction into the "
+#~ "concept of regression analyses is "
+#~ "presented in this `video "
+#~ "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+#~ " by `Barton Poulson "
+#~ "<https://datalab.cc/jamovi>`__."
+#~ msgstr ""
+
+#~ msgid "TBA: The jamovi library TBA: Sideloading a module"
+#~ msgstr ""
 
