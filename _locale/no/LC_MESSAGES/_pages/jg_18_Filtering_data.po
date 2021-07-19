@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:59+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,10 +21,6 @@ msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:5
 msgid "How do I create a filter variable and use it for selection?"
-msgstr ""
-
-#: ../../_pages/jg_18_Filtering_data.rst:7
-msgid "|Outliers_Filter_Shortcut|"
 msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:161
@@ -81,10 +77,6 @@ msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid "you can either use an function-based selection (e.g., based on z-scores):"
-msgstr ""
-
-#: ../../_pages/jg_18_Filtering_data.rst:34
-msgid "|Outliers_Filter_Settings|"
 msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:162
@@ -147,10 +139,6 @@ msgstr ""
 msgid "How to manually create a variable for selecting / deselecting cases?"
 msgstr ""
 
-#: ../../_pages/jg_18_Filtering_data.rst:112
-msgid "|Outliers_AddVar_selSbj|"
-msgstr ""
-
 #: ../../_pages/jg_18_Filtering_data.rst:165
 msgid "Outliers_AddVar_selSbj"
 msgstr ""
@@ -175,10 +163,6 @@ msgstr ""
 msgid ""
 "briefly check how many participants are contained in your file by going "
 "to the last line of your data set, remember this line number"
-msgstr ""
-
-#: ../../_pages/jg_18_Filtering_data.rst:125
-msgid "|Outliers_ExcelMagic|"
 msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:164
@@ -218,10 +202,6 @@ msgid ""
 "selected variable"
 msgstr ""
 
-#: ../../_pages/jg_18_Filtering_data.rst:154
-msgid "|Outliers_SelectUnselect|"
-msgstr ""
-
 #: ../../_pages/jg_18_Filtering_data.rst:163
 msgid "Outliers_SelectUnselect"
 msgstr ""
@@ -231,4 +211,19 @@ msgid ""
 "now you can de-select case by changing them ``1`` to ``0`` (and also "
 "select them again by changing ``0`` into ``1``)"
 msgstr ""
+
+#~ msgid "|Outliers_Filter_Shortcut|"
+#~ msgstr ""
+
+#~ msgid "|Outliers_Filter_Settings|"
+#~ msgstr ""
+
+#~ msgid "|Outliers_AddVar_selSbj|"
+#~ msgstr ""
+
+#~ msgid "|Outliers_ExcelMagic|"
+#~ msgstr ""
+
+#~ msgid "|Outliers_SelectUnselect|"
+#~ msgstr ""
 

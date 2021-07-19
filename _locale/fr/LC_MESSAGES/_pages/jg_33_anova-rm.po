@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,20 +43,12 @@ msgstr ""
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_33_anova-rm.rst:16
-msgid "|data_format_anova_repeated|"
-msgstr ""
-
 #: ../../_pages/jg_33_anova-rm.rst:77
 msgid "data_format_anova_repeated"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid "Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``."
-msgstr ""
-
-#: ../../_pages/jg_33_anova-rm.rst:22
-msgid "|select_anova_repeated|"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:79
@@ -72,10 +64,6 @@ msgid ""
 "been set (right)."
 msgstr ""
 
-#: ../../_pages/jg_33_anova-rm.rst:32
-msgid "|add_var_anova_repeated_naming_1|  ``→`` |add_var_anova_repeated_naming_2|"
-msgstr ""
-
 #: ../../_pages/jg_33_anova-rm.rst:81
 msgid "add_var_anova_repeated_naming_1"
 msgstr ""
@@ -88,10 +76,6 @@ msgstr ""
 msgid ""
 "Drag and drop your outcome variables to their respective cells in "
 "``Repeated Measures Cells``."
-msgstr ""
-
-#: ../../_pages/jg_33_anova-rm.rst:39
-msgid "|add_var_anova_repeated|"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:85
@@ -110,10 +94,6 @@ msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid "The results are shown in the right panel:"
-msgstr ""
-
-#: ../../_pages/jg_33_anova-rm.rst:54
-msgid "|output_anova_repeated|"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:87
@@ -141,4 +121,21 @@ msgid ""
 "chapter 13.7 of the `e-book <https://www.learnstatswithjamovi.com/>`__ by"
 " Danielle J. Navarro and David R. Foxcroft."
 msgstr ""
+
+#~ msgid "|data_format_anova_repeated|"
+#~ msgstr ""
+
+#~ msgid "|select_anova_repeated|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|add_var_anova_repeated_naming_1|  ``→`` "
+#~ "|add_var_anova_repeated_naming_2|"
+#~ msgstr ""
+
+#~ msgid "|add_var_anova_repeated|"
+#~ msgstr ""
+
+#~ msgid "|output_anova_repeated|"
+#~ msgstr ""
 

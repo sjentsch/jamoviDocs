@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,10 +37,6 @@ msgstr ""
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_33_anova-rm.rst:16
-msgid "|data_format_anova_repeated|"
-msgstr ""
-
 #: ../../_pages/jg_33_anova-rm.rst:77
 #: ../../_pages/jg_33_anova-rm.rst:77
 msgid "data_format_anova_repeated"
@@ -50,10 +46,6 @@ msgstr ""
 msgid "Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``."
 msgstr ""
 
-#: ../../_pages/jg_33_anova-rm.rst:22
-msgid "|select_anova_repeated|"
-msgstr ""
-
 #: ../../_pages/jg_33_anova-rm.rst:79
 #: ../../_pages/jg_33_anova-rm.rst:79
 msgid "select_anova_repeated"
@@ -61,10 +53,6 @@ msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:0
 msgid "In the box ``Repeated Measures Factors``: write the name of your outcome variable (e.g. ``My_scale``) and name the levels for each measurement occasion (e.g. ``Pre``, ``Post`` and ``12 month follow-up``). The images below shows the box with default values (left) and when the values has been set (right)."
-msgstr ""
-
-#: ../../_pages/jg_33_anova-rm.rst:32
-msgid "|add_var_anova_repeated_naming_1|  ``→`` |add_var_anova_repeated_naming_2|"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:81
@@ -81,10 +69,6 @@ msgstr ""
 msgid "Drag and drop your outcome variables to their respective cells in ``Repeated Measures Cells``."
 msgstr ""
 
-#: ../../_pages/jg_33_anova-rm.rst:39
-msgid "|add_var_anova_repeated|"
-msgstr ""
-
 #: ../../_pages/jg_33_anova-rm.rst:85
 #: ../../_pages/jg_33_anova-rm.rst:85
 msgid "add_var_anova_repeated"
@@ -96,10 +80,6 @@ msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:0
 msgid "The results are shown in the right panel:"
-msgstr ""
-
-#: ../../_pages/jg_33_anova-rm.rst:54
-msgid "|output_anova_repeated|"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:87

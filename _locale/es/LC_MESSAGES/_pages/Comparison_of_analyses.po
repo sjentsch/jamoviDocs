@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,24 +27,12 @@ msgstr ""
 msgid "**SPSS** (version 25)"
 msgstr ""
 
-#: ../../_pages/Comparison_of_analyses.rst
-msgid "|spss_prices|"
-msgstr ""
-
 #: ../../_pages/Comparison_of_analyses.rst:8
 msgid "**jamovi** (versjon 1.2)"
 msgstr ""
 
-#: ../../_pages/Comparison_of_analyses.rst:11
-msgid "|SPSS_Analyze|"
-msgstr ""
-
 #: ../../_pages/Comparison_of_analyses.rst:297
 msgid "SPSS_Analyze"
-msgstr ""
-
-#: ../../_pages/Comparison_of_analyses.rst:11
-msgid "|jamovi_Analyze|"
 msgstr ""
 
 #: ../../_pages/Comparison_of_analyses.rst:298
@@ -83,10 +71,6 @@ msgid ""
 "If you are willing to use some R code (e.g., in conjunction with the "
 "jamovi-module Rj) then you can (most presumably) do every analysis you "
 "could imagine."
-msgstr ""
-
-#: ../../_pages/Comparison_of_analyses.rst:38
-msgid "|jamovi_Modules|"
 msgstr ""
 
 #: ../../_pages/Comparison_of_analyses.rst:299
@@ -672,4 +656,16 @@ msgid ""
 " required to describe the data) and Exploratory Factor Analysis aiming at"
 " extracting underlying latent variables."
 msgstr ""
+
+#~ msgid "|spss_prices|"
+#~ msgstr ""
+
+#~ msgid "|SPSS_Analyze|"
+#~ msgstr ""
+
+#~ msgid "|jamovi_Analyze|"
+#~ msgstr ""
+
+#~ msgid "|jamovi_Modules|"
+#~ msgstr ""
 

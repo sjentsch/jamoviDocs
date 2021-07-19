@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,10 +98,6 @@ msgstr ""
 
 #: ../../_pages/um_4_spreadsheet.rst:49
 msgid "The variable editor can be invoked by selecting ``Setup`` from the ``Data`` tab, double-clicking on the column header, or by pressing ``F3``. The variable editor allows you to change the name of the variable, and (for data variables) the data type, the measure type, the order of the levels, and the label displayed for each level. The variable editor can be dismissed by clicking the close arrow, or by pressing ``F3`` again."
-msgstr ""
-
-#: ../../_pages/um_4_spreadsheet.rst:56
-msgid "|change-name|"
 msgstr ""
 
 #: ../../_pages/um_4_spreadsheet.rst:147

@@ -17,8 +17,8 @@ All jamovi controls have the following properties.
 | Property      | Description                           | Form                |
 +===============+=======================================+=====================+
 | ``type``      | Set the type of control, for a list   | enum of valid       |
-|               | of types click `here <ui_advanced-    | Controls_           |
-|               | design.html>`__.                      |                     |
+|               | of types click `here                  | Controls_           |
+|               | <tut_0302-advanced-design.html>`__.   |                     |
 +---------------+---------------------------------------+---------------------+
 | ``name``      | The name of the control. This allows  | Unique string       |
 |               | for access to the control when        |                     |

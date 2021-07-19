@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,10 +42,6 @@ msgstr ""
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_32_anova-factorial.rst:17
-msgid "|data_format_anova_factorial|"
-msgstr ""
-
 #: ../../_pages/jg_32_anova-factorial.rst:62
 #: ../../_pages/jg_32_anova-factorial.rst:62
 msgid "data_format_anova_factorial"
@@ -53,10 +49,6 @@ msgstr ""
 
 #: ../../_pages/jg_32_anova-factorial.rst:0
 msgid "Select ``Analyses`` → ``ANOVA`` → ``ANOVA``."
-msgstr ""
-
-#: ../../_pages/jg_32_anova-factorial.rst:23
-msgid "|select_anova_factorial|"
 msgstr ""
 
 #: ../../_pages/jg_32_anova-factorial.rst:64
@@ -68,10 +60,6 @@ msgstr ""
 msgid "Drag and drop your outcome variable to ``Dependent Variable`` and your grouping variables to ``Fixed Factors``."
 msgstr ""
 
-#: ../../_pages/jg_32_anova-factorial.rst:30
-msgid "|add_var_anova_factorial|"
-msgstr ""
-
 #: ../../_pages/jg_32_anova-factorial.rst:66
 #: ../../_pages/jg_32_anova-factorial.rst:66
 msgid "add_var_anova_factorial"
@@ -79,10 +67,6 @@ msgstr ""
 
 #: ../../_pages/jg_32_anova-factorial.rst:0
 msgid "The result is shown in the right panel:"
-msgstr ""
-
-#: ../../_pages/jg_32_anova-factorial.rst:36
-msgid "|output_anova_factorial|"
 msgstr ""
 
 #: ../../_pages/jg_32_anova-factorial.rst:68

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 15:41+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,10 +52,6 @@ msgstr ""
 msgid "Close the properties with the arrow-icon (→) at the top-right."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:50
-msgid "|jamovi_SyntaxMode1|"
-msgstr ""
-
 #: ../../_pages/jmv_overview.rst:214
 #: ../../_pages/jmv_overview.rst:214
 msgid "jamovi_SyntaxMode1"
@@ -65,17 +61,9 @@ msgstr ""
 msgid "The main window changes to text mode and you can run analyses and afterwards right-click on the command the appears at the top of each analysis to export or copy the syntax."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:57
-msgid "|jamovi_SyntaxMode2|"
-msgstr ""
-
 #: ../../_pages/jmv_overview.rst:215
 #: ../../_pages/jmv_overview.rst:215
 msgid "jamovi_SyntaxMode2"
-msgstr ""
-
-#: ../../_pages/jmv_overview.rst:59
-msgid "|jamovi_SyntaxMode3|"
 msgstr ""
 
 #: ../../_pages/jmv_overview.rst:216

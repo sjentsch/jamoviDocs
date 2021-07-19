@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,10 +37,6 @@ msgstr ""
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_22_t-test-paired.rst:15
-msgid "|data_format_ttest_paired|"
-msgstr ""
-
 #: ../../_pages/jg_22_t-test-paired.rst:58
 #: ../../_pages/jg_22_t-test-paired.rst:58
 msgid "data_format_ttest_paired"
@@ -50,10 +46,6 @@ msgstr ""
 msgid "Select ``Analyses`` → ``T-Tests`` → ``Paired Samples T-Test``."
 msgstr ""
 
-#: ../../_pages/jg_22_t-test-paired.rst:21
-msgid "|select_ttest_paired|"
-msgstr ""
-
 #: ../../_pages/jg_22_t-test-paired.rst:60
 #: ../../_pages/jg_22_t-test-paired.rst:60
 msgid "select_ttest_paired"
@@ -61,10 +53,6 @@ msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst:0
 msgid "Drag and drop your two outcome variables to ``Paired Variables`` (select both variables in a pair at the same time - you do this by holding down the Ctrl key while clicking with the mouse on the variable you want to select)."
-msgstr ""
-
-#: ../../_pages/jg_22_t-test-paired.rst:30
-msgid "|add_var_ttest_paired|"
 msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst:62

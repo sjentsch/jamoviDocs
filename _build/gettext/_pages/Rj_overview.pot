@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,10 +28,6 @@ msgstr ""
 msgid "First you have to `install the module <Install_modules.html>`__ Rj from the jamovi library. This will create a «R»-icon in the icon bar."
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:13
-msgid "|jamovi_Rj1|"
-msgstr ""
-
 #: ../../_pages/Rj_overview.rst:134
 #: ../../_pages/Rj_overview.rst:134
 msgid "jamovi_Rj1"
@@ -45,10 +41,6 @@ msgstr ""
 msgid "Click on the «R» icon and select «Rj Editor»."
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:28
-msgid "|jamovi_Rj2|"
-msgstr ""
-
 #: ../../_pages/Rj_overview.rst:135
 #: ../../_pages/Rj_overview.rst:135
 msgid "jamovi_Rj2"
@@ -56,10 +48,6 @@ msgstr ""
 
 #: ../../_pages/Rj_overview.rst:25
 msgid "This opens an input field on the left side where you can use R commands."
-msgstr ""
-
-#: ../../_pages/Rj_overview.rst:28
-msgid "|jamovi_Rj3|"
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:136
@@ -121,10 +109,6 @@ msgstr ""
 
 #: ../../_pages/Rj_overview.rst:106
 msgid "Switch between R-versions"
-msgstr ""
-
-#: ../../_pages/Rj_overview.rst:109
-msgid "|jamovi_Rj4|"
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:137

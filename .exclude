@@ -1,0 +1,5 @@
+_build/gettext/_pages/dev*.pot
+_build/gettext/_pages/api*.pot
+_build/gettext/_pages/inf*.pot
+_build/gettext/_pages/tut*.pot
+_build/gettext/_pages/ui_*.pot

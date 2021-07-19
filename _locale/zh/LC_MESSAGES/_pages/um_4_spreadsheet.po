@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:59+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,10 +130,6 @@ msgid ""
 "``F3`` again."
 msgstr ""
 
-#: ../../_pages/um_4_spreadsheet.rst:56
-msgid "|change-name|"
-msgstr ""
-
 #: ../../_pages/um_4_spreadsheet.rst:147
 msgid "change-name"
 msgstr ""
@@ -243,4 +239,7 @@ msgid ""
 "More details about filters are covered in this `blog post "
 "<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__"
 msgstr ""
+
+#~ msgid "|change-name|"
+#~ msgstr ""
 

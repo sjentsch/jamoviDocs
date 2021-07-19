@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,10 +42,6 @@ msgstr ""
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_21_t-test-independent.rst:18
-msgid "|data_format_ttest_independent|"
-msgstr ""
-
 #: ../../_pages/jg_21_t-test-independent.rst:60
 #: ../../_pages/jg_21_t-test-independent.rst:60
 msgid "data_format_ttest_independent"
@@ -55,10 +51,6 @@ msgstr ""
 msgid "Select ``Analyses`` → ``T-Tests`` → ``Independent Samples T-Test``."
 msgstr ""
 
-#: ../../_pages/jg_21_t-test-independent.rst:24
-msgid "|select_ttest_independent|"
-msgstr ""
-
 #: ../../_pages/jg_21_t-test-independent.rst:62
 #: ../../_pages/jg_21_t-test-independent.rst:62
 msgid "select_ttest_independent"
@@ -66,10 +58,6 @@ msgstr ""
 
 #: ../../_pages/jg_21_t-test-independent.rst:0
 msgid "Drag and drop your outcome variable to ``Dependent Variables`` and your grouping variable to ``Grouping Variable``."
-msgstr ""
-
-#: ../../_pages/jg_21_t-test-independent.rst:31
-msgid "|add_var_ttest_independent|"
 msgstr ""
 
 #: ../../_pages/jg_21_t-test-independent.rst:64

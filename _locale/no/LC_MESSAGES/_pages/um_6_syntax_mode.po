@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:59+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,10 +40,6 @@ msgid ""
 "syntax) and copy and paste them, for example, into an R session."
 msgstr ""
 
-#: ../../_pages/um_6_syntax_mode.rst:17
-msgid "|r-syntax|"
-msgstr ""
-
 #: ../../_pages/um_6_syntax_mode.rst:30
 msgid "r-syntax"
 msgstr ""
@@ -62,4 +58,7 @@ msgid ""
 "<https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows you to use "
 "R code to analyse data directly in jamovi."
 msgstr ""
+
+#~ msgid "|r-syntax|"
+#~ msgstr ""
 

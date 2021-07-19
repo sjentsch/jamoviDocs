@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 01:16+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,10 +37,6 @@ msgstr ""
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_23_t-test-onesample.rst:16
-msgid "|data_format_ttest_onesample|"
-msgstr ""
-
 #: ../../_pages/jg_23_t-test-onesample.rst:62
 #: ../../_pages/jg_23_t-test-onesample.rst:62
 msgid "data_format_ttest_onesample"
@@ -48,10 +44,6 @@ msgstr ""
 
 #: ../../_pages/jg_23_t-test-onesample.rst:0
 msgid "Select ``Analyses`` → ``T-Tests`` → ``One Sample T-Test``."
-msgstr ""
-
-#: ../../_pages/jg_23_t-test-onesample.rst:22
-msgid "|select_ttest_onesample|"
 msgstr ""
 
 #: ../../_pages/jg_23_t-test-onesample.rst:64
@@ -63,10 +55,6 @@ msgstr ""
 msgid "Drag and drop your dependent variable to ``Dependent Variables``."
 msgstr ""
 
-#: ../../_pages/jg_23_t-test-onesample.rst:28
-msgid "|add_var_ttest_onesample|"
-msgstr ""
-
 #: ../../_pages/jg_23_t-test-onesample.rst:66
 #: ../../_pages/jg_23_t-test-onesample.rst:66
 msgid "add_var_ttest_onesample"
@@ -74,10 +62,6 @@ msgstr ""
 
 #: ../../_pages/jg_23_t-test-onesample.rst:0
 msgid "Locate the section ``Hypothesis`` further down, this is where you enter the mean you want to test against."
-msgstr ""
-
-#: ../../_pages/jg_23_t-test-onesample.rst:35
-msgid "|add_var_ttest_onesample_2|"
 msgstr ""
 
 #: ../../_pages/jg_23_t-test-onesample.rst:68

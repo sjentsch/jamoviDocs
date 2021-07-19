@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,10 +53,6 @@ msgid ""
 " and can be pasted into the other program in the usual way."
 msgstr ""
 
-#: ../../_pages/um_3_analyses.rst:27
-msgid "|copy-paste|"
-msgstr ""
-
 #: ../../_pages/um_3_analyses.rst:41
 msgid "copy-paste"
 msgstr ""
@@ -69,10 +65,6 @@ msgid ""
 " the analysis can be removed."
 msgstr ""
 
-#: ../../_pages/um_3_analyses.rst:34
-msgid "|analysis|"
-msgstr ""
-
 #: ../../_pages/um_3_analyses.rst:43
 msgid "analysis"
 msgstr ""
@@ -82,4 +74,10 @@ msgid ""
 "An overview with short, non-technical tutorials on how to do common "
 "procedures in jamovi can be found under `Analyses <jg_0_welcome.html>`__."
 msgstr ""
+
+#~ msgid "|copy-paste|"
+#~ msgstr ""
+
+#~ msgid "|analysis|"
+#~ msgstr ""
 

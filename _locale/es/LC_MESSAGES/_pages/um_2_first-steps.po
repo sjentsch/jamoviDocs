@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,10 +27,6 @@ msgstr ""
 msgid ""
 "When first starting jamovi, you will be presented with a user interface "
 "which looks something like this."
-msgstr ""
-
-#: ../../_pages/um_2_first-steps.rst:9
-msgid "|screenshot|"
 msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:47
@@ -62,10 +58,6 @@ msgid ""
 "on your computer."
 msgstr ""
 
-#: ../../_pages/um_2_first-steps.rst:27
-msgid "|csv-data|"
-msgstr ""
-
 #: ../../_pages/um_2_first-steps.rst:49
 msgid "csv-data"
 msgstr ""
@@ -92,4 +84,10 @@ msgid ""
 "<https://github.com/jamovi/jamovi/issues>`__. We are keen to make our "
 "importer as robust as possible."
 msgstr ""
+
+#~ msgid "|screenshot|"
+#~ msgstr ""
+
+#~ msgid "|csv-data|"
+#~ msgstr ""
 

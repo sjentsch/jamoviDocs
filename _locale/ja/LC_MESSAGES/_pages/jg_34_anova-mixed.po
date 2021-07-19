@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,20 +49,12 @@ msgstr ""
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_34_anova-mixed.rst:18
-msgid "|data_format_anova_mixed|"
-msgstr ""
-
 #: ../../_pages/jg_34_anova-mixed.rst:66
 msgid "data_format_anova_mixed"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst
 msgid "Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``."
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:24
-msgid "|select_anova_repeated|"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst:68
@@ -75,10 +67,6 @@ msgid ""
 "variable (e.g. ``My_scale``) and name the levels for each measurement "
 "occasion (e.g. ``Pre``, ``Post`` and ``12 month follow-up``). The images "
 "below illustrates this."
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:33
-msgid "|add_var_anova_repeated_naming_1|  ``→`` |add_var_anova_repeated_naming_2|"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst:70
@@ -95,10 +83,6 @@ msgid ""
 "``Repeated Measures Cells``."
 msgstr ""
 
-#: ../../_pages/jg_34_anova-mixed.rst:40
-msgid "|add_var_anova_repeated|"
-msgstr ""
-
 #: ../../_pages/jg_34_anova-mixed.rst:74
 msgid "add_var_anova_repeated"
 msgstr ""
@@ -107,20 +91,12 @@ msgstr ""
 msgid "Move your grouping variable(s) to ``Between Subject Factors``."
 msgstr ""
 
-#: ../../_pages/jg_34_anova-mixed.rst:46
-msgid "|add_var_anova_mixed|"
-msgstr ""
-
 #: ../../_pages/jg_34_anova-mixed.rst:76
 msgid "add_var_anova_mixed"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst
 msgid "The result is shown in the right panel:"
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:52
-msgid "|output_anova_mixed|"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst:78
@@ -133,4 +109,24 @@ msgid ""
 "provided by this `video "
 "<https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__."
 msgstr ""
+
+#~ msgid "|data_format_anova_mixed|"
+#~ msgstr ""
+
+#~ msgid "|select_anova_repeated|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|add_var_anova_repeated_naming_1|  ``→`` "
+#~ "|add_var_anova_repeated_naming_2|"
+#~ msgstr ""
+
+#~ msgid "|add_var_anova_repeated|"
+#~ msgstr ""
+
+#~ msgid "|add_var_anova_mixed|"
+#~ msgstr ""
+
+#~ msgid "|output_anova_mixed|"
+#~ msgstr ""
 
