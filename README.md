@@ -1,6 +1,8 @@
 # jamoviDocs
 
-jamovi documentation using Sphinx
+jamovi documentation using Sphinx. The documentation is available at https://jamovi.readthedocs.io (and translations can be chosen by clicking at the menu that unfolds after pressing at «Read the Docs» at the bottom). Whoever would like to contribute with translations, is very welcome to do so at https://hosted.weblate.org/projects/jamovi/jamovidocs/
+
+-----------
 
 Install and build (first time):
 
