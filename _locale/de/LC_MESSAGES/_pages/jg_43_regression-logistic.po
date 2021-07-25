@@ -4,28 +4,31 @@
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
-#, fuzzy
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-19 16:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"jg_43_regression-logistic/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/jg_43_regression-logistic.rst:5
 msgid "Logistic Regression"
-msgstr ""
+msgstr "Logistische Regression"
 
 #: ../../_pages/jg_43_regression-logistic.rst:7
 msgid "How to perform a logistic regression in jamovi:"
-msgstr ""
+msgstr "So können Sie eine logistische Regression in jamovi durchführen:"
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid ""
@@ -35,22 +38,29 @@ msgid ""
 "predictor variable(s) are marked as |continuous| and the outcome variable"
 " is marked as |nominal|."
 msgstr ""
+"Sie benötigen eine kontinuierliche Prädiktorvariable und eine kategoriale ("
+"nominale oder ordinale) Ergebnisvariable. Stellen Sie sicher, dass die `"
+"Skalenniveaus korrekt gesetzt sind <um_2_first-steps.html#data-variables>`_, "
+"so dass die Prädiktorvariable(n) als |continuous| und die Ergebnisvariable "
+"als |nominal| markiert sind."
 
 #: ../../_pages/jg_43_regression-logistic.rst:59
 msgid "continuous"
-msgstr ""
+msgstr "continuous"
 
 #: ../../_pages/jg_43_regression-logistic.rst:57
 msgid "nominal"
-msgstr ""
+msgstr "nominal"
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid "A correct setup should look similar to this:"
 msgstr ""
+"Die Einstellungen, um diese Analyse durchzuführen, sollten ungefähr so "
+"aussehen:"
 
 #: ../../_pages/jg_43_regression-logistic.rst:61
 msgid "data_format_regression_logistic"
-msgstr ""
+msgstr "data_format_regression_logistic"
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid ""
@@ -60,28 +70,37 @@ msgid ""
 "``N outcomes`` if it has *more* than 2 steps. If the outcome variable is "
 "ordinal (e.g. low, medium, high), select ``Ordinal Outcomes``."
 msgstr ""
+"Die logistische Regression können Sie auswählen, indem Sie ``Analyses`` → "
+"``Regression`` wählen. Wenn die Ergebnisvariable nominal ist (wie im obigen "
+"Bild), wählen Sie ``2 Outcomes``, wenn sie 2 Stufen / verschiedene Werte "
+"hat, oder ``N Outcomes``, wenn sie *mehr* als 2 Stufen hat. Wenn die "
+"Ergebnisvariable ordinal ist (z. B. niedrig, mittel, hoch), wählen Sie ``"
+"Ordinal Outcomes``."
 
 #: ../../_pages/jg_43_regression-logistic.rst:63
 msgid "select_regression_logistic"
-msgstr ""
+msgstr "select_regression_logistic"
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid ""
 "Drag and drop your outcome variable to ``Dependent Variable`` and your "
 "predictor to ``Covariates``."
 msgstr ""
+"Ziehen Sie Ihre abhängige / Ergebnisvariable per Drag & Drop oder mit den "
+"Pfeil-Buttons auf ``Dependent Variable`` und Ihre Prädiktor(en) auf "
+"``Covariates``."
 
 #: ../../_pages/jg_43_regression-logistic.rst:65
 msgid "add_var_regression_logistic"
-msgstr ""
+msgstr "add_var_regression_logistic"
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid "The result is shown in the right panel:"
-msgstr ""
+msgstr "Das Ergebnis wird im rechten Panel angezeigt:"
 
 #: ../../_pages/jg_43_regression-logistic.rst:67
 msgid "output_regression_logistic"
-msgstr ""
+msgstr "output_regression_logistic"
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid ""
@@ -95,6 +114,15 @@ msgid ""
 "preferences: fast food, healthy food, high protein food, vegan food, "
 "etc.)."
 msgstr ""
+"Eine umfassendere Einführung in diese statistische Methode bieten diese "
+"beiden Videos (in Englisch), in denen die logistische Regression mit `zwei "
+"Stufen <https://www.youtube.com/embed/s7GL0z-"
+"3ymA?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (zur Vorhersage z.B. von "
+"Geschlecht oder klinischer vs. Kontrollgruppe ) und mit `mehr als zwei "
+"Stufen <https://www.youtube.com/embed/nuyEUEBf-"
+"GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (zur Vorhersage z.B. von "
+"Essensvorlieben: Fast Food, gesundes Essen, eiweißreiches Essen, veganes "
+"Essen usw.) erklärt wird."
 
 #~ msgid "|data_format_regression_logistic|"
 #~ msgstr ""
@@ -107,4 +135,3 @@ msgstr ""
 
 #~ msgid "|output_regression_logistic|"
 #~ msgstr ""
-
