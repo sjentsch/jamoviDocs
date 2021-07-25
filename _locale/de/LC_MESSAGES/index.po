@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-19 16:47+0200\n"
-"PO-Revision-Date: 2021-07-25 15:43+0000\n"
-"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jamovidocs/"
 "de/>\n"
 "Language: de\n"
@@ -339,3 +339,96 @@ msgstr "select_unianova"
 
 msgid "**SPSS** (version 25)"
 msgstr "**SPSS** (Version 25)"
+
+msgid "output_anova_mixed"
+msgstr "output_anova_mixed"
+
+msgid "add_var_anova_mixed"
+msgstr "add_var_anova_mixed"
+
+msgid "data_format_anova_mixed"
+msgstr "data_format_anova_mixed"
+
+msgid "output_regression_linear"
+msgstr "output_regression_linear"
+
+msgid "add_var_regression_linear"
+msgstr "add_var_regression_linear"
+
+msgid "select_regression_linear"
+msgstr "select_regression_linear"
+
+msgid "data_format_regression_linear"
+msgstr "data_format_regression_linear"
+
+msgid "output_anova_repeated"
+msgstr "output_anova_repeated"
+
+msgid "add_var_anova_repeated"
+msgstr "add_var_anova_repeated"
+
+msgid "add_var_anova_repeated_naming_2"
+msgstr "add_var_anova_repeated_naming_2"
+
+msgid "add_var_anova_repeated_naming_1"
+msgstr "add_var_anova_repeated_naming_1"
+
+msgid "output_anova_factorial"
+msgstr "output_anova_factorial"
+
+msgid "add_var_anova_factorial"
+msgstr "add_var_anova_factorial"
+
+msgid "select_anova_factorial"
+msgstr "select_anova_factorial"
+
+msgid "data_format_anova_factorial"
+msgstr "data_format_anova_factorial"
+
+msgid "Outliers_SelectUnselect"
+msgstr "Outliers_SelectUnselect"
+
+msgid "Outliers_ExcelMagic"
+msgstr "Outliers_ExcelMagic"
+
+msgid "Outliers_AddVar_selSbj"
+msgstr "Outliers_AddVar_selSbj"
+
+msgid "Outliers_Filter_Settings"
+msgstr "Outliers_Filter_Settings"
+
+msgid "Outliers_Filter_Shortcut"
+msgstr "Outliers_Filter_Shortcut"
+
+msgid "add_var_ttest_onesample_2"
+msgstr "add_var_ttest_onesample_2"
+
+msgid "add_var_ttest_onesample"
+msgstr "add_var_ttest_onesample"
+
+msgid "select_ttest_onesample"
+msgstr "select_ttest_onesample"
+
+msgid "add_var_ttest_paired"
+msgstr "add_var_ttest_paired"
+
+msgid "select_ttest_paired"
+msgstr "select_ttest_paired"
+
+msgid "data_format_ttest_paired"
+msgstr "data_format_ttest_paired"
+
+msgid "continuous"
+msgstr "continuous"
+
+msgid "output_regression_logistic"
+msgstr "output_regression_logistic"
+
+msgid "add_var_regression_logistic"
+msgstr "add_var_regression_logistic"
+
+msgid "select_regression_logistic"
+msgstr "select_regression_logistic"
+
+msgid "jamovi_Modules3"
+msgstr "jamovi_Modules3"
