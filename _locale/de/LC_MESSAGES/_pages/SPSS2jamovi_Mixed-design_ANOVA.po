@@ -5,13 +5,14 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # Johannes Keyser <joke@fsfe.org>, 2021.
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-09 00:00+0200\n"
-"PO-Revision-Date: 2021-07-25 11:15+0000\n"
-"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
 "spss2jamovi_mixed-design_anova/de/>\n"
 "Language: de\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../../_pages/SPSS2jamovi_Mixed-design_ANOVA.rst:5
 msgid "From SPSS to jamovi: Mixed-design Analysis of Variance (ANOVA)"
-msgstr ""
+msgstr "Von SPSS zu jamovi: Mixed-Design-Varianzanalyse (ANOVA)"
 
 #: ../../_pages/SPSS2jamovi_Mixed-design_ANOVA.rst:7
 msgid "(coming soon)"
