@@ -4,42 +4,50 @@
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
-#, fuzzy
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-09 00:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"install_modules/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/Install_modules.rst:5
 msgid "Install modules in jamovi"
-msgstr ""
+msgstr "Module in jamovi installieren"
 
 #: ../../_pages/Install_modules.rst:9
 msgid ""
 "Click on the «+»-icon in the top-right corner to install modules from the"
 " jamovi library. |jamovi_Modules1|"
 msgstr ""
+"Klicken Sie auf das «+»-Symbol oben rechts, um Module aus der jamovi-"
+"Bibliothek zu installieren.\n"
+"|jamovi_Modules1|"
 
 #: ../../_pages/Install_modules.rst:22
 msgid "jamovi_Modules1"
-msgstr ""
+msgstr "jamovi_Modules1"
 
 #: ../../_pages/Install_modules.rst:12
 msgid "Choose the jamovi library from the menu that opens. |jamovi_Modules2|"
 msgstr ""
+"Wählen Sie den ``jamovi library``-Tab aus dem sich öffnenden Menü aus.\n"
+"|jamovi_Module2|"
 
 #: ../../_pages/Install_modules.rst:23
 msgid "jamovi_Modules2"
-msgstr ""
+msgstr "jamovi_Modules2"
 
 #: ../../_pages/Install_modules.rst:18
 msgid ""
@@ -48,8 +56,13 @@ msgid ""
 "that you would like to use. Finally, close this window by clicking on the"
 " arrow pointing up (top-right corner). |jamovi_Modules3|"
 msgstr ""
+"In dem sich nun öffnenden Fenster klicken Sie zunächst auf „Available“ ("
+"oben, in der Mitte). Gehen Sie dann die Liste mit den Modulen durch und "
+"klicken Sie bei jedem Modul, das Sie verwenden möchten, auf „INSTALL“. Zum "
+"Schluss schließen Sie dieses Fenster, indem Sie auf den nach oben zeigenden "
+"Pfeil klicken (oben, rechts).\n"
+"|jamovi_Module3|"
 
 #: ../../_pages/Install_modules.rst:24
 msgid "jamovi_Modules3"
-msgstr ""
-
+msgstr "jamovi_Modules3"

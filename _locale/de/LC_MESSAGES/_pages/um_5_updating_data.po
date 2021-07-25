@@ -4,24 +4,27 @@
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
-#, fuzzy
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-09 00:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"um_5_updating_data/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/um_5_updating_data.rst:4
 msgid "Updating data"
-msgstr ""
+msgstr "Daten aktualisieren"
 
 #: ../../_pages/um_5_updating_data.rst:6
 msgid ""
@@ -35,16 +38,28 @@ msgid ""
 "having to re-perform all of your data cleaning and analysis steps (making"
 " your jamovi files behave a bit like scripts)."
 msgstr ""
+"Sobald ein Datensatz mit Filtern, berechneten Variablen, Transformationen "
+"und Analysen eingerichtet ist, möchten Sie die Daten manchmal aktualisieren. "
+"Dies kann verschiedene Gründe haben; z.B. dass Sie eine weitere Datendatei "
+"haben, mit der Sie die zuvor durchgeführten Analysen wiederholen möchten, "
+"oder weil Sie ein Experiment durchgeführt haben, bei dem Sie nun die Daten "
+"eines zusätzlichen Teilnehmers analysieren wollen. Durch den Import in eine "
+"bestehende Datendatei können Sie Ihre Analysen erneut durchführen, ohne alle "
+"Schritte der Datenbereinigung und -analyse erneut durchführen zu müssen ("
+"wodurch sich Ihre jamovi-Dateien ein wenig wie Skripte verhalten)."
 
 #: ../../_pages/um_5_updating_data.rst:16
 msgid ""
 "For a video introduction to import and templates in jamovi, see this "
 "`blog post <https://blog.jamovi.org/2019/03/27/import.html>`__."
 msgstr ""
+"Eine Einführung in den nachträglichen Import von Daten und jamovis' Analyse-"
+"Vorlage-Dateien (*templates*) finden Sie in diesem `Blog-Beitrag "
+"<https://blog.jamovi.org/2019/03/27/import.html>`__ (in Englisch)."
 
 #: ../../_pages/um_5_updating_data.rst:20
 msgid "Single-file Import"
-msgstr ""
+msgstr "Import einer einzelnen Datei"
 
 #: ../../_pages/um_5_updating_data.rst:22
 msgid ""
@@ -52,44 +67,59 @@ msgid ""
 "When you import a file into an existing data set, the following "
 "operations are performed:"
 msgstr ""
+"Der Import ist über das Dateimenü (☰; oben links in jamovi) verfügbar. Wenn "
+"Sie eine Datei in einen bestehenden Datensatz importieren, werden die "
+"folgenden Schritte durchgeführt:"
 
 #: ../../_pages/um_5_updating_data.rst:26
 msgid "All the rows of the existing data set are deleted."
-msgstr ""
+msgstr "Alle Zeilen der vorhandenen Datendatei werden gelöscht."
 
 #: ../../_pages/um_5_updating_data.rst:27
 msgid ""
 "All the (original) names of the existing columns are matched to the names"
 " of the columns from the new data set."
 msgstr ""
+"Die (ursprünglichen) Namen der vorhandenen Spalten werden mit den Namen der "
+"Spalten aus dem neuen Datensatz abgeglichen."
 
 #: ../../_pages/um_5_updating_data.rst:29
 msgid ""
 "The new values are imported to the existing columns, *keeping* the data "
 "and measure types from the existing data set."
 msgstr ""
+"Die neuen Werte werden in die vorhandenen Spalten importiert, wobei der "
+"Datentyp und das Skalenniveau des vorhandenen Datensatzes *beibehalten* "
+"werden."
 
 #: ../../_pages/um_5_updating_data.rst:31
 msgid ""
 "The new columns which did not match names in the original data set are "
 "appended to the right of the data set."
 msgstr ""
+"Variablen, die im ursprünglichen Datensatz nicht existierten (oder einen "
+"anderen Namen hatten), werden in der Datentabelle rechts angehängt (d.h. "
+"nach den existierenden Variablen)."
 
 #: ../../_pages/um_5_updating_data.rst:34
 msgid ""
 "If no new column matches the column names in the existing data set, then "
 "those columns are left blank."
 msgstr ""
+"Wenn keine neue Spalte mit einem Spaltennamen im vorhandenen Datensatz "
+"übereinstimmt, wird diese Spalte leer gelassen."
 
 #: ../../_pages/um_5_updating_data.rst:37
 msgid ""
 "Following a file import, all the filters, computed variables, transforms "
 "and analyses update."
 msgstr ""
+"Nach einem solchen Datei-Import werden alle Filter, berechneten Variablen, "
+"Transformationen und Analysen aktualisiert."
 
 #: ../../_pages/um_5_updating_data.rst:41
 msgid "Multi-file Import"
-msgstr ""
+msgstr "Import mehrerer Dateien"
 
 #: ../../_pages/um_5_updating_data.rst:43
 msgid ""
@@ -101,6 +131,14 @@ msgid ""
 "when selecting data files, or with the “multi-select” button at the top "
 "of the import dialog."
 msgstr ""
+"Es ist auch möglich, mehrere Dateien auf einmal zu importieren. Dies kann "
+"nützlich sein, wenn Sie mehrere Datensätze kombinieren, z. B. wenn jede "
+"Datei einen Teilnehmer darstellt. Der Vorgang ist derselbe wie der oben "
+"beschriebene Einzeldatei-Import, mit dem Unterschied, dass Sie mehrere "
+"Dateien auswählen, wenn Sie den Import durchführen. Sie können dies tun, "
+"indem Sie beim Auswählen von Datendateien die Strg- oder Umschalttaste "
+"gedrückt halten, oder mit der „Mehrfachauswahl“-Schaltfläche oben im "
+"Importdialog."
 
 #: ../../_pages/um_5_updating_data.rst:50
 msgid ""
@@ -112,14 +150,25 @@ msgid ""
 "each participant. This column can be particularly useful to use with the "
 "``group_by`` argument to ``V``-functions described above."
 msgstr ""
+"Werden mehrere Dateien auf diese Weise importiert, werden diese vertikal "
+"kombiniert. Dabei erscheinen die Zeilen der zweiten Datei unter der ersten, "
+"die Zeilen der dritten Datei unter der zweiten und so weiter. Es wird eine "
+"zusätzliche Spalte namens ``source`` erstellt, die angibt, aus welcher Datei "
+"die einzelnen Zeilen stammen. Dies kann nützlich sein, wenn Sie die "
+"einzelnen Teilnehmer „aufteilen“ oder „gruppieren“ wollen. Diese Spalte kann "
+"lässt sich gut mit dem Argument ``group_by`` der zuvor beschriebenen ``V``-"
+"Funktionen verwenden."
 
 #: ../../_pages/um_5_updating_data.rst:58
 msgid "At present, there is no way to combine files horizontally in jamovi."
 msgstr ""
+"Zur Zeit gibt es in jamovi keine Möglichkeit, Dateien horizontal zu "
+"kombinieren (d.h. Datensätze der gleichen Versuchsteilnehmer mit "
+"zusätzlichen Variablen zu erweitern)."
 
 #: ../../_pages/um_5_updating_data.rst:61
 msgid "Templates"
-msgstr ""
+msgstr "Vorlagen (*templates*)"
 
 #: ../../_pages/um_5_updating_data.rst:63
 msgid ""
@@ -131,6 +180,14 @@ msgid ""
 "jamovi templates is that they are entirely specified with the familiar "
 "user interface, and do not require working with a “syntax” or code."
 msgstr ""
+"Vorlagen in jamovi sind spezielle Datendateien, die mit Skriptdateien in "
+"anderen Statistikprogrammen vergleichbar sind. Sie bieten eine Möglichkeit, "
+"Datentypen, Berechnungen, Filter, Transformationen und Analysen im Voraus zu "
+"spezifizieren. Sobald die Daten verfügbar sind, können sie in die Vorlage "
+"importiert werden, und die Vorlage wird entsprechend aktualisiert. Das "
+"Elegante an jamovi-Vorlagen ist, dass sie vollständig über die vertraute "
+"Benutzeroberfläche spezifiziert werden und keine Arbeit mit einer „Syntax“ "
+"oder Code erfordern."
 
 #: ../../_pages/um_5_updating_data.rst:71
 msgid ""
@@ -142,10 +199,21 @@ msgid ""
 "will update, followed by the filters, computed variables, and finally the"
 " analysis results."
 msgstr ""
+"Um einen Datensatz als Vorlage zu speichern, wählen Sie ``Export`` aus dem "
+"Dateimenü und wählen Sie ``jamovi template (.omt)`` aus dem Dateityp-"
+"Auswahlmenü. Wenn Sie eine Vorlage öffnen, werden Sie sehen, dass sie "
+"Spalten, aber keine Zeilen enthält, und dass alle Analyseergebnisse leer "
+"sind. Um die Vorlage zu verwenden, importieren Sie einen (oder mehrere) neue "
+"Datensätze mit dem zuvor beschriebenen Datei-Import. Die Daten werden "
+"eingelesen, mit den in den berechneten Variablen hinterlegten Formeln neu "
+"berechnet, danach gefiltert und schließlich werden die Analyseergebnisse "
+"aktualisiert."
 
 #: ../../_pages/um_5_updating_data.rst:79
 msgid ""
 "jamovi templates are also a great way to provide analyses to less capable"
 " students or colleagues."
 msgstr ""
-
+"jamovi-Vorlagen eignen sich auch hervorragend, um Analysen für Schüler oder "
+"Kollegen zu erstellen die weniger umfangreiche Kenntnisse über statistische "
+"Analysen haben."
