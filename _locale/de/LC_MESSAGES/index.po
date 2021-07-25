@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-19 16:47+0200\n"
 "PO-Revision-Date: 2021-07-25 15:43+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jamovidocs/"
 "de/>\n"
 "Language: de\n"
@@ -31,7 +31,6 @@ msgid "jamovi and other software"
 msgstr "jamovi und andere Software"
 
 #: ../../index.rst:4
-#, fuzzy
 msgid ""
 "Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free "
 "and open statistical software to bridge the gap between researcher and "
@@ -42,7 +41,6 @@ msgstr ""
 "einfache Weise komplexe statistische Methoden anzuwenden."
 
 #: ../../index.rst:10
-#, fuzzy
 msgid "Getting started"
 msgstr "Erste Schritte"
 
@@ -55,7 +53,6 @@ msgstr ""
 "jamovi das erste Mal benutzen."
 
 #: ../../index.rst:15
-#, fuzzy
 msgid ""
 "If you got stuck or get questions regarding jamovi, these can be asked in "
 "the `jamovi forum <https://forum.jamovi.org>`__."
@@ -134,12 +131,10 @@ msgstr ""
 "kann Ihnen bei dieser Aufgabe helfen."
 
 #: ../../index.rst:75
-#, fuzzy
 msgid "t-tests"
 msgstr "t-Tests"
 
 #: ../../index.rst:77
-#, fuzzy
 msgid ""
 "The t-test is used to test whether the mean value in a normally distributed "
 "data set deviates significantly from a null hypothesis (which assumes that "
@@ -151,7 +146,7 @@ msgstr ""
 
 #: ../../index.rst:81 ../../index.rst:112 ../../index.rst:144
 msgid "Community resources"
-msgstr ""
+msgstr "Community-Resourcen"
 
 #: ../../index.rst:0
 msgid ""
@@ -165,7 +160,6 @@ msgstr ""
 "von `Barton Poulson <https://datalab.cc/jamovi>`__ erklärt."
 
 #: ../../index.rst:87
-#, fuzzy
 msgid "There are three types of t-tests:"
 msgstr "Es gibt drei Arten von t-Tests:"
 
@@ -174,7 +168,6 @@ msgid "Analyses of Variance (ANOVA)"
 msgstr "Varianzanalyse (ANOVA)"
 
 #: ../../index.rst:102
-#, fuzzy
 msgid ""
 "The Analysis of variance (ANOVA) is a statistical method that examines how "
 "the impact of one or more factors affects an outcome (dependent) variable. "
@@ -187,9 +180,9 @@ msgid ""
 "in that several factors can be examined simultaneously."
 msgstr ""
 "Die Varianzanalyse (ANOVA) ist eine statistische Methode, die untersucht, "
-"wie sich der Einfluss eines oder mehrerer Faktoren auf eine Ergebnisvariable "
-"(abhängige Variable) auswirkt. Diese Faktoren sind die Prädiktorvariablen "
-"(unabhängige Variablen) und sind kategorisch. Typischerweise spiegeln solche "
+"welchen Einfluss ein oder mehrere Faktoren auf eine Ergebnisvariable ("
+"abhängige Variable) ausüben. Diese Faktoren sind die Prädiktorvariablen ("
+"unabhängige Variablen) und sind kategorisch. Typischerweise spiegeln solche "
 "Faktoren eine experimentelle Manipulation wider (z. B. Behandlung vs. "
 "Placebo in einer Interventionsstudie), aber ein Faktor kann auch eine (oder "
 "mehrere) bestehende Gruppen verwenden, für deren Einfluss man kontrollieren "
@@ -223,12 +216,10 @@ msgstr ""
 "Meßwertwiederholung:"
 
 #: ../../index.rst:134
-#, fuzzy
 msgid "Correlation and regression"
 msgstr "Korrelation und Regression"
 
 #: ../../index.rst:136
-#, fuzzy
 msgid ""
 "Correlation and regression analyses are statistical methods for assessing "
 "the relationships between a dependent / outcome variable and one or more "
@@ -261,11 +252,11 @@ msgstr ""
 
 #: ../../index.rst:163
 msgid "TBA: The jamovi library"
-msgstr ""
+msgstr "TBA: Die jamovi library (ein zentrales Archiv für jamovi-Module)"
 
 #: ../../index.rst:165
 msgid "TBA: Sideloading a module"
-msgstr ""
+msgstr "TBA: Sideloading eines Moduls"
 
 #: ../../index.rst:0
 msgid "datalab"
