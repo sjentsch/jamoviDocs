@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-19 16:47+0200\n"
-"PO-Revision-Date: 2021-07-25 11:15+0000\n"
-"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"PO-Revision-Date: 2021-07-25 15:43+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jamovidocs/"
 "de/>\n"
 "Language: de\n"
@@ -270,3 +270,81 @@ msgstr ""
 #: ../../index.rst:0
 msgid "datalab"
 msgstr "datalab"
+
+msgid "jamovi_Modules2"
+msgstr "jamovi_Modules2"
+
+msgid "jamovi_Modules1"
+msgstr "jamovi_Modules1"
+
+msgid "jamovi_Rj4"
+msgstr "jamovi_Rj4"
+
+msgid "jamovi_Rj3"
+msgstr "jamovi_Rj3"
+
+msgid "jamovi_Rj2"
+msgstr "jamovi_Rj2"
+
+msgid "jamovi_Rj1"
+msgstr "jamovi_Rj1"
+
+msgid "csv-data"
+msgstr "csv-data"
+
+msgid "screenshot"
+msgstr "screenshot"
+
+msgid "analysis"
+msgstr "analysis"
+
+msgid "copy-paste"
+msgstr "copy-paste"
+
+msgid "change-name"
+msgstr "change-name"
+
+msgid "|id|         ``ID``"
+msgstr "|id|         ``ID``"
+
+msgid "|continuous| ``Continuous``"
+msgstr "|continuous| ``Continuous``"
+
+msgid "ordinal"
+msgstr "ordinal"
+
+msgid "|nominal|    ``Nominal``"
+msgstr "|nominal|    ``Nominal``"
+
+msgid "|ordinal|    ``Ordinal``"
+msgstr "|ordinal|    ``Ordinal``"
+
+msgid "add_var_ttest_independent"
+msgstr "add_var_ttest_independent"
+
+msgid "select_ttest_independent"
+msgstr "select_ttest_independent"
+
+msgid "data_format_ttest_independent"
+msgstr "data_format_ttest_independent"
+
+msgid "nominal"
+msgstr "nominal"
+
+msgid "data_format_unianova"
+msgstr "data_format_unianova"
+
+msgid "output_unianova"
+msgstr "output_unianova"
+
+msgid "add_var_unianova_2"
+msgstr "add_var_unianova_2"
+
+msgid "add_var_unianova_1"
+msgstr "add_var_unianova_1"
+
+msgid "select_unianova"
+msgstr "select_unianova"
+
+msgid "**SPSS** (version 25)"
+msgstr "**SPSS** (Version 25)"
