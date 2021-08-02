@@ -5,13 +5,14 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # Zhou Nan <zhounan@nfschina.com>, 2021.
+# shun wang <shuonwang@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-09 00:59+0200\n"
-"PO-Revision-Date: 2021-07-20 18:03+0000\n"
-"Last-Translator: Zhou Nan <zhounan@nfschina.com>\n"
+"PO-Revision-Date: 2021-07-27 01:34+0000\n"
+"Last-Translator: shun wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jamovi/install_modules/zh_Hans/>\n"
 "Language: zh\n"
@@ -30,7 +31,7 @@ msgstr "在 jamovi 中安装模块"
 msgid ""
 "Click on the «+»-icon in the top-right corner to install modules from the"
 " jamovi library. |jamovi_Modules1|"
-msgstr "单击右上角的 «+» 图标来安装来自 jamovi 库的模块。 | jamovi_Modules1 |"
+msgstr "单击右上角的 \"+\" 图标来安装 jamovi 库中的模块。 | jamovi_Modules1 |"
 
 #: ../../_pages/Install_modules.rst:22
 msgid "jamovi_Modules1"
@@ -51,7 +52,7 @@ msgid ""
 "that you would like to use. Finally, close this window by clicking on the"
 " arrow pointing up (top-right corner). |jamovi_Modules3|"
 msgstr ""
-"在打开的窗口中，首先点击 «Available» (顶部中间)。然后浏览包含模块的列表，并在您想要使用的任何模块上单击 «INSTALL» "
+"在打开的窗口中，首先点击 \"Available\" (顶部中间)。然后浏览包含模块的列表，并在您想要使用的任何模块上单击\"INSTALL\""
 "。最后，通过单击向上的箭头（右上角）来关闭这个窗口。| jamovi_Modules3 |"
 
 #: ../../_pages/Install_modules.rst:24

@@ -4,28 +4,31 @@
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
-#, fuzzy
+# Johannes Keyser <joke@fsfe.org>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-19 16:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-07-27 01:33+0000\n"
+"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"comparison_of_analyses/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/Comparison_of_analyses.rst:5
 msgid "Comparison of analyses available in SPSS and jamovi"
-msgstr ""
+msgstr "Vergleich der in SPSS und jamovi verfügbaren Analysen"
 
 #: ../../_pages/Comparison_of_analyses.rst
 msgid "**SPSS** (version 25)"
-msgstr ""
+msgstr "**SPSS** (Version 25)"
 
 #: ../../_pages/Comparison_of_analyses.rst:8
 msgid "**jamovi** (versjon 1.2)"
@@ -44,6 +47,8 @@ msgid ""
 "Already at first glance, it becomes clear that jamovi currently has fewer"
 " features than SPSS. But:"
 msgstr ""
+"Schon auf den ersten Blick wird klar, dass jamovi derzeit weniger Funktionen "
+"hat als SPSS. Aber:"
 
 #: ../../_pages/Comparison_of_analyses.rst
 msgid ""
@@ -668,4 +673,3 @@ msgstr ""
 
 #~ msgid "|jamovi_Modules|"
 #~ msgstr ""
-
