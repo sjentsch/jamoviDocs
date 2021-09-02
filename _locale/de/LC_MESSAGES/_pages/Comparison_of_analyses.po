@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-19 16:15+0200\n"
-"PO-Revision-Date: 2021-07-27 01:33+0000\n"
+"PO-Revision-Date: 2021-08-21 11:33+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
 "comparison_of_analyses/de/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/Comparison_of_analyses.rst:5
@@ -32,7 +32,7 @@ msgstr "**SPSS** (Version 25)"
 
 #: ../../_pages/Comparison_of_analyses.rst:8
 msgid "**jamovi** (versjon 1.2)"
-msgstr ""
+msgstr "**jamovi** (Version 1.2)"
 
 #: ../../_pages/Comparison_of_analyses.rst:297
 msgid "SPSS_Analyze"
