@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-07-09 00:00+0200\n"
-"PO-Revision-Date: 2021-07-27 01:33+0000\n"
+"PO-Revision-Date: 2021-09-05 11:32+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jamovi/jmv_pca/de/"
 ">\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/jmv_pca.rst:5
@@ -166,7 +166,7 @@ msgstr ""
 
 #: ../../_pages/jmv_pca.rst:85
 msgid "Output"
-msgstr ""
+msgstr "Ausgabe"
 
 #: ../../_pages/jmv_pca.rst:87
 msgid "A results object containing:"
@@ -231,4 +231,4 @@ msgstr ""
 
 #: ../../_pages/jmv_pca.rst:108
 msgid "Examples"
-msgstr ""
+msgstr "Beispiele"
