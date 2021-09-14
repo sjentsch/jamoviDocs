@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"POT-Creation-Date: 2021-09-14 16:56+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,25 +24,10 @@ msgstr ""
 msgid "Click on the «+»-icon in the top-right corner to install modules from the jamovi library. |jamovi_Modules1|"
 msgstr ""
 
-#: ../../_pages/Install_modules.rst:22
-#: ../../_pages/Install_modules.rst:22
-msgid "jamovi_Modules1"
-msgstr ""
-
 #: ../../_pages/Install_modules.rst:12
 msgid "Choose the jamovi library from the menu that opens. |jamovi_Modules2|"
 msgstr ""
 
-#: ../../_pages/Install_modules.rst:23
-#: ../../_pages/Install_modules.rst:23
-msgid "jamovi_Modules2"
-msgstr ""
-
 #: ../../_pages/Install_modules.rst:18
 msgid "In the window that opens now, first click on «Available» (top-middle). Then go through the list with modules and click «INSTALL» at any module that you would like to use. Finally, close this window by clicking on the arrow pointing up (top-right corner). |jamovi_Modules3|"
-msgstr ""
-
-#: ../../_pages/Install_modules.rst:24
-#: ../../_pages/Install_modules.rst:24
-msgid "jamovi_Modules3"
 msgstr ""

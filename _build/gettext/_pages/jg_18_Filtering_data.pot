@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,6 @@ msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:5
 msgid "How do I create a filter variable and use it for selection?"
-msgstr ""
-
-#: ../../_pages/jg_18_Filtering_data.rst:161
-#: ../../_pages/jg_18_Filtering_data.rst:161
-msgid "Outliers_Filter_Shortcut"
 msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:0
@@ -65,11 +60,6 @@ msgstr ""
 msgid "you can either use an function-based selection (e.g., based on z-scores):"
 msgstr ""
 
-#: ../../_pages/jg_18_Filtering_data.rst:162
-#: ../../_pages/jg_18_Filtering_data.rst:162
-msgid "Outliers_Filter_Settings"
-msgstr ""
-
 #: ../../_pages/jg_18_Filtering_data.rst:0
 msgid "you can create a select variable (how to do that is `described below <#how-to-manually-create-a-variable-for-selecting-deselecting-cases>`__), use R-scripts to find outliers and mark those outliers in the variable you created:"
 msgstr ""
@@ -106,11 +96,6 @@ msgstr ""
 msgid "How to manually create a variable for selecting / deselecting cases?"
 msgstr ""
 
-#: ../../_pages/jg_18_Filtering_data.rst:165
-#: ../../_pages/jg_18_Filtering_data.rst:165
-msgid "Outliers_AddVar_selSbj"
-msgstr ""
-
 #: ../../_pages/jg_18_Filtering_data.rst:0
 msgid "open the ``Data`` tab so that you see your data spreadsheet"
 msgstr ""
@@ -125,11 +110,6 @@ msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:0
 msgid "briefly check how many participants are contained in your file by going to the last line of your data set, remember this line number"
-msgstr ""
-
-#: ../../_pages/jg_18_Filtering_data.rst:164
-#: ../../_pages/jg_18_Filtering_data.rst:164
-msgid "Outliers_ExcelMagic"
 msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:0
@@ -150,11 +130,6 @@ msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:0
 msgid "obviously you have to adjust ``[VARIABLE NAME]`` to the name of your selected variable"
-msgstr ""
-
-#: ../../_pages/jg_18_Filtering_data.rst:163
-#: ../../_pages/jg_18_Filtering_data.rst:163
-msgid "Outliers_SelectUnselect"
 msgstr ""
 
 #: ../../_pages/jg_18_Filtering_data.rst:0

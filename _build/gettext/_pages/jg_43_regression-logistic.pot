@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,50 +28,20 @@ msgstr ""
 msgid "You need one continuous predictor variable and one categorical (nominal or ordinal) outcome variable. Make sure that the `measurement levels are set correctly <um_2_first-steps.html#data-variables>`_ so that the predictor variable(s) are marked as |continuous| and the outcome variable is marked as |nominal|."
 msgstr ""
 
-#: ../../_pages/jg_43_regression-logistic.rst:59
-#: ../../_pages/jg_43_regression-logistic.rst:59
-msgid "continuous"
-msgstr ""
-
-#: ../../_pages/jg_43_regression-logistic.rst:57
-#: ../../_pages/jg_43_regression-logistic.rst:57
-msgid "nominal"
-msgstr ""
-
 #: ../../_pages/jg_43_regression-logistic.rst:0
 msgid "A correct setup should look similar to this:"
-msgstr ""
-
-#: ../../_pages/jg_43_regression-logistic.rst:61
-#: ../../_pages/jg_43_regression-logistic.rst:61
-msgid "data_format_regression_logistic"
 msgstr ""
 
 #: ../../_pages/jg_43_regression-logistic.rst:0
 msgid "Logistic regression can be found by selecting ``Analyses`` → ``Regression``. If the outcome variable is nominal (as in the above image), select ``2 Outcomes`` if it has 2 steps / different values, or ``N outcomes`` if it has *more* than 2 steps. If the outcome variable is ordinal (e.g. low, medium, high), select ``Ordinal Outcomes``."
 msgstr ""
 
-#: ../../_pages/jg_43_regression-logistic.rst:63
-#: ../../_pages/jg_43_regression-logistic.rst:63
-msgid "select_regression_logistic"
-msgstr ""
-
 #: ../../_pages/jg_43_regression-logistic.rst:0
 msgid "Drag and drop your outcome variable to ``Dependent Variable`` and your predictor to ``Covariates``."
 msgstr ""
 
-#: ../../_pages/jg_43_regression-logistic.rst:65
-#: ../../_pages/jg_43_regression-logistic.rst:65
-msgid "add_var_regression_logistic"
-msgstr ""
-
 #: ../../_pages/jg_43_regression-logistic.rst:0
 msgid "The result is shown in the right panel:"
-msgstr ""
-
-#: ../../_pages/jg_43_regression-logistic.rst:67
-#: ../../_pages/jg_43_regression-logistic.rst:67
-msgid "output_regression_logistic"
 msgstr ""
 
 #: ../../_pages/jg_43_regression-logistic.rst:0

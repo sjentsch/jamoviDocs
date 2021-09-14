@@ -10,14 +10,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_22_t-test-paired.rst:5
 msgid "t-test: Paired samples"
@@ -34,24 +34,12 @@ msgid ""
 "the continuous variables are marked as |continuous|."
 msgstr ""
 
-#: ../../_pages/jg_22_t-test-paired.rst:56
-msgid "continuous"
-msgstr ""
-
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
-#: ../../_pages/jg_22_t-test-paired.rst:58
-msgid "data_format_ttest_paired"
-msgstr ""
-
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid "Select ``Analyses`` → ``T-Tests`` → ``Paired Samples T-Test``."
-msgstr ""
-
-#: ../../_pages/jg_22_t-test-paired.rst:60
-msgid "select_ttest_paired"
 msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst
@@ -60,10 +48,6 @@ msgid ""
 "both variables in a pair at the same time - you do this by holding down "
 "the Ctrl key while clicking with the mouse on the variable you want to "
 "select)."
-msgstr ""
-
-#: ../../_pages/jg_22_t-test-paired.rst:62
-msgid "add_var_ttest_paired"
 msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst

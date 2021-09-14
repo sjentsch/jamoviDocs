@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,73 +28,28 @@ msgstr ""
 msgid "You need at least one grouping variable with at least two levels (e.g. treatment / control) and one continuous outcome variable for each measurement time point. Make sure that the `measurement levels are set correctly <um_2_first-steps.html#data-variables>`_ so that all the variables for the repeated measurements are marked as |continuous| and the grouping variable(s) are marked as |nominal|."
 msgstr ""
 
-#: ../../_pages/jg_34_anova-mixed.rst:64
-#: ../../_pages/jg_34_anova-mixed.rst:64
-msgid "continuous"
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:62
-#: ../../_pages/jg_34_anova-mixed.rst:62
-msgid "nominal"
-msgstr ""
-
 #: ../../_pages/jg_34_anova-mixed.rst:0
 msgid "A correct setup should look similar to this:"
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:66
-#: ../../_pages/jg_34_anova-mixed.rst:66
-msgid "data_format_anova_mixed"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst:0
 msgid "Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``."
 msgstr ""
 
-#: ../../_pages/jg_34_anova-mixed.rst:68
-#: ../../_pages/jg_34_anova-mixed.rst:68
-msgid "select_anova_repeated"
-msgstr ""
-
 #: ../../_pages/jg_34_anova-mixed.rst:0
 msgid "In the box ``Repeated Measures Factors``: write the name of your outcome variable (e.g. ``My_scale``) and name the levels for each measurement occasion (e.g. ``Pre``, ``Post`` and ``12 month follow-up``). The images below illustrates this."
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:70
-#: ../../_pages/jg_34_anova-mixed.rst:70
-msgid "add_var_anova_repeated_naming_1"
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:72
-#: ../../_pages/jg_34_anova-mixed.rst:72
-msgid "add_var_anova_repeated_naming_2"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst:0
 msgid "Drag and drop your outcome variables to their respective cells in ``Repeated Measures Cells``."
 msgstr ""
 
-#: ../../_pages/jg_34_anova-mixed.rst:74
-#: ../../_pages/jg_34_anova-mixed.rst:74
-msgid "add_var_anova_repeated"
-msgstr ""
-
 #: ../../_pages/jg_34_anova-mixed.rst:0
 msgid "Move your grouping variable(s) to ``Between Subject Factors``."
 msgstr ""
 
-#: ../../_pages/jg_34_anova-mixed.rst:76
-#: ../../_pages/jg_34_anova-mixed.rst:76
-msgid "add_var_anova_mixed"
-msgstr ""
-
 #: ../../_pages/jg_34_anova-mixed.rst:0
 msgid "The result is shown in the right panel:"
-msgstr ""
-
-#: ../../_pages/jg_34_anova-mixed.rst:78
-#: ../../_pages/jg_34_anova-mixed.rst:78
-msgid "output_anova_mixed"
 msgstr ""
 
 #: ../../_pages/jg_34_anova-mixed.rst:0

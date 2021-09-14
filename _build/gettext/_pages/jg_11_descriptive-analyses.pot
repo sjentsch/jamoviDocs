@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,63 +28,28 @@ msgstr ""
 msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
 msgstr ""
 
-#: ../../_pages/jg_11_descriptive-analyses.rst:73
-#: ../../_pages/jg_11_descriptive-analyses.rst:73
-msgid "select_descriptives"
-msgstr ""
-
 #: ../../_pages/jg_11_descriptive-analyses.rst:0
 msgid "Drag and drop the variables you want descriptive analyses for to ``Variables``."
-msgstr ""
-
-#: ../../_pages/jg_11_descriptive-analyses.rst:76
-#: ../../_pages/jg_11_descriptive-analyses.rst:76
-msgid "add_var_descriptives"
 msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:0
 msgid "The result is shown in the right panel. Right-click on the output to save or copy it."
 msgstr ""
 
-#: ../../_pages/jg_11_descriptive-analyses.rst:79
-#: ../../_pages/jg_11_descriptive-analyses.rst:79
-msgid "output_descriptives"
-msgstr ""
-
 #: ../../_pages/jg_11_descriptive-analyses.rst:0
 msgid "To split your descriptive analyses on a categorical variable (e.g. to separate by gender), move that variable to ``Split by``."
-msgstr ""
-
-#: ../../_pages/jg_11_descriptive-analyses.rst:82
-#: ../../_pages/jg_11_descriptive-analyses.rst:82
-msgid "add_var_descriptives_groupby"
 msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:0
 msgid "This changes how the output looks like:"
 msgstr ""
 
-#: ../../_pages/jg_11_descriptive-analyses.rst:85
-#: ../../_pages/jg_11_descriptive-analyses.rst:85
-msgid "output_descriptives_groupby"
-msgstr ""
-
 #: ../../_pages/jg_11_descriptive-analyses.rst:0
 msgid "Click the ``Statistics`` tab to see more alternatives."
 msgstr ""
 
-#: ../../_pages/jg_11_descriptive-analyses.rst:88
-#: ../../_pages/jg_11_descriptive-analyses.rst:88
-msgid "select_descriptives_statistics"
-msgstr ""
-
 #: ../../_pages/jg_11_descriptive-analyses.rst:0
 msgid "To create a plot based on the above choices, click the ``Plots`` tab and tick the box of your desired plot. If you would like to identify outliers and to check whehter your variables conform with a normal distribution, then you should tick ``Box plot``, ``Violin``, and ``Q-Q``."
-msgstr ""
-
-#: ../../_pages/jg_11_descriptive-analyses.rst:91
-#: ../../_pages/jg_11_descriptive-analyses.rst:91
-msgid "select_descriptives_plots"
 msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:55

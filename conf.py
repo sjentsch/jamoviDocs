@@ -40,9 +40,11 @@ gettext_compact = False
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.imgmath',
+#   'sphinx.ext.imgmath',
+    'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_copybutton',
+    'sphinx_multiversion',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -151,7 +153,11 @@ html_css_files = ['jamovi.css', # jamovi style (adapted)
 # This will render the custom template windowssidebar.html and the quick search box within the sidebar of the given document, 
 # and render the default sidebars for all other pages (except that the local TOC is replaced by the global TOC).
 # Note that this value only has no effect if the chosen theme does not possess a sidebar, like the builtin scrolls and haiku themes.
-html_sidebars = {'**': ['localtoc.html', 'globaltoc.html', 'relations.html', 'searchbox.html'], }
+html_sidebars = {'**': ['localtoc.html',
+                        'globaltoc.html',
+                        'relations.html',
+                        'searchbox.html',
+                        'versioning.html'], }
 
 # If true, the reST sources are included in the HTML build as _sources/name. The default is True.
 html_copy_source = False

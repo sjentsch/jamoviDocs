@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,11 +24,6 @@ msgstr ""
 msgid "When first starting jamovi, you will be presented with a user interface which looks something like this."
 msgstr ""
 
-#: ../../_pages/um_2_first-steps.rst:47
-#: ../../_pages/um_2_first-steps.rst:47
-msgid "screenshot"
-msgstr ""
-
 #: ../../_pages/um_2_first-steps.rst:11
 msgid "To the left is the spreadsheet view, and to the right is where the results of statistical tests appear. Down the middle is a bar separating these two regions, and this can be dragged to the left or the right to change their sizes."
 msgstr ""
@@ -39,11 +34,6 @@ msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:19
 msgid "Alternatively, existing data sets in a range of formats (CSV, Excel, LibreOffice, R, SPSS, Stata, SAS, JASP) can be opened in jamovi. Additionally, there are a number of example data sets available in jamovi. To open a file, select the file menu (☰, at the top left hand corner of jamovi), select ``Open`` and then ``Data library`` or ``This PC``, depending on whether you want to open an example, or a file stored on your computer."
-msgstr ""
-
-#: ../../_pages/um_2_first-steps.rst:49
-#: ../../_pages/um_2_first-steps.rst:49
-msgid "csv-data"
 msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:29

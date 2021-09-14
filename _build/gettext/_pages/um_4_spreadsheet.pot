@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,36 +52,16 @@ msgstr ""
 msgid "|nominal|    ``Nominal``"
 msgstr ""
 
-#: ../../_pages/um_4_spreadsheet.rst:139
-#: ../../_pages/um_4_spreadsheet.rst:139
-msgid "nominal"
-msgstr ""
-
 #: ../../_pages/um_4_spreadsheet.rst:23
 msgid "|ordinal|    ``Ordinal``"
-msgstr ""
-
-#: ../../_pages/um_4_spreadsheet.rst:141
-#: ../../_pages/um_4_spreadsheet.rst:141
-msgid "ordinal"
 msgstr ""
 
 #: ../../_pages/um_4_spreadsheet.rst:24
 msgid "|continuous| ``Continuous``"
 msgstr ""
 
-#: ../../_pages/um_4_spreadsheet.rst:143
-#: ../../_pages/um_4_spreadsheet.rst:143
-msgid "continuous"
-msgstr ""
-
 #: ../../_pages/um_4_spreadsheet.rst:25
 msgid "|id|         ``ID``"
-msgstr ""
-
-#: ../../_pages/um_4_spreadsheet.rst:145
-#: ../../_pages/um_4_spreadsheet.rst:145
-msgid "id"
 msgstr ""
 
 #: ../../_pages/um_4_spreadsheet.rst:27
@@ -98,11 +78,6 @@ msgstr ""
 
 #: ../../_pages/um_4_spreadsheet.rst:49
 msgid "The variable editor can be invoked by selecting ``Setup`` from the ``Data`` tab, double-clicking on the column header, or by pressing ``F3``. The variable editor allows you to change the name of the variable, and (for data variables) the data type, the measure type, the order of the levels, and the label displayed for each level. The variable editor can be dismissed by clicking the close arrow, or by pressing ``F3`` again."
-msgstr ""
-
-#: ../../_pages/um_4_spreadsheet.rst:147
-#: ../../_pages/um_4_spreadsheet.rst:147
-msgid "change-name"
 msgstr ""
 
 #: ../../_pages/um_4_spreadsheet.rst:58
