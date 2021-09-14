@@ -1,56 +1,192 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi Group, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Sebastian Jentschke, 2020
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 01:55+0200\n"
-"PO-Revision-Date: 2020-07-20 23:22+0000\n"
-"Last-Translator: Sebastian Jentschke, 2020\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/jamovi/teams/111618/nb/)\n"
+"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nb\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:9 ../../index.rst:9
-msgid "Getting started..."
-msgstr "Kom i gang..."
+#: ../../index.rst:167
+msgid "Additional Modules"
+msgstr ""
 
-#: ../../index.rst:18 ../../index.rst:18
-msgid "Learning statistics with jamovi"
-msgstr "Learning statistics with jamovi"
-
-#: ../../index.rst:32 ../../index.rst:32
+#: ../../index.rst:176
 msgid "jamovi and other software"
-msgstr "jamovi og annen programvare"
+msgstr ""
 
-#: ../../index.rst:40 ../../index.rst:40
-msgid "jamovi modules"
-msgstr "jamovi-moduler"
-
-#: ../../index.rst:47 ../../index.rst:47
-msgid "developer hub"
-msgstr "developer hub"
-
-#: ../../index.rst:5
-msgid "jamovi"
-msgstr "jamovi"
-
-#: ../../index.rst:7
+#: ../../index.rst:4
 msgid ""
-"Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free"
-" and open statistical software to bridge the gap between researcher and "
+"Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free "
+"and open statistical software to bridge the gap between researcher and "
 "statistician."
 msgstr ""
-"Velkommen til dokumentasjonen for `jamovi <https://www.jamovi.org>`__, en "
-"statistisk programvare som er kostnadsfri og har åpen kildekode. jamovi vil "
-"bygge en bro mellom forsker og statistiker."
+
+#: ../../index.rst:10
+msgid "Getting started"
+msgstr ""
+
+#: ../../index.rst:12
+msgid ""
+"The jamovi user-manual contains everything you need to know about getting up "
+"and running for jamovi."
+msgstr ""
+
+#: ../../index.rst:15
+msgid ""
+"If you got stuck or get questions regarding jamovi, these can be asked in "
+"the `jamovi forum <https://forum.jamovi.org>`__."
+msgstr ""
+
+#: ../../index.rst:33
+msgid "Analyses"
+msgstr ""
+
+#: ../../index.rst:35
+msgid ""
+"The aim of the following section is to provide short, non-technical "
+"tutorials on how to conduct common statistical procedures in jamovi. It was "
+"originally created by Jonas Rafi under the name jamovi guide."
+msgstr ""
+
+#: ../../index.rst:39
+msgid ""
+"However, it is meant to be an introduction, not a resource providing an in-"
+"depth introduction into the background of those procedures. For such an "
+"endevaour, there are plenty of other resources. Some of these resources are "
+"listed at the bottom of the pages introducing the individual analyses in the "
+"box \"Community resources\"."
+msgstr ""
+
+#: ../../index.rst:47
+msgid "Describing and cleaning your data"
+msgstr ""
+
+#: ../../index.rst:49
+msgid ""
+"A quite essential part of a statistical analysis actually happens before we "
+"conduct them. That part is concerned with first getting an overview over "
+"your data. This information is gathered using descriptive-statistical "
+"analyses."
+msgstr ""
+
+#: ../../index.rst:53
+msgid ""
+"One way to use this information is for assessing whether the data meet the "
+"assumptions that are required to run most inference-statistical procedures. "
+"There are two checks that are central for assessing whether those "
+"assumptions are met: The first evaluates whether the data are in accordance "
+"with a normal distribution, the other assesses whether the independent and "
+"the dependent variables stand in a linear relation. If the assumptions are "
+"not met, this is often due to outliers in your data. Based upon the "
+"information we gathered, it becomes possible to search for and to remove "
+"such outliers. Using `filters <_pages/jg_18_Filtering_data.html>`__ can help "
+"you with that task."
+msgstr ""
+
+#: ../../index.rst:75
+msgid "t-tests"
+msgstr ""
+
+#: ../../index.rst:77
+msgid ""
+"The t-test is used to test whether the mean value in a normally distributed "
+"data set deviates significantly from a null hypothesis (which assumes that "
+"there is no difference)."
+msgstr ""
+
+#: ../../index.rst:81 ../../index.rst:112 ../../index.rst:144
+msgid "Community resources"
+msgstr ""
+
+#: ../../index.rst:0
+msgid ""
+"A more comprehensive introduction into the concept is presented in this "
+"`video <https://www.youtube.com/embed/mb7KCLYEis8?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
+msgstr ""
+
+#: ../../index.rst:87
+msgid "There are three types of t-tests:"
+msgstr ""
+
+#: ../../index.rst:100
+msgid "Analyses of Variance (ANOVA)"
+msgstr ""
+
+#: ../../index.rst:102
+msgid ""
+"The Analysis of variance (ANOVA) is a statistical method that examines how "
+"the impact of one or more factors affects an outcome (dependent) variable. "
+"These factors are the predictor variables and are categorical. Typically, "
+"such factors reflect an experimental manipulation (e.g. with or without "
+"treatment), but a factor can also represent groups for whose influence one "
+"would like to control (e.g. gender: men or women). The analysis of variance "
+"is based on a concept similar to that of the t-test, but it goes beyond "
+"that, in that factors can have several levels (t-tests only allow two) and "
+"in that several factors can be examined simultaneously."
+msgstr ""
+
+#: ../../index.rst:0
+msgid ""
+"An introduction into the concept of an ANOVA is presented in this `video "
+"<https://www.youtube.com/embed/GcbMG6sizXs?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
+msgstr ""
+
+#: ../../index.rst:118
+msgid ""
+"There are different types of analysis of variance, which differ in the "
+"number of factors examined - one or more factors - or whether they compare "
+"between people or within a person - repeated measurements:"
+msgstr ""
+
+#: ../../index.rst:134
+msgid "Correlation and regression"
+msgstr ""
+
+#: ../../index.rst:136
+msgid ""
+"Correlation and regression analyses are statistical methods for assessing "
+"the relationships between a dependent / outcome variable and one or more "
+"independent / predictor variables. While the *correlation* analysis examines "
+"the *relationship* between one predictor and one outcome variable, "
+"*regression* analysis mainly focuses on *prediction* (how well can one or "
+"more variables predict another (outcome) variable). Often, a distinction is "
+"made between linear and non-linear (e.g., logistic regression)."
+msgstr ""
+
+#: ../../index.rst:0
+msgid ""
+"An introduction into the concept of regression analyses is presented in this "
+"`video <https://www.youtube.com/embed/gRhVjKNWiUs?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
+msgstr ""
+
+#: ../../index.rst:163
+msgid "TBA: The jamovi library"
+msgstr ""
+
+#: ../../index.rst:165
+msgid "TBA: Sideloading a module"
+msgstr ""
+
+#: ../../index.rst:0
+msgid "datalab"
+msgstr "datalab"

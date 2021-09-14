@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"jg_32_anova-factorial/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/jg_32_anova-factorial.rst:5
+msgid "ANOVA: Factorial"
+msgstr "ANOVA (mit mehreren Faktoren)"
+
+#: ../../_pages/jg_32_anova-factorial.rst:7
+msgid "How to perform a factorial ANOVA in jamovi:"
+msgstr "So führen Sie eine Varianzanalye mit mehreren Faktoren in jamovi durch:"
+
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid ""
+"You need two grouping variables and one continuous outcome variable. Make"
+" sure that the `measurement levels are set correctly <um_2_first-"
+"steps.html#data-variables>`_ so that the grouping variables are marked as"
+" |nominal| and the continuous variable are marked as |continuous|."
+msgstr ""
+"Sie benötigen mehrere Gruppierungsvariablen und eine kontinuierliche "
+"Ergebnisvariable. Achten Sie darauf, dass die `Skalenniveaus korrekt gesetzt "
+"sind <um_2_erste-schritte.html#Daten-Variablen>`_, so dass die "
+"Gruppierungsvariablen als |nominal| und die Ergebnisvariablen als "
+"|continuous| gekennzeichnet sind."
+
+#: ../../_pages/jg_32_anova-factorial.rst:58
+msgid "nominal"
+msgstr "nominal"
+
+#: ../../_pages/jg_32_anova-factorial.rst:60
+msgid "continuous"
+msgstr "continuous"
+
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid "A correct setup should look similar to this:"
+msgstr ""
+"Die Einstellungen, um diese Analyse durchzuführen, sollten ungefähr so "
+"aussehen:"
+
+#: ../../_pages/jg_32_anova-factorial.rst:62
+msgid "data_format_anova_factorial"
+msgstr "data_format_anova_factorial"
+
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid "Select ``Analyses`` → ``ANOVA`` → ``ANOVA``."
+msgstr "Wählen Sie ``Analyses`` → ``ANOVA`` → ``ANOVA``."
+
+#: ../../_pages/jg_32_anova-factorial.rst:64
+msgid "select_anova_factorial"
+msgstr "select_anova_factorial"
+
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid ""
+"Drag and drop your outcome variable to ``Dependent Variable`` and your "
+"grouping variables to ``Fixed Factors``."
+msgstr ""
+"Weisen Sie Ihre Ergebnisvariable per Drag & Drop oder mit den Pfeil-Buttons "
+"``Dependent Variable`` und Ihre Gruppierungsvariablen ``Fixed Factors`` zu."
+
+#: ../../_pages/jg_32_anova-factorial.rst:66
+msgid "add_var_anova_factorial"
+msgstr "add_var_anova_factorial"
+
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid "The result is shown in the right panel:"
+msgstr "Das Ergebnis wird im rechten Panel angezeigt:"
+
+#: ../../_pages/jg_32_anova-factorial.rst:68
+msgid "output_anova_factorial"
+msgstr "output_anova_factorial"
+
+#: ../../_pages/jg_32_anova-factorial.rst:40
+msgid "Further help from the community resources"
+msgstr "Mehr Hilfe in den Community-Ressourcen"
+
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid ""
+"A more comprehensive introduction into this statistical method is "
+"provided by this `video "
+"<https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
+" by `Barton Poulson <https://datalab.cc/jamovi>`__."
+msgstr ""
+"Eine umfassendere Einführung in diese statistische Methode bietet das "
+"folgende `Video <https://www.youtube.com/embed/"
+"TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ von `Barton Poulson "
+"<https://datalab.cc/jamovi>`__."
+
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid ""
+"For those, aiming to stretch even further to an in-depth introduction, "
+"you can read the respective section in the “Learning statistics with "
+"jamovi” `web documentation "
+"<https://lsj.readthedocs.io/en/latest/lsj/Ch14_ANOVA2_01.html>`__ or "
+"chapter 14.1 - 4 of the `e-book "
+"<https://www.learnstatswithjamovi.com/>`__ by `Danielle J. Navarro "
+"<https://djnavarro.net/>`__ and `David R. Foxcroft "
+"<https://www.davidfoxcroft.com/>`__."
+msgstr ""
+"Wer noch weiter in die Tiefe gehen möchte, kann die entsprechenden "
+"Abschnitte in der `Webdokumentation „Learning statistics with jamovi“ "
+"<https://lsj.readthedocs.io/en/latest/lsj/Ch14_ANOVA2_01.html>`__ oder die "
+"Kapitel 14.1 bis 14.4 des `e-Books <https://www.learnstatswithjamovi.com/>`"
+"__ von `Danielle J. Navarro <https://djnavarro.net/>`__ und `David R. "
+"Foxcroft <https://www.davidfoxcroft.com/>`__ lesen."
+
+#~ msgid "|data_format_anova_factorial|"
+#~ msgstr ""
+
+#~ msgid "|select_anova_factorial|"
+#~ msgstr ""
+
+#~ msgid "|add_var_anova_factorial|"
+#~ msgstr ""
+
+#~ msgid "|output_anova_factorial|"
+#~ msgstr ""

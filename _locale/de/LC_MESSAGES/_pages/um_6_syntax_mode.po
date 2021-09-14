@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"um_6_syntax_mode/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/um_6_syntax_mode.rst:4
+msgid "Syntax Mode"
+msgstr "Syntax-Modus"
+
+#: ../../_pages/um_6_syntax_mode.rst:6
+msgid ""
+"jamovi also provides an “R Syntax Mode”, in this mode, jamovi produces "
+"equivalent R code for each analysis. To change to syntax mode, select the"
+" application menu (⋮) at the top right of jamovi, and check the ``Syntax "
+"mode`` checkbox there. It is possible to leave syntax mode by clicking "
+"this a second time."
+msgstr ""
+"jamovi bietet einen \"R-Syntax-Modus\". In diesem Modus erzeugt jamovi R-"
+"Code für jede Analyse. Um in den Syntax-Modus zu wechseln, wählen Sie das "
+"Anwendungsmenü (⋮) oben rechts in jamovi und setzen dort einen Haken in die "
+"Checkbox ``Syntax mode``. Es ist möglich, den Syntaxmodus zu verlassen, "
+"indem Sie diesen ein zweites Mal anklicken (d.h. das Häkchen abwählen)."
+
+#: ../../_pages/um_6_syntax_mode.rst:12
+msgid ""
+"In syntax mode, analyses continue to operate as before, but now they "
+"produce R syntax, and “ASCII output” like an R session. Like all results "
+"objects in jamovi, you can right click on these items (including the R "
+"syntax) and copy and paste them, for example, into an R session."
+msgstr ""
+"Die Analysen funktionieren im Syntaxmodus weiter wie gewohnt, aber sie "
+"erzeugen jetzt R-Syntax (als erste Ausgabe innerhalb jeder Analyse) und "
+"während die übrigen Ausgaben als ASCII-Ausgabe / Textmodus formatiert sind ("
+"sie sehen also aus wie Ausgaben in einee R-Sitzung). Wie gewohnt können Sie "
+"mit der rechten Maustaste auf alle Ergebnisobjekte in jamovi (einschließlich "
+"der R-Syntax) klicken, Sie mit dem entsprechenden Menü-Eintrag kopieren und "
+"sie danach z. B. in eine R-Sitzung (oder einen Text-Editor) einfügen."
+
+#: ../../_pages/um_6_syntax_mode.rst:30
+msgid "r-syntax"
+msgstr "r-syntax"
+
+#: ../../_pages/um_6_syntax_mode.rst:19
+msgid ""
+"At present, the provided R syntax does not include the data import step, "
+"and this must be performed manually. There are many resources explaining "
+"how to import data into R, and we recommend you take a look at these "
+"(Most analyses in jamovi require data as a data frame)."
+msgstr ""
+"Derzeit beinhaltet die mitgelieferte R-Syntax nicht den Schritt des "
+"Datenimports, und dieser muss manuell durchgeführt werden. Es gibt viele "
+"Ressourcen, die erklären, wie man Daten in R importiert, und wir empfehlen "
+"Ihnen, einen Blick auf diese zu werfen (die meisten Analysen in jamovi "
+"benötigen die Daten als ``data frame``)."
+
+#: ../../_pages/um_6_syntax_mode.rst:24
+msgid ""
+"Another R feature that may be of interest is the `Rj module "
+"<https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows you to use "
+"R code to analyse data directly in jamovi."
+msgstr ""
+"Eine weitere Funktion, die Sie interessieren könnte, ist das `Rj-Modul "
+"<https://blog.jamovi.org/2018/07/30/rj.html>`__. Dieses Modul erlaubt es "
+"Ihnen, R-Code / R-Kommandos zu verwenden, um Daten direkt in jamovi zu "
+"analysieren."
+
+#~ msgid "|r-syntax|"
+#~ msgstr ""

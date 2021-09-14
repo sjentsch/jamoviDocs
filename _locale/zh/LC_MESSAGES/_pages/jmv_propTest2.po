@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-09 00:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/jmv_propTest2.rst:5
+msgid "Proportion Test (2 Outcomes; ``propTest2``)"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:10
+msgid ""
+"The Binomial test is used to test the Null hypothesis that the proportion"
+" of observations match some expected value. If the p-value is low, this "
+"suggests that the Null hypothesis is false, and that the true proportion "
+"must be some other value."
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:16
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:37
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:40
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:40
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:42
+msgid "``vars``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:42
+msgid "a vector of strings naming the variables of interest in ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:45
+msgid "``areCounts``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:45
+msgid "``TRUE`` or ``FALSE`` (default), the variables are counts"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:48
+msgid "``testValue``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:48
+msgid "a number (default: 0.5), the value for the null hypothesis"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:51
+msgid "``hypothesis``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:51
+msgid ""
+"``'notequal'`` (default), ``'greater'`` or ``'less'``, the alternative "
+"hypothesis"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:54
+msgid "``ci``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:54
+msgid "``TRUE`` or ``FALSE`` (default), provide confidence intervals"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:57
+msgid "``ciWidth``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:57
+msgid "a number between 50 and 99.9 (default: 95), the confidence interval width"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:60
+msgid "``bf``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:60
+msgid "``TRUE`` or ``FALSE`` (default), provide Bayes factors"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:63
+msgid "``priorA``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:63
+msgid "a number (default: 1), the beta prior 'a' parameter"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:66
+msgid "``priorB``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:66
+msgid "a number (default: 1), the beta prior 'b' parameter"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:69
+msgid "``ciBayes``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:69
+msgid "``TRUE`` or ``FALSE`` (default), provide Bayesian credible intervals"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:72
+msgid "``ciBayesWidth``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:72
+msgid "a number between 50 and 99.9 (default: 95), the credible interval width"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:75
+msgid "``postPlots``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:75
+msgid "``TRUE`` or ``FALSE`` (default), provide posterior plots"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:80
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:82
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:85
+msgid "``results$table``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:85
+msgid "a table of the proportions and test results"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:86
+msgid "``results$postPlots``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:86
+msgid "an array of the posterior plots"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:89
+msgid ""
+"Tables can be converted to data frames with ``asDF`` or "
+"``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:92
+msgid "``results$table$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:94
+msgid "``as.data.frame(results$table)``"
+msgstr ""
+
+#: ../../_pages/jmv_propTest2.rst:97
+msgid "Examples"
+msgstr ""
+

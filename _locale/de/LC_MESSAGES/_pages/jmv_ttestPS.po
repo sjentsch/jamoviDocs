@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Johannes Keyser <joke@fsfe.org>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
+"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+"PO-Revision-Date: 2021-09-05 11:32+0000\n"
+"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"jmv_ttestps/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/jmv_ttestPS.rst:5
+msgid "Paired Samples T-Test (``ttestPS``)"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:8
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../../_pages/jmv_ttestPS.rst:10
+msgid ""
+"The Student's paired samples t-test (sometimes called a dependent-samples"
+" t-test) is used to test the null hypothesis that the difference between "
+"pairs of measurements is equal to zero. A low p-value suggests that the "
+"null hypothesis is not true, and that the difference between the "
+"measurement pairs is not zero."
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:17
+msgid "Usage"
+msgstr "Verwendung"
+
+#: ../../_pages/jmv_ttestPS.rst:43
+msgid "Arguments"
+msgstr "Argumente"
+
+#: ../../_pages/jmv_ttestPS.rst:46
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:46
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:48
+msgid "``pairs``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:48
+msgid "a list of lists specifying the pairs of measurement in ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:51
+msgid "``students``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:51
+msgid "``TRUE`` (default) or ``FALSE``, perform Student's t-tests"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:54
+msgid "``bf``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:54
+msgid "``TRUE`` or ``FALSE`` (default), provide Bayes factors"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:57
+msgid "``bfPrior``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:57
+msgid ""
+"a number between 0.5 and 2 (default 0.707), the prior width to use in "
+"calculating Bayes factors"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:60
+msgid "``wilcoxon``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:60
+msgid "``TRUE`` or ``FALSE`` (default), perform Wilcoxon signed rank tests"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:63
+msgid "``hypothesis``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:63
+msgid ""
+"``'different'`` (default), ``'oneGreater'`` or ``'twoGreater'``, the "
+"alternative hypothesis; measure 1 different to measure 2, measure 1 "
+"greater than measure 2, and measure 2 greater than measure 1 respectively"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:69
+msgid "``norm``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:69
+msgid "``TRUE`` or ``FALSE`` (default), perform Shapiro-wilk normality tests"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:72
+msgid "``qq``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:72
+msgid "``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of residuals"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:75
+msgid "``meanDiff``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:75
+msgid "``TRUE`` or ``FALSE`` (default), provide means and standard errors"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:78
+msgid "``ci``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:78
+msgid "``TRUE`` or ``FALSE`` (default), provide confidence intervals"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:81
+msgid "``ciWidth``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:81
+msgid ""
+"a number between 50 and 99.9 (default: 95), the width of confidence "
+"intervals"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:84
+msgid "``effectSize``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:84
+msgid "``TRUE`` or ``FALSE`` (default), provide effect sizes"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:87
+msgid "``ciES``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:87
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide confidence intervals for the "
+"effect-sizes"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:90
+msgid "``ciWidthES``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:90
+msgid ""
+"a number between 50 and 99.9 (default: 95), the width of confidence "
+"intervals for the effect sizes"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:93
+msgid "``desc``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:93
+msgid "``TRUE`` or ``FALSE`` (default), provide descriptive statistics"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:96
+msgid "``plots``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:96
+msgid "``TRUE`` or ``FALSE`` (default), provide descriptive plots"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:99
+msgid "``miss``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:99
+msgid ""
+"``'perAnalysis'`` or ``'listwise'``, how to handle missing values; "
+"``'perAnalysis'`` excludes missing values for individual dependent "
+"variables, ``'listwise'`` excludes a row from all analyses if one of its "
+"entries is missing"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:107
+msgid "Details"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:109
+msgid ""
+"The Student's paired samples t-test assumes that pair differences follow "
+"a normal distribution – in the case that one is unwilling to assume this,"
+" the non-parametric Wilcoxon signed-rank can be used in it's place "
+"(However, note that the Wilcoxon signed-rank has a slightly different "
+"null hypothesis; that the two groups of measurements follow the same "
+"distribution)."
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:117
+msgid "Output"
+msgstr "Ausgabe"
+
+#: ../../_pages/jmv_ttestPS.rst:119
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:122
+msgid "``results$ttest``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:122
+msgid "a table containing the t-test results"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:123
+msgid "``results$norm``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:123
+msgid "a table containing the normality test results"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:124
+msgid "``results$desc``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:124
+msgid "a table containing the descriptives"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:125
+msgid "``results$plots``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:125
+msgid "an array of the descriptive plots"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:128
+msgid ""
+"Tables can be converted to data frames with ``asDF`` or "
+"``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:131
+msgid "``results$ttest$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:133
+msgid "``as.data.frame(results$ttest)``"
+msgstr ""
+
+#: ../../_pages/jmv_ttestPS.rst:136
+msgid "Examples"
+msgstr "Beispiele"

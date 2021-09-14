@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmv_ancova.rst:5
+msgid "ANCOVA (``ancova``)"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:10
+msgid "The Analysis of Covariance (ANCOVA) is used to explore the relationship between a continuous dependent variable, one or more categorical explanatory variables, and one or more continuous explanatory variables (or covariates). It is essentially the same analysis as ANOVA, but with the addition of covariates."
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:17
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:50
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:53
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:53
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:55
+msgid "``dep``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:55
+msgid "the dependent variable from ``data``, variable must be numeric (not necessary when providing a formula, see examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:59
+msgid "``factors``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:59
+msgid "the explanatory factors in ``data`` (not necessary when providing a formula, see examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:63
+msgid "``covs``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:63
+msgid "the explanatory covariates (not necessary when providing a formula, see examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:66
+msgid "``effectSize``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:66
+msgid "one or more of ``'eta'``, ``'partEta'``, or ``'omega'``; use eta², partial eta², and omega² effect sizes, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:70
+msgid "``modelTest``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:70
+msgid "``TRUE`` or ``FALSE`` (default); perform an overall model test"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:73
+msgid "``modelTerms``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:73
+msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:77
+msgid "``ss``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:77
+msgid "``'1'``, ``'2'`` or ``'3'`` (default), the sum of squares to use"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:80
+msgid "``homo``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:80
+msgid "``TRUE`` or ``FALSE`` (default), perform homogeneity tests"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:83
+msgid "``norm``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:83
+msgid "``TRUE`` or ``FALSE`` (default), perform Shapiro-Wilk tests of normality"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:86
+msgid "``qq``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:86
+msgid "``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of residuals"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:89
+msgid "``contrasts``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:89
+msgid "a list of lists specifying the factor and type of contrast to use, one of ``'deviation'``, ``'simple'``, ``'difference'``, ``'helmert'``, ``'repeated'`` or ``'polynomial'``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:95
+msgid "``postHoc``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:95
+msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:98
+msgid "``postHocCorr``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:98
+msgid "one or more of ``'none'``, ``'tukey'``, ``'scheffe'``, ``'bonf'``, or ``'holm'``; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:103
+msgid "``postHocES``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:103
+msgid "a possible value of ``'d'``; provide cohen's d measure of effect size for the post-hoc tests"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:107
+msgid "``postHocEsCi``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:107
+msgid "``TRUE`` or ``FALSE`` (default), provide confidence intervals for the post-hoc effect sizes"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:111
+msgid "``postHocEsCiWidth``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:111
+msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:115
+msgid "``emMeans``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:115
+msgid "a formula containing the terms to estimate marginal means for (see the examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:118
+msgid "``emmPlots``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:118
+msgid "``TRUE`` (default) or ``FALSE``, provide estimated marginal means plots"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:121
+msgid "``emmPlotData``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:121
+msgid "``TRUE`` or ``FALSE`` (default), plot the data on top of the marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:124
+msgid "``emmPlotError``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:124
+msgid "``'none'``, ``'ci'`` (default), or ``'se'``. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:129
+msgid "``emmTables``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:129
+msgid "``TRUE`` or ``FALSE`` (default), provide estimated marginal means tables"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:132
+msgid "``emmWeights``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:132
+msgid "``TRUE`` (default) or ``FALSE``, weigh each cell equally or weigh them according to the cell frequency"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:136
+msgid "``ciWidthEmm``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:136
+msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:140
+msgid "``formula``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:140
+msgid "(optional) the formula to use, see the examples"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:145
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:147
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:150
+msgid "``results$main``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:150
+msgid "a table of ANCOVA results"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:152
+msgid "``results$model``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:152
+msgid "The underlying ``aov`` object"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:154
+msgid "``results$assump$homo``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:154
+msgid "a table of homogeneity tests"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:156
+msgid "``results$assump$norm``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:156
+msgid "a table of normality tests"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:158
+msgid "``results$assump$qq``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:158
+msgid "a q-q plot"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:160
+msgid "``results$contrasts``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:160
+msgid "an array of contrasts tables"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:162
+msgid "``results$postHoc``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:162
+msgid "an array of post-hoc tables"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:164
+msgid "``results$emm``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:164
+msgid "an array of the estimated marginal means plots + tables"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:168
+msgid "Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:171
+msgid "``results$main$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:173
+msgid "``as.data.frame(results$main)``"
+msgstr ""
+
+#: ../../_pages/jmv_ancova.rst:176
+msgid "Examples"
+msgstr ""

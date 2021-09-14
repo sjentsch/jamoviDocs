@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/um_3_analyses.rst:4
+msgid "Analyses"
+msgstr ""
+
+#: ../../_pages/um_3_analyses.rst:6
+msgid ""
+"Analyses can be selected from the analyses ribbon or menu along the top. "
+"Selecting an analysis will present an “options panel” for that particular"
+" analysis, allowing you to assign different variables to different parts "
+"of the analysis, and select different options. At the same time, the "
+"results for the analysis will appear in the right “results panel”, and "
+"will update as you make changes to the options."
+msgstr ""
+
+#: ../../_pages/um_3_analyses.rst:13
+msgid ""
+"When you have the analysis set up correctly, you can dismiss the analysis"
+" options by clicking the arrow to the top right of the options panel. If "
+"you wish to return to these options, you can click on the results that "
+"were produced. In this way, you can return to any analysis that you (or "
+"say, a colleague) created earlier."
+msgstr ""
+
+#: ../../_pages/um_3_analyses.rst:19
+msgid ""
+"jamovi produces nice APA formatted tables, and attractive plots. It is "
+"often useful to be able to copy and paste these, perhaps into a Word "
+"document, or into an email to a colleague. To copy results, right click "
+"on the object of interest, and from the menu select exactly what you want"
+" to copy. The menu allows you to choose to copy, say only the image, or "
+"the entire analysis. Selecting copy, copies the content to the clipboard,"
+" and can be pasted into the other program in the usual way."
+msgstr ""
+
+#: ../../_pages/um_3_analyses.rst:41
+msgid "copy-paste"
+msgstr ""
+
+#: ../../_pages/um_3_analyses.rst:29
+msgid ""
+"If you decide you no longer need a particular analysis, you can remove it"
+" with the results context menu. Right-clicking on the analysis results "
+"will bring up a menu, and by selecting ``Analysis``, and then ``Remove``,"
+" the analysis can be removed."
+msgstr ""
+
+#: ../../_pages/um_3_analyses.rst:43
+msgid "analysis"
+msgstr ""
+
+#: ../../_pages/um_3_analyses.rst:36
+msgid ""
+"An overview with short, non-technical tutorials on how to do common "
+"procedures in jamovi can be found under `Analyses <jg_0_welcome.html>`__."
+msgstr ""
+
+#~ msgid "|copy-paste|"
+#~ msgstr ""
+
+#~ msgid "|analysis|"
+#~ msgstr ""
+

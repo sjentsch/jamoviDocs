@@ -1,0 +1,233 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Artem <Localizer_in_Russian@protonmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
+"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+"PO-Revision-Date: 2021-09-02 06:33+0000\n"
+"Last-Translator: Artem <Localizer_in_Russian@protonmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/jamovi/"
+"jmv_corrmatrix/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/jmv_corrMatrix.rst:5
+msgid "Correlation Matrix (``corrMatrix``)"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:8
+msgid "Description"
+msgstr "Описание"
+
+#: ../../_pages/jmv_corrMatrix.rst:10
+msgid ""
+"Correlation matrices are a way to examine linear relationships between "
+"two or more continuous variables."
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:14
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:36
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:39
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:39
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:41
+msgid "``vars``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:41
+msgid "a vector of strings naming the variables to correlate in ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:44
+msgid "``pearson``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:44
+msgid "``TRUE`` (default) or ``FALSE``, provide Pearson's R"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:47
+msgid "``spearman``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:47
+msgid "``TRUE`` or ``FALSE`` (default), provide Spearman's rho"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:50
+msgid "``kendall``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:50
+msgid "``TRUE`` or ``FALSE`` (default), provide Kendall's tau-b"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:53
+msgid "``sig``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:53
+msgid "``TRUE`` (default) or ``FALSE``, provide significance levels"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:56
+msgid "``flag``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:56
+msgid "``TRUE`` or ``FALSE`` (default), flag significant correlations"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:59
+msgid "``n``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:59
+msgid "``TRUE`` or ``FALSE`` (default), provide the number of cases"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:62
+msgid "``ci``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:62
+msgid "``TRUE`` or ``FALSE`` (default), provide confidence intervals"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:65
+msgid "``ciWidth``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:65
+msgid ""
+"a number between 50 and 99.9 (default: 95), the width of confidence "
+"intervals to provide"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:68
+msgid "``plots``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:68
+msgid "``TRUE`` or ``FALSE`` (default), provide a correlation matrix plot"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:71
+msgid "``plotDens``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:71
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide densities in the correlation "
+"matrix plot"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:74
+msgid "``plotStats``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:74
+msgid ""
+"``TRUE`` or ``FALSE`` (default), provide statistics in the correlation "
+"matrix plot"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:77
+msgid "``hypothesis``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:77
+msgid ""
+"one of ``'corr'`` (default), ``'pos'``, ``'neg'`` specifying the "
+"alernative hypothesis; correlated, correlated positively, correlated "
+"negatively respectively."
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:84
+msgid "Details"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:86
+msgid ""
+"For each pair of variables, a Pearson's r value indicates the strength "
+"and direction of the relationship between those two variables. A positive"
+" value indicates a positive relationship (higher values of one variable "
+"predict higher values of the other variable). A negative Pearson's r "
+"indicates a negative relationship (higher values of one variable predict "
+"lower values of the other variable, and vice-versa). A value of zero "
+"indicates no relationship (whether a variable is high or low, does not "
+"tell us anything about the value of the other variable)."
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:95
+msgid ""
+"More formally, it is possible to test the null hypothesis that the "
+"correlation is zero and calculate a p-value. If the p-value is low, it "
+"suggests the correlation co-efficient is not zero, and there is a linear "
+"(or more complex) relationship between the two variables."
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:101
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:103
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:106
+msgid "``results$matrix``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:106
+msgid "a correlation matrix table"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:107
+msgid "``results$plot``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:107
+msgid "a correlation matrix plot"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:110
+msgid ""
+"Tables can be converted to data frames with ``asDF`` or "
+"``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:113
+msgid "``results$matrix$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:115
+msgid "``as.data.frame(results$matrix)``"
+msgstr ""
+
+#: ../../_pages/jmv_corrMatrix.rst:118
+msgid "Examples"
+msgstr ""

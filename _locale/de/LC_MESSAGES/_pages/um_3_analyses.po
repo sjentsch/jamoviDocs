@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
+"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"PO-Revision-Date: 2021-07-25 17:14+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
+"um_3_analyses/de/>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2-dev\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/um_3_analyses.rst:4
+msgid "Analyses"
+msgstr "Analysen"
+
+#: ../../_pages/um_3_analyses.rst:6
+msgid ""
+"Analyses can be selected from the analyses ribbon or menu along the top. "
+"Selecting an analysis will present an “options panel” for that particular"
+" analysis, allowing you to assign different variables to different parts "
+"of the analysis, and select different options. At the same time, the "
+"results for the analysis will appear in the right “results panel”, and "
+"will update as you make changes to the options."
+msgstr ""
+"Analysen können über den \"Analyses\"-Tab im Ribbon-Menü (oben im jamovi-"
+"Fenster) ausgewählt werden. Wenn Sie eine Analyse auswählen, wird ein "
+"Eingabe- / Options-Panel für diese Analyse angezeigt. Dort können Sie "
+"Variablen zu den verschiedenen Teilen der Analyse zuweisen (z.B. abhängige "
+"Variable) und verschiedene Analyse-Optionen auswählen. Sobald Sie neue "
+"Variablen zuweisen oder Analyse-Optionen ändern, werden die Ergebnisse für "
+"die Analyse im rechten \"Ergebnisbereich\" angezeigt oder aktualisiert."
+
+#: ../../_pages/um_3_analyses.rst:13
+msgid ""
+"When you have the analysis set up correctly, you can dismiss the analysis"
+" options by clicking the arrow to the top right of the options panel. If "
+"you wish to return to these options, you can click on the results that "
+"were produced. In this way, you can return to any analysis that you (or "
+"say, a colleague) created earlier."
+msgstr ""
+"Wenn Sie alle erforderlichen Einstellungen für die Analyse vorgenommen haben "
+"und einen größeren Teil des jamovi-Fensters für das Anzeigen der Ergebnisse "
+"zur Verfügung haben möchten, können Sie die Analyseoptionen durch Klicken "
+"auf den Pfeil oben rechts im Optionsfeld ausblenden. Wenn Sie danach "
+"Änderungen an den Analyseoptionen vornehmen möchten, können Sie das Panel "
+"mit den Analyseoptionen einblenden indem Sie auf die Ergebnisse klicken. Auf "
+"diese Weise können Sie Änderungen an Analysen vornehmen, die Sie (oder ein "
+"Kollege) zuvor erstellt haben."
+
+#: ../../_pages/um_3_analyses.rst:19
+msgid ""
+"jamovi produces nice APA formatted tables, and attractive plots. It is "
+"often useful to be able to copy and paste these, perhaps into a Word "
+"document, or into an email to a colleague. To copy results, right click "
+"on the object of interest, and from the menu select exactly what you want"
+" to copy. The menu allows you to choose to copy, say only the image, or "
+"the entire analysis. Selecting copy, copies the content to the clipboard,"
+" and can be pasted into the other program in the usual way."
+msgstr ""
+"jamovi erzeugt Tabellen und Diagramme, die im Einklang mit den Richtlinien "
+"des **APA Publication Manual** formatiert sind. Diese lassen sich leicht ("
+"per copy-and-paste) in ein Dokument in einer Textverarbeitung oder in eine E-"
+"Mail an einen Kollegen kopieren. Hierfür klicken Sie mit der rechten "
+"Maustaste auf das gewünschte Objekt und wählen Sie aus dem Menü den Teil der "
+"Resultate aus, die Sie kopieren möchten: nur das gewählte Bild / die "
+"gewählte Tabelle oder die gesamte Analyse. Wenn Sie \"Kopieren\" wählen, "
+"wird der Inhalt in die Zwischenablage kopiert und kann auf die gewohnte "
+"Weise in andere Programme eingefügt werden."
+
+#: ../../_pages/um_3_analyses.rst:41
+msgid "copy-paste"
+msgstr "copy-paste"
+
+#: ../../_pages/um_3_analyses.rst:29
+msgid ""
+"If you decide you no longer need a particular analysis, you can remove it"
+" with the results context menu. Right-clicking on the analysis results "
+"will bring up a menu, and by selecting ``Analysis``, and then ``Remove``,"
+" the analysis can be removed."
+msgstr ""
+"Wenn Sie eine bestimmte Analyse nicht mehr benötigen, können Sie diese über "
+"das Kontextmenü der Analyse im Ergebnis-Panel entfernen. Klicken Sie dafür "
+"mit der rechten Maustaste auf die Ergebnisse dieser Analyse und wählen Sie "
+"dort ``Analysis`` und dann ``Remove``."
+
+#: ../../_pages/um_3_analyses.rst:43
+msgid "analysis"
+msgstr "analysis"
+
+#: ../../_pages/um_3_analyses.rst:36
+msgid ""
+"An overview with short, non-technical tutorials on how to do common "
+"procedures in jamovi can be found under `Analyses <jg_0_welcome.html>`__."
+msgstr ""
+"Eine Übersicht mit kurzen, nicht-technischen Anleitungen, wie man die "
+"wichtigsten statistischen Analysen in jamovi durchführt, finden Sie unter `"
+"Analysen <https://jamovi.readthedocs.io/de/latest/#analyses>`__."
+
+#~ msgid "|copy-paste|"
+#~ msgstr ""
+
+#~ msgid "|analysis|"
+#~ msgstr ""

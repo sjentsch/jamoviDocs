@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmv_propTestN.rst:5
+msgid "Proportion Test (N Outcomes; ``propTestN``)"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:10
+msgid "The X² Goodness of fit test (not to be confused with the X² test of independence), tests the Null hypothesis that the proportions of observations match some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those tested."
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:17
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:24
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:27
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:27
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:29
+msgid "``var``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:29
+msgid "the variable of interest in ``data`` (not necessary when using a formula, see the examples)"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:32
+msgid "``counts``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:32
+msgid "the counts in ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:34
+msgid "``expected``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:34
+msgid "``TRUE`` or ``FALSE`` (default), whether expected counts should be displayed"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:37
+msgid "``ratio``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:37
+msgid "a vector of numbers: the expected proportions"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:39
+msgid "``formula``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:39
+msgid "(optional) the formula to use, see the examples"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:43
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:45
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:48
+msgid "``results$props``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:48
+msgid "a table of the proportions"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:49
+msgid "``results$tests``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:49
+msgid "a table of the test results"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:52
+msgid "Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:55
+msgid "``results$props$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:57
+msgid "``as.data.frame(results$props)``"
+msgstr ""
+
+#: ../../_pages/jmv_propTestN.rst:60
+msgid "Examples"
+msgstr ""

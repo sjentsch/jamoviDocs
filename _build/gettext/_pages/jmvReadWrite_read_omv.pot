@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-02 13:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:5
+msgid "Read files created with jamovi (``read_jmv``)"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:10
+msgid "Read files created of the statistical spreadsheet `jamovi <www.jamovi.org>`__."
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:14
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:21
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:24
+msgid "``fleNme``"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:24
+msgid "name of the 'jamovi' file to be read (\"FILENAME.omv\"; default = \"\")"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:27
+msgid "``useFlt``"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:27
+msgid "apply filters (remove the lines where the filter is set to 0; default: FALSE)"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:30
+msgid "``rmMsVl``"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:30
+msgid "remove values defined as missing values (replace them with NA; default - FALSE)"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:33
+msgid "``sveAtt``"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:33
+msgid "store attributes that are not required in the data set (if you want to write the same data set using jmvWrite; default – FALSE)"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:39
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmvReadWrite_read_omv.rst:41
+msgid "data frame (can be directly used with functions included in the R-package 'jmv' and syntax from 'jamovi'; also compatible with the format of the R-package \"foreign\")"
+msgstr ""
