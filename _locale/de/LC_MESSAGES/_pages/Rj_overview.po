@@ -64,8 +64,8 @@ msgstr ""
 "Spalten / Variablen dieses Datensatzes aus. Alternativ können Sie auch "
 "Variablennamen verwenden, wie in der zweiten Zeile gezeigt.\n"
 ".. code-Block: R\n"
-"  summary(data[1:3])\n"
-"  summary(data[, c('var1', 'var2', 'var3')])"
+"summary(data[1:3])\n"
+"summary(data[, c('var1', 'var2', 'var3')])"
 
 #: ../../_pages/Rj_overview.rst:38
 msgid ""
@@ -75,7 +75,7 @@ msgid ""
 msgstr ""
 "Sie können aber auch Funktionen aus R-Bibliotheken verwenden:\n"
 ".. code-block: R\n"
-"  stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), "
+"stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), "
 "mean)"
 
 #: ../../_pages/Rj_overview.rst:42
