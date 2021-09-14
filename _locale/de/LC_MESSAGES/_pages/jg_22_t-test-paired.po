@@ -7,20 +7,19 @@
 # Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
-"jg_22_t-test-paired/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi"
+"/jg_22_t-test-paired/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_22_t-test-paired.rst:5
 msgid "t-test: Paired samples"
@@ -29,8 +28,8 @@ msgstr "t-Test für abhängige Stichproben"
 #: ../../_pages/jg_22_t-test-paired.rst:7
 msgid "How to perform a paired samples t-test in jamovi:"
 msgstr ""
-"Sie können einen t-Test für abhängige Stichproben in jamovi auf die folgende "
-"Weise durchführen:"
+"Sie können einen t-Test für abhängige Stichproben in jamovi auf die "
+"folgende Weise durchführen:"
 
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid ""
@@ -38,14 +37,10 @@ msgid ""
 " are set correctly <um_2_first-steps.html#data-variables>`_ so that both "
 "the continuous variables are marked as |continuous|."
 msgstr ""
-"Sie benötigen zwei kontinuierliche Variablen. Achten Sie darauf, dass die `"
-"Skalenniveaus korrekt gesetzt sind <um_2_erste-schritte.html#Daten-"
-"Variablen>`, und dass die beiden kontinuierlichen Variablen als |continuous| "
-"gekennzeichnet sind."
-
-#: ../../_pages/jg_22_t-test-paired.rst:56
-msgid "continuous"
-msgstr "continuous"
+"Sie benötigen zwei kontinuierliche Variablen. Achten Sie darauf, dass die"
+" `Skalenniveaus korrekt gesetzt sind <um_2_erste-schritte.html#Daten-"
+"Variablen>`, und dass die beiden kontinuierlichen Variablen als "
+"|continuous| gekennzeichnet sind."
 
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid "A correct setup should look similar to this:"
@@ -53,17 +48,9 @@ msgstr ""
 "Die Einstellungen, um diese Analyse durchzuführen, sollten ungefähr so "
 "aussehen:"
 
-#: ../../_pages/jg_22_t-test-paired.rst:58
-msgid "data_format_ttest_paired"
-msgstr "data_format_ttest_paired"
-
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid "Select ``Analyses`` → ``T-Tests`` → ``Paired Samples T-Test``."
 msgstr "Wählen Sie ``Analyses`` → ``T-Tests`` → ``Paired Samples T-Test``."
-
-#: ../../_pages/jg_22_t-test-paired.rst:60
-msgid "select_ttest_paired"
-msgstr "select_ttest_paired"
 
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid ""
@@ -72,15 +59,11 @@ msgid ""
 "the Ctrl key while clicking with the mouse on the variable you want to "
 "select)."
 msgstr ""
-"Ziehen Sie Ihre beiden Ergebnisvariablen per Drag & Drop oder mit den Pfeil-"
-"Buttons auf ``Paired Variables`` (wählen Sie beide Variablen eines Paares "
-"gleichzeitig aus – Sie tun dies, indem Sie die Strg-Taste gedrückt halten, "
-"während Sie mit der Maus nacheinander auf beide Variablen klicken, die Sie "
-"auswählen möchten)."
-
-#: ../../_pages/jg_22_t-test-paired.rst:62
-msgid "add_var_ttest_paired"
-msgstr "add_var_ttest_paired"
+"Ziehen Sie Ihre beiden Ergebnisvariablen per Drag & Drop oder mit den "
+"Pfeil-Buttons auf ``Paired Variables`` (wählen Sie beide Variablen eines "
+"Paares gleichzeitig aus – Sie tun dies, indem Sie die Strg-Taste gedrückt"
+" halten, während Sie mit der Maus nacheinander auf beide Variablen "
+"klicken, die Sie auswählen möchten)."
 
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid "The result is shown in the right panel."
@@ -112,12 +95,12 @@ msgid ""
 " `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft "
 "<https://www.davidfoxcroft.com/>`__."
 msgstr ""
-"Wer noch weiter in die Tiefe gehen möchte, kann den entsprechenden Abschnitt "
-"in der `Webdokumentation „Learning statistics with jamovi“ <https://lsj."
-"readthedocs.io/en/latest/lsj/Ch11_tTest_05.html>`__ oder Kapitel 11.5 des `e-"
-"Books <https://www.learnstatswithjamovi.com/>`__ von `Danielle J. Navarro "
-"<https://djnavarro.net/>`__ und `David R. Foxcroft <https://www.davidfoxcroft"
-".com/>`__ lesen."
+"Wer noch weiter in die Tiefe gehen möchte, kann den entsprechenden "
+"Abschnitt in der `Webdokumentation „Learning statistics with jamovi“ "
+"<https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_05.html>`__ oder "
+"Kapitel 11.5 des `e-Books <https://www.learnstatswithjamovi.com/>`__ von "
+"`Danielle J. Navarro <https://djnavarro.net/>`__ und `David R. Foxcroft "
+"<https://www.davidfoxcroft.com/>`__ lesen."
 
 #~ msgid "|data_format_ttest_paired|"
 #~ msgstr ""
@@ -127,3 +110,16 @@ msgstr ""
 
 #~ msgid "|add_var_ttest_paired|"
 #~ msgstr ""
+
+#~ msgid "continuous"
+#~ msgstr "continuous"
+
+#~ msgid "data_format_ttest_paired"
+#~ msgstr "data_format_ttest_paired"
+
+#~ msgid "select_ttest_paired"
+#~ msgstr "select_ttest_paired"
+
+#~ msgid "add_var_ttest_paired"
+#~ msgstr "add_var_ttest_paired"
+

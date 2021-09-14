@@ -223,3 +223,18 @@ msgstr ""
 #~ msgid "|change-name|"
 #~ msgstr ""
 
+#~ msgid "nominal"
+#~ msgstr ""
+
+#~ msgid "ordinal"
+#~ msgstr ""
+
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "id"
+#~ msgstr ""
+
+#~ msgid "change-name"
+#~ msgstr ""
+

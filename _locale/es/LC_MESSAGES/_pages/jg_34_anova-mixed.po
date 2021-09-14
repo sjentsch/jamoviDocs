@@ -94,3 +94,30 @@ msgstr ""
 #~ msgid "|output_anova_mixed|"
 #~ msgstr ""
 
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "nominal"
+#~ msgstr ""
+
+#~ msgid "data_format_anova_mixed"
+#~ msgstr ""
+
+#~ msgid "select_anova_repeated"
+#~ msgstr ""
+
+#~ msgid "add_var_anova_repeated_naming_1"
+#~ msgstr ""
+
+#~ msgid "add_var_anova_repeated_naming_2"
+#~ msgstr ""
+
+#~ msgid "add_var_anova_repeated"
+#~ msgstr ""
+
+#~ msgid "add_var_anova_mixed"
+#~ msgstr ""
+
+#~ msgid "output_anova_mixed"
+#~ msgstr ""
+

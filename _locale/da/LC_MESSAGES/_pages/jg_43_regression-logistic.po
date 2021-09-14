@@ -84,3 +84,21 @@ msgstr ""
 #~ msgid "|output_regression_logistic|"
 #~ msgstr ""
 
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "nominal"
+#~ msgstr ""
+
+#~ msgid "data_format_regression_logistic"
+#~ msgstr ""
+
+#~ msgid "select_regression_logistic"
+#~ msgstr ""
+
+#~ msgid "add_var_regression_logistic"
+#~ msgstr ""
+
+#~ msgid "output_regression_logistic"
+#~ msgstr ""
+

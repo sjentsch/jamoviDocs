@@ -41,3 +41,12 @@ msgid ""
 " arrow pointing up (top-right corner). |jamovi_Modules3|"
 msgstr ""
 
+#~ msgid "jamovi_Modules1"
+#~ msgstr ""
+
+#~ msgid "jamovi_Modules2"
+#~ msgstr ""
+
+#~ msgid "jamovi_Modules3"
+#~ msgstr ""
+

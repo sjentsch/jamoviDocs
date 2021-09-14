@@ -199,3 +199,15 @@ msgstr ""
 #~ msgid "|jamovi_Rj4|"
 #~ msgstr ""
 
+#~ msgid "jamovi_Rj1"
+#~ msgstr ""
+
+#~ msgid "jamovi_Rj2"
+#~ msgstr ""
+
+#~ msgid "jamovi_Rj3"
+#~ msgstr ""
+
+#~ msgid "jamovi_Rj4"
+#~ msgstr ""
+

@@ -90,3 +90,24 @@ msgstr ""
 #~ msgid "|output_unianova|"
 #~ msgstr ""
 
+#~ msgid "nominal"
+#~ msgstr ""
+
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "data_format_unianova"
+#~ msgstr ""
+
+#~ msgid "select_unianova"
+#~ msgstr ""
+
+#~ msgid "add_var_unianova_1"
+#~ msgstr ""
+
+#~ msgid "add_var_unianova_2"
+#~ msgstr ""
+
+#~ msgid "output_unianova"
+#~ msgstr ""
+

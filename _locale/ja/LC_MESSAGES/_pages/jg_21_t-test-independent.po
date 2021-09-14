@@ -87,3 +87,18 @@ msgstr ""
 #~ msgid "|add_var_ttest_independent|"
 #~ msgstr ""
 
+#~ msgid "nominal"
+#~ msgstr ""
+
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "data_format_ttest_independent"
+#~ msgstr ""
+
+#~ msgid "select_ttest_independent"
+#~ msgstr ""
+
+#~ msgid "add_var_ttest_independent"
+#~ msgstr ""
+

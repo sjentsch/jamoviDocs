@@ -86,3 +86,15 @@ msgstr ""
 #~ msgid "|add_var_ttest_paired|"
 #~ msgstr ""
 
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "data_format_ttest_paired"
+#~ msgstr ""
+
+#~ msgid "select_ttest_paired"
+#~ msgstr ""
+
+#~ msgid "add_var_ttest_paired"
+#~ msgstr ""
+

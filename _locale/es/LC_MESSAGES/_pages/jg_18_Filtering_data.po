@@ -207,3 +207,18 @@ msgstr ""
 #~ msgid "|Outliers_SelectUnselect|"
 #~ msgstr ""
 
+#~ msgid "Outliers_Filter_Shortcut"
+#~ msgstr ""
+
+#~ msgid "Outliers_Filter_Settings"
+#~ msgstr ""
+
+#~ msgid "Outliers_AddVar_selSbj"
+#~ msgstr ""
+
+#~ msgid "Outliers_ExcelMagic"
+#~ msgstr ""
+
+#~ msgid "Outliers_SelectUnselect"
+#~ msgstr ""
+

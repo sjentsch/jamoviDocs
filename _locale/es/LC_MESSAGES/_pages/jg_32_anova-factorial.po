@@ -89,3 +89,21 @@ msgstr ""
 #~ msgid "|output_anova_factorial|"
 #~ msgstr ""
 
+#~ msgid "nominal"
+#~ msgstr ""
+
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "data_format_anova_factorial"
+#~ msgstr ""
+
+#~ msgid "select_anova_factorial"
+#~ msgstr ""
+
+#~ msgid "add_var_anova_factorial"
+#~ msgstr ""
+
+#~ msgid "output_anova_factorial"
+#~ msgstr ""
+

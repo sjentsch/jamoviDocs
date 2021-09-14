@@ -58,3 +58,6 @@ msgstr ""
 #~ msgid "|r-syntax|"
 #~ msgstr ""
 
+#~ msgid "r-syntax"
+#~ msgstr ""
+

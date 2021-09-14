@@ -7,20 +7,19 @@
 # Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
-"jg_21_t-test-independent/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jamovi"
+"/jg_21_t-test-independent/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_21_t-test-independent.rst:5
 msgid "t-test: Independent samples"
@@ -41,18 +40,11 @@ msgid ""
 " is marked as |continuous|."
 msgstr ""
 "Sie benötigen eine Gruppierungsvariable mit zwei Niveaus (z. B. "
-"Interventions- / Kontrollgruppe) und eine kontinuierliche Ergebnisvariable. "
-"Stellen Sie sicher, dass die `Skalenniveaus korrekt gesetzt sind <um_2_first-"
-"steps.html#data-variables>`_, so dass die Gruppierungsvariable als |nominal| "
-"und die kontinuierliche Variable als |continuous| gekennzeichnet ist."
-
-#: ../../_pages/jg_21_t-test-independent.rst:56
-msgid "nominal"
-msgstr "nominal"
-
-#: ../../_pages/jg_21_t-test-independent.rst:58
-msgid "continuous"
-msgstr "continuous"
+"Interventions- / Kontrollgruppe) und eine kontinuierliche "
+"Ergebnisvariable. Stellen Sie sicher, dass die `Skalenniveaus korrekt "
+"gesetzt sind <um_2_first-steps.html#data-variables>`_, so dass die "
+"Gruppierungsvariable als |nominal| und die kontinuierliche Variable als "
+"|continuous| gekennzeichnet ist."
 
 #: ../../_pages/jg_21_t-test-independent.rst
 msgid "A correct setup should look similar to this:"
@@ -60,30 +52,18 @@ msgstr ""
 "Die Einstellungen, um diese Analyse durchzuführen, sollten ungefähr so "
 "aussehen:"
 
-#: ../../_pages/jg_21_t-test-independent.rst:60
-msgid "data_format_ttest_independent"
-msgstr "data_format_ttest_independent"
-
 #: ../../_pages/jg_21_t-test-independent.rst
 msgid "Select ``Analyses`` → ``T-Tests`` → ``Independent Samples T-Test``."
 msgstr "Wählen Sie ``Analyses`` → ``T-Tests`` → ``Independent Samples T-Test``."
-
-#: ../../_pages/jg_21_t-test-independent.rst:62
-msgid "select_ttest_independent"
-msgstr "select_ttest_independent"
 
 #: ../../_pages/jg_21_t-test-independent.rst
 msgid ""
 "Drag and drop your outcome variable to ``Dependent Variables`` and your "
 "grouping variable to ``Grouping Variable``."
 msgstr ""
-"Ziehen Sie Ihre Ergebnisvariable per Drag & Drop oder mit den Pfeil-Buttons "
-"auf ``Dependent Variables`` und Ihre Gruppierungsvariable in ``Grouping "
-"Variable``."
-
-#: ../../_pages/jg_21_t-test-independent.rst:64
-msgid "add_var_ttest_independent"
-msgstr "add_var_ttest_independent"
+"Ziehen Sie Ihre Ergebnisvariable per Drag & Drop oder mit den Pfeil-"
+"Buttons auf ``Dependent Variables`` und Ihre Gruppierungsvariable in "
+"``Grouping Variable``."
 
 #: ../../_pages/jg_21_t-test-independent.rst
 msgid "The result is shown in the right panel."
@@ -119,8 +99,9 @@ msgstr ""
 "Wer noch weiter in die Tiefe gehen möchte, kann die entsprechenden "
 "Abschnitte in der `Webdokumentation \"Learning statistics with jamovi\" "
 "<https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_03.html>`__ oder "
-"Kapitel 11.3 / 11.4 des `e-Books <https://www.learnstatswithjamovi.com/>`__ "
-"von `Danielle J. Navarro <https://djnavarro.net/>`__ und `David R. Foxcroft "
+"Kapitel 11.3 / 11.4 des `e-Books "
+"<https://www.learnstatswithjamovi.com/>`__ von `Danielle J. Navarro "
+"<https://djnavarro.net/>`__ und `David R. Foxcroft "
 "<https://www.davidfoxcroft.com/>`__ lesen."
 
 #~ msgid "|data_format_ttest_independent|"
@@ -131,3 +112,19 @@ msgstr ""
 
 #~ msgid "|add_var_ttest_independent|"
 #~ msgstr ""
+
+#~ msgid "nominal"
+#~ msgstr "nominal"
+
+#~ msgid "continuous"
+#~ msgstr "continuous"
+
+#~ msgid "data_format_ttest_independent"
+#~ msgstr "data_format_ttest_independent"
+
+#~ msgid "select_ttest_independent"
+#~ msgstr "select_ttest_independent"
+
+#~ msgid "add_var_ttest_independent"
+#~ msgstr "add_var_ttest_independent"
+

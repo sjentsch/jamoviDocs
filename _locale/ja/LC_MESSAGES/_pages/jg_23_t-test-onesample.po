@@ -92,3 +92,18 @@ msgstr ""
 #~ msgid "|add_var_ttest_onesample_2|"
 #~ msgstr ""
 
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "data_format_ttest_onesample"
+#~ msgstr ""
+
+#~ msgid "select_ttest_onesample"
+#~ msgstr ""
+
+#~ msgid "add_var_ttest_onesample"
+#~ msgstr ""
+
+#~ msgid "add_var_ttest_onesample_2"
+#~ msgstr ""
+

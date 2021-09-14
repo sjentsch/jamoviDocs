@@ -91,3 +91,18 @@ msgstr ""
 #~ msgid "|output_regression_linear|"
 #~ msgstr ""
 
+#~ msgid "continuous"
+#~ msgstr ""
+
+#~ msgid "data_format_regression_linear"
+#~ msgstr ""
+
+#~ msgid "select_regression_linear"
+#~ msgstr ""
+
+#~ msgid "add_var_regression_linear"
+#~ msgstr ""
+
+#~ msgid "output_regression_linear"
+#~ msgstr ""
+

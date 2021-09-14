@@ -83,3 +83,9 @@ msgstr ""
 #~ msgid "|csv-data|"
 #~ msgstr ""
 
+#~ msgid "screenshot"
+#~ msgstr ""
+
+#~ msgid "csv-data"
+#~ msgstr ""
+

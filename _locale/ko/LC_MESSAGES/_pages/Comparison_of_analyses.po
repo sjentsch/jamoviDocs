@@ -657,3 +657,12 @@ msgstr ""
 #~ msgid "|jamovi_Modules|"
 #~ msgstr ""
 
+#~ msgid "SPSS_Analyze"
+#~ msgstr ""
+
+#~ msgid "jamovi_Analyze"
+#~ msgstr ""
+
+#~ msgid "jamovi_Modules"
+#~ msgstr ""
+

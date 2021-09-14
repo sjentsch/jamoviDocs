@@ -109,3 +109,24 @@ msgstr ""
 #~ msgid "|select_descriptives_plots|"
 #~ msgstr ""
 
+#~ msgid "select_descriptives"
+#~ msgstr ""
+
+#~ msgid "add_var_descriptives"
+#~ msgstr ""
+
+#~ msgid "output_descriptives"
+#~ msgstr ""
+
+#~ msgid "add_var_descriptives_groupby"
+#~ msgstr ""
+
+#~ msgid "output_descriptives_groupby"
+#~ msgstr ""
+
+#~ msgid "select_descriptives_statistics"
+#~ msgstr ""
+
+#~ msgid "select_descriptives_plots"
+#~ msgstr ""
+

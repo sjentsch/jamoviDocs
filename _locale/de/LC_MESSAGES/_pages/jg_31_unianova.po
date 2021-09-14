@@ -7,20 +7,19 @@
 # Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
-"jg_31_unianova/de/>\n"
 "Language: de\n"
+"Language-Team: German "
+"<https://hosted.weblate.org/projects/jamovi/jg_31_unianova/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_31_unianova.rst:5
 msgid "ANOVA: Oneway"
@@ -37,19 +36,11 @@ msgid ""
 "steps.html#data-variables>`_ so that the grouping variable is marked as "
 "|nominal| and the continuous variable is marked as |continuous|."
 msgstr ""
-"Sie benötigen eine kategoriale Gruppierungsvariable und eine kontinuierliche "
-"Ergebnisvariable. Achten Sie darauf, dass die `Skalenniveaus korrekt gesetzt "
-"sind <um_2_erste-schritte.html#Daten-Variablen>`_, so dass die "
-"Gruppierungsvariable als |nominal| und die kontinuierliche Variable als "
-"|continuous| gekennzeichnet ist."
-
-#: ../../_pages/jg_31_unianova.rst:61
-msgid "nominal"
-msgstr "nominal"
-
-#: ../../_pages/jg_31_unianova.rst:63
-msgid "continuous"
-msgstr "continuous"
+"Sie benötigen eine kategoriale Gruppierungsvariable und eine "
+"kontinuierliche Ergebnisvariable. Achten Sie darauf, dass die "
+"`Skalenniveaus korrekt gesetzt sind <um_2_erste-schritte.html#Daten-"
+"Variablen>`_, so dass die Gruppierungsvariable als |nominal| und die "
+"kontinuierliche Variable als |continuous| gekennzeichnet ist."
 
 #: ../../_pages/jg_31_unianova.rst
 msgid "A correct setup should look similar to this:"
@@ -57,30 +48,18 @@ msgstr ""
 "Die Einstellungen, um diese Analyse durchzuführen, sollten ungefähr so "
 "aussehen:"
 
-#: ../../_pages/jg_31_unianova.rst:65
-msgid "data_format_unianova"
-msgstr "data_format_unianova"
-
 #: ../../_pages/jg_31_unianova.rst
 msgid "Select ``Analyses`` → ``ANOVA`` → ``One-way ANOVA``."
 msgstr "Wählen Sie ``Analyses`` → ``ANOVA`` → ``One-way ANOVA``."
-
-#: ../../_pages/jg_31_unianova.rst:67
-msgid "select_unianova"
-msgstr "select_unianova"
 
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
 "Drag and drop your outcome variable to ``Dependent Variable`` and your "
 "grouping variable to ``Fixed Factors``."
 msgstr ""
-"Ziehen Sie Ihre Ergebnisvariable per Drag & Drop oder mit den Pfeil-Buttons "
-"auf ``Dependent Variable`` und Ihre Gruppierungsvariable auf ``Fixed "
-"Factors``."
-
-#: ../../_pages/jg_31_unianova.rst:69
-msgid "add_var_unianova_1"
-msgstr "add_var_unianova_1"
+"Ziehen Sie Ihre Ergebnisvariable per Drag & Drop oder mit den Pfeil-"
+"Buttons auf ``Dependent Variable`` und Ihre Gruppierungsvariable auf "
+"``Fixed Factors``."
 
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
@@ -89,20 +68,13 @@ msgid ""
 "variances``."
 msgstr ""
 "Wählen Sie aus, ob Ihre Varianzen gleich oder ungleich sind. Um mit dem "
-"Levene-Test auf Gleichheit der Varianzen (auf den verschiedenen Stufen des "
-"Faktors) zu testen, markieren Sie das Kästchen ``Equality of variances``."
-
-#: ../../_pages/jg_31_unianova.rst:71
-msgid "add_var_unianova_2"
-msgstr "add_var_unianova_2"
+"Levene-Test auf Gleichheit der Varianzen (auf den verschiedenen Stufen "
+"des Faktors) zu testen, markieren Sie das Kästchen ``Equality of "
+"variances``."
 
 #: ../../_pages/jg_31_unianova.rst
 msgid "The results is shown in the right panel:"
 msgstr "Das Ergebnis wird im rechten Panel angezeigt:"
-
-#: ../../_pages/jg_31_unianova.rst:73
-msgid "output_unianova"
-msgstr "output_unianova"
 
 #: ../../_pages/jg_31_unianova.rst:48
 msgid "Further help from the community resources"
@@ -120,9 +92,10 @@ msgid ""
 msgstr ""
 "Wenn Sie eine umfassendere Einführung haben möchten, können Sie das "
 "entsprechende Kapitel in der „Learning statistics with jamovi“-`Web-"
-"Dokumentation <https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_01.html>`"
-"__ oder das Kapitel 13.1 - 6 des `e-books <https://www.learnstatswithjamovi."
-"com/>`__ von `Danielle J. Navarro <https://djnavarro.net/>`__ und `David R. "
+"Dokumentation "
+"<https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_01.html>`__ oder das"
+" Kapitel 13.1 - 6 des `e-books <https://www.learnstatswithjamovi.com/>`__"
+" von `Danielle J. Navarro <https://djnavarro.net/>`__ und `David R. "
 "Foxcroft <https://www.davidfoxcroft.com/>`__ lesen."
 
 #~ msgid "|data_format_unianova|"
@@ -139,3 +112,25 @@ msgstr ""
 
 #~ msgid "|output_unianova|"
 #~ msgstr ""
+
+#~ msgid "nominal"
+#~ msgstr "nominal"
+
+#~ msgid "continuous"
+#~ msgstr "continuous"
+
+#~ msgid "data_format_unianova"
+#~ msgstr "data_format_unianova"
+
+#~ msgid "select_unianova"
+#~ msgstr "select_unianova"
+
+#~ msgid "add_var_unianova_1"
+#~ msgstr "add_var_unianova_1"
+
+#~ msgid "add_var_unianova_2"
+#~ msgstr "add_var_unianova_2"
+
+#~ msgid "output_unianova"
+#~ msgstr "output_unianova"
+

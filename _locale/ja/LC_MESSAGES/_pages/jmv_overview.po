@@ -161,6 +161,45 @@ msgstr ""
 msgid "jmvReadWrite"
 msgstr ""
 
+#~ msgid "``jmv``, ``jmvconnect``, and ``jmvReadWrite``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "jmv is the jamovi R package. All"
+#~ " the analyses included with jamovi "
+#~ "are available from within R using "
+#~ "this package. For examples on how "
+#~ "to use jmv, jamovi can be placed"
+#~ " in ‘syntax mode’ (available from the"
+#~ " top right menu). Syntax mode "
+#~ "produces the R syntax required to "
+#~ "reproduce jamovi analyses in R."
+#~ msgstr ""
+
+#~ msgid "jmv is available from CRAN here, and can be installed in R with:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "More information about the analyses jmv"
+#~ " provides is available using the R"
+#~ " help system, or from the overview"
+#~ " below."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Two further R-packages ``jmvconnect`` and "
+#~ "``jmvReadWrite`` make it easier to "
+#~ "exchange data between `jamovi "
+#~ "<https://www.jamovi.org>`__ and R. ``jmvconnect``"
+#~ " permits to access data sets that "
+#~ "you currently have opened in jamovi. "
+#~ "``jmvReadWrite`` enables you to read and"
+#~ " write the ``.omv``-files jamovi produces."
+#~ msgstr ""
+
+#~ msgid "Those packages can be installed in R with:"
+#~ msgstr ""
+
 #~ msgid "|jamovi_SyntaxMode1|"
 #~ msgstr ""
 
@@ -168,5 +207,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "|jamovi_SyntaxMode3|"
+#~ msgstr ""
+
+#~ msgid "jamovi_SyntaxMode1"
+#~ msgstr ""
+
+#~ msgid "jamovi_SyntaxMode2"
+#~ msgstr ""
+
+#~ msgid "jamovi_SyntaxMode3"
 #~ msgstr ""
 

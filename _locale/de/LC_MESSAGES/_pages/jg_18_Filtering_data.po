@@ -7,29 +7,25 @@
 # Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
+"Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-07-19 16:15+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jamovi/"
-"jg_18_filtering_data/de/>\n"
 "Language: de\n"
+"Language-Team: German "
+"<https://hosted.weblate.org/projects/jamovi/jg_18_filtering_data/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_18_Filtering_data.rst:5
 msgid "How do I create a filter variable and use it for selection?"
 msgstr ""
-"Wie erstelle ich eine Filtervariable und verwende sie zur Auswahl von Fällen?"
-
-#: ../../_pages/jg_18_Filtering_data.rst:161
-msgid "Outliers_Filter_Shortcut"
-msgstr "Outliers_Filter_Shortcut"
+"Wie erstelle ich eine Filtervariable und verwende sie zur Auswahl von "
+"Fällen?"
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
@@ -37,8 +33,8 @@ msgid ""
 "in the icon bar or the one in the bottom-left corner of the jamovi "
 "window)"
 msgstr ""
-"Öffnen Sie die Registerkarte ``Data`` und wählen Sie ``Filter`` (entweder "
-"über das Symbol in der Symbolleiste oder über das Symbol in der unteren "
+"Öffnen Sie die Registerkarte ``Data`` und wählen Sie ``Filter`` (entweder"
+" über das Symbol in der Symbolleiste oder über das Symbol in der unteren "
 "linken Ecke des jamovi-Fensters)"
 
 #: ../../_pages/jg_18_Filtering_data.rst
@@ -89,20 +85,17 @@ msgid ""
 " and 3. you have to use R-code (decribed two bullet point below); for 2. "
 "you could also do it visually (three bullet points below)"
 msgstr ""
-"für 1. und 2. gibt es Funktionen in jamovi (siehe nächster Aufzählungspunkt)"
-", für 3. müssen Sie R-Code verwenden (zwei Aufzählungspunkte weiter unten "
-"beschrieben); für 2. könnten Sie Fälle auch visuell (mit Box-Whisker-Plots) "
-"ausschließen (drei Aufzählungspunkte weiter unten)"
+"für 1. und 2. gibt es Funktionen in jamovi (siehe nächster "
+"Aufzählungspunkt), für 3. müssen Sie R-Code verwenden (zwei "
+"Aufzählungspunkte weiter unten beschrieben); für 2. könnten Sie Fälle "
+"auch visuell (mit Box-Whisker-Plots) ausschließen (drei Aufzählungspunkte"
+" weiter unten)"
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid "you can either use an function-based selection (e.g., based on z-scores):"
 msgstr ""
-"Sie können entweder eine Auswahl verwenden, die auf einer Berechnung beruht ("
-"z. B. basierend auf z-Scores oder IQR-Werten):"
-
-#: ../../_pages/jg_18_Filtering_data.rst:162
-msgid "Outliers_Filter_Settings"
-msgstr "Outliers_Filter_Settings"
+"Sie können entweder eine Auswahl verwenden, die auf einer Berechnung "
+"beruht (z. B. basierend auf z-Scores oder IQR-Werten):"
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
@@ -111,10 +104,10 @@ msgid ""
 " use R-scripts to find outliers and mark those outliers in the variable "
 "you created:"
 msgstr ""
-"Sie können eine Auswahlvariable erstellen (wie das geht, ist `weiter unten "
-"<#how-to-manually-create-a-variable-for-selecting-deselecting-cases>`__ "
-"beschrieben) und R-Skripte verwenden, um Ausreißer zu finden und diese "
-"Ausreißer in der von Ihnen erstellten Variablen zu markieren:"
+"Sie können eine Auswahlvariable erstellen (wie das geht, ist `weiter "
+"unten <#how-to-manually-create-a-variable-for-selecting-deselecting-"
+"cases>`__ beschrieben) und R-Skripte verwenden, um Ausreißer zu finden "
+"und diese Ausreißer in der von Ihnen erstellten Variablen zu markieren:"
 
 #: ../../_pages/jg_18_Filtering_data.rst:41
 msgid ""
@@ -122,18 +115,18 @@ msgid ""
 "(doing the same with code that you visually do with box plots; remember "
 "to adjust the variable names in VL)"
 msgstr ""
-"das erste Code-Beispiel tut dies auf der Basis des Interquartilsbereichs ("
-"Sie tun mit dem Code dasselbe, was Sie visuell mit Boxplots tun; denken Sie "
-"daran, die Variablennamen in der Variablenliste ``VL`` anzupassen)"
+"das erste Code-Beispiel tut dies auf der Basis des Interquartilsbereichs "
+"(Sie tun mit dem Code dasselbe, was Sie visuell mit Boxplots tun; denken "
+"Sie daran, die Variablennamen in der Variablenliste ``VL`` anzupassen)"
 
 #: ../../_pages/jg_18_Filtering_data.rst:63
 msgid ""
 "the second code example detects multivariate outliers based upon the "
 "Mahalanobis distance (remember to adjust the variable names in VL)"
 msgstr ""
-"das zweite Codebeispiel detektiert multivariate Ausreißer auf der Basis der "
-"Mahalanobis-Distanz (denken Sie auch hier daran, die Variablennamen in ``VL``"
-" anzupassen)"
+"das zweite Codebeispiel detektiert multivariate Ausreißer auf der Basis "
+"der Mahalanobis-Distanz (denken Sie auch hier daran, die Variablennamen "
+"in ``VL`` anzupassen)"
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid "the output from those scripts tells you which lines you should de-select"
@@ -147,9 +140,9 @@ msgid ""
 "copy-and-paste them and run them by hitting the ►-button (the little "
 "green triangle)"
 msgstr ""
-"Sie verwenden die Skripte im `Rj-Editor <jamovi-module_Rj>`__, indem Sie den "
-"Code einfach kopieren und einfügen und ihn dann mit der ►-Taste (das kleine "
-"grüne Dreieck) ausführen."
+"Sie verwenden die Skripte im `Rj-Editor <jamovi-module_Rj>`__, indem Sie "
+"den Code einfach kopieren und einfügen und ihn dann mit der ►-Taste (das "
+"kleine grüne Dreieck) ausführen."
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
@@ -160,13 +153,14 @@ msgid ""
 "corner of the jamovi window (note that you can only see it, if you "
 "selected the tab “Data”) and deactivate the filter.`"
 msgstr ""
-":red:`BITTE BEACHTEN SIE: Wenn Sie bereits Fälle gefiltert haben, werden die "
-"Zeilen mit gefilterten Fällen nicht berücksichtigt und die Zeilennummern bei "
-"Verwendung der R-Skripte werden falsch. Öffnen Sie die Filtereinstellungen, "
-"indem Sie entweder auf die Kopfzeile der Filtervariablen doppelklicken oder "
-"das Trichtersymbol in der linken unteren Ecke des jamovi-Fensters verwenden ("
-"beachten Sie, dass Sie es nur sehen können, wenn Sie den Reiter \"Daten\" "
-"ausgewählt haben) und den Filter deaktivieren.`"
+":red:`BITTE BEACHTEN SIE: Wenn Sie bereits Fälle gefiltert haben, werden "
+"die Zeilen mit gefilterten Fällen nicht berücksichtigt und die "
+"Zeilennummern bei Verwendung der R-Skripte werden falsch. Öffnen Sie die "
+"Filtereinstellungen, indem Sie entweder auf die Kopfzeile der "
+"Filtervariablen doppelklicken oder das Trichtersymbol in der linken "
+"unteren Ecke des jamovi-Fensters verwenden (beachten Sie, dass Sie es nur"
+" sehen können, wenn Sie den Reiter \"Daten\" ausgewählt haben) und den "
+"Filter deaktivieren.`"
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid "the filter conditions can be combined using boolean ``and`` / ``or``:"
@@ -179,23 +173,21 @@ msgid ""
 "you can also de-select cases by setting limits to the values of variables"
 " (after visually checking the box-plots under ``Descriptives``):"
 msgstr ""
-"Sie können auch Fälle manuell abwählen, indem Sie Grenzen für die Werte von "
-"Variablen setzen (nach visueller Kontrolle der Box-Whisker-Plots unter "
-"``Descriptives``):"
+"Sie können auch Fälle manuell abwählen, indem Sie Grenzen für die Werte "
+"von Variablen setzen (nach visueller Kontrolle der Box-Whisker-Plots "
+"unter ``Descriptives``):"
 
 #: ../../_pages/jg_18_Filtering_data.rst:110
 msgid "How to manually create a variable for selecting / deselecting cases?"
 msgstr ""
-"Wie kann man manuell eine Variable zur Auswahl / Abwahl von Fällen erstellen?"
-
-#: ../../_pages/jg_18_Filtering_data.rst:165
-msgid "Outliers_AddVar_selSbj"
-msgstr "Outliers_AddVar_selSbj"
+"Wie kann man manuell eine Variable zur Auswahl / Abwahl von Fällen "
+"erstellen?"
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid "open the ``Data`` tab so that you see your data spreadsheet"
 msgstr ""
-"Öffnen Sie die Registerkarte ``Data``, so dass Sie Ihre Datentabelle sehen."
+"Öffnen Sie die Registerkarte ``Data``, so dass Sie Ihre Datentabelle "
+"sehen."
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
@@ -210,22 +202,18 @@ msgid ""
 "right-click on the header line in that column, choose ``Add variable`` in"
 " the menu that opens, and then ``Data Variable`` → ``Insert``"
 msgstr ""
-"Klicken Sie mit der rechten Maustaste auf die Kopfzeile in dieser Spalte, "
-"wählen Sie im sich öffnenden Menü ``Add variable`` und dann ``Data variable``"
-" → ``Insert``."
+"Klicken Sie mit der rechten Maustaste auf die Kopfzeile in dieser Spalte,"
+" wählen Sie im sich öffnenden Menü ``Add variable`` und dann ``Data "
+"variable`` → ``Insert``."
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
 "briefly check how many participants are contained in your file by going "
 "to the last line of your data set, remember this line number"
 msgstr ""
-"Prüfen Sie kurz, wie viele Teilnehmer in Ihrer Datei enthalten sind, indem "
-"Sie zur letzten Zeile Ihres Datensatzes gehen. Merken Sie sich diese "
-"Zeilennummer."
-
-#: ../../_pages/jg_18_Filtering_data.rst:164
-msgid "Outliers_ExcelMagic"
-msgstr "Outliers_ExcelMagic"
+"Prüfen Sie kurz, wie viele Teilnehmer in Ihrer Datei enthalten sind, "
+"indem Sie zur letzten Zeile Ihres Datensatzes gehen. Merken Sie sich "
+"diese Zeilennummer."
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
@@ -237,20 +225,20 @@ msgid ""
 "participants in your data set within jamovi"
 msgstr ""
 "Nun müssen Sie ein wenig in Excel, LibreOffice Calc oder `Google Sheets "
-"<https://docs.google.com/spreadsheets>`__ „zaubern“: Öffnen Sie eines dieser "
-"Programme, schreiben Sie ``1`` in die erste und zweite Zeile eines leeren "
-"Tabellenblatts, markieren Sie diese beiden Zeilen und ziehen Sie dann mit "
-"dem kleinen schwarzen Marker unten rechts die Einsen, bis Sie die Anzahl der "
-"Teilnehmer in Ihrem Datensatz in jamovi erreicht haben."
+"<https://docs.google.com/spreadsheets>`__ „zaubern“: Öffnen Sie eines "
+"dieser Programme, schreiben Sie ``1`` in die erste und zweite Zeile eines"
+" leeren Tabellenblatts, markieren Sie diese beiden Zeilen und ziehen Sie "
+"dann mit dem kleinen schwarzen Marker unten rechts die Einsen, bis Sie "
+"die Anzahl der Teilnehmer in Ihrem Datensatz in jamovi erreicht haben."
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
 "copy the column with the ``1`` you just created to jamovi and paste it "
 "into the variable you just created"
 msgstr ""
-"Kopieren Sie die Spalte mit der ``1``, die Sie gerade erstellt haben, und "
-"fügen Sie diese in jamovi in die Spalte der Variablen ein, die Sie gerade "
-"erstellt haben."
+"Kopieren Sie die Spalte mit der ``1``, die Sie gerade erstellt haben, und"
+" fügen Sie diese in jamovi in die Spalte der Variablen ein, die Sie "
+"gerade erstellt haben."
 
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
@@ -259,8 +247,8 @@ msgid ""
 "either change an existing filter with adding:"
 msgstr ""
 "Öffnen Sie die Filtereinstellungen (entweder über das Symbol in der "
-"Symbolleiste oder über das Trichter-Symbol in der linken unteren Ecke des "
-"jamovi-Fensters) und ändern Sie entweder einen bestehenden Filter durch "
+"Symbolleiste oder über das Trichter-Symbol in der linken unteren Ecke des"
+" jamovi-Fensters) und ändern Sie entweder einen bestehenden Filter durch "
 "Hinzufügen:"
 
 #: ../../_pages/jg_18_Filtering_data.rst
@@ -275,18 +263,14 @@ msgstr ""
 "Natürlich müssen Sie ``[VARIABLE NAME]`` mit dem Namen der von Ihren "
 "ausgewählten Variablen ersetzen."
 
-#: ../../_pages/jg_18_Filtering_data.rst:163
-msgid "Outliers_SelectUnselect"
-msgstr "Outliers_SelectUnselect"
-
 #: ../../_pages/jg_18_Filtering_data.rst
 msgid ""
 "now you can de-select case by changing them ``1`` to ``0`` (and also "
 "select them again by changing ``0`` into ``1``)"
 msgstr ""
-"Sie können nun die Auswahl der Fälle verändern: Ändern sie einen Fall von "
-"``1`` auf ``0`` wird er ausgeschlossen (oder wieder eingeschlossen, indem "
-"Sie ``0`` in ``1`` ändern)."
+"Sie können nun die Auswahl der Fälle verändern: Ändern sie einen Fall von"
+" ``1`` auf ``0`` wird er ausgeschlossen (oder wieder eingeschlossen, "
+"indem Sie ``0`` in ``1`` ändern)."
 
 #~ msgid "|Outliers_Filter_Shortcut|"
 #~ msgstr ""
@@ -302,3 +286,19 @@ msgstr ""
 
 #~ msgid "|Outliers_SelectUnselect|"
 #~ msgstr ""
+
+#~ msgid "Outliers_Filter_Shortcut"
+#~ msgstr "Outliers_Filter_Shortcut"
+
+#~ msgid "Outliers_Filter_Settings"
+#~ msgstr "Outliers_Filter_Settings"
+
+#~ msgid "Outliers_AddVar_selSbj"
+#~ msgstr "Outliers_AddVar_selSbj"
+
+#~ msgid "Outliers_ExcelMagic"
+#~ msgstr "Outliers_ExcelMagic"
+
+#~ msgid "Outliers_SelectUnselect"
+#~ msgstr "Outliers_SelectUnselect"
+

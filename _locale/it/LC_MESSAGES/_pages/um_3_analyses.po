@@ -73,3 +73,9 @@ msgstr ""
 #~ msgid "|analysis|"
 #~ msgstr ""
 
+#~ msgid "copy-paste"
+#~ msgstr ""
+
+#~ msgid "analysis"
+#~ msgstr ""
+
