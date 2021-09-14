@@ -5,16 +5,16 @@ From jamovi to R
 ================
 
 There are two possible ways of using R code together with jamovi. The first one
-is based upon the use of the `jamovi-module Rj <jamovi-module_Rj.html>`__. The
+is based upon the use of the `jamovi-module Rj <Rj_overview.html>`__. The
 other, more powerful one is based upon creating analyses within the jamovi user
 interface, copying the syntax and using it inside R in connection with the
-`R-library jmv <R-library_jmv.html>`__.
+`R-library jmv <jmv_overview.html>`__.
 
 .. toctree::
    :hidden:
    
-   jamovi-module_Rj
-   R-library_jmv
+   Rj_overview
+   jmv_overview
 
 Especially the latter option with direct access to R gives you access the
 functionality of its built-in functions as well as to masses of R-libraries

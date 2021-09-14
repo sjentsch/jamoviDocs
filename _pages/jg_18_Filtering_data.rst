@@ -105,9 +105,9 @@ How do I create a filter variable and use it for selection?
 
       Revise < 50 and Anxiety > 51
 
-====================================================================
+--------------------------------------------------------------------
 How to manually create a variable for selecting / deselecting cases?
-====================================================================
+--------------------------------------------------------------------
 
 |Outliers_AddVar_selSbj|
 

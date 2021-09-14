@@ -1,14 +1,14 @@
 .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
-============================================
-Read files created with jamovi (``jmvRead``)
-============================================
+=============================================
+Read files created with jamovi (``read_jmv``)
+=============================================
 
 Description
 -----------
 
 Read files created of the statistical spreadsheet `jamovi 
-<www.jamovi.org>`__
+<www.jamovi.org>`__.
 
 Usage
 -----

@@ -30,7 +30,7 @@ For those interested in the jamovi platform, it is hosted on GitHub
    tutorial_advanced
    tutorial_ui
    api_overview
-   further_topics
+   info_overview
 
 ----------
 
@@ -64,7 +64,7 @@ We’ve refined the advanced UI customization in jamovi 1.0.4 and newer.
 This is not backwards compatible, so we discourage its use in existing
 modules for the time being (Until the 1.0.4+ is is in broader use).
 People developing or releasing modules for the first time are encouraged
-to make use of it. More info `here <ui_advanced-customisation.html>`__.
+to make use of it. More info `here <tut_0303-advanced-customisation.html>`__.
 
 **09-06-2017**
 
