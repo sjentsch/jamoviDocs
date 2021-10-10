@@ -1,5 +1,58 @@
 .. jamovi documentation master file
 
+.. Table of content for the sidebar
+.. toctree::
+   :titlesonly:
+   :hidden:
+
+   _pages/um_1_installation
+
+.. toctree::
+   :titlesonly:
+   :caption: Introduction
+   :hidden:
+
+   _pages/um_2_first-steps
+   _pages/um_3_analyses
+   _pages/um_4_spreadsheet
+   _pages/um_5_updating_data
+   _pages/um_6_syntax_mode
+
+.. toctree::
+   :titlesonly:
+   :caption: Analyses
+   :hidden:
+
+   _pages/jg_11_descriptive-analyses
+   _pages/jg_16_Checking_normality
+   _pages/jg_17_Checking_linearity
+   _pages/jg_18_Filtering_data
+   _pages/jg_21_t-test-independent
+   _pages/jg_22_t-test-paired
+   _pages/jg_23_t-test-onesample
+   _pages/jg_31_unianova
+   _pages/jg_32_anova-factorial
+   _pages/jg_33_anova-rm
+   _pages/jg_34_anova-mixed
+   _pages/jg_42_regression-linear
+   _pages/jg_43_regression-logistic
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Additional Modules
+   :hidden:
+
+   _pages/developer-hub.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: jamovi and other software
+   :hidden:
+
+   _pages/SPSS2jamovi
+   _pages/jamovi2R
+   _pages/jmv_overview
+
 
 Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free
 and open statistical software to bridge the gap between researcher and
@@ -14,17 +67,13 @@ and running for jamovi.
    
 If you got stuck or get questions regarding jamovi, these can be asked in the
 `jamovi forum <https://forum.jamovi.org>`__.
-   
-.. toctree::
-   :titlesonly:
-   :name: sec-getting-started
 
-   _pages/um_1_installation
-   _pages/um_2_first-steps
-   _pages/um_3_analyses
-   _pages/um_4_spreadsheet
-   _pages/um_5_updating_data
-   _pages/um_6_syntax_mode
+- :doc:`_pages/um_1_installation`
+- :doc:`_pages/um_2_first-steps`
+- :doc:`_pages/um_3_analyses`
+- :doc:`_pages/um_4_spreadsheet`
+- :doc:`_pages/um_5_updating_data`
+- :doc:`_pages/um_6_syntax_mode`
 
 .. ============================================================================
 
@@ -61,14 +110,10 @@ Based upon the information we gathered, it becomes possible to search for and
 to remove such outliers. Using `filters <_pages/jg_18_Filtering_data.html>`__
 can help you with that task.
 
-.. toctree::
-   :titlesonly:
-   :name: sec-descriptives
-   
-   _pages/jg_11_descriptive-analyses
-   _pages/jg_16_Checking_normality
-   _pages/jg_17_Checking_linearity
-   _pages/jg_18_Filtering_data  
+- :doc:`_pages/jg_11_descriptive-analyses`
+- :doc:`_pages/jg_16_Checking_normality`
+- :doc:`_pages/jg_17_Checking_linearity`
+- :doc:`_pages/jg_18_Filtering_data`
 
 -------
 t-tests
@@ -86,13 +131,9 @@ there is no difference).
 
 There are three types of t-tests:
 
-.. toctree::
-   :titlesonly:
-   :name: sec-t-tests
-   
-   _pages/jg_21_t-test-independent
-   _pages/jg_22_t-test-paired
-   _pages/jg_23_t-test-onesample   
+- :doc:`_pages/jg_21_t-test-independent`
+- :doc:`_pages/jg_22_t-test-paired`
+- :doc:`_pages/jg_23_t-test-onesample`
 
 
 ----------------------------
@@ -119,14 +160,10 @@ There are different types of analysis of variance, which differ in the number
 of factors examined - one or more factors - or whether they compare between
 people or within a person - repeated measurements:
 
-.. toctree::
-   :titlesonly:
-   :name: sec-anovas
-   
-   _pages/jg_31_unianova
-   _pages/jg_32_anova-factorial
-   _pages/jg_33_anova-rm
-   _pages/jg_34_anova-mixed
+- :doc:`_pages/jg_31_unianova`
+- :doc:`_pages/jg_32_anova-factorial`
+- :doc:`_pages/jg_33_anova-rm`
+- :doc:`_pages/jg_34_anova-mixed`
 
 
 --------------------------
@@ -148,45 +185,30 @@ linear and non-linear (e.g., logistic regression).
      <https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
      by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
-.. toctree::
-   :titlesonly:
-   :name: sec-regression
- 
-   _pages/jg_42_regression-linear
-   _pages/jg_43_regression-logistic
-   
-.. 
-   _pages/jg_41_correlation
+- :doc:`_pages/jg_42_regression-linear`
+- :doc:`_pages/jg_43_regression-logistic`
    
 .. ============================================================================
+
+--------------------------
+Additional modules
+--------------------------
 
 TBA: The jamovi library
 
 TBA: Sideloading a module  
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Additional Modules
-   :name: sec-modules
+- :doc:`_pages/developer-hub`
 
-   _pages/developer-hub.rst
-   
 .. ============================================================================   
 
-.. toctree::
-   :maxdepth: 1
-   :caption: jamovi and other software
-   :name: sec-spss2jamovi2R
+--------------------------
+jamovi and other software
+--------------------------
 
-   _pages/SPSS2jamovi
-   _pages/jamovi2R
-   
-   _pages/jmv_overview
-
-..   
-     ┣ Rj and jmvconnect
-     ┣ jmvReadWrite
-
+- :doc:`_pages/SPSS2jamovi`
+- :doc:`_pages/jamovi2R`
+- :doc:`_pages/jmv_overview`
 
 .. ---------------------------------------------------------------------
 
