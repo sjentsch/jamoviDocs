@@ -68,12 +68,12 @@ and running for jamovi.
 If you got stuck or get questions regarding jamovi, these can be asked in the
 `jamovi forum <https://forum.jamovi.org>`__.
 
-- :doc:`_pages/um_1_installation`
-- :doc:`_pages/um_2_first-steps`
-- :doc:`_pages/um_3_analyses`
-- :doc:`_pages/um_4_spreadsheet`
-- :doc:`_pages/um_5_updating_data`
-- :doc:`_pages/um_6_syntax_mode`
+* :doc:`_pages/um_1_installation`
+* :doc:`_pages/um_2_first-steps`
+* :doc:`_pages/um_3_analyses`
+* :doc:`_pages/um_4_spreadsheet`
+* :doc:`_pages/um_5_updating_data`
+* :doc:`_pages/um_6_syntax_mode`
 
 .. ============================================================================
 
@@ -110,10 +110,10 @@ Based upon the information we gathered, it becomes possible to search for and
 to remove such outliers. Using `filters <_pages/jg_18_Filtering_data.html>`__
 can help you with that task.
 
-- :doc:`_pages/jg_11_descriptive-analyses`
-- :doc:`_pages/jg_16_Checking_normality`
-- :doc:`_pages/jg_17_Checking_linearity`
-- :doc:`_pages/jg_18_Filtering_data`
+* :doc:`_pages/jg_11_descriptive-analyses`
+* :doc:`_pages/jg_16_Checking_normality`
+* :doc:`_pages/jg_17_Checking_linearity`
+* :doc:`_pages/jg_18_Filtering_data`
 
 -------
 t-tests
@@ -131,9 +131,9 @@ there is no difference).
 
 There are three types of t-tests:
 
-- :doc:`_pages/jg_21_t-test-independent`
-- :doc:`_pages/jg_22_t-test-paired`
-- :doc:`_pages/jg_23_t-test-onesample`
+* :doc:`_pages/jg_21_t-test-independent`
+* :doc:`_pages/jg_22_t-test-paired`
+* :doc:`_pages/jg_23_t-test-onesample`
 
 
 ----------------------------
@@ -160,10 +160,10 @@ There are different types of analysis of variance, which differ in the number
 of factors examined - one or more factors - or whether they compare between
 people or within a person - repeated measurements:
 
-- :doc:`_pages/jg_31_unianova`
-- :doc:`_pages/jg_32_anova-factorial`
-- :doc:`_pages/jg_33_anova-rm`
-- :doc:`_pages/jg_34_anova-mixed`
+* :doc:`_pages/jg_31_unianova`
+* :doc:`_pages/jg_32_anova-factorial`
+* :doc:`_pages/jg_33_anova-rm`
+* :doc:`_pages/jg_34_anova-mixed`
 
 
 --------------------------
@@ -185,8 +185,8 @@ linear and non-linear (e.g., logistic regression).
      <https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
      by `Barton Poulson <https://datalab.cc/jamovi>`__.
 
-- :doc:`_pages/jg_42_regression-linear`
-- :doc:`_pages/jg_43_regression-logistic`
+* :doc:`_pages/jg_42_regression-linear`
+* :doc:`_pages/jg_43_regression-logistic`
    
 .. ============================================================================
 
@@ -198,7 +198,7 @@ TBA: The jamovi library
 
 TBA: Sideloading a module  
 
-- :doc:`_pages/developer-hub`
+* :doc:`_pages/developer-hub`
 
 .. ============================================================================   
 
@@ -206,9 +206,9 @@ TBA: Sideloading a module
 jamovi and other software
 --------------------------
 
-- :doc:`_pages/SPSS2jamovi`
-- :doc:`_pages/jamovi2R`
-- :doc:`_pages/jmv_overview`
+* :doc:`_pages/SPSS2jamovi`
+* :doc:`_pages/jamovi2R`
+* :doc:`_pages/jmv_overview`
 
 .. ---------------------------------------------------------------------
 
