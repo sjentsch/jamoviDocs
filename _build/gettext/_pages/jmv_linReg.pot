@@ -1,0 +1,343 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-13 19:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmv_linReg.rst:5
+msgid "Linear Regression (``linReg``)"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:10
+msgid "Linear regression is used to explore the relationship between a continuous dependent variable, and one or more continuous and/or categorical explanatory variables. Other statistical methods, such as ANOVA and ANCOVA, are in reality just forms of linear regression."
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:16
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:57
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:60
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:60
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:62
+msgid "``dep``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:62
+msgid "the dependent variable from ``data``, variable must be numeric"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:65
+msgid "``covs``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:65
+msgid "the covariates from ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:67
+msgid "``factors``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:67
+msgid "the fixed factors from ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:69
+msgid "``blocks``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:69
+msgid "a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according to their order in the list"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:74
+msgid "``refLevels``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:74
+msgid "a list of lists specifying reference levels of the dependent variable and all the factors"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:77
+msgid "``intercept``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:77
+msgid "``'refLevel'`` (default) or ``'grandMean'``, coding of the intercept. Either creates contrast so that the intercept represents the reference level or the grand mean"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:82
+msgid "``r``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:82
+msgid "``TRUE`` (default) or ``FALSE``, provide the statistical measure ``R`` for the models"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:85
+msgid "``r2``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:85
+msgid "``TRUE`` (default) or ``FALSE``, provide the statistical measure ``R-squared`` for the models"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:89
+msgid "``r2Adj``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:89
+msgid "``TRUE`` or ``FALSE`` (default), provide the statistical measure ``adjusted R-squared`` for the models"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:93
+msgid "``aic``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:93
+msgid "``TRUE`` or ``FALSE`` (default), provide Aikaike's Information Criterion (AIC) for the models"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:97
+msgid "``bic``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:97
+msgid "``TRUE`` or ``FALSE`` (default), provide Bayesian Information Criterion (BIC) for the models"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:101
+msgid "``rmse``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:101
+msgid "``TRUE`` or ``FALSE`` (default), provide RMSE for the models"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:104
+msgid "``modelTest``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:104
+msgid "``TRUE`` (default) or ``FALSE``, provide the model comparison between the models and the NULL model"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:108
+msgid "``anova``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:108
+msgid "``TRUE`` or ``FALSE`` (default), provide the omnibus ANOVA test for the predictors"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:111
+msgid "``ci``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:111
+msgid "``TRUE`` or ``FALSE`` (default), provide a confidence interval for the model coefficients"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:114
+msgid "``ciWidth``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:114
+#: ../../_pages/jmv_linReg.rst:125
+msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:117
+msgid "``stdEst``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:117
+msgid "``TRUE`` or ``FALSE`` (default), provide a standardized estimate for the model coefficients"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:121
+msgid "``ciStdEst``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:121
+msgid "``TRUE`` or ``FALSE`` (default), provide a confidence interval for the model coefficient standardized estimates"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:125
+msgid "``ciWidthStdEst``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:128
+msgid "``coefPlot``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:128
+msgid "``TRUE`` or ``FALSE`` (default), provide a coefficient plot where for each predictor the estimated coefficient and confidence intervals are plotted."
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:133
+msgid "``norm``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:133
+msgid "``TRUE`` or ``FALSE`` (default), perform a Shapiro-Wilk test on the residuals"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:136
+msgid "``qqPlot``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:136
+msgid "``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of residuals"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:139
+msgid "``resPlots``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:139
+msgid "``TRUE`` or ``FALSE`` (default), provide residual plots where the dependent variable and each covariate is plotted against the standardized residuals."
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:144
+msgid "``durbin``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:144
+msgid "``TRUE`` or ``FALSE`` (default), provide results of the Durbin- Watson test for autocorrelation"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:148
+msgid "``collin``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:148
+msgid "``TRUE`` or ``FALSE`` (default), provide VIF and tolerence collinearity statistics"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:151
+msgid "``cooks``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:151
+msgid "``TRUE`` or ``FALSE`` (default), provide summary statistics for the Cook's distance"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:154
+msgid "``emMeans``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:154
+msgid "a formula containing the terms to estimate marginal means for, supports up to three variables per term"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:158
+msgid "``ciEmm``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:158
+msgid "``TRUE`` (default) or ``FALSE``, provide a confidence interval for the estimated marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:162
+msgid "``ciWidthEmm``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:162
+msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:166
+msgid "``emmPlots``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:166
+msgid "``TRUE`` (default) or ``FALSE``, provide estimated marginal means plots"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:169
+msgid "``emmTables``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:169
+msgid "``TRUE`` or ``FALSE`` (default), provide estimated marginal means tables"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:172
+msgid "``emmWeights``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:172
+msgid "``TRUE`` (default) or ``FALSE``, weigh each cell equally or weigh them according to the cell frequency"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:178
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:180
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:183
+msgid "``results$modelFit``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:183
+#: ../../_pages/jmv_linReg.rst:184
+msgid "a table"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:184
+msgid "``results$modelComp``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:185
+msgid "``results$models``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:185
+msgid "an array of model specific results"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:188
+msgid "Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:191
+msgid "``results$modelFit$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:193
+msgid "``as.data.frame(results$modelFit)``"
+msgstr ""
+
+#: ../../_pages/jmv_linReg.rst:196
+msgid "Examples"
+msgstr ""

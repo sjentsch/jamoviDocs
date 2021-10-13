@@ -33,12 +33,14 @@ the first three columns of your dataset. Alternatively, you can use variable
 names as shown in the second line.
 
 .. code-block: R
+
 summary(data[1:3])
 summary(data[, c('var1', 'var2', 'var3')])
 
 But you can also use functions from R libraries:
 
 .. code-block: R
+
 stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), mean)
 
 It may take a bit of time to figure out how to use these functions, especially

@@ -5,7 +5,7 @@ Comparison of analyses available in SPSS and jamovi
 ===================================================
 
 +--------------------------------------+--------------------------------------+
-| | **SPSS** (version 25)              | **jamovi** (versjon 1.2)             |
+| | **SPSS** (version 27)              | **jamovi** (versjon 2.0)             |
 | | |spss_prices|                      |                                      |
 +--------------------------------------+--------------------------------------+
 | |SPSS_Analyze|                       | |jamovi_Analyze|                     |
@@ -157,7 +157,7 @@ Comparison of analyses available in SPSS and jamovi
 +--------------------------------------+--------------------------------------+
 | Correlate → Partial                  | Regression → Partial Correlation     |
 +--------------------------------------+--------------------------------------+
-| Correlate → Distances                | *under development*                  |
+| Correlate → Distances                | N/A                                  |
 +--------------------------------------+--------------------------------------+
 | **Regression**                                                              |
 +--------------------------------------+--------------------------------------+
@@ -233,10 +233,10 @@ Comparison of analyses available in SPSS and jamovi
 |                                      | «Shapiro-Wilks»*                     |
 +--------------------------------------+--------------------------------------+
 | Nonparametric Tests → Legacy         | T-Test → Independent Samples T-Test, |
-| Dialogs → 2 Independent Samples      | *set kryss/tikk på «Mann-Whitney U»* |
+| Dialogs → 2 Independent Samples      | *set tick-box «Mann-Whitney U»*      |
 +--------------------------------------+--------------------------------------+
 | Nonparametric Tests → Legacy         | T-Test → Paired Samples T-Test, *set |
-| Dialogs → 2 Related Samples          | kryss / tikk på «Wilcoxon Rank»*     |
+| Dialogs → 2 Related Samples          | tick-box «Wilcoxon Rank»*            |
 +--------------------------------------+--------------------------------------+
 | Nonparametric Tests → Legacy         | ANOVA → (Non-Parametric) → One-Way   |
 | Dialogs → K Independent Samples      | ANOVA (Kruskal-Wallis)               |
@@ -280,6 +280,7 @@ Comparison of analyses available in SPSS and jamovi
 | Spatial and Temporal Modeling →      | N/A                                  |
 | Spatial Modeling                     |                                      |
 +--------------------------------------+--------------------------------------+
+
 
 .. ----------------------------------------------------------------------------
 
