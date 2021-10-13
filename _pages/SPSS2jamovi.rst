@@ -39,16 +39,19 @@ Field's (2017) <https://edge.sagepub.com/field5e>`__ book are used.
    :titlesonly:
 
    s2j_descriptives
+   s2j_nonParametric
+   s2j_correlation
+   s2j_linReg
    s2j_ttestIS
    s2j_ttestPS
    s2j_anovaOneW
+   s2j_ANCOVA
    s2j_ANOVA
    s2j_anovaRM
-   s2j_correlation
-   s2j_linReg
-   s2j_logReg
-   s2j_frequencies
+   s2j_MANOVA
    s2j_factor
+   s2j_frequencies
+   s2j_logReg
    
 | **References**
 | Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th ed.). SAGE Publications. https://edge.sagepub.com/field5e
