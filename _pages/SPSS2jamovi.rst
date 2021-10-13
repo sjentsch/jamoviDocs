@@ -17,9 +17,9 @@ road to R. jamovi tries to use an interface that is relatively similar to the
 one in SPSS, the result version is more transparent and can be easily
 transferred to text processing (copy-and-paste with [mostly] keep formatting).
 
-`Comparison of analyses <Comparison_of_analyses.html>`__ provides an overview of
-which analysis functions are available in SPSS and the respective functions in
-jamovi.
+`Comparison of analyses <s2j_Comparison_of_analyses.html>`__ provides an
+overview of which analysis functions are available in SPSS and the respective
+functions in jamovi.
 
 .. toctree::
    :hidden:
@@ -38,15 +38,15 @@ Field's book are used.
 .. toctree::
    :titlesonly:
 
-   SPSS2jamovi_Descriptive_statistics
-   SPSS2jamovi_t-test_for_independent_samples
-   SPSS2jamovi_t-test_for_paired_samples
-   SPSS2jamovi_One-sample_t-test
-   SPSS2jamovi_One-way_ANOVA
-   SPSS2jamovi_ANOVA_multifactorial
-   SPSS2jamovi_ANOVA_for_repeated_measurements
-   SPSS2jamovi_Mixed-design_ANOVA
-   SPSS2jamovi_Linear_regression
-   SPSS2jamovi_Logistic_regression
+   s2j_Descriptive_statistics
+   s2j_t-test_for_independent_samples
+   s2j_t-test_for_paired_samples
+   s2j_One-sample_t-test
+   s2j_One-way_ANOVA
+   s2j_ANOVA_multifactorial
+   s2j_ANOVA_for_repeated_measurements
+   s2j_Mixed-design_ANOVA
+   s2j_Linear_regression
+   s2j_Logistic_regression
    
-.. SPSS2jamovi_Correlation
+.. s2j_Correlation

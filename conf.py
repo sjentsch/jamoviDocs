@@ -176,6 +176,14 @@ html_show_copyright = True
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'jamoviDocs'
 
+# -- Options for shinx-multiversion ---------------------------------------
+smv_tag_whitelist = None				# Whitelist pattern for tags (set to None to ignore all tags)
+smv_branch_whitelist = None 			# Whitelist pattern for branches (set to None to ignore all branches)
+smv_remote_whitelist = None				# Whitelist pattern for remotes (set to None to use local branches only)
+smv_released_pattern = r'^tags/.*$'		# Pattern for released versions
+smv_outputdir_format = '{ref.name}'		# Format for versioned output directories inside the build directory
+smv_prefer_remote_refs = False			# Determines whether remote or local git branches/tags are preferred if their output dirs conflict
+
 
 # -- Options for ePub output ----------------------------------------------
 # Options for epub output
