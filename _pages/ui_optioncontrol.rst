@@ -26,7 +26,7 @@ In addition to any inherited properties, an ``OptionControl`` supports:
 |                | ``name`` property is used instead.                                                                        |                          |
 +----------------+-----------------------------------------------------------------------------------------------------------+--------------------------+
 | ``optionPart`` | Sets the name of the sub-option to which the control is to be data bound. Some controls don’t bind to a   | defined option part name |
-|                | whole option but only to part. For example, a ``RadioButton`` binds to a sub-option of the underlying     |                          |
+|                | whole option but only to part. For example, a |RadioButton|_ binds to a sub-option of the underlying      |                          |
 |                | ``List`` option (see |RadioButton|_ for an example).                                                      |                          |
 +----------------+-----------------------------------------------------------------------------------------------------------+--------------------------+
 | ``label``      | Sets the text to be displayed by the control’s label. NOTE: not all controls have labels. In the          | string                   |
@@ -129,3 +129,5 @@ Below is a list of controls that inherit from ``OptionControl``.
 .. |TextBox|           replace:: ``TextBox``
 .. _TextBox:           ui_textbox.html
 
+.. |RadioButton|       replace:: ``RadioButton``
+.. _RadioButton:       ui_radiobutton.html
