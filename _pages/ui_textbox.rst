@@ -4,41 +4,31 @@
 ``TextBox``
 ===========
 
-**Inherits from** |ui_optioncontrol|_
+**Inherits from** |OptionControl|_
 
-A ``TextBox`` allows for the displaying and editing of the value of an
-option in text form.
+A ``TextBox`` allows for the displaying and editing of the value of an option in text form.
 
 Properties
 ----------
 
 In addition to any inherited properties, a ``TextBox`` supports:
 
-+------------+---------------------------------------+--------------------------+
-| Property   | Description                           | Form                     |
-+============+=======================================+==========================+
-| ``format`` | Sets the format definition that the   | Name of a:               |
-|            | ``TextBox`` should use to perform     |                          |
-|            | string manipulations with. If no      | |ui_standard-format|_    |
-|            | format is specified ``string`` is     |                          |
-|            | assumed.                              | |ui_custom-format|_      |
-+------------+---------------------------------------+--------------------------+
-| ``suffix`` | Sets the text to be placed to the     | string                   |
-|            | right of the textbox.                 |                          |
-+------------+---------------------------------------+--------------------------+
-| |inpPtt|   | Sets the input string filter for      | regular expression,      |
-|            | determining valid inputs. For         | string                   |
-|            | example, a number ``TextBox`` would   |                          |
-|            | have ``inputPattern: '[0-9]+'``       |                          |
-+------------+---------------------------------------+--------------------------+
-| |algTxt|   | Set the horizontal alignment of the   | enum: left, center,      |
-|            | text within the ``TextBox``.          | right                    |
-+------------+---------------------------------------+--------------------------+
-| |brdLss|   | Toggles whether the control has a     | bool                     |
-|            | visible border or not. This is mainly |                          |
-|            | used when a ``TextBox`` is add to the |                          |
-|            | ``template`` of a ``ListBox``.        |                          |
-+------------+---------------------------------------+--------------------------+
++------------------+-----------------------------------------------------------------------------------------------------+-------------------------------+
+| Property         | Description                                                                                         | Form                          |
++==================+=====================================================================================================+===============================+
+| ``format``       | Sets the format definition that the ``TextBox`` should use to perform string manipulations with.    | Name of a: |StandardFormat|_, |
+|                  | If no format is specified ``string`` is assumed.                                                    | |CustomFormat|_               |
++------------------+-----------------------------------------------------------------------------------------------------+-------------------------------+
+| ``suffix``       | Sets the text to be placed to the right of the textbox.                                             | string                        |
++------------------+-----------------------------------------------------------------------------------------------------+-------------------------------+
+| ``inputPattern`` | Sets the input string filter for determining valid inputs. For example, a number ``TextBox`` would  | regular expression, string    |
+|                  | have ``inputPattern: '[0-9]+'``                                                                     |                               |
++------------------+-----------------------------------------------------------------------------------------------------+-------------------------------+
+| ``alignText``    | Set the horizontal alignment of the text within the ``TextBox``.                                    | enum: left, center, right     |
++------------------+-----------------------------------------------------------------------------------------------------+-------------------------------+
+| ``borderless``   | Toggles whether the control has a visible border or not. This is mainly used when a ``TextBox`` is  | bool                          |
+|                  | added to the ``template`` of a |ListBox|_.                                                          |                               |
++------------------+-----------------------------------------------------------------------------------------------------+-------------------------------+
 
 .. toctree::
    :hidden:
@@ -52,7 +42,7 @@ Supported Option Types
 - ``String``
 - ``Integer``
 - ``Number``
--  Any format that has both toString() and parsing capabilities.
+- Any format that has both toString() and parsing capabilities.
 
 Example
 -------
@@ -69,21 +59,21 @@ Example
            inputPattern: '[0-9]+'
            enable: (logOdds)
 
-The above example adds a ``TextBox`` as a child control to a
-``CheckBox``.
+The above example adds a ``TextBox`` as a child control to a |CheckBox|_.
 
-.. --------------------------------------------------------------------
+.. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-.. |ui_optioncontrol|    replace:: ``OptionControl``
-.. _ui_optioncontrol:    ui_optioncontrol.html
+.. |OptionControl|       replace:: ``OptionControl``
+.. _OptionControl:       ui_optioncontrol.html
 
-.. |ui_standard-format|  replace:: ``StandardFormat``
-.. _ui_standard-format:  ui_standard-formats.html
+.. |StandardFormat|      replace:: ``StandardFormat``
+.. _StandardFormat:      ui_standard-formats.html
 
-.. |ui_custom-format|    replace:: ``CustomFormat``
-.. _ui_custom-format:    ui_custom-formats.html
+.. |CustomFormat|        replace:: ``CustomFormat``
+.. _CustomFormat:        ui_custom-formats.html
 
-.. |inpPtt|              replace:: ``inputPattern``
-.. |algTxt|              replace:: ``alignText``
-.. |brdLss|              replace:: ``borderless``
+.. |CheckBox|          replace:: ``CheckBox``
+.. _CheckBox:          ui_checkbox.html
 
+.. |ListBox|           replace:: ``ListBox``
+.. _ListBox:           ui_listbox.html

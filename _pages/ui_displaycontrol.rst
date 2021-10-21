@@ -4,7 +4,7 @@
 ``DisplayControl`` (abstract)
 =============================
 
-**Inherits from:** |ui_basecontrol|_
+**Inherits from:** |BaseControl|_
 
 Properties
 ----------
@@ -24,5 +24,5 @@ Below is a list of controls that inherit from ``DisplayControl``.
    
 .. --------------------------------------------------------------------
 
-.. |ui_basecontrol| replace:: ``BaseControl``
-.. _ui_basecontrol: ui_basecontrol.html
+.. |BaseControl|       replace:: ``BaseControl``
+.. _BaseControl:       ui_basecontrol.html

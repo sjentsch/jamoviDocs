@@ -4,47 +4,39 @@
 ``LayoutBox``
 =============
 
-**Inherits from:** |ui_basecontrol|_, |ui_parentcontrol|_
+**Inherits from:** |BaseControl|_, |ParentControl|_
 
-A ``LayoutBox`` allows a designer to control the layout of its child
-controls. A ``LayoutBox`` does not display anything itself but purely
-serves as a frame for placing other controls. It can be used as a list
-(default), inline list, or grid.
+A ``LayoutBox`` allows a designer to control the layout of its child controls. A ``LayoutBox`` does not display anything itself but purely serves as a frame
+for placing other controls. It can be used as a list (default), inline list, or grid.
 
 Properties
 ----------
 
 In addition to any inherited properties, a ``LayoutBox`` supports:
 
-+-----------+---------------------------------------+------------------+
-| Property  | Description                           | Form             |
-+===========+=======================================+==================+
-| ``style`` | Determines how the automatic layout   | *enum*: list,    |
-|           | behavior of the control.              | inline           |
-+-----------+---------------------------------------+------------------+
++-----------+--------------------------------------------------------------+----------------------+
+| Property  | Description                                                  | Form                 |
++===========+==============================================================+======================+
+| ``style`` | Determines how the automatic layout behavior of the control. | *enum*: list, inline |
++-----------+--------------------------------------------------------------+----------------------+
 
 Further Details
 ~~~~~~~~~~~~~~~
 
 ``style``
 
--  ``list``: Children will be added in a vertical manner starting at
-   ``cell`` position ``column: 0, row: 0``.
--  ``inline``: Children will be added in a horizontal manner starting at
-   ``cell`` position ``column: 0, row: 0``.
+-  ``list``: Children will be added in a vertical manner starting at ``cell`` position ``column: 0, row: 0``.
+-  ``inline``: Children will be added in a horizontal manner starting at ``cell`` position ``column: 0, row: 0``.
 
-To add to a ``LayoutBox`` in a grid format, use the ``cell`` property of
-the child control. As the ``LayoutBox`` is positioning its ``children``
-it will use the ``cell`` property of the control to place it correctly.
-The ``cell`` property of a child control overrides the auto positioning
-of the ``style`` property. If a child control does not have a ``cell``
-property defined it will use the ``style`` property to automatically
-place it based on the position of the previous child.
+To add to a ``LayoutBox`` in a grid format, use the ``cell`` property of the child control. As the ``LayoutBox`` is positioning its ``children`` it will use
+the ``cell`` property of the control to place it correctly. The ``cell`` property of a child control overrides the auto positioning of the ``style`` property.
+If a child control does not have a ``cell`` property defined it will use the ``style`` property to automatically place it based on the position of the previous
+child.
 
-.. ----------------------------------------------------------------------
+.. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-.. |ui_basecontrol| replace:: ``BaseControl``
-.. _ui_basecontrol: ui_basecontrol.html
+.. |BaseControl|       replace:: ``BaseControl``
+.. _BaseControl:       ui_basecontrol.html
 
-.. |ui_parentcontrol| replace:: ``ParentControl``
-.. _ui_parentcontrol: ui_parentcontrol.html
+.. |ParentControl|     replace:: ``ParentControl``
+.. _ParentControl:     ui_parentcontrol.html

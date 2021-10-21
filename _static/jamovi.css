@@ -144,6 +144,14 @@ li {
     margin: 0px 0;
 }
 
+.wy-nav-content {
+    max-width: none;
+}
+
+.wy-table-responsive table td {
+     vertical-align: top !important;
+}
+
 #header {
     max-width: 1200px;
     margin: 0 auto;

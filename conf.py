@@ -94,18 +94,38 @@ html_theme = "sphinx_rtd_theme"
 # further.  For a list of options available for each theme, see the documentation.
 # https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
 html_theme_options = {
-    'collapse_navigation': False,
+    # Google Analytics
+#   'analytics_id': 'G-XXXXXXXXXX',
+    'analytics_anonymize_ip': False,
+    # show version number is shown at the top of the sidebar (default: True)
     'display_version': False,
+    # only display the logo image, do not display the project name at the top of the sidebar (default: False)
     'logo_only': True,
+    # location of the prev / next buttons (default: 'bottom') and allow navigating using the keyboard’s left and right arrows (default: False)
+    'prev_next_buttons_location': 'bottom',
+    'navigation_with_keys': True,
+    # add an icon next to external links (default: False)
+    'style_external_links': False,
+    # display style for code-versioning-systems (github, etc.)     
+    'vcs_pageview_mode': '',
+    # changes the background of the search area in the navigation bar
     'style_nav_header_background': '#FFFFFF',
-#   Applies to all below: Can be an int, interpreted as pixels or a valid CSS dimension string such as ‘70em’ or ‘50%’.    
-#   Width of the sidebar: Defaults to 230 pixels.    
+    # width of the sidebar (defaults to 230 pixels)
     'sidebarwidth': '20%',
-#   Minimal and maximal width of the document body. Use 'none' if you don’t want a width limit. Defaults may depend on the theme (often 450px [min] and 800px [max]).    
-    'body_min_width': 'none',
-    'body_max_width': 'none',
-#   Allow navigating to the previous/next page using the keyboard’s left and right arrows. Defaults to False.
-    'navigation_with_keys': False,
+    # minimal and maximal width of the document body (use 'none' if you don’t want a width limit; defaults depend on the theme: often 450px [min] and 800px [max])
+    'body_min_width': 0,
+    'body_max_width': 0,
+    # ToC options
+    # navigation entries are not expandable – the [+] icons next to each entry are removed (default: True)
+    'collapse_navigation': True,
+    # scroll the navigation with the main page content as you scroll the page
+    'sticky_navigation': True,
+    # maximum depth of the table of contents tree (default: 4; allow unlimited depth: -1)
+    'navigation_depth': 3,
+    # whether the navigation includes hidden table(s) of contents (i.e., toctree directives marked with the :hidden: option; default: True)
+    'includehidden': True,
+    # page subheadings are not included in the navigation (default: False)
+    'titles_only': True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -177,8 +197,8 @@ html_show_copyright = True
 htmlhelp_basename = 'jamoviDocs'
 
 # -- Options for shinx-multiversion ---------------------------------------
-smv_tag_whitelist = None				# Whitelist pattern for tags (set to None to ignore all tags)
-smv_branch_whitelist = None 			# Whitelist pattern for branches (set to None to ignore all branches)
+smv_tag_whitelist = ""  				# Whitelist pattern for tags (set to None to ignore all tags)
+smv_branch_whitelist = ""    			# Whitelist pattern for branches (set to None to ignore all branches)
 smv_remote_whitelist = None				# Whitelist pattern for remotes (set to None to use local branches only)
 smv_released_pattern = r'^tags/.*$'		# Pattern for released versions
 smv_outputdir_format = '{ref.name}'		# Format for versioned output directories inside the build directory
@@ -270,7 +290,7 @@ epub_writing_mode = 'horizontal'
 latex_engine = 'xelatex'
 
 # Grouping the document tree into LaTeX files. List of tuples
-#   (source start file, target name,      title,                       author, theme,    toctree_only).
+#   (source start file, target name,      title,                       author,                theme,    toctree_only).
 latex_documents = [
     (master_doc,        'jamoviDocs.tex', u'Documentation for jamovi', u'The jamovi project', 'manual', True),
 ]

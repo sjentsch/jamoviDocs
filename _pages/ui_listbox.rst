@@ -4,7 +4,7 @@
 ``ListBox``
 ===========
 
-**Inherits from:** |ui_basecontrol|_
+**Inherits from:** |BaseControl|_
 
 **Cooming soon!**
 
@@ -20,16 +20,7 @@ Example
 Controls
 --------
 
-.. --------------------------------------------------------------------
+.. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-.. |ui_basecontrol|    replace:: ``BaseControl``
-.. _ui_basecontrol:    ui_basecontrol.html
-
-.. |ui_parentcontrol|  replace:: ``ParentControl``
-.. _ui_parentcontrol:  ui_parentcontrol.html
-
-.. |ui_optioncontrol|  replace:: ``OptionControl``
-.. _ui_optioncontrol:  ui_optioncontrol.html
-
-.. |ui_displaycontrol| replace:: ``DisplayControl``
-.. _ui_displaycontrol: ui_displaycontrol.html
+.. |BaseControl|       replace:: ``BaseControl``
+.. _BaseControl:       ui_basecontrol.html
