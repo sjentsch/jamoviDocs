@@ -96,7 +96,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_options = {
     # Google Analytics
 #   'analytics_id': 'G-XXXXXXXXXX',
-    'analytics_anonymize_ip': False,
+#   'analytics_anonymize_ip': False, # commented out - doesn't work on readthedocs
     # show version number is shown at the top of the sidebar (default: True)
     'display_version': False,
     # only display the logo image, do not display the project name at the top of the sidebar (default: False)
@@ -107,7 +107,7 @@ html_theme_options = {
     # add an icon next to external links (default: False)
     'style_external_links': False,
     # display style for code-versioning-systems (github, etc.)     
-    'vcs_pageview_mode': '',
+    # 'vcs_pageview_mode': '', # commented out - doesn't work on readthedocs
     # changes the background of the search area in the navigation bar
     'style_nav_header_background': '#FFFFFF',
     # width of the sidebar (defaults to 230 pixels)
