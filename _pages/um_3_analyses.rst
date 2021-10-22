@@ -34,7 +34,7 @@ Analyses
    |analysis|
    
    An overview with short, non-technical tutorials on how to do common
-   procedures in jamovi can be found under `Analyses <jg_0_welcome.html>`__.
+   procedures in jamovi can be found under `Analyses <jg_0_introduction.html>`__.
 
 .. ---------------------------------------------------------------------
 
