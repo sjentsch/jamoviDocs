@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmv_ANOVA.rst:5
+msgid "ANOVA (``ANOVA``)"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:10
+msgid "The Analysis of Variance (ANOVA) is used to explore the relationship between a continuous dependent variable, and one or more categorical explanatory variables."
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:15
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:47
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:50
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:50
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:52
+msgid "``dep``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:52
+msgid "the dependent variable from ``data``, variable must be numeric (not necessary when providing a formula, see examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:56
+msgid "``factors``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:56
+msgid "the explanatory factors in ``data`` (not necessary when providing a formula, see examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:60
+msgid "``effectSize``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:60
+msgid "one or more of ``'eta'``, ``'partEta'``, or ``'omega'``; use eta², partial eta², and omega² effect sizes, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:64
+msgid "``modelTest``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:64
+msgid "``TRUE`` or ``FALSE`` (default); perform an overall model test"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:67
+msgid "``modelTerms``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:67
+msgid "a formula describing the terms to go into the model (not necessary when providing a formula, see examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:71
+msgid "``ss``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:71
+msgid "``'1'``, ``'2'`` or ``'3'`` (default), the sum of squares to use"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:74
+msgid "``homo``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:74
+msgid "``TRUE`` or ``FALSE`` (default), perform homogeneity tests"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:77
+msgid "``norm``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:77
+msgid "``TRUE`` or ``FALSE`` (default), perform Shapiro-Wilk tests of normality"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:80
+msgid "``qq``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:80
+msgid "``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of residuals"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:83
+msgid "``contrasts``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:83
+msgid "a list of lists specifying the factor and type of contrast to use, one of ``'deviation'``, ``'simple'``, ``'difference'``, ``'helmert'``, ``'repeated'`` or ``'polynomial'``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:89
+msgid "``postHoc``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:89
+msgid "a formula containing the terms to perform post-hoc tests on (see the examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:92
+msgid "``postHocCorr``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:92
+msgid "one or more of ``'none'``, ``'tukey'``, ``'scheffe'``, ``'bonf'``, or ``'holm'``; provide no, Tukey, Scheffe, Bonferroni, and Holm Post Hoc corrections respectively"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:97
+msgid "``postHocES``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:97
+msgid "a possible value of ``'d'``; provide cohen's d measure of effect size for the post-hoc tests"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:101
+msgid "``postHocEsCi``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:101
+msgid "``TRUE`` or ``FALSE`` (default), provide confidence intervals for the post-hoc effect sizes"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:105
+msgid "``postHocEsCiWidth``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:105
+msgid "a number between 50 and 99.9 (default: 95), the width of confidence intervals for the post-hoc effect sizes"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:109
+msgid "``emMeans``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:109
+msgid "a formula containing the terms to estimate marginal means for (see the examples)"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:112
+msgid "``emmPlots``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:112
+msgid "``TRUE`` (default) or ``FALSE``, provide estimated marginal means plots"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:115
+msgid "``emmPlotData``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:115
+msgid "``TRUE`` or ``FALSE`` (default), plot the data on top of the marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:118
+msgid "``emmPlotError``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:118
+msgid "``'none'``, ``'ci'`` (default), or ``'se'``. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:123
+msgid "``emmTables``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:123
+msgid "``TRUE`` or ``FALSE`` (default), provide estimated marginal means tables"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:126
+msgid "``emmWeights``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:126
+msgid "``TRUE`` (default) or ``FALSE``, weigh each cell equally or weigh them according to the cell frequency"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:130
+msgid "``ciWidthEmm``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:130
+msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:134
+msgid "``formula``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:134
+msgid "(optional) the formula to use, see the examples"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:139
+msgid "Details"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:141
+msgid "ANOVA assumes that the residuals are normally distributed, and that the variances of all groups are equal. If one is unwilling to assume that the variances are equal, then a Welch's test can be used instead (However, the Welch's test does not support more than one explanatory factor). Alternatively, if one is unwilling to assume that the data is normally distributed, a non-parametric approach (such as Kruskal-Wallis) can be used."
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:150
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:152
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:155
+msgid "``results$main``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:155
+msgid "a table of ANOVA results"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:157
+msgid "``results$model``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:157
+msgid "the underlying ``aov`` object"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:159
+msgid "``results$assump$homo``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:159
+msgid "a table of homogeneity tests"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:161
+msgid "``results$assump$norm``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:161
+msgid "a table of normality tests"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:163
+msgid "``results$assump$qq``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:163
+msgid "a q-q plot"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:165
+msgid "``results$contrasts``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:165
+msgid "an array of contrasts tables"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:167
+msgid "``results$postHoc``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:167
+msgid "an array of post-hoc tables"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:169
+msgid "``results$emm``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:169
+msgid "an array of the estimated marginal means plots + tables"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:173
+msgid "Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:176
+msgid "``results$main$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:178
+msgid "``as.data.frame(results$main)``"
+msgstr ""
+
+#: ../../_pages/jmv_ANOVA.rst:181
+msgid "Examples"
+msgstr ""
