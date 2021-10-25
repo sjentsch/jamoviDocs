@@ -6,10 +6,8 @@ ANOVA: Repeated Measures
 
 | How to perform a repeated measures ANOVA in jamovi:
 
-#. | You need one continuous outcome variable for each measurement
-     occasion. Make sure that the `measurement levels are set correctly
-     <um_2_first-steps.html#data-variables>`_ so that the continuous
-     variables are marked as |continuous|.
+#. | You need one |continuous| continuous outcome variable for each measurement
+     occasion.
      
    | A correct setup should look similar to this:
 
@@ -44,7 +42,7 @@ ANOVA: Repeated Measures
      ``Assumption Checks`` drop-down menu and set the ``Homogeneity test`` tick
      box. It is also a good idea to check that the variances at the different
      steps of the repetition factor are the same (Sphericity). To do so, open
-     the ``Assumption Checks`` drop-down menu and set the ``Sphericty tests``
+     the ``Assumption Checks`` drop-down menu and set the ``Sphericity tests``
      tick box.
 
    | 

@@ -6,12 +6,8 @@ t-test: Independent samples
 
 | How to perform an independent samples t-test in jamovi:
 
-#. | You need one grouping variable with two levels (e.g. treatment / 
-     control) and one continuous outcome variable. Make sure that the
-     `measurement levels are set correctly 
-     <um_2_first-steps.html#data-variables>`_ so that the grouping
-     variable is marked as |nominal| and the continuous variable is
-     marked as |continuous|.
+#. | You need at least one |continuous| continuous dependent variable, and a
+     |nominal| grouping variable with two levels (e.g. treatment / control).
      
    | A correct setup should look similar to this:
 

@@ -6,10 +6,8 @@ t-test: One sample
 
 | How to perform a one-sample t-test in jamovi:
 
-#. | You need one continuous variable and a mean to test against. Make
-     sure that the `measurement levels are set correctly
-     <um_2_first-steps.html#data-variables>`_ so that the continuous
-     variable is marked as |continuous|.
+#. | You need one |continuous| continuous variable and a mean to test against
+     (typically the mean being tested is zero).
 
    | A correct setup should look similar to this:  
 
