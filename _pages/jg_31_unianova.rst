@@ -1,16 +1,13 @@
 .. sectionauthor:: `Jonas Rafi <https://www.su.se/english/profiles/jora9288-1.283149>`__
 
-=============
-ANOVA: Oneway
-=============
+==============
+ANOVA: One-Way
+==============
 
-| How to perform a Oneway ANOVA in jamovi:
+| How to perform a One-way ANOVA in jamovi:
 
-#. | You need one grouping variable and one continuous outcome variable.
-     Make sure that the `measurement levels are set correctly
-     <um_2_first-steps.html#data-variables>`_ so that the grouping
-     variable is marked as |nominal| and the continuous variable is
-     marked as |continuous|.
+#. | You need one |continuous| dependent variable, and one |nominal| grouping
+     variable with two or more levels.
      
    | A correct setup should look similar to this:  
 
@@ -39,7 +36,7 @@ ANOVA: Oneway
 
    | 
 
-#. | The results is shown in the right panel:
+#. | The results are shown in the right panel:
 
    |output_unianova|
 

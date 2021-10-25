@@ -1,7 +1,7 @@
 .. sectionauthor:: Jonathon Love
 
-The first steps in jamovi
-=========================
+First steps in jamovi
+=====================
 
    When first starting jamovi, you will be presented with a user
    interface which looks something like this.
@@ -17,7 +17,7 @@ The first steps in jamovi
    spreadsheet as you would any other spreadsheet software.
    
    Alternatively, existing data sets in a range of formats (CSV, Excel,
-   LibreOffice, R, SPSS, Stata, SAS, JASP) can be opened in jamovi.
+   LibreOffice, R, SPSS, Stata, SAS, etc.) can be opened in jamovi.
    Additionally, there are a number of example data sets available in jamovi.
    To open a file, select the file menu (☰, at the top left hand corner of
    jamovi), select ``Open`` and then ``Data library`` or ``This PC``,
@@ -38,9 +38,9 @@ The first steps in jamovi
    in the drop-down menu close to the ``Save as``-button. Thereafter, you may
    open the CSV-file in jamovi.
   
-   If jamovi does not open a file correctly, do file an issue (bug report) in
-   our GitHub `issue tracker <https://github.com/jamovi/jamovi/issues>`__.
-   We are keen to make our importer as robust as possible.
+   In the unlikely event that jamovi does not open a file correctly, file an
+   issue (bug report) in the GitHub
+   `issue tracker <https://github.com/jamovi/jamovi/issues>`__.
 
 .. ---------------------------------------------------------------------
 

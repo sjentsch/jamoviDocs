@@ -1,7 +1,7 @@
 .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
 ====================
-Rj-module for jamovi
+Rj Editor for jamovi
 ====================
 
 Preparation

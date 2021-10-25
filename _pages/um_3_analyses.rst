@@ -16,6 +16,13 @@ Analyses
    produced. In this way, you can return to any analysis that you (or say, a
    colleague) created earlier.
 
+   If you decide you no longer need a particular analysis, you can remove it
+   with the results context menu. Right-clicking on the analysis results will
+   bring up a menu, and by selecting ``Analysis``, and then ``Remove``, the
+   analysis can be removed.
+
+   |analysis|
+
    jamovi produces nice APA formatted tables, and attractive plots. It is often
    useful to be able to copy and paste these, perhaps into a Word document, or
    into an email to a colleague. To copy results, right click on the object of
@@ -25,13 +32,6 @@ Analyses
    the other program in the usual way.
 
    |copy-paste|
-
-   If you decide you no longer need a particular analysis, you can remove it
-   with the results context menu. Right-clicking on the analysis results will
-   bring up a menu, and by selecting ``Analysis``, and then ``Remove``, the
-   analysis can be removed.
-
-   |analysis|
    
    An overview with short, non-technical tutorials on how to do common
    procedures in jamovi can be found under `Analyses <jg_0_introduction.html>`__.

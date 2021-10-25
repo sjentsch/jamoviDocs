@@ -6,12 +6,10 @@ ANOVA: Mixed
 
 | How to perform a mixed ANOVA in jamovi:
 
-#. | You need at least one grouping variable with at least two levels (e.g.
-     treatment / control) and one continuous outcome variable for each
-     measurement time point. Make sure that the `measurement levels are set
-     correctly <um_2_first-steps.html#data-variables>`_ so that all the
-     variables for the repeated measurements are marked as |continuous| and
-     the grouping variable(s) are marked as |nominal|.
+#. | You need one |continuous| continuous variable for each within-subject
+     measurement (e.g. pre / post), at least one |nominal| grouping variable
+     with at least two levels (e.g. treatment / control) and one |nominal|
+     variable to function as a between subject factor (e.g. gender).
 
    | A correct setup should look similar to this:
    

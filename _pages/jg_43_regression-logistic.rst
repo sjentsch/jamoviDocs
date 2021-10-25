@@ -6,12 +6,8 @@ Logistic Regression
 
 | How to perform a logistic regression in jamovi:
 
-#. | You need one continuous predictor variable and one categorical
-     (nominal or ordinal) outcome variable. Make sure that the
-     `measurement levels are set correctly
-     <um_2_first-steps.html#data-variables>`_ so that the predictor variable(s)
-     are marked as |continuous| and the outcome variable is marked as
-     |nominal|.
+#. | You need one categorical |nominal| |ordinal| dependent variable (nominal or
+     ordinal), and at least one continuous explanatory variable.
      
    | A correct setup should look similar to this:
    
@@ -29,7 +25,7 @@ Logistic Regression
    
    | 
 
-#. | Drag and drop your outcome variable to ``Dependent Variable`` and
+#. | Drag and drop your dependent variable to ``Dependent Variable`` and
      your predictor to ``Covariates``.
 
    |add_var_regression_logistic|
@@ -55,6 +51,8 @@ Logistic Regression
 .. ---------------------------------------------------------------------
 
 .. |nominal|                          image:: ../_images/variable-nominal.*
+   :width: 16px
+.. |ordinal|                          image:: ../_images/variable-ordinal.*
    :width: 16px
 .. |continuous|                       image:: ../_images/variable-continuous.*
    :width: 16px
