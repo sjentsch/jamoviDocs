@@ -1,0 +1,9 @@
+
+# macOS cruft
+.DS_Store
+
+# build stuff
+_env/
+_build/
+# unexclude gettext for translations
+!_build/gettext
