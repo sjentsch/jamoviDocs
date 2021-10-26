@@ -517,7 +517,7 @@ img.person {
 
 .gif-player:not([data-state])     .play-button,
 .gif-player[data-state='waiting'] .play-button {
-    background-image: url(assets/action-play.svg);
+    background-image: url('../_static/action-play.svg');
     background-size: 160px;
     background-position: center;
     opacity: .5;
@@ -529,7 +529,7 @@ img.person {
 }
 
 .gif-player[data-state='playing'] .stop-button:hover {
-    background-image: url(assets/action-stop.svg);
+    background-image: url('../_static/action-stop.svg');
     background-size: 80px;
     background-position: bottom right;
     opacity: 1;

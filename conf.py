@@ -18,7 +18,7 @@ from sphinx.locale import _
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2020, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
+copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
