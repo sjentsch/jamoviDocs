@@ -4,24 +4,27 @@
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
-#, fuzzy
+# Leonardo Villa <leovilla80@gmail.com>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: jamovi\n"
+"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-10-22 16:59+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-10-28 09:37+0000\n"
+"Last-Translator: Leonardo Villa <leovilla80@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/"
+"jg_0_introduction/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_0_introduction.rst:5
 msgid "Analyses: Introduction"
-msgstr ""
+msgstr "Análisis: Introducción"
 
 #: ../../_pages/jg_0_introduction.rst:7
 msgid ""
@@ -34,10 +37,18 @@ msgid ""
 "resources are listed at the bottom of the pages introducing the "
 "individual analyses in the box “Community resources”."
 msgstr ""
+"El objetivo de la siguiente sección es proveer tutoriales cortos, no "
+"técnicos, de cómo realizar procedimientos estadísticos comunes en jamovi. "
+"Fue creado originalmente por Jonas Rafi bajo el nombre de Guía jamovi. Sin "
+"embargo, ha sido pensado como una introducción, no como un recurso que "
+"provea una introducción profunda a los antecedentes de dichos "
+"procedimientos. Para quienes deseen eso, hay una gran cantidad de otros "
+"recursos. Algunos de dichos recursos están listados al final de las páginas "
+"que introducen al análisis individual en la caja \"recurso de la Comunidad\"."
 
 #: ../../_pages/jg_0_introduction.rst:14
 msgid "Describing and cleaning your data"
-msgstr ""
+msgstr "Describiendo y limpiando sus datos"
 
 #: ../../_pages/jg_0_introduction.rst:16
 msgid ""
@@ -46,6 +57,10 @@ msgid ""
 "over your data. This information is gathered using descriptive-"
 "statistical analyses."
 msgstr ""
+"Una parte bastante esencial de un análisis estadístico ocurre realmente "
+"antes de realizarlo. Esa parte consiste en obtener primero una visión "
+"general de los datos. Esta información se obtiene mediante análisis "
+"estadísticos descriptivos."
 
 #: ../../_pages/jg_0_introduction.rst:25
 msgid ":doc:`jg_11_descriptive-analyses`"
@@ -53,7 +68,7 @@ msgstr ""
 
 #: ../../_pages/jg_0_introduction.rst:33
 msgid "t-tests"
-msgstr ""
+msgstr "Pruebas T"
 
 #: ../../_pages/jg_0_introduction.rst:35
 msgid ""
@@ -61,11 +76,14 @@ msgid ""
 "distributed data set deviates significantly from a null hypothesis (which"
 " assumes that there is no difference)."
 msgstr ""
+"La prueba t se utiliza para comprobar si la media de un conjunto de datos "
+"con distribución normal se desvía significativamente de una hipótesis nula ("
+"que supone que no hay diferencias)."
 
 #: ../../_pages/jg_0_introduction.rst:38 ../../_pages/jg_0_introduction.rst:60
 #: ../../_pages/jg_0_introduction.rst:83
 msgid "Community resources"
-msgstr ""
+msgstr "Recursos de la Comunidad"
 
 #: ../../_pages/jg_0_introduction.rst
 msgid ""
@@ -74,10 +92,14 @@ msgid ""
 "<https://www.youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
+"Una introducción más completa al concepto se presenta en este `vídeo "
+"<https://www.youtube.com/embed/"
+"mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ de `Barton Poulson "
+"<https://datalab.cc/jamovi>`__."
 
 #: ../../_pages/jg_0_introduction.rst:43
 msgid "There are three types of t-tests:"
-msgstr ""
+msgstr "Hay tres tipos de pruebas t:"
 
 #: ../../_pages/jg_0_introduction.rst:45
 msgid ":doc:`jg_21_t-test-independent`"
@@ -93,7 +115,7 @@ msgstr ""
 
 #: ../../_pages/jg_0_introduction.rst:52
 msgid "Analyses of Variance (ANOVA)"
-msgstr ""
+msgstr "Análisis de la Varianza (ANOVA)"
 
 #: ../../_pages/jg_0_introduction.rst:54
 msgid ""
@@ -108,6 +130,16 @@ msgid ""
 "(t-tests only allow two) and in that several factors can be examined "
 "simultaneously."
 msgstr ""
+"El análisis de la varianza (ANOVA) es un método estadístico que examina cómo "
+"el impacto de uno o más factores afecta a una variable de resultado "
+"(dependiente). Estos factores son las variables predictoras y son "
+"categóricas. Normalmente, estos factores reflejan una manipulación "
+"experimental (por ejemplo, con o sin tratamiento), pero un factor también "
+"puede representar grupos cuya influencia uno podría desear controlar (por "
+"ejemplo, el género: hombres o mujeres). El análisis de la varianza se basa "
+"en un concepto similar al de la prueba t, pero va más allá, en el sentido de "
+"que los factores pueden tener varios niveles (las pruebas t sólo permiten "
+"dos) y en que se pueden examinar varios factores simultáneamente."
 
 #: ../../_pages/jg_0_introduction.rst
 msgid ""
@@ -115,6 +147,10 @@ msgid ""
 "<https://www.youtube.com/embed/GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
+"Una introducción en el concepto del ANOVA se presenta en este `video "
+"<https://www.youtube.com/embed/"
+"GcbMG6sizXs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ por `Barton Poulson "
+"<https://datalab.cc/jamovi>`__."
 
 #: ../../_pages/jg_0_introduction.rst:65
 msgid ""
@@ -122,6 +158,9 @@ msgid ""
 "number of factors examined - one or more factors - or whether they "
 "compare between people or within a person - repeated measurements:"
 msgstr ""
+"Existen diferentes tipos de análisis de la varianza, que difieren en el "
+"número de factores examinados -uno o más factores- o en si se comparan entre "
+"personas o dentro de una persona -medidas repetidas-:"
 
 #: ../../_pages/jg_0_introduction.rst:68
 msgid ":doc:`jg_31_unianova`"
@@ -141,7 +180,7 @@ msgstr ""
 
 #: ../../_pages/jg_0_introduction.rst:76
 msgid "Correlation and regression"
-msgstr ""
+msgstr "Correlación y regresión"
 
 #: ../../_pages/jg_0_introduction.rst:78
 msgid ""
@@ -154,6 +193,14 @@ msgid ""
 "distinction is made between linear and non-linear (e.g., logistic "
 "regression)."
 msgstr ""
+"Los análisis de correlación y regresión son métodos estadísticos para "
+"evaluar las relaciones entre una variable dependiente/de resultado y una o "
+"más variables independientes/de predicción. Mientras que el análisis de "
+"*correlación* examina la *relación* entre un predictor y una variable de "
+"resultado, el análisis de *regresión* se centra principalmente en la "
+"*predicción* (en qué medida pueden una o más variables predecir otra "
+"variable (de resultado)). A menudo se distingue entre lineal y no lineal ("
+"por ejemplo, regresión logística)."
 
 #: ../../_pages/jg_0_introduction.rst
 msgid ""
@@ -162,6 +209,10 @@ msgid ""
 "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
+"Una introducción al concepto del análisis de regresión se presenta en este `"
+"video <https://www.youtube.com/embed/"
+"gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ por `Barton Poulson "
+"<https://datalab.cc/jamovi>`__."
 
 #: ../../_pages/jg_0_introduction.rst:88
 msgid ":doc:`jg_42_regression-linear`"
@@ -170,4 +221,3 @@ msgstr ""
 #: ../../_pages/jg_0_introduction.rst:89
 msgid ":doc:`jg_43_regression-logistic`"
 msgstr ""
-
