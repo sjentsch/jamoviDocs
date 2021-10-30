@@ -33,8 +33,8 @@ Install and build (later):
    The sixth command (for F in ...) checks whether each translation file (.po) has a respective original (.pot). If not, those files are either deleted (if it doesn't contain any formerly translated strings) or the names of file is changed by appending .rmv (those files can then be checked which earlier translations they contain; those can then be  copied over manually and afterwards the .rmv-file can be removed).
    The last command (for L in ...) finally creates the output files for the translation into the different languages.<br>
      
-   `$ git checkout weblate/weblate-jamovi-jamovidocs -- _locale && for L in en de es nb tr; do sphinx-build -b html -D language=${L} . _build/html/${L}; if [ "${L}" != "en" ]; then cd _build/html/${L}; for D in _images _static; do rm -fR ${D}; ln -s ../en/${D}; done; cd -; fi; done`<br>
-   Pull the translated resources and build the documentation in the target language. Afterwards, if the lanaguage is not English (default), remove the directories _image and _static from the translated directories and link them to the respective directories under "en".<br>
+   `$ git checkout weblate/weblate-jamovi-jamovidocs -- _locale && for L in en de es nb tr; do sphinx-build -b html -D language=${L} . _build/html/${L}; rm -fR _build/html/${L}/.doctrees; if [ "${L}" != "en" ]; then cd _build/html/${L}; for D in _images _static; do rm -fR ${D}; ln -s ../en/${D}; done; cd -; fi; done`<br>
+   Pull the translated resources and build the documentation in the target language. Afterwards, the doctree-pickles are removed and, if the lanaguage is not English (default), the directories _images and _static are removed from the translated directories and linked to the respective directories under "en".<br>
 
    NB: Before using the weblate repository for the first time, it has to be added using the following command (the second part prevents from accidentially pushing to it):
    `$ git remote add weblate https://github.com/weblate/jamoviDocs.git/ && git remote set-url --push weblate DISABLED`

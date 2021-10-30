@@ -18,7 +18,7 @@ from sphinx.locale import _
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2016-{}, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
+copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -47,7 +47,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -157,10 +157,6 @@ html_css_files = ['jamovi.css', # jamovi style (adapted)
 
 html_js_files  = ['gif-player.js', # gif-player
                  ]
-
-templates_path = [
-    "_templates",
-]
 
 # Custom sidebar templates, must be a dictionary that maps document names to template names.
 # The list specifies the complete list of sidebar templates to include.
