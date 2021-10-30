@@ -44,7 +44,6 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_copybutton',
-    'sphinx_multiversion',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -53,7 +52,7 @@ extensions = [
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '_tmp', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
+exclude_patterns = ['_build', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -159,6 +158,10 @@ html_css_files = ['jamovi.css', # jamovi style (adapted)
 html_js_files  = ['gif-player.js', # gif-player
                  ]
 
+templates_path = [
+    "_templates",
+]
+
 # Custom sidebar templates, must be a dictionary that maps document names to template names.
 # The list specifies the complete list of sidebar templates to include.
 # If all or some of the default sidebars are to be included, they must be put into this list as well.
@@ -198,14 +201,6 @@ html_show_copyright = True
 # -- Options for HTMLHelp output ------------------------------------------
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'jamoviDocs'
-
-# -- Options for shinx-multiversion ---------------------------------------
-smv_tag_whitelist = ""  				# Whitelist pattern for tags (set to None to ignore all tags)
-smv_branch_whitelist = ""    			# Whitelist pattern for branches (set to None to ignore all branches)
-smv_remote_whitelist = None				# Whitelist pattern for remotes (set to None to use local branches only)
-smv_released_pattern = r'^tags/.*$'		# Pattern for released versions
-smv_outputdir_format = '{ref.name}'		# Format for versioned output directories inside the build directory
-smv_prefer_remote_refs = False			# Determines whether remote or local git branches/tags are preferred if their output dirs conflict
 
 
 # -- Options for ePub output ----------------------------------------------
