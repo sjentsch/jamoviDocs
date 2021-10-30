@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 19:01+0200\n"
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,19 +21,19 @@ msgstr ""
 
 #: ../../_pages/s2j_logReg.rst:5
 msgid "From SPSS to jamovi: Logistic regression"
-msgstr ""
+msgstr "Von SPSS zu jamovi: Logistische Regression"
 
 #: ../../_pages/s2j_logReg.rst:7
 msgid "(coming soon)"
-msgstr ""
+msgstr "(demnächst verfügbar)"
 
 #: ../../_pages/s2j_logReg.rst:10
-msgid "**SPSS** (version 27)"
-msgstr ""
+msgid "**SPSS**"
+msgstr "**SPSS**"
 
 #: ../../_pages/s2j_logReg.rst:10
-msgid "**jamovi** (version 2.0)"
-msgstr ""
+msgid "**jamovi**"
+msgstr "**jamovi**"
 
 #: ../../_pages/s2j_logReg.rst:20
 msgid "Introduction to results"
@@ -67,4 +67,3 @@ msgid ""
 "Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
 " ed.). SAGE Publications. https://edge.sagepub.com/field5e"
 msgstr ""
-

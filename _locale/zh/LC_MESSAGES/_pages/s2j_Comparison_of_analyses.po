@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 19:01+0200\n"
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,11 +24,11 @@ msgid "Comparison of analyses available in SPSS and jamovi"
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst
-msgid "**SPSS** (version 27)"
+msgid "**SPSS**"
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:8
-msgid "**jamovi** (versjon 2.0)"
+msgid "**jamovi**"
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst
@@ -657,5 +657,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "T-Test → Paired Samples T-Test, *set kryss / tikk på «Wilcoxon Rank»*"
+#~ msgstr ""
+
+#~ msgid "**SPSS** (version 27)"
+#~ msgstr ""
+
+#~ msgid "**jamovi** (versjon 2.0)"
 #~ msgstr ""
 

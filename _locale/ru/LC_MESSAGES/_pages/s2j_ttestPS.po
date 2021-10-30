@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,11 +55,11 @@ msgid ""
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS.rst:20
-msgid "**SPSS** (version 27)"
+msgid "**SPSS**"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS.rst:20
-msgid "**jamovi** (version 2.0)"
+msgid "**jamovi**"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS.rst:22
@@ -269,5 +269,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "In jamovi you do this using: Data (tab) → Compute → Compute Variable."
+#~ msgstr ""
+
+#~ msgid "**SPSS** (version 27)"
+#~ msgstr ""
+
+#~ msgid "**jamovi** (version 2.0)"
 #~ msgstr ""
 

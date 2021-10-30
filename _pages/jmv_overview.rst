@@ -4,8 +4,9 @@
 The ``jmv`` R package
 =====================
 
-For some use-cases, it's preferable to be able use the jamovi analyses from R.
-This is provided by the jmv R package.
+| For some use-cases, it's preferable to be able use the jamovi analyses from R. This is provided by the ``jmv`` R package. All the analyses included with jamovi are available from within R using this package.
+
+.. | It gives you the opportunity to integrate analyses conducted in jamovi it with other R-functions. Such R-functions could, e.g., be used to extract and manipulate data from log files of software used to conduct experiments (PsychoPy, e-prime, etc.).
 
 -----------
 Preparation
@@ -93,108 +94,107 @@ Use of jamovi syntax in R
 
    jmv::corrMatrix(data = data, vars = vars(var1, var2), spearman = TRUE, kendall = TRUE, sig = FALSE, flag = TRUE, plots = TRUE)
 
-..
-   -----------------------------------------------
-   Overview over the analyses contained in ``jmv``
-   -----------------------------------------------
+-----------------------------------------------
+Overview over the analyses contained in ``jmv``
+-----------------------------------------------
 
-   Exploration
-   ^^^^^^^^^^^
+Exploration
+^^^^^^^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-exploration
+.. toctree::
+   :titlesonly:
+   :name: sec-exploration
 
-      jmv_descriptives
+   jmv_descriptives
 
-   T-Tests
-   ^^^^^^^
+T-Tests
+^^^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-t_tests
+.. toctree::
+   :titlesonly:
+   :name: sec-t_tests
 
-      jmv_ttestIS
-      jmv_ttestPS
-      jmv_ttestOneS
+   jmv_ttestIS
+   jmv_ttestPS
+   jmv_ttestOneS
 
-   ANOVA
-   ^^^^^
+ANOVA
+^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-anova
+.. toctree::
+   :titlesonly:
+   :name: sec-anova
 
-      jmv_anovaOneW
-      jmv_ANOVA
-      jmv_anovaRM
-      jmv_ancova
-      jmv_mancova
-      jmv_anovaNP
-      jmv_anovaRMNP
+   jmv_anovaOneW
+   jmv_ANOVA
+   jmv_anovaRM
+   jmv_ancova
+   jmv_mancova
+   jmv_anovaNP
+   jmv_anovaRMNP
 
-   Regression
-   ^^^^^^^^^^
+Regression
+^^^^^^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-regression
+.. toctree::
+   :titlesonly:
+   :name: sec-regression
 
-      jmv_corrMatrix
-      jmv_corrPart
-      jmv_linReg
-      jmv_logRegBin
-      jmv_logRegMulti
-      jmv_logRegOrd
+   jmv_corrMatrix
+   jmv_corrPart
+   jmv_linReg
+   jmv_logRegBin
+   jmv_logRegMulti
+   jmv_logRegOrd
 
-   Frequencies
-   ^^^^^^^^^^^
+Frequencies
+^^^^^^^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-frequencies
+.. toctree::
+   :titlesonly:
+   :name: sec-frequencies
 
-      jmv_propTest2
-      jmv_propTestN
-      jmv_contTables
-      jmv_contTablesPaired
-      jmv_logLinear
+   jmv_propTest2
+   jmv_propTestN
+   jmv_contTables
+   jmv_contTablesPaired
+   jmv_logLinear
 
-   Factor analyses
-   ^^^^^^^^^^^^^^^
+Factor analyses
+^^^^^^^^^^^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-factoranalyses
+.. toctree::
+   :titlesonly:
+   :name: sec-factoranalyses
 
-      jmv_reliability
-      jmv_pca
-      jmv_efa
-      jmv_cfa
+   jmv_reliability
+   jmv_pca
+   jmv_efa
+   jmv_cfa
 
-   ------------------------------------------------------
-   Data handling using ``jmvconnect`` or ``jmvReadWrite``
-   ------------------------------------------------------
+------------------------------------------------------
+Data handling using ``jmvconnect`` or ``jmvReadWrite``
+------------------------------------------------------
 
-   jmvconnect
-   ^^^^^^^^^^
+jmvconnect
+^^^^^^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-jmvconnect
+.. toctree::
+   :titlesonly:
+   :name: sec-jmvconnect
 
-      jmvconnect_read
-      jmvconnect_what
+   jmvconnect_read
+   jmvconnect_what
 
-   jmvReadWrite
-   ^^^^^^^^^^^^
+jmvReadWrite
+^^^^^^^^^^^^
 
-   .. toctree::
-      :titlesonly:
-      :name: sec-jmvreadwrite
+.. toctree::
+   :titlesonly:
+   :name: sec-jmvreadwrite
 
-      jmvReadWrite_read_omv
-      jmvReadWrite_write_omv
+   jmvReadWrite_read_omv
+   jmvReadWrite_write_omv
 
 .. ----------------------------------------------------------------------------
 

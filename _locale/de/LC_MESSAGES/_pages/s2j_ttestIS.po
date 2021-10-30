@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../_pages/s2j_ttestIS.rst:5
 msgid "From SPSS to jamovi: t-test for independent samples"
-msgstr ""
+msgstr "Von SPSS zu jamovi: t-Test für unabhängige Stichproben"
 
 #: ../../_pages/s2j_ttestIS.rst:7
 msgid ""
@@ -40,12 +40,12 @@ msgid ""
 msgstr ""
 
 #: ../../_pages/s2j_ttestIS.rst:13
-msgid "**SPSS** (version 27)"
-msgstr ""
+msgid "**SPSS**"
+msgstr "**SPSS**"
 
 #: ../../_pages/s2j_ttestIS.rst:13
-msgid "**jamovi** (version 2.0)"
-msgstr ""
+msgid "**jamovi**"
+msgstr "**jamovi**"
 
 #: ../../_pages/s2j_ttestIS.rst:15
 msgid ""
@@ -200,5 +200,11 @@ msgstr ""
 #~ "``jmv::ttestIS(formula = Mischief ~ Cloak, "
 #~ "data = data, desc = TRUE, eqv "
 #~ "= TRUE)``"
+#~ msgstr ""
+
+#~ msgid "**SPSS** (version 27)"
+#~ msgstr ""
+
+#~ msgid "**jamovi** (version 2.0)"
 #~ msgstr ""
 

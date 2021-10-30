@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,10 +29,8 @@ msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid ""
-"You need one continuous outcome variable for each measurement occasion. "
-"Make sure that the `measurement levels are set correctly <um_2_first-"
-"steps.html#data-variables>`_ so that the continuous variables are marked "
-"as |continuous|."
+"You need one |continuous| continuous outcome variable for each "
+"measurement occasion."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
@@ -65,14 +63,14 @@ msgid ""
 "tick box. It is also a good idea to check that the variances at the "
 "different steps of the repetition factor are the same (Sphericity). To do"
 " so, open the ``Assumption Checks`` drop-down menu and set the "
-"``Sphericty tests`` tick box."
+"``Sphericity tests`` tick box."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid "The results are shown in the right panel:"
 msgstr ""
 
-#: ../../_pages/jg_33_anova-rm.rst:58
+#: ../../_pages/jg_33_anova-rm.rst:56
 msgid "Further help from the community resources"
 msgstr ""
 
@@ -130,5 +128,29 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "output_anova_repeated"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need one continuous outcome variable"
+#~ " for each measurement occasion. Make "
+#~ "sure that the `measurement levels are"
+#~ " set correctly <um_2_first-steps.html#data-"
+#~ "variables>`_ so that the continuous "
+#~ "variables are marked as |continuous|."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To test the equality of the "
+#~ "variance with the Levene test, open "
+#~ "the ``Assumption Checks`` drop-down menu"
+#~ " and set the ``Homogeneity test`` "
+#~ "tick box. It is also a good "
+#~ "idea to check that the variances "
+#~ "at the different steps of the "
+#~ "repetition factor are the same "
+#~ "(Sphericity). To do so, open the "
+#~ "``Assumption Checks`` drop-down menu and"
+#~ " set the ``Sphericty tests`` tick "
+#~ "box."
 #~ msgstr ""
 

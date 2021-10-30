@@ -32,10 +32,8 @@ The variable editor can be invoked by selecting ``Setup`` from the ``Data`` tab,
 
 .. raw:: html
 
-    <div class="gif-player" data-anim-src="../_images/um_changeName.gif" data-static-src="../_images/um_changeName.png">
-    </div>
+   <div class="gif-player" data-anim-src="../_static/um_changeName.gif" data-static-src="../_static/um_changeName.png"></div>
 
-..
 
 New variables can be inserted or appended to the data set using the ``Add`` button from the data ribbon. The ``Add`` button also allows the addition of *Computed variables*.
 
@@ -88,40 +86,8 @@ More details about filters are covered in this `blog post <https://blog.jamovi.o
 
 .. raw:: html
 
-    <script type="text/javascript">
-        var gifs = document.querySelectorAll('.gif-player');
+   <script type="text/javascript" src="../_static/gif-player.js"></script>
 
-        gifs.forEach((gif) => {
-            var src = gif.getAttribute('data-static-src');
-            gif.style.backgroundImage = "url('" + src + "')";
-
-            var play = document.createElement('div');
-            play.classList.add('play-button');
-            gif.appendChild(play);
-
-            var stop = document.createElement('div');
-            stop.classList.add('stop-button');
-            gif.appendChild(stop);
-
-            var load = document.createElement('div');
-            stop.classList.add('load-indicator');
-            gif.appendChild(stop);
-
-            gif.addEventListener('click', (event) => {
-                var state = gif.getAttribute('data-state');
-                var path;
-                if (state === 'playing') {
-                    path = gif.getAttribute('data-static-src');
-                    gif.setAttribute('data-state', 'waiting');
-                }
-                else {
-                    path = gif.getAttribute('data-anim-src');
-                    gif.setAttribute('data-state', 'playing');
-                }
-                gif.style.backgroundImage = 'url("' + path + '")';
-            });
-        });
-    </script>
 
 .. ---------------------------------------------------------------------
 
@@ -133,5 +99,3 @@ More details about filters are covered in this `blog post <https://blog.jamovi.o
    :width: 16px
 .. |id|                  image:: ../_images/variable-id.*
    :width: 16px
-.. |change-name|         image:: ../_images/um_changeName.png
-.. |change-name-gif|     image:: ../_images/um_changeName.gif

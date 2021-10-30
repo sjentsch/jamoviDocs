@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
 "PO-Revision-Date: 2021-07-27 01:34+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language: de\n"
@@ -28,40 +28,15 @@ msgstr "Von SPSS zu jamovi"
 
 #: ../../_pages/SPSS2jamovi.rst:29
 msgid ""
-"Quite a few of us are so used to SPSS that we are a little scared to "
-"switch to another software because such transition and to get acquainted "
-"with a new software always takes time and effort. Now might be a good "
-"time to switch because SPSS is also introducing a `new interface "
-"<https://developer.ibm.com/predictiveanalytics/2017/10/23/newuipreviewspss>`__"
-" with version 26 which at least requires getting used to something new "
-"and learn it. Why not take a little bigger step and learn jamovi? jamovi "
-"does not entail the high `license costs <https://www.ibm.com/products"
-"/spss-statistics/pricing>`__ of SPSS (from $ 99 / month for the Base "
-"Package) and can be a first step on the road to R. jamovi tries to use an"
-" interface that is relatively similar to the one in SPSS, the result "
-"version is more transparent and can be easily transferred to text "
-"processing (copy-and-paste with [mostly] keep formatting)."
+"The majority of users and institutions migrating to jamovi are migrating "
+"from SPSS. jamovi's interface, although in many ways quite different, "
+"should feel immediately familiar to people who's used SPSS before."
 msgstr ""
-"Viele von uns sind so sehr an SPSS gewöhnt, dass wir Befürchtungen haben,"
-" auf eine andere Software umzusteigen, weil ein solcher Übergang und die "
-"Einarbeitung in eine neue Software immer Zeit und Mühe erfordert. Jetzt "
-"könnte ein guter Zeitpunkt für einen Wechsel sein, denn SPSS führt mit "
-"der Version 26 auch eine `neue Bedienoberfläche "
-"<https://developer.ibm.com/predictiveanalytics/2017/10/23/newuipreviewspss>`__"
-" ein, die es zumindest erfordert, sich an etwas Neues zu gewöhnen und es "
-"zu lernen. Warum also nicht einen etwas größeren Schritt wagen und jamovi"
-" lernen? Jamovi ist nicht mit den hohen `Lizenzkosten "
-"<https://www.ibm.com/products/spss-statistics/pricing>`__ von SPSS "
-"verbunden (ab $ 99 / Monat für das Basispaket) und kann ein erster "
-"Schritt auf dem Weg zu R sein. Jamovi versucht eine Oberfläche zu "
-"verwenden, die der in SPSS relativ ähnlich ist, die Ergebnisausgabe ist "
-"übersichtlicher und kann leicht in die Textverarbeitung übernommen werden"
-" (Copy-und-Paste mit [meistens] erhaltener Formatierung)."
 
-#: ../../_pages/SPSS2jamovi.rst:36
+#: ../../_pages/SPSS2jamovi.rst:33
 #, fuzzy
 msgid ""
-"`Comparison of analyses <s2j_Comparison_of_analyses.html>`__ provides an "
+":doc:`Comparison of analyses <s2j_Comparison_of_analyses>` provides an "
 "overview of which analysis functions are available in SPSS and the "
 "respective functions in jamovi."
 msgstr ""
@@ -69,11 +44,11 @@ msgstr ""
 "Überblick, welche Analysefunktionen in SPSS verfügbar sind, und die "
 "entsprechenden Funktionen in jamovi."
 
-#: ../../_pages/SPSS2jamovi.rst:41
+#: ../../_pages/SPSS2jamovi.rst:39
 msgid "Side-by-side"
 msgstr "Seite an Seite"
 
-#: ../../_pages/SPSS2jamovi.rst:43
+#: ../../_pages/SPSS2jamovi.rst:41
 #, fuzzy
 msgid ""
 "The pages in this section show in side-by-side comparisons how something "
@@ -85,68 +60,113 @@ msgstr ""
 "Beispiele aus dem Buch von Andy Field verwendet."
 
 #: ../../_pages/SPSS2jamovi.rst:46
-msgid ":doc:`s2j_descriptives`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:47
-msgid ":doc:`s2j_nonParametric`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:48
-msgid ":doc:`s2j_correlation`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:49
-msgid ":doc:`s2j_linReg`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:50
 msgid ":doc:`s2j_ttestIS`"
 msgstr ""
 
-#: ../../_pages/SPSS2jamovi.rst:51
+#: ../../_pages/SPSS2jamovi.rst:47
 msgid ":doc:`s2j_ttestPS`"
 msgstr ""
 
-#: ../../_pages/SPSS2jamovi.rst:52
-msgid ":doc:`s2j_anovaOneW`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:53
-msgid ":doc:`s2j_ANCOVA`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:54
-msgid ":doc:`s2j_ANOVA`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:55
-msgid ":doc:`s2j_anovaRM`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:56
-msgid ":doc:`s2j_MANOVA`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:57
-msgid ":doc:`s2j_factor`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:58
-msgid ":doc:`s2j_frequencies`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:59
-msgid ":doc:`s2j_logReg`"
-msgstr ""
-
-#: ../../_pages/SPSS2jamovi.rst:62
+#: ../../_pages/SPSS2jamovi.rst:61
 msgid "**References**"
 msgstr ""
 
-#: ../../_pages/SPSS2jamovi.rst:63
+#: ../../_pages/SPSS2jamovi.rst:62
 msgid ""
 "Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
 " ed.). SAGE Publications. https://edge.sagepub.com/field5e"
 msgstr ""
+
+#~ msgid ""
+#~ "Quite a few of us are so "
+#~ "used to SPSS that we are a "
+#~ "little scared to switch to another "
+#~ "software because such transition and to"
+#~ " get acquainted with a new software"
+#~ " always takes time and effort. Now"
+#~ " might be a good time to switch"
+#~ " because SPSS is also introducing a"
+#~ " `new interface "
+#~ "<https://developer.ibm.com/predictiveanalytics/2017/10/23/newuipreviewspss>`__"
+#~ " with version 26 which at least "
+#~ "requires getting used to something new"
+#~ " and learn it. Why not take a"
+#~ " little bigger step and learn jamovi?"
+#~ " jamovi does not entail the high "
+#~ "`license costs <https://www.ibm.com/products/spss-"
+#~ "statistics/pricing>`__ of SPSS (from $ "
+#~ "99 / month for the Base Package)"
+#~ " and can be a first step on "
+#~ "the road to R. jamovi tries to "
+#~ "use an interface that is relatively "
+#~ "similar to the one in SPSS, the"
+#~ " result version is more transparent "
+#~ "and can be easily transferred to "
+#~ "text processing (copy-and-paste with "
+#~ "[mostly] keep formatting)."
+#~ msgstr ""
+#~ "Viele von uns sind so sehr an "
+#~ "SPSS gewöhnt, dass wir Befürchtungen "
+#~ "haben, auf eine andere Software "
+#~ "umzusteigen, weil ein solcher Übergang "
+#~ "und die Einarbeitung in eine neue "
+#~ "Software immer Zeit und Mühe erfordert."
+#~ " Jetzt könnte ein guter Zeitpunkt für"
+#~ " einen Wechsel sein, denn SPSS führt"
+#~ " mit der Version 26 auch eine "
+#~ "`neue Bedienoberfläche "
+#~ "<https://developer.ibm.com/predictiveanalytics/2017/10/23/newuipreviewspss>`__"
+#~ " ein, die es zumindest erfordert, "
+#~ "sich an etwas Neues zu gewöhnen "
+#~ "und es zu lernen. Warum also nicht"
+#~ " einen etwas größeren Schritt wagen "
+#~ "und jamovi lernen? Jamovi ist nicht "
+#~ "mit den hohen `Lizenzkosten "
+#~ "<https://www.ibm.com/products/spss-statistics/pricing>`__ "
+#~ "von SPSS verbunden (ab $ 99 / "
+#~ "Monat für das Basispaket) und kann "
+#~ "ein erster Schritt auf dem Weg zu"
+#~ " R sein. Jamovi versucht eine "
+#~ "Oberfläche zu verwenden, die der in "
+#~ "SPSS relativ ähnlich ist, die "
+#~ "Ergebnisausgabe ist übersichtlicher und kann"
+#~ " leicht in die Textverarbeitung übernommen"
+#~ " werden (Copy-und-Paste mit "
+#~ "[meistens] erhaltener Formatierung)."
+
+#~ msgid ":doc:`s2j_descriptives`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_nonParametric`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_correlation`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_linReg`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_anovaOneW`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_ANCOVA`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_ANOVA`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_anovaRM`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_MANOVA`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_factor`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_frequencies`"
+#~ msgstr ""
+
+#~ msgid ":doc:`s2j_logReg`"
+#~ msgstr ""
 

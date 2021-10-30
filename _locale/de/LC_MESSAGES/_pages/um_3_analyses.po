@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Ergebnisse für die Analyse im rechten \"Ergebnisbereich\" angezeigt oder "
 "aktualisiert."
 
-#: ../../_pages/um_3_analyses.rst:13
+#: ../../_pages/um_3_analyses.rst:8
 msgid ""
 "When you have the analysis set up correctly, you can dismiss the analysis"
 " options by clicking the arrow to the top right of the options panel. If "
@@ -59,6 +59,18 @@ msgstr ""
 "Sie das Panel mit den Analyseoptionen einblenden indem Sie auf die "
 "Ergebnisse klicken. Auf diese Weise können Sie Änderungen an Analysen "
 "vornehmen, die Sie (oder ein Kollege) zuvor erstellt haben."
+
+#: ../../_pages/um_3_analyses.rst:10
+msgid ""
+"If you decide you no longer need a particular analysis, you can remove it"
+" with the results context menu. Right-clicking on the analysis results "
+"will bring up a menu, and by selecting ``Analysis``, and then ``Remove``,"
+" the analysis can be removed."
+msgstr ""
+"Wenn Sie eine bestimmte Analyse nicht mehr benötigen, können Sie diese "
+"über das Kontextmenü der Analyse im Ergebnis-Panel entfernen. Klicken Sie"
+" dafür mit der rechten Maustaste auf die Ergebnisse dieser Analyse und "
+"wählen Sie dort ``Analysis`` und dann ``Remove``."
 
 #: ../../_pages/um_3_analyses.rst:19
 msgid ""
@@ -81,29 +93,6 @@ msgstr ""
 "Zwischenablage kopiert und kann auf die gewohnte Weise in andere "
 "Programme eingefügt werden."
 
-#: ../../_pages/um_3_analyses.rst:29
-msgid ""
-"If you decide you no longer need a particular analysis, you can remove it"
-" with the results context menu. Right-clicking on the analysis results "
-"will bring up a menu, and by selecting ``Analysis``, and then ``Remove``,"
-" the analysis can be removed."
-msgstr ""
-"Wenn Sie eine bestimmte Analyse nicht mehr benötigen, können Sie diese "
-"über das Kontextmenü der Analyse im Ergebnis-Panel entfernen. Klicken Sie"
-" dafür mit der rechten Maustaste auf die Ergebnisse dieser Analyse und "
-"wählen Sie dort ``Analysis`` und dann ``Remove``."
-
-#: ../../_pages/um_3_analyses.rst:36
-#, fuzzy
-msgid ""
-"An overview with short, non-technical tutorials on how to do common "
-"procedures in jamovi can be found under `Analyses "
-"<jg_0_introduction.html>`__."
-msgstr ""
-"Eine Übersicht mit kurzen, nicht-technischen Anleitungen, wie man die "
-"wichtigsten statistischen Analysen in jamovi durchführt, finden Sie unter"
-" `Analysen <https://jamovi.readthedocs.io/de/latest/#analyses>`__."
-
 #~ msgid "|copy-paste|"
 #~ msgstr ""
 
@@ -115,4 +104,16 @@ msgstr ""
 
 #~ msgid "analysis"
 #~ msgstr "analysis"
+
+#~ msgid ""
+#~ "An overview with short, non-technical"
+#~ " tutorials on how to do common "
+#~ "procedures in jamovi can be found "
+#~ "under `Analyses <jg_0_introduction.html>`__."
+#~ msgstr ""
+#~ "Eine Übersicht mit kurzen, nicht-"
+#~ "technischen Anleitungen, wie man die "
+#~ "wichtigsten statistischen Analysen in jamovi"
+#~ " durchführt, finden Sie unter `Analysen "
+#~ "<https://jamovi.readthedocs.io/de/latest/#analyses>`__."
 

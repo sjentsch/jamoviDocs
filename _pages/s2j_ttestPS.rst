@@ -17,7 +17,7 @@ The data set describes a repeated-measures-design where first the “baseline”
 following week (variable ``Cloak``) during which they can make themselves invisible (which is assumed to increase the number of mischieveous acts committed).
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| **SPSS** (version 27)                                                         | **jamovi** (version 2.0)                                                      |
+| **SPSS**                                                                      | **jamovi**                                                                    |
 +===============================================================================+===============================================================================+
 | In SPSS you can create variables using: ``Transform`` →                       | In jamovi you do this using: ``Data`` (tab) → ``Compute`` → ``Compute         |
 | ``Compute Variable...``                                                       | Variable.``                                                                   |
