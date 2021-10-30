@@ -1,21 +1,5 @@
 .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
-   s2j_descriptives
-   s2j_nonParametric
-   s2j_correlation
-   s2j_linReg
-   s2j_ttestIS
-   s2j_ttestPS
-   s2j_anovaOneW
-   s2j_ANCOVA
-   s2j_ANOVA
-   s2j_anovaRM
-   s2j_MANOVA
-   s2j_factor
-   s2j_frequencies
-   s2j_logReg
-
-
 ===================
 From SPSS to jamovi
 ===================
