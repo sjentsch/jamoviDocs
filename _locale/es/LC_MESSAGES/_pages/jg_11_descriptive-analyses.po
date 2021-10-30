@@ -4,67 +4,58 @@
 # Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# Leonardo Villa <leovilla80@gmail.com>, 2021.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jamovi\n"
-"Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-14 17:24+0200\n"
-"PO-Revision-Date: 2021-10-28 09:37+0000\n"
-"Last-Translator: Leonardo Villa <leovilla80@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/"
-"jg_11_descriptive-analyses/es/>\n"
-"Language: es\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:5
 msgid "Descriptive analyses"
-msgstr "Análisis Descriptivo"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:7
 msgid "How to perform descriptive analyses and create graphs in jamovi:"
-msgstr "Cómo realizar análisis descriptivo y crear gráficos en jamovi:"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
-msgstr "Selecciona ``Análisis`` → ``Exploración`` → ``Descriptivos``."
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
 "Drag and drop the variables you want descriptive analyses for to "
 "``Variables``."
 msgstr ""
-"Arrastre y suelte las variables para las que desea realizar análisis "
-"descriptivos a ``Variables``."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
 "The result is shown in the right panel. Right-click on the output to save"
 " or copy it."
 msgstr ""
-"El resultado se ve en el panel derecho. Haga click-derecho en la salida para "
-"guardarlo o copiarlo."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
 "To split your descriptive analyses on a categorical variable (e.g. to "
 "separate by gender), move that variable to ``Split by``."
 msgstr ""
-"Para dividir sus análisis descriptivos en una variable categórica (por "
-"ejemplo, para separar por género), mueva esa variable a ``Dividir por``."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid "This changes how the output looks like:"
-msgstr "Esto cambia el aspecto de la salida:"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid "Click the ``Statistics`` tab to see more alternatives."
-msgstr "Presione la pestaña ``Statistics`` para ver más alternativas."
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
@@ -73,15 +64,10 @@ msgid ""
 " and to check whehter your variables conform with a normal distribution, "
 "then you should tick ``Box plot``, ``Violin``, and ``Q-Q``."
 msgstr ""
-"Para crear un gráfico basado en las opciones anteriores, haga clic en la "
-"pestaña ``Plots`` y marque la casilla del gráfico deseado. Si desea "
-"identificar los valores atípicos y comprobar si sus variables se ajustan a "
-"una distribución normal, deberá marcar las casillas ``Ploteo de caja``, "
-"``Violín`` y ``Q-Q``."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:55
 msgid "Further help from the community resources"
-msgstr "Más ayuda en los recursos comunitarios"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
@@ -90,10 +76,6 @@ msgid ""
 "<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
-"Si quiere que le expliquen estos conceptos de otra manera, vea este `vídeo "
-"introductorio <https://www.youtube.com/embed/"
-"srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ de `Barton Poulson "
-"<https://datalab.cc/jamovi>`__."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
@@ -105,12 +87,6 @@ msgid ""
 "`Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft "
 "<https://www.davidfoxcroft.com/>`__."
 msgstr ""
-"Para aquellos que quieran profundizar aún más en la introducción, pueden "
-"leer el capítulo correspondiente de la `documentación web \"Learning "
-"statistics with jamovi\" <https://lsj.readthedocs.io/en/latest/lsj/"
-"Ch04_Descriptives.html>`__ o el capítulo 4 del `e-book <https://www."
-"learnstatswithjamovi.com/>`__ de `Danielle J. Navarro <https://djnavarro.net/"
-">`__ y `David R. Foxcroft <https://www.davidfoxcroft.com/>`__."
 
 #~ msgid "|select_descriptives|"
 #~ msgstr ""
@@ -153,3 +129,4 @@ msgstr ""
 
 #~ msgid "select_descriptives_plots"
 #~ msgstr ""
+

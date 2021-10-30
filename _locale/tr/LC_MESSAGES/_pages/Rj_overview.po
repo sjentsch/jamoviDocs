@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-30 18:29+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/Rj_overview.rst:5
-msgid "Rj Editor for jamovi"
+msgid "Rj-module for jamovi"
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:8
@@ -49,22 +49,18 @@ msgstr ""
 msgid ""
 "You can access your dataset with the variable ``data``. The first line "
 "selects the first three columns of your dataset. Alternatively, you can "
-"use variable names as shown in the second line."
+"use variable names as shown in the second line. .. code-block: R "
+"summary(data[1:3]) summary(data[, c('var1', 'var2', 'var3')])"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:37
-msgid "summary(data[1:3]) summary(data[, c('var1', 'var2', 'var3')])"
+#: ../../_pages/Rj_overview.rst:38
+msgid ""
+"But you can also use functions from R libraries: .. code-block: R "
+"stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), "
+"mean)"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:40
-msgid "But you can also use functions from R libraries:"
-msgstr ""
-
-#: ../../_pages/Rj_overview.rst:44
-msgid "stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), mean)"
-msgstr ""
-
-#: ../../_pages/Rj_overview.rst:46
+#: ../../_pages/Rj_overview.rst:42
 msgid ""
 "It may take a bit of time to figure out how to use these functions, "
 "especially to discover, e.g., which format is required for the data "
@@ -74,7 +70,7 @@ msgid ""
 "statistical analysis you can imagine."
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:52
+#: ../../_pages/Rj_overview.rst:48
 msgid ""
 "This is not at least because there come already a wealth of R libraries "
 "installed with jamovi and Rj: ``abind``, ``acepack``, ``afex``, ``arm``, "
@@ -117,38 +113,38 @@ msgid ""
 " ``zoo``."
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:88
+#: ../../_pages/Rj_overview.rst:84
 msgid "Some of these libraries are especially interesting:"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:90
+#: ../../_pages/Rj_overview.rst:86
 msgid ""
 "|stats|_ to get access to a wealth of statistical analyses (e.g., "
 "``stats::glm`` for fitting Generalized Linear Models or ``stats:kmeans`` "
 "for running k-means cluster analyses)"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:93
+#: ../../_pages/Rj_overview.rst:89
 msgid ""
 "|lme4|_ to calculate Linear, Generalized Linear, and Nonlinear mixed "
 "modells"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:94
+#: ../../_pages/Rj_overview.rst:90
 msgid ""
 "|MASS|_ implements analyses from Venables og Ripley's famous book «Modern"
 " Applied Statistics with S» (which includes, e.e., linear discriminant "
 "analysis ``MASS::lda``)"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:97
+#: ../../_pages/Rj_overview.rst:93
 msgid ""
 "|lavaan|_ to run a wide range of analyses with latent variables (incl. "
 "confirmatory factor analysis, structural equation modeling and latent "
 "growth curve models)"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:100
+#: ../../_pages/Rj_overview.rst:96
 msgid ""
 "|BayesFactor|_ to run several types of Bayes-analyses to complement your "
 "«classical» (frequentist) statistics (e.g. the Bayes-equivalent of the "
@@ -156,27 +152,27 @@ msgid ""
 "that)"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:103
+#: ../../_pages/Rj_overview.rst:99
 msgid "|cluster|_ to run several types of cluster analyses"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:104
+#: ../../_pages/Rj_overview.rst:100
 msgid ""
 "|ggplot2|_ to produce (almost) any type of fancy `figures "
 "<http://www.ggplot2-exts.org/gallery/>`__ you can imagine"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:106
+#: ../../_pages/Rj_overview.rst:102
 msgid ""
 "there are also several of Hadley Wickham's |tidyverse|_ libraries "
 "included, \\e.g., |dplyr|_, |stringr|_ or |tidyselect|_"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:110
+#: ../../_pages/Rj_overview.rst:106
 msgid "Switch between R-versions"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:113
+#: ../../_pages/Rj_overview.rst:109
 msgid ""
 "Per default, Rj uses the R-installation that is included with jamovi. For"
 " most circumstances this will be sufficient (not the least because quite "
@@ -213,26 +209,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "jamovi_Rj4"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can access your dataset with "
-#~ "the variable ``data``. The first line"
-#~ " selects the first three columns of"
-#~ " your dataset. Alternatively, you can "
-#~ "use variable names as shown in the"
-#~ " second line. .. code-block: R "
-#~ "summary(data[1:3]) summary(data[, c('var1', 'var2',"
-#~ " 'var3')])"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "But you can also use functions "
-#~ "from R libraries: .. code-block: R"
-#~ " stats::aggregate(as.numeric(data[, 'var1']), "
-#~ "list(data[, 'gender']), mean)"
-#~ msgstr ""
-
-#~ msgid "Rj-module for jamovi"
 #~ msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-30 18:29+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,8 +29,11 @@ msgstr ""
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid ""
-"You need one categorical |nominal| |ordinal| dependent variable (nominal "
-"or ordinal), and at least one continuous explanatory variable."
+"You need one continuous predictor variable and one categorical (nominal "
+"or ordinal) outcome variable. Make sure that the `measurement levels are "
+"set correctly <um_2_first-steps.html#data-variables>`_ so that the "
+"predictor variable(s) are marked as |continuous| and the outcome variable"
+" is marked as |nominal|."
 msgstr ""
 
 #: ../../_pages/jg_43_regression-logistic.rst
@@ -48,7 +51,7 @@ msgstr ""
 
 #: ../../_pages/jg_43_regression-logistic.rst
 msgid ""
-"Drag and drop your dependent variable to ``Dependent Variable`` and your "
+"Drag and drop your outcome variable to ``Dependent Variable`` and your "
 "predictor to ``Covariates``."
 msgstr ""
 
@@ -97,22 +100,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "output_regression_logistic"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You need one continuous predictor "
-#~ "variable and one categorical (nominal or"
-#~ " ordinal) outcome variable. Make sure "
-#~ "that the `measurement levels are set "
-#~ "correctly <um_2_first-steps.html#data-variables>`_"
-#~ " so that the predictor variable(s) "
-#~ "are marked as |continuous| and the "
-#~ "outcome variable is marked as |nominal|."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Drag and drop your outcome variable "
-#~ "to ``Dependent Variable`` and your "
-#~ "predictor to ``Covariates``."
 #~ msgstr ""
 

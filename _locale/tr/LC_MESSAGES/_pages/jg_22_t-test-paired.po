@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-30 18:29+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,9 +29,9 @@ msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid ""
-"You need two |continuous| continuous variables, with each row "
-"representing a subject. i.e. the pair of values taken from each row "
-"represent paired measurements."
+"You need two continuous variables. Make sure that the `measurement levels"
+" are set correctly <um_2_first-steps.html#data-variables>`_ so that both "
+"the continuous variables are marked as |continuous|."
 msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst
@@ -44,16 +44,17 @@ msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid ""
-"Drag and drop your two variables to ``Paired Variables`` (you can drag "
-"these one at a time, or select both variables in a pair by holding down "
-"the Ctrl key while clicking on each, before dragging them across)."
+"Drag and drop your two outcome variables to ``Paired Variables`` (select "
+"both variables in a pair at the same time - you do this by holding down "
+"the Ctrl key while clicking with the mouse on the variable you want to "
+"select)."
 msgstr ""
 
 #: ../../_pages/jg_22_t-test-paired.rst
 msgid "The result is shown in the right panel."
 msgstr ""
 
-#: ../../_pages/jg_22_t-test-paired.rst:37
+#: ../../_pages/jg_22_t-test-paired.rst:38
 msgid "Further help from the community resources"
 msgstr ""
 
@@ -95,24 +96,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "add_var_ttest_paired"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You need two continuous variables. Make"
-#~ " sure that the `measurement levels "
-#~ "are set correctly <um_2_first-steps.html"
-#~ "#data-variables>`_ so that both the "
-#~ "continuous variables are marked as "
-#~ "|continuous|."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Drag and drop your two outcome "
-#~ "variables to ``Paired Variables`` (select "
-#~ "both variables in a pair at the"
-#~ " same time - you do this by "
-#~ "holding down the Ctrl key while "
-#~ "clicking with the mouse on the "
-#~ "variable you want to select)."
 #~ msgstr ""
 

@@ -3,6 +3,5 @@ sphinx-intl
 sphinx-rtd-theme
 sphinx-copybutton
 sphinx-autobuild
-sphinx-multiversion
 wlc
 Pillow
