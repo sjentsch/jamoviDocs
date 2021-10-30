@@ -10,7 +10,7 @@
 import os
 import sys
 import re
-# sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 from sphinx.locale import _
 
@@ -18,7 +18,7 @@ from sphinx.locale import _
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
+copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -365,3 +365,32 @@ texinfo_documents = [
 
 # -- Options for Sphinx extensions ----------------------------------------
 imgmath_image_format = 'svg'
+
+# -- Lanaguage chooser ----------------------------------------------------
+
+try:
+   html_context
+except NameError:
+   html_context = dict()
+
+current_version = 'latest'
+html_context['display_lower_left'] = True
+html_context['current_language'] = language
+
+html_context['current_version'] = current_version
+html_context['version'] = current_version
+
+if os.path.abspath('.').startswith('/home'):
+   base_path = os.path.abspath('.') + '/_build/html'
+else:
+   base_path = ''
+ 
+html_context['languages'] = [('en', base_path + '/en')]
+ 
+languages = [lang.name for lang in os.scandir('_locale') if lang.is_dir()]
+for lang in languages:
+   html_context['languages'].append((lang, base_path + '/' + lang))
+ 
+html_context['downloads'] = list()
+html_context['downloads'].append(('PDF',  '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.pdf'))
+html_context['downloads'].append(('epub', '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.epub'))

@@ -78,8 +78,8 @@ The following topics should get you up and running with jamovi, with additional 
 Analyses
 ========
 
-The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The `introduction 
-<_pages/jg_0_introduction.html>`__ gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links
+The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The :doc:`introduction
+<_pages/jg_00_analyses-overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links
 below.
 
 

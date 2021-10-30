@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-10-31 00:53+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -38,52 +38,54 @@ msgid "Data Variables"
 msgstr "Datenvariablen"
 
 #: ../../_pages/um_4_spreadsheet.rst:12
+#, fuzzy
 msgid ""
 "The most commonly used variables in jamovi are “Data Variables”, these "
-"variables simply contain data either loaded from a data file, or “typed "
-"in” by the user. Data variables can be one three data types:"
+"variables simply contain data either loaded from a data file, or \"typed "
+"in\" by the user. Data variables can be one three data types:"
 msgstr ""
 "Die am häufigsten verwendeten Variablen in jamovi sind „Datenvariablen“. "
 "Diese Variablen enthalten Daten, die entweder aus einer Datendatei "
 "geladen oder vom Benutzer „eingetippt“ wurden. Datenvariablen können "
 "einer der drei folgenden Datentypen sein:"
 
-#: ../../_pages/um_4_spreadsheet.rst:16
+#: ../../_pages/um_4_spreadsheet.rst:14
 msgid "``Integer``"
 msgstr "``Integer``"
 
-#: ../../_pages/um_4_spreadsheet.rst:17
+#: ../../_pages/um_4_spreadsheet.rst:15
 msgid "``Decimal``"
 msgstr "``Decimal``"
 
-#: ../../_pages/um_4_spreadsheet.rst:18
+#: ../../_pages/um_4_spreadsheet.rst:16
 msgid "``Text``"
 msgstr "``Text``"
 
-#: ../../_pages/um_4_spreadsheet.rst:20
+#: ../../_pages/um_4_spreadsheet.rst:18
 msgid "and one of four measure types:"
 msgstr "und eines von vier Skalenniveaus:"
 
-#: ../../_pages/um_4_spreadsheet.rst:22
+#: ../../_pages/um_4_spreadsheet.rst:20
 msgid "|nominal|    ``Nominal``"
 msgstr "|nominal|    ``Nominal``"
 
-#: ../../_pages/um_4_spreadsheet.rst:23
+#: ../../_pages/um_4_spreadsheet.rst:21
 msgid "|ordinal|    ``Ordinal``"
 msgstr "|ordinal|    ``Ordinal``"
 
-#: ../../_pages/um_4_spreadsheet.rst:24
+#: ../../_pages/um_4_spreadsheet.rst:22
 msgid "|continuous| ``Continuous``"
 msgstr "|continuous| ``Continuous``"
 
-#: ../../_pages/um_4_spreadsheet.rst:25
+#: ../../_pages/um_4_spreadsheet.rst:23
 msgid "|id|         ``ID``"
 msgstr "|id|         ``ID``"
 
-#: ../../_pages/um_4_spreadsheet.rst:27
+#: ../../_pages/um_4_spreadsheet.rst:25
+#, fuzzy
 msgid ""
 "The measure types are designated by the symbol in the header of the "
-"variable’s column. Note that some combinations of data-type and measure- "
+"variable’s column. Note that some combinations of data-type and measure-"
 "type don’t make sense, and jamovi won’t let you choose these."
 msgstr ""
 "Die Skalenniveaus werden durch das Symbol in der Kopfzeile der "
@@ -91,7 +93,7 @@ msgstr ""
 "Datentyp und Skalenniveau nicht als Kombination auftreten können / "
 "sollten und das jamovi Sie solche Kombinationen nicht wählen lässt."
 
-#: ../../_pages/um_4_spreadsheet.rst:31
+#: ../../_pages/um_4_spreadsheet.rst:27
 msgid ""
 "``Nominal`` and ``Ordinal`` are, predictably, for nominal and ordinal "
 "variables. ``Continuous`` is for variables with numeric values which are "
@@ -114,7 +116,7 @@ msgstr ""
 "Faktoren), was die Leistung bei der Interaktion mit sehr großen "
 "Datensätzen verbessern kann."
 
-#: ../../_pages/um_4_spreadsheet.rst:41
+#: ../../_pages/um_4_spreadsheet.rst:29
 msgid ""
 "When starting with a blank spreadsheet and typing values in, the data and"
 " measure types will change automatically depending on the data you enter."
@@ -134,7 +136,7 @@ msgstr ""
 "korrekt ist. Daher kann es notwendig werden, den Datentyp und das "
 "Skalenniveau im Nachhinein manuell anzupassen."
 
-#: ../../_pages/um_4_spreadsheet.rst:49
+#: ../../_pages/um_4_spreadsheet.rst:31
 msgid ""
 "The variable editor can be invoked by selecting ``Setup`` from the "
 "``Data`` tab, double-clicking on the column header, or by pressing "
@@ -153,7 +155,7 @@ msgstr ""
 "ändern. Der Variablen-Editor kann durch Anklicken des Schließpfeils oder "
 "durch erneutes Drücken der Taste ``F3`` verlassen werden."
 
-#: ../../_pages/um_4_spreadsheet.rst:58
+#: ../../_pages/um_4_spreadsheet.rst:38
 msgid ""
 "New variables can be inserted or appended to the data set using the "
 "``Add`` button from the data ribbon. The ``Add`` button also allows the "
@@ -164,11 +166,11 @@ msgstr ""
 "angehängt werden (am Ende der existierenden Variablen). Die Schaltfläche "
 "``Add`` ermöglicht auch das Hinzufügen von *Berechneten Variablen*."
 
-#: ../../_pages/um_4_spreadsheet.rst:64
+#: ../../_pages/um_4_spreadsheet.rst:42
 msgid "Computed Variables"
 msgstr "Berechnete Variablen"
 
-#: ../../_pages/um_4_spreadsheet.rst:66
+#: ../../_pages/um_4_spreadsheet.rst:44
 msgid ""
 "Computed Variables are those which take their value by performing a "
 "computation on other Variables. Computed Variables can be used for a "
@@ -182,7 +184,7 @@ msgstr ""
 "z-Transformationen, das Berechnen von Skalenwerten (Summe oder "
 "Mittelwert), für die Inversion von Skalenitems, etc."
 
-#: ../../_pages/um_4_spreadsheet.rst:71
+#: ../../_pages/um_4_spreadsheet.rst:46
 msgid ""
 "*Computed variable*\\ s can be added to the data set, with the ``Add`` "
 "button available on the data tab. This will produce a formula box where "
@@ -195,7 +197,7 @@ msgstr ""
 "zusammenklicken (fx-Button) können. Es stehen die üblichen arithmetischen"
 " Operatoren zur Verfügung. Einige Beispiele für Formeln sind:"
 
-#: ../../_pages/um_4_spreadsheet.rst:84
+#: ../../_pages/um_4_spreadsheet.rst:56
 msgid ""
 "In order, these are the sum of A and B, a log (base 10) transform of "
 "``len``, the mean of ``A`` and ``B``, and the z-score of ``dose`` "
@@ -206,15 +208,15 @@ msgstr ""
 "``B``, und der z-Score von ``dose`` (mit zwei unterschiedlichen "
 "Berechnungsmethoden)."
 
-#: ../../_pages/um_4_spreadsheet.rst:88
+#: ../../_pages/um_4_spreadsheet.rst:58
 msgid "There are many more functions available."
 msgstr "Darüber hinaus sind viele weitere Funktionen verfügbar."
 
-#: ../../_pages/um_4_spreadsheet.rst:91
+#: ../../_pages/um_4_spreadsheet.rst:61
 msgid "``V``-functions"
 msgstr "``V``-Funktionen"
 
-#: ../../_pages/um_4_spreadsheet.rst:93
+#: ../../_pages/um_4_spreadsheet.rst:63
 msgid ""
 "A number of functions appear in pairs, one prefixed with a ``V`` and the "
 "other not. ``V`` functions perform their calculation on a variable *as a "
@@ -231,19 +233,14 @@ msgstr ""
 "von ``A`` und ``B`` für jede Zeile erzeugen. Während ``VMEAN(A)`` den "
 "Mittelwert von *allen* Werten der Variable ``A`` liefert."
 
-#: ../../_pages/um_4_spreadsheet.rst:100
+#: ../../_pages/um_4_spreadsheet.rst:65
 msgid ""
-"Additionally ``V`` functions support a ``group_by`` argument (in \\0.9.6 "
-"and up). When a ``group_by`` variable is specified, a separate value is "
-"calculated for each level of the ``group_by`` variable. In the following "
-"example:"
+"Additionally ``V`` functions support a ``group_by`` argument. When a "
+"``group_by`` variable is specified, a separate value is calculated for "
+"each level of the ``group_by`` variable. In the following example:"
 msgstr ""
-"Zusätzlich unterstützen ``V``-Funktionen ein ``group_by``-Argument (ab "
-"jamovi \\0.9.6). Wenn eine ``group_by``-Variable angegeben wird, wird für"
-" jede Stufe der ``group_by``-Variablen ein eigener Wert berechnet. Im "
-"folgenden Beispiel:"
 
-#: ../../_pages/um_4_spreadsheet.rst:109
+#: ../../_pages/um_4_spreadsheet.rst:71
 msgid ""
 "A separate mean is calculated for each level of ``dose``, and each value "
 "in the computed variable will be the mean corresponding to it’s row’s "
@@ -253,11 +250,11 @@ msgstr ""
 "``dose`` berechnet, und jeder Wert in der berechneten Variable ist der "
 "Mittelwert, der dem Wert von ``dose`` in der jeweiligen Zeile entspricht."
 
-#: ../../_pages/um_4_spreadsheet.rst:114
+#: ../../_pages/um_4_spreadsheet.rst:74
 msgid "Recoded Variables"
 msgstr "Umkodierte Variablen"
 
-#: ../../_pages/um_4_spreadsheet.rst:116
+#: ../../_pages/um_4_spreadsheet.rst:76
 msgid ""
 "Transformed and recoded variables are also available. See this `blog post"
 " <https://blog.jamovi.org/2018/10/23/transforming-variables.html>`__ for "
@@ -268,11 +265,11 @@ msgstr ""
 "/transforming-variables.html>`__ (in Englisch) beschreibt die Details "
 "solcher Transformationen."
 
-#: ../../_pages/um_4_spreadsheet.rst:121
+#: ../../_pages/um_4_spreadsheet.rst:79
 msgid "Filters"
 msgstr "Filter"
 
-#: ../../_pages/um_4_spreadsheet.rst:123
+#: ../../_pages/um_4_spreadsheet.rst:81
 msgid ""
 "Filters in jamovi allow you to filter out rows that you don’t want "
 "included in your analysis. For example, you might want to only include "
@@ -293,7 +290,7 @@ msgstr ""
 "Interquartilbereich sind (IQR; d.h. Extremwerte außerhalb der Whisker im "
 "Box-Whisker-Diagramm)."
 
-#: ../../_pages/um_4_spreadsheet.rst:131
+#: ../../_pages/um_4_spreadsheet.rst:83
 msgid ""
 "The filters in jamovi are build on top of jamovi’s *computed variable* "
 "formula system, which allows the building of arbitrarily complex "
@@ -303,7 +300,7 @@ msgstr ""
 "Variablen* auf. Dies ermöglicht das Erstellen (und Filtern) beliebig "
 "komplexer Formeln."
 
-#: ../../_pages/um_4_spreadsheet.rst:134
+#: ../../_pages/um_4_spreadsheet.rst:85
 msgid ""
 "More details about filters are covered in this `blog post "
 "<https://blog.jamovi.org/2018/04/25/jamovi-filters.html>`__"
@@ -329,4 +326,20 @@ msgstr ""
 
 #~ msgid "change-name"
 #~ msgstr "change-name"
+
+#~ msgid ""
+#~ "Additionally ``V`` functions support a "
+#~ "``group_by`` argument (in \\0.9.6 and "
+#~ "up). When a ``group_by`` variable is "
+#~ "specified, a separate value is "
+#~ "calculated for each level of the "
+#~ "``group_by`` variable. In the following "
+#~ "example:"
+#~ msgstr ""
+#~ "Zusätzlich unterstützen ``V``-Funktionen ein "
+#~ "``group_by``-Argument (ab jamovi \\0.9.6). "
+#~ "Wenn eine ``group_by``-Variable angegeben "
+#~ "wird, wird für jede Stufe der "
+#~ "``group_by``-Variablen ein eigener Wert "
+#~ "berechnet. Im folgenden Beispiel:"
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-10-31 00:53+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -40,7 +40,7 @@ msgstr ""
 "verlassen, indem Sie diesen ein zweites Mal anklicken (d.h. das Häkchen "
 "abwählen)."
 
-#: ../../_pages/um_6_syntax_mode.rst:12
+#: ../../_pages/um_6_syntax_mode.rst:8
 msgid ""
 "In syntax mode, analyses continue to operate as before, but now they "
 "produce R syntax, and “ASCII output” like an R session. Like all results "
@@ -56,7 +56,7 @@ msgstr ""
 "Menü-Eintrag kopieren und sie danach z. B. in eine R-Sitzung (oder einen "
 "Text-Editor) einfügen."
 
-#: ../../_pages/um_6_syntax_mode.rst:19
+#: ../../_pages/um_6_syntax_mode.rst:14
 msgid ""
 "At present, the provided R syntax does not include the data import step, "
 "and this must be performed manually. There are many resources explaining "
@@ -69,9 +69,10 @@ msgstr ""
 "empfehlen Ihnen, einen Blick auf diese zu werfen (die meisten Analysen in"
 " jamovi benötigen die Daten als ``data frame``)."
 
-#: ../../_pages/um_6_syntax_mode.rst:24
+#: ../../_pages/um_6_syntax_mode.rst:16
+#, fuzzy
 msgid ""
-"Another R feature that may be of interest is the `Rj module "
+"Another R feature that may be of interest is the `Rj Editor "
 "<https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows you to use "
 "R code to analyse data directly in jamovi."
 msgstr ""

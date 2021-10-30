@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-10-31 00:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,8 @@ msgstr ""
 
 #: ../../_pages/jg_42_regression-linear.rst
 msgid ""
-"You need at least one predictor variable and one outcome variable. Both "
-"variable classes are typically continuous. Make sure that the "
-"`measurement levels are set correctly <um_2_first-steps.html#data-"
-"variables>`_ so that the variables included in your model are marked as "
-"|continuous|."
+"You need one |continuous| dependent variable, and at least one "
+"|continuous| predictor variable (aka a covariate)."
 msgstr ""
 
 #: ../../_pages/jg_42_regression-linear.rst
@@ -46,8 +43,8 @@ msgstr ""
 
 #: ../../_pages/jg_42_regression-linear.rst
 msgid ""
-"Drag and drop your outcome variable to ``Dependent Variable`` and your "
-"predictor variable to ``Covariates`` if it is continuous or to "
+"Drag and drop your dependent variable to ``Dependent Variable`` and your "
+"explanatory variable to ``Covariates`` if it is continuous or to "
 "``Factors`` if it is categorical."
 msgstr ""
 
@@ -55,7 +52,7 @@ msgstr ""
 msgid "The result is shown in the right panel:"
 msgstr ""
 
-#: ../../_pages/jg_42_regression-linear.rst:41
+#: ../../_pages/jg_42_regression-linear.rst:38
 msgid "Further help from the community resources"
 msgstr ""
 
@@ -104,5 +101,24 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "output_regression_linear"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need at least one predictor "
+#~ "variable and one outcome variable. Both"
+#~ " variable classes are typically continuous."
+#~ " Make sure that the `measurement "
+#~ "levels are set correctly <um_2_first-"
+#~ "steps.html#data-variables>`_ so that the "
+#~ "variables included in your model are "
+#~ "marked as |continuous|."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Drag and drop your outcome variable "
+#~ "to ``Dependent Variable`` and your "
+#~ "predictor variable to ``Covariates`` if "
+#~ "it is continuous or to ``Factors`` "
+#~ "if it is categorical."
 #~ msgstr ""
 
