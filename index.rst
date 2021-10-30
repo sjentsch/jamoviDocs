@@ -55,7 +55,6 @@
 
    _pages/SPSS2jamovi
    _pages/jamovi2R
-   _pages/jmv_overview
 
 
 Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and open statistical software to bridge the gap between researcher and statistician.
@@ -119,10 +118,6 @@ below.
 Additional modules
 --------------------------
 
-TBA: The jamovi library
-
-TBA: Sideloading a module  
-
 * :doc:`_pages/developer-hub`
 
 .. ============================================================================================================================================================   
@@ -133,4 +128,3 @@ jamovi and other software
 
 * :doc:`_pages/SPSS2jamovi`
 * :doc:`_pages/jamovi2R`
-* :doc:`_pages/jmv_overview`
