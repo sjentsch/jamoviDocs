@@ -1,4 +1,3 @@
-
 # macOS cruft
 .DS_Store
 
@@ -7,3 +6,6 @@ _env/
 _build/
 # unexclude gettext for translations
 !_build/gettext
+
+# exclude removed files
+*.rmv
