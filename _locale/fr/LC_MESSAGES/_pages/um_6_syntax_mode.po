@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-31 00:53+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgid ""
 "this a second time."
 msgstr ""
 
-#: ../../_pages/um_6_syntax_mode.rst:8
+#: ../../_pages/um_6_syntax_mode.rst:12
 msgid ""
 "In syntax mode, analyses continue to operate as before, but now they "
 "produce R syntax, and “ASCII output” like an R session. Like all results "
@@ -40,7 +40,7 @@ msgid ""
 "syntax) and copy and paste them, for example, into an R session."
 msgstr ""
 
-#: ../../_pages/um_6_syntax_mode.rst:14
+#: ../../_pages/um_6_syntax_mode.rst:19
 msgid ""
 "At present, the provided R syntax does not include the data import step, "
 "and this must be performed manually. There are many resources explaining "
@@ -48,9 +48,9 @@ msgid ""
 "(Most analyses in jamovi require data as a data frame)."
 msgstr ""
 
-#: ../../_pages/um_6_syntax_mode.rst:16
+#: ../../_pages/um_6_syntax_mode.rst:24
 msgid ""
-"Another R feature that may be of interest is the `Rj Editor "
+"Another R feature that may be of interest is the `Rj module "
 "<https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows you to use "
 "R code to analyse data directly in jamovi."
 msgstr ""
@@ -59,13 +59,5 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "r-syntax"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Another R feature that may be of"
-#~ " interest is the `Rj module "
-#~ "<https://blog.jamovi.org/2018/07/30/rj.html>`__, which "
-#~ "allows you to use R code to "
-#~ "analyse data directly in jamovi."
 #~ msgstr ""
 

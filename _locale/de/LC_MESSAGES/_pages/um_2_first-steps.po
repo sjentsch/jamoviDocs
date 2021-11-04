@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-10-31 00:53+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -22,8 +22,7 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/um_2_first-steps.rst:4
-#, fuzzy
-msgid "First steps in jamovi"
+msgid "The first steps in jamovi"
 msgstr "Die ersten Schritte in jamovi"
 
 #: ../../_pages/um_2_first-steps.rst:6
@@ -57,10 +56,9 @@ msgstr ""
 "Tabellenkalkulationssoftware tun würden."
 
 #: ../../_pages/um_2_first-steps.rst:19
-#, fuzzy
 msgid ""
 "Alternatively, existing data sets in a range of formats (CSV, Excel, "
-"LibreOffice, R, SPSS, Stata, SAS, etc.) can be opened in jamovi. "
+"LibreOffice, R, SPSS, Stata, SAS, JASP) can be opened in jamovi. "
 "Additionally, there are a number of example data sets available in "
 "jamovi. To open a file, select the file menu (☰, at the top left hand "
 "corner of jamovi), select ``Open`` and then ``Data library`` or ``This "
@@ -104,11 +102,11 @@ msgstr ""
 " können Sie die CSV-Datei in jamovi öffnen."
 
 #: ../../_pages/um_2_first-steps.rst:41
-#, fuzzy
 msgid ""
-"In the unlikely event that jamovi does not open a file correctly, file an"
-" issue (bug report) in the GitHub `issue tracker "
-"<https://github.com/jamovi/jamovi/issues>`__."
+"If jamovi does not open a file correctly, do file an issue (bug report) "
+"in our GitHub `issue tracker "
+"<https://github.com/jamovi/jamovi/issues>`__. We are keen to make our "
+"importer as robust as possible."
 msgstr ""
 "Wenn jamovi eine Datei nicht korrekt öffnet, reichen Sie bitte einen "
 "Fehlerbericht in unserem GitHub `issue tracker "

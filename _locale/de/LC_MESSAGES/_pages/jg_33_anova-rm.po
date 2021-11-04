@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-10-31 00:53+0200\n"
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -31,9 +31,15 @@ msgstr "So führen Sie eine ANOVA für wiederholte Messungen in jamovi durch:"
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid ""
-"You need one |continuous| continuous outcome variable for each "
-"measurement occasion."
+"You need one continuous outcome variable for each measurement occasion. "
+"Make sure that the `measurement levels are set correctly <um_2_first-"
+"steps.html#data-variables>`_ so that the continuous variables are marked "
+"as |continuous|."
 msgstr ""
+"Sie benötigen für jeden Messzeitpunkt eine kontinuierliche "
+"Ergebnisvariable. Achten Sie darauf, dass die `Skalenniveaus korrekt "
+"gesetzt sind <um_2_first-steps.html#data-variables>`_, damit die "
+"Variablen als |continuous| gekennzeichnet sind."
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid "A correct setup should look similar to this:"
@@ -68,14 +74,13 @@ msgstr ""
 "Buttons den entsprechenden Zellen in ``Repeated Measures Cells`` zu."
 
 #: ../../_pages/jg_33_anova-rm.rst
-#, fuzzy
 msgid ""
 "To test the equality of the variance with the Levene test, open the "
 "``Assumption Checks`` drop-down menu and set the ``Homogeneity test`` "
 "tick box. It is also a good idea to check that the variances at the "
 "different steps of the repetition factor are the same (Sphericity). To do"
 " so, open the ``Assumption Checks`` drop-down menu and set the "
-"``Sphericity tests`` tick box."
+"``Sphericty tests`` tick box."
 msgstr ""
 "Um die Gleichheit der Varianz mit dem Levene-Test zu testen, öffnen Sie "
 "das Drop-Down-Menü ``Assumption Checks`` und setzen das Häkchen bei "
@@ -88,7 +93,7 @@ msgstr ""
 msgid "The results are shown in the right panel:"
 msgstr "Das Ergebnis wird im rechten Panel angezeigt:"
 
-#: ../../_pages/jg_33_anova-rm.rst:56
+#: ../../_pages/jg_33_anova-rm.rst:58
 msgid "Further help from the community resources"
 msgstr "Mehr Hilfe in den Community-Ressourcen"
 
@@ -157,19 +162,4 @@ msgstr ""
 
 #~ msgid "output_anova_repeated"
 #~ msgstr "output_anova_repeated"
-
-#~ msgid ""
-#~ "You need one continuous outcome variable"
-#~ " for each measurement occasion. Make "
-#~ "sure that the `measurement levels are"
-#~ " set correctly <um_2_first-steps.html#data-"
-#~ "variables>`_ so that the continuous "
-#~ "variables are marked as |continuous|."
-#~ msgstr ""
-#~ "Sie benötigen für jeden Messzeitpunkt "
-#~ "eine kontinuierliche Ergebnisvariable. Achten "
-#~ "Sie darauf, dass die `Skalenniveaus "
-#~ "korrekt gesetzt sind <um_2_first-steps.html"
-#~ "#data-variables>`_, damit die Variablen als"
-#~ " |continuous| gekennzeichnet sind."
 
