@@ -5,13 +5,14 @@
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 # Leonardo Villa <leovilla80@gmail.com>, 2021.
+# Sebastian Jentschke <sebastian.jentschke@uib.no>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
 "POT-Creation-Date: 2021-09-14 17:24+0200\n"
-"PO-Revision-Date: 2021-10-28 09:37+0000\n"
-"Last-Translator: Leonardo Villa <leovilla80@gmail.com>\n"
+"PO-Revision-Date: 2021-11-27 16:51+0000\n"
+"Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jamovi/"
 "jg_11_descriptive-analyses/es/>\n"
 "Language: es\n"
@@ -19,12 +20,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:5
 msgid "Descriptive analyses"
-msgstr "Análisis Descriptivo"
+msgstr "Análisis descriptivo"
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:7
 msgid "How to perform descriptive analyses and create graphs in jamovi:"
@@ -32,7 +33,7 @@ msgstr "Cómo realizar análisis descriptivo y crear gráficos en jamovi:"
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
-msgstr "Selecciona ``Análisis`` → ``Exploración`` → ``Descriptivos``."
+msgstr "Selecciona ``Analyses`` → ``Exploration`` → ``Descriptives``."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
@@ -56,7 +57,7 @@ msgid ""
 "separate by gender), move that variable to ``Split by``."
 msgstr ""
 "Para dividir sus análisis descriptivos en una variable categórica (por "
-"ejemplo, para separar por género), mueva esa variable a ``Dividir por``."
+"ejemplo, para separar por género), mueva esa variable a ``Split by``."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid "This changes how the output looks like:"
@@ -76,8 +77,8 @@ msgstr ""
 "Para crear un gráfico basado en las opciones anteriores, haga clic en la "
 "pestaña ``Plots`` y marque la casilla del gráfico deseado. Si desea "
 "identificar los valores atípicos y comprobar si sus variables se ajustan a "
-"una distribución normal, deberá marcar las casillas ``Ploteo de caja``, "
-"``Violín`` y ``Q-Q``."
+"una distribución normal, deberá marcar las casillas ``Box plot``, ``Violin`` "
+"y ``Q-Q``."
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:55
 msgid "Further help from the community resources"
