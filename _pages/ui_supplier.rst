@@ -4,7 +4,7 @@
 ``Supplier``
 ============
 
-**Inherits from:** |ui_basecontrol|_
+**Inherits from:** |BaseControl|_
 
 **Cooming soon!**
 
@@ -20,16 +20,48 @@ Example
 Controls
 --------
 
+.. ancova.u.yaml
+      - type: Supplier
+        name: modelSupplier
+        label: Components
+        persistentItems: true
+        stretchFactor: 1
+        format: term
+        events:
+          update: './ancova.events::onUpdate_modelSupplier'
+        children:
+          - type: TargetLayoutBox
+            transferAction: interactions
+            children:
+              - type: ListBox
+                name: modelTerms
+                valueFilter: unique
+                isTarget: true
+                itemDropBehaviour: emptyspace
+                events:
+                  change: './ancova.events::onChange_modelTerms'
+                template:
+                  type: TermLabel
+
+      - type: Supplier
+        name: postHocSupplier
+        persistentItems: false
+        stretchFactor: 1
+        format: term
+        events:
+          change: './ancova.events::onChange_postHocSupplier'
+          update: './ancova.events::onUpdate_postHocSupplier'
+        children:
+          - type: TargetLayoutBox
+            label: ''
+            children:
+              - type: ListBox
+                name: postHoc
+                isTarget: true
+                template:
+                  type: TermLabel
+
 .. --------------------------------------------------------------------
 
-.. |ui_basecontrol|    replace:: ``BaseControl``
-.. _ui_basecontrol:    ui_basecontrol.html
-
-.. |ui_parentcontrol|  replace:: ``ParentControl``
-.. _ui_parentcontrol:  ui_parentcontrol.html
-
-.. |ui_optioncontrol|  replace:: ``OptionControl``
-.. _ui_optioncontrol:  ui_optioncontrol.html
-
-.. |ui_displaycontrol| replace:: ``DisplayControl``
-.. _ui_displaycontrol: ui_displaycontrol.html
+.. |BaseControl|       replace:: ``BaseControl``
+.. _BaseControl:       ui_basecontrol.html

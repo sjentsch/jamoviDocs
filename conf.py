@@ -10,7 +10,7 @@
 import os
 import sys
 import re
-# sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 from sphinx.locale import _
 
@@ -18,7 +18,7 @@ from sphinx.locale import _
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2020, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
+copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -44,16 +44,15 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_copybutton',
-    'sphinx_multiversion',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '_tmp', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
+exclude_patterns = ['_build', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -94,18 +93,38 @@ html_theme = "sphinx_rtd_theme"
 # further.  For a list of options available for each theme, see the documentation.
 # https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
 html_theme_options = {
-    'collapse_navigation': False,
+    # Google Analytics
+#   'analytics_id': 'G-XXXXXXXXXX',
+#   'analytics_anonymize_ip': False, # commented out - doesn't work on readthedocs
+    # show version number is shown at the top of the sidebar (default: True)
     'display_version': False,
+    # only display the logo image, do not display the project name at the top of the sidebar (default: False)
     'logo_only': True,
+    # location of the prev / next buttons (default: 'bottom') and allow navigating using the keyboard’s left and right arrows (default: False)
+    'prev_next_buttons_location': 'bottom',
+    'navigation_with_keys': True,
+    # add an icon next to external links (default: False)
+    'style_external_links': False,
+    # display style for code-versioning-systems (github, etc.)     
+    # 'vcs_pageview_mode': '', # commented out - doesn't work on readthedocs
+    # changes the background of the search area in the navigation bar
     'style_nav_header_background': '#FFFFFF',
-#   Applies to all below: Can be an int, interpreted as pixels or a valid CSS dimension string such as ‘70em’ or ‘50%’.    
-#   Width of the sidebar: Defaults to 230 pixels.    
+    # width of the sidebar (defaults to 230 pixels)
     'sidebarwidth': '20%',
-#   Minimal and maximal width of the document body. Use 'none' if you don’t want a width limit. Defaults may depend on the theme (often 450px [min] and 800px [max]).    
-    'body_min_width': 'none',
-    'body_max_width': 'none',
-#   Allow navigating to the previous/next page using the keyboard’s left and right arrows. Defaults to False.
-    'navigation_with_keys': False,
+    # minimal and maximal width of the document body (use 'none' if you don’t want a width limit; defaults depend on the theme: often 450px [min] and 800px [max])
+    'body_min_width': 0,
+    'body_max_width': 0,
+    # ToC options
+    # navigation entries are not expandable – the [+] icons next to each entry are removed (default: True)
+    'collapse_navigation': True,
+    # scroll the navigation with the main page content as you scroll the page
+    'sticky_navigation': True,
+    # maximum depth of the table of contents tree (default: 4; allow unlimited depth: -1)
+    'navigation_depth': 3,
+    # whether the navigation includes hidden table(s) of contents (i.e., toctree directives marked with the :hidden: option; default: True)
+    'includehidden': True,
+    # page subheadings are not included in the navigation (default: False)
+    'titles_only': True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -134,6 +153,9 @@ html_favicon = '_images/jamovi-v.svg'
 #                   'https://example.com/css/custom.css',
 #                   ('print.css', {'media': 'print'})]
 html_css_files = ['jamovi.css', # jamovi style (adapted)
+                 ]
+
+html_js_files  = ['gif-player.js', # gif-player
                  ]
 
 # Custom sidebar templates, must be a dictionary that maps document names to template names.
@@ -262,7 +284,7 @@ epub_writing_mode = 'horizontal'
 latex_engine = 'xelatex'
 
 # Grouping the document tree into LaTeX files. List of tuples
-#   (source start file, target name,      title,                       author, theme,    toctree_only).
+#   (source start file, target name,      title,                       author,                theme,    toctree_only).
 latex_documents = [
     (master_doc,        'jamoviDocs.tex', u'Documentation for jamovi', u'The jamovi project', 'manual', True),
 ]
@@ -287,7 +309,7 @@ latex_elements = {
 
     # “babel” package inclusion, default '\\usepackage{babel}'.
     'babel': '\\usepackage{babel}',
-    
+
     # Font package inclusion, default '\\usepackage{times}' (which uses Times and Helvetica).
     # You can set this to '' to use the Computer Modern fonts.
     # Defaults to '' when the language uses the Cyrillic script.
@@ -298,7 +320,7 @@ latex_elements = {
     #         '\\usepackage[Sonny]{fncychap}' for internationalized docs (because the “Bjarne” style uses numbers spelled out in English).
     # Other “fncychap” styles you can try include “Lenny”, “Glenn”, “Conny” and “Rejne”. You can also set this to '' to disable fncychap.
     'fncychap': '\\usepackage[Bjarne]{fncychap}', 
-   
+
     # “inputenc” package inclusion, default '\\usepackage[utf8]{inputenc}'.
     'inputenc' :  '\\usepackage[utf8x]{inputenc}',
 #    'utf8extra': ('\\ifdefined\\DeclareUnicodeCharacter\n'
@@ -343,3 +365,32 @@ texinfo_documents = [
 
 # -- Options for Sphinx extensions ----------------------------------------
 imgmath_image_format = 'svg'
+
+# -- Lanaguage chooser ----------------------------------------------------
+
+try:
+   html_context
+except NameError:
+   html_context = dict()
+
+current_version = 'latest'
+html_context['display_lower_left'] = True
+html_context['current_language'] = language
+
+html_context['current_version'] = current_version
+html_context['version'] = current_version
+
+if os.path.abspath('.').startswith('/home'):
+   base_path = os.path.abspath('.') + '/_build/html'
+else:
+   base_path = ''
+ 
+html_context['languages'] = [('en', base_path + '/en')]
+ 
+languages = [lang.name for lang in os.scandir('_locale') if lang.is_dir()]
+for lang in languages:
+   html_context['languages'].append((lang, base_path + '/' + lang))
+ 
+html_context['downloads'] = list()
+html_context['downloads'].append(('PDF',  '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.pdf'))
+html_context['downloads'].append(('epub', '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.epub'))

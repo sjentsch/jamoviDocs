@@ -13,37 +13,30 @@ There are three different categories of controls:
 -  `Option Controls <api_ui_definition.html>`__
 -  `Display Controls <api_ui_definition.html>`__
 
-Layout controls are used to control the layout child controls in the UI.
-Option controls allow the user to change the values of options for
-analyses. We’ve already seen some of these; the ``CheckBox``, the
-``ComboBox``, etc. Display controls are for presenting static
-information such as labels.
+Layout controls are used to control the layout child controls in the UI. Option controls allow the user to change the values of options for analyses. We’ve
+already seen some of these; the |CheckBox|_, the |ComboBox|_, etc. Display controls are for presenting static information such as labels.
 
 Option Controls
 ~~~~~~~~~~~~~~~
 
-As already seen earlier in this tutorial series, different option
-controls are ‘bound’ to different analysis options. The name of the
-option control typically needs to match the name of the option it is
-bound to. Changing the option control leads to changes to the underlying
-option, resulting in changes to the analysis.
+As already seen earlier in this tutorial series, different option controls are ‘bound’ to different analysis options. The name of the option control typically
+needs to match the name of the option it is bound to. Changing the option control leads to changes to the underlying option, resulting in changes to the
+analysis.
 
-Not all controls can be bound to *any* option. It wouldn’t be meaningful
-to bind a checkbox to a ``List`` option for example. The following lists
-the different option types, and the control types that can be bound to
-each:
+Not all controls can be bound to *any* option. It wouldn’t be meaningful to bind a checkbox to a ``List`` option for example. The following lists the different
+option types, and the control types that can be bound to each:
 
 ``Bool``
 ~~~~~~~~
 
-**You can use** : ```CheckBox`` <ui_checkbox.html>`__
+**You can use** : |CheckBox|_
 
 .. code-block:: yaml
 
    - type: CheckBox
      name: #optionName
 
-**Or you can use** : ```Label`` <ui_label.html>`__
+**Or you can use** : |Label|_
 
 This control is read only.
 
@@ -56,7 +49,7 @@ This control is read only.
 ``Integer``
 ~~~~~~~~~~~
 
-**You can use** : ```TextBox`` <ui_textbox.html>`__
+**You can use** : |TextBox|_
 
 Allows for the value to be edited.
 
@@ -66,7 +59,7 @@ Allows for the value to be edited.
      name: #optionName
      format: number
 
-**Or you can use** : ```Label`` <ui_label.html>`__
+**Or you can use** : |Label|_
 
 This control is read only.
 
@@ -81,7 +74,7 @@ This control is read only.
 ``Number``
 ~~~~~~~~~~
 
-**You can use** : ```TextBox`` <ui_textbox.html>`__
+**You can use** : |TextBox|_
 
 Allows for the value to be edited.
 
@@ -91,7 +84,7 @@ Allows for the value to be edited.
      name: #optionName
      format: number
 
-**Or you can use** : ```Label`` <ui_label.html>`__
+**Or you can use** : |Label|_
 
 This control is read only.
 
@@ -106,7 +99,7 @@ This control is read only.
 ``String``
 ~~~~~~~~~~
 
-**You can use** : ```TextBox`` <ui_textbox.html>`__
+**You can use** : |TextBox|_
 
 Allows for the value to be edited.
 
@@ -115,7 +108,7 @@ Allows for the value to be edited.
    - type: TextBox
      name: #optionName
 
-**Or you can use** : ```Label`` <ui_label.html>`__
+**Or you can use** : |Label|_
 
 This control is read only.
 
@@ -129,16 +122,16 @@ This control is read only.
 ``List``
 ~~~~~~~~
 
-**You can use** : ```ComboBox`` <ui_combobox.html>`__
+**You can use** : |ComboBox|_
 
 .. code-block:: yaml
 
    - type: ComboBox
      name: #optionName
 
-**Or you can use** : ```RadioButton`` <ui_radiobutton.html>`__
+**Or you can use** : |RadioButton|_
 
-Use multiple ``RadioButton``\ ’s linked to the different sub-options.
+Use multiple |RadioButton|_\ ’s linked to the different sub-options.
 
 .. code-block:: yaml
 
@@ -162,7 +155,7 @@ Use multiple ``RadioButton``\ ’s linked to the different sub-options.
 ``NMXList``
 ~~~~~~~~~~~
 
-**You can use** : ```CheckBox`` <ui_checkbox.html>`__
+**You can use** : |CheckBox|_
 
 Use multiple CheckBox's linked to the different sub-options.
 
@@ -188,7 +181,7 @@ Use multiple CheckBox's linked to the different sub-options.
 ``Variable``
 ~~~~~~~~~~~~
 
-**You can use** : ```VariablesListBox`` <ui_variableslistbox.html>`__
+**You can use** : |VariablesListBox|_
 
 .. code-block:: yaml
 
@@ -197,7 +190,7 @@ Use multiple CheckBox's linked to the different sub-options.
      isTarget: true
      maxItemCount: 1
 
-**Or you can use** : ```ListBox`` <ui_listbox.html>`__
+**Or you can use** : |ListBox|_
 
 .. code-block:: yaml
 
@@ -213,7 +206,7 @@ Use multiple CheckBox's linked to the different sub-options.
 ``Variables``
 ~~~~~~~~~~~~~
 
-**You can use** : ```VariablesListBox`` <ui_variableslistbox.html>`__
+**You can use** : |VariablesListBox|_
 
 .. code-block:: yaml
 
@@ -221,7 +214,7 @@ Use multiple CheckBox's linked to the different sub-options.
      isTarget: true
      name: #optionName
 
-**Or you can use** : ```ListBox`` <ui_listbox.html>`__
+**Or you can use** : |ListBox|_
 
 .. code-block:: yaml
 
@@ -236,7 +229,7 @@ Use multiple CheckBox's linked to the different sub-options.
 ``Terms``
 ~~~~~~~~~
 
-**You can use** : ```ListBox`` <ui_listbox.html>`__
+**You can use** : |ListBox|_
 
 .. code-block:: yaml
 
@@ -251,7 +244,7 @@ Use multiple CheckBox's linked to the different sub-options.
 ``Pairs``
 ~~~~~~~~~
 
-**You can use** : ```VariablesListBox`` <ui_variableslistbox.html>`__
+**You can use** : |VariablesListBox|_
 
 .. code-block:: yaml
 
@@ -266,7 +259,7 @@ Use multiple CheckBox's linked to the different sub-options.
        template:
        - type: VariableLabel
 
-**Or you can use** : ```ListBox`` <ui_listbox.html>`__
+**Or you can use** : |ListBox|_
 
 .. code-block:: yaml
 
@@ -286,7 +279,7 @@ Use multiple CheckBox's linked to the different sub-options.
 ``Array``
 ~~~~~~~~~
 
-**You can use** : ```ListBox`` <ui_listbox.html>`__
+**You can use** : |ListBox|_
 
 .. code-block:: yaml
 
@@ -295,6 +288,28 @@ Use multiple CheckBox's linked to the different sub-options.
      template:
      type: #depends on the option
 
-This is jamovi’s most complicated control. The setup of it’s UI
-definition depends heavily on the way the option is setup. A more
-detailed explanation can be found `here <ui_listbox.html>`__.
+This is jamovi’s most complicated control. The setup of it’s UI definition depends heavily on the way the option is setup. A more detailed explanation can be
+found `here <ui_listbox.html>`__.
+
+.. ------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.. |Label|             replace:: ``Label``
+.. _Label:             ui_label.html
+
+.. |CheckBox|          replace:: ``CheckBox``
+.. _CheckBox:          ui_checkbox.html
+
+.. |ComboBox|          replace:: ``ComboBox``
+.. _ComboBox:          ui_combobox.html
+
+.. |ListBox|           replace:: ``ListBox``
+.. _ListBox:           ui_listbox.html
+
+.. |TextBox|           replace:: ``TextBox``
+.. _TextBox:           ui_textbox.html
+
+.. |RadioButton|       replace:: ``RadioButton``
+.. _RadioButton:       ui_radiobutton.html
+
+.. |VariablesListBox|  replace:: ``VariablesListBox``
+.. _VariablesListBox:  ui_variableslistbox.html

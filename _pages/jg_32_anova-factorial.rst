@@ -1,16 +1,13 @@
 .. sectionauthor:: `Jonas Rafi <https://www.su.se/english/profiles/jora9288-1.283149>`__
 
-================
-ANOVA: Factorial
-================
+=====
+ANOVA
+=====
 
 | How to perform a factorial ANOVA in jamovi:
 
-#. | You need two grouping variables and one continuous outcome
-     variable. Make sure that the `measurement levels are set correctly
-     <um_2_first-steps.html#data-variables>`_ so that the grouping
-     variables are marked as |nominal| and the continuous variable
-     are marked as |continuous|.
+#. | You need one |continuous| continuous dependent variable, and one or more
+     |nominal| grouping variables
      
    | A correct setup should look similar to this:
    
@@ -31,7 +28,7 @@ ANOVA: Factorial
    
    | 
 
-#. | The result is shown in the right panel:
+#. | The results are shown in the right panel:
 
    |output_anova_factorial|
    

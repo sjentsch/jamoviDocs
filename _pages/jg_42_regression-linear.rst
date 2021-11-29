@@ -6,11 +6,8 @@ Linear Regression
 
 | How to perform a linear regression in jamovi:
 
-#. | You need at least one predictor variable and one outcome variable.
-     Both variable classes are typically continuous. Make sure that the
-     `measurement levels are set correctly
-     <um_2_first-steps.html#data-variables>`_ so that the variables
-     included in your model are marked as |continuous|.
+#. | You need one |continuous| dependent variable, and at least one |continuous|
+     predictor variable (aka a covariate).
 
    | A correct setup should look similar to this:
 
@@ -24,8 +21,8 @@ Linear Regression
    
    |
 
-#. | Drag and drop your outcome variable to ``Dependent Variable`` and
-     your predictor variable to ``Covariates`` if it is continuous or to
+#. | Drag and drop your dependent variable to ``Dependent Variable`` and
+     your explanatory variable to ``Covariates`` if it is continuous or to
      ``Factors`` if it is categorical.
      
    |add_var_regression_linear|

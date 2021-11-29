@@ -6,9 +6,9 @@ t-test: Paired samples
 
 | How to perform a paired samples t-test in jamovi:
 
-#. | You need two continuous variables. Make sure that the `measurement
-     levels are set correctly <um_2_first-steps.html#data-variables>`_
-     so that both the continuous variables are marked as |continuous|.
+#. | You need two |continuous| continuous variables, with each row
+     representing a subject. i.e. the pair of values taken from each row
+     represent paired measurements.
 
    | A correct setup should look similar to this:
 
@@ -22,10 +22,9 @@ t-test: Paired samples
 
    |
 
-#. | Drag and drop your two outcome variables to ``Paired Variables`` (select
-     both variables in a pair at the same time - you do this by holding down
-     the Ctrl key while clicking with the mouse on the variable you want to
-     select).
+#. | Drag and drop your two variables to ``Paired Variables`` (you can drag
+     these one at a time, or select both variables in a pair by holding down the
+     Ctrl key while clicking on each, before dragging them across).
 
    |add_var_ttest_paired| 
 
