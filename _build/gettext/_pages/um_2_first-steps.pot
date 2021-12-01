@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../_pages/um_2_first-steps.rst:4
-msgid "The first steps in jamovi"
+msgid "First steps in jamovi"
 msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:6
 msgid "When first starting jamovi, you will be presented with a user interface which looks something like this."
+msgstr ""
+
+#: ../../_pages/um_2_first-steps.rst:47
+#: ../../_pages/um_2_first-steps.rst:47
+msgid "screenshot"
 msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:11
@@ -33,7 +38,12 @@ msgid "It is possible to simply begin typing values into the jamovi spreadsheet 
 msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:19
-msgid "Alternatively, existing data sets in a range of formats (CSV, Excel, LibreOffice, R, SPSS, Stata, SAS, JASP) can be opened in jamovi. Additionally, there are a number of example data sets available in jamovi. To open a file, select the file menu (☰, at the top left hand corner of jamovi), select ``Open`` and then ``Data library`` or ``This PC``, depending on whether you want to open an example, or a file stored on your computer."
+msgid "Alternatively, existing data sets in a range of formats (CSV, Excel, LibreOffice, R, SPSS, Stata, SAS, etc.) can be opened in jamovi. Additionally, there are a number of example data sets available in jamovi. To open a file, select the file menu (☰, at the top left hand corner of jamovi), select ``Open`` and then ``Data library`` or ``This PC``, depending on whether you want to open an example, or a file stored on your computer."
+msgstr ""
+
+#: ../../_pages/um_2_first-steps.rst:49
+#: ../../_pages/um_2_first-steps.rst:49
+msgid "csv-data"
 msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:29
@@ -41,5 +51,5 @@ msgid "A very common format for exchanging data is using files with “comma- se
 msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:41
-msgid "If jamovi does not open a file correctly, do file an issue (bug report) in our GitHub `issue tracker <https://github.com/jamovi/jamovi/issues>`__. We are keen to make our importer as robust as possible."
+msgid "In the unlikely event that jamovi does not open a file correctly, file an issue (bug report) in the GitHub `issue tracker <https://github.com/jamovi/jamovi/issues>`__."
 msgstr ""

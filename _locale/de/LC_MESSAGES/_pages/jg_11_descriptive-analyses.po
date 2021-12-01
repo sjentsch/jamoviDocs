@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -19,10 +19,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:5
-msgid "Descriptive analyses"
+#, fuzzy
+msgid "Descriptives"
 msgstr "Deskriptivstatistische Analysen"
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:7
@@ -35,6 +36,10 @@ msgstr ""
 msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
 msgstr "Wählen Sie ``Analyses`` → ``Exploration`` → ``Descriptives``."
 
+#: ../../_pages/jg_11_descriptive-analyses.rst:73
+msgid "select_descriptives"
+msgstr ""
+
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
 "Drag and drop the variables you want descriptive analyses for to "
@@ -42,6 +47,10 @@ msgid ""
 msgstr ""
 "Ziehen Sie die Variablen, für die Sie deskriptive Analysen durchführen "
 "wollen, per Drag & Drop oder mit den Pfeil-Buttons auf ``Variables``."
+
+#: ../../_pages/jg_11_descriptive-analyses.rst:76
+msgid "add_var_descriptives"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
@@ -51,6 +60,10 @@ msgstr ""
 "Das Ergebnis wird im rechten Panel angezeigt. Klicken Sie mit der rechten"
 " Maustaste auf die Ausgabe (oder Teile der Ausgabe), um sie zu speichern "
 "oder zu kopieren."
+
+#: ../../_pages/jg_11_descriptive-analyses.rst:79
+msgid "output_descriptives"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
@@ -62,15 +75,27 @@ msgstr ""
 "Geschlechtern zu trennen), verschieben Sie diese Variable (per drag-and-"
 "drop oder mit den Pfeil-Buttons) in das Feld ``Split by``."
 
+#: ../../_pages/jg_11_descriptive-analyses.rst:82
+msgid "add_var_descriptives_groupby"
+msgstr ""
+
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid "This changes how the output looks like:"
 msgstr "Dadurch ändert sich das Aussehen der Ausgabe:"
+
+#: ../../_pages/jg_11_descriptive-analyses.rst:85
+msgid "output_descriptives_groupby"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid "Click the ``Statistics`` tab to see more alternatives."
 msgstr ""
 "Klicken Sie auf das Drop-down-Menü ``Statistics``, um weitere "
 "Auswahlmöglichkeiten zu sehen."
+
+#: ../../_pages/jg_11_descriptive-analyses.rst:88
+msgid "select_descriptives_statistics"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst
 msgid ""
@@ -85,6 +110,10 @@ msgstr ""
 "oder überprüfen möchten, ob Ihre Variablen einer Normalverteilung "
 "entsprechen, dann sollten Sie ``Box plot``, ``Violin`` und ``Q-Q`` "
 "ankreuzen."
+
+#: ../../_pages/jg_11_descriptive-analyses.rst:91
+msgid "select_descriptives_plots"
+msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:55
 msgid "Further help from the community resources"

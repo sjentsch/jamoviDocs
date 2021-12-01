@@ -32,10 +32,10 @@ msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid ""
-"You need one continuous outcome variable for each measurement occasion. "
-"Make sure that the `measurement levels are set correctly <um_2_first-"
-"steps.html#data-variables>`_ so that the continuous variables are marked "
-"as |continuous|."
+"You need one continuous outcome variable for each measurement occasion. Make "
+"sure that the `measurement levels are set correctly <um_2_first-steps."
+"html#data-variables>`_ so that the continuous variables are marked as |"
+"continuous|."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
@@ -51,24 +51,24 @@ msgid ""
 "In the box ``Repeated Measures Factors``: write the name of your outcome "
 "variable (e.g. ``My_scale``) and name the levels for each measurement "
 "occasion (e.g. ``Pre``, ``Post`` and ``12 month follow-up``). The images "
-"below shows the box with default values (left) and when the values has "
-"been set (right)."
+"below shows the box with default values (left) and when the values has been "
+"set (right)."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid ""
-"Drag and drop your outcome variables to their respective cells in "
-"``Repeated Measures Cells``."
+"Drag and drop your outcome variables to their respective cells in ``Repeated "
+"Measures Cells``."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid ""
 "To test the equality of the variance with the Levene test, open the "
-"``Assumption Checks`` drop-down menu and set the ``Homogeneity test`` "
-"tick box. It is also a good idea to check that the variances at the "
-"different steps of the repetition factor are the same (Sphericity). To do"
-" so, open the ``Assumption Checks`` drop-down menu and set the "
-"``Sphericty tests`` tick box."
+"``Assumption Checks`` drop-down menu and set the ``Homogeneity test`` tick "
+"box. It is also a good idea to check that the variances at the different "
+"steps of the repetition factor are the same (Sphericity). To do so, open the "
+"``Assumption Checks`` drop-down menu and set the ``Sphericty tests`` tick "
+"box."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
@@ -81,56 +81,33 @@ msgstr "Más ayuda en los recursos comunitarios"
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid ""
-"A more comprehensive introduction into this statistical method is "
-"provided by this `video "
-"<https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" by `Barton Poulson <https://datalab.cc/jamovi>`__."
+"A more comprehensive introduction into this statistical method is provided "
+"by this `video <https://www.youtube.com/embed/m5JNwPgiMso?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst
 msgid ""
-"For those, aiming to stretch even further to an in-depth introduction, "
-"you can read the respective section in the “Learning statistics with "
-"jamovi” `web documentation "
-"<https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_07.html>`__ or "
-"chapter 13.7 of the `e-book <https://www.learnstatswithjamovi.com/>`__ by"
-" Danielle J. Navarro and David R. Foxcroft."
+"For those, aiming to stretch even further to an in-depth introduction, you "
+"can read the respective section in the “Learning statistics with jamovi” "
+"`web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_07."
+"html>`__ or chapter 13.7 of the `e-book <https://www.learnstatswithjamovi."
+"com/>`__ by Danielle J. Navarro and David R. Foxcroft."
 msgstr ""
 
-#~ msgid "|data_format_anova_repeated|"
-#~ msgstr ""
+#: ../../_pages/jg_33_anova-rm.rst
+msgid ""
+"You need one |continuous| continuous outcome variable for each measurement "
+"occasion."
+msgstr ""
 
-#~ msgid "|select_anova_repeated|"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|add_var_anova_repeated_naming_1|  ``→`` "
-#~ "|add_var_anova_repeated_naming_2|"
-#~ msgstr ""
-
-#~ msgid "|add_var_anova_repeated|"
-#~ msgstr ""
-
-#~ msgid "|output_anova_repeated|"
-#~ msgstr ""
-
-#~ msgid "continuous"
-#~ msgstr ""
-
-#~ msgid "data_format_anova_repeated"
-#~ msgstr ""
-
-#~ msgid "select_anova_repeated"
-#~ msgstr ""
-
-#~ msgid "add_var_anova_repeated_naming_1"
-#~ msgstr ""
-
-#~ msgid "add_var_anova_repeated_naming_2"
-#~ msgstr ""
-
-#~ msgid "add_var_anova_repeated"
-#~ msgstr ""
-
-#~ msgid "output_anova_repeated"
-#~ msgstr ""
+#: ../../_pages/jg_33_anova-rm.rst
+msgid ""
+"To test the equality of the variance with the Levene test, open the "
+"``Assumption Checks`` drop-down menu and set the ``Homogeneity test`` tick "
+"box. It is also a good idea to check that the variances at the different "
+"steps of the repetition factor are the same (Sphericity). To do so, open the "
+"``Assumption Checks`` drop-down menu and set the ``Sphericity tests`` tick "
+"box."
+msgstr ""

@@ -5,12 +5,11 @@ From SPSS to jamovi: t-test for independent samples
 ===================================================
 
 This comparison shows how a t-test for independent samples is performed in SPSS and jamovi. How the test is conducted in SPSS follows the description in
-chapter 10.8 of `Field (2017) <https://edge.sagepub.com/field5e>`__, especially Figure 10.4 and Output 10.3 - 10.4.
-
-It uses the data file **Invisibility.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+chapter 10.8 of `Field (2017) <https://edge.sagepub.com/field5e>`__, especially Figure 10.4 and Output 10.3 - 10.4. It uses the data set **Invisibility.sav**
+which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| **SPSS** (version 27)                                                         | **jamovi** (version 2.0)                                                      |
+| **SPSS**                                                                      | **jamovi**                                                                    |
 +===============================================================================+===============================================================================+
 | In SPSS you can run an independent t-test using: ``Analyze`` → ``Compare      | In jamovi you do this using: ``Analyses`` (tab) → ``T-Tests`` →               |
 | Means`` → ``Independent Samples T-test``                                      | ``Independent Samples T-Test``                                                |

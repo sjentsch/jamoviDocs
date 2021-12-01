@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,15 +21,15 @@ msgid "From SPSS to jamovi: t-test for paired samples"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:7
-msgid "After having demonstrated the beneficial effect of repeated-measures-designs on the standard error of mean, we conduct a t-test for paired samples. Using this test, we compare whether the number of mischieveous acts has increased after receiving a cloak of invisibility (variable ``Cloak``) in comparison to the number of mischieveous acts at baseline (variable ``No_Cloak``). This analysis is described in chapter 10.9.3 of Field (2017), especially Figure 10.12 and Output 10.8 - 10.9. We use the same data file **Invisibility RM.sav** which can be downloaded from the `web page accompanying Andy Field's book <https://edge.sagepub.com/field5e/student-resources/datasets>`__."
+msgid "After having demonstrated the beneficial effect of repeated-measures-designs on the standard error of mean, we conduct a t-test for paired samples. Using this test, we compare whether the number of mischieveous acts has increased after receiving a cloak of invisibility (variable ``Cloak``) in comparison to the number of mischieveous acts at baseline (variable ``No_Cloak``). This analysis is described in chapter 10.9.3 of Field (2017), especially Figure 10.12 and Output 10.8 - 10.9. We use the same data set **Invisibility RM.sav** which can be downloaded from the `web page accompanying Andy Field's book <https://edge.sagepub.com/field5e/student-resources/datasets>`__."
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:14
-msgid "**SPSS** (version 27)"
+msgid "**SPSS**"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:14
-msgid "**jamovi** (version 2.0)"
+msgid "**jamovi**"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:16
@@ -40,12 +40,32 @@ msgstr ""
 msgid "In jamovi you do this using: ``Analyses`` (tab) → ``T-Tests`` → ``Paired Samples T-Test``"
 msgstr ""
 
+#: ../../_pages/s2j_ttestPS2.rst:72
+#: ../../_pages/s2j_ttestPS2.rst:72
+msgid "SPSS_Menu_ttestPS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:73
+#: ../../_pages/s2j_ttestPS2.rst:73
+msgid "jamovi_Menu_ttestPS1"
+msgstr ""
+
 #: ../../_pages/s2j_ttestPS2.rst:21
 msgid "In the input window that opens, the two variables ``No invisibility cloak`` and ``Invisibility cloak`` are assigned to the field ``Paired variables``."
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:21
 msgid "In the input panel that opens, the variables ``No_Cloak`` and ``Cloak`` are moved to the variable input box ``Paired Variables``."
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:74
+#: ../../_pages/s2j_ttestPS2.rst:74
+msgid "SPSS_Input_ttestPS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:75
+#: ../../_pages/s2j_ttestPS2.rst:75
+msgid "jamovi_Input_ttestPS1"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:26
@@ -56,8 +76,28 @@ msgstr ""
 msgid "In jamovi, do we go further down in the input panel and tick ``Mean Difference`` and its ``Confidence interval`` underneath. We, furthermore, tick ``Descriptives`` to obtain a output that is similar to SPSS. Finally, we set the radio box to ``Exclude cases analysis by analysis`` (the same comment as for SPSS applies; the setting won't matter unless we compare at least two pairs of variables differing in which participants have missing values)."
 msgstr ""
 
+#: ../../_pages/s2j_ttestPS2.rst:76
+#: ../../_pages/s2j_ttestPS2.rst:76
+msgid "SPSS_Input_ttestPS2"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:77
+#: ../../_pages/s2j_ttestPS2.rst:77
+msgid "jamovi_Input_ttestPS2"
+msgstr ""
+
 #: ../../_pages/s2j_ttestPS2.rst:35
 msgid "The results from SPSS and jamovi are identical, but they are arranged slightly differently. SPSS gives the mean difference (blue box) first, before giving the t-statistics and their respective degrees of freedom and p-value (red box), in jamovi it is the other way round (statistics – red box – first and mean difference – blue box – afterwards). Another table underneath (green box) gives the descriptive statistics for the two variables that were compared. Except from that jamovi also reports the Median, and a slightly different way to arrange the columns (SPSS begins with the ``Mean`` and has the ``N`` afterwards, jamovi vice versa) the two tables are identical. The numerical values for the statistics are identical: *t* = -3.804, *df* = 11, *p* = 0.003."
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:78
+#: ../../_pages/s2j_ttestPS2.rst:78
+msgid "SPSS_Output_ttestPS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:79
+#: ../../_pages/s2j_ttestPS2.rst:79
+msgid "jamovi_Output_ttestPS1"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:44

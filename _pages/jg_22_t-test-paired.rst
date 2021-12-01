@@ -22,7 +22,7 @@ t-test: Paired samples
 
    |
 
-#. | Drag and drop your two variables to ``Paired Variables`` (You can drag
+#. | Drag and drop your two variables to ``Paired Variables`` (you can drag
      these one at a time, or select both variables in a pair by holding down the
      Ctrl key while clicking on each, before dragging them across).
 

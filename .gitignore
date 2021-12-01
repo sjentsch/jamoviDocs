@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
 
+>>>>>>> 3a78feaf0598c78d260417f2ac5ed69492c7a8ba
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 # macOS cruft
 .DS_Store
 
@@ -7,3 +13,15 @@ _env/
 _build/
 # unexclude gettext for translations
 !_build/gettext
+<<<<<<< HEAD
+
+# exclude removed files
+*.rmv
+=======
+<<<<<<< HEAD
+
+# exclude removed files
+*.rmv
+=======
+>>>>>>> 3a78feaf0598c78d260417f2ac5ed69492c7a8ba
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20

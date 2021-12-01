@@ -32,10 +32,10 @@ msgstr ""
 
 #: ../../_pages/jg_32_anova-factorial.rst
 msgid ""
-"You need two grouping variables and one continuous outcome variable. Make"
-" sure that the `measurement levels are set correctly <um_2_first-"
-"steps.html#data-variables>`_ so that the grouping variables are marked as"
-" |nominal| and the continuous variable are marked as |continuous|."
+"You need two grouping variables and one continuous outcome variable. Make "
+"sure that the `measurement levels are set correctly <um_2_first-steps."
+"html#data-variables>`_ so that the grouping variables are marked as |"
+"nominal| and the continuous variable are marked as |continuous|."
 msgstr ""
 
 #: ../../_pages/jg_32_anova-factorial.rst
@@ -62,50 +62,32 @@ msgstr "Más ayuda en los recursos comunitarios"
 
 #: ../../_pages/jg_32_anova-factorial.rst
 msgid ""
-"A more comprehensive introduction into this statistical method is "
-"provided by this `video "
-"<https://www.youtube.com/embed/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" by `Barton Poulson <https://datalab.cc/jamovi>`__."
+"A more comprehensive introduction into this statistical method is provided "
+"by this `video <https://www.youtube.com/embed/TJoJTVgDyqY?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
 msgstr ""
 
 #: ../../_pages/jg_32_anova-factorial.rst
 msgid ""
-"For those, aiming to stretch even further to an in-depth introduction, "
-"you can read the respective section in the “Learning statistics with "
-"jamovi” `web documentation "
-"<https://lsj.readthedocs.io/en/latest/lsj/Ch14_ANOVA2_01.html>`__ or "
-"chapter 14.1 - 4 of the `e-book "
-"<https://www.learnstatswithjamovi.com/>`__ by `Danielle J. Navarro "
-"<https://djnavarro.net/>`__ and `David R. Foxcroft "
-"<https://www.davidfoxcroft.com/>`__."
+"For those, aiming to stretch even further to an in-depth introduction, you "
+"can read the respective section in the “Learning statistics with jamovi” "
+"`web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch14_ANOVA2_01."
+"html>`__ or chapter 14.1 - 4 of the `e-book <https://www."
+"learnstatswithjamovi.com/>`__ by `Danielle J. Navarro <https://djnavarro.net/"
+">`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__."
 msgstr ""
 
-#~ msgid "|data_format_anova_factorial|"
-#~ msgstr ""
+#: ../../_pages/jg_32_anova-factorial.rst:5
+msgid "ANOVA"
+msgstr ""
 
-#~ msgid "|select_anova_factorial|"
-#~ msgstr ""
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid ""
+"You need one |continuous| continuous dependent variable, and one or more |"
+"nominal| grouping variables"
+msgstr ""
 
-#~ msgid "|add_var_anova_factorial|"
-#~ msgstr ""
-
-#~ msgid "|output_anova_factorial|"
-#~ msgstr ""
-
-#~ msgid "nominal"
-#~ msgstr ""
-
-#~ msgid "continuous"
-#~ msgstr ""
-
-#~ msgid "data_format_anova_factorial"
-#~ msgstr ""
-
-#~ msgid "select_anova_factorial"
-#~ msgstr ""
-
-#~ msgid "add_var_anova_factorial"
-#~ msgstr ""
-
-#~ msgid "output_anova_factorial"
-#~ msgstr ""
+#: ../../_pages/jg_32_anova-factorial.rst
+msgid "The results are shown in the right panel:"
+msgstr ""

@@ -4,10 +4,15 @@
 
 .. toctree::
    :titlesonly:
-   :caption: Getting Started
    :hidden:
 
    _pages/um_1_installation
+
+.. toctree::
+   :titlesonly:
+   :caption: Getting Started
+   :hidden:
+
    _pages/um_2_first-steps
    _pages/um_3_analyses
    _pages/um_4_spreadsheet
@@ -66,5 +71,62 @@ The following topics should get you up and running with jamovi, with additional 
 * :doc:`_pages/um_4_spreadsheet`
 * :doc:`_pages/um_5_updating_data`
 * :doc:`_pages/um_6_syntax_mode`
+
+.. ============================================================================================================================================================
+
+========
+Analyses
+========
+
+The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The :doc:`introduction
+<_pages/jg_00_analyses-overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links
+below.
+
+
+**Descriptive analyses**
+
+* :doc:`_pages/jg_11_descriptive-analyses`
+
+.. * :doc:`_pages/jg_16_Checking_normality`
+.. * :doc:`_pages/jg_17_Checking_linearity`
+.. * :doc:`_pages/jg_18_Filtering_data`
+
+
+**t-tests**
+
+* :doc:`_pages/jg_21_t-test-independent`
+* :doc:`_pages/jg_22_t-test-paired`
+* :doc:`_pages/jg_23_t-test-onesample`
+
+
+**Analyses of Variance (ANOVA)**
+
+* :doc:`_pages/jg_31_unianova`
+* :doc:`_pages/jg_32_anova-factorial`
+* :doc:`_pages/jg_33_anova-rm`
+* :doc:`_pages/jg_34_anova-mixed`
+
+
+**Correlation and regression**
+
+* :doc:`_pages/jg_42_regression-linear`
+* :doc:`_pages/jg_43_regression-logistic`
+   
+.. ============================================================================================================================================================
+
+--------------------------
+Additional modules
+--------------------------
+
+* :doc:`_pages/developer-hub`
+
+.. ============================================================================================================================================================   
+
+--------------------------
+jamovi and other software
+--------------------------
+
+* :doc:`_pages/SPSS2jamovi`
+* :doc:`_pages/jamovi2R`
 
 .. ============================================================================================================================================================

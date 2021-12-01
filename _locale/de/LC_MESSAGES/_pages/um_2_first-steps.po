@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -19,10 +19,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/um_2_first-steps.rst:4
-msgid "The first steps in jamovi"
+#, fuzzy
+msgid "First steps in jamovi"
 msgstr "Die ersten Schritte in jamovi"
 
 #: ../../_pages/um_2_first-steps.rst:6
@@ -32,6 +33,10 @@ msgid ""
 msgstr ""
 "Wenn Sie jamovi zum ersten Mal starten, wird Ihnen eine "
 "Benutzeroberfläche präsentiert, die in etwa so aussieht:"
+
+#: ../../_pages/um_2_first-steps.rst:47
+msgid "screenshot"
+msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:11
 msgid ""
@@ -56,9 +61,10 @@ msgstr ""
 "Tabellenkalkulationssoftware tun würden."
 
 #: ../../_pages/um_2_first-steps.rst:19
+#, fuzzy
 msgid ""
 "Alternatively, existing data sets in a range of formats (CSV, Excel, "
-"LibreOffice, R, SPSS, Stata, SAS, JASP) can be opened in jamovi. "
+"LibreOffice, R, SPSS, Stata, SAS, etc.) can be opened in jamovi. "
 "Additionally, there are a number of example data sets available in "
 "jamovi. To open a file, select the file menu (☰, at the top left hand "
 "corner of jamovi), select ``Open`` and then ``Data library`` or ``This "
@@ -72,6 +78,10 @@ msgstr ""
 "jamovi), wählen Sie ``Open`` und dann ``This PC`` oder ``Data library``, "
 "je nachdem, ob Sie eine auf Ihrem Computer gespeicherte Datei oder ein "
 "Beispiel öffnen wollen."
+
+#: ../../_pages/um_2_first-steps.rst:49
+msgid "csv-data"
+msgstr ""
 
 #: ../../_pages/um_2_first-steps.rst:29
 msgid ""
@@ -102,11 +112,11 @@ msgstr ""
 " können Sie die CSV-Datei in jamovi öffnen."
 
 #: ../../_pages/um_2_first-steps.rst:41
+#, fuzzy
 msgid ""
-"If jamovi does not open a file correctly, do file an issue (bug report) "
-"in our GitHub `issue tracker "
-"<https://github.com/jamovi/jamovi/issues>`__. We are keen to make our "
-"importer as robust as possible."
+"In the unlikely event that jamovi does not open a file correctly, file an"
+" issue (bug report) in the GitHub `issue tracker "
+"<https://github.com/jamovi/jamovi/issues>`__."
 msgstr ""
 "Wenn jamovi eine Datei nicht korrekt öffnet, reichen Sie bitte einen "
 "Fehlerbericht in unserem GitHub `issue tracker "

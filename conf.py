@@ -10,7 +10,7 @@
 import os
 import sys
 import re
-# sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 from sphinx.locale import _
 
@@ -18,7 +18,7 @@ from sphinx.locale import _
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.'
+copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -44,16 +44,15 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
     'sphinx_copybutton',
-    'sphinx_multiversion',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '_tmp', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
+exclude_patterns = ['_build', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -156,6 +155,9 @@ html_favicon = '_images/jamovi-v.svg'
 html_css_files = ['jamovi.css', # jamovi style (adapted)
                  ]
 
+html_js_files  = ['gif-player.js', # gif-player
+                 ]
+
 # Custom sidebar templates, must be a dictionary that maps document names to template names.
 # The list specifies the complete list of sidebar templates to include.
 # If all or some of the default sidebars are to be included, they must be put into this list as well.
@@ -195,14 +197,6 @@ html_show_copyright = True
 # -- Options for HTMLHelp output ------------------------------------------
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'jamoviDocs'
-
-# -- Options for shinx-multiversion ---------------------------------------
-smv_tag_whitelist = ""  				# Whitelist pattern for tags (set to None to ignore all tags)
-smv_branch_whitelist = ""    			# Whitelist pattern for branches (set to None to ignore all branches)
-smv_remote_whitelist = None				# Whitelist pattern for remotes (set to None to use local branches only)
-smv_released_pattern = r'^tags/.*$'		# Pattern for released versions
-smv_outputdir_format = '{ref.name}'		# Format for versioned output directories inside the build directory
-smv_prefer_remote_refs = False			# Determines whether remote or local git branches/tags are preferred if their output dirs conflict
 
 
 # -- Options for ePub output ----------------------------------------------
@@ -315,7 +309,7 @@ latex_elements = {
 
     # “babel” package inclusion, default '\\usepackage{babel}'.
     'babel': '\\usepackage{babel}',
-    
+
     # Font package inclusion, default '\\usepackage{times}' (which uses Times and Helvetica).
     # You can set this to '' to use the Computer Modern fonts.
     # Defaults to '' when the language uses the Cyrillic script.
@@ -326,7 +320,7 @@ latex_elements = {
     #         '\\usepackage[Sonny]{fncychap}' for internationalized docs (because the “Bjarne” style uses numbers spelled out in English).
     # Other “fncychap” styles you can try include “Lenny”, “Glenn”, “Conny” and “Rejne”. You can also set this to '' to disable fncychap.
     'fncychap': '\\usepackage[Bjarne]{fncychap}', 
-   
+
     # “inputenc” package inclusion, default '\\usepackage[utf8]{inputenc}'.
     'inputenc' :  '\\usepackage[utf8x]{inputenc}',
 #    'utf8extra': ('\\ifdefined\\DeclareUnicodeCharacter\n'
@@ -371,3 +365,32 @@ texinfo_documents = [
 
 # -- Options for Sphinx extensions ----------------------------------------
 imgmath_image_format = 'svg'
+
+# -- Lanaguage chooser ----------------------------------------------------
+
+try:
+   html_context
+except NameError:
+   html_context = dict()
+
+current_version = 'latest'
+html_context['display_lower_left'] = True
+html_context['current_language'] = language
+
+html_context['current_version'] = current_version
+html_context['version'] = current_version
+
+if os.path.abspath('.').startswith('/home'):
+   base_path = os.path.abspath('.') + '/_build/html'
+else:
+   base_path = ''
+ 
+html_context['languages'] = [('en', base_path + '/en')]
+ 
+languages = [lang.name for lang in os.scandir('_locale') if lang.is_dir()]
+for lang in languages:
+   html_context['languages'].append((lang, base_path + '/' + lang))
+ 
+html_context['downloads'] = list()
+html_context['downloads'].append(('PDF',  '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.pdf'))
+html_context['downloads'].append(('epub', '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.epub'))

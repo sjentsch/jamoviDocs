@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -19,28 +19,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/jg_31_unianova.rst:5
-msgid "ANOVA: Oneway"
-msgstr "Einfaktorielle Varianzanalyse (Oneway-ANOVA)"
+msgid "ANOVA: One-Way"
+msgstr ""
 
 #: ../../_pages/jg_31_unianova.rst:7
-msgid "How to perform a Oneway ANOVA in jamovi:"
+#, fuzzy
+msgid "How to perform a One-way ANOVA in jamovi:"
 msgstr "So führen Sie eine einfaktorielle Varianzanalye in jamovi durch:"
 
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
-"You need one grouping variable and one continuous outcome variable. Make "
-"sure that the `measurement levels are set correctly <um_2_first-"
-"steps.html#data-variables>`_ so that the grouping variable is marked as "
-"|nominal| and the continuous variable is marked as |continuous|."
+"You need one |continuous| dependent variable, and one |nominal| grouping "
+"variable with two or more levels."
 msgstr ""
-"Sie benötigen eine kategoriale Gruppierungsvariable und eine "
-"kontinuierliche Ergebnisvariable. Achten Sie darauf, dass die "
-"`Skalenniveaus korrekt gesetzt sind <um_2_erste-schritte.html#Daten-"
-"Variablen>`_, so dass die Gruppierungsvariable als |nominal| und die "
-"kontinuierliche Variable als |continuous| gekennzeichnet ist."
+
+#: ../../_pages/jg_31_unianova.rst:60
+msgid "continuous"
+msgstr ""
+
+#: ../../_pages/jg_31_unianova.rst:58
+msgid "nominal"
+msgstr ""
 
 #: ../../_pages/jg_31_unianova.rst
 msgid "A correct setup should look similar to this:"
@@ -48,9 +50,17 @@ msgstr ""
 "Die Einstellungen, um diese Analyse durchzuführen, sollten ungefähr so "
 "aussehen:"
 
+#: ../../_pages/jg_31_unianova.rst:62
+msgid "data_format_unianova"
+msgstr ""
+
 #: ../../_pages/jg_31_unianova.rst
 msgid "Select ``Analyses`` → ``ANOVA`` → ``One-way ANOVA``."
 msgstr "Wählen Sie ``Analyses`` → ``ANOVA`` → ``One-way ANOVA``."
+
+#: ../../_pages/jg_31_unianova.rst:64
+msgid "select_unianova"
+msgstr ""
 
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
@@ -60,6 +70,10 @@ msgstr ""
 "Ziehen Sie Ihre Ergebnisvariable per Drag & Drop oder mit den Pfeil-"
 "Buttons auf ``Dependent Variable`` und Ihre Gruppierungsvariable auf "
 "``Fixed Factors``."
+
+#: ../../_pages/jg_31_unianova.rst:66
+msgid "add_var_unianova_1"
+msgstr ""
 
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
@@ -72,11 +86,20 @@ msgstr ""
 "des Faktors) zu testen, markieren Sie das Kästchen ``Equality of "
 "variances``."
 
+#: ../../_pages/jg_31_unianova.rst:68
+msgid "add_var_unianova_2"
+msgstr ""
+
 #: ../../_pages/jg_31_unianova.rst
-msgid "The results is shown in the right panel:"
+#, fuzzy
+msgid "The results are shown in the right panel:"
 msgstr "Das Ergebnis wird im rechten Panel angezeigt:"
 
-#: ../../_pages/jg_31_unianova.rst:48
+#: ../../_pages/jg_31_unianova.rst:70
+msgid "output_unianova"
+msgstr ""
+
+#: ../../_pages/jg_31_unianova.rst:45
 msgid "Further help from the community resources"
 msgstr "Mehr Hilfe in den Community-Ressourcen"
 
@@ -133,4 +156,26 @@ msgstr ""
 
 #~ msgid "output_unianova"
 #~ msgstr "output_unianova"
+
+#~ msgid "ANOVA: Oneway"
+#~ msgstr "Einfaktorielle Varianzanalyse (Oneway-ANOVA)"
+
+#~ msgid ""
+#~ "You need one grouping variable and "
+#~ "one continuous outcome variable. Make "
+#~ "sure that the `measurement levels are"
+#~ " set correctly <um_2_first-steps.html#data-"
+#~ "variables>`_ so that the grouping "
+#~ "variable is marked as |nominal| and "
+#~ "the continuous variable is marked as "
+#~ "|continuous|."
+#~ msgstr ""
+#~ "Sie benötigen eine kategoriale "
+#~ "Gruppierungsvariable und eine kontinuierliche "
+#~ "Ergebnisvariable. Achten Sie darauf, dass "
+#~ "die `Skalenniveaus korrekt gesetzt sind "
+#~ "<um_2_erste-schritte.html#Daten-Variablen>`_, so "
+#~ "dass die Gruppierungsvariable als |nominal|"
+#~ " und die kontinuierliche Variable als "
+#~ "|continuous| gekennzeichnet ist."
 

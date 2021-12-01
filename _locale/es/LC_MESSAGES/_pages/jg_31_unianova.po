@@ -33,9 +33,9 @@ msgstr ""
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
 "You need one grouping variable and one continuous outcome variable. Make "
-"sure that the `measurement levels are set correctly <um_2_first-"
-"steps.html#data-variables>`_ so that the grouping variable is marked as "
-"|nominal| and the continuous variable is marked as |continuous|."
+"sure that the `measurement levels are set correctly <um_2_first-steps."
+"html#data-variables>`_ so that the grouping variable is marked as |nominal| "
+"and the continuous variable is marked as |continuous|."
 msgstr ""
 
 #: ../../_pages/jg_31_unianova.rst
@@ -54,9 +54,8 @@ msgstr ""
 
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
-"Select whether your variances are equal or unequal. To test for equality "
-"of variancess using Levene’s test, tick the box ``Equality of "
-"variances``."
+"Select whether your variances are equal or unequal. To test for equality of "
+"variancess using Levene’s test, tick the box ``Equality of variances``."
 msgstr ""
 
 #: ../../_pages/jg_31_unianova.rst
@@ -70,46 +69,27 @@ msgstr "Más ayuda en los recursos comunitarios"
 #: ../../_pages/jg_31_unianova.rst
 msgid ""
 "Those looking for an in-depth introduction: You may read the respective "
-"chapter in the “Learning statistics with jamovi” `web documentation "
-"<https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_01.html>`__ or "
-"chapter 13.1 - 6 of the `e-book "
-"<https://www.learnstatswithjamovi.com/>`__ by `Danielle J. Navarro "
-"<https://djnavarro.net/>`__ and `David R. Foxcroft "
-"<https://www.davidfoxcroft.com/>`__."
+"chapter in the “Learning statistics with jamovi” `web documentation <https://"
+"lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_01.html>`__ or chapter 13.1 - 6 "
+"of the `e-book <https://www.learnstatswithjamovi.com/>`__ by `Danielle J. "
+"Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www."
+"davidfoxcroft.com/>`__."
 msgstr ""
 
-#~ msgid "|data_format_unianova|"
-#~ msgstr ""
+#: ../../_pages/jg_31_unianova.rst:5
+msgid "ANOVA: One-Way"
+msgstr ""
 
-#~ msgid "|select_unianova|"
-#~ msgstr ""
+#: ../../_pages/jg_31_unianova.rst:7
+msgid "How to perform a One-way ANOVA in jamovi:"
+msgstr ""
 
-#~ msgid "|add_var_unianova_1|"
-#~ msgstr ""
+#: ../../_pages/jg_31_unianova.rst
+msgid ""
+"You need one |continuous| dependent variable, and one |nominal| grouping "
+"variable with two or more levels."
+msgstr ""
 
-#~ msgid "|add_var_unianova_2|"
-#~ msgstr ""
-
-#~ msgid "|output_unianova|"
-#~ msgstr ""
-
-#~ msgid "nominal"
-#~ msgstr ""
-
-#~ msgid "continuous"
-#~ msgstr ""
-
-#~ msgid "data_format_unianova"
-#~ msgstr ""
-
-#~ msgid "select_unianova"
-#~ msgstr ""
-
-#~ msgid "add_var_unianova_1"
-#~ msgstr ""
-
-#~ msgid "add_var_unianova_2"
-#~ msgstr ""
-
-#~ msgid "output_unianova"
-#~ msgstr ""
+#: ../../_pages/jg_31_unianova.rst
+msgid "The results are shown in the right panel:"
+msgstr ""

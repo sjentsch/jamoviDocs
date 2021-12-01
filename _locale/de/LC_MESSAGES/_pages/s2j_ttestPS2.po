@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and
+# Sebastian Jentschke (curating this documentation). This work is licensed
+# under a Creative Commons Attribution-Non Commercial 4.0 International
+# License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
@@ -10,14 +11,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-10-30 20:59+0200\n"
+=======
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/s2j_ttestPS2.rst:5
 msgid "From SPSS to jamovi: t-test for paired samples"
@@ -32,17 +37,17 @@ msgid ""
 "``Cloak``) in comparison to the number of mischieveous acts at baseline "
 "(variable ``No_Cloak``). This analysis is described in chapter 10.9.3 of "
 "Field (2017), especially Figure 10.12 and Output 10.8 - 10.9. We use the "
-"same data file **Invisibility RM.sav** which can be downloaded from the "
+"same data set **Invisibility RM.sav** which can be downloaded from the "
 "`web page accompanying Andy Field's book "
 "<https://edge.sagepub.com/field5e/student-resources/datasets>`__."
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:14
-msgid "**SPSS** (version 27)"
+msgid "**SPSS**"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:14
-msgid "**jamovi** (version 2.0)"
+msgid "**jamovi**"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:16
@@ -57,6 +62,14 @@ msgid ""
 "Samples T-Test``"
 msgstr ""
 
+#: ../../_pages/s2j_ttestPS2.rst:72
+msgid "SPSS_Menu_ttestPS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:73
+msgid "jamovi_Menu_ttestPS1"
+msgstr ""
+
 #: ../../_pages/s2j_ttestPS2.rst:21
 msgid ""
 "In the input window that opens, the two variables ``No invisibility "
@@ -68,6 +81,14 @@ msgstr ""
 msgid ""
 "In the input panel that opens, the variables ``No_Cloak`` and ``Cloak`` "
 "are moved to the variable input box ``Paired Variables``."
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:74
+msgid "SPSS_Input_ttestPS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:75
+msgid "jamovi_Input_ttestPS1"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:26
@@ -90,6 +111,14 @@ msgid ""
 "have missing values)."
 msgstr ""
 
+#: ../../_pages/s2j_ttestPS2.rst:76
+msgid "SPSS_Input_ttestPS2"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:77
+msgid "jamovi_Input_ttestPS2"
+msgstr ""
+
 #: ../../_pages/s2j_ttestPS2.rst:35
 msgid ""
 "The results from SPSS and jamovi are identical, but they are arranged "
@@ -103,6 +132,14 @@ msgid ""
 "with the ``Mean`` and has the ``N`` afterwards, jamovi vice versa) the "
 "two tables are identical. The numerical values for the statistics are "
 "identical: *t* = -3.804, *df* = 11, *p* = 0.003."
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:78
+msgid "SPSS_Output_ttestPS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestPS2.rst:79
+msgid "jamovi_Output_ttestPS1"
 msgstr ""
 
 #: ../../_pages/s2j_ttestPS2.rst:44
@@ -129,4 +166,32 @@ msgid ""
 "Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
 " ed.). SAGE Publications. https://edge.sagepub.com/field5e"
 msgstr ""
+
+#~ msgid ""
+#~ "After having demonstrated the beneficial "
+#~ "effect of repeated-measures-designs on"
+#~ " the standard error of mean, we "
+#~ "conduct a t-test for paired samples. "
+#~ "Using this test, we compare whether "
+#~ "the number of mischieveous acts has "
+#~ "increased after receiving a cloak of "
+#~ "invisibility (variable ``Cloak``) in "
+#~ "comparison to the number of mischieveous"
+#~ " acts at baseline (variable ``No_Cloak``)."
+#~ " This analysis is described in "
+#~ "chapter 10.9.3 of Field (2017), "
+#~ "especially Figure 10.12 and Output 10.8"
+#~ " - 10.9. We use the same data"
+#~ " file **Invisibility RM.sav** which can "
+#~ "be downloaded from the `web page "
+#~ "accompanying Andy Field's book "
+#~ "<https://edge.sagepub.com/field5e/student-"
+#~ "resources/datasets>`__."
+#~ msgstr ""
+
+#~ msgid "**SPSS** (version 27)"
+#~ msgstr ""
+
+#~ msgid "**jamovi** (version 2.0)"
+#~ msgstr ""
 

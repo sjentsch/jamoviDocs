@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,41 +21,87 @@ msgid "From SPSS to jamovi: Correlation"
 msgstr ""
 
 #: ../../_pages/s2j_correlation.rst:7
-msgid "(coming soon)"
+msgid "This comparison shows how a Pearson’s correlation is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 8.4.1-8.4.2 in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 8.7-8.8 and output 8.1. It uses the data set **Exam Anxiety.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__."
 msgstr ""
 
-#: ../../_pages/s2j_correlation.rst:10
-msgid "**SPSS** (version 27)"
+#: ../../_pages/s2j_correlation.rst:12
+msgid "**SPSS**"
 msgstr ""
 
-#: ../../_pages/s2j_correlation.rst:10
-msgid "**jamovi** (version 2.0)"
+#: ../../_pages/s2j_correlation.rst:12
+msgid "**jamovi**"
 msgstr ""
 
-#: ../../_pages/s2j_correlation.rst:20
-msgid "Introduction to results"
+#: ../../_pages/s2j_correlation.rst:14
+msgid "In SPSS you can run a correlation using: ``Analyze`` → ``Correlate`` → ``Bivariate``."
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:14
+msgid "In jamovi you do this using: ``Analyses`` → ``Regression`` →  ``Correlation Matrix``."
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:69
+#: ../../_pages/s2j_correlation.rst:69
+msgid "SPSS_Menu_corr1"
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:70
+#: ../../_pages/s2j_correlation.rst:70
+msgid "jamovi_Menu_corr1"
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:19
+msgid "In SPSS, move the variables ``Revise``, ``Exam`` and ``Anxiety`` to the variable box ``Variables``. In addition, make sure the box called ``Pearson`` under ``Correlation Coefficients`` is ticked."
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:19
+msgid "In jamovi, move the variables ``Revise``, ``Exam`` and ``Anxiety`` into the box on the right. Check ``Pearson`` under ``Correlation Coefficients`` and ``Report significance``, ``Flag significant correlations`` and ``N`` under ``Additional Options``."
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:71
+#: ../../_pages/s2j_correlation.rst:71
+msgid "SPSS_Input_corr1"
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:72
+#: ../../_pages/s2j_correlation.rst:72
+msgid "jamovi_Input_corr1"
 msgstr ""
 
 #: ../../_pages/s2j_correlation.rst:26
-msgid "Summary - comparison: Results (where are results found in SPSS and jamovi)"
+msgid "The results are essentially the same in SPSS and in jamovi."
 msgstr ""
 
-#: ../../_pages/s2j_correlation.rst:28
-msgid "If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to  `Rj <Rj_overview.html>`__)."
+#: ../../_pages/s2j_correlation.rst:73
+#: ../../_pages/s2j_correlation.rst:73
+msgid "SPSS_Output_corr1"
 msgstr ""
 
-#: ../../_pages/s2j_correlation.rst:31
-msgid "``SPSS SYNTAX``"
+#: ../../_pages/s2j_correlation.rst:74
+#: ../../_pages/s2j_correlation.rst:74
+msgid "jamovi_Output_corr1"
 msgstr ""
 
-#: ../../_pages/s2j_correlation.rst:31
-msgid "``jmv::syntax``"
+#: ../../_pages/s2j_correlation.rst:30
+msgid "In SPSS, you can tell if a correlation is significant by noting the amount of asterisks after the correlation coefficient. The correlation matrix shows the correlation coefficient, the p-value, and the sample size (N)."
 msgstr ""
 
-#: ../../_pages/s2j_correlation.rst:34
-msgid "**References**"
+#: ../../_pages/s2j_correlation.rst:30
+msgid "jamovi, in accordance with APA-style, flags significant correlations using one (p < .05), two (p < .01) or three (p < .001) asterisks. In contrast, in SPSS all correlations above p < .01 level are simply marked using two instead of three asterisks."
 msgstr ""
 
 #: ../../_pages/s2j_correlation.rst:35
+msgid "In SPSS, Pearson’s r is found both underneath and over the diagonal, while in jamovi the coefficient is only shown underneath. This makes it much easier to find relevant information from the output in jamovi. The numerical values for the statistics are identical: *r* = 0.40, *p* < .001; *r* = -0.71, *p* < .001; *r* = -0.44, *p* < .001."
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:39
+msgid "If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to  `Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:63
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_correlation.rst:64
 msgid "Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th ed.). SAGE Publications. https://edge.sagepub.com/field5e"
 msgstr ""

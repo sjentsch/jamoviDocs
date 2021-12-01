@@ -10,25 +10,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 19:01+0200\n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
+=======
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:5
 msgid "Comparison of analyses available in SPSS and jamovi"
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst
-msgid "**SPSS** (version 27)"
+msgid "**SPSS**"
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:8
-msgid "**jamovi** (versjon 2.0)"
+msgid "**jamovi**"
+<<<<<<< HEAD
+=======
+msgstr ""
+
+#: ../../_pages/s2j_Comparison_of_analyses.rst:298
+msgid "SPSS_Analyze"
+msgstr ""
+
+#: ../../_pages/s2j_Comparison_of_analyses.rst:299
+msgid "jamovi_Analyze"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst
@@ -63,6 +78,10 @@ msgid ""
 "If you are willing to use some R code (e.g., in conjunction with the "
 "jamovi-module Rj) then you can (most presumably) do every analysis you "
 "could imagine."
+msgstr ""
+
+#: ../../_pages/s2j_Comparison_of_analyses.rst:300
+msgid "jamovi_Modules"
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:40
@@ -657,5 +676,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "T-Test → Paired Samples T-Test, *set kryss / tikk på «Wilcoxon Rank»*"
+#~ msgstr ""
+
+#~ msgid "**SPSS** (version 27)"
+#~ msgstr ""
+
+#~ msgid "**jamovi** (versjon 2.0)"
 #~ msgstr ""
 

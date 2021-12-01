@@ -4,14 +4,14 @@
 From SPSS to jamovi: t-test for paired samples 
 ==============================================
 
-After having demonstrated the beneficial effect of repeated-measures-designs on the standard error of mean, we conduct a t-test for paired samples. Using this test, 
-we compare whether the number of mischieveous acts has increased after receiving a cloak of invisibility (variable ``Cloak``) in comparison to the number of
-mischieveous acts at baseline (variable ``No_Cloak``). This analysis is described in chapter 10.9.3 of Field (2017), especially Figure 10.12 and Output 10.8 - 10.9.
-We use the same data file **Invisibility RM.sav** which can be downloaded from the `web page accompanying Andy Field's book
+After having demonstrated the beneficial effect of repeated-measures-designs on the standard error of mean, we conduct a t-test for paired samples. Using this
+test, we compare whether the number of mischieveous acts has increased after receiving a cloak of invisibility (variable ``Cloak``) in comparison to the number
+of mischieveous acts at baseline (variable ``No_Cloak``). This analysis is described in chapter 10.9.3 of Field (2017), especially Figure 10.12 and Output 10.8
+- 10.9. We use the same data set **Invisibility RM.sav** which can be downloaded from the `web page accompanying Andy Field's book
 <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| **SPSS** (version 27)                                                         | **jamovi** (version 2.0)                                                      |
+| **SPSS**                                                                      | **jamovi**                                                                    |
 +===============================================================================+===============================================================================+
 | In SPSS you can set up a t-test for paired samples using: ``Analyze`` →       | In jamovi you do this using: ``Analyses`` (tab) → ``T-Tests`` → ``Paired      |
 | ``Compare means`` → ``Paired Samples T-Test``.                                | Samples T-Test``                                                              |

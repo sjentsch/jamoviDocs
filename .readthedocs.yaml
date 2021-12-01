@@ -11,6 +11,9 @@ sphinx:
   configuration: conf.py
   fail_on_warning: true
 
+build:
+  image: latest
+
 # Build documentation with MkDocs
 #mkdocs:
 #  configuration: mkdocs.yml

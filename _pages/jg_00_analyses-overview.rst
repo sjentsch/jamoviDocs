@@ -1,8 +1,8 @@
 .. sectionauthor:: `Jonas Rafi <https://www.su.se/english/profiles/jora9288-1.283149>`__ and `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
-========
-Overview
-========
+======================
+Analyses: Introduction
+======================
 
 The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi, and was originally created by Jonas Rafi under the name jamovi guide. However, this is only intended as a brief overview. For a more in-depth treatment of these analyses, we'd recommend you take a look at the many `community resources <https://www.jamovi.org/community.html>`__ available.
 
@@ -75,10 +75,10 @@ Correlation and regression analyses are statistical methods for assessing the re
 
 .. ---------------------------------------------------------------------
 
-.. |nominal|                        image:: ../_images/variable-nominal.*
+.. |nominal|                           image:: ../_images/variable-nominal.*
    :width: 16px
-.. |continuous|                     image:: ../_images/variable-continuous.*
+.. |continuous|                        image:: ../_images/variable-continuous.*
    :width: 16px
-.. |datalab|             image:: ../_images/icon-datalab.png
+.. |datalab|                           image:: ../_images/icon-datalab.png
    :width: 100px
    :target: https://datalab.cc/tools/jamovi

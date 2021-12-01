@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../_pages/Rj_overview.rst:5
-msgid "Rj-module for jamovi"
+msgid "Rj Editor for jamovi"
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:8
@@ -28,6 +28,10 @@ msgstr ""
 msgid "First you have to `install the module <Install_modules.html>`__ Rj from the jamovi library. This will create a «R»-icon in the icon bar."
 msgstr ""
 
+#: ../../_pages/Rj_overview.rst:138
+msgid "jamovi_Rj1"
+msgstr ""
+
 #: ../../_pages/Rj_overview.rst:22
 msgid "Running R commands"
 msgstr ""
@@ -36,8 +40,16 @@ msgstr ""
 msgid "Click on the «R» icon and select «Rj Editor»."
 msgstr ""
 
+#: ../../_pages/Rj_overview.rst:139
+msgid "jamovi_Rj2"
+msgstr ""
+
 #: ../../_pages/Rj_overview.rst:25
 msgid "This opens an input field on the left side where you can use R commands."
+msgstr ""
+
+#: ../../_pages/Rj_overview.rst:140
+msgid "jamovi_Rj3"
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:31
@@ -102,6 +114,10 @@ msgstr ""
 
 #: ../../_pages/Rj_overview.rst:110
 msgid "Switch between R-versions"
+msgstr ""
+
+#: ../../_pages/Rj_overview.rst:141
+msgid "jamovi_Rj4"
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:113

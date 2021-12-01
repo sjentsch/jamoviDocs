@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-22 16:59+0200\n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,34 +25,69 @@ msgid "How to perform a repeated measures ANOVA in jamovi:"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:0
-msgid "You need one continuous outcome variable for each measurement occasion. Make sure that the `measurement levels are set correctly <um_2_first-steps.html#data-variables>`_ so that the continuous variables are marked as |continuous|."
+msgid "You need one |continuous| continuous outcome variable for each measurement occasion."
+msgstr ""
+
+#: ../../_pages/jg_33_anova-rm.rst:73
+#: ../../_pages/jg_33_anova-rm.rst:73
+msgid "continuous"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:0
 msgid "A correct setup should look similar to this:"
 msgstr ""
 
+#: ../../_pages/jg_33_anova-rm.rst:75
+#: ../../_pages/jg_33_anova-rm.rst:75
+msgid "data_format_anova_repeated"
+msgstr ""
+
 #: ../../_pages/jg_33_anova-rm.rst:0
 msgid "Select ``Analyses`` → ``ANOVA`` → ``Repeated Measures ANOVA``."
+msgstr ""
+
+#: ../../_pages/jg_33_anova-rm.rst:77
+#: ../../_pages/jg_33_anova-rm.rst:77
+msgid "select_anova_repeated"
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:0
 msgid "In the box ``Repeated Measures Factors``: write the name of your outcome variable (e.g. ``My_scale``) and name the levels for each measurement occasion (e.g. ``Pre``, ``Post`` and ``12 month follow-up``). The images below shows the box with default values (left) and when the values has been set (right)."
 msgstr ""
 
+#: ../../_pages/jg_33_anova-rm.rst:79
+#: ../../_pages/jg_33_anova-rm.rst:79
+msgid "add_var_anova_repeated_naming_1"
+msgstr ""
+
+#: ../../_pages/jg_33_anova-rm.rst:81
+#: ../../_pages/jg_33_anova-rm.rst:81
+msgid "add_var_anova_repeated_naming_2"
+msgstr ""
+
 #: ../../_pages/jg_33_anova-rm.rst:0
 msgid "Drag and drop your outcome variables to their respective cells in ``Repeated Measures Cells``."
 msgstr ""
 
+#: ../../_pages/jg_33_anova-rm.rst:83
+#: ../../_pages/jg_33_anova-rm.rst:83
+msgid "add_var_anova_repeated"
+msgstr ""
+
 #: ../../_pages/jg_33_anova-rm.rst:0
-msgid "To test the equality of the variance with the Levene test, open the ``Assumption Checks`` drop-down menu and set the ``Homogeneity test`` tick box. It is also a good idea to check that the variances at the different steps of the repetition factor are the same (Sphericity). To do so, open the ``Assumption Checks`` drop-down menu and set the ``Sphericty tests`` tick box."
+msgid "To test the equality of the variance with the Levene test, open the ``Assumption Checks`` drop-down menu and set the ``Homogeneity test`` tick box. It is also a good idea to check that the variances at the different steps of the repetition factor are the same (Sphericity). To do so, open the ``Assumption Checks`` drop-down menu and set the ``Sphericity tests`` tick box."
 msgstr ""
 
 #: ../../_pages/jg_33_anova-rm.rst:0
 msgid "The results are shown in the right panel:"
 msgstr ""
 
-#: ../../_pages/jg_33_anova-rm.rst:58
+#: ../../_pages/jg_33_anova-rm.rst:85
+#: ../../_pages/jg_33_anova-rm.rst:85
+msgid "output_anova_repeated"
+msgstr ""
+
+#: ../../_pages/jg_33_anova-rm.rst:56
 msgid "Further help from the community resources"
 msgstr ""
 

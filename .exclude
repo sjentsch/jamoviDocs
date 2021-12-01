@@ -1,3 +1,4 @@
+_build/gettext/sphinx.pot
 _build/gettext/_pages/dev*.pot
 _build/gettext/_pages/api*.pot
 _build/gettext/_pages/inf*.pot

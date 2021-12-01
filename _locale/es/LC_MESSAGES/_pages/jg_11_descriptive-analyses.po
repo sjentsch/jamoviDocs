@@ -23,134 +23,27 @@ msgstr ""
 "X-Generator: Weblate 4.10-dev\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../../_pages/jg_11_descriptive-analyses.rst:5
-msgid "Descriptive analyses"
-msgstr "Análisis descriptivo"
+#~ msgid "Descriptive analyses"
+#~ msgstr "Análisis descriptivo"
 
-#: ../../_pages/jg_11_descriptive-analyses.rst:7
-msgid "How to perform descriptive analyses and create graphs in jamovi:"
-msgstr "Cómo realizar análisis descriptivo y crear gráficos en jamovi:"
+#~ msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
+#~ msgstr "Selecciona ``Analyses`` → ``Exploration`` → ``Descriptives``."
 
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid "Select ``Analyses`` → ``Exploration`` → ``Descriptives``."
-msgstr "Selecciona ``Analyses`` → ``Exploration`` → ``Descriptives``."
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid ""
-"Drag and drop the variables you want descriptive analyses for to "
-"``Variables``."
-msgstr ""
-"Arrastre y suelte las variables para las que desea realizar análisis "
-"descriptivos a ``Variables``."
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid ""
-"The result is shown in the right panel. Right-click on the output to save"
-" or copy it."
-msgstr ""
-"El resultado se ve en el panel derecho. Haga click-derecho en la salida para "
-"guardarlo o copiarlo."
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid ""
-"To split your descriptive analyses on a categorical variable (e.g. to "
-"separate by gender), move that variable to ``Split by``."
-msgstr ""
-"Para dividir sus análisis descriptivos en una variable categórica (por "
-"ejemplo, para separar por género), mueva esa variable a ``Split by``."
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid "This changes how the output looks like:"
-msgstr "Esto cambia el aspecto de la salida:"
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid "Click the ``Statistics`` tab to see more alternatives."
-msgstr "Presione la pestaña ``Statistics`` para ver más alternativas."
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid ""
-"To create a plot based on the above choices, click the ``Plots`` tab and "
-"tick the box of your desired plot. If you would like to identify outliers"
-" and to check whehter your variables conform with a normal distribution, "
-"then you should tick ``Box plot``, ``Violin``, and ``Q-Q``."
-msgstr ""
-"Para crear un gráfico basado en las opciones anteriores, haga clic en la "
-"pestaña ``Plots`` y marque la casilla del gráfico deseado. Si desea "
-"identificar los valores atípicos y comprobar si sus variables se ajustan a "
-"una distribución normal, deberá marcar las casillas ``Box plot``, ``Violin`` "
-"y ``Q-Q``."
-
-#: ../../_pages/jg_11_descriptive-analyses.rst:55
-msgid "Further help from the community resources"
-msgstr "Más ayuda en los recursos comunitarios"
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid ""
-"If you would like to have these concepts explained in a different way, "
-"please have a look at this `introductory video "
-"<https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
-" by `Barton Poulson <https://datalab.cc/jamovi>`__."
-msgstr ""
-"Si quiere que le expliquen estos conceptos de otra manera, vea este `vídeo "
-"introductorio <https://www.youtube.com/embed/"
-"srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ de `Barton Poulson "
-"<https://datalab.cc/jamovi>`__."
-
-#: ../../_pages/jg_11_descriptive-analyses.rst
-msgid ""
-"For those, aiming to stretch even further to an in-depth introduction, "
-"you can read the respective chapter in the “Learning statistics with "
-"jamovi” `web documentation "
-"<https://lsj.readthedocs.io/en/latest/lsj/Ch04_Descriptives.html>`__ or "
-"chapter 4 of the `e-book <https://www.learnstatswithjamovi.com/>`__ by "
-"`Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft "
-"<https://www.davidfoxcroft.com/>`__."
-msgstr ""
-"Para aquellos que quieran profundizar aún más en la introducción, pueden "
-"leer el capítulo correspondiente de la `documentación web \"Learning "
-"statistics with jamovi\" <https://lsj.readthedocs.io/en/latest/lsj/"
-"Ch04_Descriptives.html>`__ o el capítulo 4 del `e-book <https://www."
-"learnstatswithjamovi.com/>`__ de `Danielle J. Navarro <https://djnavarro.net/"
-">`__ y `David R. Foxcroft <https://www.davidfoxcroft.com/>`__."
-
-#~ msgid "|select_descriptives|"
+#~ msgid ""
+#~ "To split your descriptive analyses on a categorical variable (e.g. to "
+#~ "separate by gender), move that variable to ``Split by``."
 #~ msgstr ""
+#~ "Para dividir sus análisis descriptivos en una variable categórica (por "
+#~ "ejemplo, para separar por género), mueva esa variable a ``Split by``."
 
-#~ msgid "|add_var_descriptives|"
+#~ msgid ""
+#~ "To create a plot based on the above choices, click the ``Plots`` tab and "
+#~ "tick the box of your desired plot. If you would like to identify outliers "
+#~ "and to check whehter your variables conform with a normal distribution, "
+#~ "then you should tick ``Box plot``, ``Violin``, and ``Q-Q``."
 #~ msgstr ""
-
-#~ msgid "|output_descriptives|"
-#~ msgstr ""
-
-#~ msgid "|add_var_descriptives_groupby|"
-#~ msgstr ""
-
-#~ msgid "|output_descriptives_groupby|"
-#~ msgstr ""
-
-#~ msgid "|select_descriptives_statistics|"
-#~ msgstr ""
-
-#~ msgid "|select_descriptives_plots|"
-#~ msgstr ""
-
-#~ msgid "select_descriptives"
-#~ msgstr ""
-
-#~ msgid "add_var_descriptives"
-#~ msgstr ""
-
-#~ msgid "output_descriptives"
-#~ msgstr ""
-
-#~ msgid "add_var_descriptives_groupby"
-#~ msgstr ""
-
-#~ msgid "output_descriptives_groupby"
-#~ msgstr ""
-
-#~ msgid "select_descriptives_statistics"
-#~ msgstr ""
-
-#~ msgid "select_descriptives_plots"
-#~ msgstr ""
+#~ "Para crear un gráfico basado en las opciones anteriores, haga clic en la "
+#~ "pestaña ``Plots`` y marque la casilla del gráfico deseado. Si desea "
+#~ "identificar los valores atípicos y comprobar si sus variables se ajustan "
+#~ "a una distribución normal, deberá marcar las casillas ``Box plot``, "
+#~ "``Violin`` y ``Q-Q``."
