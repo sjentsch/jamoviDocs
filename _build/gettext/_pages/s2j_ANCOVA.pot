@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-01 09:58+0100\n"
+"POT-Creation-Date: 2021-12-01 10:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,11 +124,11 @@ msgid "In SPSS, the output table ``Model Summary`` starts with *R* and *R²*. Th
 msgstr ""
 
 #: ../../_pages/s2j_ANCOVA.rst:43
-msgid "In jamovi, the *R *and *R²* values are found in the output table ``Model Fit Measures``. The Sum of Squares and *F*-values are found in the ``Omnibus ANOVA Test`` table, which in jamovi is separated into a table for model 1 and a table for model 2. Nonetheless, the numbers appear in the same place in the tables. The ``Coefficients`` table is also divided into two tables - one for each model – in jamovi. Here the *b*-values are found under Estimate and the the *β*-values under Stand. Estimate."
+msgid "In jamovi, the *R *and *R²*-values are found in the output table ``Model Fit Measures``. The Sum of Squares and *F*-values are found in the ``Omnibus ANOVA Test`` table, which in jamovi is separated into a table for model 1 and a table for model 2. Nonetheless, the numbers appear in the same place in the tables. The ``Coefficients`` table is also divided into two tables - one for each model – in jamovi. Here the *b*-values are found under Estimate and the the *β*-values under Stand. Estimate."
 msgstr ""
 
 #: ../../_pages/s2j_ANCOVA.rst:52
-msgid "The *R *and *R²*values are found in the first and second column in the first output table in both SPSS and jamovi. In contrast to SPSS, jamovi splits the ``ANOVA`` and ``Coefficients`` for model 1 and model 2. Despite this, almost all the values are found in the same columns, except for the *β*-values, which are located before the *t*- and *p*-values in SPSS and after the *t*- and *p*-values in jamovi."
+msgid "The *R *and *R²*-values are found in the first and second column in the first output table in both SPSS and jamovi. In contrast to SPSS, jamovi splits the ``ANOVA`` and ``Coefficients`` for model 1 and model 2. Despite this, almost all the values are found in the same columns, except for the *β*-values, which are located before the *t*- and *p*-values in SPSS and after the *t*- and *p*-values in jamovi."
 msgstr ""
 
 #: ../../_pages/s2j_ANCOVA.rst:56

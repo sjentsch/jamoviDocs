@@ -37,16 +37,16 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Output_linReg1|                                                         | |jamovi_Output_linReg1|                                                       |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| The table Model Summary shows the value of *R* (= .578) and *R*² (= .335) for | In jamovi, *R* and *R*² are found in the table called Model Fit Measures. The |
+| The table Model Summary shows the value of *R* (= .578) and *R²* (= .335) for | In jamovi, *R* and *R²* are found in the table called Model Fit Measures. The |
 | model. The most important part of the ANOVA table is the value of *F*         | results from the ANOVA is found in the table called Omnibus ANOVA Test, and   |
 | (= 99.587), and its significance *p* (< .001). This shows that this model     | the beta values are found in the table Model Coefficients – Sales.            |
 | this model predicts album sales significantly. The Coefficients table shows   | In jamovi, the beta value is found in the section called Stand. Estimate,     |
 | the beta values and significance of these values.                             | which is located at the far right of the table. As this analysis only has one | 
 |                                                                               | predictor, the *R* value is the correlation between advertising and album     |
-|                                                                               | sales. Furthermore, the value of *R*² indicates that money spent on           |
+|                                                                               | sales. Furthermore, the value of *R²* indicates that money spent on           |
 |                                                                               | advertising can account for 33.5% of the variance in sales of albums.         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| The numerical values for the statistics obtained from SPSS and jamovi are identical: *R* = 0.58, *R*² = 0.33, *F* = 99.59, *p* < .001; *β* = 0.58, *p* < .001.|
+| The numerical values for the statistics obtained from SPSS and jamovi are identical: *R* = 0.58, *R²* = 0.33, *F* = 99.59, *p* < .001; *β* = 0.58, *p* < .001.|
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to `Rj       |
 | <Rj_overview.html>`__).                                                                                                                                       |
