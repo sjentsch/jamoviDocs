@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jamovi2R.rst:5
+msgid "jamovi and R"
+msgstr ""
+
+#: ../../_pages/jamovi2R.rst:7
+msgid "There are a few ways to use jamovi and R together. The first is to use of the `Rj Editor <Rj_overview.html>`__, a module available from the jamovi library that allows executing R code from within jamovi."
+msgstr ""
+
+#: ../../_pages/jamovi2R.rst:9
+msgid "Another is to use the :doc:`jmv R package <jmv_overview>` which makes all the analyses included with jamovi available from an interactive R session (such as in RStudio). jamovi can also provide the equivalent R syntax for each analysis with :doc:`Syntax mode <um_6_syntax_mode>`."
+msgstr ""

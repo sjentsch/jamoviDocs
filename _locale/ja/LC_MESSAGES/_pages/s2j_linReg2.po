@@ -1,0 +1,413 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and
+# Sebastian Jentschke (curating this documentation). This work is licensed
+# under a Creative Commons Attribution-Non Commercial 4.0 International
+# License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 10:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/s2j_linReg2.rst:5
+msgid "From SPSS to jamovi: Linear regression"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:7
+msgid ""
+"This comparison shows how a linear model with several predictors is "
+"conducted in SPSS and jamovi. The SPSS test follows the description in "
+"chapter 9.10-9.11 in `Field (2017) <https://edge.sagepub.com/field5e>`__,"
+" especially figure 9.15-9.19 and 9.22-9.23 as well as output 9.5-9.12. It"
+" uses the data set **Album Sales.sav** which can be downloaded from the "
+"`web page accompanying the book <https://edge.sagepub.com/field5e"
+"/student-resources/datasets>`__."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:12
+msgid "**SPSS**"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:12
+msgid "**jamovi**"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:14
+msgid ""
+"In SPSS, the following steps activates a linear regression: ``Analyze`` →"
+" ``Regression`` → ``Linear``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:14
+msgid ""
+"In jamovi, this can be done using: ``Analyses`` → ``Regression`` → "
+"``Linear Regression``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:122
+msgid "SPSS_Menu_linReg2"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:123
+msgid "jamovi_Menu_linReg2"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:19
+msgid ""
+"Move the variable ``Sales`` to the variable box ``Dependent`` and the "
+"variable ``Adverts`` to the variable box ``Independent(s)``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:19
+msgid ""
+"Move ``Sales`` to the ``Dependent Variable`` box, and the variables "
+"``Adverts``, ``Airplay`` and ``Image`` to the box called ``Covariates``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:124
+msgid "SPSS_Input_linReg2_1"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:130
+msgid "jamovi_Input_linReg2_1"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:24
+msgid ""
+"Press ``Next`` to create a new block, and add the variables ``Airplay`` "
+"and ``Image`` to this ``Independent(s)`` box."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:24
+msgid ""
+"In the ``Model Builder`` window, create a new block by clicking ``+ Add "
+"New Block`` and move the variables ``Airplay`` and ``Image`` to ``Block "
+"2``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:125
+msgid "SPSS_Input_linReg2_2"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:131
+msgid "jamovi_Input_linReg2_2"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:29
+msgid ""
+"In the ``Statistics`` dialog box, select the options shown in the picture"
+" below."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:29
+msgid ""
+"Under ``Assumption Checks`` click ``Collinearity statistics``, ``Q-Q plot"
+" of residuals``, ``Residuals plots`` and ``Cook’s distance``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:126
+msgid "SPSS_Input_linReg2_3"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:132
+msgid "jamovi_Input_linReg2_3"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:34
+msgid ""
+"From the main menu, open the ``Plots`` window and assign ``\\*ZRESID`` to"
+" the to the box labelled ``Y`` and ``\\*ZPRED`` to the box labelled "
+"``X``. In addition, select the options ``Histogram``, ``Normal "
+"probability plot`` and ``Produce all partial plots``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:34
+msgid ""
+"Open the ``Model Fit`` window and choose ``R``, ``R²`` and ``Adjusted "
+"R²``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:127
+msgid "SPSS_Input_linReg2_4"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:133
+msgid "jamovi_Input_linReg2_4"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:41
+msgid ""
+"Open the `Save`` window from the main menu and select the same options as"
+" seen in the picture below."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:41
+msgid ""
+"In the ``Model Coefficients`` window, click ``ANOVA test``, ``Confidence "
+"interval`` and ``Standardized estimate``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:128
+msgid "SPSS_Input_linReg2_5"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:134
+msgid "jamovi_Input_linReg2_5"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:46
+msgid ""
+"Lastly, activate the dialog box for ``Options`` and select ``Use "
+"probability for F``, ``Include constant in equation`` and ``Exclude cases"
+" listwise``."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:129
+msgid "SPSS_Input_linReg2_6"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:51
+msgid ""
+"The results are essentially the same in SPSS and in jamovi, although they"
+" are found in slightly different places. Also, jamovi does not provide "
+"all of the information that can be found in the SPSS output."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:135
+msgid "SPSS_Output_linReg2_1"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:136
+msgid "SPSS_Output_linReg2_2"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:137
+msgid "SPSS_Output_linReg2_3"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:138
+msgid "SPSS_Output_linReg2_4"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:139
+msgid "SPSS_Output_linReg2_5"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:140
+msgid "SPSS_Output_linReg2_6"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:141
+msgid "SPSS_Output_linReg2_7"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:142
+msgid "SPSS_Output_linReg2_8"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:143
+msgid "SPSS_Output_linReg2_9"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:144
+msgid "jamovi_Output_linReg2_1"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:145
+msgid "jamovi_Output_linReg2_2"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:146
+msgid "jamovi_Output_linReg2_3"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:147
+msgid "jamovi_Output_linReg2_4"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:148
+msgid "jamovi_Output_linReg2_5"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:149
+msgid "jamovi_Output_linReg2_6"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:71
+#, python-format
+msgid ""
+"In the Model Summary, you can see the summary statistics for model 1, "
+"where the only predictor is advertising budget, as well as for model 2, "
+"in which all three predictors are used. The *R²*-value of 0.66 in model 2"
+" tells us that advertising budgets, image and airplay together accounts "
+"for 66.5% of the variance in album sales. The standardised beta values "
+"(*β*) indicate what happens to the outcome if one predictor changes by "
+"one standard deviation. The beta values for all the variables are easily "
+"comparable (*β* = 0.51, *β* = 0.51 and *β* = 0.19) because they are "
+"almost the same. According to the results, the overall sales will "
+"increase by 0.512 standard deviations if the number of radio plays the "
+"week before the release date increase by 1 standard deviation (12.27). "
+"Significance levels for all beta values are also important to note."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:71
+msgid ""
+"In jamovi, the *R²*-value is found in the Model Fit Measures table and "
+"the beta values are found in the Model Coefficients – Sales table. The "
+"ANOVA and Coefficients tables for model 1 and 2 are found in separate "
+"tables, whereas in SPSS both models are presented in the same tables. "
+"Also, the Model Summary is divided into two different tables in jamovi – "
+"Model Fit Measures and Model Comparisons."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:84
+msgid ""
+"When doing a linear regression analysis, SPSS produces several output "
+"tables that are not produced in jamovi. For instance, jamovi does not "
+"provide tables for Descriptive Statistics, Correlations, Casewise "
+"Diagnostics and Residuals Statistics. However, jamovi does provide tables"
+" for Model Summary, ANOVA and Coefficients, which show the most important"
+" findings from the regression. Furthermore, jamovi does not produce an "
+"*F*-statistic for model 2 or a Std. Error of the Estimate. Similar to the"
+" analysis on the previous page, the numerical outputs for the current "
+"analysis are identical: *R* = 0.82, *R²* = 0.66; *β* = 0.51, *p* < .001; "
+"*β* = 0.51, *p* < .001; *β* = 0.19, *p* < .001."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:91
+msgid ""
+"If one wishes to use syntax for running those analyses, this can be done "
+"using the following commands (in jamovi with just copying to code below "
+"to  `Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:116
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_linReg2.rst:117
+msgid ""
+"Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
+" ed.). SAGE Publications. https://edge.sagepub.com/field5e"
+msgstr ""
+
+#~ msgid ""
+#~ "In the Model Summary, you can see"
+#~ " the summary statistics for model 1,"
+#~ " where the only predictor is "
+#~ "advertising budget, as well as for "
+#~ "model 2, in which all three "
+#~ "predictors are used. The *R²* value "
+#~ "of 0.66 in model 2 tells us "
+#~ "that advertising budgets, image and "
+#~ "airplay together accounts for 66.5% of"
+#~ " the variance in album sales. The "
+#~ "standardised beta values (*β*) indicate "
+#~ "what happens to the outcome if one"
+#~ " predictor changes by one standard "
+#~ "deviation. The beta values for all "
+#~ "the variables are easily comparable (*β*"
+#~ " = 0.51, *β* = 0.51 and *β* "
+#~ "= 0.19) because they are almost "
+#~ "the same. According to the results, "
+#~ "the overall sales will increase by "
+#~ "0.512 standard deviations if the number"
+#~ " of radio plays the week before "
+#~ "the release date increase by 1 "
+#~ "standard deviation (12.27). Significance "
+#~ "levels for all beta values are "
+#~ "also important to note."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In jamovi, the *R²* value is found"
+#~ " in the Model Fit Measures table "
+#~ "and the beta values are found in"
+#~ " the Model Coefficients – Sales "
+#~ "table. The ANOVA and Coefficients tables"
+#~ " for model 1 and 2 are found"
+#~ " in separate tables, whereas in SPSS"
+#~ " both models are presented in the "
+#~ "same tables. Also, the Model Summary "
+#~ "is divided into two different tables "
+#~ "in jamovi – Model Fit Measures and"
+#~ " Model Comparisons."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Model Summary, you can see"
+#~ " the summary statistics for model 1,"
+#~ " where the only predictor is "
+#~ "advertising budget, as well as for "
+#~ "model 2, in which all three "
+#~ "predictors are used. The *R*²-value of"
+#~ " 0.66 in model 2 tells us that"
+#~ " advertising budgets, image and airplay "
+#~ "together accounts for 66.5% of the "
+#~ "variance in album sales. The "
+#~ "standardised beta values (*β*) indicate "
+#~ "what happens to the outcome if one"
+#~ " predictor changes by one standard "
+#~ "deviation. The beta values for all "
+#~ "the variables are easily comparable (*β*"
+#~ " = 0.51, *β* = 0.51 and *β* "
+#~ "= 0.19) because they are almost "
+#~ "the same. According to the results, "
+#~ "the overall sales will increase by "
+#~ "0.512 standard deviations if the number"
+#~ " of radio plays the week before "
+#~ "the release date increase by 1 "
+#~ "standard deviation (12.27). Significance "
+#~ "levels for all beta values are "
+#~ "also important to note."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In jamovi, the *R*²-value is found "
+#~ "in the Model Fit Measures table "
+#~ "and the beta values are found in"
+#~ " the Model Coefficients – Sales "
+#~ "table. The ANOVA and Coefficients tables"
+#~ " for model 1 and 2 are found"
+#~ " in separate tables, whereas in SPSS"
+#~ " both models are presented in the "
+#~ "same tables. Also, the Model Summary "
+#~ "is divided into two different tables "
+#~ "in jamovi – Model Fit Measures and"
+#~ " Model Comparisons."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When doing a linear regression analysis,"
+#~ " SPSS produces several output tables "
+#~ "that are not produced in jamovi. "
+#~ "For instance, jamovi does not provide"
+#~ " tables for Descriptive Statistics, "
+#~ "Correlations, Casewise Diagnostics and "
+#~ "Residuals Statistics. However, jamovi does "
+#~ "provide tables for Model Summary, ANOVA"
+#~ " and Coefficients, which show the "
+#~ "most important findings from the "
+#~ "regression. Furthermore, jamovi does not "
+#~ "produce an *F*-statistic for model 2 "
+#~ "or a Std. Error of the Estimate."
+#~ " Similar to the analysis on the "
+#~ "previous page, the numerical outputs for"
+#~ " the current analysis are identical: "
+#~ "*R* = 0.82, *R*²* = 0.66; *β* "
+#~ "= 0.51, *p* < .001; *β* = "
+#~ "0.51, *p* < .001; *β* = 0.19, "
+#~ "*p* < .001."
+#~ msgstr ""
+

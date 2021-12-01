@@ -10,14 +10,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-09-14 17:24+0200\n"
+=======
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/um_3_analyses.rst:4
 msgid "Analyses"
@@ -33,7 +37,7 @@ msgid ""
 "will update as you make changes to the options."
 msgstr ""
 
-#: ../../_pages/um_3_analyses.rst:13
+#: ../../_pages/um_3_analyses.rst:8
 msgid ""
 "When you have the analysis set up correctly, you can dismiss the analysis"
 " options by clicking the arrow to the top right of the options panel. If "
@@ -42,18 +46,7 @@ msgid ""
 "say, a colleague) created earlier."
 msgstr ""
 
-#: ../../_pages/um_3_analyses.rst:19
-msgid ""
-"jamovi produces nice APA formatted tables, and attractive plots. It is "
-"often useful to be able to copy and paste these, perhaps into a Word "
-"document, or into an email to a colleague. To copy results, right click "
-"on the object of interest, and from the menu select exactly what you want"
-" to copy. The menu allows you to choose to copy, say only the image, or "
-"the entire analysis. Selecting copy, copies the content to the clipboard,"
-" and can be pasted into the other program in the usual way."
-msgstr ""
-
-#: ../../_pages/um_3_analyses.rst:29
+#: ../../_pages/um_3_analyses.rst:10
 msgid ""
 "If you decide you no longer need a particular analysis, you can remove it"
 " with the results context menu. Right-clicking on the analysis results "
@@ -61,10 +54,20 @@ msgid ""
 " the analysis can be removed."
 msgstr ""
 
-#: ../../_pages/um_3_analyses.rst:36
+#: ../../_pages/um_3_analyses.rst:17
 msgid ""
+<<<<<<< HEAD
 "An overview with short, non-technical tutorials on how to do common "
 "procedures in jamovi can be found under `Analyses <jg_0_welcome.html>`__."
+=======
+"jamovi produces nice APA formatted tables, and attractive plots. It is "
+"often useful to be able to copy and paste these, perhaps into a Word "
+"document, or into an email to a colleague. To copy results, right click "
+"on the object of interest, and from the menu select exactly what you want"
+" to copy. The menu allows you to choose to copy, say only the image, or "
+"the entire analysis. Selecting copy, copies the content to the clipboard,"
+" and can be pasted into the other program in the usual way."
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
 
 #~ msgid "|copy-paste|"
@@ -79,3 +82,20 @@ msgstr ""
 #~ msgid "analysis"
 #~ msgstr ""
 
+<<<<<<< HEAD
+=======
+#~ msgid ""
+#~ "An overview with short, non-technical"
+#~ " tutorials on how to do common "
+#~ "procedures in jamovi can be found "
+#~ "under `Analyses <jg_0_welcome.html>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An overview with short, non-technical"
+#~ " tutorials on how to do common "
+#~ "procedures in jamovi can be found "
+#~ "under `Analyses <jg_0_introduction.html>`__."
+#~ msgstr ""
+
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20

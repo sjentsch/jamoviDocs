@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/s2j_frequencies.rst:5
+msgid "From SPSS to jamovi: Analysis of frequencies"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:7
+msgid "This comparison shows how a Chi-square test is conducted in SPSS and jamovi. The SPSS test follows the description in chapters 19.7.2-19.7.3 in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figures 19.4-19.5 and output 19.2-19.4. It uses the data set **Cats Weight.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:12
+msgid "**SPSS**"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:12
+msgid "**jamovi**"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:14
+msgid "In SPSS, you run a chi-square test using : ``Analyze`` → ``Descriptive Statistics`` → ``Crosstabs``. Before this, you can weight cases by following these steps: ``Data`` → ``Weight Cases``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:14
+msgid "In jamovi, this can be done using: ``Analyses`` → ``Frequencies`` → ``Independent Samples – χ² test of association``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:100
+#: ../../_pages/s2j_frequencies.rst:100
+msgid "SPSS_Menu_chi-square_1"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:101
+#: ../../_pages/s2j_frequencies.rst:101
+msgid "SPSS_Menu_chi-square_2"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:102
+#: ../../_pages/s2j_frequencies.rst:102
+msgid "jamovi_Menu_chi-square"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:21
+msgid "In the ``Weight Cases`` window, click ``Weight cases by`` and move ``Frequency`` to the box called ``Frequency Variable``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:21
+msgid "In jamovi, move ``Training`` to ``Rows``, ``Dance`` to ``Columns``, and ``Frequency`` to ``Counts (optional)``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:103
+#: ../../_pages/s2j_frequencies.rst:103
+msgid "SPSS_Input_chi-square_1"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:108
+#: ../../_pages/s2j_frequencies.rst:108
+msgid "jamovi_Input_chi-square_1"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:26
+msgid "In SPSS, move the ``Training`` variable to the ``Row(s)`` box and the ``Dance`` variable to the variable box ``Column(s)``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:26
+msgid "Open the ``Statistics`` window and tick the boxes for: ``χ²``, ``continuity correction``, ``Likelihood ratio``, ``Fisher’s exact test``, ``Confidence intervals``, ``Contingency coefficient`` and ``Phi and Cramer’s V``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:104
+#: ../../_pages/s2j_frequencies.rst:104
+msgid "SPSS_Input_chi-square_2"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:109
+#: ../../_pages/s2j_frequencies.rst:109
+msgid "jamovi_Input_chi-square_2"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:32
+msgid "Open the ``Statistics`` window and check the boxes for ``Chi-square``, ``Contingency coefficient``, ``Phi and Cramer’s V`` and ``Lambda``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:32
+msgid "In the window for ``Cells``, tick all the boxes."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:105
+#: ../../_pages/s2j_frequencies.rst:105
+msgid "SPSS_Input_chi-square_3"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:110
+#: ../../_pages/s2j_frequencies.rst:110
+msgid "jamovi_Input_chi-square_3"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:37
+msgid "Access ``Cells`` from the main menu, and tick the boxes as shown in the picture below."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:106
+#: ../../_pages/s2j_frequencies.rst:106
+msgid "SPSS_Input_chi-square_4"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:42
+msgid "Lastly, open the window for ``Exact`` and click ``Exact`` and ``Time limit per test: 5 minutes``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:107
+#: ../../_pages/s2j_frequencies.rst:107
+msgid "SPSS_Input_chi-square_5"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:47
+msgid "When comparing the output from SPSS and jamovi, the results are exactly the same, although in jamovi they are much clearer and therefore easier to interpret."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:111
+#: ../../_pages/s2j_frequencies.rst:111
+msgid "SPSS_Output_chi-square_1"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:112
+#: ../../_pages/s2j_frequencies.rst:112
+msgid "SPSS_Output_chi-square_2"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:113
+#: ../../_pages/s2j_frequencies.rst:113
+msgid "SPSS_Output_chi-square_3"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:114
+#: ../../_pages/s2j_frequencies.rst:114
+msgid "jamovi_Output_chi-square"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:53
+msgid "In SPSS, the ``Crosstabulation`` table shows the amount of cases that can be categorized into each combination. We can see the amount of cats that danced, and how many of these were rewarded with food or affection. In the ``Chi-Square Tests`` table, you can find the statistic of the chi-square and the significance level of this value. Degrees of freedom are also presented in this table. The measures of association is presented in the ``Symmetric Measures`` table. By looking at these values, you can find an estimate of the effect size."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:53
+msgid "The contingency table in jamovi contains all the same values as in SPSS, except for ``Standardized Residual``. In jamovi, the chi-square tests are presented in the table called ``χ² Tests``. In contrast to SPSS, this table does not include columns for ``Exact Sig. (2-sided)``, ``Exact Sig. (1-sided)`` and ``Point Probability``, or a row for ``Linear-by-Linear Association``. You can find the measures of association in the ``Nominal`` table. Values for ``Approximate Significance`` and ``Exact Significance`` are not included in jamovi."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:62
+msgid "The only difference between the outputs in SPSS and jamovi is that SPSS produces ``Case Processing Summary`` and ``Directional Measures`` tables."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:64
+msgid "The numerical values for the statistics are the same: *χ²* (1, *N* = 200) = 25.36, *p* < .001."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:66
+msgid "If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to  `Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:92
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:93
+msgid "Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th ed.). SAGE Publications. https://edge.sagepub.com/field5e"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies.rst:98
+msgid "SPSS_Menu_ANCOVA3"
+msgstr ""

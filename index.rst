@@ -10,7 +10,7 @@
 
 .. toctree::
    :titlesonly:
-   :caption: Introduction
+   :caption: Getting Started
    :hidden:
 
    _pages/um_2_first-steps
@@ -128,3 +128,5 @@ jamovi and other software
 
 * :doc:`_pages/SPSS2jamovi`
 * :doc:`_pages/jamovi2R`
+
+.. ============================================================================================================================================================

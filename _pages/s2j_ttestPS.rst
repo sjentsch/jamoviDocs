@@ -9,9 +9,8 @@ underlying the t-test for paired samples. For this calculation, first, the avera
 these individual averages is calculated for the whole group. The individual is then adjusted for that group mean. The aim of this calculation is to show that
 by using repeated measurements, one can “control” for some proportion of the variance which is caused by individual differences in performance. In connection
 with this, the standard error of mean becomes smaller (which means that effects easier can become significant (as compared to a between-subjects design). This
-is described in chapter 10.9.2 of `Field (2017) <https://edge.sagepub.com/field5e>`__, especially Figure 10.7 to 10.10.
-
-It uses the data set **Invisibility RM.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+is described in chapter 10.9.2 of `Field (2017) <https://edge.sagepub.com/field5e>`__, especially Figure 10.7 to 10.10. It uses the data set
+**Invisibility RM.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 The data set describes a repeated-measures-design where first the “baseline”-number of mischieveous acts (during one week) is determined for each participant
 (variable ``No_Cloak``) before they are handed a cloak that makes them invisible. After receiving the cloak, the number of mischieveous acts is recorded for the
 following week (variable ``Cloak``) during which they can make themselves invisible (which is assumed to increase the number of mischieveous acts committed).

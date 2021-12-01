@@ -1,0 +1,321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmv_anovaRM.rst:5
+msgid "Repeated Measures ANOVA"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:8
+msgid "(``anovaRM``)"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:11
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:13
+msgid "The Repeated Measures ANOVA is used to explore the relationship between a continuous dependent variable and one or more categorical explanatory variables, where one or more of the explanatory variables are 'within subjects' (where multiple measurements are from the same subject). Additionally, this analysis allows the inclusion of covariates, allowing for repeated measures ANCOVAs as well."
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:21
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:53
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:56
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:56
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:58
+msgid "``rm``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:58
+msgid "a list of lists, where each list describes the ``label`` (as a string) and the ``levels`` (as vector of strings) of a particular repeated measures factor"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:63
+msgid "``rmCells``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:63
+msgid "a list of lists, where each list decribes a repeated measure (as a string) from ``data`` defined as ``measure`` and the particular combination of levels from ``rm`` that it belongs to (as a vector of strings) defined as ``cell``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:70
+msgid "``bs``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:70
+msgid "a vector of strings naming the between subjects factors from ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:73
+msgid "``cov``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:73
+msgid "a vector of strings naming the covariates from ``data``. Variables must be numeric"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:76
+msgid "``effectSize``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:76
+msgid "one or more of ``'eta'``, ``'partEta'``, or ``'omega'``; use eta², partial eta², and omega² effect sizes, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:80
+msgid "``depLabel``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:80
+msgid "a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:84
+msgid "``rmTerms``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:84
+msgid "a list of character vectors describing the repeated measures terms to go into the model"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:87
+msgid "``bsTerms``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:87
+msgid "a list of character vectors describing the between subjects terms to go into the model"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:90
+msgid "``ss``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:90
+msgid "``'2'`` or ``'3'`` (default), the sum of squares to use"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:93
+msgid "``spherTests``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:93
+msgid "``TRUE`` or ``FALSE`` (default), perform sphericity tests"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:96
+msgid "``spherCorr``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:96
+msgid "one or more of ``'none'`` (default), ``'GG'``, or HF; use no p-value correction, the Greenhouse-Geisser p-value correction, and the Huynh-Feldt p-value correction for shericity, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:102
+msgid "``leveneTest``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:102
+msgid "``TRUE`` or ``FALSE`` (default), test for homogeneity of variances (i.e., Levene's test)"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:105
+msgid "``contrasts``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:105
+msgid "in development"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:107
+msgid "``postHoc``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:107
+msgid "a list of character vectors describing the post-hoc tests that need to be computed"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:110
+msgid "``postHocCorr``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:110
+msgid "one or more of ``'none'``, ``'tukey'`` (default), ``'scheffe'``, ``'bonf'``, or ``'holm'``; use no, Tukey, Scheffe, Bonferroni and Holm posthoc corrections, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:115
+msgid "``emMeans``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:115
+msgid "a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per term."
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:120
+msgid "``emmPlots``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:120
+msgid "``TRUE`` (default) or ``FALSE``, provide estimated marginal means plots"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:123
+msgid "``emmTables``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:123
+msgid "``TRUE`` or ``FALSE`` (default), provide estimated marginal means tables"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:126
+msgid "``emmWeights``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:126
+msgid "``TRUE`` (default) or ``FALSE``, weigh each cell equally or weigh them according to the cell frequency"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:130
+msgid "``ciWidthEmm``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:130
+msgid "a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:134
+msgid "``emmPlotData``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:134
+msgid "``TRUE`` or ``FALSE`` (default), plot the data on top of the marginal means"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:137
+msgid "``emmPlotError``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:137
+msgid "``'none'``, ``'ci'`` (default), or ``'se'``. Use no error bars, use confidence intervals, or use standard errors on the marginal mean plots, respectively"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:142
+msgid "``groupSumm``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:142
+msgid "``TRUE`` or ``FALSE`` (default), report a summary of the different groups"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:147
+msgid "Details"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:149
+msgid "This analysis requires that the data be in 'wide format', where each row represents a subject (as opposed to long format, where each measurement of the dependent variable is represented as a row)."
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:153
+msgid "A non-parametric equivalent of the repeated measures ANOVA also exists; the Friedman test. However, it has the limitation of only being able to test a single factor."
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:158
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:160
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:163
+msgid "``results$rmTable``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:163
+#: ../../_pages/jmv_anovaRM.rst:165
+#: ../../_pages/jmv_anovaRM.rst:167
+#: ../../_pages/jmv_anovaRM.rst:169
+msgid "a table"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:165
+msgid "``results$bsTable``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:167
+msgid "``results$assump$spherTable``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:169
+msgid "``results$assump$leveneTable``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:171
+msgid "``results$contrasts``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:171
+#: ../../_pages/jmv_anovaRM.rst:173
+msgid "an array of tables"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:173
+msgid "``results$postHoc``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:175
+msgid "``results$emm``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:175
+msgid "an array of the estimated marginal means plots + tables"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:178
+msgid "``results$groupSummary``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:178
+msgid "a summary of the groups"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:181
+msgid "Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:184
+msgid "``results$rmTable$asDF``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:186
+msgid "``as.data.frame(results$rmTable)``"
+msgstr ""
+
+#: ../../_pages/jmv_anovaRM.rst:189
+msgid "Examples"
+msgstr ""

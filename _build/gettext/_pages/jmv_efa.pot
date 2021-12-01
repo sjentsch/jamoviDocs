@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 10:21+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/jmv_efa.rst:5
+msgid "Exploratory Factor Analysis (``efa``)"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:8
+msgid "Description"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:10
+msgid "Exploratory Factor Analysis"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:13
+msgid "Usage"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:37
+msgid "Arguments"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:40
+msgid "``data``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:40
+msgid "the data as a data frame"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:42
+msgid "``vars``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:42
+msgid "a vector of strings naming the variables of interest in ``data``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:45
+msgid "``nFactorMethod``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:45
+msgid "``'parallel'`` (default), ``'eigen'`` or ``'fixed'``, the way to determine the number of factors"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:49
+msgid "``nFactors``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:49
+msgid "an integer (default: 1), the number of factors in the model"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:52
+msgid "``minEigen``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:52
+msgid "a number (default: 1), the minimal eigenvalue for a factor to be included in the model"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:55
+msgid "``extraction``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:55
+msgid "``'minres'`` (default), ``'ml'``, or ``'pa'`` use respectively 'minimum residual', 'maximum likelihood', or 'prinicipal axis' as the factor extraction method"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:60
+msgid "``rotation``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:60
+msgid "``'none'``, ``'varimax'``, ``'quartimax'``, ``'promax'``, ``'oblimin'`` (default), or ``'simplimax'``, the rotation to use in estimation"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:65
+msgid "``hideLoadings``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:65
+msgid "a number (default: 0.3), hide factor loadings below this value"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:68
+msgid "``sortLoadings``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:68
+msgid "``TRUE`` or ``FALSE`` (default), sort the factor loadings by size"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:71
+msgid "``screePlot``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:71
+msgid "``TRUE`` or ``FALSE`` (default), show scree plot"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:74
+msgid "``eigen``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:74
+msgid "``TRUE`` or ``FALSE`` (default), show eigenvalue table"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:77
+msgid "``factorCor``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:77
+msgid "``TRUE`` or ``FALSE`` (default), show factor correlations"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:80
+msgid "``factorSummary``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:80
+msgid "``TRUE`` or ``FALSE`` (default), show factor summary"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:83
+msgid "``modelFit``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:83
+msgid "``TRUE`` or ``FALSE`` (default), show model fit measures and test"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:86
+msgid "``kmo``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:86
+msgid "``TRUE`` or ``FALSE`` (default), show Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy (MSA) results"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:90
+msgid "``bartlett``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:90
+msgid "``TRUE`` or ``FALSE`` (default), show Bartlett's test of sphericity results"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:95
+msgid "Output"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:97
+msgid "A results object containing:"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:100
+msgid "``results$text``"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:100
+msgid "a preformatted"
+msgstr ""
+
+#: ../../_pages/jmv_efa.rst:104
+msgid "Examples"
+msgstr ""

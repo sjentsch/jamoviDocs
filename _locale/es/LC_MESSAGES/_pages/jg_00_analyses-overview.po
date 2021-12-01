@@ -65,6 +65,14 @@ msgid ""
 "nominal one, the analysis will simply treat the variable as nominal."
 msgstr ""
 
+#: ../../_pages/jg_00_analyses-overview.rst:80
+msgid "continuous"
+msgstr ""
+
+#: ../../_pages/jg_00_analyses-overview.rst:78
+msgid "nominal"
+msgstr ""
+
 #: ../../_pages/jg_00_analyses-overview.rst:15
 msgid ""
 "All this to say, if the documentation says that a particular measure type"
@@ -79,7 +87,7 @@ msgstr ""
 
 #: ../../_pages/jg_00_analyses-overview.rst:21
 msgid ":doc:`jg_11_descriptive-analyses`"
-msgstr ""
+msgstr ":doc:`jg_11_descriptive-analyses`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:25
 msgid "t-tests"
@@ -101,15 +109,15 @@ msgstr ""
 
 #: ../../_pages/jg_00_analyses-overview.rst:31
 msgid ":doc:`jg_21_t-test-independent`"
-msgstr ""
+msgstr ":doc:`jg_21_t-test-independent`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:32
 msgid ":doc:`jg_22_t-test-paired`"
-msgstr ""
+msgstr ":doc:`jg_22_t-test-paired`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:33
 msgid ":doc:`jg_23_t-test-onesample`"
-msgstr ""
+msgstr ":doc:`jg_23_t-test-onesample`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:35
 #: ../../_pages/jg_00_analyses-overview.rst:54
@@ -169,19 +177,19 @@ msgstr ""
 
 #: ../../_pages/jg_00_analyses-overview.rst:49
 msgid ":doc:`jg_31_unianova`"
-msgstr ""
+msgstr ":doc:`jg_31_unianova`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:50
 msgid ":doc:`jg_32_anova-factorial`"
-msgstr ""
+msgstr ":doc:`jg_32_anova-factorial`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:51
 msgid ":doc:`jg_33_anova-rm`"
-msgstr ""
+msgstr ":doc:`jg_33_anova-rm`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:52
 msgid ":doc:`jg_34_anova-mixed`"
-msgstr ""
+msgstr ":doc:`jg_34_anova-mixed`"
 
 #: ../../_pages/jg_00_analyses-overview.rst
 msgid ""
@@ -219,11 +227,11 @@ msgstr ""
 
 #: ../../_pages/jg_00_analyses-overview.rst:66
 msgid ":doc:`jg_42_regression-linear`"
-msgstr ""
+msgstr ":doc:`jg_42_regression-linear`"
 
 #: ../../_pages/jg_00_analyses-overview.rst:67
 msgid ":doc:`jg_43_regression-logistic`"
-msgstr ""
+msgstr ":doc:`jg_43_regression-logistic`"
 
 #: ../../_pages/jg_00_analyses-overview.rst
 msgid ""
@@ -237,3 +245,6 @@ msgstr ""
 "<https://www.youtube.com/embed/gRhVjKNWiUs?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__"
 " por `Barton Poulson <https://datalab.cc/jamovi>`__."
 
+#: ../../_pages/jg_00_analyses-overview.rst
+msgid "datalab"
+msgstr "datalab"
