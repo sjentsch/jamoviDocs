@@ -68,9 +68,9 @@ This comparison shows how a linear model with several predictors is conducted in
 | |SPSS_Output_linReg2_9|                                                       |                                                                               |
 |                                                                               |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| In the Model Summary, you can see the summary statistics for model 1, where   | In jamovi, the *R²* value is found in the Model Fit Measures table and the    |
+| In the Model Summary, you can see the summary statistics for model 1, where   | In jamovi, the *R*²-value is found in the Model Fit Measures table and the    |
 | the only predictor is advertising budget, as well as for model 2, in which    | beta values are found in the Model Coefficients – Sales table. The ANOVA and  |
-| all three predictors are used. The *R²* value of 0.66 in model 2 tells us     | Coefficients tables for model 1 and 2 are found in separate tables, whereas   |
+| all three predictors are used. The *R*²-value of 0.66 in model 2 tells us     | Coefficients tables for model 1 and 2 are found in separate tables, whereas   |
 | that advertising budgets, image and airplay together accounts for 66.5% of    | in SPSS both models are presented in the same tables. Also, the Model Summary |
 | the variance in album sales. The standardised beta values (*β*) indicate what | is divided into two different tables in jamovi – Model Fit Measures and Model |
 | happens to the outcome if one predictor changes by one standard deviation.    | Comparisons.                                                                  |

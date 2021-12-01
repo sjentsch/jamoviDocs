@@ -38,7 +38,7 @@ downloaded from the `web page accompanying the book <https://edge.sagepub.com/fi
 | *F*-values and significance values.                                           | SPSS table.                                                                   |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | The main difference between the results in SPSS and jamovi is that SPSS provides values for the following: ``Corrected Model``, ``Intercept``, ``Total`` and  |
-| ``Corrected Total``. SPSS also gives *R²* and adjusted *R²*-values for the corrected model.                                                                   |
+| ``Corrected Total``. SPSS also gives *R*² and adjusted *R*²-values for the corrected model.                                                                   |
 |                                                                                                                                                               |
 | If one compares the numerical values, they are the same: *SS*<sub>Dose</sub> = 36.6, *p* < .01; *SS*<sub>Puppy_love</sub> = 17.2, *p* < .05;                  |
 | *SS*<sub>Dose \* Puppy_love</sub> = 20.4, *p* < .05.                                                                                                          |

@@ -40,8 +40,8 @@ downloaded from the `web page accompanying the book <https://edge.sagepub.com/fi
 |                                                                               |                                                                               |
 | |SPSS_Output_ANCOVA1_2|                                                       | |jamovi_Output_ANCOVA1_2|                                                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| In SPSS, the output table ``Model Summary`` starts with *R* and *R²*. The     | In jamovi, the *R *and *R²* values are found in the output table ``Model Fit  |
-| *R²*-value for model 1 shows the goodness of fit when only the covariate is   | Measures``. The Sum of Squares and *F*-values are found in the ``Omnibus      |
+| In SPSS, the output table ``Model Summary`` starts with *R* and *R*². The     | In jamovi, the *R *and *R*² values are found in the output table ``Model Fit  |
+| *R*²-value for model 1 shows the goodness of fit when only the covariate is   | Measures``. The Sum of Squares and *F*-values are found in the ``Omnibus      |
 | included in the analysis, and the value for model 2 shows the results when    | ANOVA Test`` table, which in jamovi is separated into a table for model 1 and |
 | the dummy variables and the covariate are included. The ``ANOVA`` table       | a table for model 2. Nonetheless, the numbers appear in the same place in the |
 | presents the sum of squares for the regression, which tells us how many units | tables. The ``Coefficients`` table is also divided into two tables - one for  |
@@ -49,11 +49,11 @@ downloaded from the `web page accompanying the book <https://edge.sagepub.com/fi
 | ``Coefficients`` table, where you can find the differences  in *b-*values and | the *β*-values under Stand. Estimate.                                         |
 | *β*-values for the two models, as well as their significance values.          |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| The *R *and *R²*values are found in the first and second column in the first output table in both SPSS and jamovi. In contrast to SPSS, jamovi splits the     |
+| The *R *and *R*²-values are found in the first and second column in the first output table in both SPSS and jamovi. In contrast to SPSS, jamovi splits the    |
 | ``ANOVA`` and ``Coefficients`` for model 1 and model 2. Despite this, almost all the values are found in the same columns, except for the *β*-values, which   |
 | are located before the *t*- and *p*-values in SPSS and after the *t*- and *p*-values in jamovi.                                                               |
 |                                                                                                                                                               |
-| The numerical values for the model 2 statistics are identical: *R* = 0.54, *R²* = 0.29; *b* = 0.42, *p* < .05; *β* = 0.39, *p* < .05.                         |
+| The numerical values for the model 2 statistics are identical: *R* = 0.54, *R*² = 0.29; *b* = 0.42, *p* < .05; *β* = 0.39, *p* < .05.                         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to  `Rj      |
 | <Rj_overview.html>`__).                                                                                                                                       |
