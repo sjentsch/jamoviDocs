@@ -1,12 +1,12 @@
-.. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
+.. sectionauthor:: Rebecca Vederhus, `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
 ======================================
 From SPSS to jamovi: Linear regression 
 ======================================
 
-This comparison shows how a linear model with one predictor is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 9.7 in `Field (2017)
-<https://edge.sagepub.com/field5e>`__, especially figure 9.13, and output 9.2-9.4. It uses the data file \*\*Album Sales.sav\*\* which can be downloaded from the
-`web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+This comparison shows how a linear model with one predictor is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 9.7 in `Field
+(2017) <https://edge.sagepub.com/field5e>`__, especially figure 9.13, and output 9.2-9.4. It uses the data set **Album Sales.sav** which can be downloaded
+from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |
@@ -46,8 +46,7 @@ This comparison shows how a linear model with one predictor is conducted in SPSS
 |                                                                               | sales. Furthermore, the value of *R²* indicates that money spent on           |
 |                                                                               | advertising can account for 33.5% of the variance in sales of albums.         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| The numerical values for the statistics obtained from SPSS and jamovi are identical: **R** = 0.58, **R²** = 0.33, **F** = 99.59 (**p** < .001), **β** = 0.58  |
-| (**p** < .001).                                                                                                                                               |
+| The numerical values for the statistics obtained from SPSS and jamovi are identical: *R* = 0.58, *R*² = 0.33, *F* = 99.59, *p* < .001; *β* = 0.58, *p* < .001.|
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to `Rj       |
 | <Rj_overview.html>`__).                                                                                                                                       |
@@ -71,7 +70,6 @@ This comparison shows how a linear model with one predictor is conducted in SPSS
    :hidden:
 
    s2j_linReg2
-
 
 | **References**
 | Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th ed.). SAGE Publications. https://edge.sagepub.com/field5e

@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and
+# Sebastian Jentschke (curating this documentation). This work is licensed
+# under a Creative Commons Attribution-Non Commercial 4.0 International
+# License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/s2j_ANCOVA4.rst:5
+msgid "From SPSS to jamovi: Analysis of Covariance (ANCOVA)"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:7
+msgid ""
+"This comparison shows how an analysis of covariance which excludes the "
+"covariate is conducted in SPSS and jamovi. The SPSS test follows the "
+"description in chapter 13.6.1 - 13.6.4 in `Field (2017) "
+"<https://edge.sagepub.com/field5e>`__, especially figure 13.5-13.7 "
+"(Excluding the covariate in figure 13.5 and ``Options`` in figure 13.7) "
+"and output 13.5. It uses the data set **Puppy Love.sav** which can be "
+"downloaded from the `web page accompanying the book "
+"<https://edge.sagepub.com/field5e/student-resources/datasets>`__."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:13
+msgid "**SPSS**"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:13
+msgid "**jamovi**"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:15
+msgid ""
+"In SPSS, you can run this test using: ``Analyze`` → ``General Linear "
+"Model`` → ``Univariate``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:15
+msgid ""
+"In jamovi, you can create an analysis of covariance using: ``Analyses`` →"
+" ``ANOVA`` → ``ANCOVA``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:85
+msgid "SPSS_Menu_ANCOVA4"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:86
+msgid "jamovi_Menu_ANCOVA4"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:20
+msgid ""
+"In SPSS, move ``Happiness`` to the ``Dependent Variable`` box and "
+"``Dose`` to the ``Fixed Factor(s)`` box."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:20
+msgid ""
+"In jamovi, move ``Happiness`` to ``Dependent Variable`` and ``Dose`` to "
+"``Fixed Factors``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:87
+msgid "SPSS_Input_ANCOVA4_1"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:90
+msgid "jamovi_Input_ANCOVA4_1"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:25
+msgid ""
+"Open the dialog box called ``Contrasts``, and click the drop-down menu to"
+" select ``Simple``. Change the ``Reference Category`` to ``First``, and "
+"press press ``Change``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:25
+msgid ""
+"Open the ``Contrasts`` window, and select ``simple`` from the drop-down "
+"menu."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:88
+msgid "SPSS_Input_ANCOVA4_2"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:91
+msgid "jamovi_Input_ANCOVA4_2"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:31
+msgid ""
+"Select ``EM Means`` from the sidebar. Move ``Dose`` to the box called "
+"``Display Means for:``, press ``Compare main effects`` and select "
+"``Sidak`` in the drop-down list."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:31
+msgid ""
+"In the ``Estimated Marginal Means`` window, move ``Dose`` to ``Term 1``. "
+"Tick Tick the box for ``Marginal means tables`` as shown in the picture "
+"below."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:89
+msgid "SPSS_Input_ANCOVA4_3"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:92
+msgid "jamovi_Input_ANCOVA4_3"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:37
+msgid ""
+"The results are essentially the same in SPSS and jamovi, except that SPSS"
+" provides more output tables than jamovi."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:93
+msgid "SPSS_Output_ANCOVA4_1"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:94
+msgid "SPSS_Output_ANCOVA4_2"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:95
+msgid "SPSS_Output_ANCOVA4_3"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:96
+msgid "jamovi_Output_ANCOVA4"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:45
+msgid ""
+"In SPSS, you can find the adjusted values of the group means in the "
+"``Estimates`` table. By looking at the ``Mean`` you can find out if there"
+" are any changes in happiness levels if there is an increase in puppy "
+"exposure. The ``Tests of Between-Subjects Effects`` table shows the sum "
+"of squares for the dose of puppies, and this tells us how many units of "
+"variance this factor accounts for. In the ``Contrast Results (K Matrix)``"
+" table, level 2 (15 mins) is compared with level 1 (control) and then "
+"level 3 (30 mins) is compared with level 1 (control). Here, the group "
+"differences are indicated by standard error, a difference value and a "
+"*p*-value."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:45
+msgid ""
+"In jamovi, the adjusted values can be found in the table called "
+"``Estimated Marginal Means – Dose``. This table looks exactly the same as"
+" the equivalent table in SPSS. Sum of squares are found in the ``ANCOVA –"
+" Happiness`` table. These tables differ slightly in SPSS and in jamovi, "
+"as jamovi only gives results for ``Dose``, ``Puppy_love`` and "
+"``Residuals``. The contrast analysis in jamovi also does not provide all "
+"of the values that the SPSS analysis does. However, all important "
+"information (that you typically would report) is included."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:55
+msgid ""
+"jamovi does not include the values for the ``Corrected Model``, "
+"``Intercept``, ``Total`` and ``Corrected Total`` in its analysis of "
+"covariance. Apart from this, the ANCOVA table follows the same structure "
+"as in SPSS. The tables for ``Estimated Marginal Means`` are also "
+"identical in SPSS and jamovi. The results from the contrast analysis in "
+"jamovi appears much clearer than the one in SPSS. Here, the results are "
+"presented horizontally, while the results in SPSS are presented "
+"vertically. In contrast to SPSS, jamovi only includes the following "
+"values: ``Estimate``, ``SE`, ``*t*`` and ``*p*``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:60
+msgid ""
+"The numerical values for these analyses are the same: *SS*<sub>Dose</sub>"
+" = 16.84; *M*<sub>Control</sub> = 3.22, *M*<sub>15mins</sub> = 4.87, "
+"*M*<sub>30mins</sub> = 4.85; contrast 1, *p* = 0.080; contrast 2, *p* = "
+"0.055."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:63
+msgid ""
+"If one wishes to use syntax for running those analyses, this can be done "
+"using the following commands (in jamovi with just copying to code below "
+"to  `Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:79
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA4.rst:80
+msgid ""
+"Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
+" ed.). SAGE Publications. https://edge.sagepub.com/field5e"
+msgstr ""
+

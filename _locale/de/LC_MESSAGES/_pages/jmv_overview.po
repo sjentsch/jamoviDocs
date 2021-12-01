@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
-"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
 "PO-Revision-Date: 2021-07-27 01:33+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language: de\n"
@@ -19,57 +19,49 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../_pages/jmv_overview.rst:5
-msgid "The R-library ``jmv``"
+msgid "The ``jmv`` R package"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:10
+#: ../../_pages/jmv_overview.rst:7
 msgid ""
-"The real power of using jamovi and the jmv-library (described below) "
-"comes with the opportunity to integrate it with other R-functions. Such "
-"R-functions could, e.g., be used to extract and manipulate data from log "
-"files of software used to conduct experiments (PsychoPy, e-prime, etc.)."
+"For some use-cases, it's preferable to be able use the jamovi analyses "
+"from R. This is provided by the ``jmv`` R package. All the analyses "
+"included with jamovi are available from within R using this package."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:12
-msgid ""
-"jmv is the jamovi R package. All the analyses included with jamovi are "
-"available from within R using this package."
-msgstr ""
-
-#: ../../_pages/jmv_overview.rst:16
+#: ../../_pages/jmv_overview.rst:13
 msgid "Preparation"
 msgstr "Vorbereitung"
 
-#: ../../_pages/jmv_overview.rst:27
+#: ../../_pages/jmv_overview.rst:15
 msgid ""
 "``jmv`` is available from CRAN (a central repository for publicly "
-"available R-packages). To install the library that contains the functions"
-" used by jamovi (and in the examples below) open R and type the first "
-"line (the >-mark at the begin of the line is the input-mark of R and must"
-" not be copied / typed). The package ``haven`` is required if you want to"
-" read or write SPSS, SAS or Stata files and can be installed using the "
-"second line. If you want to read and write `jamovi "
-"<https://www.jamovi.org>`__'s omv-files you can use the package "
-"``jmvReadWrite`` which is installed using the third line. Finally, the "
-"package ``jmvconnect`` permits to access data sets that you currently "
-"have opened in `jamovi <https://www.jamovi.org>`__."
+"available R-packages). To install jmv, open an interactive R session "
+"(e.g. RStudio) and type the first line (the >-mark at the begin of the "
+"line is the input-mark of R and must not be copied / typed). The package "
+"``haven`` is required if you want to read or write SPSS, SAS or Stata "
+"files and can be installed using the second line. If you want to read and"
+" write `jamovi <https://www.jamovi.org>`__'s omv-files you can use the "
+"package ``jmvReadWrite`` which is installed using the third line. "
+"Finally, the package ``jmvconnect`` permits to access data sets that you "
+"currently have opened in `jamovi <https://www.jamovi.org>`__."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:29
+#: ../../_pages/jmv_overview.rst:16
 msgid ""
 "More information about the analyses ``jmv`` provides or how to use the "
-"other packages is available using the R help system, or from the overview"
-" below."
+"other  packages is available using the R help system, or from the "
+"overview below."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:41
+#: ../../_pages/jmv_overview.rst:28
 msgid "Use of jamovi syntax in R"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:46
+#: ../../_pages/jmv_overview.rst:33
 msgid ""
 "For examples on how to use ``jmv``, jamovi can be placed in ‘Syntax "
 "mode’. Syntax mode produces the R syntax required to reproduce jamovi "
@@ -78,18 +70,30 @@ msgid ""
 " the properties window."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:47
+#: ../../_pages/jmv_overview.rst:34
 msgid "Close the properties with the arrow-icon (→) at the top-right."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:50
+#: ../../_pages/jmv_overview.rst:208
+msgid "jamovi_SyntaxMode1"
+msgstr ""
+
+#: ../../_pages/jmv_overview.rst:37
 msgid ""
 "The main window changes to text mode and you can run analyses and "
 "afterwards right-click on the command the appears at the top of each "
 "analysis to export or copy the syntax."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:66
+#: ../../_pages/jmv_overview.rst:209
+msgid "jamovi_SyntaxMode2"
+msgstr ""
+
+#: ../../_pages/jmv_overview.rst:210
+msgid "jamovi_SyntaxMode3"
+msgstr ""
+
+#: ../../_pages/jmv_overview.rst:53
 msgid ""
 "Alternatively, you can write syntax directly. To do this, open R or "
 "RStudio and type the command in the first line. As during the description"
@@ -99,7 +103,7 @@ msgid ""
 "current jamovi-session."
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:80
+#: ../../_pages/jmv_overview.rst:67
 msgid ""
 "Afterwards, you are ready to analyze your data. Typically, you have to "
 "load a dataset first. Use the first line if you have a CSV file (``sep`` "
@@ -108,14 +112,14 @@ msgid ""
 "loading jamovi-files:"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:92
+#: ../../_pages/jmv_overview.rst:79
 msgid ""
 "Afterwards are you ready to run whatever analysis you like (here is an "
 "`overview <https://www.jamovi.org/jmv>`__ of available functions). For "
 "example, to run a simple descriptive-statistics-analysis:"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:100
+#: ../../_pages/jmv_overview.rst:87
 msgid ""
 "or for a correlation between to variables (quite basic in the first and "
 "more advanced - adding two non-parametric measures and plots - in the "
@@ -123,43 +127,43 @@ msgid ""
 "is the default):"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:112
+#: ../../_pages/jmv_overview.rst:100
 msgid "Overview over the analyses contained in ``jmv``"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:115
+#: ../../_pages/jmv_overview.rst:103
 msgid "Exploration"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:124
+#: ../../_pages/jmv_overview.rst:113
 msgid "T-Tests"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:135
+#: ../../_pages/jmv_overview.rst:125
 msgid "ANOVA"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:150
+#: ../../_pages/jmv_overview.rst:141
 msgid "Regression"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:164
+#: ../../_pages/jmv_overview.rst:156
 msgid "Frequencies"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:177
+#: ../../_pages/jmv_overview.rst:170
 msgid "Factor analyses"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:190
+#: ../../_pages/jmv_overview.rst:184
 msgid "Data handling using ``jmvconnect`` or ``jmvReadWrite``"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:193
+#: ../../_pages/jmv_overview.rst:187
 msgid "jmvconnect"
 msgstr ""
 
-#: ../../_pages/jmv_overview.rst:203
+#: ../../_pages/jmv_overview.rst:197
 msgid "jmvReadWrite"
 msgstr ""
 
@@ -218,5 +222,58 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "jamovi_SyntaxMode3"
+#~ msgstr ""
+
+#~ msgid "The R-library ``jmv``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The real power of using jamovi and"
+#~ " the jmv-library (described below) "
+#~ "comes with the opportunity to integrate"
+#~ " it with other R-functions. Such "
+#~ "R-functions could, e.g., be used to "
+#~ "extract and manipulate data from log "
+#~ "files of software used to conduct "
+#~ "experiments (PsychoPy, e-prime, etc.)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "jmv is the jamovi R package. All"
+#~ " the analyses included with jamovi "
+#~ "are available from within R using "
+#~ "this package."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``jmv`` is available from CRAN (a "
+#~ "central repository for publicly available "
+#~ "R-packages). To install the library that"
+#~ " contains the functions used by "
+#~ "jamovi (and in the examples below) "
+#~ "open R and type the first line "
+#~ "(the >-mark at the begin of the"
+#~ " line is the input-mark of R"
+#~ " and must not be copied / "
+#~ "typed). The package ``haven`` is "
+#~ "required if you want to read or"
+#~ " write SPSS, SAS or Stata files "
+#~ "and can be installed using the "
+#~ "second line. If you want to read"
+#~ " and write `jamovi <https://www.jamovi.org>`__'s"
+#~ " omv-files you can use the "
+#~ "package ``jmvReadWrite`` which is installed"
+#~ " using the third line. Finally, the"
+#~ " package ``jmvconnect`` permits to access"
+#~ " data sets that you currently have"
+#~ " opened in `jamovi <https://www.jamovi.org>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "More information about the analyses "
+#~ "``jmv`` provides or how to use the"
+#~ " other packages is available using "
+#~ "the R help system, or from the "
+#~ "overview below."
 #~ msgstr ""
 

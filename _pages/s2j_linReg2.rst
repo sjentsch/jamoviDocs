@@ -1,13 +1,12 @@
-.. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
+.. sectionauthor:: Rebecca Vederhus, `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
 ======================================
 From SPSS to jamovi: Linear regression 
 ======================================
 
 This comparison shows how a linear model with several predictors is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 9.10-9.11 in
-`Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 9.15-9.19 and 9.22-9.23 as well as output 9.5-9.12. It uses the data file
-\*\*Album Sales.sav\*\* which can be downloaded from the `web page accompanying the book
-<https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+`Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 9.15-9.19 and 9.22-9.23 as well as output 9.5-9.12. It uses the data set
+**Album Sales.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |
@@ -86,8 +85,8 @@ This comparison shows how a linear model with several predictors is conducted in
 | for Descriptive Statistics, Correlations, Casewise Diagnostics and Residuals Statistics. However, jamovi does provide tables for Model Summary, ANOVA and     |
 | Coefficients, which show the most important findings from the regression. Furthermore, jamovi does not produce an *F*-statistic for model 2 or a Std. Error   |
 | of the Estimate.                                                                                                                                              |
-| Similar to the analysis on the previous page, the numerical outputs for the current analysis are identical: **R** = 0.82, **R²** = 0.66; **β** = 0.51 (**p**  |
-| < .001); **β** = 0.51 (**p** < .001); **β** = 0.19 (**p** < .001).                                                                                            |
+| Similar to the analysis on the previous page, the numerical outputs for the current analysis are identical: *R* = 0.82, *R*²* = 0.66; *β* = 0.51, *p* < .001; |
+| *β* = 0.51, *p* < .001; *β* = 0.19, *p* < .001.                                                                                                               |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to  `Rj      |
 | <Rj_overview.html>`__).                                                                                                                                       |

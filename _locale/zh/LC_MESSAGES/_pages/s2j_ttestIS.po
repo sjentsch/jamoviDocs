@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
+# Jentschke (curating this documentation). This work is licensed under a
+# Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/s2j_ttestIS.rst:5
+msgid "From SPSS to jamovi: t-test for independent samples"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:7
+msgid ""
+"This comparison shows how a t-test for independent samples is performed "
+"in SPSS and jamovi. How the test is conducted in SPSS follows the "
+"description in chapter 10.8 of `Field (2017) "
+"<https://edge.sagepub.com/field5e>`__, especially Figure 10.4 and Output "
+"10.3 - 10.4. It uses the data set **Invisibility.sav** which can be "
+"downloaded from the `web page accompanying the book "
+"<https://edge.sagepub.com/field5e/student-resources/datasets>`__."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:12
+msgid "**SPSS**"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:12
+msgid "**jamovi**"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:14
+msgid ""
+"In SPSS you can run an independent t-test using: ``Analyze`` → ``Compare "
+"Means`` → ``Independent Samples T-test``"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:14
+msgid ""
+"In jamovi you do this using: ``Analyses`` (tab) → ``T-Tests`` → "
+"``Independent Samples T-Test``"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:65
+msgid "SPSS_Menu_ttestIS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:66
+msgid "jamovi_Menu_ttestIS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:19
+msgid ""
+"In SPSS, ``Mischevious acts`` is moved to the variable box ``Test "
+"variables(s)`` and ``Cloak of invisibility`` to variable box ``Grouping "
+"variables``. Afterwards, press the button ``Define Groups...`` "
+"(underneath the variable box ``Grouping variables``) and enter ``0`` "
+"under ``Group 1`` and ``1`` under ``Group 2``."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:19
+msgid ""
+"In jamovi, the variable ``Mischief`` is moved to the variable box "
+"``Dependent Variable(s)``, and the variable ``Cloak`` is moved to the "
+"variable box ``Grouping Variable``. If you wish to obtain an identical "
+"output to SPSS, one has to switch on the Levene's Test for the Equality "
+"of Variances, by ticking ``Homogeneity Test`` under ``Assumption "
+"Checks``; the table with the descriptive statistics for the two groups "
+"can be selected by ticking ``Descriptives`` under ``Additional "
+"Statistics``."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:67
+msgid "SPSS_Input_ttestIS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:68
+msgid "jamovi_Input_ttestIS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:29
+msgid ""
+"If one compares the outputs of SPSS and jamovi, the results are the same."
+" However, the output of jamovi appears much clearer. The main results can"
+" be found in slightly different places in SPSS and jamovi."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:69
+msgid "SPSS_Output_ttestIS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:70
+msgid "jamovi_Output_ttestIS1"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:34
+msgid ""
+"In SPSS, the output table ``Independent Samples T-Test`` starts with "
+"Levene's Test for the Equality of Variances. If it is NOT significant (p "
+">   0.05), one can use the results from the first line (``Equal variances"
+" assumed``), otherwise, you have to use the results from the second line "
+"(``Equal variances not assumed``)."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:34
+msgid ""
+"If the p-value in the table ``Homogeneity of Variances Test (Levene's)`` "
+"is significant (p < 0.05), then you have to correct for that "
+"inhomogeneity. To do so, untick ``Student's`` and tick ``Welch's`` "
+"instead (under ``Test`` in the input panel). The results described "
+"underneath can be found in the first table ``Independent Samples "
+"T-Test``."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:40
+msgid ""
+"The t-value can be found in the third column (``t``) in SPSS and the "
+"first column (``statistics``) in jamovi, the next column after that "
+"(``df``, both in SPSS and jamovi) shows the degrees of freedom and the "
+"column after that (``Sig. (2-tailed)`` in SPSS, ``p`` in jamovi) the "
+"p-value for this combination of t-value and degrees of freedom."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:44
+msgid ""
+"The numerical values for the statistics are identical: *t* = -1.71, *df* "
+"= 22, *p* = 0.101."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:46
+msgid ""
+"If one wishes to use syntax for running those analyses, this can be done "
+"using the following commands (in jamovi by just copying to code below to "
+"`Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:59
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_ttestIS.rst:60
+msgid ""
+"Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
+" ed.). SAGE Publications. https://edge.sagepub.com/field5e"
+msgstr ""
+
+#~ msgid ""
+#~ "This comparison shows how a t-test "
+#~ "for independent samples is performed in"
+#~ " SPSS and jamovi. How the test "
+#~ "is conducted in SPSS follows the "
+#~ "description in chapter 10.8 of `Field"
+#~ " (2017) <https://edge.sagepub.com/field5e>`__, "
+#~ "especially Figure 10.4 and Output 10.3"
+#~ " - 10.4. It uses the data file"
+#~ " **Invisibility.sav** which can be "
+#~ "downloaded from the `web page "
+#~ "accompanying the book "
+#~ "<https://edge.sagepub.com/field5e/student-"
+#~ "resources/datasets>`__."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In jamovi, the variable ``Mischief`` is"
+#~ " moved to the variable box "
+#~ "``Dependent Variable(s)``, and the variable"
+#~ " ``Cloak`` is moved to the variable"
+#~ " box ``Grouping Variable``. If you "
+#~ "wish to obtain an identical output "
+#~ "to SPSS, you have to switch on "
+#~ "the Levene's Test for the Equality "
+#~ "of Variances, by ticking ``Homogeneity "
+#~ "Test`` under ``Assumption Checks``; the "
+#~ "table with the descriptive statistics "
+#~ "for the two groups can be selected"
+#~ " by ticking ``Descriptives`` under "
+#~ "``Additional Statistics``."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In SPSS, the output table ``Independent"
+#~ " Samples T-Test`` starts with Levene's "
+#~ "Test for the Equality of Variances. "
+#~ "If it is NOT significant (p > "
+#~ "0.05), you can use the results "
+#~ "from the first line (``Equal variances"
+#~ " assumed``), otherwise, you have to "
+#~ "use the results from the second "
+#~ "line (``Equal variances not assumed``)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If one wishes to use syntax for"
+#~ " running those analyses, this can be"
+#~ " done using the following commands "
+#~ "(in jamovi with just copying to "
+#~ "code below to  `Rj <Rj_overview.html>`__)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``T-TEST GROUPS=Cloak(0 1) /MISSING=ANALYSIS "
+#~ "/VARIABLES=Mischief /CRITERIA=CI(.95).``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``jmv::ttestIS(formula = Mischief ~ Cloak, "
+#~ "data = data, desc = TRUE, eqv "
+#~ "= TRUE)``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This comparison shows how a t-test "
+#~ "for independent samples is performed in"
+#~ " SPSS and jamovi. How the test "
+#~ "is conducted in SPSS follows the "
+#~ "description in chapter 10.8 of `Field"
+#~ " (2017) <https://edge.sagepub.com/field5e>`__, "
+#~ "especially Figure 10.4 and Output 10.3"
+#~ " - 10.4."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It uses the data file "
+#~ "**Invisibility.sav** which can be downloaded"
+#~ " from the `web page accompanying the"
+#~ " book <https://edge.sagepub.com/field5e/student-"
+#~ "resources/datasets>`__."
+#~ msgstr ""
+
+#~ msgid "**SPSS** (version 27)"
+#~ msgstr ""
+
+#~ msgid "**jamovi** (version 2.0)"
+#~ msgstr ""
+

@@ -75,10 +75,10 @@ Correlation and regression analyses are statistical methods for assessing the re
 
 .. ---------------------------------------------------------------------
 
-.. |nominal|                        image:: ../_images/variable-nominal.*
+.. |nominal|                           image:: ../_images/variable-nominal.*
    :width: 16px
-.. |continuous|                     image:: ../_images/variable-continuous.*
+.. |continuous|                        image:: ../_images/variable-continuous.*
    :width: 16px
-.. |datalab|             image:: ../_images/icon-datalab.png
+.. |datalab|                           image:: ../_images/icon-datalab.png
    :width: 100px
    :target: https://datalab.cc/tools/jamovi

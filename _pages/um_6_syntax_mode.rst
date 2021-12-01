@@ -11,7 +11,7 @@ In syntax mode, analyses continue to operate as before, but now they produce R s
 
    <div class="gif-player" data-anim-src="../_static/um_rSyntax.gif" data-static-src="../_static/um_rSyntax.png"></div>
 
-At present, the provided R syntax does not include the data import step, and this must be performed manually. There are many resources explaining how to import data into R, and we recommend you take a look at these (Most analyses in jamovi require data as a data frame).
+At present, the provided R syntax does not include the data import step, and this must be performed manually. There are many resources explaining how to import data into R, and we recommend you take a look at these (most analyses in jamovi require data as a data frame).
 
 Another R feature that may be of interest is the `Rj Editor <https://blog.jamovi.org/2018/07/30/rj.html>`__, which allows you to use R code to analyse data directly in jamovi.
 

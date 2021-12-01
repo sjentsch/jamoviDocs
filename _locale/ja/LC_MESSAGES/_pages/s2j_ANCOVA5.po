@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and
+# Sebastian Jentschke (curating this documentation). This work is licensed
+# under a Creative Commons Attribution-Non Commercial 4.0 International
+# License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/s2j_ANCOVA5.rst:5
+msgid "From SPSS to jamovi: Analysis of Covariance (ANCOVA)"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:7
+msgid ""
+"This comparison shows how to test the assumption of homogeneity of "
+"regression slopes in SPSS and jamovi. The SPSS test follows the "
+"description in chapter 13.7 in `Field (2017) "
+"<https://edge.sagepub.com/field5e>`__, especially figure 13.9 and output "
+"13.12. It uses the data set **Puppy Love Dummy.sav** which can be "
+"downloaded from the `web page accompanying the book "
+"<https://edge.sagepub.com/field5e/student-resources/datasets>`__."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:12
+msgid "**SPSS**"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:12
+msgid "**jamovi**"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:14
+msgid ""
+"In SPSS, you can run this test using: ``Analyze`` → ``General Linear "
+"Model`` → ``Univariate``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:14
+msgid "In jamovi you do this using: ``Analyses`` → ``ANOVA`` → ``ANCOVA``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:65
+msgid "SPSS_Menu_ANCOVA5"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:66
+msgid "jamovi_Menu_ANCOVA5"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:19
+msgid ""
+"In SPSS, move ``Happiness`` to the ``Dependent Variable`` box, ``Dose`` "
+"to the ``Fixed Factor(s)`` box, and ``Puppy_love`` to the "
+"``Covariate(s)`` box."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:19
+msgid ""
+"In jamovi, move the ``Happiness`` variable to ``Dependent Variable``, the"
+" ``Dose`` variable to ``Fixed Factors``, and the ``Puppy_love`` variable "
+"to ``Covariates``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:67
+msgid "SPSS_Input_ANCOVA5_1"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:69
+msgid "jamovi_Input_ANCOVA5_1"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:25
+msgid ""
+"Access the ``Model`` window, and click ``Build terms``. Then, mark the "
+"variables ``Dose`` and ``Puppy_love``, open the drop-down menu and choose"
+" ``Interaction``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:25
+msgid ""
+"Next, open the ``Model`` window. Mark both ``Dose`` and ``Puppy_love``, "
+"then click the arrow with the drop-down menu and click ``Interaction``."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:68
+msgid "SPSS_Input_ANCOVA5_2"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:70
+msgid "jamovi_Input_ANCOVA5_2"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:31
+msgid ""
+"Comparisons between the output in SPSS and jamovi shows that the results "
+"are the same."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:71
+msgid "SPSS_Output_ANCOVA5"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:72
+msgid "jamovi_Output_ANCOVA5"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:35
+msgid ""
+"In SPSS, the ``Tests of Between-Subjects Effects`` table shows the sum of"
+" squares for the variables, as well as the interaction term (Dose \\* "
+"Puppy_love). The tables also includes degrees of freedom, mean square, "
+"*F*-values and significance values."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:35
+msgid ""
+"In jamovi, these results are found in a similar ``ANCOVA`` table, which "
+"also includes sum of squares, degrees of freedom, mean square, *F*-values"
+" and significance values. These values are located in the same order as "
+"in the SPSS table."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:40
+msgid ""
+"The main difference between the results in SPSS and jamovi is that SPSS "
+"provides values for the following: ``Corrected Model``, ``Intercept``, "
+"``Total`` and ``Corrected Total``. SPSS also gives *R²* and adjusted "
+"*R²*-values for the corrected model."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:43
+msgid ""
+"If one compares the numerical values, they are the same: "
+"*SS*<sub>Dose</sub> = 36.6, *p* < .01; *SS*<sub>Puppy_love</sub> = 17.2, "
+"*p* < .05; *SS*<sub>Dose \\* Puppy_love</sub> = 20.4, *p* < .05."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:46
+msgid ""
+"If one wishes to use syntax for running those analyses, this can be done "
+"using the following commands (in jamovi with just copying to code below "
+"to  `Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:59
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_ANCOVA5.rst:60
+msgid ""
+"Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
+" ed.). SAGE Publications. https://edge.sagepub.com/field5e"
+msgstr ""
+

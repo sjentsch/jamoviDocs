@@ -94,6 +94,7 @@ Use of jamovi syntax in R
 
    jmv::corrMatrix(data = data, vars = vars(var1, var2), spearman = TRUE, kendall = TRUE, sig = FALSE, flag = TRUE, plots = TRUE)
 
+
 -----------------------------------------------
 Overview over the analyses contained in ``jmv``
 -----------------------------------------------
@@ -107,6 +108,7 @@ Exploration
 
    jmv_descriptives
 
+
 T-Tests
 ^^^^^^^
 
@@ -117,6 +119,7 @@ T-Tests
    jmv_ttestIS
    jmv_ttestPS
    jmv_ttestOneS
+
 
 ANOVA
 ^^^^^
@@ -133,6 +136,7 @@ ANOVA
    jmv_anovaNP
    jmv_anovaRMNP
 
+
 Regression
 ^^^^^^^^^^
 
@@ -147,6 +151,7 @@ Regression
    jmv_logRegMulti
    jmv_logRegOrd
 
+
 Frequencies
 ^^^^^^^^^^^
 
@@ -160,6 +165,7 @@ Frequencies
    jmv_contTablesPaired
    jmv_logLinear
 
+
 Factor analyses
 ^^^^^^^^^^^^^^^
 
@@ -171,6 +177,7 @@ Factor analyses
    jmv_pca
    jmv_efa
    jmv_cfa
+
 
 ------------------------------------------------------
 Data handling using ``jmvconnect`` or ``jmvReadWrite``

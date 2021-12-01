@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_pages/s2j_nonParametric.rst:5
+msgid "From SPSS to jamovi: Non-parametric analyses"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:7
+msgid "This comparison shows how a Mann-Whitney test is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 7.4.3 in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 7.6 - 7.8 and output 7.2. It uses the data set **Drug.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:12
+msgid "**SPSS**"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:12
+msgid "**jamovi**"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:14
+msgid "In SPSS, a Mann-Whitney test can be run using: ``Analyze`` → ``Nonparametric Tests `` → ``Independent Samples``."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:14
+msgid "In jamovi this is done using the following steps: ``Analyses`` → ``T-tests`` → ``Independent Samples T-Test``."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:82
+#: ../../_pages/s2j_nonParametric.rst:82
+msgid "SPSS_Menu_nonParametric1"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:83
+#: ../../_pages/s2j_nonParametric.rst:83
+msgid "jamovi_Menu_nonParametric1"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:19
+msgid "In SPSS, choose ``Fields`` from the menu. Then, click ``Use custom field assignments`` and move the variables ``Sunday_BDI`` and ``Wednesday_BDI`` to ``Test Fields``, and the variable ``Drug`` to ``Groups``."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:19
+msgid "In jamovi, move ``Sunday_BDI`` and ``Wednesday_BDI`` to the ``Dependent Variables`` variable box, and ``Drug`` to the ``Grouping Variable`` box. Then, tick the box for ``Mann-Whitney U``."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:84
+#: ../../_pages/s2j_nonParametric.rst:84
+msgid "SPSS_Input_nonParametric1_1"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:86
+#: ../../_pages/s2j_nonParametric.rst:86
+msgid "jamovi_Input_nonParametric1"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:25
+msgid "Open the ``Settings`` window, and click ``Customize tests``. Tick the box for ``Mann-Whitney U (2 samples)``."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:85
+#: ../../_pages/s2j_nonParametric.rst:85
+msgid "SPSS_Input_nonParametric1_2"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:30
+msgid "By comparing the output from SPSS and jamovi, you can tell that some of the results are the same. The results in jamovi are presented in a single table, while in SPSS you have to double-click the table in order to get the rest of the results."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:87
+#: ../../_pages/s2j_nonParametric.rst:87
+msgid "SPSS_Output_nonParametric1_1"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:88
+#: ../../_pages/s2j_nonParametric.rst:88
+msgid "SPSS_Output_nonParametric1_2"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:89
+#: ../../_pages/s2j_nonParametric.rst:89
+msgid "SPSS_Output_nonParametric1_3"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:90
+#: ../../_pages/s2j_nonParametric.rst:90
+msgid "jamovi_Output_nonParametric1"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:41
+msgid "In SPSS, the first table is the ``Hypothesis Test Summary``, which only shows the significance value. If you double-click this table you open the model viewer window, which contains the details of the analysis. To view the results for the Wednesday sample, select ``Beck Depression Inventory (Wednesday) \\* Type of Drug(Test 2)`` in the drop-down menu next to ``Field(s)``."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:41
+msgid "In jamovi, results are presented in the ``Independent Samples T-Test`` table. Here the *U*-value is found in the first column, and its significance level in the second column."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:48
+msgid "The output in jamovi only presents the Mann-Whitney U statistic and its significance value, while SPSS presents values for ``Mean Rank``, ``N``, ``Total N``, ``Wilcoxon W``, ``Test Statistic``, ``Standard Error``, ``Standardized Test Statistic`` and ``Asymptotic Sig. (2-sided test)``."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:51
+msgid "The numerical values for the Wednesday group are the same in SPSS and jamovi (*U* = 4.00, *p* < .001), while the values for the Sunday group differ slightly (*U* = 35.50, *p* = .280 vs. *p* = .286). The reason for the difference is that jamovi applies `continuity correction <https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100131510>`__ (where a discrete distribution – ranks – is approximated via a continuous one – the standard normal distribution) whereas SPSS doesn't."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:56
+msgid "If one wishes to use syntax for running those analyses, this can be done using the following commands (in jamovi with just copying to code below to  `Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:76
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_nonParametric.rst:77
+msgid "Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th ed.). SAGE Publications. https://edge.sagepub.com/field5e"
+msgstr ""

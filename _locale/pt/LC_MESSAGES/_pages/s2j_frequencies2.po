@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and
+# Sebastian Jentschke (curating this documentation). This work is licensed
+# under a Creative Commons Attribution-Non Commercial 4.0 International
+# License.
+# This file is distributed under the same license as the jamovi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: jamovi \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../_pages/s2j_frequencies2.rst:5
+msgid "From SPSS to jamovi: Analysis of frequencies"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:7
+msgid ""
+"This comparison shows how a loglinear analysis is conducted in SPSS and "
+"jamovi. The SPSS test follows the description in chapter 19.9.2 in `Field"
+" (2017) <https://edge.sagepub.com/field5e>`__, especially figure 19.7 and"
+" output 19.7 - 19.10. It uses the data set **Cats and Dogs.sav** which "
+"can be downloaded from the `web page accompanying the book "
+"<https://edge.sagepub.com/field5e/student-resources/datasets>`__."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:12
+msgid "**SPSS**"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:12
+msgid "**jamovi**"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:14
+msgid ""
+"In SPSS, you can run a loglinear analysis using: ``Analyze`` → "
+"``Loglinear`` → ``Model Selection``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:14
+msgid ""
+"In jamovi, this can be done using: ``Analyses`` → ``Frequencies`` →  "
+"``Log- Linear Regression``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:90
+msgid "SPSS_Menu_logLinear"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:91
+msgid "jamovi_Menu_logLinear"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:19
+msgid ""
+"In SPSS, move the variables ``Animal``, ``Training`` and ``Dance`` to the"
+" ``Factor(s)`` box. Then, mark all three variables and click ``Define "
+"Range``. In this window, set ``Minimum`` as 0 and ``Maximum`` as 1. Click"
+" ``Continue``. In the box called ``Model Building``, click ``Enter in "
+"single step``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:19
+msgid ""
+"In jamovi, move ``Animal``, ``Training`` and ``Dance`` to ``Factors``. "
+"Open the ``Model Builder`` window, click ``+ Add New Block`` and move the"
+" three variables to this block."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:92
+msgid "SPSS_Input_logLinear_1"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:93
+msgid "SPSS_Input_logLinear_2"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:94
+msgid "jamovi_Input_logLinear_1"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:28
+msgid ""
+"Add another block. Mark all three variables and choose ``All 2 way`` from"
+" the drop-down menu. Then, add a third block and mark all three "
+"variables. Open the drop-down menu and click ``All 3 way``."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:95
+msgid "jamovi_Input_logLinear_2"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:34
+msgid ""
+"Open ``Model Fit`` and tick the box for ``Overall model test``. Lastly, "
+"tick ``Likelihood ratio tests`` in the ``Model Coefficients`` window."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:96
+msgid "jamovi_Input_logLinear_3"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:39
+msgid ""
+"Only the results in the output tables ``K-Way and Higher-Order Effects`` "
+"and ``Partial Associations`` in SPSS are replicated in the jamovi "
+"analysis."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:97
+msgid "SPSS_Output_logLinear"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:98
+msgid "jamovi_Output_logLinear_1"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:99
+msgid "jamovi_Output_logLinear_2"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:44
+msgid ""
+"In the ``K-Way and Higher-Order Effects`` table, you can find "
+"*df*-values, likelihood ratio statistics and significance values when K ="
+" 1, 2 and 3. The SPSS results also contains Pearson chi-square "
+"statistics. The different rows show if any higher-order effects or one-"
+"way effects significantly affect the model fit. The ``Partial "
+"Associations`` table breaks the model into specific parts and tells us "
+"which two-way interactions that significantly affect the fit of the "
+"model. You can tell this by looking  at the significance values for the "
+"different interactions and comparing them."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:44
+msgid ""
+"In jamovi, the values that are found in the ``K-Way and Higher-Order "
+"Effects`` table in SPSS can be found in the ``Model Fit Measures`` and "
+"``Model Comparisons`` tables. However, jamovi does not provide Pearson "
+"chi-square statistics and the number of iterations. The partial "
+"associations table in jamovi is called ``Omnibus Likelihood Ratio Tests``"
+" and are presented in three separate tables (one for each model)."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:53
+msgid ""
+"Output from the SPSS analysis contains a lot of tables that are not "
+"included in the jamovi analysis. In addition, the results from the "
+"parameter estimates tables differ from each other, and are therefore not "
+"included here."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:56
+msgid ""
+"The numerical values for the statistics are the same: *χ²* = 127.90, *p* "
+"< .001; *χ²* = 200.16, *p* < .001; *χ²* = 51.96, *p* < .001: *χ²* = "
+"20.30, *p* < .001; *χ²* = 65.27, *p* < .001; *χ²* = 61.15, *p* < .001; "
+"*χ²* = 1.48; *χ²* = 13.76, *p* < .001; *χ²* = 13.75, *p* < .001; *χ²* = "
+"8.61, *p* < .01."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:59
+msgid ""
+"If one wishes to use syntax for running those analyses, this can be done "
+"using the following commands (in jamovi with just copying to code below "
+"to  `Rj <Rj_overview.html>`__)."
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:84
+msgid "**References**"
+msgstr ""
+
+#: ../../_pages/s2j_frequencies2.rst:85
+msgid ""
+"Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th"
+" ed.). SAGE Publications. https://edge.sagepub.com/field5e"
+msgstr ""
+

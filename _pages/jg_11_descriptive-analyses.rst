@@ -1,8 +1,8 @@
 .. sectionauthor:: `Jonas Rafi <https://www.su.se/english/profiles/jora9288-1.283149>`__
 
-====================
-Descriptive analyses
-====================
+============
+Descriptives
+============
 
 | How to perform descriptive analyses and create graphs in jamovi:
 
