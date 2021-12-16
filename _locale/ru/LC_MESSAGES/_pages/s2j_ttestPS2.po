@@ -10,7 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
+=======
 "POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,6 +166,8 @@ msgid ""
 " ed.). SAGE Publications. https://edge.sagepub.com/field5e"
 msgstr ""
 
+<<<<<<< HEAD
+=======
 #~ msgid ""
 #~ "After having demonstrated the beneficial "
 #~ "effect of repeated-measures-designs on"
@@ -184,6 +190,7 @@ msgstr ""
 #~ "resources/datasets>`__."
 #~ msgstr ""
 
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 #~ msgid "**SPSS** (version 27)"
 #~ msgstr ""
 

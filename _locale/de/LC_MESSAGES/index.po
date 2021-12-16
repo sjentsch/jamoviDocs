@@ -9,7 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-09-14 16:56+0200\n"
+=======
 "POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -19,6 +23,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+<<<<<<< HEAD
+"Generated-By: Babel 2.9.0\n"
+
+#: ../../index.rst:167
+msgid "Additional Modules"
+msgstr "jamovi-Module"
+
+#: ../../index.rst:176
+=======
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../index.rst:11
@@ -35,10 +48,11 @@ msgid "Additional Modules"
 msgstr "jamovi-Module"
 
 #: ../../index.rst:51 ../../index.rst:127
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgid "jamovi and other software"
 msgstr "jamovi und andere Software"
 
-#: ../../index.rst:60
+#: ../../index.rst:4
 msgid ""
 "Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a "
 "free and open statistical software to bridge the gap between researcher "
@@ -48,16 +62,43 @@ msgstr ""
 "einer kostenlosen und offenen Statistiksoftware, die Forschern erlaubt, "
 "auf einfache Weise komplexe statistische Methoden anzuwenden."
 
+<<<<<<< HEAD
+#: ../../index.rst:10
+msgid "Getting started"
+msgstr "Erste Schritte"
+
+#: ../../index.rst:12
+msgid ""
+"The jamovi user-manual contains everything you need to know about getting up "
+"and running for jamovi."
+msgstr ""
+"Das jamovi Benutzerhandbuch enthält alles, was Sie wissen müssen, wenn Sie "
+"jamovi das erste Mal benutzen."
+
+#: ../../index.rst:15
+=======
 #: ../../index.rst:64
 msgid "Getting started"
 msgstr "Erste Schritte"
 
 #: ../../index.rst:66
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgid ""
 "The following topics should get you up and running with jamovi, with "
 "additional topics available from the menu to the left."
 msgstr ""
 
+<<<<<<< HEAD
+#: ../../index.rst:33
+msgid "Analyses"
+msgstr "Analysen"
+
+#: ../../index.rst:35
+msgid ""
+"The aim of the following section is to provide short, non-technical "
+"tutorials on how to conduct common statistical procedures in jamovi. It was "
+"originally created by Jonas Rafi under the name jamovi guide."
+=======
 #: ../../index.rst:68
 msgid ":doc:`_pages/um_1_installation`"
 msgstr ""
@@ -72,12 +113,44 @@ msgstr ""
 
 #: ../../index.rst:71
 msgid ":doc:`_pages/um_4_spreadsheet`"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Das Ziel des folgenden Abschnitts ist es, kurze, nicht-technische "
+"Anleitungen zur Durchführung gängiger statistischer Verfahren in jamovi "
+"bereitzustellen. Sie wurde ursprünglich von Jonas Rafi unter dem Namen "
+"jamovi-guide erstellt."
 
+<<<<<<< HEAD
+#: ../../index.rst:39
+msgid ""
+"However, it is meant to be an introduction, not a resource providing an in-"
+"depth introduction into the background of those procedures. For such an "
+"endevaour, there are plenty of other resources. Some of these resources are "
+"listed at the bottom of the pages introducing the individual analyses in the "
+"box \"Community resources\"."
+=======
 #: ../../index.rst:72
 msgid ":doc:`_pages/um_5_updating_data`"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Diese sind jedoch als eine Einführung gedacht, nicht als Ressource, die eine "
+"ausführliche Einführung in die Hintergründe dieser Verfahren bietet. Für "
+"eine solche tiefere Einführung gibt es zahlreiche andere Ressourcen. Einige "
+"dieser Ressourcen sind am Ende der Seiten, die die einzelnen Analysen "
+"vorstellen, im Kasten \"Community-Ressources\" aufgeführt."
 
+<<<<<<< HEAD
+#: ../../index.rst:47
+msgid "Describing and cleaning your data"
+msgstr "Deskriptiv-statistische Analysen und das Bereinigen Ihrer Daten"
+
+#: ../../index.rst:49
+msgid ""
+"A quite essential part of a statistical analysis actually happens before we "
+"conduct them. That part is concerned with first getting an overview over "
+"your data. This information is gathered using descriptive-statistical "
+"analyses."
+=======
 #: ../../index.rst:73
 msgid ":doc:`_pages/um_6_syntax_mode`"
 msgstr ""
@@ -93,12 +166,54 @@ msgstr ""
 
 #: ../../index.rst:86
 msgid "**Descriptive analyses**"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Ein ganz wesentlicher Teil einer statistischen Analyse passiert eigentlich "
+"schon, bevor wir sie durchführen. In diesem Teil geht es darum, sich einen "
+"Überblick über Ihre Daten zu verschaffen. Diese Informationen werden mit "
+"Hilfe von deskriptiv-statistischen Analysen gesammelt."
 
+<<<<<<< HEAD
+#: ../../index.rst:53
+msgid ""
+"One way to use this information is for assessing whether the data meet the "
+"assumptions that are required to run most inference-statistical procedures. "
+"There are two checks that are central for assessing whether those "
+"assumptions are met: The first evaluates whether the data are in accordance "
+"with a normal distribution, the other assesses whether the independent and "
+"the dependent variables stand in a linear relation. If the assumptions are "
+"not met, this is often due to outliers in your data. Based upon the "
+"information we gathered, it becomes possible to search for and to remove "
+"such outliers. Using `filters <_pages/jg_18_Filtering_data.html>`__ can help "
+"you with that task."
+=======
 #: ../../index.rst:88
 msgid ":doc:`_pages/jg_11_descriptive-analyses`"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Eine Möglichkeit, diese Informationen zu nutzen, ist die Beurteilung, ob die "
+"Daten die Annahmen erfüllen, die für die Ausführung der meisten "
+"inferenzstatistischen Verfahren erforderlich sind. Es gibt zwei Analysen, "
+"die entscheidend sind, wenn es darum geht, zu beurteilen, ob diese Annahmen "
+"erfüllt sind: Die erste bewertet, ob die Daten einer Normalverteilung "
+"entsprechen, die andere bewertet, ob die unabhängigen und die abhängigen "
+"Variablen in einem linearen Zusammenhang stehen. Wenn die Annahmen nicht "
+"erfüllt sind, liegt das oft an Ausreißern in Ihren Daten. Auf Basis der "
+"gesammelten Informationen ist es möglich, solche Ausreißer zu suchen und zu "
+"entfernen. Die Verwendung von `Filtern <_pages/jg_18_Filtering_data.html>`__ "
+"kann Ihnen bei dieser Aufgabe helfen."
 
+<<<<<<< HEAD
+#: ../../index.rst:75
+msgid "t-tests"
+msgstr "t-Tests"
+
+#: ../../index.rst:77
+msgid ""
+"The t-test is used to test whether the mean value in a normally distributed "
+"data set deviates significantly from a null hypothesis (which assumes that "
+"there is no difference)."
+=======
 #: ../../index.rst:95
 #, fuzzy
 msgid "**t-tests**"
@@ -106,16 +221,76 @@ msgstr "t-Tests"
 
 #: ../../index.rst:97
 msgid ":doc:`_pages/jg_21_t-test-independent`"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Der t-Test wird verwendet, um zu testen, ob der Mittelwert in einem "
+"normalverteilten Datensatz signifikant von einer Nullhypothese (die annimmt, "
+"dass es keinen Unterschied gibt) abweicht."
 
+<<<<<<< HEAD
+#: ../../index.rst:81 ../../index.rst:112 ../../index.rst:144
+msgid "Community resources"
+msgstr "Community-Resourcen"
+
+#: ../../index.rst:0
+msgid ""
+"A more comprehensive introduction into the concept is presented in this "
+"`video <https://www.youtube.com/embed/mb7KCLYEis8?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
+=======
 #: ../../index.rst:98
 msgid ":doc:`_pages/jg_22_t-test-paired`"
 msgstr ""
 
 #: ../../index.rst:99
 msgid ":doc:`_pages/jg_23_t-test-onesample`"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Das zugrundeliegende Konzept wird in diesem `Einführungsvideo <https://www."
+"youtube.com/embed/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ "
+"von `Barton Poulson <https://datalab.cc/jamovi>`__ erklärt."
 
+<<<<<<< HEAD
+#: ../../index.rst:87
+msgid "There are three types of t-tests:"
+msgstr "Es gibt drei Arten von t-Tests:"
+
+#: ../../index.rst:100
+msgid "Analyses of Variance (ANOVA)"
+msgstr "Varianzanalyse (ANOVA)"
+
+#: ../../index.rst:102
+msgid ""
+"The Analysis of variance (ANOVA) is a statistical method that examines how "
+"the impact of one or more factors affects an outcome (dependent) variable. "
+"These factors are the predictor variables and are categorical. Typically, "
+"such factors reflect an experimental manipulation (e.g. with or without "
+"treatment), but a factor can also represent groups for whose influence one "
+"would like to control (e.g. gender: men or women). The analysis of variance "
+"is based on a concept similar to that of the t-test, but it goes beyond "
+"that, in that factors can have several levels (t-tests only allow two) and "
+"in that several factors can be examined simultaneously."
+msgstr ""
+"Die Varianzanalyse (ANOVA) ist eine statistische Methode, die untersucht, "
+"welchen Einfluss ein oder mehrere Faktoren auf eine Ergebnisvariable "
+"(abhängige Variable) ausüben. Diese Faktoren sind die Prädiktorvariablen "
+"(unabhängige Variablen) und sind kategorisch. Typischerweise spiegeln solche "
+"Faktoren eine experimentelle Manipulation wider (z. B. Behandlung vs. "
+"Placebo in einer Interventionsstudie), aber ein Faktor kann auch eine (oder "
+"mehrere) bestehende Gruppen verwenden, für deren Einfluss man kontrollieren "
+"möchte (z. B. Geschlecht: Männer oder Frauen). Die Varianzanalyse basiert "
+"auf einem ähnlichen Konzept wie der t-Test, geht aber über diesen hinaus: "
+"Faktoren können mehrere Niveaus haben (t-Tests erlauben nur zwei) und "
+"mehrere Faktoren können gleichzeitig untersucht werden."
+
+#: ../../index.rst:0
+msgid ""
+"An introduction into the concept of an ANOVA is presented in this `video "
+"<https://www.youtube.com/embed/GcbMG6sizXs?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
+=======
 #: ../../index.rst:102
 #, fuzzy
 msgid "**Analyses of Variance (ANOVA)**"
@@ -131,8 +306,56 @@ msgstr ""
 
 #: ../../index.rst:106
 msgid ":doc:`_pages/jg_33_anova-rm`"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Eine Einführung in das Konzept der Varianzanalyse (ANOVA) bietet dieses "
+"`Video <https://www.youtube.com/embed/GcbMG6sizXs?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ von `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
 
+<<<<<<< HEAD
+#: ../../index.rst:118
+msgid ""
+"There are different types of analysis of variance, which differ in the "
+"number of factors examined - one or more factors - or whether they compare "
+"between people or within a person - repeated measurements:"
+msgstr ""
+"Es gibt verschiedene Arten von Varianzanalysen. Diese unterscheiden sich in "
+"der Anzahl der untersuchten Faktoren - ein oder mehrere Faktoren - oder "
+"darin, ob sie zwischen Personen oder zwischen verschiedenen Meßzeitpunkten "
+"innerhalb einer Person vergleichen - „gewöhnliche“ ANOVA vs. ANOVA mit "
+"Meßwertwiederholung:"
+
+#: ../../index.rst:134
+msgid "Correlation and regression"
+msgstr "Korrelation und Regression"
+
+#: ../../index.rst:136
+msgid ""
+"Correlation and regression analyses are statistical methods for assessing "
+"the relationships between a dependent / outcome variable and one or more "
+"independent / predictor variables. While the *correlation* analysis examines "
+"the *relationship* between one predictor and one outcome variable, "
+"*regression* analysis mainly focuses on *prediction* (how well can one or "
+"more variables predict another (outcome) variable). Often, a distinction is "
+"made between linear and non-linear (e.g., logistic regression)."
+msgstr ""
+"Korrelations- und Regressionsanalysen sind statistische Methoden zur "
+"Beurteilung der Beziehungen zwischen einer abhängigen / Ergebnisvariablen "
+"und einer oder mehreren unabhängigen / Prädiktorvariablen. Während die "
+"*Korrelationsanalyse* den *Zusammenhang* zwischen einer Prädiktor- und einer "
+"Ergebnisvariablen untersucht, konzentriert sich die *Regressionsanalyse* "
+"hauptsächlich auf die *Vorhersage* (wie gut kann eine oder mehrere Variablen "
+"eine andere [Ergebnis-]Variable vorhersagen). Oft wird zwischen linearer und "
+"nicht-linearer (z. B. logistischer Regression) unterschieden."
+
+#: ../../index.rst:0
+msgid ""
+"An introduction into the concept of regression analyses is presented in this "
+"`video <https://www.youtube.com/embed/gRhVjKNWiUs?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
+=======
 #: ../../index.rst:107
 msgid ":doc:`_pages/jg_34_anova-mixed`"
 msgstr ""
@@ -148,8 +371,22 @@ msgstr ""
 
 #: ../../index.rst:113
 msgid ":doc:`_pages/jg_43_regression-logistic`"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
+"Eine Einführung in das Konzept der Regressionsanalysen gibt das folgende "
+"`Video <https://www.youtube.com/embed/gRhVjKNWiUs?"
+"list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ von `Barton Poulson <https://"
+"datalab.cc/jamovi>`__."
 
+<<<<<<< HEAD
+#: ../../index.rst:163
+msgid "TBA: The jamovi library"
+msgstr "TBA: Die jamovi library (ein zentrales Archiv für jamovi-Module)"
+
+#: ../../index.rst:165
+msgid "TBA: Sideloading a module"
+msgstr "TBA: Sideloading eines Moduls"
+=======
 #: ../../index.rst:119
 #, fuzzy
 msgid "Additional modules"
@@ -166,6 +403,7 @@ msgstr ""
 #: ../../index.rst:130
 msgid ":doc:`_pages/jamovi2R`"
 msgstr ""
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 
 #~ msgid "jamovi_Modules2"
 #~ msgstr "jamovi_Modules2"
@@ -340,6 +578,8 @@ msgstr ""
 
 #~ msgid "datalab"
 #~ msgstr "datalab"
+<<<<<<< HEAD
+=======
 
 #~ msgid ""
 #~ "The aim of the following section "
@@ -641,3 +881,4 @@ msgstr ""
 #~ msgid ":doc:`_pages/jmv_overview`"
 #~ msgstr ""
 
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20

@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:5
-msgid "Descriptives"
+msgid "Descriptive analyses"
 msgstr ""
 
 #: ../../_pages/jg_11_descriptive-analyses.rst:7

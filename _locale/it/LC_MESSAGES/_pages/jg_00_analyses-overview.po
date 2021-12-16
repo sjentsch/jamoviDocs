@@ -11,7 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+<<<<<<< HEAD:_locale/it/LC_MESSAGES/_pages/jg_00_analyses-overview.po
+"POT-Creation-Date: 2021-10-30 18:29+0200\n"
+=======
 "POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20:_locale/es/LC_MESSAGES/_pages/jg_00_analyses-overview.po
+=======
+"POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,14 +60,8 @@ msgid ""
 "really just a guide and don't need to be set correctly. If you assign a "
 "|continuous| continuous variable to an analysis expecting a |nominal| "
 "nominal one, the analysis will simply treat the variable as nominal."
-msgstr ""
-
-#: ../../_pages/jg_00_analyses-overview.rst:80
-msgid "continuous"
-msgstr ""
-
-#: ../../_pages/jg_00_analyses-overview.rst:78
-msgid "nominal"
+<<<<<<< HEAD
+<<<<<<< HEAD:_locale/it/LC_MESSAGES/_pages/jg_00_analyses-overview.po
 msgstr ""
 
 #: ../../_pages/jg_00_analyses-overview.rst:15
@@ -83,12 +85,59 @@ msgid "t-tests"
 msgstr ""
 
 #: ../../_pages/jg_00_analyses-overview.rst:27
+=======
+=======
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
+msgstr ""
+
+#: ../../_pages/jg_00_analyses-overview.rst:80
+msgid "continuous"
+msgstr ""
+
+#: ../../_pages/jg_00_analyses-overview.rst:78
+msgid "nominal"
+msgstr ""
+
+#: ../../_pages/jg_00_analyses-overview.rst:15
+<<<<<<< HEAD
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20:_locale/es/LC_MESSAGES/_pages/jg_00_analyses-overview.po
+=======
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
+msgid ""
+"All this to say, if the documentation says that a particular measure type"
+" is required, the data simply needs to be the correct 'shape', and you "
+"can save yourself the labour of setting the measure types correctly if "
+"you don't want to."
+msgstr ""
+
+<<<<<<< HEAD
+<<<<<<< HEAD:_locale/it/LC_MESSAGES/_pages/jg_00_analyses-overview.po
+=======
+=======
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
+#: ../../_pages/jg_00_analyses-overview.rst:19
+msgid "Descriptives"
+msgstr ""
+
+#: ../../_pages/jg_00_analyses-overview.rst:21
+msgid ":doc:`jg_11_descriptive-analyses`"
+msgstr ""
+
+#: ../../_pages/jg_00_analyses-overview.rst:25
+msgid "t-tests"
+msgstr ""
+
+#: ../../_pages/jg_00_analyses-overview.rst:27
 msgid ""
 "The t-test is used to test whether the mean value in a normally "
 "distributed data set deviates significantly from a null hypothesis (which"
 " assumes that there is no difference)."
 msgstr ""
 
+<<<<<<< HEAD
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20:_locale/es/LC_MESSAGES/_pages/jg_00_analyses-overview.po
+=======
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 #: ../../_pages/jg_00_analyses-overview.rst:29
 msgid "There are three types of t-tests:"
 msgstr ""
@@ -199,7 +248,16 @@ msgid ""
 " by `Barton Poulson <https://datalab.cc/jamovi>`__."
 msgstr ""
 
+<<<<<<< HEAD
+<<<<<<< HEAD:_locale/it/LC_MESSAGES/_pages/jg_00_analyses-overview.po
+=======
+=======
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 #: ../../_pages/jg_00_analyses-overview.rst
 msgid "datalab"
 msgstr ""
 
+<<<<<<< HEAD
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20:_locale/es/LC_MESSAGES/_pages/jg_00_analyses-overview.po
+=======
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20

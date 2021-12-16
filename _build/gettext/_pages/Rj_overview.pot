@@ -29,7 +29,6 @@ msgid "First you have to `install the module <Install_modules.html>`__ Rj from t
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:138
-#: ../../_pages/Rj_overview.rst:138
 msgid "jamovi_Rj1"
 msgstr ""
 
@@ -42,7 +41,6 @@ msgid "Click on the «R» icon and select «Rj Editor»."
 msgstr ""
 
 #: ../../_pages/Rj_overview.rst:139
-#: ../../_pages/Rj_overview.rst:139
 msgid "jamovi_Rj2"
 msgstr ""
 
@@ -50,7 +48,6 @@ msgstr ""
 msgid "This opens an input field on the left side where you can use R commands."
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:140
 #: ../../_pages/Rj_overview.rst:140
 msgid "jamovi_Rj3"
 msgstr ""
@@ -119,7 +116,6 @@ msgstr ""
 msgid "Switch between R-versions"
 msgstr ""
 
-#: ../../_pages/Rj_overview.rst:141
 #: ../../_pages/Rj_overview.rst:141
 msgid "jamovi_Rj4"
 msgstr ""

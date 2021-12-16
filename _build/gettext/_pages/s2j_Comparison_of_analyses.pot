@@ -29,11 +29,9 @@ msgid "**jamovi**"
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:298
-#: ../../_pages/s2j_Comparison_of_analyses.rst:298
 msgid "SPSS_Analyze"
 msgstr ""
 
-#: ../../_pages/s2j_Comparison_of_analyses.rst:299
 #: ../../_pages/s2j_Comparison_of_analyses.rst:299
 msgid "jamovi_Analyze"
 msgstr ""
@@ -58,7 +56,6 @@ msgstr ""
 msgid "If you are willing to use some R code (e.g., in conjunction with the jamovi-module Rj) then you can (most presumably) do every analysis you could imagine."
 msgstr ""
 
-#: ../../_pages/s2j_Comparison_of_analyses.rst:300
 #: ../../_pages/s2j_Comparison_of_analyses.rst:300
 msgid "jamovi_Modules"
 msgstr ""

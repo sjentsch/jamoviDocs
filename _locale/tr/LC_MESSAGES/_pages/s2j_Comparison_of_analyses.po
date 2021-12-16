@@ -1,7 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2020, The section authors, The jamovi project, and Sebastian
-# Jentschke (curating this documentation). This work is licensed under a
-# Creative Commons Attribution-Non Commercial 4.0 International License.
+# Copyright (C) 2016-2021, The section authors, The jamovi project, and
+# Sebastian Jentschke (curating this documentation). This work is licensed
+# under a Creative Commons Attribution-Non Commercial 4.0 International
+# License.
 # This file is distributed under the same license as the jamovi package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
@@ -10,7 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-10-30 20:20+0200\n"
+=======
 "POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +34,8 @@ msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:8
 msgid "**jamovi**"
+<<<<<<< HEAD
+=======
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:298
@@ -37,6 +44,7 @@ msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst:299
 msgid "jamovi_Analyze"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
 
 #: ../../_pages/s2j_Comparison_of_analyses.rst
@@ -654,6 +662,8 @@ msgid ""
 " extracting underlying latent variables."
 msgstr ""
 
+<<<<<<< HEAD
+=======
 #~ msgid "**SPSS** (version 25)"
 #~ msgstr ""
 
@@ -677,3 +687,4 @@ msgstr ""
 #~ msgid "**jamovi** (versjon 2.0)"
 #~ msgstr ""
 
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20

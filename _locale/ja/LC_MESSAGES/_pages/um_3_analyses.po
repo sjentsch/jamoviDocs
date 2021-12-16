@@ -10,7 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+=======
 "POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,6 +56,10 @@ msgstr ""
 
 #: ../../_pages/um_3_analyses.rst:17
 msgid ""
+<<<<<<< HEAD
+"An overview with short, non-technical tutorials on how to do common "
+"procedures in jamovi can be found under `Analyses <jg_0_welcome.html>`__."
+=======
 "jamovi produces nice APA formatted tables, and attractive plots. It is "
 "often useful to be able to copy and paste these, perhaps into a Word "
 "document, or into an email to a colleague. To copy results, right click "
@@ -59,6 +67,7 @@ msgid ""
 " to copy. The menu allows you to choose to copy, say only the image, or "
 "the entire analysis. Selecting copy, copies the content to the clipboard,"
 " and can be pasted into the other program in the usual way."
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgstr ""
 
 #~ msgid "|copy-paste|"
@@ -73,6 +82,8 @@ msgstr ""
 #~ msgid "analysis"
 #~ msgstr ""
 
+<<<<<<< HEAD
+=======
 #~ msgid ""
 #~ "An overview with short, non-technical"
 #~ " tutorials on how to do common "
@@ -87,3 +98,4 @@ msgstr ""
 #~ "under `Analyses <jg_0_introduction.html>`__."
 #~ msgstr ""
 
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20

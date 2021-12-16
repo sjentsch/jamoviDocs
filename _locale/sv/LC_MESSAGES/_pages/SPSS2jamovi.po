@@ -10,7 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jamovi \n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-07-09 00:00+0200\n"
+=======
 "POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,24 +34,40 @@ msgid ""
 "should feel immediately familiar to people who have used SPSS before."
 msgstr ""
 
+<<<<<<< HEAD
+#: ../../_pages/SPSS2jamovi.rst:20
+msgid ""
+"`Comparison of analyses <Comparison_of_analyses.html>`__ provides an "
+=======
 #: ../../_pages/SPSS2jamovi.rst:17
 msgid ""
 ":doc:`Comparison of analyses <s2j_Comparison_of_analyses>` provides an "
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "overview of which analysis functions are available in SPSS and the "
 "respective functions in jamovi."
 msgstr ""
 
+<<<<<<< HEAD
+#: ../../_pages/SPSS2jamovi.rst:32
+msgid "Side-by-side"
+msgstr ""
+
+#: ../../_pages/SPSS2jamovi.rst:34
+=======
 #: ../../_pages/SPSS2jamovi.rst:22
 msgid "Side-by-side"
 msgstr ""
 
 #: ../../_pages/SPSS2jamovi.rst:24
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 msgid ""
 "The pages in this section show in side-by-side comparisons how something "
 "is done in SPSS and in jamovi. For this demonstration, the examples from "
-"`Andy Field's (2017) <https://edge.sagepub.com/field5e>`__ book are used."
+"Andy Field's book are used."
 msgstr ""
 
+<<<<<<< HEAD
+=======
 #: ../../_pages/SPSS2jamovi.rst:54
 msgid "**References**"
 msgstr ""
@@ -154,3 +174,4 @@ msgstr ""
 #~ msgid ":doc:`s2j_logReg`"
 #~ msgstr ""
 
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20

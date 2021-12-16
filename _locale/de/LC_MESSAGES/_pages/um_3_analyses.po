@@ -9,7 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  jamovi\n"
 "Report-Msgid-Bugs-To: sebastian.jentschke@uib.no\n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2021-09-14 17:24+0200\n"
+=======
 "POT-Creation-Date: 2021-12-01 09:48+0100\n"
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 "PO-Revision-Date: 2021-07-25 17:14+0000\n"
 "Last-Translator: Sebastian Jentschke <sebastian.jentschke@uib.no>\n"
 "Language: de\n"
@@ -93,6 +97,30 @@ msgstr ""
 "Zwischenablage kopiert und kann auf die gewohnte Weise in andere "
 "Programme eingefügt werden."
 
+<<<<<<< HEAD
+#: ../../_pages/um_3_analyses.rst:29
+msgid ""
+"If you decide you no longer need a particular analysis, you can remove it"
+" with the results context menu. Right-clicking on the analysis results "
+"will bring up a menu, and by selecting ``Analysis``, and then ``Remove``,"
+" the analysis can be removed."
+msgstr ""
+"Wenn Sie eine bestimmte Analyse nicht mehr benötigen, können Sie diese "
+"über das Kontextmenü der Analyse im Ergebnis-Panel entfernen. Klicken Sie"
+" dafür mit der rechten Maustaste auf die Ergebnisse dieser Analyse und "
+"wählen Sie dort ``Analysis`` und dann ``Remove``."
+
+#: ../../_pages/um_3_analyses.rst:36
+msgid ""
+"An overview with short, non-technical tutorials on how to do common "
+"procedures in jamovi can be found under `Analyses <jg_0_welcome.html>`__."
+msgstr ""
+"Eine Übersicht mit kurzen, nicht-technischen Anleitungen, wie man die "
+"wichtigsten statistischen Analysen in jamovi durchführt, finden Sie unter"
+" `Analysen <https://jamovi.readthedocs.io/de/latest/#analyses>`__."
+
+=======
+>>>>>>> 47541d712bb82febfb248780e4119bda4b70bb20
 #~ msgid "|copy-paste|"
 #~ msgstr ""
 
