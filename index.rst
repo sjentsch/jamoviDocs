@@ -24,7 +24,7 @@
    :caption: Analyses
    :hidden:
 
-   _pages/jg_00_analyses-overview
+   _pages/jg_00_overview
    _pages/jg_11_descriptive-analyses
    _pages/jg_21_t-test-independent
    _pages/jg_22_t-test-paired
@@ -36,25 +36,33 @@
    _pages/jg_42_regression-linear
    _pages/jg_43_regression-logistic
 
+
 ..
-   _pages/jg_16_Checking_normality
-   _pages/jg_17_Checking_linearity
-   _pages/jg_18_Filtering_data
+   toctree::
+   :titlesonly:
+   :caption: How to...
+   :hidden:
+..
+   _pages/howto_Install_modules
+   _pages/howto_Checking_normality
+   _pages/howto_Checking_linearity
+   _pages/howto_Filtering_data
+
 
 .. toctree::
    :maxdepth: 1
-   :caption: Additional Modules
+   :caption: jamovi-modules
    :hidden:
 
-   _pages/developer-hub.rst
+   _pages/dh_overview.rst
 
 .. toctree::
    :maxdepth: 1
    :caption: jamovi and other software
    :hidden:
 
-   _pages/SPSS2jamovi
-   _pages/jamovi2R
+   _pages/s2j_overview
+   _pages/j2R_overview
 
 
 Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and open statistical software to bridge the gap between researcher and statistician.
@@ -79,9 +87,7 @@ Analyses
 ========
 
 The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The :doc:`introduction
-<_pages/jg_00_analyses-overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links
-below.
-
+<_pages/jg_00_overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links below.
 
 **Descriptive analyses**
 
@@ -114,11 +120,15 @@ below.
    
 .. ============================================================================================================================================================
 
---------------------------
-Additional modules
---------------------------
+--------------
+jamovi-modules
+--------------
 
-* :doc:`_pages/developer-hub`
+jamovi's functionality can easily be extended by creating specialized modules. It therefore calls for a community of developers to implement such additional
+analyses. The developer's hub describes how such modules can be created and provides additional information (API) and about options for elements of the jamovi
+UI used for those analyses.
+
+* :doc:`_pages/dh_overview`
 
 .. ============================================================================================================================================================   
 
@@ -126,7 +136,7 @@ Additional modules
 jamovi and other software
 --------------------------
 
-* :doc:`_pages/SPSS2jamovi`
-* :doc:`_pages/jamovi2R`
+* :doc:`_pages/s2j_overview`
+* :doc:`_pages/j2R_overview`
 
 .. ============================================================================================================================================================
