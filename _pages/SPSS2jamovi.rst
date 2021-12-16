@@ -24,6 +24,8 @@ Side-by-side
 The pages in this section show in side-by-side comparisons how something is done in SPSS and in jamovi. For this demonstration, the examples from `Andy
 Field's (2017) <https://edge.sagepub.com/field5e>`__ book are used.
 
+.. s2j_descriptives
+
 .. toctree::
    :titlesonly:
    :maxdepth: 1

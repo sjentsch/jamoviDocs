@@ -108,7 +108,6 @@ Exploration
 
    jmv_descriptives
 
-
 T-Tests
 ^^^^^^^
 
@@ -119,7 +118,6 @@ T-Tests
    jmv_ttestIS
    jmv_ttestPS
    jmv_ttestOneS
-
 
 ANOVA
 ^^^^^
@@ -136,7 +134,6 @@ ANOVA
    jmv_anovaNP
    jmv_anovaRMNP
 
-
 Regression
 ^^^^^^^^^^
 
@@ -151,7 +148,6 @@ Regression
    jmv_logRegMulti
    jmv_logRegOrd
 
-
 Frequencies
 ^^^^^^^^^^^
 
@@ -164,7 +160,6 @@ Frequencies
    jmv_contTables
    jmv_contTablesPaired
    jmv_logLinear
-
 
 Factor analyses
 ^^^^^^^^^^^^^^^
