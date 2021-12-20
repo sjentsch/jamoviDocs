@@ -6,8 +6,7 @@ Linear Regression
 
 | How to perform a linear regression in jamovi:
 
-#. | You need one |continuous| dependent variable, and at least one |continuous|
-     predictor variable (aka a covariate).
+#. | You need one |continuous| dependent variable, and at least one |continuous| predictor variable (aka a covariate).
 
    | A correct setup should look similar to this:
 
@@ -21,9 +20,8 @@ Linear Regression
    
    |
 
-#. | Drag and drop your dependent variable to ``Dependent Variable`` and
-     your explanatory variable to ``Covariates`` if it is continuous or to
-     ``Factors`` if it is categorical.
+#. | Drag and drop your dependent variable to ``Dependent Variable`` and your explanatory variable to ``Covariates`` if it is continuous or to ``Factors`` if
+     it is categorical.
      
    |add_var_regression_linear|
    

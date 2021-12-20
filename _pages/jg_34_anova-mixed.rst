@@ -6,10 +6,8 @@ ANOVA: Mixed
 
 | How to perform a mixed ANOVA in jamovi:
 
-#. | You need one |continuous| continuous variable for each within-subject
-     measurement (e.g. pre / post), at least one |nominal| grouping variable
-     with at least two levels (e.g. treatment / control) and one |nominal|
-     variable to function as a between subject factor (e.g. gender).
+#. | You need one |continuous| continuous variable for each within-subject measurement (e.g. pre / post) and at least one |nominal| grouping variable
+     (between-subjects-factor) with at least two levels (e.g., treatment / control, gender).
 
    | A correct setup should look similar to this:
    
@@ -23,17 +21,14 @@ ANOVA: Mixed
 
    |
 
-#. | In the box ``Repeated Measures Factors``: write the name of your outcome
-     variable (e.g. ``My_scale``) and name the levels for each measurement
-     occasion (e.g. ``Pre``, ``Post`` and ``12 month follow-up``). The images
-     below illustrates this.
+#. | In the box ``Repeated Measures Factors``: write the name of your outcome variable (e.g., ``My_scale``) and name the levels for each measurement occasion
+     (e.g., ``Pre``, ``Post`` and ``12 month follow-up``). The images below illustrates this.
    
    |add_var_anova_repeated_naming_1|  ``→`` |add_var_anova_repeated_naming_2|
 
    |
 
-#. | Drag and drop your outcome variables to their respective cells in ``Repeated
-     Measures Cells``.
+#. | Drag and drop your outcome variables to their respective cells in ``Repeated Measures Cells``.
    
    |add_var_anova_repeated|
    
@@ -51,9 +46,12 @@ ANOVA: Mixed
    
    |
 
-#. | A little more comprehensive introduction into this statistical method is
-     provided by this `video 
+.. admonition:: Further help from the community resources
+
+   | A little more comprehensive introduction into this statistical method is provided by this `video 
      <https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
+
+|
 
 .. ---------------------------------------------------------------------
 

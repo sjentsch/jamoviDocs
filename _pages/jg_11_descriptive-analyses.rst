@@ -43,10 +43,8 @@ Descriptive analyses
 
    | 
    
-#. | To create a plot based on the above choices, click the ``Plots`` tab and
-     tick the box of your desired plot. If you would like to identify outliers
-     and to check whehter your variables conform with a normal distribution,
-     then you should tick ``Box plot``, ``Violin``, and ``Q-Q``. 
+#. | To create a plot based on the above choices, click the ``Plots`` tab and tick the box of your desired plot. If you would like to identify outliers and to
+     check whehter your variables conform with a normal distribution, then you should tick ``Box plot``, ``Violin``, and ``Q-Q``. 
      
    |select_descriptives_plots|
 
@@ -54,19 +52,15 @@ Descriptive analyses
    
 .. admonition:: Further help from the community resources
 
-   | If you would like to have these concepts explained in a different way,
-     please have a look at this `introductory video
-     <https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
-     by `Barton Poulson <https://datalab.cc/jamovi>`__.
+   | If you would like to have these concepts explained in a different way, please have a look at this `introductory video
+     <https://www.youtube.com/embed/srqNCux0ijY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://datalab.cc/jamovi>`__.
      
-   | For those, aiming to stretch even further to an in-depth introduction, you
-     can read the respective chapter in the “Learning statistics with jamovi”
-     `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch04_Descriptives.html>`__
-     or chapter 4 of the `e-book <https://www.learnstatswithjamovi.com/>`__
-     by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft
-     <https://www.davidfoxcroft.com/>`__.
-     
-|
+   | For those, aiming to stretch even further to an in-depth introduction, you can read the respective chapter in the “Learning statistics with jamovi” `web
+     documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch04_Descriptives.html>`__ or chapter 4 of the `e-book <https://www.learnstatswithjamovi.com/>`__
+     by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
+   
+   | 
+
 
 .. ---------------------------------------------------------------------
 
