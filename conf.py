@@ -18,7 +18,7 @@ from sphinx.locale import _
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2016-2021, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License'
+copyright = u'2016-2022, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -52,7 +52,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
+exclude_patterns = ['_build', '_tmp', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -93,10 +93,7 @@ html_theme = "sphinx_rtd_theme"
 # further.  For a list of options available for each theme, see the documentation.
 # https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
 html_theme_options = {
-    # Google Analytics
-#   'analytics_id': 'G-XXXXXXXXXX',
-#   'analytics_anonymize_ip': False, # commented out - doesn't work on readthedocs
-    # show version number is shown at the top of the sidebar (default: True)
+    'collapse_navigation': False,
     'display_version': False,
     # only display the logo image, do not display the project name at the top of the sidebar (default: False)
     'logo_only': True,
@@ -111,20 +108,11 @@ html_theme_options = {
     'style_nav_header_background': '#FFFFFF',
     # width of the sidebar (defaults to 230 pixels)
     'sidebarwidth': '20%',
-    # minimal and maximal width of the document body (use 'none' if you don’t want a width limit; defaults depend on the theme: often 450px [min] and 800px [max])
-    'body_min_width': 0,
-    'body_max_width': 0,
-    # ToC options
-    # navigation entries are not expandable – the [+] icons next to each entry are removed (default: True)
-    'collapse_navigation': True,
-    # scroll the navigation with the main page content as you scroll the page
-    'sticky_navigation': True,
-    # maximum depth of the table of contents tree (default: 4; allow unlimited depth: -1)
-    'navigation_depth': 3,
-    # whether the navigation includes hidden table(s) of contents (i.e., toctree directives marked with the :hidden: option; default: True)
-    'includehidden': True,
-    # page subheadings are not included in the navigation (default: False)
-    'titles_only': True
+#   Minimal and maximal width of the document body. Use 'none' if you don’t want a width limit. Defaults may depend on the theme (often 450px [min] and 800px [max]).    
+    'body_min_width': 'none',
+    'body_max_width': 'none',
+#   Allow navigating to the previous/next page using the keyboard’s left and right arrows. Defaults to False.
+    'navigation_with_keys': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
