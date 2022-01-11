@@ -31,36 +31,34 @@ names as shown in the second line.
 
 .. code-block: R
 
-summary(data[1:3])
-summary(data[, c('var1', 'var2', 'var3')])
+   summary(data[1:3])
+   summary(data[, c('var1', 'var2', 'var3')])
+   
+Quite often you may need a list of all your variables as a string (e.g., for using them in connection with functions in Computed variables). Of course, the
+you can as well restrict the variables with the column indices as in the command above.
+
+.. code-block: R
+
+   summary(data[1:3])
+   summary(data[, c('var1', 'var2', 'var3')])
+
 
 But you can also use functions from R libraries:
 
 .. code-block: R
 
-stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), mean)
+   stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), mean)
+   
 
 It may take a bit of time to figure out how to use these functions, especially to discover, e.g., which format is required for the data matrices you use as
 input to functions (those may need to be converted to numbers with «as.numeric» or to a list with «list»). But once you managed that, you have unlimited access
 to (almost) any kind of statistical analysis you can imagine.
 
-This is not at least because there come already a wealth of R libraries installed with jamovi and Rj: ``abind``, ``acepack``, ``afex``, ``arm``,
-``assertthat``, ``backports``, ``base``, ``base64enc``, ``BayesFactor``, ``BDgraph``, ``BH``, ``bindr``, ``bindrcpp``, ``bitops``, ``boot``, ``ca``, ``car``,
-``carData``, ``caTools``, ``cellranger``, ``checkmate``, ``class``, ``cli``, ``clipr``, ``cluster``, ``coda``, ``codetools``, ``colorspace``, ``compiler``,
-``contfrac``, ``corpcor``, ``crayon``, ``curl``, ``d3Network``, ``data.table``, ``datasets``, ``deSolve``, ``digest``, ``dplyr``, ``ellipsis``, ``elliptic``,
-``emmeans``, ``estimability``, ``evaluate``, ``evaluate``, ``exact2x2``, ``exactci``, ``fansi``, ``fdrtool``, ``forcats``, ``foreign``, ``Formula``, ``gdata``,
-``GGally``, ``ggm``, ``ggplot2``, ``ggridges``, ``glasso``, ``glue``, ``gnm``, ``GPArotation``, ``gplots``, ``graphics``, ``grDevices``, ``grid``,
-``gridExtra``, ``gtable``, ``gtools``, ``haven``, ``highr``, ``Hmisc``, ``hms``, ``htmlTable``, ``htmltools``, ``htmlwidgets``, ``huge``, ``hypergeo``,
-``igraph``, ``jmv``, ``jmvcore``, ``jpeg``, ``jsonlite``, ``KernSmooth``, ``knitr``, ``kutils``, ``labeling``, ``lattice``, ``latticeExtra``, ``lavaan``,
-``lazyeval``, ``lisrelToR``, ``lme4``, ``lmerTest``, ``lmtest``, ``magrittr``, ``maptools``, ``markdown``, ``MASS``, ``Matrix``, ``matrixcalc``,
-``MatrixModels``, ``methods``, ``mgcv``, ``mi``, ``mime``, ``minqa``, ``mnormt``, ``multcomp``, ``munsell``, ``mvnormtest``, ``mvtnorm``, ``nlme``, ``nloptr``,
-``nnet``, ``numDeriv``, ``OpenMx``, ``openxlsx``, ``parallel``, ``pbapply``, ``pbivnorm``, ``pbkrtest``, ``pillar``, ``pkgconfig``, ``pkgconfig``, ``plogr``,
-``plyr``, ``PMCMR``, ``png``, ``praise``, ``prettyunits``, ``progress``, ``psych``, ``purrr``, ``qgraph``, ``quantreg``, ``qvcalc``, ``R6``, ``RColorBrewer``,
-``Rcpp``, ``RcppArmadillo``, ``RcppEigen``, ``RCurl``, ``readr``, ``readxl``, ``regsem``, ``relimp``, ``rematch``, ``reshape``, ``reshape2``, ``RInside``,
-``rio``, ``Rj``, ``rjson``, ``rlang``, ``rockchalk``, ``ROCR``, ``rpart``, ``rpf``, ``RProtoBuf``, ``Rsolnp``, ``rstudioapi``, ``RUnit``, ``sandwich``,
-``scales``, ``sem``, ``semPlot``, ``semTools``, ``sp``, ``SparseM``, ``spatial``, ``splines``, ``ssanv``, ``StanHeaders``, ``stats``, ``stats4``, ``stringi``,
-``stringr``, ``survival``, ``tcltk``, ``testthat``, ``TH.data``, ``tibble``, ``tidyselect``, ``tools``, ``truncnorm``, ``utf8``, ``utils``, ``vcd``,
-``vcdExtra``, ``vctrs``, ``viridis``, ``viridisLite``, ``whisker``, ``withr``, ``xfun``, ``XML``, ``xtable``, ``yaml``, ``zeallot``, ``zip``, ``zoo``.
+The following commands permits you to list the wealth of R libraries included with jamovi and Rj:
+
+.. code-block: R
+
+   sort(rownames(installed.packages()))
 
 Some of these libraries are especially interesting:
 
