@@ -45,7 +45,7 @@ you can as well restrict the variables with the column indices as in the command
 
 
 But you can also use functions from R libraries (e.g., ``stats``). When doing so, you may have to precede these functions with the name of the package and
-``::`` and sometimes you need to convert the contents of a variable into another format (e.g, with ``as.numeric()`` into numbers):
+``::``.
 
 .. code-block: R
 
@@ -53,8 +53,8 @@ But you can also use functions from R libraries (e.g., ``stats``). When doing so
 
 
 It may take a bit of time to figure out how to use these functions, especially to discover, e.g., which format is required for the data matrices you use as
-input to functions (those may need to be converted to numbers with «as.numeric» or to a list with «list»). But once you managed that, you have unlimited access
-to (almost) any kind of statistical analysis you can imagine.
+input to functions (those may need to be converted to numbers with ``as.numeric()`` or to a list with ``list``). But once you managed that, you have unlimited
+access to (almost) any kind of statistical analysis you can imagine.
 
 The following commands permits you to list the wealth of R libraries included with jamovi and Rj:
 
