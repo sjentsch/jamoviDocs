@@ -12,7 +12,7 @@ Exploratory Factor Analysis
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    efa(
      data,
@@ -103,7 +103,7 @@ A results object containing:
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('iris')
 

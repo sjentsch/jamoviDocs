@@ -12,7 +12,7 @@ Reads a data set from jamovi
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    read(id, columns)
 
@@ -32,7 +32,7 @@ the data set as a data frame
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    jmvconnect::what()
 

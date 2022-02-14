@@ -12,7 +12,7 @@ Principal Component Analysis
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    pca(
      data,
@@ -107,7 +107,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('iris')
 

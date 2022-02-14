@@ -17,7 +17,7 @@ it need not assume that the variances of all groups are equal.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    anovaOneW(
      data,
@@ -134,7 +134,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('ToothGrowth')
    dat <- ToothGrowth

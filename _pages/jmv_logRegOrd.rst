@@ -12,7 +12,7 @@ Ordinal Logistic Regression
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    logRegOrd(
      data,
@@ -121,7 +121,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    set.seed(1337)
 

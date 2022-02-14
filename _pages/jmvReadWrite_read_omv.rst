@@ -13,7 +13,7 @@ Read files created of the statistical spreadsheet `jamovi
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    jmvRead(fleNme = "", useFlt = FALSE, rmMsVl = FALSE, sveAtt = FALSE)
 

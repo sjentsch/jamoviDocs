@@ -12,7 +12,7 @@ McNemar test
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    contTablesPaired(
      data,
@@ -82,7 +82,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    dat <- data.frame(
        `1st survey` = c('Approve', 'Approve', 'Disapprove', 'Disapprove'),

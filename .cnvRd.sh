@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # jmv
 cd /home/sjentsch/Documents/Computer/jamovi/Docker/jamovi/jmv
 echo 'devtools::document(roclets=c("rd", "collate", "namespace"))' | Rscript -

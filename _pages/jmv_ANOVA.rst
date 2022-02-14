@@ -14,7 +14,7 @@ explanatory variables.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    ANOVA(
      data,
@@ -180,7 +180,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('ToothGrowth')
 

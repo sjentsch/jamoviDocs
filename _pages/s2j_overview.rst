@@ -36,6 +36,7 @@ Field's (2017) <https://edge.sagepub.com/field5e>`__ book are used.
    s2j_ANCOVA
    s2j_correlation   
    s2j_linReg
+   s2j_logReg
    s2j_frequencies
 
 .. s2j_descriptives
@@ -49,7 +50,7 @@ Field's (2017) <https://edge.sagepub.com/field5e>`__ book are used.
    s2j_MANOVA
    [s2j_correlation]
    [s2j_linReg]
-   s2j_logReg
+   [s2j_logReg]
    s2j_factor
    [s2j_frequencies]
 

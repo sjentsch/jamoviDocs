@@ -29,16 +29,17 @@ Running R commands
 You can access your dataset with the variable ``data``. The first line selects the first three columns of your dataset. Alternatively, you can use variable
 names as shown in the second line.
 
-.. code-block: R
+.. code-block:: R
 
    summary(data[1:3])
    summary(data[, c('var1', 'var2', 'var3')])
 
    
-Quite often you may need a list of all your variables as a string (e.g., for using them in connection with functions in Computed variables). Of course, the
-you can as well restrict the variables with the column indices as in the command above.
+Sometimes you may need a list of all your variables as a string (e.g., for using them in connection with functions in Computed variables). Of course, you can
+as well restrict the variables with the column indices as in the command above. Afterwards, you can just copy the output text and insert it, e.g., into a
+function for a computed variable: ``SUM([insert text you copied])`` 
 
-.. code-block: R
+.. code-block:: R
 
    paste0(names(data), collapse = ", ")
    paste0(names(data[2:10]), collapse = ", ")
@@ -47,7 +48,7 @@ you can as well restrict the variables with the column indices as in the command
 But you can also use functions from R libraries (e.g., ``stats``). When doing so, you may have to precede these functions with the name of the package and
 ``::``.
 
-.. code-block: R
+.. code-block:: R
 
    stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), mean)  
 
@@ -58,7 +59,7 @@ access to (almost) any kind of statistical analysis you can imagine.
 
 The following commands permits you to list the wealth of R libraries included with jamovi and Rj:
 
-.. code-block: R
+.. code-block:: R
 
    sort(rownames(installed.packages()))
 

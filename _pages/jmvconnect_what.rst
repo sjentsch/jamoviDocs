@@ -13,14 +13,14 @@ using the read() function.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    what()
 
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    jmvconnect::what()
 

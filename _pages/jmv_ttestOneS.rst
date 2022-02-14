@@ -18,7 +18,7 @@ true mean must be different from the test value.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    ttestOneS(
      data,
@@ -153,7 +153,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('ToothGrowth')
 

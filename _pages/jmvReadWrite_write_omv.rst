@@ -13,7 +13,7 @@ Write files to be used with the statistical spreadsheet `jamovi
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    jmvWrite(dtaFrm = NULL, fleNme = "")
 

@@ -16,7 +16,7 @@ only test a single explanatory variable at a time.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    anovaNP(data, deps, group, es = FALSE, pairs = FALSE, formula)
 
@@ -59,7 +59,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('ToothGrowth')
 

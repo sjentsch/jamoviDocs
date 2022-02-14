@@ -15,7 +15,7 @@ proportion must be some other value.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    propTest2(
      data,
@@ -96,7 +96,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    dat <- data.frame(x=c(8, 15))
 

@@ -15,7 +15,7 @@ Confirmatory Factor Analysis
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    cfa(
      data,
@@ -169,7 +169,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data <- lavaan::HolzingerSwineford1939
 

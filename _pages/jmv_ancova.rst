@@ -16,7 +16,7 @@ the addition of covariates.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    ancova(
      data,
@@ -175,7 +175,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('ToothGrowth')
 

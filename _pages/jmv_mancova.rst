@@ -14,7 +14,7 @@ categorical and/or continuous explanatory variables.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    mancova(
      data,
@@ -79,7 +79,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('iris')
 

@@ -16,7 +16,7 @@ proportions are different to those tested.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    propTestN(data, var, counts = NULL, expected = FALSE, ratio = NULL, formula)
 
@@ -59,7 +59,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('HairEyeColor')
    dat <- as.data.frame(HairEyeColor)

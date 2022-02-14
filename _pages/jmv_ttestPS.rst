@@ -16,7 +16,7 @@ between the measurement pairs is not zero.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    ttestPS(
      data,
@@ -135,7 +135,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('bugs', package = 'jmv')
 

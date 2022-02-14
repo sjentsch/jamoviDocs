@@ -15,7 +15,7 @@ ANOVA and ANCOVA, are in reality just forms of linear regression.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    linReg(
      data,
@@ -195,7 +195,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
    data('Prestige', package='carData')
 

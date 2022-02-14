@@ -20,7 +20,7 @@ for repeated measures ANCOVAs as well.
 Usage
 -----
 
-.. code-block:: r
+.. code-block:: R
 
    anovaRM(
      data,
@@ -188,7 +188,7 @@ Tables can be converted to data frames with ``asDF`` or
 Examples
 --------
 
-.. code-block:: r
+.. code-block:: R
 
 
    data('bugs', package = 'jmv')
