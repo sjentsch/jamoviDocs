@@ -25,7 +25,8 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | The results are the same in SPSS and in jamovi.                                                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| |SPSS_Output_corr5_1| |SPSS_Output_corr5_2|                                   | |jamovi_Output_corr5|                                                         |
+| |SPSS_Output_corr5_1|                                                         | |jamovi_Output_corr5|                                                         |
+| |SPSS_Output_corr5_2|                                                         |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | In SPSS, you can tell if a correlation is significant by noting the amount of | In jamovi, significant correlations are flagged using one (p < .05), two      |
 | asterisks after the correlation coefficient. The correlation matrix shows the | (p < .01) or three (p < .001) asterisks. This differs from SPSS, where all    |
@@ -42,7 +43,7 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 |    PARTIAL CORR                                                               |    jmv::corrPart(                                                             |
 |      /VARIABLES=Exam Anxiety BY Revise                                        |        data = data,                                                           |
 |      /SIGNIFICANCE=TWOTAIL                                                    |        vars = vars(Exam, Anxiety),                                            |
-|       /MISSING=LISTWISE.                                                      |        controls = Revise)                                                     |
+|      /MISSING=LISTWISE.                                                       |        controls = Revise)                                                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

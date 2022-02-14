@@ -7,11 +7,9 @@ Paired Samples T-Test (``ttestPS``)
 Description
 -----------
 
-The Student's paired samples t-test (sometimes called a
-dependent-samples t-test) is used to test the null hypothesis that the
-difference between pairs of measurements is equal to zero. A low p-value
-suggests that the null hypothesis is not true, and that the difference
-between the measurement pairs is not zero.
+    The Student's paired samples t-test (sometimes called a dependent-samples t-test) is used to test the null hypothesis that the difference between pairs
+    of measurements is equal to zero. A low p-value suggests that the null hypothesis is not true, and that the difference between the measurement pairs is
+    not zero.
 
 Usage
 -----
@@ -106,12 +104,9 @@ Arguments
 Details
 -------
 
-The Student's paired samples t-test assumes that pair differences follow
-a normal distribution – in the case that one is unwilling to assume
-this, the non-parametric Wilcoxon signed-rank can be used in it's place
-(However, note that the Wilcoxon signed-rank has a slightly different
-null hypothesis; that the two groups of measurements follow the same
-distribution).
+    The Student's paired samples t-test assumes that pair differences follow a normal distribution – in the case that one is unwilling to assume this, the
+    non-parametric Wilcoxon signed-rank can be used in it's place (however, note that the Wilcoxon signed-rank has a slightly different null hypothesis; that
+    the two groups of measurements follow the same distribution).
 
 Output
 ------

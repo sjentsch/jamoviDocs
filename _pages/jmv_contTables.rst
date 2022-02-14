@@ -7,10 +7,8 @@ Contingency Tables (``contTables``)
 Description
 -----------
 
-The X² test of association (not to be confused with the X² goodness of
-fit) is used to test whether two categorical variables are independent
-or associated. If the p-value is low, it suggests the variables are not
-independent, and that there is a relationship between the two variables.
+    The X² test of association (not to be confused with the X² goodness of fit) is used to test whether two categorical variables are independent or
+    associated. If the p-value is low, it suggests the variables are not independent, and that there is a relationship between the two variables.
 
 Usage
 -----
@@ -47,79 +45,55 @@ Usage
 Arguments
 ---------
 
-+---------------+-----------------------------------------------------+
-| ``data``      | the data as a data frame                            |
-+---------------+-----------------------------------------------------+
-| ``rows``      | the variable to use as the rows in the contingency  |
-|               | table (not necessary when providing a formula, see  |
-|               | the examples)                                       |
-+---------------+-----------------------------------------------------+
-| ``cols``      | the variable to use as the columns in the           |
-|               | contingency table (not necessary when providing a   |
-|               | formula, see the examples)                          |
-+---------------+-----------------------------------------------------+
-| ``counts``    | the variable to use as the counts in the            |
-|               | contingency table (not necessary when providing a   |
-|               | formula, see the examples)                          |
-+---------------+-----------------------------------------------------+
-| ``layers``    | the variables to use to split the contingency table |
-|               | (not necessary when providing a formula, see the    |
-|               | examples)                                           |
-+---------------+-----------------------------------------------------+
-| ``chiSq``     | ``TRUE`` (default) or ``FALSE``, provide X²         |
-+---------------+-----------------------------------------------------+
-| ``chiSqCorr`` | ``TRUE`` or ``FALSE`` (default), provide X² with    |
-|               | continuity correction                               |
-+---------------+-----------------------------------------------------+
-| ``likeRat``   | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | likelihood ratio                                    |
-+---------------+-----------------------------------------------------+
-| ``fisher``    | ``TRUE`` or ``FALSE`` (default), provide Fisher's   |
-|               | exact test                                          |
-+---------------+-----------------------------------------------------+
-| ``contCoef``  | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | contingency coefficient                             |
-+---------------+-----------------------------------------------------+
-| ``phiCra``    | ``TRUE`` or ``FALSE`` (default), provide Phi and    |
-|               | Cramer's V                                          |
-+---------------+-----------------------------------------------------+
-| ``logOdds``   | ``TRUE`` or ``FALSE`` (default), provide the log    |
-|               | odds ratio (only available for 2x2 tables)          |
-+---------------+-----------------------------------------------------+
-| ``odds``      | ``TRUE`` or ``FALSE`` (default), provide the odds   |
-|               | ratio (only available for 2x2 tables)               |
-+---------------+-----------------------------------------------------+
-| ``relRisk``   | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | relative risk (only available for 2x2 tables)       |
-+---------------+-----------------------------------------------------+
-| ``ci``        | ``TRUE`` or ``FALSE`` (default), provide confidence |
-|               | intervals for the comparative measures              |
-+---------------+-----------------------------------------------------+
-| ``ciWidth``   | a number between 50 and 99.9 (default: 95), width   |
-|               | of the confidence intervals to provide              |
-+---------------+-----------------------------------------------------+
-| ``gamma``     | ``TRUE`` or ``FALSE`` (default), provide gamma      |
-+---------------+-----------------------------------------------------+
-| ``taub``      | ``TRUE`` or ``FALSE`` (default), provide Kendall's  |
-|               | tau-b                                               |
-+---------------+-----------------------------------------------------+
-| ``obs``       | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | observed counts                                     |
-+---------------+-----------------------------------------------------+
-| ``exp``       | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | expected counts                                     |
-+---------------+-----------------------------------------------------+
-| ``pcRow``     | ``TRUE`` or ``FALSE`` (default), provide row        |
-|               | percentages                                         |
-+---------------+-----------------------------------------------------+
-| ``pcCol``     | ``TRUE`` or ``FALSE`` (default), provide column     |
-|               | percentages                                         |
-+---------------+-----------------------------------------------------+
-| ``pcTot``     | ``TRUE`` or ``FALSE`` (default), provide total      |
-|               | percentages                                         |
-+---------------+-----------------------------------------------------+
-| ``formula``   | (optional) the formula to use, see the examples     |
-+---------------+-----------------------------------------------------+
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``data``      | the data as a data frame                                                                                               |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``rows``      | the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)    |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``cols``      | the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples) |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``counts``    | the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)  |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``layers``    | the variables to use to split the contingency table (not necessary when providing a formula, see the examples)         |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``chiSq``     | ``TRUE`` (default) or ``FALSE``, provide X²                                                                            |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``chiSqCorr`` | ``TRUE`` or ``FALSE`` (default), provide X² with continuity correction                                                 |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``likeRat``   | ``TRUE`` or ``FALSE`` (default), provide the likelihood ratio                                                          |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``fisher``    | ``TRUE`` or ``FALSE`` (default), provide Fisher's exact test                                                           |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``contCoef``  | ``TRUE`` or ``FALSE`` (default), provide the contingency coefficient                                                   |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``phiCra``    | ``TRUE`` or ``FALSE`` (default), provide Phi and Cramer's V                                                            |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``logOdds``   | ``TRUE`` or ``FALSE`` (default), provide the log odds ratio (only available for 2x2 tables)                            |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``odds``      | ``TRUE`` or ``FALSE`` (default), provide the odds ratio (only available for 2x2 tables)                                |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``relRisk``   | ``TRUE`` or ``FALSE`` (default), provide the relative risk (only available for 2x2 tables)                             |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``ci``        | ``TRUE`` or ``FALSE`` (default), provide confidence intervals for the comparative measures                             |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``ciWidth``   | a number between 50 and 99.9 (default: 95), width of the confidence intervals to provide                               |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``gamma``     | ``TRUE`` or ``FALSE`` (default), provide gamma                                                                         |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``taub``      | ``TRUE`` or ``FALSE`` (default), provide Kendall's tau-b                                                               |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``obs``       | ``TRUE`` or ``FALSE`` (default), provide the observed counts                                                           |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``exp``       | ``TRUE`` or ``FALSE`` (default), provide the expected counts                                                           |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``pcRow``     | ``TRUE`` or ``FALSE`` (default), provide row percentages                                                               |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``pcCol``     | ``TRUE`` or ``FALSE`` (default), provide column percentages                                                            |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``pcTot``     | ``TRUE`` or ``FALSE`` (default), provide total percentages                                                             |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``formula``   | (optional) the formula to use, see the examples                                                                        |
++---------------+------------------------------------------------------------------------------------------------------------------------+
 
 Output
 ------

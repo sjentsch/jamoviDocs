@@ -7,10 +7,8 @@ Descriptives (``descriptives``)
 Description
 -----------
 
-Descriptives are an assortment of summarising statistics, and
-visualizations which allow exploring the shape and distribution of data.
-It is good practice to explore your data with descriptives before
-proceeding to more formal tests.
+    Descriptives are an assortment of summarising statistics, and visualizations which allow exploring the shape and distribution of data. It is good practice
+    to explore your data with descriptives before proceeding to more formal tests.
 
 Usage
 -----
@@ -55,93 +53,71 @@ Usage
 Arguments
 ---------
 
-+---------------+-----------------------------------------------------+
-| ``data``      | the data as a data frame                            |
-+---------------+-----------------------------------------------------+
-| ``vars``      | a vector of strings naming the variables of         |
-|               | interest in ``data``                                |
-+---------------+-----------------------------------------------------+
-| ``splitBy``   | a vector of strings naming the variables used to    |
-|               | split ``vars``                                      |
-+---------------+-----------------------------------------------------+
-| ``freq``      | ``TRUE`` or ``FALSE`` (default), provide frequency  |
-|               | tables (nominal, ordinal variables only)            |
-+---------------+-----------------------------------------------------+
-| ``hist``      | ``TRUE`` or ``FALSE`` (default), provide histograms |
-|               | (continuous variables only)                         |
-+---------------+-----------------------------------------------------+
-| ``dens``      | ``TRUE`` or ``FALSE`` (default), provide density    |
-|               | plots (continuous variables only)                   |
-+---------------+-----------------------------------------------------+
-| ``bar``       | ``TRUE`` or ``FALSE`` (default), provide bar plots  |
-|               | (nominal, ordinal variables only)                   |
-+---------------+-----------------------------------------------------+
-| ``barCounts`` | ``TRUE`` or ``FALSE`` (default), add counts to the  |
-|               | bar plots                                           |
-+---------------+-----------------------------------------------------+
-| ``box``       | ``TRUE`` or ``FALSE`` (default), provide box plots  |
-|               | (continuous variables only)                         |
-+---------------+-----------------------------------------------------+
-| ``violin``    | ``TRUE`` or ``FALSE`` (default), provide violin     |
-|               | plots (continuous variables only)                   |
-+---------------+-----------------------------------------------------+
-| ``dot``       | ``TRUE`` or ``FALSE`` (default), provide dot plots  |
-|               | (continuous variables only)                         |
-+---------------+-----------------------------------------------------+
-| ``dotType``   | .                                                   |
-+---------------+-----------------------------------------------------+
-| ``qq``        | ``TRUE`` or ``FALSE`` (default), provide Q-Q plots  |
-|               | (continuous variables only)                         |
-+---------------+-----------------------------------------------------+
-| ``n``         | ``TRUE`` (default) or ``FALSE``, provide the sample |
-|               | size                                                |
-+---------------+-----------------------------------------------------+
-| ``missing``   | ``TRUE`` (default) or ``FALSE``, provide the number |
-|               | of missing values                                   |
-+---------------+-----------------------------------------------------+
-| ``mean``      | ``TRUE`` (default) or ``FALSE``, provide the mean   |
-+---------------+-----------------------------------------------------+
-| ``median``    | ``TRUE`` (default) or ``FALSE``, provide the median |
-+---------------+-----------------------------------------------------+
-| ``mode``      | ``TRUE`` or ``FALSE`` (default), provide the mode   |
-+---------------+-----------------------------------------------------+
-| ``sum``       | ``TRUE`` or ``FALSE`` (default), provide the sum    |
-+---------------+-----------------------------------------------------+
-| ``sd``        | ``TRUE`` (default) or ``FALSE``, provide the        |
-|               | standard deviation                                  |
-+---------------+-----------------------------------------------------+
-| ``variance``  | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | variance                                            |
-+---------------+-----------------------------------------------------+
-| ``range``     | ``TRUE`` or ``FALSE`` (default), provide the range  |
-+---------------+-----------------------------------------------------+
-| ``min``       | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | minimum                                             |
-+---------------+-----------------------------------------------------+
-| ``max``       | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | maximum                                             |
-+---------------+-----------------------------------------------------+
-| ``se``        | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | standard error                                      |
-+---------------+-----------------------------------------------------+
-| ``skew``      | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | skewness                                            |
-+---------------+-----------------------------------------------------+
-| ``kurt``      | ``TRUE`` or ``FALSE`` (default), provide the        |
-|               | kurtosis                                            |
-+---------------+-----------------------------------------------------+
-| ``sw``        | ``TRUE`` or ``FALSE`` (default), provide            |
-|               | Shapiro-Wilk p-value                                |
-+---------------+-----------------------------------------------------+
-| ``quart``     | ``TRUE`` or ``FALSE`` (default), provide quartiles  |
-+---------------+-----------------------------------------------------+
-| ``pcEqGr``    | ``TRUE`` or ``FALSE`` (default), provide quantiles  |
-+---------------+-----------------------------------------------------+
-| ``pcNEqGr``   | an integer (default: 4) specifying the number of    |
-|               | equal groups                                        |
-+---------------+-----------------------------------------------------+
-| ``formula``   | (optional) the formula to use, see the examples     |
-+---------------+-----------------------------------------------------+
++---------------+---------------------------------------------------------------------------------------------+
+| ``data``      | the data as a data frame                                                                    |
++---------------+---------------------------------------------------------------------------------------------+
+| ``vars``      | a vector of strings naming the variables of interest in ``data``                            |
++---------------+---------------------------------------------------------------------------------------------+
+| ``splitBy``   | a vector of strings naming the variables used to split ``vars``                             |
++---------------+---------------------------------------------------------------------------------------------+
+| ``freq``      | ``TRUE`` or ``FALSE`` (default), provide frequency tables (nominal, ordinal variables only) |
++---------------+---------------------------------------------------------------------------------------------+
+| ``hist``      | ``TRUE`` or ``FALSE`` (default), provide histograms (continuous variables only)             |
++---------------+---------------------------------------------------------------------------------------------+
+| ``dens``      | ``TRUE`` or ``FALSE`` (default), provide density plots (continuous variables only)          |
++---------------+---------------------------------------------------------------------------------------------+
+| ``bar``       | ``TRUE`` or ``FALSE`` (default), provide bar plots (nominal, ordinal variables only)        |
++---------------+---------------------------------------------------------------------------------------------+
+| ``barCounts`` | ``TRUE`` or ``FALSE`` (default), add counts to the bar plots                                |
++---------------+---------------------------------------------------------------------------------------------+
+| ``box``       | ``TRUE`` or ``FALSE`` (default), provide box plots (continuous variables only)              |
++---------------+---------------------------------------------------------------------------------------------+
+| ``violin``    | ``TRUE`` or ``FALSE`` (default), provide violin plots (continuous variables only)           |
++---------------+---------------------------------------------------------------------------------------------+
+| ``dot``       | ``TRUE`` or ``FALSE`` (default), provide dot plots (continuous variables only)              |
++---------------+---------------------------------------------------------------------------------------------+
+| ``dotType``   | .                                                                                           |
++---------------+---------------------------------------------------------------------------------------------+
+| ``qq``        | ``TRUE`` or ``FALSE`` (default), provide Q-Q plots (continuous variables only)              |
++---------------+---------------------------------------------------------------------------------------------+
+| ``n``         | ``TRUE`` (default) or ``FALSE``, provide the sample size                                    |
++---------------+---------------------------------------------------------------------------------------------+
+| ``missing``   | ``TRUE`` (default) or ``FALSE``, provide the number of missing values                       |
++---------------+---------------------------------------------------------------------------------------------+
+| ``mean``      | ``TRUE`` (default) or ``FALSE``, provide the mean                                           |
++---------------+---------------------------------------------------------------------------------------------+
+| ``median``    | ``TRUE`` (default) or ``FALSE``, provide the median                                         |
++---------------+---------------------------------------------------------------------------------------------+
+| ``mode``      | ``TRUE`` or ``FALSE`` (default), provide the mode                                           |
++---------------+---------------------------------------------------------------------------------------------+
+| ``sum``       | ``TRUE`` or ``FALSE`` (default), provide the sum                                            |
++---------------+---------------------------------------------------------------------------------------------+
+| ``sd``        | ``TRUE`` (default) or ``FALSE``, provide the standard deviation                             |
++---------------+---------------------------------------------------------------------------------------------+
+| ``variance``  | ``TRUE`` or ``FALSE`` (default), provide the variance                                       |
++---------------+---------------------------------------------------------------------------------------------+
+| ``range``     | ``TRUE`` or ``FALSE`` (default), provide the range                                          |
++---------------+---------------------------------------------------------------------------------------------+
+| ``min``       | ``TRUE`` or ``FALSE`` (default), provide the minimum                                        |
++---------------+---------------------------------------------------------------------------------------------+
+| ``max``       | ``TRUE`` or ``FALSE`` (default), provide the maximum                                        |
++---------------+---------------------------------------------------------------------------------------------+
+| ``se``        | ``TRUE`` or ``FALSE`` (default), provide the standard error                                 |
++---------------+---------------------------------------------------------------------------------------------+
+| ``skew``      | ``TRUE`` or ``FALSE`` (default), provide the skewness                                       |
++---------------+---------------------------------------------------------------------------------------------+
+| ``kurt``      | ``TRUE`` or ``FALSE`` (default), provide the kurtosis                                       |
++---------------+---------------------------------------------------------------------------------------------+
+| ``sw``        | ``TRUE`` or ``FALSE`` (default), provide Shapiro-Wilk p-value                               |
++---------------+---------------------------------------------------------------------------------------------+
+| ``quart``     | ``TRUE`` or ``FALSE`` (default), provide quartiles                                          |
++---------------+---------------------------------------------------------------------------------------------+
+| ``pcEqGr``    | ``TRUE`` or ``FALSE`` (default), provide quantiles                                          |
++---------------+---------------------------------------------------------------------------------------------+
+| ``pcNEqGr``   | an integer (default: 4) specifying the number of equal groups                               |
++---------------+---------------------------------------------------------------------------------------------+
+| ``formula``   | (optional) the formula to use, see the examples                                             |
++---------------+---------------------------------------------------------------------------------------------+
 
 Output
 ------

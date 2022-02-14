@@ -33,44 +33,33 @@ Usage
 Arguments
 ---------
 
-+-----------------+---------------------------------------------------+
-| ``data``        | the data as a data frame                          |
-+-----------------+---------------------------------------------------+
-| ``vars``        | a vector of strings naming the variables of       |
-|                 | interest in ``data``                              |
-+-----------------+---------------------------------------------------+
-| ``alphaScale``  | ``TRUE`` (default) or ``FALSE``, provide          |
-|                 | Cronbach's alpha                                  |
-+-----------------+---------------------------------------------------+
-| ``omegaScale``  | ``TRUE`` or ``FALSE`` (default), provide          |
-|                 | McDonald's omega                                  |
-+-----------------+---------------------------------------------------+
-| ``meanScale``   | ``TRUE`` or ``FALSE`` (default), provide the mean |
-+-----------------+---------------------------------------------------+
-| ``sdScale``     | ``TRUE`` or ``FALSE`` (default), provide the      |
-|                 | standard deviation                                |
-+-----------------+---------------------------------------------------+
-| ``corPlot``     | ``TRUE`` or ``FALSE`` (default), provide a        |
-|                 | correlation plot                                  |
-+-----------------+---------------------------------------------------+
-| ``alphaItems``  | ``TRUE`` or ``FALSE`` (default), provide what the |
-|                 | Cronbach's alpha would be if the item was dropped |
-+-----------------+---------------------------------------------------+
-| ``omegaItems``  | ``TRUE`` or ``FALSE`` (default), provide what the |
-|                 | McDonald's omega would be if the item was dropped |
-+-----------------+---------------------------------------------------+
-| ``meanItems``   | ``TRUE`` or ``FALSE`` (default), provide item     |
-|                 | means                                             |
-+-----------------+---------------------------------------------------+
-| ``sdItems``     | ``TRUE`` or ``FALSE`` (default), provide item     |
-|                 | standard deviations                               |
-+-----------------+---------------------------------------------------+
-| ``itemRestCor`` | ``TRUE`` or ``FALSE`` (default), provide          |
-|                 | item-rest correlations                            |
-+-----------------+---------------------------------------------------+
-| ``revItems``    | a vector containing strings naming the varibales  |
-|                 | that are reverse scaled                           |
-+-----------------+---------------------------------------------------+
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``data``        | the data as a data frame                                                                            |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``vars``        | a vector of strings naming the variables of interest in ``data``                                    |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``alphaScale``  | ``TRUE`` (default) or ``FALSE``, provide Cronbach's alpha                                           |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``omegaScale``  | ``TRUE`` or ``FALSE`` (default), provide McDonald's omega                                           |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``meanScale``   | ``TRUE`` or ``FALSE`` (default), provide the mean                                                   |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``sdScale``     | ``TRUE`` or ``FALSE`` (default), provide the standard deviation                                     |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``corPlot``     | ``TRUE`` or ``FALSE`` (default), provide a correlation plot                                         |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``alphaItems``  | ``TRUE`` or ``FALSE`` (default), provide what the Cronbach's alpha would be if the item was dropped |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``omegaItems``  | ``TRUE`` or ``FALSE`` (default), provide what the McDonald's omega would be if the item was dropped |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``meanItems``   | ``TRUE`` or ``FALSE`` (default), provide item means                                                 |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``sdItems``     | ``TRUE`` or ``FALSE`` (default), provide item standard deviations                                   |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``itemRestCor`` | ``TRUE`` or ``FALSE`` (default), provide item-rest correlations                                     |
++-----------------+-----------------------------------------------------------------------------------------------------+
+| ``revItems``    | a vector containing strings naming the varibales that are reverse scaled                            |
++-----------------+-----------------------------------------------------------------------------------------------------+
 
 Output
 ------

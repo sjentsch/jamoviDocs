@@ -6,12 +6,12 @@
 
 **Inherits from** |OptionControl|_
 
-A ``TextBox`` allows for the displaying and editing of the value of an option in text form.
+    A ``TextBox`` allows for the displaying and editing of the value of an option in text form.
 
 Properties
 ----------
 
-In addition to any inherited properties, a ``TextBox`` supports:
+    In addition to any inherited properties, a ``TextBox`` supports:
 
 +------------------+-----------------------------------------------------------------------------------------------------+-------------------------------+
 | Property         | Description                                                                                         | Form                          |

@@ -9,8 +9,8 @@ Results Definition (``.r.yaml`` files)
 Overview
 --------
 
-The results definition is a yaml file in the ``jamovi/`` directory, with the extension ``.r.yaml``. the results definition describes the results produced by
-the analysis. the file is named to match the name of the analysis, but converted to lowercase. an example is ``ttestis.r.yaml``:
+   The results definition is a yaml file in the ``jamovi/`` directory, with the extension ``.r.yaml``. the results definition describes the results produced by
+   the analysis. the file is named to match the name of the analysis, but converted to lowercase. an example is ``ttestis.r.yaml``:
 
 .. code-block:: yaml
 
@@ -39,7 +39,7 @@ the analysis. the file is named to match the name of the analysis, but converted
 Results
 -------
 
-Each results element has the following properties:
+   Each results element has the following properties:
 
 +---------------------+------------+--------------------------------------------------------------------------------------------------------------------------+
 | Property            | default    | Description                                                                                                              |
@@ -55,26 +55,26 @@ Each results element has the following properties:
 | ``clearWith``       | ``*``      | Event to clear the results element (a string).                                                                           |
 +---------------------+------------+--------------------------------------------------------------------------------------------------------------------------+
 
-Different results element types have different additional properties.
+   Different results element types have different additional properties.
+
 
 The different results element types are as follows:
-
 
 Preformatted
 ~~~~~~~~~~~~
 
-Preformatted represents the simplest of results elements. it is simply a block of preformattd text.
+   Preformatted represents the simplest of results elements. it is simply a block of preformattd text.
 
-It has no additional properties.
+   It has no additional properties.
 
 
 Table
 ~~~~~
 
-Table is the most common result element in the results from jamovi analyses. Tables are represented as rich HTML tables in jamovi, and as nicely formatted
-ASCII tables in an interactive R session.
+   Table is the most common result element in the results from jamovi analyses. Tables are represented as rich HTML tables in jamovi, and as nicely formatted
+   ASCII tables in an interactive R session.
 
-It can have the following properties:
+   It can have the following properties:
 
 +---------------------+------------+--------------------------------------------------------------------------------------------------------------------------+
 | Property            | default    | Description                                                                                                              |
@@ -91,7 +91,7 @@ It can have the following properties:
 Column
 ^^^^^^
 
-Columns within a table can have the following properties:
+   Columns within a table can have the following properties:
 
 +---------------------+------------+--------------------------------------------------------------------------------------------------------------------------+
 | Property            | default    | Description                                                                                                              |
@@ -118,7 +118,7 @@ Columns within a table can have the following properties:
 Image
 ~~~~~
 
-Images can have the following properties:
+   Images can have the following properties:
 
 +---------------------+------------+--------------------------------------------------------------------------------------------------------------------------+
 | Property            | default    | Description                                                                                                              |
@@ -136,7 +136,7 @@ Images can have the following properties:
 Group
 ~~~~~
 
-Groups can have the following properties:
+   Groups can have the following properties:
 
 +---------------------+------------+--------------------------------------------------------------------------------------------------------------------------+
 | Property            | default    | Description                                                                                                              |
@@ -148,7 +148,7 @@ Groups can have the following properties:
 Array
 ~~~~~
 
-Arrays can have the following properties:
+   Arrays can have the following properties:
 
 +---------------------+------------+--------------------------------------------------------------------------------------------------------------------------+
 | Property            | default    | Description                                                                                                              |

@@ -35,50 +35,36 @@ Usage
 Arguments
 ---------
 
-+----------------+----------------------------------------------------+
-| ``data``       | the data as a data frame                           |
-+----------------+----------------------------------------------------+
-| ``vars``       | a vector of strings naming the variables to        |
-|                | correlate in ``data``                              |
-+----------------+----------------------------------------------------+
-| ``pearson``    | ``TRUE`` (default) or ``FALSE``, provide Pearson's |
-|                | R                                                  |
-+----------------+----------------------------------------------------+
-| ``spearman``   | ``TRUE`` or ``FALSE`` (default), provide           |
-|                | Spearman's rho                                     |
-+----------------+----------------------------------------------------+
-| ``kendall``    | ``TRUE`` or ``FALSE`` (default), provide Kendall's |
-|                | tau-b                                              |
-+----------------+----------------------------------------------------+
-| ``sig``        | ``TRUE`` (default) or ``FALSE``, provide           |
-|                | significance levels                                |
-+----------------+----------------------------------------------------+
-| ``flag``       | ``TRUE`` or ``FALSE`` (default), flag significant  |
-|                | correlations                                       |
-+----------------+----------------------------------------------------+
-| ``n``          | ``TRUE`` or ``FALSE`` (default), provide the       |
-|                | number of cases                                    |
-+----------------+----------------------------------------------------+
-| ``ci``         | ``TRUE`` or ``FALSE`` (default), provide           |
-|                | confidence intervals                               |
-+----------------+----------------------------------------------------+
-| ``ciWidth``    | a number between 50 and 99.9 (default: 95), the    |
-|                | width of confidence intervals to provide           |
-+----------------+----------------------------------------------------+
-| ``plots``      | ``TRUE`` or ``FALSE`` (default), provide a         |
-|                | correlation matrix plot                            |
-+----------------+----------------------------------------------------+
-| ``plotDens``   | ``TRUE`` or ``FALSE`` (default), provide densities |
-|                | in the correlation matrix plot                     |
-+----------------+----------------------------------------------------+
-| ``plotStats``  | ``TRUE`` or ``FALSE`` (default), provide           |
-|                | statistics in the correlation matrix plot          |
-+----------------+----------------------------------------------------+
-| ``hypothesis`` | one of ``'corr'`` (default), ``'pos'``, ``'neg'``  |
-|                | specifying the alernative hypothesis; correlated,  |
-|                | correlated positively, correlated negatively       |
-|                | respectively.                                      |
-+----------------+----------------------------------------------------+
++----------------+------------------------------------------------------------------------------------------+
+| ``data``       | the data as a data frame                                                                 |
++----------------+------------------------------------------------------------------------------------------+
+| ``vars``       | a vector of strings naming the variables to correlate in ``data``                        |
++----------------+------------------------------------------------------------------------------------------+
+| ``pearson``    | ``TRUE`` (default) or ``FALSE``, provide Pearson's R                                     |
++----------------+------------------------------------------------------------------------------------------+
+| ``spearman``   | ``TRUE`` or ``FALSE`` (default), provide Spearman's rho                                  |
++----------------+------------------------------------------------------------------------------------------+
+| ``kendall``    | ``TRUE`` or ``FALSE`` (default), provide Kendall's tau-b                                 |
++----------------+------------------------------------------------------------------------------------------+
+| ``sig``        | ``TRUE`` (default) or ``FALSE``, provide significance levels                             |
++----------------+------------------------------------------------------------------------------------------+
+| ``flag``       | ``TRUE`` or ``FALSE`` (default), flag significant correlations                           |
++----------------+------------------------------------------------------------------------------------------+
+| ``n``          | ``TRUE`` or ``FALSE`` (default), provide the number of cases                             |
++----------------+------------------------------------------------------------------------------------------+
+| ``ci``         | ``TRUE`` or ``FALSE`` (default), provide confidence intervals                            |
++----------------+------------------------------------------------------------------------------------------+
+| ``ciWidth``    | a number between 50 and 99.9 (default: 95), the width of confidence intervals to provide |
++----------------+------------------------------------------------------------------------------------------+
+| ``plots``      | ``TRUE`` or ``FALSE`` (default), provide a correlation matrix plot                       |
++----------------+------------------------------------------------------------------------------------------+
+| ``plotDens``   | ``TRUE`` or ``FALSE`` (default), provide densities in the correlation matrix plot        |
++----------------+------------------------------------------------------------------------------------------+
+| ``plotStats``  | ``TRUE`` or ``FALSE`` (default), provide statistics in the correlation matrix plot       |
++----------------+------------------------------------------------------------------------------------------+
+| ``hypothesis`` | one of ``'corr'`` (default), ``'pos'``, ``'neg'`` specifying the alernative hypothesis;  |
+|                | correlated, correlated positively, correlated negatively respectively.                   |
++----------------+------------------------------------------------------------------------------------------+
 
 Details
 -------

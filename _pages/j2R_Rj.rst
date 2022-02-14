@@ -7,7 +7,7 @@ Rj Editor for jamovi
 Preparation
 ===========
 
-First you have to `install the module <howto_Install_modules.html>`__ Rj from the jamovi library. This will create a «R»-icon in the icon bar.
+    First you have to `install the module <howto_Install_modules.html>`__ Rj from the jamovi library. This will create a «R»-icon in the icon bar.
 
 |jamovi_Rj1|
 
@@ -26,8 +26,8 @@ Running R commands
 | |jamovi_Rj2|                                  | |jamovi_Rj3|                                                             |
 +-----------------------------------------------+--------------------------------------------------------------------------+
 
-You can access your dataset with the variable ``data``. The first line selects the first three columns of your dataset. Alternatively, you can use variable
-names as shown in the second line.
+    You can access your dataset with the variable ``data``. The first line selects the first three columns of your dataset. Alternatively, you can use variable
+    names as shown in the second line.
 
 .. code-block:: R
 
@@ -35,9 +35,9 @@ names as shown in the second line.
    summary(data[, c('var1', 'var2', 'var3')])
 
    
-Sometimes you may need a list of all your variables as a string (e.g., for using them in connection with functions in Computed variables). Of course, you can
-as well restrict the variables with the column indices as in the command above. Afterwards, you can just copy the output text and insert it, e.g., into a
-function for a computed variable: ``SUM([insert text you copied])`` 
+    Sometimes you may need a list of all your variables as a string (e.g., for using them in connection with functions in Computed variables). Of course, you
+    can as well restrict the variables with the column indices as in the command above. Afterwards, you can just copy the output text and insert it, e.g., into
+    a function for a computed variable: ``SUM([insert text you copied])`` 
 
 .. code-block:: R
 
@@ -45,19 +45,19 @@ function for a computed variable: ``SUM([insert text you copied])``
    paste0(names(data[2:10]), collapse = ", ")
 
 
-But you can also use functions from R libraries (e.g., ``stats``). When doing so, you may have to precede these functions with the name of the package and
-``::``.
+    But you can also use functions from R libraries (e.g., ``stats``). When doing so, you may have to precede these functions with the name of the package
+    and ``::``.
 
 .. code-block:: R
 
    stats::aggregate(as.numeric(data[, 'var1']), list(data[, 'gender']), mean)  
 
 
-It may take a bit of time to figure out how to use these functions, especially to discover, e.g., which format is required for the data matrices you use as
-input to functions (those may need to be converted to numbers with ``as.numeric()`` or to a list with ``list``). But once you managed that, you have unlimited
-access to (almost) any kind of statistical analysis you can imagine.
+    It may take a bit of time to figure out how to use these functions, especially to discover, e.g., which format is required for the data matrices you use as
+    input to functions (those may need to be converted to numbers with ``as.numeric()`` or to a list with ``list``). But once you managed that, you have
+    unlimited access to (almost) any kind of statistical analysis you can imagine.
 
-The following commands permits you to list the wealth of R libraries included with jamovi and Rj:
+    The following commands permits you to list the wealth of R libraries included with jamovi and Rj:
 
 .. code-block:: R
 

@@ -7,7 +7,7 @@ Binomial Logistic Regression (``logRegBin``)
 Description
 -----------
 
-Binomial Logistic Regression
+    Binomial Logistic Regression
 
 Usage
 -----
@@ -54,122 +54,77 @@ Usage
 Arguments
 ---------
 
-+----------------+----------------------------------------------------+
-| ``data``       | the data as a data frame                           |
-+----------------+----------------------------------------------------+
-| ``dep``        | a string naming the dependent variable from        |
-|                | ``data``, variable must be a factor                |
-+----------------+----------------------------------------------------+
-| ``covs``       | a vector of strings naming the covariates from     |
-|                | ``data``                                           |
-+----------------+----------------------------------------------------+
-| ``factors``    | a vector of strings naming the fixed factors from  |
-|                | ``data``                                           |
-+----------------+----------------------------------------------------+
-| ``blocks``     | a list containing vectors of strings that name the |
-|                | predictors that are added to the model. The        |
-|                | elements are added to the model according to their |
-|                | order in the list                                  |
-+----------------+----------------------------------------------------+
-| ``refLevels``  | a list of lists specifying reference levels of the |
-|                | dependent variable and all the factors             |
-+----------------+----------------------------------------------------+
-| ``modelTest``  | ``TRUE`` or ``FALSE`` (default), provide the model |
-|                | comparison between the models and the NULL model   |
-+----------------+----------------------------------------------------+
-| ``dev``        | ``TRUE`` (default) or ``FALSE``, provide the       |
-|                | deviance (or -2LogLikelihood) for the models       |
-+----------------+----------------------------------------------------+
-| ``aic``        | ``TRUE`` (default) or ``FALSE``, provide Aikaike's |
-|                | Information Criterion (AIC) for the models         |
-+----------------+----------------------------------------------------+
-| ``bic``        | ``TRUE`` or ``FALSE`` (default), provide Bayesian  |
-|                | Information Criterion (BIC) for the models         |
-+----------------+----------------------------------------------------+
-| ``pseudoR2``   | one or more of ``'r2mf'``, ``'r2cs'``, or          |
-|                | ``'r2n'``; use McFadden's, Cox & Snell, and        |
-|                | Nagelkerke pseudo-R², respectively                 |
-+----------------+----------------------------------------------------+
-| ``omni``       | ``TRUE`` or ``FALSE`` (default), provide the       |
-|                | omnibus likelihood ratio tests for the predictors  |
-+----------------+----------------------------------------------------+
-| ``ci``         | ``TRUE`` or ``FALSE`` (default), provide a         |
-|                | confidence interval for the model coefficient      |
-|                | estimates                                          |
-+----------------+----------------------------------------------------+
-| ``ciWidth``    | a number between 50 and 99.9 (default: 95)         |
-|                | specifying the confidence interval width           |
-+----------------+----------------------------------------------------+
-| ``OR``         | ``TRUE`` or ``FALSE`` (default), provide the       |
-|                | exponential of the log-odds ratio estimate, or the |
-|                | odds ratio estimate                                |
-+----------------+----------------------------------------------------+
-| ``ciOR``       | ``TRUE`` or ``FALSE`` (default), provide a         |
-|                | confidence interval for the model coefficient odds |
-|                | ratio estimates                                    |
-+----------------+----------------------------------------------------+
-| ``ciWidthOR``  | a number between 50 and 99.9 (default: 95)         |
-|                | specifying the confidence interval width           |
-+----------------+----------------------------------------------------+
-| ``emMeans``    | a list of lists specifying the variables for which |
-|                | the estimated marginal means need to be calculate. |
-|                | Supports up to three variables per term.           |
-+----------------+----------------------------------------------------+
-| ``ciEmm``      | ``TRUE`` (default) or ``FALSE``, provide a         |
-|                | confidence interval for the estimated marginal     |
-|                | means                                              |
-+----------------+----------------------------------------------------+
-| ``ciWidthEmm`` | a number between 50 and 99.9 (default: 95)         |
-|                | specifying the confidence interval width for the   |
-|                | estimated marginal means                           |
-+----------------+----------------------------------------------------+
-| ``emmPlots``   | ``TRUE`` (default) or ``FALSE``, provide estimated |
-|                | marginal means plots                               |
-+----------------+----------------------------------------------------+
-| ``emmTables``  | ``TRUE`` or ``FALSE`` (default), provide estimated |
-|                | marginal means tables                              |
-+----------------+----------------------------------------------------+
-| ``emmWeights`` | ``TRUE`` (default) or ``FALSE``, weigh each cell   |
-|                | equally or weigh them according to the cell        |
-|                | frequency                                          |
-+----------------+----------------------------------------------------+
-| ``class``      | ``TRUE`` or ``FALSE`` (default), provide a         |
-|                | predicted classification table (or confusion       |
-|                | matrix)                                            |
-+----------------+----------------------------------------------------+
-| ``acc``        | ``TRUE`` or ``FALSE`` (default), provide the       |
-|                | predicted accuracy of outcomes grouped by the      |
-|                | cut-off value                                      |
-+----------------+----------------------------------------------------+
-| ``spec``       | ``TRUE`` or ``FALSE`` (default), provide the       |
-|                | predicted specificity of outcomes grouped by the   |
-|                | cut-off value                                      |
-+----------------+----------------------------------------------------+
-| ``sens``       | ``TRUE`` or ``FALSE`` (default), provide the       |
-|                | predicted sensitivity of outcomes grouped by the   |
-|                | cut-off value                                      |
-+----------------+----------------------------------------------------+
-| ``auc``        | ``TRUE`` or ``FALSE`` (default), provide the rea   |
-|                | under the ROC curve (AUC)                          |
-+----------------+----------------------------------------------------+
-| ``rocPlot``    | ``TRUE`` or ``FALSE`` (default), provide a ROC     |
-|                | curve plot                                         |
-+----------------+----------------------------------------------------+
-| ``cutOff``     | ``TRUE`` or ``FALSE`` (default), set a cut-off     |
-|                | used for the predictions                           |
-+----------------+----------------------------------------------------+
-| ``cutOffPlot`` | ``TRUE`` or ``FALSE`` (default), provide a cut-off |
-|                | plot                                               |
-+----------------+----------------------------------------------------+
-| ``collin``     | ``TRUE`` or ``FALSE`` (default), provide VIF and   |
-|                | tolerence collinearity statistics                  |
-+----------------+----------------------------------------------------+
-| ``boxTidwell`` | ``TRUE`` or ``FALSE`` (default), provide           |
-|                | Box-Tidwell test for linearity of the logit        |
-+----------------+----------------------------------------------------+
-| ``cooks``      | ``TRUE`` or ``FALSE`` (default), provide summary   |
-|                | statistics for the Cook's distance                 |
-+----------------+----------------------------------------------------+
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``data``       | the data as a data frame                                                                                                                   |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``dep``        | a string naming the dependent variable from ``data``, variable must be a factor                                                            |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``covs``       | a vector of strings naming the covariates from ``data``                                                                                    |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``factors``    | a vector of strings naming the fixed factors from ``data``                                                                                 |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``blocks``     | a list containing vectors of strings that name the predictors that are added to the model. The elements are added to the model according   |
+|                | to their order in the list                                                                                                                 |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``refLevels``  | a list of lists specifying reference levels of the dependent variable and all the factors                                                  |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``modelTest``  | ``TRUE`` or ``FALSE`` (default), provide the model comparison between the models and the NULL model                                        |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``dev``        | ``TRUE`` (default) or ``FALSE``, provide the deviance (or -2LogLikelihood) for the models                                                  |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``aic``        | ``TRUE`` (default) or ``FALSE``, provide Aikaike's Information Criterion (AIC) for the models                                              |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``bic``        | ``TRUE`` or ``FALSE`` (default), provide Bayesian Information Criterion (BIC) for the models                                               |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``pseudoR2``   | one or more of ``'r2mf'``, ``'r2cs'``, or ``'r2n'``; use McFadden's, Cox & Snell, and Nagelkerke pseudo-R², respectively                   |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``omni``       | ``TRUE`` or ``FALSE`` (default), provide the omnibus likelihood ratio tests for the predictors                                             |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``ci``         | ``TRUE`` or ``FALSE`` (default), provide a confidence interval for the model coefficient estimates                                         |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``ciWidth``    | a number between 50 and 99.9 (default: 95) specifying the confidence interval width                                                        |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``OR``         | ``TRUE`` or ``FALSE`` (default), provide the exponential of the log-odds ratio estimate, or the odds ratio estimate                        |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``ciOR``       | ``TRUE`` or ``FALSE`` (default), provide a confidence interval for the model coefficient odds ratio estimates                              |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``ciWidthOR``  | a number between 50 and 99.9 (default: 95) specifying the confidence interval width                                                        |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``emMeans``    | a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to three variables per   |
+|                | term.                                                                                                                                      |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``ciEmm``      | ``TRUE`` (default) or ``FALSE``, provide a confidence interval for the estimated marginal means                                            |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``ciWidthEmm`` | a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means                       |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``emmPlots``   | ``TRUE`` (default) or ``FALSE``, provide estimated marginal means plots                                                                    |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``emmTables``  | ``TRUE`` or ``FALSE`` (default), provide estimated marginal means tables                                                                   |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``emmWeights`` | ``TRUE`` (default) or ``FALSE``, weigh each cell equally or weigh them according to the cell frequency                                     |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``class``      | ``TRUE`` or ``FALSE`` (default), provide a predicted classification table (or confusion matrix)                                            |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``acc``        | ``TRUE`` or ``FALSE`` (default), provide the predicted accuracy of outcomes grouped by the cut-off value                                   |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``spec``       | ``TRUE`` or ``FALSE`` (default), provide the predicted specificity of outcomes grouped by the cut-off value                                |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``sens``       | ``TRUE`` or ``FALSE`` (default), provide the predicted sensitivity of outcomes grouped by the cut-off value                                |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``auc``        | ``TRUE`` or ``FALSE`` (default), provide the area under the ROC curve (AUC)                                                                |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``rocPlot``    | ``TRUE`` or ``FALSE`` (default), provide a ROC curve plot                                                                                  |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``cutOff``     | ``TRUE`` or ``FALSE`` (default), set a cut-off used for the predictions                                                                    |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``cutOffPlot`` | ``TRUE`` or ``FALSE`` (default), provide a cut-off plot                                                                                    |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``collin``     | ``TRUE`` or ``FALSE`` (default), provide VIF and  tolerence collinearity statistics                                                        |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``boxTidwell`` | ``TRUE`` or ``FALSE`` (default), provide Box-Tidwell test for linearity of the logit                                                       |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| ``cooks``      | ``TRUE`` or ``FALSE`` (default), provide summary statistics for the Cook's distance                                                        |
++----------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 
 Output
 ------

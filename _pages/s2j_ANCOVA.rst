@@ -4,9 +4,9 @@
 From SPSS to jamovi: Analysis of Covariance (ANCOVA) 
 ====================================================
 
-This comparison shows how a regression with one predictor and two dummy variables is performed in SPSS and jamovi. The SPSS test follows the description in
-chapter 13.3 of `Field (2017) <https://edge.sagepub.com/field5e>`__, especially Output 13.1 - 13.2. It uses the data set **Puppy Love Dummy.sav** which can be
-downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how a regression with one predictor and two dummy variables is performed in SPSS and jamovi. The SPSS test follows the description in
+    chapter 13.3 of `Field (2017) <https://edge.sagepub.com/field5e>`__, especially Output 13.1 - 13.2. It uses the data set **Puppy Love Dummy.sav** which can
+    be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

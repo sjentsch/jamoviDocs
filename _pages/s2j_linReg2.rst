@@ -4,9 +4,9 @@
 From SPSS to jamovi: Linear regression 
 ======================================
 
-This comparison shows how a linear model with several predictors is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 9.10-9.11 in
-`Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 9.15-9.19 and 9.22-9.23 as well as output 9.5-9.12. It uses the data set
-**Album Sales.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how a linear model with several predictors is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 9.10 -
+    \9.11 in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 9.15-9.19 and 9.22-9.23 as well as output 9.5-9.12. It uses the data set
+    **Album Sales.sav** which can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

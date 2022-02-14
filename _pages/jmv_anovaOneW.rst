@@ -42,73 +42,51 @@ Usage
 Arguments
 ---------
 
-+---------------+-----------------------------------------------------+
-| ``data``      | the data as a data frame                            |
-+---------------+-----------------------------------------------------+
-| ``deps``      | a string naming the dependent variables in ``data`` |
-+---------------+-----------------------------------------------------+
-| ``group``     | a string naming the grouping or independent         |
-|               | variable in ``data``                                |
-+---------------+-----------------------------------------------------+
-| ``welchs``    | ``TRUE`` (default) or ``FALSE``, perform Welch's    |
-|               | one-way ANOVA which does not assume equal variances |
-+---------------+-----------------------------------------------------+
-| ``fishers``   | ``TRUE`` or ``FALSE`` (default), perform Fisher's   |
-|               | one-way ANOVA which assumes equal variances         |
-+---------------+-----------------------------------------------------+
-| ``miss``      | ``'perAnalysis'`` or ``'listwise'``, how to handle  |
-|               | missing values; ``'perAnalysis'`` excludes missing  |
-|               | values for individual dependent variables,          |
-|               | ``'listwise'`` excludes a row from all analyses if  |
-|               | one of its entries is missing.                      |
-+---------------+-----------------------------------------------------+
-| ``desc``      | ``TRUE`` or ``FALSE`` (default), provide            |
-|               | descriptive statistics                              |
-+---------------+-----------------------------------------------------+
-| ``descPlot``  | ``TRUE`` or ``FALSE`` (default), provide            |
-|               | descriptive plots                                   |
-+---------------+-----------------------------------------------------+
-| ``norm``      | ``TRUE`` or ``FALSE`` (default), perform            |
-|               | Shapiro-Wilk test of normality                      |
-+---------------+-----------------------------------------------------+
-| ``qq``        | ``TRUE`` or ``FALSE`` (default), provide a Q-Q plot |
-|               | of residuals                                        |
-+---------------+-----------------------------------------------------+
-| ``eqv``       | ``TRUE`` or ``FALSE`` (default), perform Levene's   |
-|               | test for homogeneity of variances                   |
-+---------------+-----------------------------------------------------+
-| ``phMethod``  | ``'none'``, ``'gamesHowell'`` or ``'tukey'``, which |
-|               | post-hoc tests to provide; ``'none'`` shows no      |
-|               | post-hoc tests, ``'gamesHowell'`` shows             |
-|               | Games-Howell post-hoc tests where no equivalence of |
-|               | variances is assumed, and ``'tukey'`` shows Tukey   |
-|               | post-hoc tests where equivalence of variances is    |
-|               | assumed                                             |
-+---------------+-----------------------------------------------------+
-| ``phMeanDif`` | ``TRUE`` (default) or ``FALSE``, provide mean       |
-|               | differences for post-hoc tests                      |
-+---------------+-----------------------------------------------------+
-| ``phSig``     | ``TRUE`` (default) or ``FALSE``, provide            |
-|               | significance levels for post-hoc tests              |
-+---------------+-----------------------------------------------------+
-| ``phTest``    | ``TRUE`` or ``FALSE`` (default), provide test       |
-|               | results (t-value and degrees of freedom) for        |
-|               | post-hoc tests                                      |
-+---------------+-----------------------------------------------------+
-| ``phFlag``    | ``TRUE`` or ``FALSE`` (default), flag significant   |
-|               | post-hoc comparisons                                |
-+---------------+-----------------------------------------------------+
-| ``formula``   | (optional) the formula to use, see the examples     |
-+---------------+-----------------------------------------------------+
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``data``      | the data as a data frame                                                                                           |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``deps``      | a string naming the dependent variables in ``data``                                                                |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``group``     | a string naming the grouping or independent variable in ``data``                                                   |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``welchs``    | ``TRUE`` (default) or ``FALSE``, perform Welch's one-way ANOVA which does not assume equal variances               |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``fishers``   | ``TRUE`` or ``FALSE`` (default), perform Fisher's one-way ANOVA which assumes equal variances                      |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``miss``      | ``'perAnalysis'`` or ``'listwise'``, how to handle missing values; ``'perAnalysis'`` excludes missing values for   |
+|               | individual dependent variables, ``'listwise'`` excludes a row from all analyses if  one of its entries is missing. |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``desc``      | ``TRUE`` or ``FALSE`` (default), provide descriptive statistics                                                    |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``descPlot``  | ``TRUE`` or ``FALSE`` (default), provide descriptive plots                                                         |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``norm``      | ``TRUE`` or ``FALSE`` (default), perform Shapiro-Wilk test of normality                                            |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``qq``        | ``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of residuals                                                   |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``eqv``       | ``TRUE`` or ``FALSE`` (default), perform Levene's test for homogeneity of variances                                |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``phMethod``  | ``'none'``, ``'gamesHowell'`` or ``'tukey'``, which post-hoc tests to provide; ``'none'`` shows no post-hoc tests, |
+|               | shows ``'gamesHowell'`` shows Games-Howell post-hoc tests where no equivalence of variances is assumed, and        |
+|               | ``'tukey'`` Tukey post-hoc tests where equivalence of variances is assumed                                         |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``phMeanDif`` | ``TRUE`` (default) or ``FALSE``, provide mean differences for post-hoc tests                                       |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``phSig``     | ``TRUE`` (default) or ``FALSE``, provide significance levels for post-hoc tests                                    |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``phTest``    | ``TRUE`` or ``FALSE`` (default), provide test results (t-value and degrees of freedom) for post-hoc tests          |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``phFlag``    | ``TRUE`` or ``FALSE`` (default), flag significant post-hoc comparisons                                             |
++---------------+--------------------------------------------------------------------------------------------------------------------+
+| ``formula``   | (optional) the formula to use, see the examples                                                                    |
++---------------+--------------------------------------------------------------------------------------------------------------------+
 
 Details
 -------
 
-For convenience, this method allows specifying multiple dependent
-variables, resulting in multiple independent tests.
+    For convenience, this method allows specifying multiple dependent variables, resulting in multiple independent tests.
 
-Note that the Welch's ANOVA is the same procedure as the Welch's
-independent samples t-test.
+    Note that the Welch's ANOVA is the same procedure as the Welch's independent samples t-test.
 
 Output
 ------

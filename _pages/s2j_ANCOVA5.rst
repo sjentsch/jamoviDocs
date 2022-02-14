@@ -4,9 +4,9 @@
 From SPSS to jamovi: Analysis of Covariance (ANCOVA) 
 ====================================================
 
-This comparison shows how to test the assumption of homogeneity of regression slopes in SPSS and jamovi. The SPSS test follows the description in chapter 13.7
-in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 13.9 and output 13.12. It uses the data set **Puppy Love Dummy.sav** which can be
-downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how to test the assumption of homogeneity of regression slopes in SPSS and jamovi. The SPSS test follows the description in chapter
+    \13.7 in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 13.9 and output 13.12. It uses the data set **Puppy Love Dummy.sav** which
+    can be downloaded from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

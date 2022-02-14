@@ -7,14 +7,10 @@ Repeated Measures ANOVA (non-parametric; ``anovaRMNP``)
 Description
 -----------
 
-The Friedman test is used to explore the relationship between a
-continuous dependent variable and a categorical explanatory variable,
-where the explanatory variable is 'within subjects' (where multiple
-measurements are from the same subject). It is analagous to Repeated
-Measures ANOVA, but with the advantage of being non-parametric, and not
-requiring the assumptions of normality or homogeneity of variances.
-However, it has the limitation that it can only test a single
-explanatory variable at a time.
+    The Friedman test is used to explore the relationship between a continuous dependent variable and a categorical explanatory variable, where the explanatory
+    variable is 'within subjects' (where multiple measurements are from the same subject). It is analagous to Repeated Measures ANOVA, but with the advantage
+    of being non-parametric, and not requiring the assumptions of normality or homogeneity of variances. However, it has the limitation that it can only test a
+    single explanatory variable at a time.
 
 Usage
 -----
@@ -33,24 +29,19 @@ Usage
 Arguments
 ---------
 
-+--------------+------------------------------------------------------+
-| ``data``     | the data as a data frame                             |
-+--------------+------------------------------------------------------+
-| ``measures`` | a vector of strings naming the repeated measures     |
-|              | variables                                            |
-+--------------+------------------------------------------------------+
-| ``pairs``    | ``TRUE`` or ``FALSE`` (default), perform pairwise    |
-|              | comparisons                                          |
-+--------------+------------------------------------------------------+
-| ``desc``     | ``TRUE`` or ``FALSE`` (default), provide descriptive |
-|              | statistics                                           |
-+--------------+------------------------------------------------------+
-| ``plots``    | ``TRUE`` or ``FALSE`` (default), provide a           |
-|              | descriptive plot                                     |
-+--------------+------------------------------------------------------+
-| ``plotType`` | ``'means'`` (default) or ``'medians'``, the error    |
-|              | bars to use in the plot                              |
-+--------------+------------------------------------------------------+
++--------------+---------------------------------------------------------------------------+
+| ``data``     | the data as a data frame                                                  |
++--------------+---------------------------------------------------------------------------+
+| ``measures`` | a vector of strings naming the repeated measures variables                |
++--------------+---------------------------------------------------------------------------+
+| ``pairs``    | ``TRUE`` or ``FALSE`` (default), perform pairwise comparisons             |
++--------------+---------------------------------------------------------------------------+
+| ``desc``     | ``TRUE`` or ``FALSE`` (default), provide descriptive statistics           |
++--------------+---------------------------------------------------------------------------+
+| ``plots``    | ``TRUE`` or ``FALSE`` (default), provide a descriptive plot               |
++--------------+---------------------------------------------------------------------------+
+| ``plotType`` | ``'means'`` (default) or ``'medians'``, the error bars to use in the plot |
++--------------+---------------------------------------------------------------------------+
 
 Output
 ------

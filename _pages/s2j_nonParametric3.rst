@@ -4,9 +4,9 @@
 From SPSS to jamovi: Non-parametric analyses
 ============================================
 
-This comparison shows how a Kruskal-Wallis test is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 7.6.4 in `Field (2017)
-<https://edge.sagepub.com/field5e>`__, especially figure 7.13 and output 7.5 - 7.6. It uses the data set **Soya.sav** which can be downloaded from the `web
-page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how a Kruskal-Wallis test is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 7.6.4 in `Field (2017)
+    <https://edge.sagepub.com/field5e>`__, especially figure 7.13 and output 7.5 - 7.6. It uses the data set **Soya.sav** which can be downloaded from the `web
+    page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

@@ -4,9 +4,9 @@
 From SPSS to jamovi: Analysis of frequencies
 ============================================
 
-This comparison shows how a loglinear analysis is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 19.9.2 in `Field (2017)
-<https://edge.sagepub.com/field5e>`__, especially figure 19.7 and output 19.7 - 19.10. It uses the data set **Cats and Dogs.sav** which can be downloaded from
-the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how a loglinear analysis is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 19.9.2 in `Field (2017)
+    <https://edge.sagepub.com/field5e>`__, especially figure 19.7 and output 19.7 - 19.10. It uses the data set **Cats and Dogs.sav** which can be downloaded
+    from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

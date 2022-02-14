@@ -7,37 +7,39 @@ Proportion Test (N Outcomes; ``propTestN``)
 Description
 -----------
 
-The X² Goodness of fit test (not to be confused with the X² test of
-independence), tests the Null hypothesis that the proportions of
-observations match some expected proportions. If the p-value is low,
-this suggests that the Null hypothesis is false, and that the true
-proportions are different to those tested.
+    The X² Goodness of fit test (not to be confused with the X² test of independence), tests the Null hypothesis that the proportions of observations match
+    some expected proportions. If the p-value is low, this suggests that the Null hypothesis is false, and that the true proportions are different to those
+    tested.
 
 Usage
 -----
 
 .. code-block:: R
 
-   propTestN(data, var, counts = NULL, expected = FALSE, ratio = NULL, formula)
+   propTestN(
+       data,
+       var,
+       counts = NULL,
+       expected = FALSE,
+       ratio = NULL,
+       formula)
 
 Arguments
 ---------
 
-+--------------+------------------------------------------------------+
-| ``data``     | the data as a data frame                             |
-+--------------+------------------------------------------------------+
-| ``var``      | the variable of interest in ``data`` (not necessary  |
-|              | when using a formula, see the examples)              |
-+--------------+------------------------------------------------------+
-| ``counts``   | the counts in ``data``                               |
-+--------------+------------------------------------------------------+
-| ``expected`` | ``TRUE`` or ``FALSE`` (default), whether expected    |
-|              | counts should be displayed                           |
-+--------------+------------------------------------------------------+
-| ``ratio``    | a vector of numbers: the expected proportions        |
-+--------------+------------------------------------------------------+
-| ``formula``  | (optional) the formula to use, see the examples      |
-+--------------+------------------------------------------------------+
++--------------+---------------------------------------------------------------------------------------------+
+| ``data``     | the data as a data frame                                                                    |
++--------------+---------------------------------------------------------------------------------------------+
+| ``var``      | the variable of interest in ``data`` (not necessary when using a formula, see the examples) |
++--------------+---------------------------------------------------------------------------------------------+
+| ``counts``   | the counts in ``data``                                                                      |
++--------------+---------------------------------------------------------------------------------------------+
+| ``expected`` | ``TRUE`` or ``FALSE`` (default), whether expected counts should be displayed                |
++--------------+---------------------------------------------------------------------------------------------+
+| ``ratio``    | a vector of numbers: the expected proportions                                               |
++--------------+---------------------------------------------------------------------------------------------+
+| ``formula``  | (optional) the formula to use, see the examples                                             |
++--------------+---------------------------------------------------------------------------------------------+
 
 Output
 ------

@@ -7,11 +7,9 @@ Analysis definition (``.a.yaml`` files)
 Overview
 --------
 
-the analysis definition is a yaml file in the ``jamovi/`` directory,
-with the extension ``.a.yaml``. the analysis definition describes the
-analysis, the way it appears in menus, and the options it requires. the
-file is named to match the name of the analysis it describes, but
-converted to lowercase. an example is ``ttestis.a.yaml``.
+   The analysis definition is a yaml file in the ``jamovi/`` directory, with the extension ``.a.yaml``. the analysis definition describes the analysis, the way
+   it appears in menus, and the options it requires. The file is named to match the name of the analysis it describes, but converted to lowercase. an example
+   is ``ttestis.a.yaml``.
 
 .. code-block:: yaml
 
@@ -52,22 +50,22 @@ converted to lowercase. an example is ``ttestis.a.yaml``.
 Options
 -------
 
-Options represent the options that an analysis requires in order to run. When a jamovi module is used as an R package, they represent the arguments to the
-function. when used in jamovi itself, they represent the user interface (UI) options presented to the user.
+   Options represent the options that an analysis requires in order to run. When a jamovi module is used as an R package, they represent the arguments to the
+   function. when used in jamovi itself, they represent the user interface (UI) options presented to the user.
 
-Each option has a name, a type, and some additional properties which are described in greater detail below.
+   Each option has a name, a type, and some additional properties which are described in greater detail below.
 
-When a value is specified by the user (either through the jamovi user interface, or through a function argument), the option checks the value and produces an
-error if the value is not suitable. The checks performed by each option are also detailed below.
+   When a value is specified by the user (either through the jamovi user interface, or through a function argument), the option checks the value and produces
+   an error if the value is not suitable. The checks performed by each option are also detailed below.
+
 
 The different option types are as follows:
-
 
 Data
 ~~~~
 
-``Data`` is used for analyses which require data (almost all of them). If used, it should be the first of the options, and should always be called ``data``. It
-has no additional properties.
+   ``Data`` is used for analyses which require data (almost all of them). If used, it should be the first of the options, and should always be called ``data``.
+   It has no additional properties.
 
 Example
 ^^^^^^^
@@ -81,7 +79,7 @@ Example
 Bool
 ~~~~
 
-``Bool`` is used for true / false values, and is typically represented in the UI as a checkbox.
+   ``Bool`` is used for true / false values, and is typically represented in the UI as a checkbox.
 
 +-------------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+
 | Property          | default         | Description                                                                                                           |
@@ -94,7 +92,7 @@ Bool
 Checks
 ^^^^^^
 
-The value must be ``true`` or ``false``.
+   The value must be ``true`` or ``false``.
 
 Example
 ^^^^^^^
@@ -110,7 +108,7 @@ Example
 Integer
 ~~~~~~~
 
-``Integer`` is used for values which need to be whole numbers. For ‘floating point’ numbers, use ``Number`` instead.
+   ``Integer`` is used for values which need to be whole numbers. For ‘floating point’ numbers, use ``Number`` instead.
 
 +-------------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+
 | Property          | default         | Description                                                                                                           |
@@ -170,8 +168,8 @@ Example
 List
 ~~~~
 
-``List`` is used where only one of several values may be specified, and only one at a time. In the UI, these are typically represented as either a listbox, or
-a set of radio buttons.
+   ``List`` is used where only one of several values may be specified, and only one at a time. In the UI, these are typically represented as either a listbox,
+   or a set of radio buttons.
 
 +-------------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+
 | Property          | default         | Description                                                                                                           |
@@ -192,9 +190,9 @@ Checks
 Variable
 ~~~~~~~~
 
-``Variable`` is used where a variable/column from the data set needs to be specified. In the UI, these are typically represented as a ‘drop box’, where
-variables can be dragged and dropped. The value of ``Variable`` is a string (in R, a character vector of length 1) containing the assigned variable name. If
-nothing is assigned it has a value of ``null``.
+   ``Variable`` is used where a variable/column from the data set needs to be specified. In the UI, these are typically represented as a ‘drop box’, where
+   variables can be dragged and dropped. The value of ``Variable`` is a string (in R, a character vector of length 1) containing the assigned variable name. If
+   nothing is assigned it has a value of ``null``.
 
 +-------------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+
 | Property          | default         | Description                                                                                                           |
@@ -224,9 +222,9 @@ Checks
 Variables
 ~~~~~~~~~
 
-``Variables`` is used where multiple variables / columns from the data set need to be specified. In the UI, these are typically represented as a ‘drop box’,
-where variables can be dragged and dropped. The value is an array of strings (in R, a character vector). If nothing is assigned to ``Variables`` it’s value is
-an empty array (in R, a character vector of length 0).
+   ``Variables`` is used where multiple variables / columns from the data set need to be specified. In the UI, these are typically represented as a ‘drop box’,
+   where variables can be dragged and dropped. The value is an array of strings (in R, a character vector). If nothing is assigned to ``Variables`` it’s value
+   is an empty array (in R, a character vector of length 0).
 
 +-------------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+
 | Property          | default         | Description                                                                                                           |

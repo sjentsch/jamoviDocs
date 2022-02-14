@@ -4,10 +4,10 @@
 From SPSS to jamovi: Analysis of Covariance (ANCOVA) 
 ====================================================
 
-This comparison shows how to conduct an analysis of covariance in SPSS and jamovi. The SPSS test follows the description in chapter 13.5.4 - 13.5.6 in `Field
-(2017) <https://edge.sagepub.com/field5e>`__, especially figure 13.5 - 13.7 (excluding ``Options``) and outputs 13.6 - 13.11 (excluding ``Bootstrap``, as this
-is not an option in jamovi). It uses the data set **Puppy Love.sav** which can be downloaded from the `web page accompanying the book
-<https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how to conduct an analysis of covariance in SPSS and jamovi. The SPSS test follows the description in chapter 13.5.4 - 13.5.6 in
+    `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 13.5 - 13.7 (excluding ``Options``) and outputs 13.6 - 13.11 (excluding
+    ``Bootstrap``, as this is not [yet] an option in jamovi). It uses the data set **Puppy Love.sav** which can be downloaded from the `web page accompanying
+    the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

@@ -4,9 +4,9 @@
 From SPSS to jamovi: Non-parametric analyses
 ============================================
 
-This comparison shows how a Wilcoxon signed-rank test is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 7.5.2 in `Field (2017)
-<https://edge.sagepub.com/field5e>`__, especially figure 7.9 and output 7.3 - 7.4. It uses the data set **Drug.sav** which can be downloaded from
-the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how a Wilcoxon signed-rank test is conducted in SPSS and jamovi. The SPSS test follows the description in chapter 7.5.2 in
+    `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 7.9 and output 7.3 - 7.4. It uses the data set **Drug.sav** which can be downloaded
+    from the `web page accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

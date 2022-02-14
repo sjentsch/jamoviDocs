@@ -4,10 +4,10 @@
 From SPSS to jamovi: Analysis of Covariance (ANCOVA) 
 ====================================================
 
-This comparison shows how an analysis of covariance which excludes the covariate is conducted in SPSS and jamovi. The SPSS test follows the description in
-chapter 13.6.1 - 13.6.4 in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 13.5-13.7 (Excluding the covariate in figure 13.5 and 
-``Options`` in figure 13.7) and output 13.5. It uses the data set **Puppy Love.sav** which can be downloaded from the `web page accompanying the book
-<https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how an analysis of covariance which excludes the covariate is conducted in SPSS and jamovi. The SPSS test follows the description in
+    chapter 13.6.1 - 13.6.4 in `Field (2017) <https://edge.sagepub.com/field5e>`__, especially figure 13.5 - 13.7 (excluding the covariate in figure 13.5 and
+    ``Options`` in figure 13.7) and output 13.5. It uses the data set **Puppy Love.sav** which can be downloaded from the `web page accompanying the book
+    <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

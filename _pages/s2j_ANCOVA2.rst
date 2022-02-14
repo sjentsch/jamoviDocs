@@ -4,9 +4,9 @@
 From SPSS to jamovi: Analysis of Covariance (ANCOVA) 
 ====================================================
 
-This comparison shows how to test if the covariate is independent of the independent variable, as described in chapter 13.5.3 of `Field (2017)
-<https://edge.sagepub.com/field5e>`__, especially output 13.3. It uses the data set **Puppy Love Dummy.sav** which can be downloaded from the `web page
-accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
+    This comparison shows how to test if the covariate is independent of the independent variable, as described in chapter 13.5.3 of `Field (2017)
+    <https://edge.sagepub.com/field5e>`__, especially output 13.3. It uses the data set **Puppy Love Dummy.sav** which can be downloaded from the `web page
+    accompanying the book <https://edge.sagepub.com/field5e/student-resources/datasets>`__.
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |

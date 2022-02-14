@@ -7,8 +7,7 @@ Lists the data sets available from jamovi (``what``)
 Description
 -----------
 
-Lists the data sets available from jamovi. Data sets can then be read
-using the read() function.
+Lists the data sets available from jamovi. Data sets can then be read using the read() function.
 
 Usage
 -----

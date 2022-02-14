@@ -7,7 +7,7 @@ Paired Samples Contingency Tables (``contTablesPaired``)
 Description
 -----------
 
-McNemar test
+    McNemar test
 
 Usage
 -----
@@ -30,37 +30,27 @@ Usage
 Arguments
 ---------
 
-+---------------+-----------------------------------------------------+
-| ``data``      | the data as a data frame                            |
-+---------------+-----------------------------------------------------+
-| ``rows``      | the variable to use as the rows in the contingency  |
-|               | table (not necessary when providing a formula, see  |
-|               | the examples)                                       |
-+---------------+-----------------------------------------------------+
-| ``cols``      | the variable to use as the columns in the           |
-|               | contingency table (not necessary when providing a   |
-|               | formula, see the examples)                          |
-+---------------+-----------------------------------------------------+
-| ``counts``    | the variable to use as the counts in the            |
-|               | contingency table (not necessary when providing a   |
-|               | formula, see the examples)                          |
-+---------------+-----------------------------------------------------+
-| ``chiSq``     | ``TRUE`` (default) or ``FALSE``, provide X²         |
-+---------------+-----------------------------------------------------+
-| ``chiSqCorr`` | ``TRUE`` or ``FALSE`` (default), provide X² with    |
-|               | continuity correction                               |
-+---------------+-----------------------------------------------------+
-| ``exact``     | ``TRUE`` or ``FALSE`` (default), provide an exact   |
-|               | log odds ratio (requires exact2x2 to be installed)  |
-+---------------+-----------------------------------------------------+
-| ``pcRow``     | ``TRUE`` or ``FALSE`` (default), provide row        |
-|               | percentages                                         |
-+---------------+-----------------------------------------------------+
-| ``pcCol``     | ``TRUE`` or ``FALSE`` (default), provide column     |
-|               | percentages                                         |
-+---------------+-----------------------------------------------------+
-| ``formula``   | (optional) the formula to use, see the examples     |
-+---------------+-----------------------------------------------------+
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``data``      | the data as a data frame                                                                                               |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``rows``      | the variable to use as the rows in the contingency table (not necessary when providing a formula, see the examples)    |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``cols``      | the variable to use as the columns in the contingency table (not necessary when providing a formula, see the examples) |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``counts``    | the variable to use as the counts in the contingency table (not necessary when providing a formula, see the examples)  |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``chiSq``     | ``TRUE`` (default) or ``FALSE``, provide X²                                                                            |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``chiSqCorr`` | ``TRUE`` or ``FALSE`` (default), provide X² with continuity correction                                                 |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``exact``     | ``TRUE`` or ``FALSE`` (default), provide an exact log odds ratio (requires exact2x2 to be installed)                   |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``pcRow``     | ``TRUE`` or ``FALSE`` (default), provide row percentages                                                               |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``pcCol``     | ``TRUE`` or ``FALSE`` (default), provide column percentages                                                            |
++---------------+------------------------------------------------------------------------------------------------------------------------+
+| ``formula``   | (optional) the formula to use, see the examples                                                                        |
++---------------+------------------------------------------------------------------------------------------------------------------------+
 
 Output
 ------
@@ -72,8 +62,7 @@ A results object containing:
 ``results$test``  a table of test results
 ================= =======================
 
-Tables can be converted to data frames with ``asDF`` or
-``as.data.frame()``. For example:
+Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:
 
 ``results$freqs$asDF``
 

@@ -30,31 +30,24 @@ Usage
 Arguments
 ---------
 
-+--------------+------------------------------------------------------+
-| ``data``     | the data as a data frame                             |
-+--------------+------------------------------------------------------+
-| ``deps``     | a string naming the dependent variable from          |
-|              | ``data``, variable must be numeric                   |
-+--------------+------------------------------------------------------+
-| ``factors``  | a vector of strings naming the factors from ``data`` |
-+--------------+------------------------------------------------------+
-| ``covs``     | a vector of strings naming the covariates from       |
-|              | ``data``                                             |
-+--------------+------------------------------------------------------+
-| ``multivar`` | one or more of ``'pillai'``, ``'wilks'``,            |
-|              | ``'hotel'``, or ``'roy'``; use Pillai's Trace,       |
-|              | Wilks' Lambda, Hotelling's Trace, and Roy's Largest  |
-|              | Root multivariate statistics, respectively           |
-+--------------+------------------------------------------------------+
-| ``boxM``     | ``TRUE`` or ``FALSE`` (default), provide Box's M     |
-|              | test                                                 |
-+--------------+------------------------------------------------------+
-| ``shapiro``  | ``TRUE`` or ``FALSE`` (default), provide             |
-|              | Shapiro-Wilk test                                    |
-+--------------+------------------------------------------------------+
-| ``qqPlot``   | ``TRUE`` or ``FALSE`` (default), provide a Q-Q plot  |
-|              | of multivariate normality                            |
-+--------------+------------------------------------------------------+
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``data``     | the data as a data frame                                                                                                                     |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``deps``     | a string naming the dependent variable from ``data``, variable must be numeric                                                               |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``factors``  | a vector of strings naming the factors from ``data``                                                                                         |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``covs``     | a vector of strings naming the covariates from ``data``                                                                                      |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``multivar`` | one or more of ``'pillai'``, ``'wilks'``, ``'hotel'``, or ``'roy'``; use Pillai's Trace, Wilks' Lambda, Hotelling's Trace, and Roy's Largest |
+|              | Root multivariate statistics, respectively                                                                                                   |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``boxM``     | ``TRUE`` or ``FALSE`` (default), provide Box's M test                                                                                        |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``shapiro``  | ``TRUE`` or ``FALSE`` (default), provide Shapiro-Wilk test                                                                                   |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| ``qqPlot``   | ``TRUE`` or ``FALSE`` (default), provide a Q-Q plot of multivariate normality                                                                |
++--------------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 Output
 ------
@@ -69,8 +62,7 @@ A results object containing:
 ``results$assump$qqPlot``  an image
 ========================== ========
 
-Tables can be converted to data frames with ``asDF`` or
-``as.data.frame()``. For example:
+Tables can be converted to data frames with ``asDF`` or ``as.data.frame()``. For example:
 
 ``results$multivar$asDF``
 

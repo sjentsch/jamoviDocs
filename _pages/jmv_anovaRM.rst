@@ -10,12 +10,9 @@ Repeated Measures ANOVA
 Description
 -----------
 
-The Repeated Measures ANOVA is used to explore the relationship between
-a continuous dependent variable and one or more categorical explanatory
-variables, where one or more of the explanatory variables are 'within
-subjects' (where multiple measurements are from the same subject).
-Additionally, this analysis allows the inclusion of covariates, allowing
-for repeated measures ANCOVAs as well.
+    The Repeated Measures ANOVA is used to explore the relationship between a continuous dependent variable and one or more categorical explanatory variables,
+    where one or more of the explanatory variables are 'within subjects' (where multiple measurements are from the same subject). Additionally, this analysis
+    allows the inclusion of covariates, allowing for repeated measures ANCOVAs as well.
 
 Usage
 -----
@@ -52,96 +49,61 @@ Usage
 Arguments
 ---------
 
-+------------------+--------------------------------------------------+
-| ``data``         | the data as a data frame                         |
-+------------------+--------------------------------------------------+
-| ``rm``           | a list of lists, where each list describes the   |
-|                  | ``label`` (as a string) and the ``levels`` (as   |
-|                  | vector of strings) of a particular repeated      |
-|                  | measures factor                                  |
-+------------------+--------------------------------------------------+
-| ``rmCells``      | a list of lists, where each list decribes a      |
-|                  | repeated measure (as a string) from ``data``     |
-|                  | defined as ``measure`` and the particular        |
-|                  | combination of levels from ``rm`` that it        |
-|                  | belongs to (as a vector of strings) defined as   |
-|                  | ``cell``                                         |
-+------------------+--------------------------------------------------+
-| ``bs``           | a vector of strings naming the between subjects  |
-|                  | factors from ``data``                            |
-+------------------+--------------------------------------------------+
-| ``cov``          | a vector of strings naming the covariates from   |
-|                  | ``data``. Variables must be numeric              |
-+------------------+--------------------------------------------------+
-| ``effectSize``   | one or more of ``'eta'``, ``'partEta'``, or      |
-|                  | ``'omega'``; use eta², partial eta², and omega²  |
-|                  | effect sizes, respectively                       |
-+------------------+--------------------------------------------------+
-| ``depLabel``     | a string (default: 'Dependent') describing the   |
-|                  | label used for the dependent variable throughout |
-|                  | the analysis                                     |
-+------------------+--------------------------------------------------+
-| ``rmTerms``      | a list of character vectors describing the       |
-|                  | repeated measures terms to go into the model     |
-+------------------+--------------------------------------------------+
-| ``bsTerms``      | a list of character vectors describing the       |
-|                  | between subjects terms to go into the model      |
-+------------------+--------------------------------------------------+
-| ``ss``           | ``'2'`` or ``'3'`` (default), the sum of squares |
-|                  | to use                                           |
-+------------------+--------------------------------------------------+
-| ``spherTests``   | ``TRUE`` or ``FALSE`` (default), perform         |
-|                  | sphericity tests                                 |
-+------------------+--------------------------------------------------+
-| ``spherCorr``    | one or more of ``'none'`` (default), ``'GG'``,   |
-|                  | or HF; use no p-value correction, the            |
-|                  | Greenhouse-Geisser p-value correction, and the   |
-|                  | Huynh-Feldt p-value correction for shericity,    |
-|                  | respectively                                     |
-+------------------+--------------------------------------------------+
-| ``leveneTest``   | ``TRUE`` or ``FALSE`` (default), test for        |
-|                  | homogeneity of variances (i.e., Levene's test)   |
-+------------------+--------------------------------------------------+
-| ``contrasts``    | in development                                   |
-+------------------+--------------------------------------------------+
-| ``postHoc``      | a list of character vectors describing the       |
-|                  | post-hoc tests that need to be computed          |
-+------------------+--------------------------------------------------+
-| ``postHocCorr``  | one or more of ``'none'``, ``'tukey'``           |
-|                  | (default), ``'scheffe'``, ``'bonf'``, or         |
-|                  | ``'holm'``; use no, Tukey, Scheffe, Bonferroni   |
-|                  | and Holm posthoc corrections, respectively       |
-+------------------+--------------------------------------------------+
-| ``emMeans``      | a list of lists specifying the variables for     |
-|                  | which the estimated marginal means need to be    |
-|                  | calculate. Supports up to three variables per    |
-|                  | term.                                            |
-+------------------+--------------------------------------------------+
-| ``emmPlots``     | ``TRUE`` (default) or ``FALSE``, provide         |
-|                  | estimated marginal means plots                   |
-+------------------+--------------------------------------------------+
-| ``emmTables``    | ``TRUE`` or ``FALSE`` (default), provide         |
-|                  | estimated marginal means tables                  |
-+------------------+--------------------------------------------------+
-| ``emmWeights``   | ``TRUE`` (default) or ``FALSE``, weigh each cell |
-|                  | equally or weigh them according to the cell      |
-|                  | frequency                                        |
-+------------------+--------------------------------------------------+
-| ``ciWidthEmm``   | a number between 50 and 99.9 (default: 95)       |
-|                  | specifying the confidence interval width for the |
-|                  | estimated marginal means                         |
-+------------------+--------------------------------------------------+
-| ``emmPlotData``  | ``TRUE`` or ``FALSE`` (default), plot the data   |
-|                  | on top of the marginal means                     |
-+------------------+--------------------------------------------------+
-| ``emmPlotError`` | ``'none'``, ``'ci'`` (default), or ``'se'``. Use |
-|                  | no error bars, use confidence intervals, or use  |
-|                  | standard errors on the marginal mean plots,      |
-|                  | respectively                                     |
-+------------------+--------------------------------------------------+
-| ``groupSumm``    | ``TRUE`` or ``FALSE`` (default), report a        |
-|                  | summary of the different groups                  |
-+------------------+--------------------------------------------------+
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``data``         | the data as a data frame                                                                                               |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``rm``           | a list of lists, where each list describes the ``label`` (as a string) and the ``levels`` (as vector of strings) of a  |
+|                  | particular repeated measures factor                                                                                    |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``rmCells``      | a list of lists, where each list decribes a repeated measure (as a string) from ``data`` defined as ``measure`` and    |
+|                  | the particular combination of levels from ``rm`` that it belongs to (as a vector of strings) defined as ``cell``       |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``bs``           | a vector of strings naming the between subjects factors from ``data``                                                  |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``cov``          | a vector of strings naming the covariates from ``data``. Variables must be numeric                                     |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``effectSize``   | one or more of ``'eta'``, ``'partEta'``, or ``'omega'``; use eta², partial eta², and omega² effect sizes, respectively |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``depLabel``     | a string (default: 'Dependent') describing the label used for the dependent variable throughout the analysis           |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``rmTerms``      | a list of character vectors describing the repeated measures terms to go into the model                                |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``bsTerms``      | a list of character vectors describing the between subjects terms to go into the model                                 |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``ss``           | ``'2'`` or ``'3'`` (default), the sum of squares to use                                                                |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``spherTests``   | ``TRUE`` or ``FALSE`` (default), perform sphericity tests                                                              |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``spherCorr``    | one or more of ``'none'`` (default), ``'GG'``, or ``'HF'``; use no p-value correction, the Greenhouse-Geisser p-value  |
+|                  | correction, and the Huynh-Feldt p-value correction for shericity, respectively                                         |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``leveneTest``   | ``TRUE`` or ``FALSE`` (default), test for homogeneity of variances (i.e., Levene's test)                               |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``contrasts``    | in development                                                                                                         |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``postHoc``      | a list of character vectors describing the post-hoc tests that need to be computed                                     |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``postHocCorr``  | one or more of ``'none'``, ``'tukey'`` (default), ``'scheffe'``, ``'bonf'``, or ``'holm'``; use no, Tukey, Scheffe,    |
+|                  | Bonferroni and Holm posthoc corrections, respectively                                                                  |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``emMeans``      | a list of lists specifying the variables for which the estimated marginal means need to be calculate. Supports up to   |
+|                  | three variables per term.                                                                                              |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``emmPlots``     | ``TRUE`` (default) or ``FALSE``, provide estimated marginal means plots                                                |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``emmTables``    | ``TRUE`` or ``FALSE`` (default), provide estimated marginal means tables                                               |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``emmWeights``   | ``TRUE`` (default) or ``FALSE``, weigh each cell equally or weigh them according to the cell frequency                 |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``ciWidthEmm``   | a number between 50 and 99.9 (default: 95) specifying the confidence interval width for the estimated marginal means   |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``emmPlotData``  | ``TRUE`` or ``FALSE`` (default), plot the data on top of the marginal means                                            |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``emmPlotError`` | ``'none'``, ``'ci'`` (default), or ``'se'``. Use no error bars, use confidence intervals, or use standard errors on    |
+|                  | the marginal mean plots, respectively                                                                                  |
++------------------+------------------------------------------------------------------------------------------------------------------------+
+| ``groupSumm``    | ``TRUE`` or ``FALSE`` (default), report a summary of the different groups                                              |
++------------------+------------------------------------------------------------------------------------------------------------------------+
 
 Details
 -------

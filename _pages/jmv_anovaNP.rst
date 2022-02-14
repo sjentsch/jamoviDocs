@@ -7,37 +7,40 @@ One-Way ANOVA (non-parametric; ``anovaNP``)
 Description
 -----------
 
-The Kruskal-Wallis test is used to explore the relationship between a
-continuous dependent variable, and a categorical explanatory variable.
-It is analagous to ANOVA, but with the advantage of being non-parametric
-and having fewer assumptions. However, it has the limitation that it can
-only test a single explanatory variable at a time.
+    The Kruskal-Wallis test is used to explore the relationship between a continuous dependent variable, and a categorical explanatory variable. It is
+    analagous to ANOVA, but with the advantage of being non-parametric and having fewer assumptions. However, it has the limitation that it can only test
+    a single explanatory variable at a time.
 
 Usage
 -----
 
 .. code-block:: R
 
-   anovaNP(data, deps, group, es = FALSE, pairs = FALSE, formula)
+   anovaNP(
+       data,
+       deps,
+       group,
+       es = FALSE,
+       pairs = FALSE,
+       formula
+   )
 
 Arguments
 ---------
 
-+-------------+-------------------------------------------------------+
-| ``data``    | the data as a data frame                              |
-+-------------+-------------------------------------------------------+
-| ``deps``    | a string naming the dependent variable in ``data``    |
-+-------------+-------------------------------------------------------+
-| ``group``   | a string naming the grouping or independent variable  |
-|             | in ``data``                                           |
-+-------------+-------------------------------------------------------+
-| ``es``      | ``TRUE`` or ``FALSE`` (default), provide effect-sizes |
-+-------------+-------------------------------------------------------+
-| ``pairs``   | ``TRUE`` or ``FALSE`` (default), perform pairwise     |
-|             | comparisons                                           |
-+-------------+-------------------------------------------------------+
-| ``formula`` | (optional) the formula to use, see the examples       |
-+-------------+-------------------------------------------------------+
++-------------+-------------------------------------------------------------------+
+| ``data``    | the data as a data frame                                          |
++-------------+-------------------------------------------------------------------+
+| ``deps``    | a string naming the dependent variable in ``data``                |
++-------------+-------------------------------------------------------------------+
+| ``group``   | a string naming the grouping or independent variable  in ``data`` |
++-------------+-------------------------------------------------------------------+
+| ``es``      | ``TRUE`` or ``FALSE`` (default), provide effect-sizes             |
++-------------+-------------------------------------------------------------------+
+| ``pairs``   | ``TRUE`` or ``FALSE`` (default), perform pairwise comparisons     |
++-------------+-------------------------------------------------------------------+
+| ``formula`` | (optional) the formula to use, see the examples                   |
++-------------+-------------------------------------------------------------------+
 
 Output
 ------
