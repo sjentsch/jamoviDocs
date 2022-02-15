@@ -24,7 +24,7 @@ Install and build (later):
    `$ source _env/bin/activate`<br>
    Set up and activate the virtual environment.<br>
 
-   `$ clear && make clean && make gettext && cat .exclude | while read -r line; do rm -fR ${line}; done && for F in $(find _build/gettext/* -type f -name *.pot); do sed -n '/msgid "|.*|"/{N;s/.*//;x;d;};x;p;${x;p;}' ${F} | cat -s | sed 1d > tmp.pot && mv tmp.pot ${F}; done && for F in $(find _locale -name *.po); do FS=$(echo ${F} | cut -d"/" -f4-); if [ ! -e "_build/gettext/${FS}t" ]; then if [ $(grep "^msgstr" ${F} | grep -cv '^msgstr ""$') -eq 0 ]; then rm ${F}; else mv ${F} ${F}.rmv; fi; fi; done && sphinx-intl update -p _build/gettext/ -l da,de,es,fr,it,ja,ko,no,pt,ru,sv,tr,zh`<br>
+   `$ L="da,de,es,fr,it,ja,ko,no,pt,ru,sv,tr,zh"; clear && make clean && make gettext && cat .exclude | while read -r line; do rm -fR ${line}; done && for F in $(find _build/gettext/* -type f -name *.pot); do sed -n '/msgid "|.*|"/{N;s/.*//;x;d;};x;p;${x;p;}' ${F} | cat -s | sed 1d > tmp.pot && mv tmp.pot ${F}; done && for F in $(find _locale -name *.po); do FS=$(echo ${F} | cut -d"/" -f4-); if [ ! -e "_build/gettext/${FS}t" ]; then if [ $(grep "^msgstr" ${F} | grep -cv '^msgstr ""$') -eq 0 ]; then rm ${F}; else mv ${F} ${F}.rmv; fi; fi; done && sphinx-intl update -p _build/gettext/ -l ${L}`<br>
    The line combines several commands (separated by `&&` so that the next command is only run if the previous one was finished without error.
    The first two commands clear the screen and clean the _build directory.
    The third command (make gettext) creates the text files (.pot) that later form the starting point for the translation files.
