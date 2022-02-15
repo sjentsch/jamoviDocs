@@ -18,7 +18,7 @@ from sphinx.locale import _
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
 author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2016-2022, ' + author + '. This work is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License'
+copyright = u'2016-2022, ' + author + '. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -52,7 +52,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '_tmp', '_env', 'Thumbs.db', '.DS_Store', 'README.*']
+exclude_patterns = ['_build', '_env', '**/Thumbs.db', '**/.DS_Store', 'README.*', '**/README.*']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:

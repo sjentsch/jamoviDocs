@@ -1,6 +1,3 @@
 _build/gettext/sphinx.pot
-_build/gettext/_pages/dev*.pot
-_build/gettext/_pages/api*.pot
-_build/gettext/_pages/inf*.pot
-_build/gettext/_pages/tut*.pot
-_build/gettext/_pages/ui_*.pot
+_build/gettext/_pages/dh_*.pot
+_build/gettext/_pages/jmv*.pot
