@@ -14,9 +14,9 @@ Analyses
    If you decide you no longer need a particular analysis, you can remove it with the results context menu. Right-clicking on the analysis results will bring
    up a menu, and by selecting ``Analysis``, and then ``Remove``, the analysis can be removed.
 
-.. raw:: html
+   .. raw:: html
 
-    <div class="gif-player" data-anim-src="../_static/um_analysis.gif" data-static-src="../_static/um_analysis.png" data-title="Performing an Analysis"></div>
+      <div class="gif-player" data-anim-src="../_static/um_analysis.gif" data-static-src="../_static/um_analysis.png" data-title="Performing an Analysis"></div>
 
 
    jamovi produces nice APA formatted tables, and attractive plots. It is often useful to be able to copy and paste these, perhaps into a Word document, or
@@ -24,9 +24,9 @@ Analyses
    allows you to choose to copy, say only the image, or the entire analysis. Selecting copy, copies the content to the clipboard, and can be pasted into the
    other program in the usual way.
 
-.. raw:: html
+   .. raw:: html
 
-    <div class="gif-player" data-anim-src="../_static/um_copyPaste.gif" data-static-src="../_static/um_copyPaste.png" data-title="Copy-and-Paste"></div>
+      <div class="gif-player" data-anim-src="../_static/um_copyPaste.gif" data-static-src="../_static/um_copyPaste.png" data-title="Copy-and-Paste"></div>
 
 
 .. raw:: html

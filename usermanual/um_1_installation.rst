@@ -1,10 +1,8 @@
 .. sectionauthor:: Jonathon Love
 
-.. toctree::
-   :hidden:
-
 Installation
 ============
+
 
 Windows
 -------
@@ -25,6 +23,7 @@ Windows
    working in this way, in which case it would be worth raising the
    issue with your IT staff.
 
+
 macOS
 -----
 
@@ -40,6 +39,7 @@ macOS
    jamovi for macOS has an auto-update mechanism, and can alert you to
    when new versions are available. You can update your version of
    jamovi from the app menu (☰; at the top right of the window).
+
 
 Linux and Chromebooks
 ---------------------
@@ -68,6 +68,7 @@ Linux and Chromebooks
    .. code-block:: bash
    
       flatpak update
+
 
 Text not appearing in plots under linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

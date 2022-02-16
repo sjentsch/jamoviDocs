@@ -16,6 +16,7 @@ Updating data
    For a video introduction to import and templates in jamovi, see this `blog
    post <https://blog.jamovi.org/2019/03/27/import.html>`__.
 
+
 Single-file Import
 ------------------
 
@@ -37,6 +38,7 @@ Single-file Import
    Following a file import, all the filters, computed variables, transforms and
    analyses update.
 
+
 Multi-file Import
 -----------------
 
@@ -56,6 +58,7 @@ Multi-file Import
    ``V``-functions described above.
 
    At present, there is no way to combine files horizontally in jamovi.
+
 
 Templates
 ---------
