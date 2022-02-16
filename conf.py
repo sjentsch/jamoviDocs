@@ -29,7 +29,7 @@ copyright = u'2016-2022, ' + author + '. This work is licensed under a Creative 
 # Usually you set "language" from the command line for these cases.
 language = 'en'
 locale_dirs = ['_locale']
-gettext_compact = False
+gettext_compact = FALSE
 
 # -- General configuration ---------------------------------------------------
 
