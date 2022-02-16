@@ -62,7 +62,7 @@ From SPSS to jamovi: Non-parametric analyses
 | <https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100131510>`__ (where a discrete distribution – ranks – is approximated via a continuous    |
 | one – the standard normal distribution) whereas SPSS doesn't.                                                                                                 |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2R/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   

@@ -61,7 +61,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 | The numerical values for these analyses are the same: *SS*<sub>Dose</sub> = 25.19, *p* < .05; *SS*<sub>Puppy_love</sub> = 15.08, *p* < .05;                   | 
 | *M*<sub>Control</sub> = 2.93, *M*<sub>15mins</sub> = 4.71, *M*<sub>30mins</sub> = 5.15; contrast 1, *p* = 0.045; contrast 2, *p* = 0.010.                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2R/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   

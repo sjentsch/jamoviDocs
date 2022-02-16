@@ -48,7 +48,7 @@ From SPSS to jamovi: Linear regression
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | The numerical values for the statistics obtained from SPSS and jamovi are identical: *R* = 0.58, *R²* = 0.33, *F* = 99.59, *p* < .001; *β* = 0.58, *p* < .001.|
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2R/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   

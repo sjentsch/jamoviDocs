@@ -90,7 +90,7 @@ From SPSS to jamovi: Linear regression
 | Similar to the analysis on the previous page, the numerical outputs for the current analysis are identical: *R* = 0.82, *R²* = 0.66; *β* = 0.51, *p* < .001;  |
 | *β* = 0.51, *p* < .001; *β* = 0.19, *p* < .001.                                                                                                               |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2R/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   

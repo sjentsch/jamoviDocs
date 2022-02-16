@@ -92,7 +92,7 @@ From SPSS to jamovi: Logistic Regression
 |   the Deviance (-2LL) and χ² for Model 2 and 3 are more or less the same as for Model 1 (and since more df's are used in Model 2 and 3, the p-values increase |
 |   (which is all emphasizing that Model 1 is the best model and should be selected).                                                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2R/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   

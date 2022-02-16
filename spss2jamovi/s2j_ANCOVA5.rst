@@ -43,7 +43,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 | If one compares the numerical values, they are the same: *SS*<sub>Dose</sub> = 36.6, *p* < .01; *SS*<sub>Puppy_love</sub> = 17.2, *p* < .05;                  |
 | *SS*<sub>Dose \* Puppy_love</sub> = 20.4, *p* < .05.                                                                                                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2R/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   

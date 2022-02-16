@@ -60,8 +60,8 @@
    :caption: jamovi and other software
    :hidden:
 
-   SPSS2jamovi/s2j_overview
-   jamovi2R/j2R_overview
+   spss2jamovi/s2j_overview
+   jamovi2r/j2R_overview
 
 
 .. ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,7 +134,7 @@ UI used for those analyses.
 jamovi and other software
 =========================
 
-* :doc:`SPSS2jamovi/s2j_overview`
-* :doc:`jamovi2R/j2R_overview`
+* :doc:`spss2jamovi/s2j_overview`
+* :doc:`jamovi2r/j2R_overview`
 
 .. ============================================================================================================================================================

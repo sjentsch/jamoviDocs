@@ -55,7 +55,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 |                                                                                                                                                               |
 | The numerical values for the model 2 statistics are identical: *R* = 0.54, *R²* = 0.29; *b* = 0.42, *p* < .05; *β* = 0.39, *p* < .05.                         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2R/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
