@@ -31,7 +31,7 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
    Pull the translated resources and build the documentation in the target language. Please note that if you would like to build for any other language than English (en) or German (de) you will have to add the language code in the for loop. After building, the doctree-pickles are removed and, if the lanaguage is not English (default), the directories _images and _static are removed from the translated directories and linked to the respective directories under "en".<br>
 
    NB: Before using the weblate repository for the first time, it has to be added using the following command (the second part prevents from accidentially pushing to it):
-   `$ git remote add weblate https://hosted.weblate.org/git/jamovi/jamovidocs_start/ && git remote set-url --push weblate DISABLED`
+   `$ git remote add weblate https://hosted.weblate.org/git/jamovidocs/0_start/ && git remote set-url --push weblate DISABLED`
 
    After it is pushed to the github-repository, readthedocs is reading from the respective language project there (which is then integrated into the main documentation).<br>
 
@@ -47,4 +47,4 @@ If you are willing to contribute to the project with translating it into your la
 
 Please also have a look at two other translation projects related to jamovi, the [translation of the jamovi user interface](https://hosted.weblate.org/engage/jamovi/) and the [translation of the textbook "Learning statistics with jamovi"](https://hosted.weblate.org/engage/lsjdocs/)
 
-We are grateful to [Weblate-team](https://weblate.org/) who host libre projects as ours free of charge.
+We are grateful to the [Weblate-team](https://weblate.org/) who host libre projects as ours free of charge.
