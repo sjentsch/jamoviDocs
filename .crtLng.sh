@@ -13,7 +13,7 @@ for F in $(ls _build/gettext/* | grep -v -f .exclude | cut -d/ -f3); do
       if [ $(grep -c "msgstr ${S}" _locale/pot/${F}) -eq 0 ]; then
          echo "${F}: Substitution string (and the msgstr afterwards) need to be added: ${S}";
       fi
-   done   
+   done
 done
 sed -i "/Language:.*/d" _locale/pot/*.pot
 #for F in $(find _locale -name *.po); do
@@ -26,6 +26,6 @@ sed -i "/Language:.*/d" _locale/pot/*.pot
 #      fi
 #   fi
 #done
-for L in da de es fr it ja ko no pt ru sv tr zh; do 
+for L in $(cat .languages); do
     sphinx-intl update -p _locale/pot -l ${L}
 done
