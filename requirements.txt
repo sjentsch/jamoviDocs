@@ -1,4 +1,4 @@
-sphinx
+sphinx>=4.0
 sphinx-intl
 sphinx-rtd-theme
 sphinx-copybutton
