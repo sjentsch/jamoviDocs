@@ -38,6 +38,7 @@ t-test: One sample
 
    |
 
+
 .. admonition:: Further help from the community resources
    
    | This `video <https://www.youtube.com/embed/DrBT4ezYIL8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://datalab.cc/jamovi>`__
@@ -46,8 +47,7 @@ t-test: One sample
    | For those, aiming to stretch even further to an in-depth introduction, you can read the respective section in the “Learning statistics with jamovi” `web
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_02.html>`__ or chapter 11.2 of the `e-book <https://www.learnstatswithjamovi.com/>`__
      by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
-        
-| 
+
       
 .. ---------------------------------------------------------------------
 

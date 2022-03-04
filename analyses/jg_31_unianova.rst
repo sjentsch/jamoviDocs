@@ -38,13 +38,13 @@ ANOVA: One-Way
 
    |
 
+
 .. admonition:: Further help from the community resources
      
    | Those looking for an in-depth introduction: You may read the respective chapter in the “Learning statistics with jamovi” `web documentation
      <https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_01.html>`__ or chapter 13.1 - 6 of the `e-book <https://www.learnstatswithjamovi.com/>`__ by
      `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
 
-|
 
 .. ---------------------------------------------------------------------
 

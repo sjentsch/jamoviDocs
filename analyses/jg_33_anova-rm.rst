@@ -45,6 +45,7 @@ ANOVA: Repeated Measures
    
    |
 
+
 .. admonition:: Further help from the community resources
    
    | A more comprehensive introduction into this statistical method is provided by this `video 
@@ -54,7 +55,6 @@ ANOVA: Repeated Measures
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch13_ANOVA_07.html>`__ or chapter 13.7 of the `e-book <https://www.learnstatswithjamovi.com/>`__
      by Danielle J. Navarro and David R. Foxcroft.
 
-|
      
 .. ---------------------------------------------------------------------
 

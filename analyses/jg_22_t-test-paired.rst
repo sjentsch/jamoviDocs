@@ -34,6 +34,13 @@ t-test: Paired samples
 
    |
 
+
+.. tip::
+
+   | Those who have previous experience with SPSS may want to have a look at the :doc:`side-by-side-comparison <../spss2jamovi/s2j_ttestPS2>` of how a t-test 
+     for paired samples is conducted in SPSS and jamovi.
+
+
 .. admonition:: Further help from the community resources
 
    | This `video <https://www.youtube.com/embed/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://datalab.cc/jamovi>`__
@@ -43,7 +50,6 @@ t-test: Paired samples
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_05.html>`__ or chapter 11.5 of the `e-book <https://www.learnstatswithjamovi.com/>`__
      by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
 
-|
  
 .. ---------------------------------------------------------------------
 

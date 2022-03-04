@@ -59,6 +59,7 @@ From SPSS to jamovi: Analysis of frequencies
 | .001; *χ²* = 65.27, *p* < .001; *χ²* = 61.15, *p* < .001; *χ²* = 1.48; *χ²* = 13.76, *p* < .001; *χ²* = 13.75, *p* < .001; *χ²* = 8.61, *p* < .01.            |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+| Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -80,6 +81,8 @@ From SPSS to jamovi: Analysis of frequencies
 |                                                                               |         pseudoR2 = NULL,                                                      |
 |                                                                               |         omni = TRUE)                                                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
 | **References**
@@ -98,3 +101,6 @@ From SPSS to jamovi: Analysis of frequencies
 .. |SPSS_Output_logLinear|             image:: ../_images/s2j_SPSS_Output_logLinear.png
 .. |jamovi_Output_logLinear_1|         image:: ../_images/s2j_jamovi_Output_logLinear_1.png
 .. |jamovi_Output_logLinear_2|         image:: ../_images/s2j_jamovi_Output_logLinear_2.png
+
+.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_logLinear.spv
+.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_logLinear.omv

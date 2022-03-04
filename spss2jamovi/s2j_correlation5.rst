@@ -37,6 +37,7 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 | Results are presented twice in SPSS, while in jamovi they are only presented once. The numerical values for the statistics are identical: *r* = -.25.         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+| Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -44,6 +45,8 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 |      /VARIABLES=Exam Anxiety BY Revise                                        |        data = data,                                                           |
 |      /SIGNIFICANCE=TWOTAIL                                                    |        vars = vars(Exam, Anxiety),                                            |
 |      /MISSING=LISTWISE.                                                       |        controls = Revise)                                                     |
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -60,3 +63,6 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 .. |SPSS_Output_corr5_1|               image:: ../_images/s2j_SPSS_Output_corr5_1.png
 .. |SPSS_Output_corr5_2|               image:: ../_images/s2j_SPSS_Output_corr5_2.png
 .. |jamovi_Output_corr5|               image:: ../_images/s2j_jamovi_Output_corr5.png
+
+.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_corr5.spv
+.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_corr5.omv

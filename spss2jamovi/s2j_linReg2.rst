@@ -91,6 +91,7 @@ From SPSS to jamovi: Linear regression
 | *β* = 0.51, *p* < .001; *β* = 0.19, *p* < .001.                                                                                                               |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+| Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -111,6 +112,8 @@ From SPSS to jamovi: Linear regression
 |         SD FIT COVRATIO.                                                      |        collin = TRUE,                                                         |
 |                                                                               |        cooks = TRUE)                                                          |
 |                                                                               |                                                                               |   
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -148,3 +151,6 @@ From SPSS to jamovi: Linear regression
 .. |jamovi_Output_linReg2_4|           image:: ../_images/s2j_jamovi_Output_linReg2_4.png
 .. |jamovi_Output_linReg2_5|           image:: ../_images/s2j_jamovi_Output_linReg2_5.png
 .. |jamovi_Output_linReg2_6|           image:: ../_images/s2j_jamovi_Output_linReg2_6.png
+
+.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_linReg2.spv
+.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_linReg2.omv

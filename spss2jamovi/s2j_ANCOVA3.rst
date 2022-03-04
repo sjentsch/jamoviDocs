@@ -62,6 +62,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 | *M*<sub>Control</sub> = 2.93, *M*<sub>15mins</sub> = 4.71, *M*<sub>30mins</sub> = 5.15; contrast 1, *p* = 0.045; contrast 2, *p* = 0.010.                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+| Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -73,6 +74,8 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 |      /CRITERIA=ALPHA(0.05)                                                    |        emmPlots = FALSE,                                                      |
 |      /DESIGN=Puppy_love Dose.                                                 |        emmPlotError = "none",                                                 |
 |                                                                               |        emmTables = TRUE)                                                      |
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -94,3 +97,6 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 .. |SPSS_Output_ANCOVA3_2|             image:: ../_images/s2j_SPSS_Output_ANCOVA3_2.png
 .. |SPSS_Output_ANCOVA3_3|             image:: ../_images/s2j_SPSS_Output_ANCOVA3_3.png
 .. |jamovi_Output_ANCOVA3|             image:: ../_images/s2j_jamovi_Output_ANCOVA3.png
+
+.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_ANCOVA3.spv
+.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_ANCOVA3.omv

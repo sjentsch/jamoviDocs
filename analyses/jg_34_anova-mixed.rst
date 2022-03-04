@@ -46,12 +46,12 @@ ANOVA: Mixed
    
    |
 
+
 .. admonition:: Further help from the community resources
 
    | A little more comprehensive introduction into this statistical method is provided by this `video 
      <https://www.youtube.com/embed/m5JNwPgiMso?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__.
 
-|
 
 .. ---------------------------------------------------------------------
 

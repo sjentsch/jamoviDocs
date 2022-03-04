@@ -31,6 +31,7 @@ ANOVA
    |output_anova_factorial|
    
    |
+
    
 .. admonition:: Further help from the community resources
    
@@ -41,7 +42,6 @@ ANOVA
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch14_ANOVA2_01.html>`__ or chapter 14.1 - 4 of the `e-book
      <https://www.learnstatswithjamovi.com/>`__ by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
 
-|
    
 .. ---------------------------------------------------------------------
 

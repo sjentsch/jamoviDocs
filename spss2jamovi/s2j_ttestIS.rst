@@ -44,6 +44,7 @@ From SPSS to jamovi: t-test for independent samples
 | The numerical values for the statistics are identical: *t* = -1.71, *df* = 22, *p* = 0.101.                                                                   |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+| Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -52,6 +53,8 @@ From SPSS to jamovi: t-test for independent samples
 |       /CRITERIA=CI(.95)                                                       |        formula = Mischief ~ Cloak,                                            |
 |       /MISSING=ANALYSIS.                                                      |        desc = TRUE,                                                           |
 |                                                                               |        eqv = TRUE)                                                            |
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -67,3 +70,6 @@ From SPSS to jamovi: t-test for independent samples
 .. |jamovi_Input_ttestIS1|             image:: ../_images/s2j_jamovi_Input_ttestIS1.png
 .. |SPSS_Output_ttestIS1|              image:: ../_images/s2j_SPSS_Output_ttestIS1.png
 .. |jamovi_Output_ttestIS1|            image:: ../_images/s2j_jamovi_Output_ttestIS1.png
+
+.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_ttestIS.spv
+.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_ttestIS.omv

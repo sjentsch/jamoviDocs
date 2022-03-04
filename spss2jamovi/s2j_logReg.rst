@@ -93,6 +93,7 @@ From SPSS to jamovi: Logistic Regression
 |   (which is all emphasizing that Model 1 is the best model and should be selected).                                                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+| Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -107,6 +108,9 @@ From SPSS to jamovi: Logistic Regression
 |       /PRINT=GOODFIT ITER(1) CI(95)                                           |        pseudoR2 = c("r2mf", "r2cs", "r2n"))                                   |
 |       /CRITERIA=PIN(0.05) POUT(0.10) ITERATE(20) CUT(0.5).                    |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+
 
 | **References**
 | Field, A. (2017). *Discovering statistics using IBM SPSS statistics* (5th ed.). SAGE Publications. https://edge.sagepub.com/field5e
@@ -135,3 +139,6 @@ From SPSS to jamovi: Logistic Regression
 .. |jamovi_Output_logReg1_2|           image:: ../_images/s2j_jamovi_Output_logReg1_2.png
 .. |jamovi_Output_logReg1_3|           image:: ../_images/s2j_jamovi_Output_logReg1_3.png
 .. |jamovi_Output_logReg1_4|           image:: ../_images/s2j_jamovi_Output_logReg1_4.png
+
+.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_logReg.spv
+.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_logReg.omv
