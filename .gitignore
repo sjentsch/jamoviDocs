@@ -1,0 +1,13 @@
+# .weblate and .gitignore
+.weblate
+
+# remove files
+*.rmv
+
+# _build and _env
+_build
+_env
+
+# OpenDocument-files (templates for
+# further analyses) in spss2jamovi
+spss2jamovi/s2j*.odt
