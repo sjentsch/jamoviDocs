@@ -1,13 +1,13 @@
 .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
-==================================================
-Write files to be used with jamovi (``write_omv``)
-==================================================
+===========================================================
+Write ``.omv``-files to be used with jamovi (``write_omv``)
+===========================================================
 
 Description
 -----------
 
-    Write files to be used with the statistical spreadsheet `jamovi <www.jamovi.org>`_.
+    Write ``.omv``-files to be used with the statistical spreadsheet `jamovi <www.jamovi.org>`_.
 
 Usage
 -----
@@ -33,15 +33,15 @@ Arguments
 Details
 -------
 
-     jamovi has a specific measurement level / type "ID" (in addition to the "standard" ones "Nominal", "Ordinal", and "Continuous"). "ID" is used for columns
-     that contain some form of ID (e.g., a participant code). In order to set a variable of your data frame to "ID", you have to manually set an attribute
-     ‘jmv-id’ (e.g., ‘attr(dtaFrm$column, "jmv-id") = TRUE’).
+     jamovi has a specific measurement level / type ``ID`` (in addition to the "standard" ones ``Nominal``, ``Ordinal``, and ``Continuous``). ``ID`` is used
+     for columns that contain some form of ID (e.g., a participant code). In order to set a variable of your data frame to ``ID``, you have to manually set an
+     attribute ``jmv-id`` (e.g., ``attr(dtaFrm$column, "jmv-id") = TRUE``).
 
 Output
 ------
 
-     A results object (list; only if ``retDbg`` is ``TRUE``), containing the meta data (``mtaDta``, ``metadata.json`` in the OMV-file), the extended data
-     (``xtdDta``, ``xdata.json`` in the OMV-file) and the original data frame (``dtaFrm``).
+     A results object (list; only if ``retDbg`` is ``TRUE``), containing the meta data (``mtaDta``, ``metadata.json`` in the ``.omv``-file), the extended data
+     (``xtdDta``, ``xdata.json`` in the ``.omv``-file) and the original data frame (``dtaFrm``).
 
 Examples
 --------

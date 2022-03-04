@@ -4,33 +4,36 @@
 Debugging an Analysis
 =====================
 
-Hopefully you got throw the last section without encountering any errors in your analysis. In this section, we’ll explore how to debug an analysis which is
-going wrong. For example, if we change our ``.run()`` function to produce an error::
+   Hopefully you got throw the last section without encountering any errors in your analysis. In this section, we’ll explore how to debug an analysis which is
+   going wrong. For example, if we change our ``.run()`` function to produce an error:
+   
+   .. code:: R
 
-   ttestISClass <- R6Class("ttestISClass",
-       inherit=ttestISBase,
-       private=list(
-           .run=function() {
+      ttestISClass <- R6Class("ttestISClass",
+          inherit=ttestISBase,
+          private=list(
+              .run=function() {
 
-               t.test(c(Inf, 3))  # <-- produces an error!
-           })
-   )
+                  t.test(c(Inf, 3))  # <-- produces an error!
+              })
+      )
 
-We receive the following error message.
 
-|error|
+   We receive the following error message.
 
-In this example, our code is only one line of code, so we can be reasonably confident where the problem lies. However, in practice software can be two or three
-or even more lines of code. In more complex situations, it can be handy to have a ‘stack trace’ which tells us where the problem occurred. jamovi can be placed
-in ‘dev mode’, which displays stack traces when errors occur. dev mode can be toggled from the app menu to the top right of the jamovi window:
+   |error|
 
-|dev-mode|
+   In this example, our code is only one line of code, so we can be reasonably confident where the problem lies. However, in practice software can be two or
+   three or even more lines of code. In more complex situations, it can be handy to have a ‘stack trace’ which tells us where the problem occurred. jamovi can
+   be placed in ‘dev mode’, which displays stack traces when errors occur. dev mode can be toggled from the app menu to the top right of the jamovi window:
 
-With dev mode turned on, we can see the stack trace and see that the call to ``t.test(c(Inf, 3))`` is responsible for the error.
+   |dev-mode|
 
-|stack|
+   With dev mode turned on, we can see the stack trace and see that the call to ``t.test(c(Inf, 3))`` is responsible for the error.
 
-When developing jamovi modules, it’s best to just leave dev mode on.
+   |stack|
+
+   When developing jamovi modules, it’s best to just leave dev mode on.
 
 .. ---------------------------------------------------------------------------------
 

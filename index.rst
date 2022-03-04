@@ -4,13 +4,12 @@
 
 
 .. toctree::
-   :titlesonly:
    :hidden:
 
    usermanual/um_1_installation
 
+
 .. toctree::
-   :titlesonly:
    :caption: Getting Started
    :hidden:
 
@@ -22,7 +21,6 @@
 
 
 .. toctree::
-   :titlesonly:
    :caption: Analyses
    :hidden:
 
@@ -40,7 +38,6 @@
 
 
 .. toctree::
-   :titlesonly:
    :caption: How to...
    :hidden:
 
@@ -48,7 +45,6 @@
 
 
 .. toctree::
-   :maxdepth: 1
    :caption: jamovi-modules
    :hidden:
 
@@ -56,7 +52,6 @@
 
 
 .. toctree::
-   :maxdepth: 1
    :caption: jamovi and other software
    :hidden:
 
@@ -74,14 +69,14 @@ statistician.
 Getting started
 ===============
 
-The following topics should get you up and running with jamovi, with additional topics available from the menu to the left.
+   The following topics should get you up and running with jamovi, with additional topics available from the menu to the left.
 
-* :doc:`usermanual/um_1_installation`
-* :doc:`usermanual/um_2_first-steps`
-* :doc:`usermanual/um_3_analyses`
-* :doc:`usermanual/um_4_spreadsheet`
-* :doc:`usermanual/um_5_updating_data`
-* :doc:`usermanual/um_6_syntax_mode`
+   * :doc:`usermanual/um_1_installation`
+   * :doc:`usermanual/um_2_first-steps`
+   * :doc:`usermanual/um_3_analyses`
+   * :doc:`usermanual/um_4_spreadsheet`
+   * :doc:`usermanual/um_5_updating_data`
+   * :doc:`usermanual/um_6_syntax_mode`
 
 .. ============================================================================================================================================================
 
@@ -89,32 +84,32 @@ The following topics should get you up and running with jamovi, with additional 
 Analyses
 ========
 
-The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The :doc:`introduction
-<analyses/jg_00_overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links below.
+   The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The :doc:`introduction
+   <analyses/jg_00_overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links below.
 
-**Descriptive analyses**
+   **Descriptive analyses**
 
-* :doc:`analyses/jg_11_descriptive-analyses`
+   * :doc:`analyses/jg_11_descriptive-analyses`
 
-**t-tests**
+   **t-tests**
 
-* :doc:`analyses/jg_21_t-test-independent`
-* :doc:`analyses/jg_22_t-test-paired`
-* :doc:`analyses/jg_23_t-test-onesample`
-
-
-**Analyses of Variance (ANOVA)**
-
-* :doc:`analyses/jg_31_unianova`
-* :doc:`analyses/jg_32_anova-factorial`
-* :doc:`analyses/jg_33_anova-rm`
-* :doc:`analyses/jg_34_anova-mixed`
+   * :doc:`analyses/jg_21_t-test-independent`
+   * :doc:`analyses/jg_22_t-test-paired`
+   * :doc:`analyses/jg_23_t-test-onesample`
 
 
-**Correlation and regression**
+   **Analyses of Variance (ANOVA)**
 
-* :doc:`analyses/jg_42_regression-linear`
-* :doc:`analyses/jg_43_regression-logistic`
+   * :doc:`analyses/jg_31_unianova`
+   * :doc:`analyses/jg_32_anova-factorial`
+   * :doc:`analyses/jg_33_anova-rm`
+   * :doc:`analyses/jg_34_anova-mixed`
+
+
+   **Correlation and regression**
+
+   * :doc:`analyses/jg_42_regression-linear`
+   * :doc:`analyses/jg_43_regression-logistic`
    
 .. ============================================================================================================================================================
 
@@ -122,11 +117,11 @@ The aim of the following section is to provide short, non-technical tutorials on
 jamovi-modules
 ==============
 
-jamovi's functionality can easily be extended by creating specialized modules. It therefore calls for a community of developers to implement such additional
-analyses. The developer's hub describes how such modules can be created and provides additional information (API) and about options for elements of the jamovi
-UI used for those analyses.
+   jamovi's functionality can easily be extended by creating specialized modules. It therefore calls for a community of developers to implement such additional
+   analyses. The developer's hub describes how such modules can be created and provides additional information (API) and about options for elements of the jamovi
+   UI used for those analyses.
 
-* :doc:`developer/dh_overview`
+   * :doc:`developer/dh_overview`
 
 .. ============================================================================================================================================================   
 
@@ -134,7 +129,7 @@ UI used for those analyses.
 jamovi and other software
 =========================
 
-* :doc:`spss2jamovi/s2j_overview`
-* :doc:`jamovi2r/j2R_overview`
+   * :doc:`spss2jamovi/s2j_overview`
+   * :doc:`jamovi2r/j2R_overview`
 
 .. ============================================================================================================================================================

@@ -93,10 +93,17 @@ html_theme = "sphinx_rtd_theme"
 # further.  For a list of options available for each theme, see the documentation.
 # https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
 html_theme_options = {
-    'collapse_navigation': False,
-    'display_version': False,
-    # only display the logo image, do not display the project name at the top of the sidebar (default: False)
+    # TOC options: (1) maximum number iof (heading) levels to show in the TOC, (2) navigation entries are not expandable ([+], default: True),
+    #              (3) scroll the navigation with the main page content as you scroll the page (default: True), (4) if the navigation includes
+    #              hidden table(s) of contents (Default: True), (5) whether to include page subheadings in the TOC (default: False)
+    'navigation_depth': 2,
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'includehidden': True,
+    'titles_only': True,
+    # only display the logo image (default: False), do not display the project name and the version number at the top of the sidebar (default: True)
     'logo_only': True,
+    'display_version': False,    
     # location of the prev / next buttons (default: 'bottom') and allow navigating using the keyboard’s left and right arrows (default: False)
     'prev_next_buttons_location': 'bottom',
     'navigation_with_keys': True,
@@ -108,11 +115,9 @@ html_theme_options = {
     'style_nav_header_background': '#FFFFFF',
     # width of the sidebar (defaults to 230 pixels)
     'sidebarwidth': '20%',
-#   Minimal and maximal width of the document body. Use 'none' if you don’t want a width limit. Defaults may depend on the theme (often 450px [min] and 800px [max]).    
+    # minimal and maximal width of the document body; 'none' doesn’t apply a width limit; defaults depend on the theme (often 450px [min], 800px [max])
     'body_min_width': 'none',
     'body_max_width': 'none',
-#   Allow navigating to the previous/next page using the keyboard’s left and right arrows. Defaults to False.
-    'navigation_with_keys': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -373,11 +378,10 @@ if os.path.abspath('.').startswith('/home'):
 else:
    base_path = ''
  
+languages = sorted([lang.name for lang in os.scandir('_locale') if (lang.is_dir() and lang.name != 'pot')])
 html_context['languages'] = [('en', base_path + '/en')]
- 
-languages = [lang.name for lang in os.scandir('_locale') if lang.is_dir()]
 for lang in languages:
-   html_context['languages'].append((lang, base_path + '/' + lang))
+      html_context['languages'].append((lang, base_path + '/' + lang))
  
 html_context['downloads'] = list()
 html_context['downloads'].append(('PDF',  '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.pdf'))

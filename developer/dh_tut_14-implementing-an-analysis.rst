@@ -6,7 +6,7 @@ Implementing an analysis
 
     In this section we will add the implementation, that is the R code, to perform our t-test analysis.
 
-    In jamovi analyses, the implementation lives in the ``.b.R`` file, so if we look in our ``ttest.b.R`` file we see...
+    In jamovi analyses, the implementation lives in the ``.b.R``-file, so if we look in our ``ttest.b.R``-file we see...
 
     .. code-block:: R
 
@@ -32,10 +32,10 @@ Implementing an analysis
     the curious, you can read more about R6 classes `here <https://cran.r-project.org/web/packages/R6/vignettes/Introduction.html>`__, but all you really need
     to know is that you write your analysis in the ``.run`` function, and you can safely ignore the rest.
 
-    You'll also notice that the `.run()` function receives no arguments. We access the values that the user specified (either in the jamovi ui, or as arguments
-    to the generated `ttestIS()` function) through `self`. Again, this may seem a little unfamiliar, but it is very straight forward.
+    You'll also notice that the ``.run()`` function receives no arguments. We access the values that the user specified (either in the jamovi ui, or as
+    arguments to the generated ``ttestIS()``-function) through ``self``. Again, this may seem a little unfamiliar, but it is very straight forward.
 
-    As covered in the :doc:`previous section <dh_tut_13-creating-an-analysis>`, our t-test has four options (as defined in ``ttest.a.yaml``), ``dep``,
+    As covered in the :doc:`previous section <dh_tut_13-creating-an-analysis>`, our t-test has four options (as defined in ``ttest``\ |ayaml|_), ``dep``,
     ``group``, ``alt`` and ``varEq``, we can access the values for each of these in our analysis with:
 
     - ``self$options$dep``
@@ -43,8 +43,8 @@ Implementing an analysis
     - ``self$options$alt``
     - ``self$options$varEq``
 
-    Additionally, ``ttest.a.yaml`` defined the special `data` option, which means we can access the data provided by the user as a data frame (either the data
-    loaded in jamovi, or the data passed as an argument to `ttestIS()` function in R), with:
+    Additionally, ``ttest``\ |ayaml|_ defined the special ``data`` option, which means we can access the data provided by the user as a data frame (either the
+    data loaded in jamovi, or the data passed as an argument to ``ttestIS()`` function in R), with:
 
     .. code-block:: R
 
@@ -70,13 +70,13 @@ Implementing an analysis
        )
 
     
-    First, we take the values of `self$options$dep` and `self$options$group`, which are both strings and assemble them into a formula. Then we can call the
-    ``t.test()`` function passing in this formula, and the `self$data` data frame. Finally, we print the result.
+    First, we take the values of ``self$options$dep`` and ``self$options$group``, which are both strings and assemble them into a formula. Then we can call the
+    ``t.test()`` function passing in this formula, and the ``self$data`` data frame. Finally, we print the result.
 
     Now this analysis will and does work; however when running in jamovi, the result of the print statement will appear at the terminal, rather than in the
     application's results area (where the user would like it). To remedy this, rather than simply printing the results, we assign the results to the analysis'
-    results object. When run in an R session, the results will still be printed, but when run in jamovi, the results will appear in the results panel. We
-    assign to the analysis' result object using (you guessed it), `self$results`. Our new function will now read:
+    ``results``-object. When run in an R session, the results will still be printed, but when run in jamovi, the results will appear in the results panel. We
+    assign to the analysis' ``results``-object using (you guessed it), ``self$results``. Our new function will now read:
 
     .. code-block:: R
 
@@ -180,7 +180,10 @@ Implementing an analysis
 
     The ``jmvcore`` package contains many such useful functions. It would be worth checking them out.
 
-.. ---------------------------------------------------------------------------------
+.. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .. |implementing-analysis|             image:: ../_images/dh_tut_14-implementing-an-analysis.png
    :width: 1260px
+
+.. |ayaml|                             replace:: ``.a.yaml``
+.. _ayaml:                             dh_api_analysis-definition.html

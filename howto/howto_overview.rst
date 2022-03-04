@@ -1,12 +1,5 @@
 .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
-.. toctree::
-   :maxdepth: 0
-   :hidden:
-
-   howto_Install_modules
-
-
 =========
 How to...
 =========
@@ -17,7 +10,10 @@ The aim of the following section is to clear and simple instructions on how to d
 jamovi's user interface
 -----------------------
 
-* :doc:`howto_Install_modules`
+.. toctree::
+   :titlesonly:
+
+   howto_Install_modules
 
 .. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 

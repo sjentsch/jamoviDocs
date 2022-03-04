@@ -9,7 +9,7 @@
 **This control type is abstract and can not be used directly.**
 
 This is the abstract base of all controls that can be bound to an option. These types of controls allow a user to see and / or set the value of an option that
-has been defined in the ``*.a.yaml``.
+has been defined in the ``*``\ |ayaml|_.
 
 Properties
 ----------
@@ -118,16 +118,20 @@ Below is a list of controls that inherit from ``OptionControl``.
    dh_ui_variablelabel
    dh_ui_termlabel
 
-.. ----------------------------------------------------------------------
 
-.. |BaseControl|       replace:: ``BaseControl``
-.. _BaseControl:       dh_ui_basecontrol.html
+.. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-.. |CheckBox|          replace:: ``CheckBox``
-.. _CheckBox:          dh_ui_checkbox.html
+.. |BaseControl|                       replace:: ``BaseControl``
+.. _BaseControl:                       dh_ui_basecontrol.html
 
-.. |TextBox|           replace:: ``TextBox``
-.. _TextBox:           dh_ui_textbox.html
+.. |CheckBox|                          replace:: ``CheckBox``
+.. _CheckBox:                          dh_ui_checkbox.html
 
-.. |RadioButton|       replace:: ``RadioButton``
-.. _RadioButton:       dh_ui_radiobutton.html
+.. |TextBox|                           replace:: ``TextBox``
+.. _TextBox:                           dh_ui_textbox.html
+
+.. |RadioButton|                       replace:: ``RadioButton``
+.. _RadioButton:                       dh_ui_radiobutton.html
+ 
+.. |ayaml|                             replace:: ``.a.yaml``
+.. _ayaml:                             dh_api_analysis-definition.html
