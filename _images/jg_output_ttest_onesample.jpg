@@ -1,0 +1,11 @@
+--2021-12-20 12:28:14--  https://www.jamoviguiden.se/images/output/output_t-test_one_sample.JPG
+Resolving www.jamoviguiden.se (www.jamoviguiden.se)... 104.248.36.44
+Connecting to www.jamoviguiden.se (www.jamoviguiden.se)|104.248.36.44|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 24582 (24K) [image/jpeg]
+Saving to: ‘output_t-test_one_sample.JPG’
+
+     0K .......... .......... ....                            100% 16,5M=0,001s
+
+2021-12-20 12:28:14 (16,5 MB/s) - ‘output_t-test_one_sample.JPG’ saved [24582/24582]
+
