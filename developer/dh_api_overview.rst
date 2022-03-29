@@ -13,3 +13,7 @@ jamovi module development: API
    dh_api_ui-definition
    dh_api_results-elements
    dh_api_table
+<<<<<<< HEAD
+=======
+
+>>>>>>> master

@@ -36,7 +36,10 @@ From SPSS to jamovi: Correlation
 | values for the statistics are identical: *r* = 0.38, *p* < .01.                                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+<<<<<<< HEAD
 | Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
+=======
+>>>>>>> master
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -46,8 +49,11 @@ From SPSS to jamovi: Correlation
 |      /MISSING=PAIRWISE.                                                       |        flag = TRUE,                                                           |
 |                                                                               |        n = TRUE)                                                              |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+<<<<<<< HEAD
 | `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+=======
+>>>>>>> master
 
 
 | **References**
@@ -62,6 +68,9 @@ From SPSS to jamovi: Correlation
 .. |jamovi_Input_corr4|                image:: ../_images/s2j_jamovi_Input_corr4.png
 .. |SPSS_Output_corr4|                 image:: ../_images/s2j_SPSS_Output_corr4.png
 .. |jamovi_Output_corr4|               image:: ../_images/s2j_jamovi_Output_corr4.png
+<<<<<<< HEAD
 
 .. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_corr4.spv
 .. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_corr4.omv
+=======
+>>>>>>> master

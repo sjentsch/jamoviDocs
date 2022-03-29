@@ -1,5 +1,9 @@
 #!/bin/bash
+<<<<<<< HEAD
 clear && rm -fR _build/gettext && make gettext
+=======
+clear && make clean && make html && make gettext
+>>>>>>> master
 # clean substitions (typically image that shouldn't be translated) in order to simplify translation on Weblate
 for F in $(ls _build/gettext/* | grep -v -f .exclude | cut -d/ -f3); do
    msgmerge -q _locale/pot/${F} _build/gettext/${F} -o _locale/pot/${F}
@@ -13,7 +17,11 @@ for F in $(ls _build/gettext/* | grep -v -f .exclude | cut -d/ -f3); do
       if [ $(grep -c "msgstr ${S}" _locale/pot/${F}) -eq 0 ]; then
          echo "${F}: Substitution string (and the msgstr afterwards) need to be added: ${S}";
       fi
+<<<<<<< HEAD
    done
+=======
+   done   
+>>>>>>> master
 done
 sed -i "/Language:.*/d" _locale/pot/*.pot
 #for F in $(find _locale -name *.po); do
@@ -26,6 +34,10 @@ sed -i "/Language:.*/d" _locale/pot/*.pot
 #      fi
 #   fi
 #done
+<<<<<<< HEAD
 for L in $(cat .languages); do
+=======
+for L in da de es fr it ja ko no pt ru sv tr zh; do 
+>>>>>>> master
     sphinx-intl update -p _locale/pot -l ${L}
 done

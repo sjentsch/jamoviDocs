@@ -38,6 +38,7 @@ Logistic Regression
 
    |
 
+<<<<<<< HEAD
 
 .. tip::
 
@@ -45,6 +46,8 @@ Logistic Regression
      regression is conducted in SPSS and jamovi.
 
 
+=======
+>>>>>>> master
 .. admonition:: Further help from the community resources
    
    | A little more comprehensive introduction into this statistical method is provided by this two videos, explaining logistic regression with `two levels
@@ -52,6 +55,10 @@ Logistic Regression
      `more than two levels <https://www.youtube.com/embed/nuyEUEBf-GQ?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ (to predict, e.g., food preferences: fast
      food, healthy food, high protein food, vegan food, etc.).
      
+<<<<<<< HEAD
+=======
+|
+>>>>>>> master
 
 .. ---------------------------------------------------------------------
 

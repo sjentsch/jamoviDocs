@@ -1,13 +1,23 @@
 .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
+<<<<<<< HEAD
 ======================================================
 Read ``.omv``-files created with jamovi (``read_omv``)
 ======================================================
+=======
+=============================================
+Read files created with jamovi (``readjmv``)
+=============================================
+>>>>>>> master
 
 Description
 -----------
 
+<<<<<<< HEAD
 Read ``.omv``-files created of the statistical spreadsheet `jamovi <www.jamovi.org>`__.
+=======
+Read files created of the statistical spreadsheet `jamovi <www.jamovi.org>`__.
+>>>>>>> master
 
 Usage
 -----
@@ -27,7 +37,11 @@ Arguments
 ---------
 
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+<<<<<<< HEAD
 | ``fleInp`` | Name (including the path, if required) of the ``.omv``-file to be read (``"FILENAME.omv"``; default: "")                                |
+=======
+| ``fleInp`` | Name (including the path, if required) of the 'jamovi'-file to be read (``"FILENAME.omv"``; default: "")                                |
+>>>>>>> master
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``useFlt`` | Apply filters (remove the lines where the filter is set to 0; default: ``FALSE``)?                                                      |
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------+
@@ -35,7 +49,11 @@ Arguments
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``sveAtt`` | Store attributes that are not required in the data set (if you want to write the same data set using ``write_omv``; default: ``TRUE``)? |
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------+
+<<<<<<< HEAD
 | ``getSyn`` | Extract syntax from the analyses in the ``.omv``-file and store it in the attribute ``"syntax"`` (default: ``FALSE``)?                  |
+=======
+| ``getSyn`` | Extract syntax from the analyses in the 'jamovi'-file and store it in the attribute ``"syntax"`` (default: ``FALSE``)?                  |
+>>>>>>> master
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | ``getHTM`` | Store index.html in the attribute ``"HTML"`` (default: FALSE)?                                                                          |
 +------------+-----------------------------------------------------------------------------------------------------------------------------------------+

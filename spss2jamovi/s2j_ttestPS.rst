@@ -20,14 +20,23 @@ From SPSS to jamovi: t-test for paired samples
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |
 +===============================================================================+===============================================================================+
+<<<<<<< HEAD
 | In SPSS you can create variables using: ``Transform`` →                       | In jamovi you do this using: ``Data`` (tab) → ``Compute``                     |
 | ``Compute Variable...``                                                       |                                                                               |
+=======
+| In SPSS you can create variables using: ``Transform`` →                       | In jamovi you do this using: ``Data`` (tab) → ``Compute`` → ``Compute         |
+| ``Compute Variable...``                                                       | Variable.``                                                                   |
+>>>>>>> master
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Theory_ttestPS1|                                                        | |jamovi_Theory_ttestPS1|                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | Both in SPSS and jamovi, you can calculate the average of the two columns ``No_Cloak`` and ``Cloak`` by using the calculation term ``MEAN(No_Cloak, Cloak)``  |
+<<<<<<< HEAD
 | (as shown in the images below). Alternatively, you can choose the function to calculate the mean from the available functions (press ``fx`` in jamovi to open |
 | a input window where you can select those functions).                                                                                                         |
+=======
+| (as shown in the images below).                                                                                                                               |
+>>>>>>> master
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Theory_ttestPS2|                                                        | |jamovi_Theory_ttestPS2|                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
@@ -91,11 +100,14 @@ From SPSS to jamovi: t-test for paired samples
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Theory_ttestPS9|                                                        | |jamovi_Theory_ttestPS9|                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+<<<<<<< HEAD
 | You can download the SPSS output files and the jamovi files with the analyses demonstrated above underneath.                                                  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS data file containing the computed variables`_                           | `jamovi file containing the analyses`_                                        |
 | `SPSS output file containing the analyses`_                                   |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+=======
+>>>>>>> master
 
 
 .. toctree::
@@ -128,7 +140,10 @@ From SPSS to jamovi: t-test for paired samples
 .. |jamovi_Theory_ttestPS8|            image:: ../_images/s2j_jamovi_Theory_ttestPS8.png
 .. |SPSS_Theory_ttestPS9|              image:: ../_images/s2j_SPSS_Theory_ttestPS9.png
 .. |jamovi_Theory_ttestPS9|            image:: ../_images/s2j_jamovi_Theory_ttestPS9.png
+<<<<<<< HEAD
 
 .. _SPSS data file containing the computed variables: ../_static/output/s2j_Output_SPSS_ttestPS1.sav
 .. _SPSS output file containing the analyses:         ../_static/output/s2j_Output_SPSS_ttestPS1.spv
 .. _jamovi file containing the analyses:              ../_static/output/s2j_Output_jamovi_ttestPS1.omv
+=======
+>>>>>>> master

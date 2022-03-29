@@ -21,9 +21,15 @@ Install ``jmvtools``
 
    ``jmvtools`` is available from the jamovi repo, and can be installed in R with:
 
+<<<<<<< HEAD
    .. code-block:: R
 
       install.packages('jmvtools', repos=c('https://repo.jamovi.org', 'https://cran.r-project.org'))
+=======
+.. code-block:: R
+
+   install.packages('jmvtools', repos=c('https://repo.jamovi.org', 'https://cran.r-project.org'))
+>>>>>>> master
 
 
 Check ``jmvtools`` can find jamovi
@@ -31,34 +37,60 @@ Check ``jmvtools`` can find jamovi
 
    Now you have ``jmvtools`` installed, we can check whether it can locate your jamovi installation:
 
+<<<<<<< HEAD
    .. code-block:: R
 
       jmvtools::check()
+=======
+.. code-block:: R
+
+   jmvtools::check()
+>>>>>>> master
 
 
    ``jmvtools`` searches for jamovi in what might be considered ’usual places`, such as:
 
+<<<<<<< HEAD
    .. code-block:: text
 
       /Applications
       /usr/lib/jamovi
       C:\Program Files   
+=======
+.. code-block:: text
+
+   /Applications
+   /usr/lib/jamovi
+   C:\Program Files   
+>>>>>>> master
 
 
    If ``jmvtools`` can’t find it, you can specify the path in the call to ``check()``:
 
+<<<<<<< HEAD
    .. code-block:: R
 
       jmvtools::check(home='C:\\Users\\jonathon\\Documents\\jamovi')
+=======
+.. code-block:: R
+
+   jmvtools::check(home='C:\\Users\\jonathon\\Documents\\jamovi')
+>>>>>>> master
 
 
    (you should substitute in your own path, unless your username *is* jonathon, and you’ve got jamovi in your documents folder).
 
    If you have to specify this path, you can set this for the remainder of the session with ``options()``:
 
+<<<<<<< HEAD
    .. code-block:: R
 
       options(jamovi_home='C:\\Users\\jonathon\\Documents\\jamovi')
+=======
+.. code-block:: R
+
+   options(jamovi_home='C:\\Users\\jonathon\\Documents\\jamovi')
+>>>>>>> master
 
 
 Install a Module
@@ -71,9 +103,15 @@ Install a Module
    Unzip the source directory and open the project file ``jmvbaseR.Rproj`` in RStudio (or just set your working directory to the source’s directory). Now we
    can call the ``install()`` function:
 
+<<<<<<< HEAD
    .. code-block:: R
 
       jmvtools::install()   # not to be mistaken for devtools::install()
+=======
+.. code-block:: R
+
+   jmvtools::install()   # not to be mistaken for devtools::install()
+>>>>>>> master
 
 
    This will build the module, and install it into jamovi.
@@ -82,7 +120,11 @@ Install a Module
    and update jamovi analyses from R turns out to be pretty nifty, because as we’ll see in the next section, we can make changes to an analysis, run
    ``jmvtools::install()`` again, and immediately see those changes reflected in jamovi. This makes developing and testing jamovi analyses a breeze!
 
+<<<<<<< HEAD
    |image0|
+=======
+|image0|
+>>>>>>> master
 
 .. ---------------------------------------------------------------------------------
 

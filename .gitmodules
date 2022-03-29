@@ -1,4 +1,8 @@
 [submodule "_locale"]
 	path = _locale
+<<<<<<< HEAD
 	url = https://github.com/sjentsch/jamoviDocs-i18n.git
 	branch = main
+=======
+	url = git@github.com:sjentsch/jamoviDocs-i18n.git
+>>>>>>> master
