@@ -1,4 +1,5 @@
 # .weblate and .gitignore
+.DS_Store
 .weblate
 
 # remove files
