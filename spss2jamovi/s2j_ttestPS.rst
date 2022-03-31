@@ -128,10 +128,7 @@ From SPSS to jamovi: t-test for paired samples
 .. |jamovi_Theory_ttestPS8|            image:: ../_images/s2j_jamovi_Theory_ttestPS8.png
 .. |SPSS_Theory_ttestPS9|              image:: ../_images/s2j_SPSS_Theory_ttestPS9.png
 .. |jamovi_Theory_ttestPS9|            image:: ../_images/s2j_jamovi_Theory_ttestPS9.png
-<<<<<<< HEAD
 
 .. _SPSS data file containing the computed variables: ../_static/output/s2j_Output_SPSS_ttestPS1.sav
 .. _SPSS output file containing the analyses:         ../_static/output/s2j_Output_SPSS_ttestPS1.spv
 .. _jamovi file containing the analyses:              ../_static/output/s2j_Output_jamovi_ttestPS1.omv
-=======
->>>>>>> master

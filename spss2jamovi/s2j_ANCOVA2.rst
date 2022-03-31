@@ -60,9 +60,6 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 .. |jamovi_Input_ANCOVA2|              image:: ../_images/s2j_jamovi_Input_ANCOVA2.png
 .. |SPSS_Output_ANCOVA2|               image:: ../_images/s2j_SPSS_Output_ANCOVA2.png
 .. |jamovi_Output_ANCOVA2|             image:: ../_images/s2j_jamovi_Output_ANCOVA2.png
-<<<<<<< HEAD
 
 .. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_ANCOVA2.spv
 .. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_ANCOVA2.omv
-=======
->>>>>>> master
