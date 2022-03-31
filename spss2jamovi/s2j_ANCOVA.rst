@@ -16,7 +16,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Menu_ANCOVA1|                                                           | |jamovi_Menu_ANCOVA1|                                                         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| In SPSS, move ``Happiness`` to the variable box ``Independent`` and           | In jamovi, move ``Happiness`` to the variable box ``Dependent Variable``,     |
+| In SPSS, move ``Happiness`` to the variable box ``Dependent`` and             | In jamovi, move ``Happiness`` to the variable box ``Dependent Variable``,     |
 | ``Puppy_love`` to the variable box ``Independent(s)``.                        | ``Puppy_love`` to the variable box ``Covariates``, and ``Low_Control`` and    |
 |                                                                               | ``High_Control`` to the ``Factors`` box.                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+

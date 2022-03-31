@@ -36,10 +36,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 | The numerical values are the same in both SPSS and jamovi: *F*(2, 27) = 1.98, *p* = 0.16.                                                                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
-<<<<<<< HEAD
 | Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
-=======
->>>>>>> master
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -47,11 +44,8 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 |      /MISSING ANALYSIS.                                                       |        formula = Puppy_love ~ Dose,                                           |
 |                                                                               |        data = data)                                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-<<<<<<< HEAD
 | `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-=======
->>>>>>> master
 
 
 | **References**
