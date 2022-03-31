@@ -58,11 +58,6 @@ Descriptive analyses
    | For those, aiming to stretch even further to an in-depth introduction, you can read the respective chapter in the “Learning statistics with jamovi” `web
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch04_Descriptives.html>`__ or chapter 4 of the `e-book <https://www.learnstatswithjamovi.com/>`__
      by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
-<<<<<<< HEAD
-=======
-   
-   | 
->>>>>>> master
 
 
 .. ---------------------------------------------------------------------

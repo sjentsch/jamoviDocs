@@ -33,7 +33,6 @@ Linear Regression
 
    |
 
-<<<<<<< HEAD
 
 .. tip::
 
@@ -50,23 +49,6 @@ Linear Regression
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch12_Regression_03.html>`__ or chapter 12.3 - 11 of the `e-book
      <https://www.learnstatswithjamovi.com/>`__ by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
 
-=======
-.. admonition:: Further help from the community resources
-
-   | A more comprehensive introduction into this statistical method is
-     provided by this `video 
-     <https://www.youtube.com/embed/_5AVGuEzCXc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__
-     by `Barton Poulson <https://datalab.cc/jamovi>`__.
-     
-   | For those, aiming to stretch even further to an in-depth introduction, you
-     can read the respective section in the “Learning statistics with jamovi”
-     `web documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch12_Regression_03.html>`__
-     or chapter 12.3 - 11 of the `e-book <https://www.learnstatswithjamovi.com/>`__
-     by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft
-     <https://www.davidfoxcroft.com/>`__.
-
-|
->>>>>>> master
 
 .. ---------------------------------------------------------------------
 

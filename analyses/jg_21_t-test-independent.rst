@@ -32,7 +32,6 @@ t-test: Independent samples
 
    |
 
-<<<<<<< HEAD
 
 .. tip::
 
@@ -40,8 +39,6 @@ t-test: Independent samples
      for independent samples is conducted in SPSS and jamovi.
 
 
-=======
->>>>>>> master
 .. admonition:: Community resources
    
    | This `video <https://www.youtube.com/embed/SM-DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://datalab.cc/jamovi>`__
@@ -50,12 +47,7 @@ t-test: Independent samples
    | For those, aiming to stretch even further to an in-depth introduction, you can read the respective section in the “Learning statistics with jamovi” `web
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_03.html>`__ or chapter 11.3 / 11.4 of the `e-book
      <https://www.learnstatswithjamovi.com/>`__ by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
-<<<<<<< HEAD
 
-=======
-     
-   |
->>>>>>> master
 
 .. ---------------------------------------------------------------------
 

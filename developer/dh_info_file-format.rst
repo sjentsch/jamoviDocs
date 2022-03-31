@@ -4,51 +4,29 @@
 jamovi File Format (``.omv``)
 =============================
 
-<<<<<<< HEAD
 ``.omv``-files are ZIP-archives that contain a number of files.
 
-- ``meta``
-=======
-jamovi files are ZIP-archives that contain a number of files.
-
-- ``META-INF/MANIFEST.MF``
->>>>>>> master
+- ``meta`` (newer versions, > 1.8) / ``META-INF/MANIFEST.MF`` (older versions)
 - ``metadata.json``
 - ``xdata.json``
 - ``data.bin``
 - ``strings.bin`` (optional: if an variable with the ``measureType`` = ``ID`` and the ``dataType`` = ``Text`` exist in the data set)
 - ``index.html``
-<<<<<<< HEAD
 - (optional: if analyses were conducted and are stored in the ``.omv``-file, there are subfolders, one for each analysis, containing, e.g., figures and the
   syntax for the analysis)
 
 The ``metadata.json``-file is the most useful starting point when trying to decode ``.omv``-files, at least if one is interested in, e.g., importing the data.
 The package |jmvReadWrite|_ on `CRAN <https://cran.r-project.org/package=jmvReadWrite>`_ can be used to read or write ``.omv``-files in R.
-=======
-- (optional: if analyses were conducted and are stored in the .omv-file, there are subfolders, one for each analysis, containing, e.g., figures and the syntax
-  for the analysis)
-
-The ``metadata.json``-file is the most useful starting point when trying to decode ``.omv``-files, at least if one is interested in, e.g., importing the data.
-There exists already a package ``jmvReadWrite`` on CRAN if ones interest is reading or writing ``.omv``-files in R.
->>>>>>> master
 
 However, sometimes, one is only interested in having a brief look at results. In such case, it is sufficient to extract the ``.omv``-file (typically with
 right-clicking and choosing "Extract..."). Afterwards, just go into the folder that was extracted and click on ``index.html``.
 
 
-<<<<<<< HEAD
-``meta``
---------
+``meta`` / ``META-INF/MANIFEST.MF``
+-----------------------------------
 
 The manifest-file (``meta`` since version 1.6, ``META-INF/MANIFEST.MF`` in earlier versions of jamovi) contains four lines defining what version of the data
 and the jamovi archive were used to create the ``.omv``-file. An example of the content is shown below.
-=======
-``META-INF/MANIFEST.MF``
-------------------------
-
-The manifest file contains four lines defining what version of the data and the jamovi archive were used to create the ``.omv``-file. An example of the content
-is shown below.
->>>>>>> master
 
 .. code-block:: text
    
@@ -133,13 +111,8 @@ of the top level hierarchy is ``dataSet``. This top-level hierarchy contains the
 ``xdata.json``
 --------------
 
-<<<<<<< HEAD
 This file also uses JSON-format. It contains value-label-combinations. Each variable containing variable labels has an entry with the name of the variable as a
 branch name. This branch then contains the entries for the labels.
-=======
-This file also uses JSON-format. The file contains value-label-combinations. Each variable containing variable labels has an entry with the name of the
-variable as a branch name. This branch then contains the entries for the labels.
->>>>>>> master
 
 -  | ``variable name``: variable name, matches a column ``name`` in the data frame
 
@@ -186,11 +159,9 @@ As mentioned above, the ``index.html`` can be obtained from extracting the ``.om
 output that you can see in the right-hand panel with the results in jamovi. There might be tiny differences though (e.g., comments that you can create with
 jamovi [version 1.4 or above] might not show, etc.). Remember that you have to extract all files (not only ``index.html``) if you want to see the figures as
 well.
-<<<<<<< HEAD
+
 
 .. ------------------------------------------------------------------------------------------------------------------------------------------------------------
  
 .. |jmvReadWrite|                      replace:: ``jmvReadWrite``
 .. _jmvReadWrite:                      ../jmv/jmvReadWrite_read_omv.rst
-=======
->>>>>>> master

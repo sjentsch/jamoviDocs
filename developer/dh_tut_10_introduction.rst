@@ -5,11 +5,7 @@ Gentle steps into developing a jamovi module...
 ===============================================
 
 .. toctree::
-<<<<<<< HEAD
    :titlesonly:
-=======
-   :maxdepth: 1
->>>>>>> master
    :numbered:
 
    dh_tut_11-getting-started

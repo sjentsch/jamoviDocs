@@ -10,19 +10,10 @@ From SPSS to jamovi
     :doc:`Comparison of analyses <s2j_Comparison_of_analyses>` provides an overview of which analysis functions are available in SPSS and the respective
     functions in jamovi.
 
-<<<<<<< HEAD
    .. toctree::
       :hidden:
 
       s2j_Comparison_of_analyses
-=======
-.. toctree::
-   :titlesonly:
-   :hidden:
-   :maxdepth: 1
-
-   s2j_Comparison_of_analyses
->>>>>>> master
 
 
 ------------
@@ -32,7 +23,6 @@ Side-by-side
     The pages in this section show in side-by-side comparisons how something is done in SPSS and in jamovi. For this demonstration, the examples from `Andy
     Field's (2017) <https://edge.sagepub.com/field5e>`__ book are used.
 
-<<<<<<< HEAD
    .. toctree::
       :titlesonly:
       
@@ -44,33 +34,15 @@ Side-by-side
       s2j_linReg
       s2j_logReg
       s2j_frequencies
-=======
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
-   
-   s2j_ttestIS
-   s2j_ttestPS
-   s2j_nonParametric
-   s2j_ANCOVA
-   s2j_correlation   
-   s2j_linReg
-   s2j_logReg
-   s2j_frequencies
->>>>>>> master
+
 
 .. s2j_descriptives
    [s2j_ttestIS]
    [s2j_ttestPS]
    [s2j_nonParametric]
    s2j_anovaOneW
-<<<<<<< HEAD
    s2j_ANOVA
    [s2j_ANCOVA]
-=======
-   [s2j_ANCOVA]
-   s2j_ANOVA
->>>>>>> master
    s2j_anovaRM
    s2j_MANOVA
    [s2j_correlation]

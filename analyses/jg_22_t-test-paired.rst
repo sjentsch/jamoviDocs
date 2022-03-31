@@ -34,7 +34,6 @@ t-test: Paired samples
 
    |
 
-<<<<<<< HEAD
 
 .. tip::
 
@@ -42,8 +41,6 @@ t-test: Paired samples
      for paired samples is conducted in SPSS and jamovi.
 
 
-=======
->>>>>>> master
 .. admonition:: Further help from the community resources
 
    | This `video <https://www.youtube.com/embed/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn>`__ by `Barton Poulson <https://datalab.cc/jamovi>`__
@@ -53,10 +50,6 @@ t-test: Paired samples
      documentation <https://lsj.readthedocs.io/en/latest/lsj/Ch11_tTest_05.html>`__ or chapter 11.5 of the `e-book <https://www.learnstatswithjamovi.com/>`__
      by `Danielle J. Navarro <https://djnavarro.net/>`__ and `David R. Foxcroft <https://www.davidfoxcroft.com/>`__.
 
-<<<<<<< HEAD
-=======
-|
->>>>>>> master
  
 .. ---------------------------------------------------------------------
 

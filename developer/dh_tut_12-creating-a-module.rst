@@ -9,21 +9,14 @@ Creating a Module
 
    The easiest way to create a module for jamovi is with the ``create()`` function from the ``jmvtools`` package:
 
-<<<<<<< HEAD
    .. code-block:: R
 
       jmvtools::create('SuperAwesome')
-=======
-.. code-block:: R
-
-   jmvtools::create('SuperAwesome')
->>>>>>> master
 
 
    This will create a module called ``SuperAwesome`` in the current working directory. If we now look at the contents of the freshly minted ``SuperAwesome``,
    we will find:
 
-<<<<<<< HEAD
    .. code-block:: text
 
       SuperAwesome/
@@ -45,21 +38,3 @@ Creating a Module
 
 .. |0000|       replace:: ``0000.yaml``
 .. _0000:       dh_api_module-definition.html
-=======
-.. code-block:: text
-
-   SuperAwesome/
-   ├── DESCRIPTION
-   ├── NAMESPACE
-   ├── jamovi/
-   |   └── 0000.yaml
-   └── R/
-
-
-   This should seem suspiciously familiar to anyone who’s worked on R packages before. That’s because jamovi modules *are* R packages, but with that additional
-   ``jamovi/0000.yaml`` file. With that file, this package becomes a dual citizen: it can be built into an R package, and it can be built into a jamovi module.
-
-   If you take a look in the ``0000.yaml`` file, you’ll notice it contains a very similar set of values to the ``DESCRIPTION`` file. However, as we add
-   analyses to the module, they will come to be listed in this file as well. In the early stages of development, there’s not much need to interact with this
-   file, so we’ll return to it later.   
->>>>>>> master

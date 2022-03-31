@@ -48,10 +48,7 @@ From SPSS to jamovi: Non-parametric analyses
 | The numerical values from the Kruskal-Wallis test are the same in SPSS and jamovi: *H* = 8.66, *df* = 3, *p* = .034.                                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
-<<<<<<< HEAD
 | Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
-=======
->>>>>>> master
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |
 |                                                                               |                                                                               |   
@@ -61,11 +58,8 @@ From SPSS to jamovi: Non-parametric analyses
 |      /CRITERIA ALPHA=0.05 CILEVEL=95.                                         |        es = TRUE,                                                             |
 |                                                                               |        pairs = TRUE)                                                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-<<<<<<< HEAD
 | `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-=======
->>>>>>> master
 
 
 | **References**
@@ -83,9 +77,6 @@ From SPSS to jamovi: Non-parametric analyses
 .. |SPSS_Output_nonParametric3_2|      image:: ../_images/s2j_SPSS_Output_ nonParametric3_2.png
 .. |SPSS_Output_nonParametric3_3|      image:: ../_images/s2j_SPSS_Output_ nonParametric3_3.png
 .. |jamovi_Output_nonParametric3|      image:: ../_images/s2j_jamovi_Output_ nonParametric3.png
-<<<<<<< HEAD
 
 .. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_nonParametric3.spv
 .. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_nonParametric3.omv
-=======
->>>>>>> master
