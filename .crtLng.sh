@@ -3,8 +3,8 @@ clear && rm -fR _build/gettext && make gettext
 # clean substitions (typically image that shouldn't be translated) in order to simplify translation on Weblate
 for F in $(ls _build/gettext/* | grep -v -f .exclude | cut -d/ -f3); do
    msgmerge -q _locale/pot/${F} _build/gettext/${F} -o _locale/pot/${F}
-   # check subsitutions and documents
-   for S in $(grep 'msgid "|.*|"' _locale/pot/${F} | sed 's/msgid //g'); do
+   # check numbers and " = " (works reasonably well but not perfect), there is perhaps need to manually check for \\\\ in addition
+for S in $(grep 'msgid "|.*|"' _locale/pot/${F} | sed 's/msgid //g'); do
       if [ $(grep -c "msgstr ${S}" _locale/pot/${F}) -eq 0 ]; then
          echo "${F}: Substitution string (and the msgstr afterwards) need to be added: ${S}";
       fi
