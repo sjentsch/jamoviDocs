@@ -54,7 +54,8 @@ From SPSS to jamovi: t-test for independent samples
 |       /MISSING=ANALYSIS.                                                      |        desc = TRUE,                                                           |
 |                                                                               |        eqv = TRUE)                                                            |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
+| <../_static/output/s2j_Output_SPSS_ttestIS.spv>`_                             | <../_static/output/s2j_Output_jamovi_ttestIS.omv>`_                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

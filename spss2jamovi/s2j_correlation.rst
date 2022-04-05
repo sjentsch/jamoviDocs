@@ -49,7 +49,8 @@ From SPSS to jamovi: Correlation
 |                                                                               |        plotDens = TRUE,                                                       |
 |                                                                               |        plotStats = TRUE)                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
+| <../_static/output/s2j_Output_SPSS_corr1.spv>`_                               | <../_static/output/s2j_Output_jamovi_corr1.omv>`_                             |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -74,6 +75,3 @@ From SPSS to jamovi: Correlation
 .. |jamovi_Input_corr1|                image:: ../_images/s2j_jamovi_Input_corr1.png
 .. |SPSS_Output_corr1|                 image:: ../_images/s2j_SPSS_Output_corr1.png
 .. |jamovi_Output_corr1|               image:: ../_images/s2j_jamovi_Output_corr1.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_corr1.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_corr1.omv

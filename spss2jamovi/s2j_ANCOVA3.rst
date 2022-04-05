@@ -75,7 +75,8 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 |      /DESIGN=Puppy_love Dose.                                                 |        emmPlotError = "none",                                                 |
 |                                                                               |        emmTables = TRUE)                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
+| <../_static/output/s2j_Output_SPSS_ANCOVA3.spv>`_                             | <../_static/output/s2j_Output_jamovi_ANCOVA3.omv>`_                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -97,6 +98,3 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 .. |SPSS_Output_ANCOVA3_2|             image:: ../_images/s2j_SPSS_Output_ANCOVA3_2.png
 .. |SPSS_Output_ANCOVA3_3|             image:: ../_images/s2j_SPSS_Output_ANCOVA3_3.png
 .. |jamovi_Output_ANCOVA3|             image:: ../_images/s2j_jamovi_Output_ANCOVA3.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_ANCOVA3.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_ANCOVA3.omv

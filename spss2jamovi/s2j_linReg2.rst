@@ -113,7 +113,8 @@ From SPSS to jamovi: Linear regression
 |                                                                               |        cooks = TRUE)                                                          |
 |                                                                               |                                                                               |   
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
+| <../_static/output/s2j_Output_SPSS_linReg2.spv>`_                             | <../_static/output/s2j_Output_jamovi_linReg2.omv>`_                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -151,6 +152,3 @@ From SPSS to jamovi: Linear regression
 .. |jamovi_Output_linReg2_4|           image:: ../_images/s2j_jamovi_Output_linReg2_4.png
 .. |jamovi_Output_linReg2_5|           image:: ../_images/s2j_jamovi_Output_linReg2_5.png
 .. |jamovi_Output_linReg2_6|           image:: ../_images/s2j_jamovi_Output_linReg2_6.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_linReg2.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_linReg2.omv

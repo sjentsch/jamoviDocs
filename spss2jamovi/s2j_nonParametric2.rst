@@ -74,8 +74,10 @@ From SPSS to jamovi: Non-parametric analyses
 |                                                                               |        students = FALSE,                                                      |
 |                                                                               |        wilcoxon = TRUE)                                                       |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file with the analyses for Alcohol`_                                  |
-|                                                                               | `jamovi file with the analyses for Ecstasy`_                                  | 
+| `SPSS output file containing the analyses                                     | `jamovi file with the analyses for Alcohol                                    |
+| <../_static/output/s2j_Output_SPSS_nonParametric2.spv>`_                      | <../_static/output/s2j_Output_jamovi_nonParametric2_1.omv>`_                  |
+|                                                                               | `jamovi file with the analyses for Ecstasy                                    |
+|                                                                               | <../_static/output/s2j_Output_jamovi_nonParametric2_2.omv>`_                  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -102,7 +104,3 @@ From SPSS to jamovi: Non-parametric analyses
 .. |SPSS_Output_nonParametric2_4|      image:: ../_images/s2j_SPSS_Output_ nonParametric2_4.png
 .. |jamovi_Output_nonParametric2_1|    image:: ../_images/s2j_jamovi_Output_ nonParametric2_1.png
 .. |jamovi_Output_nonParametric2_2|    image:: ../_images/s2j_jamovi_Output_ nonParametric2_2.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_nonParametric2.spv
-.. _jamovi file with the analyses for Alcohol: ../_static/output/s2j_Output_jamovi_nonParametric2_1.omv
-.. _jamovi file with the analyses for Ecstasy: ../_static/output/s2j_Output_jamovi_nonParametric2_2.omv

@@ -58,7 +58,8 @@ From SPSS to jamovi: Non-parametric analyses
 |      /CRITERIA ALPHA=0.05 CILEVEL=95.                                         |        es = TRUE,                                                             |
 |                                                                               |        pairs = TRUE)                                                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
+| <../_static/output/s2j_Output_SPSS_nonParametric3.spv>`_                      | <../_static/output/s2j_Output_jamovi_nonParametric3.omv>`_                    |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

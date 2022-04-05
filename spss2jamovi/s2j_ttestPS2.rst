@@ -61,7 +61,8 @@ From SPSS to jamovi: t-test for paired samples
 |                                                                               |        ci = TRUE,                                                             |
 |                                                                               |        desc = TRUE)                                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
+| <../_static/output/s2j_Output_SPSS_ttestPS2.spv>`_                            | <../_static/output/s2j_Output_jamovi_ttestPS2.omv>`_                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -79,6 +80,3 @@ From SPSS to jamovi: t-test for paired samples
 .. |jamovi_Input_ttestPS2|             image:: ../_images/s2j_jamovi_Input_ttestPS2.png
 .. |SPSS_Output_ttestPS1|              image:: ../_images/s2j_SPSS_Output_ttestPS1.png
 .. |jamovi_Output_ttestPS1|            image:: ../_images/s2j_jamovi_Output_ttestPS1.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_ttestPS2.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_ttestPS2.omv

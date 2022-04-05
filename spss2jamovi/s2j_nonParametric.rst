@@ -64,7 +64,8 @@ From SPSS to jamovi: Non-parametric analyses
 |      /CRITERIA ALPHA=0.05 CILEVEL=95.                                         |        students = FALSE,                                                      |
 |                                                                               |        mann = TRUE)                                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
+| <../_static/output/s2j_Output_SPSS_nonParametric1.spv>`_                      | <../_static/output/s2j_Output_jamovi_nonParametric1.omv>`_                    |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -90,6 +91,3 @@ From SPSS to jamovi: Non-parametric analyses
 .. |SPSS_Output_nonParametric1_2|      image:: ../_images/s2j_SPSS_Output_ nonParametric1_2.png
 .. |SPSS_Output_nonParametric1_3|      image:: ../_images/s2j_SPSS_Output_ nonParametric1_3.png
 .. |jamovi_Output_nonParametric1|      image:: ../_images/s2j_jamovi_Output_ nonParametric1.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_nonParametric1.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_nonParametric1.omv

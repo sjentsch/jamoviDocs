@@ -81,7 +81,8 @@ From SPSS to jamovi: Analysis of frequencies
 |                                                                               |         pseudoR2 = NULL,                                                      |
 |                                                                               |         omni = TRUE)                                                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
+| <../_static/output/s2j_Output_SPSS_logLinear.spv>`_                           | <../_static/output/s2j_Output_jamovi_logLinear.omv>`_                         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -101,6 +102,3 @@ From SPSS to jamovi: Analysis of frequencies
 .. |SPSS_Output_logLinear|             image:: ../_images/s2j_SPSS_Output_logLinear.png
 .. |jamovi_Output_logLinear_1|         image:: ../_images/s2j_jamovi_Output_logLinear_1.png
 .. |jamovi_Output_logLinear_2|         image:: ../_images/s2j_jamovi_Output_logLinear_2.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_logLinear.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_logLinear.omv

@@ -108,7 +108,8 @@ From SPSS to jamovi: Logistic Regression
 |       /PRINT=GOODFIT ITER(1) CI(95)                                           |        pseudoR2 = c("r2mf", "r2cs", "r2n"))                                   |
 |       /CRITERIA=PIN(0.05) POUT(0.10) ITERATE(20) CUT(0.5).                    |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
+| <../_static/output/s2j_Output_SPSS_logReg.spv>`_                              | <../_static/output/s2j_Output_jamovi_logReg.omv>`_                            |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -139,6 +140,3 @@ From SPSS to jamovi: Logistic Regression
 .. |jamovi_Output_logReg1_2|           image:: ../_images/s2j_jamovi_Output_logReg1_2.png
 .. |jamovi_Output_logReg1_3|           image:: ../_images/s2j_jamovi_Output_logReg1_3.png
 .. |jamovi_Output_logReg1_4|           image:: ../_images/s2j_jamovi_Output_logReg1_4.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_logReg.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_logReg.omv

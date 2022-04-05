@@ -46,7 +46,8 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 |      /SIGNIFICANCE=TWOTAIL                                                    |        vars = vars(Exam, Anxiety),                                            |
 |      /MISSING=LISTWISE.                                                       |        controls = Revise)                                                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
+| <../_static/output/s2j_Output_SPSS_corr5.spv>`_                               | <../_static/output/s2j_Output_jamovi_corr5.omv>`_                             |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -63,6 +64,3 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 .. |SPSS_Output_corr5_1|               image:: ../_images/s2j_SPSS_Output_corr5_1.png
 .. |SPSS_Output_corr5_2|               image:: ../_images/s2j_SPSS_Output_corr5_2.png
 .. |jamovi_Output_corr5|               image:: ../_images/s2j_jamovi_Output_corr5.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_corr5.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_corr5.omv

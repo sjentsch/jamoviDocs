@@ -64,7 +64,8 @@ From SPSS to jamovi: Linear regression
 |                                                                               |        anova = TRUE,                                                          |
 |                                                                               |        stdEst = TRUE)                                                         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses`_                                   | `jamovi file containing the analyses`_                                        | 
+| `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
+| <../_static/output/s2j_Output_SPSS_linReg1.spv>`_                             | <../_static/output/s2j_Output_jamovi_linReg1.omv>`_                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -87,6 +88,3 @@ From SPSS to jamovi: Linear regression
 .. |jamovi_Input_linReg1_3|            image:: ../_images/s2j_jamovi_Input_linReg1_3.png
 .. |SPSS_Output_linReg1|               image:: ../_images/s2j_SPSS_Output_linReg1.png
 .. |jamovi_Output_linReg1|             image:: ../_images/s2j_jamovi_Output_linReg1.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_linReg1.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_linReg1.omv
