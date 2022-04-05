@@ -87,26 +87,19 @@ Analyses
    The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The :doc:`introduction
    <analyses/jg_00_overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links below.
 
-   **Descriptive analyses**
-
    * :doc:`analyses/jg_11_descriptive-analyses`
 
-   **t-tests**
 
    * :doc:`analyses/jg_21_t-test-independent`
    * :doc:`analyses/jg_22_t-test-paired`
    * :doc:`analyses/jg_23_t-test-onesample`
 
 
-   **Analyses of Variance (ANOVA)**
-
    * :doc:`analyses/jg_31_unianova`
    * :doc:`analyses/jg_32_anova-factorial`
    * :doc:`analyses/jg_33_anova-rm`
    * :doc:`analyses/jg_34_anova-mixed`
 
-
-   **Correlation and regression**
 
    * :doc:`analyses/jg_42_regression-linear`
    * :doc:`analyses/jg_43_regression-logistic`
