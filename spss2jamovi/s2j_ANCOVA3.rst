@@ -56,7 +56,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 | jamovi does not include the values for the ``Corrected Model``, ``Intercept``, ``Total`` and ``Corrected Total`` in its analysis of covariance. Apart from    |
 | this, the ANCOVA table follows the same structure as in SPSS. The tables for ``Estimated Marginal Means`` are also identical in SPSS and jamovi. The results  |
 | from the contrast analysis in jamovi appears much clearer than the one in SPSS. Here the results are presented horizontally, while the results in SPSS are    |
-| presented vertically. In contrast to SPSS, jamovi only includes the following values: ``Estimate``, ``SE`, ``t`` and ``p``.                                   |
+| presented vertically. In contrast to SPSS, jamovi only includes the following values: ``Estimate``, ``SE``, ``t`` and ``p``.                                  |
 |                                                                                                                                                               |
 | The numerical values for these analyses are the same: *SS*<sub>Dose</sub> = 25.19, *p* < .05; *SS*<sub>Puppy_love</sub> = 15.08, *p* < .05;                   | 
 | *M*<sub>Control</sub> = 2.93, *M*<sub>15mins</sub> = 4.71, *M*<sub>30mins</sub> = 5.15; contrast 1, *p* = 0.045; contrast 2, *p* = 0.010.                     |
