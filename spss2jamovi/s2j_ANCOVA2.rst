@@ -11,7 +11,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |
 +===============================================================================+===============================================================================+
-| In SPSS you can run this test using `` ``Analyze`` → ``Compare Means`` →      | In jamovi you do this using: ``Analyses`` → ``ANOVA`` → ``ANCOVA``.           |
+| In SPSS you can run this test using ``Analyze`` → ``Compare Means`` →         | In jamovi you do this using: ``Analyses`` → ``ANOVA`` → ``ANCOVA``.           |
 | ``One Way ANOVA``.                                                            |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Menu_ANCOVA2|                                                           | |jamovi_Menu_ANCOVA2|                                                         |
