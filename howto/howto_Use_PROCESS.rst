@@ -61,11 +61,9 @@ in a PROCESS command. This can be done using the following command in ``Rj``
 (just copy-and-paste it).
 
   .. code:: R
-  
-     for (c in 1:length(data)) {
-         if (is.factor(data[[c]])) {
-             data[[c]] = as.numeric(data[[c]]) - min(as.numeric(data[[c]]))
-         }
+
+     for (C in names(data)[sapply(data, is.factor)]) {
+         data[[C]] = as.numeric(data[[C]]) - min(as.numeric(data[[C]]))
      }
 
 Once this is done, you may just write (or copy-and-paste if you own the e-book)
