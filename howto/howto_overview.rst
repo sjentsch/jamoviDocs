@@ -15,6 +15,15 @@ jamovi's user interface
 
    howto_Install_modules
 
+--------
+Analyses
+--------
+
+.. toctree::
+   :titlesonly:
+
+   howto_Use_PROCESS
+
 .. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .. howto_Checking_normality
