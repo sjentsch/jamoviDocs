@@ -656,3 +656,16 @@ img.person {
 .red {
     color: red;
 }
+
+/* Remove “Versions” section from roll-up menu */
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(2) {
+    display: none;
+}
+/* Remove “On Read the Docs” section from roll-up menu */
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(3) {
+    display: none;
+}
+/* Remove “On GitHub” section from roll-up menu */
+div.rst-versions > div.rst-other-versions > div.injected > dl:nth-child(4) {
+    display: none;
+}
