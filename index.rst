@@ -59,17 +59,28 @@
    jamovi2r/j2R_overview
 
 
-.. ------------------------------------------------------------------------------------------------------------------------------------------------------------
+.. ----------------------------------------------------------------------------
 
 
-Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free and open statistical software to bridge the gap between researcher and
+Welcome to the documentation for `jamovi <https://www.jamovi.org>`__, a free
+and open statistical software to bridge the gap between researcher and
 statistician.
+
+Before we begin, a brief remark on how to use this web page. The content is
+available in different languages. To change the language, please head to the
+“jamovi documentation” roll-up menu (in the bottom-left corner) and click on
+it. A larger menu unfolds where you can select the language you would like to
+read the documentation in. So far, only a few languages are translated
+completely, but you are very welcome to contribute to a `translation into your
+language <https://hosted.weblate.org/projects/jamovidocs/>`__.
+
 
 ===============
 Getting started
 ===============
 
-   The following topics should get you up and running with jamovi, with additional topics available from the menu to the left.
+   The following topics should get you up and running with jamovi, with
+   additional topics available from the menu to the left.
 
    * :doc:`usermanual/um_1_installation`
    * :doc:`usermanual/um_2_first-steps`
@@ -78,14 +89,17 @@ Getting started
    * :doc:`usermanual/um_5_updating_data`
    * :doc:`usermanual/um_6_syntax_mode`
 
-.. ============================================================================================================================================================
+.. ============================================================================
 
 ========
 Analyses
 ========
 
-   The aim of the following section is to provide short, non-technical tutorials on how to conduct common statistical procedures in jamovi. The :doc:`introduction
-   <analyses/jg_00_overview>` gives an overview over the available analyses, or you can otherwise directly access specific analyses by following the links below.
+   The aim of the following section is to provide short, non-technical
+   tutorials on how to conduct common statistical procedures in jamovi.
+   The :doc:`introduction <analyses/jg_00_overview>` gives an overview over
+   the available analyses, or you can otherwise directly access specific
+   analyses by following the links below.
 
    * :doc:`analyses/jg_11_descriptive-analyses`
 
@@ -104,19 +118,21 @@ Analyses
    * :doc:`analyses/jg_42_regression-linear`
    * :doc:`analyses/jg_43_regression-logistic`
    
-.. ============================================================================================================================================================
+.. ============================================================================
 
 ==============
 jamovi-modules
 ==============
 
-   jamovi's functionality can easily be extended by creating specialized modules. It therefore calls for a community of developers to implement such additional
-   analyses. The developer's hub describes how such modules can be created and provides additional information (API) and about options for elements of the jamovi
-   UI used for those analyses.
+   jamovi's functionality can easily be extended by creating specialized
+   modules. It therefore calls for a community of developers to implement such
+   additional analyses. The developer's hub describes how such modules can be
+   created and provides additional information (API) and about options for
+   elements of the jamovi UI used for those analyses.
 
    * :doc:`developer/dh_overview`
 
-.. ============================================================================================================================================================   
+.. ============================================================================
 
 =========================
 jamovi and other software
@@ -125,4 +141,4 @@ jamovi and other software
    * :doc:`spss2jamovi/s2j_overview`
    * :doc:`jamovi2r/j2R_overview`
 
-.. ============================================================================================================================================================
+.. ============================================================================
