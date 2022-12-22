@@ -1,7 +1,6 @@
-sphinx>=4.0
+sphinx
 sphinx-intl
 sphinx-rtd-theme
 sphinx-copybutton
 sphinx-autobuild
-wlc
 Pillow
