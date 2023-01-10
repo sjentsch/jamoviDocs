@@ -5,8 +5,10 @@
 # from the environment for the first two.
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
+SPHINXPROJ    = lsjDocs
 SOURCEDIR     = .
 BUILDDIR      = _build
+override LANG = en
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -16,25 +18,28 @@ help:
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
-%: Makefile
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-# Minimal makefile for Sphinx documentation
-#
 
-# You can set these variables from the command line.
-SPHINXOPTS    =
-SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = jamoviDocs
-SOURCEDIR     = .
-BUILDDIR      = _build
+clean:
+	-rm -rf $(BUILDDIR)/*
 
-# Put it first so that "make" without argument is like "make help".
-help:
-	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+html:
+	@$(SPHINXBUILD) -b html    -D language=${LANG} . $(BUILDDIR)/html/${LANG}
 
-.PHONY: help Makefile
 
-# Catch-all target: route all unknown targets to Sphinx using the new
-# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+gettext:
+	@$(SPHINXBUILD) -b gettext                     . $(BUILDDIR)/gettext
+
+checklinks:
+	@$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS)  . $(BUILDDIR)/linkcheck
+
+htmlhelp:
+	@echo "Not permitted."
+
+devhelp:
+	@echo "Not permitted."
+
+qthelp:
+	@echo "Not permitted."
+
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

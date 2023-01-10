@@ -17,8 +17,7 @@ from sphinx.locale import _
 # -- Project information -----------------------------------------------------
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
-author = u'The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation)'
-copyright = u'2016-2022, ' + author + '. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+copyright = u'2016-2023, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -40,6 +39,7 @@ gettext_compact = True
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autosectionlabel',
 #   'sphinx.ext.imgmath',
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
@@ -74,6 +74,9 @@ show_authors = True
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'default'
 
+# True to prefix each section label with the name of the document it is in, followed by a colon.
+# For example, index:Introduction for a section called Introduction that appears in document index.rst.
+autosectionlabel_prefix_document = True
 
 # -- Options for HTML output -------------------------------------------------
 # Customize the "best image" order for the StandaloneHTMLBuilder class.
@@ -284,7 +287,7 @@ latex_documents = [
 
 # If given, this must be the name of an image file (relative to the configuration directory) that
 # is the logo of the docs. It is placed at the top of the title page. Default: None.
-#latex_logo = None
+latex_logo = '_images/header-logo.svg'
 
 # If true, the topmost sectioning unit is parts, else it is chapters. Default: False.
 latex_use_parts = False
@@ -344,23 +347,22 @@ latex_show_pagerefs = True
 
 # -- Options for manual page output ---------------------------------------
 # One entry per manual page. List of tuples
-#   (source start file, name,             description,                 authors,  manual section).
+#   (source start file, name,         description,                 authors,               manual section).
 man_pages = [
-    (master_doc,        'jamoviDocs',     u'Documentation for jamovi', [author], 1),
+    (master_doc,        'jamoviDocs', u'Documentation for jamovi', u'The jamovi project', 1),
 ]
 
 # -- Options for Texinfo output -------------------------------------------
 # Grouping the document tree into Texinfo files. List of tuples
-#   (source start file, target name,      title,                       author,   dir menu entry, description,                                                                                category)
+#   (source start file, target name,  title,                       author,                 dir menu entry, description,                                                                                category)
 texinfo_documents = [
-    (master_doc,        'jamoviDocs',     u'Documentation for jamovi', [author], 'jamoviDocs',   'free and open statistical software to bridge the gap between researcher and statistician', 'Mathematics'),
+    (master_doc,        'jamoviDocs', u'Documentation for jamovi', u'The jamovi project', 'jamoviDocs',   'free and open statistical software to bridge the gap between researcher and statistician', 'Mathematics'),
 ]
 
 # -- Options for Sphinx extensions ----------------------------------------
 imgmath_image_format = 'svg'
 
-# -- Lanaguage chooser ----------------------------------------------------
-
+# -- Lower-left roll-up menu ----------------------------------------------
 try:
    html_context
 except NameError:
@@ -377,12 +379,24 @@ if os.path.abspath('.').startswith('/home'):
    base_path = os.path.abspath('.') + '/_build/html'
 else:
    base_path = ''
- 
+
+html_context['display_lower_left'] = True
+
+html_context['current_language'] = language
 languages = sorted([lang.name for lang in os.scandir('_locale') if (lang.is_dir() and lang.name != 'pot')])
 html_context['languages'] = [('en', base_path + '/en')]
 for lang in languages:
       html_context['languages'].append((lang, base_path + '/' + lang))
+
+html_context['display_version'] = False
+current_version = 'latest'
+html_context['current_version'] = current_version
+html_context['version'] = current_version
  
 html_context['downloads'] = list()
 html_context['downloads'].append(('PDF',  '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.pdf'))
 html_context['downloads'].append(('epub', '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.epub'))
+
+html_context['display_github'] = False
+html_context['last_updated'] = False
+html_context['commit'] = False
