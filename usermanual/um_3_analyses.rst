@@ -23,7 +23,7 @@ Analyses
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_analysis.gif" data-static-src="../_static/um_analysis.png" data-title="Performing an Analysis"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_analysis.gif" data-static-src="../_static/gifs/um_analysis.png" data-title="Performing an Analysis"></div>
 
    You can head to the entries under “Analyses” in the menu on the right-hand
    side for a series of short, non-technical tutorials on how to conduct
@@ -42,7 +42,7 @@ Analyses
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_copyPaste.gif" data-static-src="../_static/um_copyPaste.png" data-title="Copy-and-Paste"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_copyPaste.gif" data-static-src="../_static/gifs/um_copyPaste.png" data-title="Copy-and-Paste"></div>
 
 
 .. raw:: html

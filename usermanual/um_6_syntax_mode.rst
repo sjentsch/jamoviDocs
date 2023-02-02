@@ -19,7 +19,7 @@ Syntax Mode
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_rSyntax.gif" data-static-src="../_static/um_rSyntax.png"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_rSyntax.gif" data-static-src="../_static/gifs/um_rSyntax.png"></div>
 
 
    At present, the provided R syntax does not include the data import step, and

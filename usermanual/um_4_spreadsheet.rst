@@ -57,7 +57,7 @@ Data Variables
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_changeName.gif" data-static-src="../_static/um_changeName.png"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_changeName.gif" data-static-src="../_static/gifs/um_changeName.png"></div>
 
 
    New variables can be inserted or appended to the data set using the ``Add``
@@ -131,7 +131,7 @@ Transformed (Recoded) Variables
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_transform_overview.gif" data-static-src="../_static/um_transform_overview.png"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_transform_overview.gif" data-static-src="../_static/gifs/um_transform_overview.png"></div>
 
    When transforming or recoding variables in jamovi, a second “transformed
    variable” is created for the original “source variable”. This way, you will
@@ -208,7 +208,7 @@ Transformed (Recoded) Variables
 
       .. raw:: html
 
-         <div class="gif-player" data-anim-src="../_static/um_transform_edit2.gif" data-static-src="../_static/um_transform_edit2.png"></div>
+         <div class="gif-player" data-anim-src="../_static/gifs/um_transform_edit2.gif" data-static-src="../_static/gifs/um_transform_edit2.png"></div>
 
    #. *Used by*: Indicates how many variables are using this particular
       transformation. If you click on the number it will list these variables.
@@ -297,7 +297,7 @@ Filters
    
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_filter1.gif" data-static-src="../_static/um_filter1.png"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_filter1.gif" data-static-src="../_static/gifs/um_filter1.png"></div>
 
    In the short video, we specify a filter to exclude the 9th row. Perhaps we
    know that the 9th participant was someone just testing the survey system,
@@ -362,7 +362,7 @@ Filters
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_filter2.gif" data-static-src="../_static/um_filter2.png"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_filter2.gif" data-static-src="../_static/gifs/um_filter2.png"></div>
 
    With multiple filters, the filtered rows cascade from one filter into the
    next. So only the rows allowed through by ``Filter 1`` are used in the
@@ -414,7 +414,7 @@ Filters
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/um_filter3.gif" data-static-src="../_static/um_filter3.png"></div>
+      <div class="gif-player" data-anim-src="../_static/gifs/um_filter3.gif" data-static-src="../_static/gifs/um_filter3.png"></div>
 
    It may also have occurred to you, that with ``FILTER()`` we can do what
    might be called a “poor man’s split variables”: You can create splits using
