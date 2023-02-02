@@ -3,12 +3,12 @@
 Analyses
 ========
 
-   Analyses can be selected from the analyses ribbon along the top. Selecting
-   an analysis will present an “options panel” for that particular analysis,
-   allowing you to assign different variables to different parts of the
-   analysis, and select different options. At the same time, the results for
-   the analysis will appear in the right “results panel”, and will update as
-   you make changes to the options.
+   Analyses can be selected from the ``Analyses`` ribbon along the top.
+   Selecting an analysis will present an “options panel” for that particular
+   analysis, allowing you to assign different variables to different parts of
+   the analysis, and select different options. At the same time, the results
+   for the analysis will appear in the right “results panel”, and will update
+   as you make changes to the options.
 
    When you have the analysis set up correctly, you can dismiss the analysis
    options by clicking the arrow to the top right of the options panel. If you

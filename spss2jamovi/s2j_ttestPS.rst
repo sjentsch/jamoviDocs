@@ -68,7 +68,7 @@ From SPSS to jamovi: t-test for paired samples
 | |SPSS_Theory_ttestPS8|                                                        | |jamovi_Theory_ttestPS8|                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 |                                                                               | In jamovi, one also could have calculated those two variables in a much       |
-|                                                                               | way. For ``No_Cloak_Adj``, the term to calculate is ``No_Cloak``              |
+|                                                                               | simpler way. For ``No_Cloak_Adj``, the term to calculate is ``No_Cloak``      |
 |                                                                               | ``- MEAN(No_Cloak, Cloak)`` ``+ VMEAN(MEAN(No_Cloak, Cloak))`` and for        |
 |                                                                               | ``Cloak_Adj`` the term is ``Cloak`` ``- MEAN(No_Cloak, Cloak)``               |
 |                                                                               | ``+ VMEAN(MEAN(No_Cloak, Cloak))``.                                           |

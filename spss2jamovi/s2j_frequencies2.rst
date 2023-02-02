@@ -58,7 +58,7 @@ From SPSS to jamovi: Analysis of frequencies
 | The numerical values for the statistics are the same: *χ²* = 127.90, *p* < .001; *χ²* = 200.16, *p* < .001; *χ²* = 51.96, *p* < .001: *χ²* = 20.30, *p* <     |
 | .001; *χ²* = 65.27, *p* < .001; *χ²* = 61.15, *p* < .001; *χ²* = 1.48; *χ²* = 13.76, *p* < .001; *χ²* = 13.75, *p* < .001; *χ²* = 8.61, *p* < .01.            |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :doc:`Rj <../jamovi2r/j2R_Rj>`).  |
+| If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :ref:`Rj <rj_editor>`).           |
 | Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | .. code-block:: none                                                          | .. code-block:: none                                                          |

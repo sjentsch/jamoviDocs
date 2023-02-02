@@ -15,12 +15,17 @@ Syntax Mode
    In syntax mode, analyses continue to operate as before, but now they produce
    R syntax. Like all results objects in jamovi, you can right click on these
    items (including the R syntax) and copy and paste them, for example, into an
-   R session.
+   R session. All the analyses that are included with jamovi are available
+   within an R session through the :doc:`jmv R package <../jmv/jmv_overview>`.
+
+   .. toctree::
+      :hidden:
+
+      ../jmv/jmv_overview
 
    .. raw:: html
 
       <div class="gif-player" data-anim-src="../_static/gifs/um_rSyntax.gif" data-static-src="../_static/gifs/um_rSyntax.png"></div>
-
 
    At present, the provided R syntax does not include the data import step, and
    this must be performed manually. The easiest way of reading and writing
@@ -28,6 +33,7 @@ Syntax Mode
    |jmvconnect| R-package permits you to access data sets that you have opened
    in your jamovi session from R. 
 
+.. _rj_editor:
 
 ``Rj`` Editor
 -------------

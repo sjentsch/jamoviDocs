@@ -17,7 +17,7 @@
    usermanual/um_3_analyses
    usermanual/um_4_spreadsheet
    usermanual/um_5_updating_data
-   usermanual/um_6_syntax_mode
+   usermanual/um_6_jamovi_and_R
 
 
 .. toctree::
@@ -52,12 +52,11 @@
 
 
 .. toctree::
-   :caption: jamovi and other software
+   :caption: From SPSS to jamovi
    :hidden:
 
-   spss2jamovi/s2j_overview
-   jamovi2r/j2R_overview
-
+   spss2jamovi/s2j_Comparison_of_analyses
+   spss2jamovi/s2j_side-by-side
 
 .. ----------------------------------------------------------------------------
 
@@ -86,7 +85,7 @@ Getting started
    * :doc:`usermanual/um_3_analyses`
    * :doc:`usermanual/um_4_spreadsheet`
    * :doc:`usermanual/um_5_updating_data`
-   * :doc:`usermanual/um_6_syntax_mode`
+   * :doc:`usermanual/um_6_jamovi_and_R`
 
    You can find further topics in the menu on the right-hand side:
    step-for-step instructions for conducting common analyses (“Analyses”),

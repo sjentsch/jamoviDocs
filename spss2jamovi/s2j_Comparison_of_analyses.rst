@@ -1,8 +1,8 @@
-.. .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
+.. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
-===================================================
-Comparison of analyses available in SPSS and jamovi
-===================================================
+=============================================================
+Comparison of Which Analyses Are Available in SPSS and jamovi
+=============================================================
 
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |
@@ -220,7 +220,6 @@ Comparison of analyses available in SPSS and jamovi
    data reduction (i.e., reducing the number of dimension that are required to describe the data) and Exploratory Factor Analysis aiming at extracting
    underlying latent variables.
    
-.. |spss_prices|  replace:: The overview covers functions from `SPSS Base (99$) and Advanced (79 US$), i.e. 178 US$ / user and month. <https://www.ibm.com/products/spss-statistics/pricing>`__
 .. |MASS|         replace:: `R-code <https://www.statmethods.net/advstats/discriminant.html>`__ *and the R-library «MASS»*
 .. |pvclust|      replace:: `R-code <https://www.statmethods.net/advstats/cluster.html>`__ *and the R-library «pvclust»*
 .. |modules|      replace:: `modules <https://www.jamovi.org/library.html>`__
