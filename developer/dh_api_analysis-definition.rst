@@ -70,8 +70,7 @@ Data
    It has no additional properties.
 
 
-Example
-^^^^^^^
+   **Example**
 
    .. code-block:: yaml
 
@@ -93,13 +92,10 @@ Bool
    +-------------------+-----------------+--------------------------------------------------------------------------------------------------------------------+
 
 
-Checks
-^^^^^^
-
+   **Checks**
    The value must be ``true`` or ``false``.
 
-Example
-^^^^^^^
+   **Example**
 
    .. code-block:: yaml
 
@@ -127,9 +123,7 @@ Integer
    +-------------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+
 
 
-Checks
-^^^^^^
-
+   **Checks**
    -  the value must be a whole number
    -  the value must fall between the ``min`` and the ``max``
 
@@ -152,15 +146,12 @@ Number
    +-------------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+
 
 
-Checks
-^^^^^^
-
+   **Checks**
    -  the value must be a number
    -  the value must fall between the ``min`` and the ``max``
 
 
-Example
-^^^^^^^
+   **Example**
 
    .. code-block:: yaml
 
@@ -189,9 +180,7 @@ List
    +-------------------+-----------------+--------------------------------------------------------------------------------------------------------------------+
 
 
-Checks
-^^^^^^
-
+   **Checks**
    -  the value must be one of the options
 
 
@@ -218,9 +207,7 @@ Variable
    +-------------------+-----------------+--------------------------------------------------------------------------------------------------------------------+
 
 
-Checks
-^^^^^^
-
+   **Checks**
    - whether the value is a string
    - whether the variable exists in the data set
    - whether the variable type is permitted
@@ -251,9 +238,7 @@ Variables
    +-------------------+-----------------+--------------------------------------------------------------------------------------------------------------------+
 
 
-Checks
-^^^^^^
-
+   **Checks**
    - whether the variable exists in the data set
    - whether the variable type is permitted
    - whether the variable contains non-finite values (if ``rejectInf`` is ``true``)

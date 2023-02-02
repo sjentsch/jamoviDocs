@@ -1,7 +1,7 @@
 .. sectionauthor:: Jonathon Love
 
 ====================
-Creating an analysis
+Creating an Analysis
 ====================
 
 T-Test
@@ -23,8 +23,8 @@ T-Test
    In this next section, we are going to create a t-test jamovi analysis which makes use of this function.
 
 
-Creating an Analysis
---------------------
+Adding a New Analysis
+---------------------
 
    The easiest way to begin an analysis for a jamovi module is to use the ``addAnalysis()`` function from the ``jmvtools`` package. First we’ll set the working
    directory to the ``SuperAwesome`` directory (created by ``jmvtools::create()`` in the previous section), and then call ``addAnalysis()``

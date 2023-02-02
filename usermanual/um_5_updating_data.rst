@@ -13,8 +13,9 @@ Updating data
    your data cleaning and analysis steps (making your jamovi files behave a bit
    like scripts).
 
-   For a video introduction to import and templates in jamovi, see this `blog
-   post <https://blog.jamovi.org/2019/03/27/import.html>`__.
+   A summary of how to import multiple file and how to use templates in jamovi
+   is provided in this `video introduction <https://youtu.be/u1K47yLEMbc>`__
+   (in English).
 
 
 Single-file Import
@@ -47,7 +48,8 @@ Multi-file Import
    represents a participant. The process is the same as the single-file import
    detailed above, except that you select multiple files when performing the
    import. You can do this by holding down control or shift when selecting data
-   files, or with the “multi-select” button at the top of the import dialog.
+   files, or with the “multi-select” button (three lines preceded by tick
+   marks) at the top of the import dialog.
 
    When importing multiple files like this, they are combined vertically with
    the rows of the second file appearing below the first, the rows of the third

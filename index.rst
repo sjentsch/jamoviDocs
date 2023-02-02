@@ -74,7 +74,6 @@ read the documentation in. So far, only a few languages are translated
 completely, but you are very welcome to contribute to a `translation into your
 language <https://hosted.weblate.org/projects/jamovidocs/>`__.
 
-
 ===============
 Getting started
 ===============
@@ -89,56 +88,10 @@ Getting started
    * :doc:`usermanual/um_5_updating_data`
    * :doc:`usermanual/um_6_syntax_mode`
 
-.. ============================================================================
-
-========
-Analyses
-========
-
-   The aim of the following section is to provide short, non-technical
-   tutorials on how to conduct common statistical procedures in jamovi.
-   The :doc:`introduction <analyses/jg_00_overview>` gives an overview over
-   the available analyses, or you can otherwise directly access specific
-   analyses by following the links below.
-
-   * :doc:`analyses/jg_11_descriptive-analyses`
-
-
-   * :doc:`analyses/jg_21_t-test-independent`
-   * :doc:`analyses/jg_22_t-test-paired`
-   * :doc:`analyses/jg_23_t-test-onesample`
-
-
-   * :doc:`analyses/jg_31_unianova`
-   * :doc:`analyses/jg_32_anova-factorial`
-   * :doc:`analyses/jg_33_anova-rm`
-   * :doc:`analyses/jg_34_anova-mixed`
-
-
-   * :doc:`analyses/jg_42_regression-linear`
-   * :doc:`analyses/jg_43_regression-logistic`
-   
-.. ============================================================================
-
-==============
-jamovi-modules
-==============
-
-   jamovi's functionality can easily be extended by creating specialized
-   modules. It therefore calls for a community of developers to implement such
-   additional analyses. The developer's hub describes how such modules can be
-   created and provides additional information (API) and about options for
-   elements of the jamovi UI used for those analyses.
-
-   * :doc:`developer/dh_overview`
-
-.. ============================================================================
-
-=========================
-jamovi and other software
-=========================
-
-   * :doc:`spss2jamovi/s2j_overview`
-   * :doc:`jamovi2r/j2R_overview`
-
-.. ============================================================================
+   You can find further topics in the menu on the right-hand side:
+   step-for-step instructions for conducting common analyses (“Analyses”),
+   brief instructions how to deal with common tasks (“How to...”), information
+   regarding how to get started with developing modules to extend the function
+   of jamovi (“jamovi-modules”), and information for users of other statistics
+   software packages (“jamovi and other software”) aiming to help with the
+   transition from SPSS, as well as with how to use jamovi and R together.

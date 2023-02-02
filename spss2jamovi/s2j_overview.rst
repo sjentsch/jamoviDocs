@@ -25,7 +25,7 @@ Side-by-side
 
    .. toctree::
       :titlesonly:
-      
+
       s2j_ttestIS
       s2j_ttestPS
       s2j_nonParametric
