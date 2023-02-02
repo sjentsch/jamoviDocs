@@ -15,11 +15,10 @@ Option Label
 A ``Label`` is by default an *option label* unless the ``label`` property is defined. An option ``Label`` will populate its display using the underlying option
 to which it has been assigned. For further information about option binding see |OptionControl|_.
 
-Properties
-~~~~~~~~~~
+**Properties**
 
-When bound to an option, there are no ``Label`` specific properties. All behavior can be achieved using the inherited properties of |OptionControl|_ and
-|ParentControl|_.
+   When bound to an option, there are no ``Label`` specific properties. All behavior can be achieved using the inherited properties of |OptionControl|_ and
+   |ParentControl|_.
 
 
 Static Label
@@ -29,27 +28,25 @@ Static Label
 
 A static ``Label`` is created when the ``label`` property of the control is defined. In this form the ``Label`` control acts like any old label.
 
-Properties
-~~~~~~~~~~
+**Properties**
 
-In addition to any inherited properties, a ``Label`` supports:
+   In addition to any inherited properties, a ``Label`` supports:
 
-+-----------+--------------------------------------------------------------+----------------------+
-| Property  | Description                                                  | Form                 |
-+===========+==============================================================+======================+
-| ``label`` | Sets the text to be displayed by the control.                | string               |
-+-----------+--------------------------------------------------------------+----------------------+
+   +-----------+--------------------------------------------------------------+----------------------+
+   | Property  | Description                                                  | Form                 |
+   +===========+==============================================================+======================+
+   | ``label`` | Sets the text to be displayed by the control.                | string               |
+   +-----------+--------------------------------------------------------------+----------------------+
 
-Example
-~~~~~~~
+**Example**
 
-.. code-block:: yaml
+   .. code-block:: yaml
 
-   - type: Label
-     label: Percentile Values
-     children:
-       - type: CheckBox
-         name: quart
+      - type: Label
+        label: Percentile Values
+        children:
+          - type: CheckBox
+            name: quart
          
 .. --------------------------------------------------------------------
 
