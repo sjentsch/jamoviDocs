@@ -11,28 +11,32 @@ From SPSS to jamovi: Non-parametric analyses
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | **SPSS**                                                                      | **jamovi**                                                                    |
 +===============================================================================+===============================================================================+
-| In SPSS, first split the file using ``Data`` → ``Split File``.                | In jamovi, the file can be split using: ``Variables`` → ``Filters``. In the   |
-+-------------------------------------------------------------------------------+ window that appears, write ``= Drug == "Ecstasy"`` and then save the output.  |
-| |SPSS_Menu_nonParametric2_1|                                                  | Open the original file again and repeat these steps but write the following   |
-+-------------------------------------------------------------------------------+ command instead: ``= Drug == "Alcohol"``. Now you will have two separate      |
-| In the ``Split File`` window, click ``Organize output by groups``. Then, move | files, one for each drug.                                                     | 
-| the ``Drug`` variable to the box called ``Groups Based on``. Lastly, click    +-------------------------------------------------------------------------------+       
-| ``Sort the file by grouping variables``.                                      | |jamovi_Menu_nonParametric2_1|                                                |
-+-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| |SPSS_Input_nonParametric2_1|                                                 | |jamovi_Menu_nonParametric2_2|                                                |
+| In SPSS, first split the file using ``Data`` → ``Split File``.                | In jamovi, the ``FILTER()``-function can be used to achieve a split. You need |
++-------------------------------------------------------------------------------+ to create two new computed variables (ideally, those variables should be      |
+| |SPSS_Menu_nonParametric2_1|                                                  | inserted before ``Wednesay_BDI``). For the first, use ``FILTER(Sunday_BDI,    |
++-------------------------------------------------------------------------------+ Drug == "Ecstasy")`` as expression to be calculated and name the variable     |
+| In the ``Split File`` window, click ``Organize output by groups``. Then, move | ``Sunday_BDI_Ecstasy``. For the second, use ``FILTER(Sunday_BDI, Drug ==      |
+| the ``Drug`` variable to the box called ``Groups Based on``. Lastly, click    | "Alcohol")`` as expression and ``Sunday_BDI_Alcohol`` as name. Please note,   |
+| ``Sort the file by grouping variables``.                                      | that it is not necessary to split the second variable ``Wednesday_BDI`` since |
+|                                                                               | jamovi uses listwise exclusion.                                               | 
++-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+       
+| |SPSS_Input_nonParametric2_1|                                                 | |jamovi_Menu_nonParametric2_1|                                                |
+|                                                                               +-------------------------------------------------------------------------------+
+|                                                                               | |jamovi_Menu_nonParametric2_2|                                                |
 |                                                                               +-------------------------------------------------------------------------------+
 |                                                                               | |jamovi_Menu_nonParametric2_3|                                                |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| Then, create a Mann-Whitney test using: ``Analyze`` → ``Nonparametric Tests`` | Within each file, use the following steps to create a Wilcoxon signed-rank    |
-| → ``Related Samples``.                                                        | test: ``Analyses`` → ``T-tests`` → ``Paired Samples T-Test``.                 |
+| Then, create a Mann-Whitney test using: ``Analyze`` → ``Nonparametric Tests`` | Create a Wilcoxon signed-rank test using: ``Analyses`` → ``T-tests`` →        |
+| → ``Related Samples``.                                                        | ``Paired Samples T-Test``.                                                    |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Menu_nonParametric2_2|                                                  | |jamovi_Menu_nonParametric2_4|                                                |
-|                                                                               +-------------------------------------------------------------------------------+
-|                                                                               | |jamovi_Menu_nonParametric2_5|                                                |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| In the ``Nonparametric Tests`` window, open ``Fields`` and click ``Use custom | In jamovi, mark ``Sunday_BDI`` and ``Wednesday_BDI`` and move them to the     |
-| field assignments``. Move the ``Sunday`` and ``Wednesday`` variables to the   | ``Paired Variables`` box. Then, tick the box for ``Wilcoxon rank``. Repeat    |
-| ``Test Fields`` box.                                                          | this procedure for both output files.                                         |
+| In the ``Nonparametric Tests`` window, open ``Fields`` and click ``Use custom | Select ``Wednesday_BDI`` and ``Sunday_BDI_Ecstasy``, and move them to the     |
+| field assignments``. Move the ``Sunday`` and ``Wednesday`` variables to the   | ``Paired Variables`` box. Then, untick ``Student's`` and tick the box for     |
+| ``Test Fields`` box.                                                          | ``Wilcoxon rank``. Afterwards, you can either right-click on the analysis you |
+|                                                                               | just created and select ``Analysis`` → ``Duplicate`` or repeat the previous  |
+|                                                                               | step to set up a new analysis. This time, ``Wednesday_BDI`` and               |
+|                                                                               | ``Sunday_BDI_Ecstasy`` have to be chosen as ``Paired Variables``.             |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Input_nonParametric2_2|                                                 | |jamovi_Input_nonParametric2|                                                 |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
@@ -43,17 +47,17 @@ From SPSS to jamovi: Non-parametric analyses
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | Comparisons of the output show that the results in SPSS and jamovi are slightly different.                                                                    |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| |SPSS_Output_nonParametric2_1|                                                | |jamovi_Output_nonParametric2_1|                                              |
+| |SPSS_Output_nonParametric2_1|                                                | |jamovi_Output_nonParametric2|                                                |
 |                                                                               |                                                                               |
-| |SPSS_Output_nonParametric2_2|                                                | |jamovi_Output_nonParametric2_2|                                              |
+| |SPSS_Output_nonParametric2_2|                                                |                                                                               |
 |                                                                               |                                                                               |
 | |SPSS_Output_nonParametric2_3|                                                |                                                                               |
 |                                                                               |                                                                               |
 | |SPSS_Output_nonParametric2_4|                                                |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| In SPSS, the first output table is the model summary, which only shows the    | In jamovi, there are two output files, with a table each. In contrast to      |
-| *p*-value for the test. If you double-click this table, you get the details   | SPSS, the ``Paired Samples T-Test`` table only displays the test statistic    |
-| of the analysis. There are two model summaries, on for each drug condition.   | and its significance value.                                                   |
+| In SPSS, the first output table is the model summary, which only shows the    | Other than SPSS, the ``Paired Samples T-Test`` table only displays the test   |
+| *p*-value for the test. If you double-click this table, you get the details   | statistic and its significance value.                                         |
+| of the analysis. There are two model summaries, on for each drug condition.   |                                                                               |
 | The Wilcoxon Signed Rank test show the following values: ``Total N``, ``Test  |                                                                               |
 | Statistic``, ``Standard Error``, ``Standardized Test Statistic`` and          |                                                                               |
 | ``Asymptotic Sig. (2-sided test)``.                                           |                                                                               |
@@ -70,14 +74,20 @@ From SPSS to jamovi: Non-parametric analyses
 |    NPTESTS                                                                    |    jmv::ttestPS(                                                              |
 |       /RELATED TEST(Sunday_BDI Wednesday_BDI) WILCOXON                        |        data = data,                                                           |
 |       /MISSING SCOPE=ANALYSIS USERMISSING=EXCLUDE                             |        pairs = list(                                                          |
-|       /CRITERIA ALPHA=0.05 CILEVEL=95.                                        |            list(i1 = "Sunday_BDI", i2 = "Wednesday_BDI")),                    |
+|       /CRITERIA ALPHA=0.05 CILEVEL=95.                                        |            list(i1 = "Wednesday_BDI", i2 = "Sunday_BDI_Ecstasy")),            |
 |                                                                               |        students = FALSE,                                                      |
 |                                                                               |        wilcoxon = TRUE)                                                       |
+|                                                                               |                                                                               |
+|                                                                               |    jmv::ttestPS(                                                              |
+|                                                                               |        data = data,                                                           |
+|                                                                               |        pairs = list(                                                          |
+|                                                                               |            list(i1 = "Wednesday_BDI", i2 = "Sunday_BDI_Alcohol")),            |
+|                                                                               |        students = FALSE,                                                      |
+|                                                                               |        wilcoxon = TRUE)                                                       |
+|                                                                               |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| `SPSS output file containing the analyses                                     | `jamovi file with the analyses for Alcohol                                    |
-| <../_static/output/s2j_Output_SPSS_nonParametric2.spv>`_                      | <../_static/output/s2j_Output_jamovi_nonParametric2_1.omv>`_                  |
-|                                                                               | `jamovi file with the analyses for Ecstasy                                    |
-|                                                                               | <../_static/output/s2j_Output_jamovi_nonParametric2_2.omv>`_                  |
+| `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
+| <../_static/output/s2j_Output_SPSS_nonParametric2.spv>`_                      | <../_static/output/s2j_Output_jamovi_nonParametric2.omv>`_                    |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -89,18 +99,16 @@ From SPSS to jamovi: Non-parametric analyses
 
 .. |SPSS_Menu_nonParametric2_1|        image:: ../_images/s2j_SPSS_Menu_nonParametric2_1.png
 .. |SPSS_Menu_nonParametric2_2|        image:: ../_images/s2j_SPSS_Menu_nonParametric2_2.png
-.. |jamovi_Menu_nonParametric2_1|      image:: ../_images/s2j_jamovi_Menu_ nonParametric2_1.png
-.. |jamovi_Menu_nonParametric2_2|      image:: ../_images/s2j_jamovi_Menu_ nonParametric2_2.png
-.. |jamovi_Menu_nonParametric2_3|      image:: ../_images/s2j_jamovi_Menu_ nonParametric2_3.png
-.. |jamovi_Menu_nonParametric2_4|      image:: ../_images/s2j_jamovi_Menu_ nonParametric2_4.png
-.. |jamovi_Menu_nonParametric2_5|      image:: ../_images/s2j_jamovi_Menu_ nonParametric2_5.png
-.. |SPSS_Input_nonParametric2_1|       image:: ../_images/s2j_SPSS_Input_ nonParametric2_1.png
-.. |SPSS_Input_nonParametric2_2|       image:: ../_images/s2j_SPSS_Input_ nonParametric2_2.png
-.. |SPSS_Input_nonParametric2_3|       image:: ../_images/s2j_SPSS_Input_ nonParametric2_3.png
-.. |jamovi_Input_nonParametric2|       image:: ../_images/s2j_jamovi_Input_ nonParametric2.png
-.. |SPSS_Output_nonParametric2_1|      image:: ../_images/s2j_SPSS_Output_ nonParametric2_1.png
-.. |SPSS_Output_nonParametric2_2|      image:: ../_images/s2j_SPSS_Output_ nonParametric2_2.png
-.. |SPSS_Output_nonParametric2_3|      image:: ../_images/s2j_SPSS_Output_ nonParametric2_3.png
-.. |SPSS_Output_nonParametric2_4|      image:: ../_images/s2j_SPSS_Output_ nonParametric2_4.png
-.. |jamovi_Output_nonParametric2_1|    image:: ../_images/s2j_jamovi_Output_ nonParametric2_1.png
-.. |jamovi_Output_nonParametric2_2|    image:: ../_images/s2j_jamovi_Output_ nonParametric2_2.png
+.. |jamovi_Menu_nonParametric2_1|      image:: ../_images/s2j_jamovi_Menu_nonParametric2_1.png
+.. |jamovi_Menu_nonParametric2_2|      image:: ../_images/s2j_jamovi_Menu_nonParametric2_2.png
+.. |jamovi_Menu_nonParametric2_3|      image:: ../_images/s2j_jamovi_Menu_nonParametric2_3.png
+.. |jamovi_Menu_nonParametric2_4|      image:: ../_images/s2j_jamovi_Menu_nonParametric2_4.png
+.. |SPSS_Input_nonParametric2_1|       image:: ../_images/s2j_SPSS_Input_nonParametric2_1.png
+.. |SPSS_Input_nonParametric2_2|       image:: ../_images/s2j_SPSS_Input_nonParametric2_2.png
+.. |SPSS_Input_nonParametric2_3|       image:: ../_images/s2j_SPSS_Input_nonParametric2_3.png
+.. |jamovi_Input_nonParametric2|       image:: ../_images/s2j_jamovi_Input_nonParametric2.png
+.. |SPSS_Output_nonParametric2_1|      image:: ../_images/s2j_SPSS_Output_nonParametric2_1.png
+.. |SPSS_Output_nonParametric2_2|      image:: ../_images/s2j_SPSS_Output_nonParametric2_2.png
+.. |SPSS_Output_nonParametric2_3|      image:: ../_images/s2j_SPSS_Output_nonParametric2_3.png
+.. |SPSS_Output_nonParametric2_4|      image:: ../_images/s2j_SPSS_Output_nonParametric2_4.png
+.. |jamovi_Output_nonParametric2|      image:: ../_images/s2j_jamovi_Output_nonParametric2.png
