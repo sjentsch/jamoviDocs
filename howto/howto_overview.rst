@@ -22,10 +22,11 @@ Analyses
 .. toctree::
    :titlesonly:
 
+   howto_Filtering_data
    howto_Use_PROCESS
 
 .. ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 .. howto_Checking_normality
 .. howto_Checking_linearity
-.. howto_Filtering_data
+.. 

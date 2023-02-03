@@ -18,12 +18,10 @@ From SPSS to jamovi: Non-parametric analyses
 | In the ``Split File`` window, click ``Organize output by groups``. Then, move | ``Sunday_BDI_Ecstasy``. For the second, use ``FILTER(Sunday_BDI, Drug ==      |
 | the ``Drug`` variable to the box called ``Groups Based on``. Lastly, click    | "Alcohol")`` as expression and ``Sunday_BDI_Alcohol`` as name. Please note,   |
 | ``Sort the file by grouping variables``.                                      | that it is not necessary to split the second variable ``Wednesday_BDI`` since |
-|                                                                               | jamovi uses listwise exclusion.                                               | 
+|                                                                               | jamovi uses listwise exclusion.                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+       
 | |SPSS_Input_nonParametric2_1|                                                 | |jamovi_Menu_nonParametric2_1|                                                |
-|                                                                               +-------------------------------------------------------------------------------+
 |                                                                               | |jamovi_Menu_nonParametric2_2|                                                |
-|                                                                               +-------------------------------------------------------------------------------+
 |                                                                               | |jamovi_Menu_nonParametric2_3|                                                |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | Then, create a Mann-Whitney test using: ``Analyze`` → ``Nonparametric Tests`` | Create a Wilcoxon signed-rank test using: ``Analyses`` → ``T-tests`` →        |
@@ -34,7 +32,7 @@ From SPSS to jamovi: Non-parametric analyses
 | In the ``Nonparametric Tests`` window, open ``Fields`` and click ``Use custom | Select ``Wednesday_BDI`` and ``Sunday_BDI_Ecstasy``, and move them to the     |
 | field assignments``. Move the ``Sunday`` and ``Wednesday`` variables to the   | ``Paired Variables`` box. Then, untick ``Student's`` and tick the box for     |
 | ``Test Fields`` box.                                                          | ``Wilcoxon rank``. Afterwards, you can either right-click on the analysis you |
-|                                                                               | just created and select ``Analysis`` → ``Duplicate`` or repeat the previous  |
+|                                                                               | just created and select ``Analysis`` → ``Duplicate`` or repeat the previous   |
 |                                                                               | step to set up a new analysis. This time, ``Wednesday_BDI`` and               |
 |                                                                               | ``Sunday_BDI_Ecstasy`` have to be chosen as ``Paired Variables``.             |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
@@ -48,23 +46,21 @@ From SPSS to jamovi: Non-parametric analyses
 | Comparisons of the output show that the results in SPSS and jamovi are slightly different.                                                                    |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | |SPSS_Output_nonParametric2_1|                                                | |jamovi_Output_nonParametric2|                                                |
-|                                                                               |                                                                               |
 | |SPSS_Output_nonParametric2_2|                                                |                                                                               |
-|                                                                               |                                                                               |
-| |SPSS_Output_nonParametric2_3|                                                |                                                                               |
-|                                                                               |                                                                               |
-| |SPSS_Output_nonParametric2_4|                                                |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | In SPSS, the first output table is the model summary, which only shows the    | Other than SPSS, the ``Paired Samples T-Test`` table only displays the test   |
 | *p*-value for the test. If you double-click this table, you get the details   | statistic and its significance value.                                         |
-| of the analysis. There are two model summaries, on for each drug condition.   |                                                                               |
-| The Wilcoxon Signed Rank test show the following values: ``Total N``, ``Test  |                                                                               |
-| Statistic``, ``Standard Error``, ``Standardized Test Statistic`` and          |                                                                               |
-| ``Asymptotic Sig. (2-sided test)``.                                           |                                                                               |
+| of the analysis (see images underneath). There are two model summaries, on    |                                                                               |
+| for each drug condition. The Wilcoxon Signed Rank test show the following     |                                                                               |
+| values: ``Total N``, ``Test Statistic``, ``Standard Error``, ``Standardized   |                                                                               |
+| Test Statistic`` and ``Asymptotic Sig. (2-sided test)``.                      |                                                                               |
++-------------------------------------------------------------------------------+                                                                               |
+| |SPSS_Output_nonParametric2_3|                                                |                                                                               |
+| |SPSS_Output_nonParametric2_4|                                                |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
-| When comparing the output, none of the numerical values are the same. The reason for the difference in p-values is that jamovi applies `continuity correction |
-| <https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100131510>`__ (where a discrete distribution – ranks – is approximated via a continuous    |
-| one – the standard normal distribution) whereas SPSS doesn't.                                                                                                 |
+| When comparing the output, none of the numerical values for the test statistic are the same. The reason for the difference in p-values is that jamovi         |
+| applies `continuity correction <https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100131510>`__ (where a discrete distribution – ranks – is   |
+| approximated via a continuous one – the standard normal distribution) whereas SPSS doesn't.                                                                   |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | If you wish to replicate those analyses using syntax, you can use the commands below (in jamovi, just copy to code below to :ref:`Rj <rj_editor>`).           |
 | Alternatively, you can download the SPSS output files and the jamovi files with the analyses from below the syntax.                                           |
