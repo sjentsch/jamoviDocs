@@ -17,9 +17,11 @@ How do I identify outliers and filter them out from being used in analyses?
 -  | there are three large approaches, to exclude outliers:
 
    #. based upon z-scores (the absolute value should be larger 3.3; this
-      equals to a probability of 0.1% = 1 / 1000)
-   #. based upon the IQR (like in a box plot)
-   #. based on the Mahalanobis distance (multivariate)
+      equals to a probability of 0.1% = 1 / 1000; based upon a standard
+      normal distribution ~ parametric)
+   #. based upon the IQR (like in a box plot; based upon ranks and quantiles
+      ~ non-parametric)
+   #. based on the Mahalanobis distance (multivariate outliers)
 
    | for 1. and 2., there exist functions in jamovi (see next bullet points),
      for 3. you have to use R-code (decribed two bullet point below); for 2.
@@ -29,12 +31,18 @@ How do I identify outliers and filter them out from being used in analyses?
      out lines based on either the z-scores (first line), the interquartile
      range (IQR, second line) or by excluding certain rows / row numbers (e.g.,
      based upon the output from the calculation of the Mahalanobis distance
-     below; third line):
+     further below; third line):
      
      .. code-block:: text
 
         MAXABSZ([VARIABLE1], [VARIABLE2], …)
+
+     .. code-block:: text
+
         MAXABSIQR([VARIABLE1], [VARIABLE2], …)
+
+     .. code-block:: text
+
         IFMISS(MATCH(ROW(), [ROWNUMBER 1], [ROWNUMBER 2], …), 1, 0)
 
    |Outliers_Filter_Settings|
@@ -53,9 +61,10 @@ How do I identify outliers and filter them out from being used in analyses?
         VL = c('dan.sleep', 'baby.sleep', 'day')
         # brief explanation: the code calculates the Mahalanobis distance for all variables in VL,
         # then calculates the p-value (pchisq) and show lines with variables that had a p-value < 0.001 
-        row.names(pchisq(unname(
-                  mahalanobis(data[, VL], colMeans(data[, VL]), cov(data[, VL]))), 
-                  df=length(VL), lower.tail=FALSE) < 0.001)
+        row.names(data)[
+            pchisq(unname(
+                mahalanobis(data[, VL], colMeans(data[, VL]), cov(data[, VL]))), 
+                df=length(VL), lower.tail=FALSE) < 0.001]
    
    | the output from the ``R``-code tells you which lines you should de-select
    | you use the scripts within the `Rj editor <jamovi-module_Rj>`__, just
@@ -70,9 +79,11 @@ How do I identify outliers and filter them out from being used in analyses?
       MAXABSIQR([VARIABLE1], [VARIABLE2], …) < 3 and
       IFMISS(MATCH(ROW(), [ROWNUMBER 1], [ROWNUMBER 2], …), 1, 0)
 
--  | you can also de-select cases by excluding the respective row numbers in
-     the dataset (visually checking the outliers in the box-plots under
-     ``Descriptives``, ensure that the tick box ``Label outliers`` is set)
+-  | instead of using the second line (``MAXABSIQR``) you could also de-select
+     cases by excluding their respective row numbers in the dataset (as in the
+     third line; you would then visually check the outliers in the box-plots
+     under ``Descriptives``, ensuring that the tick box ``Label outliers`` is
+     set and exclude the row numbers that are marked as outliers)
    
 .. ----------------------------------------------------------------------------
 
