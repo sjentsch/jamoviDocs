@@ -28,6 +28,9 @@ done
 #   fi
 #done
 for L in $(cat .languages); do
-    sed -i "/Language: /d" _locale/${L}/LC_MESSAGES/*.po
+    sed -i "s/Language: \\\\n/Language: ${L}\\\\n/" _locale/${L}/LC_MESSAGES/*.po
     sphinx-intl update -p _locale/pot -l ${L}
+    sed -i '/^# /d'          _locale/${L}/LC_MESSAGES/*.po &&
+    sed -i '/^#$/d'          _locale/${L}/LC_MESSAGES/*.po &&
+    sed -i '/^"#-#-#-#-# /d' _locale/${L}/LC_MESSAGES/*.po
 done
