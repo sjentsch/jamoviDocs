@@ -3,6 +3,11 @@
 Combining jamovi and R
 ======================
 
+A huge advantage of jamovi is that it is not only built on top of the R
+statistical language, it also makes it also very easy to access R from jamovi,
+and jamovi from R. The syntax mode, Rj, |jmvconnect| and |jmvReadWrite| help
+you to achieve that.
+
 Syntax Mode
 -----------
 
@@ -82,7 +87,7 @@ Syntax Mode
    again.
 
    By default, ``Rj`` makes use of the version of ``R`` bundled with jamovi.
-   This includes many packages (``jmv`` and all it’s `dependencies
+   This includes many packages (|jmv| and all it’s `dependencies
    <https://cran.r-project.org/package=jmv>`_\ ), and will be sufficient for
    many people, but if you need to make use of additional ``R`` packages then
    you’ll need to make use of the ``System R`` version. If you select ⚙ (at
@@ -91,9 +96,13 @@ Syntax Mode
    have installed on your system. This has the advantage that your ``R`` code
    now has access to all of the packages you have installed for that version
    of ``R``. The last thing you will need is to have the |jmvconnect| R
-   package installed in the R library on your system. This package allows the
-   ``R`` version on your system to access the jamovi data sets. You can install
-   it in ``R`` with:
+   package installed in the R library on your system.
+
+``jmvconnect`` R-package
+------------------------
+
+   The |jmvconnect| R-package allows the ``R`` version on your system to access
+   the data sets that you opened in jamovi. You can install it in ``R`` with:
 
    .. code-block:: R
 
@@ -153,14 +162,98 @@ Syntax Mode
       data <- read('Tooth Growth')
       data <- read(2)
 
-   Rj, |jmvconnect| and |jmvReadWrite| make is easy to access R from jamovi,
-   and jamovi from R.   
+
+``jmvReadWrite`` R-package
+--------------------------
+
+   The |jmvReadWrite| R-package reads and writes jamovi-data-files (.omv) in
+   ``R``. It can be installed with:
+
+   .. code-block:: R
+
+      install.packages('jmvconnect')
+
+   
+   A typical use case would be if you wanted to process a large number
+   of result files (e.g., CSV-files from several participants in an experiment
+   or with responses from different questionnaires). Wrangling data is often
+   easier achieved in R. Once you have assembled your dataseet from these
+   files, you can write it using the ``write_omv()``-function.
+
+   .. code-block:: R
+
+      library(jmvReadWrite)
+
+      # assemble your data set (named dtaSet)...
+
+      write_omv(dtaSet, "FILENAME.omv")
+
+   
+   Likewise does the ``read_omv``-function permit you to read jamovi-data-files
+   into ``R``. The most typical use case would
+   be reading a data file, doing manipulations that currently are not possible
+   in jamovi, and then writing back the resulting modified file (in the jamovi
+   file format). There is a couple of helper functions implemented in
+   |jmvReadWrite| that enable operations such as mass-converting a data files
+   into the jamovi file format (``convert_to_omv``; e.g., from a software
+   package for statistical analyses that you used before switching to jamovi),
+   converting data files from long to wide format (``long2wide_omv``) and from
+   wide to long format (``wide2long_omv``), adding variables from several data
+   sets (``merge_cols_omv``), adding cases from several data sets
+   (``merge_rows_omv``), or sort a data set after one or more variables
+   (``sort_omv``).
+
+   .. code-block:: R
+
+      library(jmvReadWrite)
+
+      dtaSet <- read_omv("FILENAME.omv")
+
+      # do some modifications to your data set
+
+      write_omv(dtaSet, "FILENAME.omv")
+
+
+   Another possible use case for ``read_omv`` is the creation of R markdown
+   files using the results of your jamovi analyses. The ``getSyn``-parameter
+   determines whether the syntax of the analyses contained in the file is
+   extracted. For running the syntax, the |jmv| R-package needs to be
+   installed.
+
+   .. code-block:: R
+   
+      library(jmvReadWrite)
+      library(jmv)
+   
+      data <- jmvReadWrite::read_omv("FILENAME.omv", getSyn = TRUE)
+
+      # the analyses are stored in the attribute syntax
+      attr(data, "syntax")
+      
+      # with using an index, the n-th analysis can be accessed (first line)
+      # and run / evaluated (second line)
+      attr(data, "syntax")[[1]]
+      eval(parse(text = attr(data, "syntax")[[1]]))
+
+      # often it is more useful to assign the results to a variable when
+      # running analyses and later on use the contents of that variable
+      eval(parse(text = paste0("result = ", attr(data, "syntax")[[2]])))
+      names(result)
+      # (returns the names of the output elements - tables, figures, and
+      groups: sub-headings, e.g., Estimated Marginal Means in an ANOVA,
+      that contain further tables and figures)
+
+
+.. ----------------------------------------------------------------------------
 
 .. raw:: html
 
    <script type="text/javascript" src="../_static/gif-player.js"></script>
 
 .. ----------------------------------------------------------------------------
+
+.. |jmv|                               replace:: ``jmv``
+.. _jmv:                               https://cran.r-project.org/package=jmv
 
 .. |jmvconnect|                        replace:: ``jmvconnect``
 .. _jmvconnect:                        https://cran.r-project.org/package=jmvconnect
