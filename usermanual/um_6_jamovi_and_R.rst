@@ -177,7 +177,7 @@ Syntax Mode
    A typical use case would be if you wanted to process a large number
    of result files (e.g., CSV-files from several participants in an experiment
    or with responses from different questionnaires). Wrangling data is often
-   easier achieved in R. Once you have assembled your dataseet from these
+   easiest achieved in R. Once you have assembled your dataset from these
    files, you can write it using the ``write_omv()``-function.
 
    .. code-block:: R
@@ -194,12 +194,12 @@ Syntax Mode
    be reading a data file, doing manipulations that currently are not possible
    in jamovi, and then writing back the resulting modified file (in the jamovi
    file format). There is a couple of helper functions implemented in
-   |jmvReadWrite| that enable operations such as mass-converting a data files
-   into the jamovi file format (``convert_to_omv``; e.g., from a software
-   package for statistical analyses that you used before switching to jamovi),
-   converting data files from long to wide format (``long2wide_omv``) and from
-   wide to long format (``wide2long_omv``), adding variables from several data
-   sets (``merge_cols_omv``), adding cases from several data sets
+   |jmvReadWrite|. They enable operations such as re-arranging the columns /
+   variables of a data set (``arrange_cols_omv``), mass-converting a data files
+   into the jamovi file format (``convert_to_omv``), converting data files from
+   long to wide format (``long2wide_omv``) and from wide to long format
+   (``wide2long_omv``), adding variables from several data sets
+   (``merge_cols_omv``), adding cases from several data sets
    (``merge_rows_omv``), or sort a data set after one or more variables
    (``sort_omv``).
 
