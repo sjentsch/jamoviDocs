@@ -5,17 +5,16 @@ Combining jamovi and R
 
 A huge advantage of jamovi is that it is not only built on top of the R
 statistical language, it also makes it also very easy to access R from jamovi,
-and jamovi from R. The syntax mode, Rj, |jmvconnect| and |jmvReadWrite| help
+and jamovi from R. The syntax mode, ``Rj``, |jmvconnect| and |jmvReadWrite| help
 you to achieve that.
 
 Syntax Mode
 -----------
 
-   jamovi also provides an “R Syntax Mode”, in this mode, jamovi produces
-   equivalent R code for each analysis. To change to syntax mode, select the
-   application menu (⋮) at the top right of jamovi, and check the ``Syntax
-   mode`` checkbox there. It is possible to leave syntax mode by clicking this
-   a second time.
+   jamovi provides an “R Syntax Mode”, in this mode, jamovi produces equivalent
+   R code for each analysis. To change to syntax mode, select the application
+   menu (⋮) at the top right of jamovi, and check the ``Syntax mode`` checkbox
+   there. It is possible to leave syntax mode by clicking this a second time.
 
    In syntax mode, analyses continue to operate as before, but now they produce
    R syntax. Like all results objects in jamovi, you can right click on these
@@ -32,11 +31,11 @@ Syntax Mode
 
       <div class="gif-player" data-anim-src="../_static/gifs/um_rSyntax.gif" data-static-src="../_static/gifs/um_rSyntax.png"></div>
 
-   At present, the provided R syntax does not include the data import step, and
-   this must be performed manually. The easiest way of reading and writing
-   jamovi data files in R is the |jmvReadWrite| R package. Alternatively, the
-   |jmvconnect| R-package permits you to access data sets that you have opened
-   in your jamovi session from R. 
+   The provided R syntax does not include the data import step, but this can be
+   easily achieved by using the R packages |jmvconnect|_ and |jmvReadWrite|_
+   (explained in more detail below). |jmvReadWrite|_ enables you to read and
+   write jamovi data files (.omv) in R, |jmvconnect|_ permits you to access
+   data sets that you have opened in your jamovi session from R.
 
 .. _rj_editor:
 
@@ -87,21 +86,20 @@ Syntax Mode
    again.
 
    By default, ``Rj`` makes use of the version of ``R`` bundled with jamovi.
-   This includes many packages (|jmv| and all it’s `dependencies
-   <https://cran.r-project.org/package=jmv>`_\ ), and will be sufficient for
-   many people, but if you need to make use of additional ``R`` packages then
-   you’ll need to make use of the ``System R`` version. If you select ⚙ (at
-   the top right of the code box), you’ll see an option to change the
-   ``R version`` used. The ``System R`` version uses the version of ``R`` you
-   have installed on your system. This has the advantage that your ``R`` code
-   now has access to all of the packages you have installed for that version
-   of ``R``. The last thing you will need is to have the |jmvconnect| R
-   package installed in the R library on your system.
+   This includes many packages (|jmv|_ and all it’s dependencies), and will be
+   sufficient for many people, but if you need to make use of additional R
+   packages then you’ll need to make use of the ``System R`` version. If you
+   select ⚙ (at the top right of the code box), you’ll see an option to change
+   the ``R version`` used. The ``System R`` version uses the version of ``R``
+   you have installed on your system. This has the advantage that your ``R``
+   code now has access to all of the packages you have installed for that
+   version of ``R``. The last thing you will need is to have the |jmvconnect|_
+   R package installed in the R library on your system.
 
-``jmvconnect`` R-package
+``jmvconnect`` R package
 ------------------------
 
-   The |jmvconnect| R-package allows the ``R`` version on your system to access
+   The |jmvconnect|_ R package allows the ``R`` version on your system to access
    the data sets that you opened in jamovi. You can install it in ``R`` with:
 
    .. code-block:: R
@@ -137,8 +135,8 @@ Syntax Mode
    are made to other columns.
 
    There may be times where you’ll want to transition to an R session for
-   analysing a data set. This is where the |jmvconnect| R package comes in
-   handy. |jmvconnect| let’s you read the data sets from a running jamovi
+   analysing a data set. This is where the |jmvconnect|_ R package comes in
+   handy. |jmvconnect|_ lets you read the data sets from a running jamovi
    instance into an R session. It has two functions: ``what()`` lists the
    available data sets, and ``read()`` reads them. For example, you might use:
 
@@ -163,15 +161,15 @@ Syntax Mode
       data <- read(2)
 
 
-``jmvReadWrite`` R-package
+``jmvReadWrite`` R package
 --------------------------
 
-   The |jmvReadWrite| R-package reads and writes jamovi-data-files (.omv) in
+   The |jmvReadWrite|_ R package reads and writes jamovi-data-files (.omv) in
    ``R``. It can be installed with:
 
    .. code-block:: R
 
-      install.packages('jmvconnect')
+      install.packages('jmvReadWrite')
 
    
    A typical use case would be if you wanted to process a large number
@@ -190,18 +188,9 @@ Syntax Mode
 
    
    Likewise does the ``read_omv``-function permit you to read jamovi-data-files
-   into ``R``. The most typical use case would
-   be reading a data file, doing manipulations that currently are not possible
-   in jamovi, and then writing back the resulting modified file (in the jamovi
-   file format). There is a couple of helper functions implemented in
-   |jmvReadWrite|. They enable operations such as re-arranging the columns /
-   variables of a data set (``arrange_cols_omv``), mass-converting a data files
-   into the jamovi file format (``convert_to_omv``), converting data files from
-   long to wide format (``long2wide_omv``) and from wide to long format
-   (``wide2long_omv``), adding variables from several data sets
-   (``merge_cols_omv``), adding cases from several data sets
-   (``merge_rows_omv``), or sort a data set after one or more variables
-   (``sort_omv``).
+   into ``R``. Another typical use case would be reading a data file, doing
+   manipulations that currently are not possible in jamovi, and then writing
+   back the resulting modified file (in the jamovi file format).
 
    .. code-block:: R
 
@@ -214,10 +203,20 @@ Syntax Mode
       write_omv(dtaSet, "FILENAME.omv")
 
 
+   There is a couple of helper functions implemented in |jmvReadWrite|_. They
+   enable operations such as re-arranging the columns / variables of a data set
+   (``arrange_cols_omv``), mass-converting a data files into the jamovi file
+   format (``convert_to_omv``; e.g. from a statistics software that you used
+   earlier), converting data files from long to wide format (``long2wide_omv``)
+   and from wide to long format (``wide2long_omv``), adding variables from
+   several data sets (``merge_cols_omv``), adding cases from several data sets
+   (``merge_rows_omv``), or sort a data set after one or more variables
+   (``sort_omv``).
+
    Another possible use case for ``read_omv`` is the creation of R markdown
    files using the results of your jamovi analyses. The ``getSyn``-parameter
    determines whether the syntax of the analyses contained in the file is
-   extracted. For running the syntax, the |jmv| R-package needs to be
+   extracted. For running the syntax, the |jmv|_ R package needs to be
    installed.
 
    .. code-block:: R
@@ -225,7 +224,7 @@ Syntax Mode
       library(jmvReadWrite)
       library(jmv)
    
-      data <- jmvReadWrite::read_omv("FILENAME.omv", getSyn = TRUE)
+      data <- read_omv("FILENAME.omv", getSyn = TRUE)
 
       # the analyses are stored in the attribute syntax
       attr(data, "syntax")
