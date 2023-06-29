@@ -4,6 +4,7 @@
 
 
 .. toctree::
+   :maxdepth: 1
    :hidden:
 
    usermanual/um_1_installation
@@ -11,6 +12,7 @@
 
 .. toctree::
    :caption: Getting Started
+   :maxdepth: 1
    :hidden:
 
    usermanual/um_2_first-steps
@@ -22,19 +24,10 @@
 
 .. toctree::
    :caption: Analyses
+   :maxdepth: 1
    :hidden:
 
-   analyses/jg_00_overview
-   analyses/jg_11_descriptive-analyses
-   analyses/jg_21_t-test-independent
-   analyses/jg_22_t-test-paired
-   analyses/jg_23_t-test-onesample
-   analyses/jg_31_unianova
-   analyses/jg_32_anova-factorial
-   analyses/jg_33_anova-rm
-   analyses/jg_34_anova-mixed
-   analyses/jg_42_regression-linear
-   analyses/jg_43_regression-logistic
+   analyses/jg_overview
 
 
 .. toctree::
@@ -45,14 +38,15 @@
 
 
 .. toctree::
-   :caption: jamovi-modules
+   :caption: Developer hub
+   :maxdepth: 1
    :hidden:
 
-   developer/dh_overview.rst
-
+   developer/dh_overview
 
 .. toctree::
    :caption: From SPSS to jamovi
+   :maxdepth: 1
    :hidden:
 
    spss2jamovi/s2j_Comparison_of_analyses
@@ -91,6 +85,5 @@ Getting started
    step-for-step instructions for conducting common analyses (“Analyses”),
    brief instructions how to deal with common tasks (“How to...”), information
    regarding how to get started with developing modules to extend the function
-   of jamovi (“jamovi-modules”), and information for users of other statistics
-   software packages (“jamovi and other software”) aiming to help with the
-   transition from SPSS, as well as with how to use jamovi and R together.
+   of jamovi (“Developers Hub”), and information aiming to ease the transition
+   from SPSS (“From SPSS to jamovi”).

@@ -217,7 +217,10 @@ Syntax Mode
    files using the results of your jamovi analyses. The ``getSyn``-parameter
    determines whether the syntax of the analyses contained in the file is
    extracted. For running the syntax, the |jmv|_ R package needs to be
-   installed.
+   installed. If you would like to work with the results afterwards, it is
+   recommended that you assign them to a variable (see the second ``eval``
+   below). Tables from the results can be converted into a data frame with
+   the function ``asDF`` (e.g., ``result$main$asDF``).
 
    .. code-block:: R
    
@@ -239,9 +242,8 @@ Syntax Mode
       eval(parse(text = paste0("result = ", attr(data, "syntax")[[2]])))
       names(result)
       # (returns the names of the output elements - tables, figures, and
-      groups: sub-headings, e.g., Estimated Marginal Means in an ANOVA,
-      that contain further tables and figures)
-
+      # groups: sub-headings, e.g., Estimated Marginal Means in an ANOVA,
+      # that contain further tables and figures)
 
 .. ----------------------------------------------------------------------------
 

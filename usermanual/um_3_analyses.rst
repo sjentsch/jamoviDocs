@@ -28,7 +28,7 @@ Analyses
    You can head to the entries under “Analyses” in the menu on the right-hand
    side for a series of short, non-technical tutorials on how to conduct
    common statistical procedures in jamovi. The :doc:`introduction
-   <../analyses/jg_00_overview>` gives an overview over the available analyses,
+   <../analyses/jg_overview>` gives an overview over the available analyses,
    or you can otherwise directly access specific analyses by selecting them
    from the menu on the right-hand side.
 

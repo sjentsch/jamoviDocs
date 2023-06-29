@@ -1,17 +1,18 @@
 .. sectionauthor:: `Sebastian Jentschke <https://www.uib.no/en/persons/Sebastian.Jentschke>`_
 
-=========
-How to...
-=========
+.. raw:: html
+
+   <h1>How to...</h1>
 
 The aim of the following section is to clear and simple instructions on how to deal with common tasks within jamovi. 
 
------------------------
-jamovi's user interface
------------------------
+---------------------
+jamovi user interface
+---------------------
 
 .. toctree::
-   :titlesonly:
+   :maxdepth: 1
+   :hidden:
 
    howto_Install_modules
 
@@ -20,7 +21,8 @@ Analyses
 --------
 
 .. toctree::
-   :titlesonly:
+   :maxdepth: 1
+   :hidden:
 
    howto_Filtering_data
    howto_Use_PROCESS
