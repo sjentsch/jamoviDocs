@@ -56,12 +56,9 @@ Below is a list of controls that inherit from ``ParentControl``.
 
 - Parent Controls
 
-  .. toctree::
-     :titlesonly:
-   
-     dh_ui_checkbox
-     dh_ui_radiobutton
-     dh_ui_label
+  :doc:`dh_ui_checkbox`
+  :doc:`dh_ui_radiobutton`
+  :doc:`dh_ui_label`
 
       
 .. --------------------------------------------------------------------
