@@ -3,4 +3,4 @@ sphinx-intl
 sphinx-rtd-theme
 sphinx-copybutton
 sphinx-autobuild
-Pillow
+pillow

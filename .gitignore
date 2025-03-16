@@ -5,6 +5,9 @@
 # remove files
 *.rmv
 
+# directory for unused files
+.not_used/
+
 # _build and _env
 _build
 _env

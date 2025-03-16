@@ -6,11 +6,11 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
 
 ### Install and build (first time):
 
-   `$ virtualenv _env`<br>
+   `$ python -m venv _env`<br>
    `$ source _env/bin/activate`<br>
    Set up and activate the virtual environment.<br>
 
-   `$ pip3 install -r requirements.txt`<br>
+   `$ pip install -r requirements.txt`<br>
    Install the required packages (wheels) in the virtual environment.<br>
 
    `$ make html`<br>
