@@ -19,7 +19,7 @@ from sphinx.locale import _
 # -- Project information -----------------------------------------------------
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
-copyright = u'2016-{strftime("%Y")}, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+copyright = u'2016-{}, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'.format(strftime("%Y"))
 version = __display_version__
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
