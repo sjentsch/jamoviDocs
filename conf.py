@@ -10,14 +10,17 @@
 import os
 import sys
 import re
+from time import strftime
 sys.path.insert(0, os.path.abspath('.'))
+from sphinx import __display_version__
 import sphinx_rtd_theme
 from sphinx.locale import _
 
 # -- Project information -----------------------------------------------------
 project = u'jamovi'
 slug = re.sub(r'\W+', '-', project.lower())
-copyright = u'2016-2023, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+copyright = u'2016-{strftime("%Y")}, The section authors, The jamovi project, and Sebastian Jentschke (curating this documentation). This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+version = __display_version__
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -96,6 +99,8 @@ html_theme = "sphinx_rtd_theme"
 # further.  For a list of options available for each theme, see the documentation.
 # https://sphinx-rtd-theme.readthedocs.io/en/latest/configuring.html
 html_theme_options = {
+    # privacy options
+    'analytics_anonymize_ip': True,
     # TOC options: (1) maximum number iof (heading) levels to show in the TOC, (2) navigation entries are not expandable ([+], default: True),
     #              (3) scroll the navigation with the main page content as you scroll the page (default: True), (4) if the navigation includes
     #              hidden table(s) of contents (Default: True), (5) whether to include page subheadings in the TOC (default: False)
@@ -104,9 +109,12 @@ html_theme_options = {
     'sticky_navigation': True,
     'includehidden': True,
     'titles_only': True,
-    # only display the logo image (default: False), do not display the project name and the version number at the top of the sidebar (default: True)
+    # only display the logo image (default: False), do not display a version selector in the sidebar (default: True),
+    # but do display a langauge selector (default: True)
     'logo_only': True,
-    'display_version': False,    
+    'flyout_display': 'attached',
+    'version_selector': False,
+    'language_selector': True,
     # location of the prev / next buttons (default: 'bottom') and allow navigating using the keyboard’s left and right arrows (default: False)
     'prev_next_buttons_location': 'bottom',
     'navigation_with_keys': True,
@@ -318,18 +326,27 @@ latex_elements = {
     'fncychap': '\\usepackage[Bjarne]{fncychap}', 
 
     # “inputenc” package inclusion, default '\\usepackage[utf8]{inputenc}'.
-    'inputenc' :  '\\usepackage[utf8x]{inputenc}',
-#    'utf8extra': ('\\ifdefined\\DeclareUnicodeCharacter\n'
-#                  ' \\ifdefined\\DeclareUnicodeCharacterAsOptional\\else\n'
-#                  '  \\DeclareUnicodeCharacter{2261}{\\equiv}\n'
-#                  '  \\DeclareUnicodeCharacter{2630}{\\equiv}\n'
-#                  '\\fi\\fi'),
-
+    'inputenc' : '\\usepackage[utf8]{inputenc}',
+    'utf8extra': '',
     # “fontenc” package inclusion, default '\\usepackage[T1]{fontenc}'.
     'fontenc': '\\usepackage[T1]{fontenc}',
 
     # Latex figure (float) alignment
     'figure_align': 'htbp',
+
+    # preamble
+    'preamble': r'''
+\usepackage{newunicodechar}
+\newunicodechar{χ}{\chi}
+\newunicodechar{–}{--}
+\newunicodechar{‘}{`}
+\newunicodechar{’}{'}
+\newunicodechar{“}{``}
+\newunicodechar{”}{''}
+\newunicodechar{…}{\ldots}
+\newunicodechar{⋮}{\vdots}
+\newunicodechar{☰}{\equiv}
+    ''',
 }
 
 # If true, add page references after internal references. This is very useful for printed copies of the manual. Default is False.
@@ -393,9 +410,9 @@ current_version = 'latest'
 html_context['current_version'] = current_version
 html_context['version'] = current_version
  
-html_context['downloads'] = list()
-html_context['downloads'].append(('PDF',  '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.pdf'))
-html_context['downloads'].append(('epub', '/' + language + '/' + current_version + '/' + project + '-docs_' + language + '_' + current_version + '.epub'))
+#html_context['downloads'] = list()
+#html_context['downloads'].append(('PDF',  '/' + language + '/' + current_version + '/' + #project + '-docs_' + language + '_' + current_version + '.pdf'))
+#html_context['downloads'].append(('epub', '/' + language + '/' + current_version + '/' + #project + '-docs_' + language + '_' + current_version + '.epub'))
 
 html_context['display_github'] = False
 html_context['last_updated'] = False
