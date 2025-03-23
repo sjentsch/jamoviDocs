@@ -20,7 +20,7 @@ Syntax Mode
    R syntax. Like all results objects in jamovi, you can right click on these
    items (including the R syntax) and copy and paste them, for example, into an
    R session. All the analyses that are included with jamovi are available
-   within an R session through the :doc:`jmv R package <../jmv/jmv_overview>`.
+   within an R session through the R package :doc:`jmv <../jmv/jmv_overview>`.
 
    .. toctree::
       :hidden:
