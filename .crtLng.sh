@@ -33,4 +33,5 @@ for L in $(cat .languages); do
     sed -i '/^# /d'          _locale/${L}/LC_MESSAGES/*.po &&
     sed -i '/^#$/d'          _locale/${L}/LC_MESSAGES/*.po &&
     sed -i '/^"#-#-#-#-# /d' _locale/${L}/LC_MESSAGES/*.po
+    # fix metadata
 done
