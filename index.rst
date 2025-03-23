@@ -31,7 +31,7 @@
 
 
 .. toctree::
-   :caption: How to...
+   :caption: How to…
    :hidden:
 
    howto/howto_overview
@@ -83,7 +83,7 @@ Getting started
 
    You can find further topics in the menu on the right-hand side:
    step-for-step instructions for conducting common analyses (“Analyses”),
-   brief instructions how to deal with common tasks (“How to...”), information
+   brief instructions how to deal with common tasks (“How to…”), information
    regarding how to get started with developing modules to extend the function
    of jamovi (“Developers Hub”), and information aiming to ease the transition
    from SPSS (“From SPSS to jamovi”).
