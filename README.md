@@ -13,20 +13,14 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
    `$ pip install -r requirements.txt`<br>
    Install the required packages (wheels) in the virtual environment.<br>
 
-   `$ make html`<br>
-   Create a first version of the HTML build (i.e., showing how the web is going to look like later). This HTML build can afterwards be opened as `_build/html/index.html` in your browser.<br>
-
 -----------
 
 ### Install and build (later):
 
-   `$ virtualenv _env`<br>
    `$ source _env/bin/activate`<br>
    Set up and activate the virtual environment.<br>
    
-   `$ python3 -m pip install --upgrade --no-cache-dir pip 'setuptools<58.3.0'`
-   `$ python3 -m pip install --upgrade --no-cache-dir pillow mock==1.0.1 'alabaster>=0.7,<0.8,!=0.7.5' commonmark==0.9.1 recommonmark==0.5.0 sphinx sphinx-rtd-theme 'readthedocs-sphinx-ext<2.3'`
-   `$ python3 -m pip install --exists-action=w --no-cache-dir -r requirements.txt`<br>
+   `$ pip list --outdated --format=json | jq '.[].name' | xargs -n1 pip install -U`
    Update the required packages (wheels) in the virtual environment (if necessary).<br>
 
    `$ ./.crtLng.sh`<br>
