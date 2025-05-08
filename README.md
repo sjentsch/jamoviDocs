@@ -28,8 +28,7 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
 
    `$ ./.crtLng.sh`<br>
    Creates / updates the language files.
-
-   `$ git submodule update --remote && git add _locale && git commit -am "Weblate-updates ($(date +%F))" && git push && rm -fR _build/{html,doctrees} && for L in $(less .languages); do echo -e "\n\n\nProcessing ${L}\n"; sphinx-build -b html -D language=${L} . _build/html/${L}; rm -fR _build/html/${L}/.doctrees; if [ "${L}" != "en" ]; then cd _build/html/${L}; for D in _images _static; do rm -fR ${D}; ln -s ../en/${D}; done; cd -; fi; done`<br>
+   `$ git submodule update --remote && git add _locale && git commit -am "Weblate-updates ($(date +%F))" && git push && rm -fR _build/{html,doctrees} && for L in $(less .languages); do echo -e "\n\n\nProcessing ${L}\n"; sphinx-build -b html -D language=${L} . _build/html/${L}/latest; rm -fR _build/html/${L}/latest/.doctrees; cd _build/html/${L} && ln -s latest/_static && cd -; done`<br>
    Pull the translated resources and build the documentation in the target language. Please note that if you would like to build for any other language than English (en) or German (de) you will have to add the language code in the `.languages` file. After building, the doctree-pickles are removed and, if the lanaguage is not English (default), the directories _images and _static are removed from the translated directories and a link is created to the respective directories under "en".<br>
 
    After the updated translations (in the subdirectory `_locale`, update with `git submodule update --remote`) are pushed to the “main” repository (`git commit -am "Weblate-updates ($(date +%F))" && git push`), readthedocs is reading from the respective language project there (which is then integrated into the main documentation).<br>
