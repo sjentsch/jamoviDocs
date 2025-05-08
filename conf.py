@@ -401,9 +401,9 @@ html_context['display_lower_left'] = True
 
 html_context['current_language'] = language
 languages = sorted([lang.name for lang in os.scandir('_locale') if (lang.is_dir() and lang.name != 'pot')])
-html_context['languages'] = [('en', base_path + '/en')]
+html_context['languages'] = [('en', base_path + '/en/' + current_version)]
 for lang in languages:
-      html_context['languages'].append((lang, base_path + '/' + lang))
+      html_context['languages'].append((lang, base_path + '/' + lang + '/' + current_version))
 
 html_context['display_version'] = False
 current_version = 'latest'
