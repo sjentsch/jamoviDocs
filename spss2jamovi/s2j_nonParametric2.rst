@@ -83,7 +83,7 @@ From SPSS to jamovi: Non-parametric analyses
 |                                                                               |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
-| <../_static/output/s2j_Output_SPSS_nonParametric2.spv>`_                      | <../_static/output/s2j_Output_jamovi_nonParametric2.omv>`_                    |
+| <../../_static/output/s2j_Output_SPSS_nonParametric2.spv>`_                   | <../../_static/output/s2j_Output_jamovi_nonParametric2.omv>`_                 |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

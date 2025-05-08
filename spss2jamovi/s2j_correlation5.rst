@@ -47,7 +47,7 @@ from the `web page accompanying the book <https://edge.sagepub.com/field5e/stude
 |      /MISSING=LISTWISE.                                                       |        controls = Revise)                                                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
-| <../_static/output/s2j_Output_SPSS_corr5.spv>`_                               | <../_static/output/s2j_Output_jamovi_corr5.omv>`_                             |
+| <../../_static/output/s2j_Output_SPSS_corr5.spv>`_                            | <../../_static/output/s2j_Output_jamovi_corr5.omv>`_                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

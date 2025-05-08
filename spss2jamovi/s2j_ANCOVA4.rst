@@ -75,7 +75,7 @@ From SPSS to jamovi: Analysis of Covariance (ANCOVA)
 |                                                                               |        emmTables = TRUE)                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
-| <../_static/output/s2j_Output_SPSS_ANCOVA4.spv>`_                             | <../_static/output/s2j_Output_jamovi_ANCOVA4.omv>`_                           |
+| <../../_static/output/s2j_Output_SPSS_ANCOVA4.spv>`_                          | <../../_static/output/s2j_Output_jamovi_ANCOVA4.omv>`_                        |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

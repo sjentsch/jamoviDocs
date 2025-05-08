@@ -50,7 +50,7 @@ From SPSS to jamovi: Correlation
 |                                                                               |        plotStats = TRUE)                                                      |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
-| <../_static/output/s2j_Output_SPSS_corr1.spv>`_                               | <../_static/output/s2j_Output_jamovi_corr1.omv>`_                             |
+| <../../_static/output/s2j_Output_SPSS_corr1.spv>`_                            | <../../_static/output/s2j_Output_jamovi_corr1.omv>`_                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

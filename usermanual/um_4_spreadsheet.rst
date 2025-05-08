@@ -57,7 +57,7 @@ Data Variables
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/gifs/um_changeName.gif" data-static-src="../_static/gifs/um_changeName.png"></div>
+      <div class="gif-player" data-anim-src="../../_static/gifs/um_changeName.gif" data-static-src="../../_static/gifs/um_changeName.png"></div>
 
 
    New variables can be inserted or appended to the data set using the ``Add``
@@ -131,7 +131,7 @@ Transformed (Recoded) Variables
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/gifs/um_transform_overview.gif" data-static-src="../_static/gifs/um_transform_overview.png"></div>
+      <div class="gif-player" data-anim-src="../../_static/gifs/um_transform_overview.gif" data-static-src="../../_static/gifs/um_transform_overview.png"></div>
 
    When transforming or recoding variables in jamovi, a second “transformed
    variable” is created for the original “source variable”. This way, you will
@@ -208,7 +208,7 @@ Transformed (Recoded) Variables
 
       .. raw:: html
 
-         <div class="gif-player" data-anim-src="../_static/gifs/um_transform_edit2.gif" data-static-src="../_static/gifs/um_transform_edit2.png"></div>
+         <div class="gif-player" data-anim-src="../../_static/gifs/um_transform_edit2.gif" data-static-src="../../_static/gifs/um_transform_edit2.png"></div>
 
    #. *Used by*: Indicates how many variables are using this particular
       transformation. If you click on the number it will list these variables.
@@ -231,9 +231,8 @@ Transformed (Recoded) Variables
 
    |um_transform_ex1|
 
-   You can explore this transform by `downloading
-   <../_static/output/um_transform_ex1.omv>` and opening the file
-   ``transform_ex1`` in jamovi.
+   You can explore this transform by downloading and opening the data set
+   |um_transform_ex1_omv|_ in jamovi.
 
    
    **Example 2: Recoding continuous variables into categories**
@@ -251,8 +250,7 @@ Transformed (Recoded) Variables
    will be ``Fail``, if the source variable has a value between 50 and 60, the
    value will be ``Resit``, and if the source variable has a value above 60,
    the value will be ``Pass``. If you’d like an example data set to play around
-   with, you can `download <../_static/output/um_transform_ex2.omv>` and use
-   ``transform_ex2.omv``.
+   with, you can download and use |um_transform_ex2_omv|_\.
 
 
    **Example 3: Replacing missing values**
@@ -269,9 +267,8 @@ Transformed (Recoded) Variables
    |um_transform_ex3|
 
    Note that jamovi has borrowed NA from R to denote missing values. Don’t
-   have a good data set handy? You can try it out yourself by `downloading
-   <../_static/output/um_transform_ex3.omv>` and opening the
-   ``transform_ex3.omv`` data set.
+   have a good data set handy? You can try it out yourself by downloading 
+   and opening the |um_transform_ex3_omv|_ data set.
 
 
 Filters
@@ -297,7 +294,7 @@ Filters
    
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/gifs/um_filter1.gif" data-static-src="../_static/gifs/um_filter1.png"></div>
+      <div class="gif-player" data-anim-src="../../_static/gifs/um_filter1.gif" data-static-src="../../_static/gifs/um_filter1.png"></div>
 
    In the short video, we specify a filter to exclude the 9th row. Perhaps we
    know that the 9th participant was someone just testing the survey system,
@@ -362,7 +359,7 @@ Filters
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/gifs/um_filter2.gif" data-static-src="../_static/gifs/um_filter2.png"></div>
+      <div class="gif-player" data-anim-src="../../_static/gifs/um_filter2.gif" data-static-src="../../_static/gifs/um_filter2.png"></div>
 
    With multiple filters, the filtered rows cascade from one filter into the
    next. So only the rows allowed through by ``Filter 1`` are used in the
@@ -414,7 +411,7 @@ Filters
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/gifs/um_filter3.gif" data-static-src="../_static/gifs/um_filter3.png"></div>
+      <div class="gif-player" data-anim-src="../../_static/gifs/um_filter3.gif" data-static-src="../../_static/gifs/um_filter3.png"></div>
 
    It may also have occurred to you, that with ``FILTER()`` we can do what
    might be called a “poor man’s split variables”: You can create splits using
@@ -423,16 +420,18 @@ Filters
    and ``FILTER(len, supp == 'OJ')`` respectively. This results in two separate
    columns which can be analysed side-by-side.
 
-.. raw:: html
-
-   <script type="text/javascript" src="../_static/gif-player.js"></script>
-
 .. ----------------------------------------------------------------------------
 
 .. [#] Pre-registration is a solution to `p-hacking
        <https://en.wikipedia.org/wiki/Data_dredging>`_, not deliberately
        making software difficult to use! Don’t p-hacking. Your p-hacking harms
        more people than you may assume.
+
+.. ----------------------------------------------------------------------------
+
+.. raw:: html
+
+   <script type="text/javascript" src="../../_static/gif-player.js"></script>
 
 .. ----------------------------------------------------------------------------
 
@@ -453,3 +452,9 @@ Filters
 .. |um_transform_ex2|        image:: ../_images/um_transform_ex2.*
 .. |um_transform_ex3|        image:: ../_images/um_transform_ex3.*
 
+.. |um_transform_ex1_omv|    replace:: ``um_transform_ex1.omv``
+.. _um_transform_ex1_omv:    ../../_static/output/um_transform_ex1.omv
+.. |um_transform_ex2_omv|    replace:: ``um_transform_ex2.omv``
+.. _um_transform_ex2_omv:    ../../_static/output/um_transform_ex2.omv
+.. |um_transform_ex3_omv|    replace:: ``um_transform_ex3.omv``
+.. _um_transform_ex3_omv:    ../../_static/output/um_transform_ex3.omv

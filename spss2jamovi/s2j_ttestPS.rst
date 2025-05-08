@@ -94,9 +94,9 @@ From SPSS to jamovi: t-test for paired samples
 | You can download the SPSS output files and the jamovi files with the analyses demonstrated above underneath.                                                  |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS data file containing the computed variables                             | `jamovi file with the analyses                                                |
-| <../_static/output/s2j_Output_SPSS_ttestPS1.sav>`_                            | <../_static/output/s2j_Output_jamovi_ttestPS1.omv>`_                          |
+| <../../_static/output/s2j_Output_SPSS_ttestPS1.sav>`_                         | <../../_static/output/s2j_Output_jamovi_ttestPS1.omv>`_                       |
 | `SPSS output file containing the analyses                                     |                                                                               |
-| <../_static/output/s2j_Output_SPSS_ttestPS1.spv>`_                            |                                                                               |
+| <../../_static/output/s2j_Output_SPSS_ttestPS1.spv>`_                         |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

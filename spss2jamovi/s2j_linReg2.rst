@@ -114,7 +114,7 @@ From SPSS to jamovi: Linear regression
 |                                                                               |                                                                               |   
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
-| <../_static/output/s2j_Output_SPSS_linReg2.spv>`_                             | <../_static/output/s2j_Output_jamovi_linReg2.omv>`_                           |
+| <../../_static/output/s2j_Output_SPSS_linReg2.spv>`_                          | <../../_static/output/s2j_Output_jamovi_linReg2.omv>`_                        |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

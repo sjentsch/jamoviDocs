@@ -55,7 +55,7 @@ From SPSS to jamovi: t-test for independent samples
 |                                                                               |        eqv = TRUE)                                                            |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
-| <../_static/output/s2j_Output_SPSS_ttestIS.spv>`_                             | <../_static/output/s2j_Output_jamovi_ttestIS.omv>`_                           |
+| <../../_static/output/s2j_Output_SPSS_ttestIS.spv>`_                          | <../../_static/output/s2j_Output_jamovi_ttestIS.omv>`_                        |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
@@ -71,6 +71,3 @@ From SPSS to jamovi: t-test for independent samples
 .. |jamovi_Input_ttestIS1|             image:: ../_images/s2j_jamovi_Input_ttestIS1.png
 .. |SPSS_Output_ttestIS1|              image:: ../_images/s2j_SPSS_Output_ttestIS1.png
 .. |jamovi_Output_ttestIS1|            image:: ../_images/s2j_jamovi_Output_ttestIS1.png
-
-.. _SPSS output file containing the analyses:  ../_static/output/s2j_Output_SPSS_ttestIS.spv
-.. _jamovi file containing the analyses:       ../_static/output/s2j_Output_jamovi_ttestIS.omv

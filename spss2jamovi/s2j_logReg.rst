@@ -109,7 +109,7 @@ From SPSS to jamovi: Logistic Regression
 |       /CRITERIA=PIN(0.05) POUT(0.10) ITERATE(20) CUT(0.5).                    |                                                                               |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
-| <../_static/output/s2j_Output_SPSS_logReg.spv>`_                              | <../_static/output/s2j_Output_jamovi_logReg.omv>`_                            |
+| <../../_static/output/s2j_Output_SPSS_logReg.spv>`_                           | <../../_static/output/s2j_Output_jamovi_logReg.omv>`_                         |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

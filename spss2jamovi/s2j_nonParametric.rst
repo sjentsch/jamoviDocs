@@ -65,7 +65,7 @@ From SPSS to jamovi: Non-parametric analyses
 |                                                                               |        mann = TRUE)                                                           |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file with the analyses                                                |
-| <../_static/output/s2j_Output_SPSS_nonParametric1.spv>`_                      | <../_static/output/s2j_Output_jamovi_nonParametric1.omv>`_                    |
+| <../../_static/output/s2j_Output_SPSS_nonParametric1.spv>`_                   | <../../_static/output/s2j_Output_jamovi_nonParametric1.omv>`_                 |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 

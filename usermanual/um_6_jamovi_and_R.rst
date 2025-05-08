@@ -29,7 +29,7 @@ Syntax Mode
 
    .. raw:: html
 
-      <div class="gif-player" data-anim-src="../_static/gifs/um_rSyntax.gif" data-static-src="../_static/gifs/um_rSyntax.png"></div>
+      <div class="gif-player" data-anim-src="../../_static/gifs/um_rSyntax.gif" data-static-src="../../_static/gifs/um_rSyntax.png"></div>
 
    The provided R syntax does not include the data import step, but this can be
    easily achieved by using the R packages |jmvconnect|_ and |jmvReadWrite|_
@@ -249,7 +249,7 @@ Syntax Mode
 
 .. raw:: html
 
-   <script type="text/javascript" src="../_static/gif-player.js"></script>
+   <script type="text/javascript" src="../../_static/gif-player.js"></script>
 
 .. ----------------------------------------------------------------------------
 

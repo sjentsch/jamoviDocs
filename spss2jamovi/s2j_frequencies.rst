@@ -85,7 +85,7 @@ From SPSS to jamovi: Analysis of frequencies
 |                                                                               |        pcTot = TRUE)                                                          |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 | `SPSS output file containing the analyses                                     | `jamovi file containing the analyses                                          |
-| <../_static/output/s2j_Output_SPSS_chi-square.spv>`_                          | <../_static/output/s2j_Output_jamovi_chi-square.omv>`_                        |
+| <../../_static/output/s2j_Output_SPSS_chi-square.spv>`_                       | <../../_static/output/s2j_Output_jamovi_chi-square.omv>`_                     |
 +-------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
 
 
