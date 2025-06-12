@@ -14,7 +14,7 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
    Install the required packages (wheels) in the virtual environment.<br>
 
    NB: One can als pull directly from the weblate repository. If one wishes to do so, one has to add it using the following command (the second part prevents from accidentially pushing to it):
-   `$ git remote add weblate https://hosted.weblate.org/git/jamovidocs/0_start/ && git remote set-url --push weblate DISABLED`
+   `$ cd _locale && git remote add weblate https://hosted.weblate.org/git/jamovidocs/0_start/ && git remote set-url --push weblate DISABLED` && cd ..
 
 -----------
 
@@ -26,9 +26,10 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
    `$ pip list --outdated --format=json | jq '.[].name' | xargs -n1 pip install -U`
    Update the required packages (wheels) in the virtual environment (if necessary).<br>
 
-   `$ ./.crtLng.sh`<br>
+   `$ ./.crtLng.sh` or perhaps (if there is an error about locales)<br>
+   `$ LC_ALL='en_GB.utf8' ./.crtLng.sh`<br>
    Creates / updates the language files.
-   `$ git submodule update --remote && git add _locale && git commit -am "Weblate-updates ($(date +%F))" && git push && rm -fR _build/{html,doctrees} && for L in $(less .languages); do echo -e "\n\n\nProcessing ${L}\n"; sphinx-build -b html -D language=${L} . _build/html/${L}/latest; rm -fR _build/html/${L}/latest/.doctrees; cd _build/html/${L} && ln -s latest/_static && cd -; done`<br>
+   `$ rm -fR _build/{html,doctrees} && git submodule update --remote && git add _locale && git commit -am "Weblate-updates ($(date +%F))" && git push && for L in $(less .languages); do echo -e "\n\n\nProcessing ${L}\n"; sphinx-build -b html -D language=${L} . _build/html/${L}/latest; rm -fR _build/html/${L}/latest/.doctrees; cd _build/html/${L} && ln -s latest/_static && cd -; done`<br>
    Pull the translated resources and build the documentation in the target language. Please note that if you would like to build for any other language than English (en) or German (de) you will have to add the language code in the `.languages` file. After building, the doctree-pickles are removed and, if the lanaguage is not English (default), the directories _images and _static are removed from the translated directories and a link is created to the respective directories under "en".<br>
 
    After the updated translations (in the subdirectory `_locale`, update with `git submodule update --remote`) are pushed to the “main” repository (`git commit -am "Weblate-updates ($(date +%F))" && git push`), readthedocs is reading from the respective language project there (which is then integrated into the main documentation).<br>
