@@ -1,6 +1,6 @@
 # jamoviDocs
 
-jamovi documentation using Sphinx. The documentation is available at https://jamovi.readthedocs.io (and translations can be chosen by clicking at the menu that unfolds after pressing at «Read the Docs» at the bottom). Whoever would like to contribute with translations, please read a little [further down](#translate).
+jamovi documentation using Sphinx. The documentation is available at https://jamovi.readthedocs.org (and translations can be chosen by clicking at the menu that unfolds after pressing at «Read the Docs» at the bottom). Whoever would like to contribute with translations, please read a little [further down](#translate).
 
 -----------
 
@@ -14,7 +14,7 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
    Install the required packages (wheels) in the virtual environment.<br>
 
    NB: One can als pull directly from the weblate repository. If one wishes to do so, one has to add it using the following command (the second part prevents from accidentially pushing to it):
-   `$ cd _locale && git remote add weblate https://hosted.weblate.org/git/jamovidocs/0_start/ && git remote set-url --push weblate DISABLED` && cd ..
+   `$ cd _locale && git remote add weblate https://hosted.weblate.org/git/jamovidocs/0_start/ && git remote set-url --push weblate DISABLED && cd ..`
 
 -----------
 
