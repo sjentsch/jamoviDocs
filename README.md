@@ -29,10 +29,10 @@ jamovi documentation using Sphinx. The documentation is available at https://jam
    `$ ./.crtLng.sh` or perhaps (if there is an error about locales)<br>
    `$ LC_ALL='en_GB.utf8' ./.crtLng.sh`<br>
    Creates / updates the language files.
-   `$ rm -fR _build/{html,doctrees} && git submodule update --remote && git add _locale && git commit -am "Weblate-updates ($(date +%F))" && git push && for L in $(less .languages); do echo -e "\n\n\nProcessing ${L}\n"; sphinx-build -b html -D language=${L} . _build/html/${L}/latest; rm -fR _build/html/${L}/latest/.doctrees; cd _build/html/${L} && ln -s latest/_static && cd -; done`<br>
+   `$ rm -fR _build/{html,doctrees} && git submodule update --remote && git add _locale && git commit -m "Weblate-updates ($(date +%F))" _locale && git push && for L in $(less .languages); do echo -e "\n\n\nProcessing ${L}\n"; sphinx-build -b html -D language=${L} . _build/html/${L}/latest; rm -fR _build/html/${L}/latest/.doctrees; cd _build/html/${L} && ln -s latest/_static && cd -; done`<br>
    Pull the translated resources and build the documentation in the target language. Please note that if you would like to build for any other language than English (en) or German (de) you will have to add the language code in the `.languages` file. After building, the doctree-pickles are removed and, if the lanaguage is not English (default), the directories _images and _static are removed from the translated directories and a link is created to the respective directories under "en".<br>
 
-   After the updated translations (in the subdirectory `_locale`, update with `git submodule update --remote`) are pushed to the “main” repository (`git commit -am "Weblate-updates ($(date +%F))" && git push`), readthedocs is reading from the respective language project there (which is then integrated into the main documentation).<br>
+   After the updated translations (in the subdirectory `_locale`, update with `git submodule update --remote`) are pushed to the “main” repository (`git commit -m "Weblate-updates ($(date +%F))" _locale && git push`), readthedocs is reading from the respective language project there (which is then integrated into the main documentation).<br>
 
 -----------
 
