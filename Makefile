@@ -9,6 +9,7 @@ SPHINXPROJ    = lsjDocs
 SOURCEDIR     = .
 BUILDDIR      = _build
 override LANG = en
+export LC_ALL ?= en_US.utf-8
 
 # Put it first so that "make" without argument is like "make help".
 help:
